@@ -33,20 +33,20 @@
 			</ul>
 		</div>
 		<div
-			class="md:flex md:items-center md:justify-cente sm:w-auto md:h-full w-2/5 xl:w-2/5 p-8  md:p-10 lg:p-14 sm:rounded-lg md:rounded-none bg-white"
+			class="md:flex md:items-center md:justify-cente sm:w-auto md:h-full w-4/5 xl:w-2/5 p-8  md:p-10 lg:p-14 sm:rounded-lg md:rounded-none bg-white"
 		>
 			<div class="max-w-md w-full space-y-8">
-				<div class="mb-10">
+				<div class="mb-10 text-center">
 					<h3 class="font-semibold text-2xl text-gray-800">Sign Up</h3>
 					<p class="text-gray-500">Please register your account.</p>
 				</div>
 				<div class="flex">
-					<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+					<div class="w-full md:w-1/2 px-0.5 mb-6 md:mb-0">
 						<button
 							type="submit"
 							class="w-full flex items-center justify-center bg-red-500  hover:bg-red-400 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
 						>
-							Sign up with
+							Google
 							<svg
 								class="w-4 ml-2"
 								fill="#fff"
@@ -63,7 +63,7 @@
 							type="submit"
 							class="w-full flex items-center justify-center bg-blue-600  hover:bg-blue-500 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
 						>
-							Sign up with
+							Facebook
 							<svg class="w-4 ml-2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
 								><path
 									fill="#fff"
@@ -76,7 +76,7 @@
 				</div>
 				<div class="flex items-center justify-center space-x-2 my-5">
 					<span class="h-px w-16 bg-gray-200" />
-					<span class="text-gray-500 font-normal">or continue with</span>
+					<span class="text-gray-500 font-normal text-center">or continue with</span>
 					<span class="h-px w-16 bg-gray-200" />
 				</div>
 				<form class="w-full max-w-lg">
@@ -223,8 +223,8 @@
 									Remember me
 								</label>
 							</div>
-							<div class="text-sm">
-								<a href="#" class="text-blue-300 hover:text-blue-500"> Forgot your password? </a>
+							<div class="text-sm text-right">
+								<a href="#" class="text-blue-300 hover:text-blue-500 "> Forgot your password? </a>
 								<!-- TODORemeber to href to the Forgot your password Pages -->
 							</div>
 						</div>
@@ -234,6 +234,19 @@
 								class="w-full flex justify-center bg-blue-300  hover:bg-blue-500 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
 							>
 								Sign in
+							</button>
+						</div>
+						<div class="flex items-center justify-center space-x-2 my-5">
+							<span class="h-px w-16 bg-gray-200" />
+							<span class="text-gray-500 font-normal text-center">OR</span>
+							<span class="h-px w-16 bg-gray-200" />
+						</div>
+						<div>
+							<button
+								type="submit"
+								class="w-full flex justify-center bg-green-300  hover:bg-green-500 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
+							>
+								Sign Up
 							</button>
 						</div>
 					</div>
