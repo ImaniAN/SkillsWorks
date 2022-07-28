@@ -7,7 +7,7 @@
 			style="background-image: url(https://images.unsplash.com/photo-1543599538-a6c4f6cc5c05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);"
 		>
 			<div class="absolute bg-gradient-to-b from-indigo-100 to-blue-600 opacity-75 inset-0 z-0" />
-			<div class="w-full  max-w-lg z-10 mb-10">
+			<div class="w-full z-10 mb-10">
 				<div class="sm:text-4xl xl:text-5xl  text-gray-800 font-bold leading-tight mb-6">
 					Reference: Call to action
 				</div>
@@ -246,8 +246,8 @@
 							href="https://github.com/Fathom-Growth-Solutions"
 							rel=""
 							target="_blank"
-							title="Ajimon"
-							class="text-blue-300 hover:text-blue-500 ">Fathom-Growth-Solutions</a
+							title="Fathom Growth Solutions"
+							class="text-blue-300 hover:text-blue-500 ">Fathom Growth Solutions</a
 						></span
 					>
 				</div>
