@@ -54,8 +54,8 @@ An in-depth paragraph about your project and overview of use.
 - How/where to download your program
 - Any modifications needed to be made to files/folders
 
-```language_example:html
-code blocks for commands
+```language: node.js
+npm run dev
 ```
 
 ## Help
