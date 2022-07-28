@@ -4,10 +4,6 @@ A online job platform
 
 ## Pages
 
-- [ ]
-- [ ] - [ ]
-  - [ ]
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -73,8 +69,3 @@ Inspiration, code snippets, etc.
 - [Desc](Link)
 
 ## Tasks
-
-- [x] Task Completed
-- [ ] Task Not completed
-  - [x] Task Completed
-  - [ ] Task
