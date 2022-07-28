@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.autoSave": "onFocusChange",
+		"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+		"editor.codeActionsOnSave": {
+		
+		},
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"workbench.colorTheme": "Visual Studio Dark",
+		"workbench.preferredDarkColorTheme": "Visual Studio Dark",
+		"window.autoDetectColorScheme": true,
+		"remote.downloadExtensionsLocally": true
+	},
+	"extensions": {
+		"recommendations": []
+	}
+}
