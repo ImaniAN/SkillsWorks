@@ -254,7 +254,7 @@
 
 				<div class="pt-6 text-center text-gray-400 text-xs">
 					<span>
-						Copyright © 2021-2022
+						Copyright © 2021-2024
 						<a
 							href="https://github.com/Fathom-Growth-Solutions"
 							rel=""

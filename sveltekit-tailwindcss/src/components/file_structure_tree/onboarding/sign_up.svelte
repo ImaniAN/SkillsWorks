@@ -223,17 +223,13 @@
 									Remember me
 								</label>
 							</div>
-							<div class="text-sm text-right">
-								<a href="#" class="text-blue-300 hover:text-blue-500 "> Forgot your password? </a>
-								<!-- TODORemeber to href to the Forgot your password Pages -->
-							</div>
 						</div>
 						<div>
 							<button
 								type="submit"
 								class="w-full flex justify-center bg-blue-300  hover:bg-blue-500 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
 							>
-								Sign in
+								Sign Up
 							</button>
 						</div>
 						<div class="flex items-center justify-center space-x-2 my-5">
@@ -246,7 +242,7 @@
 								type="submit"
 								class="w-full flex justify-center bg-green-300  hover:bg-green-500 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
 							>
-								Sign Up
+								Sign In
 							</button>
 						</div>
 					</div>
