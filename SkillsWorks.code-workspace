@@ -15,7 +15,11 @@
 		"workbench.colorTheme": "Visual Studio Dark",
 		"workbench.preferredDarkColorTheme": "Visual Studio Dark",
 		"window.autoDetectColorScheme": true,
-		"remote.downloadExtensionsLocally": true
+		"remote.downloadExtensionsLocally": true,
+		"workbench.editor.highlightModifiedTabs": true,
+		"workbench.editor.wrapTabs": false,
+		"prettier.useTabs": true,
+		"editor.tabSize": 3
 	},
 	"extensions": {
 		"recommendations": []
