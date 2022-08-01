@@ -1,6 +1,6 @@
 <script>
-	// import SignUpForm from '../components/SignUpForm.svelte';
-	import Log_in from '../components/file_structure_tree/onboarding/Log_in.svelte';
+	// import Sign_up_form from '../components/onboarding/Sign_up_form.svelte';
+	import Log_in_form from '../components/onboarding/Log_in_form.svelte';
 </script>
 
 <main>
@@ -9,6 +9,6 @@
 	>
 		Skills Do work!!
 	</h1>
-	<Log_in />
-	<!-- <SignUpForm /> -->
+	<!-- <Sign_up_form /> -->
+	<Log_in_form />
 </main>
