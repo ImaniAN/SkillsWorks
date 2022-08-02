@@ -1,5 +1,4 @@
 <script>
-
 	// import Sign_up_form from '../components/onboarding/Sign_up_form.svelte';
 	// import Log_in_form from '../components/onboarding/Log_in_form.svelte';
 	// import Navbar from '../components/comps/Navbar.svelte';
@@ -23,9 +22,6 @@
 	// import Accordion_menu from '../components/comps/extras/menus/Accordion_menu.svelte';
 	// import Split_with_headings from '../components/comps/extras/menus/Split_with_headings.svelte';
 	// import Branded_accent from '../components/comps/extras/menus/Branded_accent.svelte';
-
-	import SignUpForm from '../components/SignUpForm.svelte';
-	// import Log_in from '../components/file_structure_tree/onboarding/Log_in.svelte';
 </script>
 
 <main>
@@ -57,5 +53,4 @@
 	<!-- <Accordion_menu /> -->
 	<!-- <Split_with_headings /> -->
 	<!-- <Branded_accent /> -->
-	<!-- <Log_in /> -->
-	<SignUpForm />
+</main>
