@@ -17,7 +17,7 @@
 	// import Nav_search from '../components/profiles/ui/Nav_search.svelte';
 	// import Inputs from '../components/comps/extras/Inputs.svelte';
 	// import Pagination from '../components/comps/extras/Pagination.svelte';
-	// import Nav_side_small from '../components/profiles/ui/Nav_side_small.svelte';
+	import Nav_side_small from '../components/profiles/ui/Nav_side_small.svelte';
 	// import Nav_side from '../components/profiles/ui/Nav_side.svelte';
 	// import Accordion_menu from '../components/comps/extras/menus/Accordion_menu.svelte';
 	// import Split_with_headings from '../components/comps/extras/menus/Split_with_headings.svelte';
@@ -48,7 +48,7 @@
 	<!-- <Nav_search /> -->
 	<!-- <Inputs /> -->
 	<!-- <Pagination /> -->
-	<!-- <Nav_side_small /> -->
+	<Nav_side_small />
 	<!-- <Nav_side /> -->
 	<!-- <Accordion_menu /> -->
 	<!-- <Split_with_headings /> -->
