@@ -1,17 +1,31 @@
 <script>
 	import Intro from './Intro.svelte';
+	// import Sign_in_form from './Sign_in_form.svelte';
+	// import Sign_up_form from './Sign_up_form.svelte';
+	// import something from ''./Intro.svelte';
 	import Blog from '../blog/Topics.svelte';
 	import Contact_us from '../about_us/Contact_us.svelte';
-	// import Sign_up_form from './Sign_up_form.svelte';
-	// import Log_in_form from './Log_in_form.svelte';
+	import Faq from '../about_us/Faq.svelte';
+	import Attempts from '../endeavors/Attempts.svelte';
+	import Forgot from './Forgot.svelte';
+	import Job_list from '../profiles/ui/Job_list.svelte';
+	import Resume_form from '../profiles/candidate/resume/Resume.svelte';
+	import Messages from '../profiles/ui/messages/Messages.svelte';
 	import About_us from '../about_us/Faq.svelte';
 
 	const webpages = [
 		{ name: 'Home', component: Intro },
+		// { name: 'Sign In', component: Sign_in_form },
+		// { name: 'Sign Up', component: Sign_up_form },
+		// { name: 'Log In', component: Sign_in_form},
 		{ name: 'Blog', component: Blog },
 		{ name: 'Contact Us', component: Contact_us },
-		// { name: 'Sign Up', component: Sign_up_form },
-		// { name: 'Log In', component: Log_in_form },
+		{ name: 'Faq', component: Faq },
+		{ name: 'Attempts', component: Attempts },
+		{ name: 'Forgot', component: Forgot },
+		{ name: 'Jobs', component: Job_list },
+		{ name: 'Resume', component: Resume_form },
+		{ name: 'Messages', component: Messages },
 		{ name: 'About Us', component: About_us },
 	];
 
@@ -36,26 +50,48 @@
 <svelte:component this={selectedPage.component} />
 
 <style>
-	* {
-		box-sizing: border-box;
-	}
-
-	/* Style tab links */
+	/* Style the tablink */
 	.tablink {
-		background-color: #3d4042;
+		background-color: #1b191f;
+		border: 1px solid #28bda4;
+		border-bottom: 2px solid #8e44ad;
 		color: white;
-		float: left;
-		border: none;
-		outline: none;
-		border: 0.5px solid #2280ec;
-		border-radius: 0;
 		cursor: pointer;
-		padding: 14px 16px;
+		float: left;
 		font-size: 17px;
-		width: 25%;
+		outline: none;
+		overflow: hidden;
+		padding: 14px 16px;
+		transition: 0.3s;
+		width: 10%;
 	}
 
+	/* Change background color of buttons on hover */
 	.tablink:hover {
-		background-color:  #a9aee8;
+		background-color: #d3d337;
+	}
+
+	/* Create an active/current tablink class */
+	.tablink:active {
+		background-color: #2280ec;
+	}
+
+	/* Fade in tabs */
+	@-webkit-keyframes fadeEffect {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+
+	@keyframes fadeEffect {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
 	}
 </style>
