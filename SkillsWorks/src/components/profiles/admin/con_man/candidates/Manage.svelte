@@ -6,16 +6,20 @@
 			class="sm:w-1/2 xl:w-3/5 h-full hidden md:flex flex-auto items-end justify-end p-10 pr-20 overflow-hidden bg-blue-900 text-white bg-no-repeat bg-cover relative"
 			style="background-image: url(https://images.unsplash.com/photo-1543599538-a6c4f6cc5c05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);"
 		>
-			<div class="absolute bg-gradient-to-b from-indigo-100 to-blue-600 opacity-75 inset-0 z-0" />
+			<div
+				class="absolute bg-gradient-to-b from-indigo-100 to-blue-600 opacity-75 inset-0 z-0"
+			/>
 			<div class="w-full z-10 mb-10">
-				<div class="sm:text-4xl xl:text-5xl  text-gray-800 font-bold leading-tight mb-6">
+				<div
+					class="sm:text-4xl xl:text-5xl  text-gray-800 font-bold leading-tight mb-6"
+				>
 					Reference: Call to action
 				</div>
 				<div class="sm:text-sm xl:text-md text-gray-900 font-normal">
-					What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting
-					industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when
-					an unknown printer took a galley of type and scrambled it to make a type specimen book it
-					has?
+					What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing
+					and typesetting industry Lorem Ipsum has been the industry's standard
+					dummy text ever since the 1500s when an unknown printer took a galley
+					of type and scrambled it to make a type specimen book it has?
 				</div>
 			</div>
 			<!---remove custom style-->
@@ -64,7 +68,10 @@
 							class="w-full flex items-center justify-center bg-blue-600  hover:bg-blue-500 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
 						>
 							Facebook
-							<svg class="w-4 ml-2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+							<svg
+								class="w-4 ml-2"
+								viewBox="0 0 24 24"
+								xmlns="http://www.w3.org/2000/svg"
 								><path
 									fill="#fff"
 									fill-rule="evenodd"
@@ -76,7 +83,9 @@
 				</div>
 				<div class="flex items-center justify-center space-x-2 my-5">
 					<span class="h-px w-16 bg-gray-200" />
-					<span class="text-gray-500 font-normal text-center">or continue with</span>
+					<span class="text-gray-500 font-normal text-center"
+						>or continue with</span
+					>
 					<span class="h-px w-16 bg-gray-200" />
 				</div>
 				<form class="w-full max-w-lg">
@@ -219,12 +228,18 @@
 									type="checkbox"
 									class="h-4 w-4 bg-blue-500 focus:ring-blue-400 border-gray-300 rounded"
 								/>
-								<label for="remember_me" class="ml-2 block text-sm text-gray-800">
+								<label
+									for="remember_me"
+									class="ml-2 block text-sm text-gray-800"
+								>
 									Remember me
 								</label>
 							</div>
 							<div class="text-sm text-right">
-								<a href="#" class="text-blue-300 hover:text-blue-500 "> Forgot your password? </a>
+								<!-- svelte-ignore a11y-invalid-attribute -->
+								<a href="#" class="text-blue-300 hover:text-blue-500 ">
+									Forgot your password?
+								</a>
 								<!-- TODORemeber to href to the Forgot your password Pages -->
 							</div>
 						</div>
@@ -260,7 +275,8 @@
 							rel=""
 							target="_blank"
 							title="Fathom Growth Solutions"
-							class="text-blue-300 hover:text-blue-500 ">Fathom Growth Solutions</a
+							class="text-blue-300 hover:text-blue-500 "
+							>Fathom Growth Solutions</a
 						></span
 					>
 				</div>
