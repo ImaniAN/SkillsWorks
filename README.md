@@ -1,6 +1,6 @@
 # SkillsWorks
 
-A online job platform
+An online job platform
 
 ## Pages
 
@@ -30,10 +30,6 @@ A online job platform
   </ol>
 </details>
 
-## Project Title
-
-Simple overview of use/purpose.
-
 ## Description
 
 An in-depth paragraph about your project and overview of use.
@@ -42,7 +38,7 @@ An in-depth paragraph about your project and overview of use.
 
 ### Dependencies
 
-- Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+- Describe any prerequisites, libraries, OS version, etc., needed before installing a program.
 - ex. Windows 10
 
 ### Installing
@@ -50,7 +46,7 @@ An in-depth paragraph about your project and overview of use.
 - How/where to download your program
 - Any modifications needed to be made to files/folders
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've created a project and installed dependencies with `npm install` (or `yarn`), start a development server:
 
 ```bash
 npm run dev
@@ -61,7 +57,7 @@ npm run dev -- --open
 
 ## Help
 
-Any advise for common problems or issues.
+Advice for common problems or any issues.
 
 ```language_example:html
 command to run if program contains helper info

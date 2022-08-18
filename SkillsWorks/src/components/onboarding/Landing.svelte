@@ -1,6 +1,8 @@
 <script>
+	// import Navbar from '../comps/Navbar.svelte';
+	import Footer from '../comps/Footer.svelte';
 	import Intro from './Intro.svelte';
-	// import Sign_in_form from './Sign_in_form.svelte';
+	import Sign_in_form from './Sign_in_form.svelte';
 	// import Sign_up_form from './Sign_up_form.svelte';
 	// import something from ''./Intro.svelte';
 	import Blog from '../blog/Topics.svelte';
@@ -11,11 +13,11 @@
 	import Job_list from '../profiles/ui/Job_list.svelte';
 	import Resume_form from '../profiles/candidate/resume/Resume.svelte';
 	import Messages from '../profiles/ui/messages/Messages.svelte';
-	import About_us from '../about_us/Faq.svelte';
+	// import About_us from '../about_us/Faq.svelte';
 
 	const webpages = [
 		{ name: 'Home', component: Intro },
-		// { name: 'Sign In', component: Sign_in_form },
+		{ name: 'Sign In', component: Sign_in_form },
 		// { name: 'Sign Up', component: Sign_up_form },
 		// { name: 'Log In', component: Sign_in_form},
 		{ name: 'Blog', component: Blog },
@@ -24,9 +26,9 @@
 		{ name: 'Attempts', component: Attempts },
 		{ name: 'Forgot', component: Forgot },
 		{ name: 'Jobs', component: Job_list },
-		{ name: 'Resume', component: Resume_form },
+		{ name: 'CVr br', component: Resume_form },
 		{ name: 'Messages', component: Messages },
-		{ name: 'About Us', component: About_us },
+		// { name: 'About Us', component: About_us },
 	];
 
 	// Loads an object in webpages array
@@ -38,42 +40,38 @@
 	const loadPage = (obj) => (selectedPage = obj);
 </script>
 
-{#each webpages as webpageObj}
-	<button
-		class="tablink"
-		title={webpageObj.name}
-		on:click={() => loadPage(webpageObj)}>{webpageObj.name}</button
-	>
-{/each}
+<!-- <Navbar /> -->
+<div class="stick z-30 container">
+	{#each webpages as webpageObj}
+		<button
+			class="btn"
+			title={webpageObj.name}
+			on:click={() => loadPage(webpageObj)}>{webpageObj.name}</button
+		>
+	{/each}
+</div>
+<br />
 
 <!-- Loaded component/webpage -->
 <svelte:component this={selectedPage.component} />
 
+<Footer />
+
 <style>
-	/* Style the tablink */
-	.tablink {
-		background-color: #1b191f;
-		border: 1px solid #28bda4;
-		border-bottom: 2px solid #8e44ad;
-		color: white;
-		cursor: pointer;
-		float: left;
-		font-size: 17px;
-		outline: none;
+	.container {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	div.stick {
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		justify-content: center;
+		align-items: center;
 		overflow: hidden;
-		padding: 14px 16px;
-		transition: 0.3s;
-		width: 10%;
-	}
-
-	/* Change background color of buttons on hover */
-	.tablink:hover {
-		background-color: #d3d337;
-	}
-
-	/* Create an active/current tablink class */
-	.tablink:active {
-		background-color: #2280ec;
 	}
 
 	/* Fade in tabs */

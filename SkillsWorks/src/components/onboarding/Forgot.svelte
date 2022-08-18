@@ -1,153 +1,104 @@
-<div class="content">
-	<!-- Nav pills -->
-	<ul class="nav nav-pills" role="tablist">
-		<li class="nav-item">
-			<a class="nav-link active" data-toggle="pill" href="#login">Login</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" data-toggle="pill" href="#regis">Register</a>
-		</li>
-	</ul>
+<!--
+  This component uses @tailwindcss/forms
 
-	<!-- Tab panes -->
-	<div class="tab-content">
-		<div id="login" class="container tab-pane active">
-			<form>
-				<div class="form-group">
-					<label for="exampleFormControlInput1">Email address</label>
+  yarn add @tailwindcss/forms
+  npm install @tailwindcss/forms
+
+  plugins: [require('@tailwindcss/forms')]
+-->
+
+<div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+	<div class="max-w-lg mx-auto">
+		<h1 class="text-2xl font-bold text-center text-indigo-600 sm:text-3xl">
+			Get started today
+		</h1>
+
+		<p class="max-w-md mx-auto mt-4 text-center text-gray-500">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati sunt
+			dolores deleniti inventore quaerat mollitia?
+		</p>
+
+		<form action="" class="p-8 mt-6 mb-0 space-y-4 rounded-lg shadow-2xl">
+			<p class="text-lg font-medium">Sign in to your account</p>
+
+			<div>
+				<label for="email" class="text-sm font-medium">Email</label>
+
+				<div class="relative mt-1">
 					<input
 						type="email"
-						class="form-control is-valid"
-						id="exampleFormControlInput1"
-						placeholder="name@example.com"
+						id="email"
+						class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm"
+						placeholder="Enter email"
 					/>
-					<small id="emailHelp" class="form-text text-muted"
-						>We'll never share your email with anyone else.</small
-					>
+
+					<span class="absolute inset-y-0 inline-flex items-center right-4">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="w-5 h-5 text-gray-400"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+							/>
+						</svg>
+					</span>
 				</div>
-				<div class="form-group">
-					<label for="exampleInputPassword1">Password</label>
+			</div>
+
+			<div>
+				<label for="password" class="text-sm font-medium">Password</label>
+
+				<div class="relative mt-1">
 					<input
 						type="password"
-						class="form-control is-invalid"
-						id="exampleInputPassword1"
-						placeholder="Password"
+						id="password"
+						class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm"
+						placeholder="Enter password"
 					/>
-					<small id="emailHelp" class="form-text text-muted"
-						>Password incorrect.</small
-					>
+
+					<span class="absolute inset-y-0 inline-flex items-center right-4">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="w-5 h-5 text-gray-400"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+							/>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+							/>
+						</svg>
+					</span>
 				</div>
-				<button type="submit" class="btn btn-primary">Submit</button>
-			</form>
-		</div>
-		<div id="regis" class="container tab-pane fade">
-			<form>
-				<div class="form-group">
-					<label for="InputName">Full Name</label>
-					<input
-						type="text"
-						class="form-control is-valid"
-						id="InputName"
-						placeholder="Full Name"
-					/>
-					<small id="emailHelp" class="form-text text-muted"
-						>We'll never share your email with anyone else.</small
-					>
-				</div>
-				<div class="form-group">
-					<label for="InputUsername">Username</label>
-					<input
-						type="text"
-						class="form-control is-valid"
-						id="InputUsername"
-						placeholder="Username"
-					/>
-					<small id="emailHelp" class="form-text text-muted"
-						>We'll never share your email with anyone else.</small
-					>
-				</div>
-				<div class="form-group">
-					<label for="exampleFormControlInput2">Email address</label>
-					<input
-						type="email"
-						class="form-control is-valid"
-						id="exampleFormControlInput2"
-						placeholder="name@example.com"
-					/>
-					<small id="emailHelp" class="form-text text-muted"
-						>We'll never share your email with anyone else.</small
-					>
-				</div>
-				<div class="form-group">
-					<label for="exampleInputPassword2">Password</label>
-					<input
-						type="password"
-						class="form-control is-invalid"
-						id="exampleInputPassword2"
-						placeholder="Password"
-					/>
-					<small id="emailHelp" class="form-text text-muted"
-						>Password incorrect.</small
-					>
-				</div>
-				<div class="form-group">
-					<label for="exampleInputPasswordVer">Verify Password</label>
-					<input
-						type="password"
-						class="form-control is-invalid"
-						id="exampleInputPasswordVer"
-						placeholder="Password"
-					/>
-				</div>
-				<button type="submit" class="btn btn-primary">Submit</button>
-			</form>
-		</div>
+			</div>
+
+			<button
+				type="submit"
+				class="block w-full px-5 py-3 text-sm font-medium text-white bg-indigo-600 rounded-lg"
+			>
+				Sign in
+			</button>
+
+			<p class="text-sm text-center text-gray-500">
+				No account?
+				<!-- svelte-ignore a11y-invalid-attribute -->
+				<a class="underline" href="">Sign up</a>
+			</p>
+		</form>
 	</div>
 </div>
-
-<style>
-	.content {
-		width: 450px;
-		height: auto;
-		margin: 0 auto;
-		padding: 30px;
-	}
-	.nav-pills {
-		width: 450px;
-	}
-	.nav-item {
-		width: 50%;
-	}
-	.nav-pills .nav-link {
-		font-weight: bold;
-		padding-top: 13px;
-		text-align: center;
-		background: #343436;
-		color: #fff;
-		border-radius: 30px;
-		height: 100px;
-	}
-	.nav-pills .nav-link.active {
-		background: #fff;
-		color: #000;
-	}
-	.tab-content {
-		position: absolute;
-		width: 450px;
-		height: auto;
-		margin-top: -50px;
-		background: #fff;
-		color: #000;
-		border-radius: 30px;
-		z-index: 1000;
-		box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
-		padding: 30px;
-		margin-bottom: 50px;
-	}
-	.tab-content button {
-		border-radius: 15px;
-		width: 100px;
-		margin: 0 auto;
-		float: right;
-	}
-</style>
