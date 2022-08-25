@@ -1,396 +1,208 @@
-<div class="relative min-h-screen flex ">
-	<div
-		class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto min-w-0 bg-white"
-	>
-		<div
-			class="sm:w-1/2 xl:w-3/5 h-full hidden md:flex flex-auto items-end justify-end p-10 pr-20 overflow-hidden bg-blue-900 text-white bg-no-repeat bg-cover relative"
-			style="background-image: url(https://images.unsplash.com/photo-1543599538-a6c4f6cc5c05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);"
+<main
+	class="h-screen w-full flex flex-col justify-center items-center bg-[#1A2238]"
+>
+	<h1 class="text-9xl font-extrabold text-white tracking-widest">404</h1>
+	<div class="bg-[#FF6A3D] px-2 text-sm rounded rotate-12 absolute">
+		Page Not Found
+	</div>
+	<button class="mt-5">
+		<!-- svelte-ignore a11y-missing-attribute -->
+		<a
+			class="relative inline-block text-sm font-medium text-[#FF6A3D] group active:text-orange-500 focus:outline-none focus:ring"
 		>
-			<div
-				class="absolute bg-gradient-to-b from-indigo-100 to-blue-600 opacity-75 inset-0 z-0"
+			<span
+				class="absolute inset-0 transition-transform translate-x-0.5 translate-y-0.5 bg-[#FF6A3D] group-hover:translate-y-0 group-hover:translate-x-0"
 			/>
-			<div class="w-full z-10 mb-10">
-				<div
-					class="sm:text-4xl xl:text-5xl  text-gray-800 font-bold leading-tight mb-6"
-				>
-					Reference: Call to action
-				</div>
-				<div class="sm:text-sm xl:text-md text-gray-900 font-normal">
-					What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing
-					and typesetting industry Lorem Ipsum has been the industry's standard
-					dummy text ever since the 1500s when an unknown printer took a galley
-					of type and scrambled it to make a type specimen book it has?
-				</div>
-			</div>
-			<!---remove custom style-->
-			<ul class="squares">
-				<li />
-				<li />
-				<li />
-				<li />
-				<li />
-				<li />
-				<li />
-				<li />
-				<li />
-				<li />
-			</ul>
-		</div>
-		<div
-			class="md:flex md:items-center md:justify-cente sm:w-auto md:h-full w-4/5 xl:w-2/5 p-8  md:p-10 lg:p-14 sm:rounded-lg md:rounded-none bg-white"
-		>
-			<div class="max-w-md w-full space-y-8">
-				<div class="mb-10 text-center">
-					<h3 class="font-semibold text-2xl text-gray-800">Sign Up</h3>
-					<p class="text-gray-500">Please register your account.</p>
-				</div>
-				<div class="flex">
-					<div class="w-full md:w-1/2 px-0.5 mb-6 md:mb-0">
-						<button
-							type="submit"
-							class="w-full flex items-center justify-center bg-red-500  hover:bg-red-400 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
-						>
-							Google
-							<svg
-								class="w-4 ml-2"
-								fill="#fff"
-								viewBox="0 0 24 24"
-								xmlns="http://www.w3.org/2000/svg"
-								><path
-									d="M11.99 13.9v-3.72h9.36c.14.63.25 1.22.25 2.05 0 5.71-3.83 9.77-9.6 9.77-5.52 0-10-4.48-10-10S6.48 2 12 2c2.7 0 4.96.99 6.69 2.61l-2.84 2.76c-.72-.68-1.98-1.48-3.85-1.48-3.31 0-6.01 2.75-6.01 6.12s2.7 6.12 6.01 6.12c3.83 0 5.24-2.65 5.5-4.22h-5.51v-.01Z"
-								/></svg
-							>
-						</button>
-					</div>
-					<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-						<button
-							type="submit"
-							class="w-full flex items-center justify-center bg-blue-600  hover:bg-blue-500 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
-						>
-							Facebook
-							<svg
-								class="w-4 ml-2"
-								viewBox="0 0 24 24"
-								xmlns="http://www.w3.org/2000/svg"
-								><path
-									fill="#fff"
-									fill-rule="evenodd"
-									d="M9.945 22v-8.834H7V9.485h2.945V6.54c0-3.043 1.926-4.54 4.64-4.54 1.3 0 2.418.097 2.744.14v3.18h-1.883c-1.476 0-1.82.703-1.82 1.732v2.433h3.68l-.736 3.68h-2.944L13.685 22"
-								/></svg
-							>
-						</button>
-					</div>
-				</div>
-				<div class="flex items-center justify-center space-x-2 my-5">
-					<span class="h-px w-16 bg-gray-200" />
-					<span class="text-gray-500 font-normal text-center"
-						>or continue with</span
-					>
-					<span class="h-px w-16 bg-gray-200" />
-				</div>
-				<form class="w-full max-w-lg">
-					<div class="flex flex-wrap -mx-3 mb-4">
-						<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-								for="grid-first-name"
-							>
-								First Name
-							</label>
-							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 rounded py-3 px-4 mb-3 border border-gray-200 leading-tight focus:outline-none focus:bg-white focus:border-teal-300"
-								id="grid-first-name"
-								type="text"
-								placeholder="Jane"
-							/>
-						</div>
-						<div class="w-full md:w-1/2 px-3">
-							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-								for="grid-last-name"
-							>
-								Last Name
-							</label>
-							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-teal-300"
-								id="grid-last-name"
-								type="text"
-								placeholder="Doe"
-							/>
-						</div>
-					</div>
-					<div class="flex flex-wrap -mx-3 mb-4">
-						<div class="w-full px-3">
-							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-								for="grid-email"
-							>
-								Email Address
-							</label>
-							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-teal-300"
-								id="grid-email"
-								type="email"
-								placeholder="username@example.com"
-							/>
-						</div>
-					</div>
-					<div class="flex flex-wrap -mx-3 mb-4">
-						<div class="w-full px-3">
-							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-								for="grid-password"
-							>
-								Password
-							</label>
-							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-teal-300"
-								id="grid-password"
-								type="password"
-								placeholder="******************"
-							/>
-						</div>
-					</div>
-					<div class="flex flex-wrap -mx-3 mb-4">
-						<div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-								for="grid-city"
-							>
-								City
-							</label>
-							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-teal-300"
-								id="grid-city"
-								type="text"
-								placeholder="Durban"
-							/>
-						</div>
-						<div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-								for="grid-province"
-							>
-								Province
-							</label>
-							<div class="relative">
-								<select
-									class="block appearance-none w-full bg-gray-100 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-teal-300"
-									id="province"
-								>
-									<option value="" disabled selected hidden>Select...</option>
-									<option>Gauteng</option>
-									<option>KwaZulu-Natal</option>
-									<option>Western Cape</option>
-									<option>Eastern Cape</option>
-									<option>Free State</option>
-									<option>Limpopo</option>
-									<option>Mpumalanga</option>
-									<option>Northern Cape</option>
-									<option>North West</option>
-								</select>
-								<div
-									class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
-								>
-									<svg
-										class="fill-current h-4 w-4"
-										xmlns="http://www.w3.org/2000/svg"
-										viewBox="0 0 20 20"
-									>
-										<path
-											d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-										/>
-									</svg>
-								</div>
-							</div>
-						</div>
-						<div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-								for="grid-zip"
-							>
-								Zip
-							</label>
-							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-teal-300"
-								id="grid-zip"
-								type="text"
-								placeholder="xxxx"
-							/>
-						</div>
-					</div>
-					<div class="space-y-6 mt-6">
-						<div class="flex items-center justify-between">
-							<div class="flex items-center">
-								<input
-									id="remember_me"
-									name="remember_me"
-									type="checkbox"
-									class="h-4 w-4 bg-blue-500 focus:ring-blue-400 border-gray-300 rounded"
-								/>
-								<label
-									for="remember_me"
-									class="ml-2 block text-sm text-gray-800"
-								>
-									Remember me
-								</label>
-							</div>
-							<div class="text-sm text-right">
-								<!-- svelte-ignore a11y-invalid-attribute -->
-								<a href="#" class="text-blue-300 hover:text-blue-500 ">
-									Forgot your password?
-								</a>
-								<!-- TODORemeber to href to the Forgot your password Pages -->
-							</div>
-						</div>
-						<div>
-							<button
-								type="submit"
-								class="w-full flex justify-center bg-blue-300  hover:bg-blue-500 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
-							>
-								Sign in
-							</button>
-						</div>
-						<div class="flex items-center justify-center space-x-2 my-5">
-							<span class="h-px w-16 bg-gray-200" />
-							<span class="text-gray-500 font-normal text-center">OR</span>
-							<span class="h-px w-16 bg-gray-200" />
-						</div>
-						<div>
-							<button
-								type="submit"
-								class="w-full flex justify-center bg-green-300  hover:bg-green-500 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
-							>
-								Sign Up
-							</button>
-						</div>
-					</div>
-				</form>
 
-				<div class="pt-6 text-center text-gray-400 text-xs">
-					<span>
-						Copyright © 2021-2024
-						<a
-							href="https://github.com/Fathom-Growth-Solutions"
-							rel=""
-							target="_blank"
-							title="Fathom Growth Solutions"
-							class="text-blue-300 hover:text-blue-500 "
-							>Fathom Growth Solutions</a
-						></span
+			<span class="relative block px-8 py-3 bg-[#1A2238] border border-current">
+				<router-link to="/">Go Home</router-link>
+			</span>
+		</a>
+	</button>
+</main>
+
+<section
+	class="flex items-center h-full p-16 dark:bg-gray-900 dark:text-gray-100"
+>
+	<div
+		class="container flex flex-col items-center justify-center px-5 mx-auto my-8"
+	>
+		<div class="max-w-md text-center">
+			<h2 class="mb-8 font-extrabold text-9xl dark:text-gray-600">
+				<span class="sr-only">Error</span>404
+			</h2>
+			<p class="text-2xl font-semibold md:text-3xl">
+				Sorry, we couldn't find this page.
+			</p>
+			<p class="mt-4 mb-8 dark:text-gray-400">
+				But dont worry, you can find plenty of other things on our homepage.
+			</p>
+			<!-- svelte-ignore a11y-invalid-attribute -->
+			<a
+				rel="noopener noreferrer"
+				href="#"
+				class="px-8 py-3 font-semibold rounded dark:bg-violet-400 dark:text-gray-900"
+				>Back to homepage</a
+			>
+		</div>
+	</div>
+</section>
+<div
+	class="flex items-center justify-center min-h-screen bg-indigo-500  bg-fixed bg-cover bg-bottom error-bg"
+	style="background-image: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23f0b608' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23e6d710' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23e7af05' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23e7d808' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d8a408' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23f1e213' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23f0b607' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23e4d506' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23eab822' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23e8da14' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23e8b008' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23edde14' points='943 900 1210 900 971 687'/%3E%3C/svg%3E);"
+>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 offset-sm-2 text-gray-50 text-center -mt-52">
+				<div class="relative ">
+					<h1
+						class="relative text-9xl tracking-tighter-less text-shadow font-sans font-bold"
+					>
+						<span>4</span><span>0</span><span>4</span>
+					</h1>
+					<span class="absolute  top-0   -ml-12  text-gray-300 font-semibold"
+						>Oops!</span
 					>
 				</div>
+				<h5 class="text-gray-300 font-semibold -mr-10 -mt-3">Page not found</h5>
+				<p class="text-gray-100 mt-2 mb-6">
+					we are sorry, but the page you requested was not found
+				</p>
+				<!-- svelte-ignore a11y-invalid-attribute -->
+				<a
+					href="#"
+					class="bg-green-400  px-5 py-3 text-sm shadow-sm font-medium tracking-wider text-gray-50 rounded-full hover:shadow-lg"
+				>
+					Got to Home
+				</a>
 			</div>
 		</div>
 	</div>
 </div>
 
-<!-- component -->
+<div class="bg-gray-100 h-screen justify-center">
+	<center class="mt-24 m-auto">
+		<svg
+			class="emoji-404 "
+			enable-background="new 0 0 226 249.135"
+			height="249.135"
+			id="Layer_1"
+			overflow="visible"
+			version="1.1"
+			viewBox="0 0 226 249.135"
+			width="226"
+			xml:space="preserve"
+			><circle cx="113" cy="113" fill="#FFE585" r="109" /><line
+				enable-background="new    "
+				fill="none"
+				opacity="0.29"
+				stroke="#6E6E96"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				stroke-width="8"
+				x1="88.866"
+				x2="136.866"
+				y1="245.135"
+				y2="245.135"
+			/><line
+				enable-background="new    "
+				fill="none"
+				opacity="0.17"
+				stroke="#6E6E96"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				stroke-width="8"
+				x1="154.732"
+				x2="168.732"
+				y1="245.135"
+				y2="245.135"
+			/><line
+				enable-background="new    "
+				fill="none"
+				opacity="0.17"
+				stroke="#6E6E96"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				stroke-width="8"
+				x1="69.732"
+				x2="58.732"
+				y1="245.135"
+				y2="245.135"
+			/><circle cx="68.732" cy="93" fill="#6E6E96" r="9" /><path
+				d="M115.568,5.947c-1.026,0-2.049,0.017-3.069,0.045  c54.425,1.551,98.069,46.155,98.069,100.955c0,55.781-45.219,101-101,101c-55.781,0-101-45.219-101-101  c0-8.786,1.124-17.309,3.232-25.436c-3.393,10.536-5.232,21.771-5.232,33.436c0,60.199,48.801,109,109,109s109-48.801,109-109  S175.768,5.947,115.568,5.947z"
+				enable-background="new    "
+				fill="#FF9900"
+				opacity="0.24"
+			/><circle cx="156.398" cy="93" fill="#6E6E96" r="9" /><ellipse
+				cx="67.732"
+				cy="140.894"
+				enable-background="new    "
+				fill="#FF0000"
+				opacity="0.18"
+				rx="17.372"
+				ry="8.106"
+			/><ellipse
+				cx="154.88"
+				cy="140.894"
+				enable-background="new    "
+				fill="#FF0000"
+				opacity="0.18"
+				rx="17.371"
+				ry="8.106"
+			/><path
+				d="M13,118.5C13,61.338,59.338,15,116.5,15c55.922,0,101.477,44.353,103.427,99.797  c0.044-1.261,0.073-2.525,0.073-3.797C220,50.802,171.199,2,111,2S2,50.802,2,111c0,50.111,33.818,92.318,79.876,105.06  C41.743,201.814,13,163.518,13,118.5z"
+				fill="#FFEFB5"
+			/><circle
+				cx="113"
+				cy="113"
+				fill="none"
+				r="109"
+				stroke="#6E6E96"
+				stroke-width="8"
+			/></svg
+		>
+		<div class=" tracking-widest mt-4">
+			<span class="text-gray-500 text-6xl block"><span>4 0 4</span></span>
+			<span class="text-gray-500 text-xl"
+				>Sorry, We couldn't find what you are looking for!</span
+			>
+		</div>
+	</center>
+	<center class="mt-6">
+		<!-- svelte-ignore a11y-invalid-attribute -->
+		<a
+			href="#"
+			class="text-gray-500 font-mono text-xl bg-gray-200 p-3 rounded-md hover:shadow-md"
+			>Go back
+		</a>
+		<!-- <a href="${{url() => previous()}}" class="text-gray-500 font-mono text-xl bg-gray-200 p-3 rounded-md hover:shadow-md">Go back </a> -->
+	</center>
+</div>
+
 <style>
-	/*remove custom style*/
-	.squares {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		overflow: hidden;
-	}
-	.squares li {
-		position: absolute;
-		display: block;
-		list-style: none;
-		width: 20px;
-		height: 20px;
-		background: #93c5fd;
-		animation: animate 25s linear infinite;
-		bottom: -150px;
-	}
-	.squares li:nth-child(1) {
-		left: 25%;
-		width: 80px;
-		height: 80px;
-		animation-delay: 0s;
+	.emoji-404 {
+		position: relative;
+		animation: mymove 2.5s infinite;
 	}
 
-	.squares li:nth-child(2) {
-		left: 10%;
-		width: 20px;
-		height: 20px;
-		animation-delay: 2s;
-		animation-duration: 12s;
-	}
-
-	.squares li:nth-child(3) {
-		left: 70%;
-		width: 20px;
-		height: 20px;
-		animation-delay: 4s;
-	}
-
-	.squares li:nth-child(4) {
-		left: 40%;
-		width: 60px;
-		height: 60px;
-		animation-delay: 0s;
-		animation-duration: 18s;
-	}
-
-	.squares li:nth-child(5) {
-		left: 65%;
-		width: 20px;
-		height: 20px;
-		animation-delay: 0s;
-	}
-
-	.squares li:nth-child(6) {
-		left: 75%;
-		width: 110px;
-		height: 110px;
-		animation-delay: 3s;
-	}
-
-	.squares li:nth-child(7) {
-		left: 35%;
-		width: 150px;
-		height: 150px;
-		animation-delay: 7s;
-	}
-
-	.squares li:nth-child(8) {
-		left: 50%;
-		width: 25px;
-		height: 25px;
-		animation-delay: 15s;
-		animation-duration: 45s;
-	}
-
-	.squares li:nth-child(9) {
-		left: 20%;
-		width: 15px;
-		height: 15px;
-		animation-delay: 2s;
-		animation-duration: 35s;
-	}
-
-	.squares li:nth-child(10) {
-		left: 85%;
-		width: 150px;
-		height: 150px;
-		animation-delay: 0s;
-		animation-duration: 11s;
-	}
-	@keyframes animate {
-		0% {
-			transform: translateY(0) rotate(0deg);
-			opacity: 1;
-			border-radius: 0;
+	@keyframes mymove {
+		33% {
+			top: 0px;
 		}
-
+		66% {
+			top: 20px;
+		}
 		100% {
-			transform: translateY(-1000px) rotate(720deg);
-			opacity: 0;
-			border-radius: 50%;
+			top: 0px;
 		}
+	}
+	.error-bg {
+		background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23f0b608' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23e6d710' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23e7af05' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23e7d808' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d8a408' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23f1e213' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23f0b607' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23e4d506' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23eab822' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23e8da14' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23e8b008' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23edde14' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+	}
+	.tracking-tighter-less {
+		letter-spacing: -0.75rem;
+	}
+	.text-shadow {
+		text-shadow: -8px 0 0 rgb(102 123 242);
 	}
 </style>

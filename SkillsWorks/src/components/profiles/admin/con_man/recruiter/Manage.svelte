@@ -248,7 +248,7 @@
 								type="submit"
 								class="w-full flex justify-center bg-blue-300  hover:bg-blue-500 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
 							>
-								Sign in
+								Sign In
 							</button>
 						</div>
 						<div class="flex items-center justify-center space-x-2 my-5">
