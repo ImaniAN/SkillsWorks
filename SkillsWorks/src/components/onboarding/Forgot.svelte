@@ -1,104 +1,56 @@
-<!--
-  This component uses @tailwindcss/forms
-
-  yarn add @tailwindcss/forms
-  npm install @tailwindcss/forms
-
-  plugins: [require('@tailwindcss/forms')]
--->
-
-<div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
-	<div class="max-w-lg mx-auto">
-		<h1 class="text-2xl font-bold text-center text-indigo-600 sm:text-3xl">
-			Get started today
-		</h1>
-
-		<p class="max-w-md mx-auto mt-4 text-center text-gray-500">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati sunt
-			dolores deleniti inventore quaerat mollitia?
-		</p>
-
-		<form action="" class="p-8 mt-6 mb-0 space-y-4 rounded-lg shadow-2xl">
-			<p class="text-lg font-medium">Sign in to your account</p>
-
-			<div>
-				<label for="email" class="text-sm font-medium">Email</label>
-
-				<div class="relative mt-1">
-					<input
-						type="email"
-						id="email"
-						class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm"
-						placeholder="Enter email"
-					/>
-
-					<span class="absolute inset-y-0 inline-flex items-center right-4">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							class="w-5 h-5 text-gray-400"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
+<div class="flex justify-center w-screen">
+	<div
+		class="flex justify-center w-screen max-w-lg flex-col px-8 py-8 bg-white rounded-lg shadow dark:bg-gray-800"
+	>
+		<div
+			class="self-center mb-6 text-xl font-light text-gray-600 sm:text-2xl dark:text-white"
+		>
+			Recover your Your Account
+		</div>
+		<div class="mt-8">
+			<form action="#">
+				<div class="flex flex-col mb-2">
+					<label for="-email" class="text-gray-200">
+						Email
+						<span class="text-red-500 -dot"> * </span>
+					</label>
+					<div class="flex relative ">
+						<span
+							class="rounded-l-md inline-flex  items-center px-3 border-t bg-white border-l border-b  border-gray-300 text-gray-500 shadow-sm text-sm"
 						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
-							/>
-						</svg>
-					</span>
+							<svg
+								width="15"
+								height="15"
+								fill="currentColor"
+								viewBox="0 0 1792 1792"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"
+								/>
+							</svg>
+						</span>
+						<input
+							id="email"
+							type="email"
+							placeholder="Your email (example@gmail.com)"
+							required
+							name="email"
+							class=" rounded-r-lg flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+						/>
+					</div>
 				</div>
-			</div>
+				<div class="flex w-full">
+					<button
+						type="submit"
+						class="py-2 px-4  bg-purple-600 hover:bg-purple-700 focus:ring-purple-500 focus:ring-offset-purple-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
+					>
+						Send a recovery link!
+					</button>
 
-			<div>
-				<label for="password" class="text-sm font-medium">Password</label>
-
-				<div class="relative mt-1">
-					<input
-						type="password"
-						id="password"
-						class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm"
-						placeholder="Enter password"
-					/>
-
-					<span class="absolute inset-y-0 inline-flex items-center right-4">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							class="w-5 h-5 text-gray-400"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-							/>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
-							/>
-						</svg>
-					</span>
+					<div class="flex flex-col mb-6" />
 				</div>
-			</div>
-
-			<button
-				type="submit"
-				class="block w-full px-5 py-3 text-sm font-medium text-white bg-indigo-600 rounded-lg"
-			>
-				Sign in
-			</button>
-
-			<p class="text-sm text-center text-gray-500">
-				No account?
-				<!-- svelte-ignore a11y-invalid-attribute -->
-				<a class="underline" href="">Sign up</a>
-			</p>
-		</form>
+			</form>
+		</div>
 	</div>
 </div>

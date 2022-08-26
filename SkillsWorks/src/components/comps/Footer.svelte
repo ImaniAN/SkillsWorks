@@ -6,10 +6,10 @@
 			<strong class="text-xl text-white sm:text-xl">
 				Make Your Next Career Move!
 			</strong>
-
+			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				class="inline-flex items-center px-8 py-3 text-indigo-600 bg-white border border-white rounded-full hover:bg-transparent hover:text-white active:bg-white/90 focus:outline-none focus:ring"
-				href="/"
+				href="#"
 			>
 				<span class="text-sm font-medium"> Let's Get Started </span>
 
@@ -37,25 +37,29 @@
 				<nav class="mt-8">
 					<ul class="space-y-4 text-sm">
 						<li>
-							<a class="text-white transition hover:text-white/75" href="/">
+							<!-- svelte-ignore a11y-invalid-attribute -->
+							<a class="text-white transition hover:text-white/75" href="#">
 								Company History
 							</a>
 						</li>
 
 						<li>
-							<a class="text-white transition hover:text-white/75" href="/">
+							<!-- svelte-ignore a11y-invalid-attribute -->
+							<a class="text-white transition hover:text-white/75" href="#">
 								Meet the Team
 							</a>
 						</li>
 
 						<li>
-							<a class="text-white transition hover:text-white/75" href="/">
+							<!-- svelte-ignore a11y-invalid-attribute -->
+							<a class="text-white transition hover:text-white/75" href="#">
 								Employee Handbook
 							</a>
 						</li>
 
 						<li>
-							<a class="text-white transition hover:text-white/75" href="/">
+							<!-- svelte-ignore a11y-invalid-attribute -->
+							<a class="text-white transition hover:text-white/75" href="#">
 								Careers
 							</a>
 						</li>
@@ -69,25 +73,29 @@
 				<nav class="mt-8">
 					<ul class="space-y-4 text-sm">
 						<li>
-							<a class="text-white transition hover:text-white/75" href="/">
+							<!-- svelte-ignore a11y-invalid-attribute -->
+							<a class="text-white transition hover:text-white/75" href="#">
 								Web Development
 							</a>
 						</li>
 
 						<li>
-							<a class="text-white transition hover:text-white/75" href="/">
+							<!-- svelte-ignore a11y-invalid-attribute -->
+							<a class="text-white transition hover:text-white/75" href="#">
 								Web Design
 							</a>
 						</li>
 
 						<li>
-							<a class="text-white transition hover:text-white/75" href="/">
+							<!-- svelte-ignore a11y-invalid-attribute -->
+							<a class="text-white transition hover:text-white/75" href="#">
 								Marketing
 							</a>
 						</li>
 
 						<li>
-							<a class="text-white transition hover:text-white/75" href="/">
+							<!-- svelte-ignore a11y-invalid-attribute -->
+							<a class="text-white transition hover:text-white/75" href="#">
 								Google Ads
 							</a>
 						</li>
@@ -101,31 +109,36 @@
 				<nav class="mt-8">
 					<ul class="space-y-4 text-sm">
 						<li>
-							<a class="text-white transition hover:text-white/75" href="/">
+							<!-- svelte-ignore a11y-invalid-attribute -->
+							<a class="text-white transition hover:text-white/75" href="#">
 								Online Guides
 							</a>
 						</li>
 
 						<li>
-							<a class="text-white transition hover:text-white/75" href="/">
+							<!-- svelte-ignore a11y-invalid-attribute -->
+							<a class="text-white transition hover:text-white/75" href="#">
 								Conference Notes
 							</a>
 						</li>
 
 						<li>
-							<a class="text-white transition hover:text-white/75" href="/">
+							<!-- svelte-ignore a11y-invalid-attribute -->
+							<a class="text-white transition hover:text-white/75" href="#">
 								Forum
 							</a>
 						</li>
 
 						<li>
-							<a class="text-white transition hover:text-white/75" href="/">
+							<!-- svelte-ignore a11y-invalid-attribute -->
+							<a class="text-white transition hover:text-white/75" href="#">
 								Downloads
 							</a>
 						</li>
 
 						<li>
-							<a class="text-white transition hover:text-white/75" href="/">
+							<!-- svelte-ignore a11y-invalid-attribute -->
+							<a class="text-white transition hover:text-white/75" href="#">
 								Upcoming Events
 							</a>
 						</li>
@@ -139,21 +152,24 @@
 				<nav class="mt-8">
 					<ul class="space-y-4 text-sm">
 						<li>
-							<a class="text-white transition hover:text-white/75" href="/">
+							<!-- svelte-ignore a11y-invalid-attribute -->
+							<a class="text-white transition hover:text-white/75" href="#">
 								FAQs
 							</a>
 						</li>
 
 						<li>
-							<a class="text-white transition hover:text-white/75" href="/">
+							<!-- svelte-ignore a11y-invalid-attribute -->
+							<a class="text-white transition hover:text-white/75" href="#">
 								Support
 							</a>
 						</li>
 
 						<li>
+							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a
 								class="flex group justify-center gap-1.5 sm:justify-start"
-								href="/"
+								href="#"
 							>
 								<span class="text-white transition group-hover:text-white/75">
 									Live Chat
@@ -177,8 +193,9 @@
 		<div class="mt-16">
 			<ul class="flex justify-center gap-6 sm:justify-end">
 				<li>
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						href="/"
+						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
 						class="text-teal-500 transition hover:text-teal-500/75"
@@ -200,8 +217,9 @@
 				</li>
 
 				<li>
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						href="/"
+						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
 						class="text-teal-500 transition hover:text-teal-500/75"
@@ -223,8 +241,9 @@
 				</li>
 
 				<li>
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						href="/"
+						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
 						class="text-teal-500 transition hover:text-teal-500/75"
@@ -244,8 +263,9 @@
 				</li>
 
 				<li>
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						href="/"
+						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
 						class="text-teal-500 transition hover:text-teal-500/75"
@@ -267,8 +287,9 @@
 				</li>
 
 				<li>
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						href="/"
+						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
 						class="text-teal-500 transition hover:text-teal-500/75"

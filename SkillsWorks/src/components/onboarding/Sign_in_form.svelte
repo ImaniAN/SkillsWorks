@@ -96,13 +96,15 @@
 								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
 								for="grid-email"
 							>
-								Email Address
+								Email
 							</label>
 							<input
 								class="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-teal-300"
 								id="grid-email"
 								type="email"
-								placeholder="username@example.com"
+								placeholder="Your email (example@gmail.com)"
+								required
+								name="email"
 							/>
 						</div>
 					</div>
@@ -118,6 +120,8 @@
 								class="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-teal-300"
 								id="grid-password"
 								type="password"
+								name="password"
+								required
 								placeholder="******************"
 							/>
 						</div>

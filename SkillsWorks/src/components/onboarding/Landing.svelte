@@ -2,8 +2,8 @@
 	import Navbar from '../comps/Navbar.svelte';
 	import Footer from '../comps/Footer.svelte';
 	import Intro from './Intro.svelte';
-	// import Sign_in_form from './Sign_in_form.svelte';
-	import Sign_up_form from './Sign_up_form.svelte';
+	import Sign_in_form from './Sign_in_form.svelte';
+	// import Sign_up_form from './Sign_up_form.svelte';
 	// import something from ''./Intro.svelte';
 	import Blog from '../blog/Topics.svelte';
 	import Contact_us from '../about_us/Contact_us.svelte';
@@ -17,8 +17,8 @@
 
 	const webpages = [
 		{ name: 'Home', component: Intro },
-		// { name: 'Sign In', component: Sign_in_form },
-		{ name: 'Sign Up', component: Sign_up_form },
+		{ name: 'Sign In', component: Sign_in_form },
+		// { name: 'Sign Up', component: Sign_up_form },
 		// { name: 'Log In', component: Sign_in_form},
 		{ name: 'Blog', component: Blog },
 		{ name: 'Contact Us', component: Contact_us },

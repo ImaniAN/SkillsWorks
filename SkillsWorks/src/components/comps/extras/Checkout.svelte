@@ -94,7 +94,9 @@
 				<div class="max-w-lg px-4 mx-auto lg:px-8">
 					<form class="grid grid-cols-6 gap-4">
 						<div class="col-span-3">
-							<label class="block mb-1 text-sm text-gray-600" for="first_name"> First Name </label>
+							<label class="block mb-1 text-sm text-gray-600" for="first_name">
+								First Name
+							</label>
 
 							<input
 								class="rounded-lg shadow-sm border-gray-200 w-full text-sm p-2.5"
@@ -104,7 +106,9 @@
 						</div>
 
 						<div class="col-span-3">
-							<label class="block mb-1 text-sm text-gray-600" for="last_name"> Last Name </label>
+							<label class="block mb-1 text-sm text-gray-600" for="last_name">
+								Last Name
+							</label>
 
 							<input
 								class="rounded-lg shadow-sm border-gray-200 w-full text-sm p-2.5"
@@ -114,17 +118,24 @@
 						</div>
 
 						<div class="col-span-6">
-							<label class="block mb-1 text-sm text-gray-600" for="email"> Email </label>
+							<label class="block mb-1 text-sm text-gray-600" for="email">
+								Email
+							</label>
 
 							<input
 								class="rounded-lg shadow-sm border-gray-200 w-full text-sm p-2.5"
 								type="email"
+								placeholder="Your email (example@gmail.com)"
+								required
+								name="email"
 								id="email"
 							/>
 						</div>
 
 						<div class="col-span-6">
-							<label class="block mb-1 text-sm text-gray-600" for="phone"> Phone </label>
+							<label class="block mb-1 text-sm text-gray-600" for="phone">
+								Phone
+							</label>
 
 							<input
 								class="rounded-lg shadow-sm border-gray-200 w-full text-sm p-2.5"
@@ -134,7 +145,9 @@
 						</div>
 
 						<fieldset class="col-span-6">
-							<legend class="block mb-1 text-sm text-gray-600"> Card Details </legend>
+							<legend class="block mb-1 text-sm text-gray-600">
+								Card Details
+							</legend>
 
 							<div class="-space-y-px bg-white rounded-lg shadow-sm">
 								<div>
@@ -151,7 +164,9 @@
 
 								<div class="flex -space-x-px">
 									<div class="flex-1">
-										<label class="sr-only" for="card-expiration-date"> Expiration Date </label>
+										<label class="sr-only" for="card-expiration-date">
+											Expiration Date
+										</label>
 
 										<input
 											class="border-gray-200 relative rounded-bl-lg w-full focus:z-10 text-sm p-2.5 placeholder-gray-400"
@@ -178,7 +193,9 @@
 						</fieldset>
 
 						<fieldset class="col-span-6">
-							<legend class="block mb-1 text-sm text-gray-600"> Billing Address </legend>
+							<legend class="block mb-1 text-sm text-gray-600">
+								Billing Address
+							</legend>
 
 							<div class="-space-y-px bg-white rounded-lg shadow-sm">
 								<div>
@@ -200,7 +217,9 @@
 								</div>
 
 								<div>
-									<label class="sr-only" for="postal-code"> ZIP/Post Code </label>
+									<label class="sr-only" for="postal-code">
+										ZIP/Post Code
+									</label>
 
 									<input
 										class="border-gray-200 relative rounded-b-lg w-full focus:z-10 text-sm p-2.5 placeholder-gray-400"

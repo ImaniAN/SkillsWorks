@@ -1,396 +1,702 @@
-<div class="relative min-h-screen flex ">
-	<div
-		class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto min-w-0 bg-white"
-	>
-		<div
-			class="sm:w-1/2 xl:w-3/5 h-full hidden md:flex flex-auto items-end justify-end p-10 pr-20 overflow-hidden bg-blue-900 text-white bg-no-repeat bg-cover relative"
-			style="background-image: url(https://images.unsplash.com/photo-1543599538-a6c4f6cc5c05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);"
-		>
-			<div
-				class="absolute bg-gradient-to-b from-indigo-100 to-blue-600 opacity-75 inset-0 z-0"
-			/>
-			<div class="w-full z-10 mb-10">
-				<div
-					class="sm:text-4xl xl:text-5xl  text-gray-800 font-bold leading-tight mb-6"
+<!--
+  This example requires Tailwind CSS v2.0+
+
+  This example requires some changes to your config:
+
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/forms'),
+    ],
+  }
+  ```
+-->
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="px-8 py-4 flex justify-center">
+	<div class="px-8 py-4 border bg-indigo-200">
+		<div class="lg:flex lg:items-center lg:justify-between ">
+			<div class="flex-1 min-w-0">
+				<h2
+					class="text-2xl font-bold leading-7 text-gray-900 sm:text-3xl sm:tracking-tight sm:truncate"
 				>
-					Reference: Call to action
-				</div>
-				<div class="sm:text-sm xl:text-md text-gray-900 font-normal">
-					What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing
-					and typesetting industry Lorem Ipsum has been the industry's standard
-					dummy text ever since the 1500s when an unknown printer took a galley
-					of type and scrambled it to make a type specimen book it has?
+					Back End Developer
+				</h2>
+				<div
+					class="mt-1 flex flex-col sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-6"
+				>
+					<div class="mt-2 flex items-center text-sm text-gray-500">
+						<!-- Heroicon name: solid/briefcase -->
+						<svg
+							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
+								clip-rule="evenodd"
+							/>
+							<path
+								d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"
+							/>
+						</svg>
+						Full-time
+					</div>
+					<div class="mt-2 flex items-center text-sm text-gray-500">
+						<!-- Heroicon name: solid/location-marker -->
+						<svg
+							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+						Remote
+					</div>
+					<div class="mt-2 flex items-center text-sm text-gray-500">
+						<!-- Heroicon name: solid/currency-dollar -->
+						<svg
+							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z"
+							/>
+							<path
+								fill-rule="evenodd"
+								d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+						$120k &ndash; $140k
+					</div>
+					<div class="mt-2 flex items-center text-sm text-gray-500">
+						<!-- Heroicon name: solid/calendar -->
+						<svg
+							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+						Closing on January 9, 2020
+					</div>
 				</div>
 			</div>
-			<!---remove custom style-->
-			<ul class="squares">
-				<li />
-				<li />
-				<li />
-				<li />
-				<li />
-				<li />
-				<li />
-				<li />
-				<li />
-				<li />
-			</ul>
-		</div>
-		<div
-			class="md:flex md:items-center md:justify-cente sm:w-auto md:h-full w-4/5 xl:w-2/5 p-8  md:p-10 lg:p-14 sm:rounded-lg md:rounded-none bg-white"
-		>
-			<div class="max-w-md w-full space-y-8">
-				<div class="mb-10 text-center">
-					<h3 class="font-semibold text-2xl text-gray-800">Sign Up</h3>
-					<p class="text-gray-500">Please register your account.</p>
-				</div>
-				<div class="flex">
-					<div class="w-full md:w-1/2 px-0.5 mb-6 md:mb-0">
-						<button
-							type="submit"
-							class="w-full flex items-center justify-center bg-red-500  hover:bg-red-400 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
-						>
-							Google
-							<svg
-								class="w-4 ml-2"
-								fill="#fff"
-								viewBox="0 0 24 24"
-								xmlns="http://www.w3.org/2000/svg"
-								><path
-									d="M11.99 13.9v-3.72h9.36c.14.63.25 1.22.25 2.05 0 5.71-3.83 9.77-9.6 9.77-5.52 0-10-4.48-10-10S6.48 2 12 2c2.7 0 4.96.99 6.69 2.61l-2.84 2.76c-.72-.68-1.98-1.48-3.85-1.48-3.31 0-6.01 2.75-6.01 6.12s2.7 6.12 6.01 6.12c3.83 0 5.24-2.65 5.5-4.22h-5.51v-.01Z"
-								/></svg
-							>
-						</button>
-					</div>
-					<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-						<button
-							type="submit"
-							class="w-full flex items-center justify-center bg-blue-600  hover:bg-blue-500 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
-						>
-							Facebook
-							<svg
-								class="w-4 ml-2"
-								viewBox="0 0 24 24"
-								xmlns="http://www.w3.org/2000/svg"
-								><path
-									fill="#fff"
-									fill-rule="evenodd"
-									d="M9.945 22v-8.834H7V9.485h2.945V6.54c0-3.043 1.926-4.54 4.64-4.54 1.3 0 2.418.097 2.744.14v3.18h-1.883c-1.476 0-1.82.703-1.82 1.732v2.433h3.68l-.736 3.68h-2.944L13.685 22"
-								/></svg
-							>
-						</button>
-					</div>
-				</div>
-				<div class="flex items-center justify-center space-x-2 my-5">
-					<span class="h-px w-16 bg-gray-200" />
-					<span class="text-gray-500 font-normal text-center"
-						>or continue with</span
+			<div class="mt-5 flex lg:mt-0 lg:ml-4">
+				<span class="hidden sm:block">
+					<button
+						type="button"
+						class="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 					>
-					<span class="h-px w-16 bg-gray-200" />
+						<!-- Heroicon name: solid/pencil -->
+						<svg
+							class="-ml-1 mr-2 h-5 w-5 text-green-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z"
+							/>
+						</svg>
+						Edit
+					</button>
+				</span>
+
+				<span class="hidden sm:block ml-3">
+					<button
+						type="button"
+						class="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+					>
+						<!-- Heroicon name: solid/link -->
+						<svg
+							class="-ml-1 mr-2 h-5 w-5 text-green-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+						View
+					</button>
+				</span>
+
+				<span class="sm:ml-3">
+					<button
+						type="button"
+						class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+					>
+						<!-- Heroicon name: solid/check -->
+						<svg
+							class="-ml-1 mr-2 h-5 w-5"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+						Publish
+					</button>
+				</span>
+
+				<!-- Dropdown -->
+				<div class="ml-3 relative sm:hidden">
+					<button
+						type="button"
+						class="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+						id="mobile-menu-button"
+						aria-expanded="false"
+						aria-haspopup="true"
+					>
+						More
+						<!-- Heroicon name: solid/chevron-down -->
+						<svg
+							class="-mr-1 ml-2 h-5 w-5 text-brown-500"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+							aria-hidden="true"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+					</button>
+
+					<!--
+        Dropdown menu, show/hide based on menu state.
+
+        Entering: "transition ease-out duration-200"
+          From: "transform opacity-0 scale-95"
+          To: "transform opacity-100 scale-100"
+        Leaving: "transition ease-in duration-75"
+          From: "transform opacity-100 scale-100"
+          To: "transform opacity-0 scale-95"
+      -->
+					<div
+						class="origin-top-right absolute right-0 mt-2 -mr-1 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+						role="menu"
+						aria-orientation="vertical"
+						aria-labelledby="mobile-menu-button"
+						tabindex="-1"
+					>
+						<!-- Active: "bg-gray-100", Not Active: "" -->
+						<!-- svelte-ignore a11y-invalid-attribute -->
+						<a
+							href="#"
+							class="block px-4 py-2 text-sm text-gray-700"
+							role="menuitem"
+							tabindex="-1"
+							id="mobile-menu-item-0">Edit</a
+						>
+						<!-- svelte-ignore a11y-invalid-attribute -->
+						<a
+							href="#"
+							class="block px-4 py-2 text-sm text-gray-700"
+							role="menuitem"
+							tabindex="-1"
+							id="mobile-menu-item-1">View</a
+						>
+					</div>
 				</div>
-				<form class="w-full max-w-lg">
-					<div class="flex flex-wrap -mx-3 mb-4">
-						<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-								for="grid-first-name"
-							>
-								First Name
-							</label>
-							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 rounded py-3 px-4 mb-3 border border-gray-200 leading-tight focus:outline-none focus:bg-white focus:border-teal-300"
-								id="grid-first-name"
-								type="text"
-								placeholder="Jane"
-							/>
-						</div>
-						<div class="w-full md:w-1/2 px-3">
-							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-								for="grid-last-name"
-							>
-								Last Name
-							</label>
-							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-teal-300"
-								id="grid-last-name"
-								type="text"
-								placeholder="Doe"
-							/>
-						</div>
+			</div>
+		</div>
+		<br />
+
+		<div>
+			<div class="md:grid md:grid-cols-3 md:gap-6">
+				<div class="md:col-span-1">
+					<div class="px-4 sm:px-0">
+						<h3 class="text-lg font-medium leading-6 text-gray-900">Profile</h3>
+						<p class="mt-1 text-sm text-gray-900">
+							This information will be displayed publicly so be careful what you
+							share.
+						</p>
 					</div>
-					<div class="flex flex-wrap -mx-3 mb-4">
-						<div class="w-full px-3">
-							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-								for="grid-email"
-							>
-								Email Address
-							</label>
-							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-teal-300"
-								id="grid-email"
-								type="email"
-								placeholder="username@example.com"
-							/>
-						</div>
-					</div>
-					<div class="flex flex-wrap -mx-3 mb-4">
-						<div class="w-full px-3">
-							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-								for="grid-password"
-							>
-								Password
-							</label>
-							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-teal-300"
-								id="grid-password"
-								type="password"
-								placeholder="******************"
-							/>
-						</div>
-					</div>
-					<div class="flex flex-wrap -mx-3 mb-4">
-						<div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-								for="grid-city"
-							>
-								City
-							</label>
-							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-teal-300"
-								id="grid-city"
-								type="text"
-								placeholder="Durban"
-							/>
-						</div>
-						<div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-								for="grid-province"
-							>
-								Province
-							</label>
-							<div class="relative">
-								<select
-									class="block appearance-none w-full bg-gray-100 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-teal-300"
-									id="province"
-								>
-									<option value="" disabled selected hidden>Select...</option>
-									<option>Gauteng</option>
-									<option>KwaZulu-Natal</option>
-									<option>Western Cape</option>
-									<option>Eastern Cape</option>
-									<option>Free State</option>
-									<option>Limpopo</option>
-									<option>Mpumalanga</option>
-									<option>Northern Cape</option>
-									<option>North West</option>
-								</select>
-								<div
-									class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
-								>
-									<svg
-										class="fill-current h-4 w-4"
-										xmlns="http://www.w3.org/2000/svg"
-										viewBox="0 0 20 20"
+				</div>
+				<div class="mt-5 md:mt-0 md:col-span-2">
+					<form action="#" method="POST">
+						<div class="shadow sm:rounded-md sm:overflow-hidden">
+							<div class="px-4 py-5 bg-white space-y-6 sm:p-6">
+								<div class="grid grid-cols-3 gap-6">
+									<div class="col-span-3 sm:col-span-2">
+										<label
+											for="company-website"
+											class="block text-sm font-medium text-gray-700"
+										>
+											Website
+										</label>
+										<div class="mt-1 flex rounded-md shadow-sm">
+											<span
+												class="inline-flex items-center px-3 rounded-l-md border border-r-0 border-gray-300 bg-yellow-200 text-gray-800 text-sm"
+											>
+												http://
+											</span>
+											<input
+												type="text"
+												name="company-website"
+												id="company-website"
+												class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300"
+												placeholder="www.example.com"
+											/>
+										</div>
+									</div>
+								</div>
+
+								<div>
+									<label
+										for="about"
+										class="block text-sm font-medium text-gray-700"
 									>
-										<path
-											d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+										About
+									</label>
+									<div class="mt-1">
+										<textarea
+											id="about"
+											name="about"
+											rows="3"
+											class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md"
+											placeholder="you@example.com"
 										/>
-									</svg>
+									</div>
+									<p class="mt-2 text-sm text-gray-500">
+										Brief description for your profile. URLs are hyperlinked.
+									</p>
+								</div>
+
+								<div>
+									<!-- svelte-ignore a11y-label-has-associated-control -->
+									<label class="block text-sm font-medium text-gray-700">
+										Photo
+									</label>
+									<div class="mt-1 flex items-center">
+										<span
+											class="inline-block h-12 w-12 rounded-full overflow-hidden bg-gray-100"
+										>
+											<svg
+												class="h-full w-full text-gray-300"
+												fill="currentColor"
+												viewBox="0 0 24 24"
+											>
+												<path
+													d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z"
+												/>
+											</svg>
+										</span>
+										<button
+											type="button"
+											class="ml-5 bg-white py-2 px-3 border border-gray-300 rounded-md shadow-sm text-sm leading-4 font-medium text-gray-700 hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+											>Change</button
+										>
+									</div>
+								</div>
+
+								<div>
+									<!-- svelte-ignore a11y-label-has-associated-control -->
+									<label class="block text-sm font-medium text-gray-700">
+										Cover photo
+									</label>
+									<div
+										class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md"
+									>
+										<div class="space-y-1 text-center">
+											<svg
+												class="mx-auto h-12 w-12 text-green-500"
+												stroke="currentColor"
+												fill="none"
+												viewBox="0 0 48 48"
+												aria-hidden="true"
+											>
+												<path
+													d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02"
+													stroke-width="2"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+											<div class="flex text-sm text-gray-900">
+												<label
+													for="file-upload"
+													class="relative cursor-pointer bg-white rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+												>
+													<span>Upload a file</span>
+													<input
+														id="file-upload"
+														name="file-upload"
+														type="file"
+														class="sr-only"
+													/>
+												</label>
+												<p class="pl-1">or drag and drop</p>
+											</div>
+											<p class="text-xs text-gray-500">
+												PNG, JPG, GIF up to 10MB
+											</p>
+										</div>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-								for="grid-zip"
-							>
-								Zip
-							</label>
-							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-teal-300"
-								id="grid-zip"
-								type="text"
-								placeholder="xxxx"
-							/>
-						</div>
-					</div>
-					<div class="space-y-6 mt-6">
-						<div class="flex items-center justify-between">
-							<div class="flex items-center">
-								<input
-									id="remember_me"
-									name="remember_me"
-									type="checkbox"
-									class="h-4 w-4 bg-blue-500 focus:ring-blue-400 border-gray-300 rounded"
-								/>
-								<label
-									for="remember_me"
-									class="ml-2 block text-sm text-gray-800"
+							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
+								<button
+									type="submit"
+									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									>Save</button
 								>
-									Remember me
-								</label>
-							</div>
-							<div class="text-sm text-right">
-								<!-- svelte-ignore a11y-invalid-attribute -->
-								<a href="#" class="text-blue-300 hover:text-blue-500 ">
-									Forgot your password?
-								</a>
-								<!-- TODORemeber to href to the Forgot your password Pages -->
 							</div>
 						</div>
-						<div>
-							<button
-								type="submit"
-								class="w-full flex justify-center bg-blue-300  hover:bg-blue-500 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
-							>
-								Sign In
-							</button>
-						</div>
-						<div class="flex items-center justify-center space-x-2 my-5">
-							<span class="h-px w-16 bg-gray-200" />
-							<span class="text-gray-500 font-normal text-center">OR</span>
-							<span class="h-px w-16 bg-gray-200" />
-						</div>
-						<div>
-							<button
-								type="submit"
-								class="w-full flex justify-center bg-green-300  hover:bg-green-500 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
-							>
-								Sign Up
-							</button>
-						</div>
-					</div>
-				</form>
+					</form>
+				</div>
+			</div>
+		</div>
 
-				<div class="pt-6 text-center text-gray-400 text-xs">
-					<span>
-						Copyright © 2021-2024
-						<a
-							href="https://github.com/Fathom-Growth-Solutions"
-							rel=""
-							target="_blank"
-							title="Fathom Growth Solutions"
-							class="text-blue-300 hover:text-blue-500 "
-							>Fathom Growth Solutions</a
-						></span
-					>
+		<div class="hidden sm:block" aria-hidden="true">
+			<div class="py-5">
+				<div class="border-t border-red-300" />
+			</div>
+		</div>
+
+		<div class="mt-10 sm:mt-0">
+			<div class="md:grid md:grid-cols-3 md:gap-6">
+				<div class="md:col-span-1">
+					<div class="px-4 sm:px-0">
+						<h3 class="text-lg font-medium leading-6 text-gray-900">
+							Personal Information
+						</h3>
+						<p class="mt-1 text-sm text-gray-900">
+							Use a permanent address where you can receive mail.
+						</p>
+					</div>
+				</div>
+				<div class="mt-5 md:mt-0 md:col-span-2">
+					<form action="#" method="POST">
+						<div class="shadow overflow-hidden sm:rounded-md">
+							<div class="px-4 py-5 bg-white sm:p-6">
+								<div class="grid grid-cols-6 gap-6">
+									<div class="col-span-6 sm:col-span-3">
+										<label
+											for="first-name"
+											class="block text-sm font-medium text-gray-700"
+											>First name</label
+										>
+										<input
+											type="text"
+											name="first-name"
+											id="first-name"
+											autocomplete="given-name"
+											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+										/>
+									</div>
+
+									<div class="col-span-6 sm:col-span-3">
+										<label
+											for="last-name"
+											class="block text-sm font-medium text-gray-700"
+											>Last name</label
+										>
+										<input
+											type="text"
+											name="last-name"
+											id="last-name"
+											autocomplete="family-name"
+											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+										/>
+									</div>
+
+									<div class="col-span-6 sm:col-span-4">
+										<label
+											for="email-address"
+											class="block text-sm font-medium text-gray-700"
+											>Email address</label
+										>
+										<input
+											type="text"
+											name="email-address"
+											id="email-address"
+											autocomplete="email"
+											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+										/>
+									</div>
+
+									<div class="col-span-6 sm:col-span-3">
+										<label
+											for="country"
+											class="block text-sm font-medium text-gray-700"
+											>Country</label
+										>
+										<select
+											id="country"
+											name="country"
+											autocomplete="country-name"
+											class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+										>
+											<option>United States</option>
+											<option>Canada</option>
+											<option>Mexico</option>
+										</select>
+									</div>
+
+									<div class="col-span-6">
+										<label
+											for="street-address"
+											class="block text-sm font-medium text-gray-700"
+											>Street address</label
+										>
+										<input
+											type="text"
+											name="street-address"
+											id="street-address"
+											autocomplete="street-address"
+											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+										/>
+									</div>
+
+									<div class="col-span-6 sm:col-span-6 lg:col-span-2">
+										<label
+											for="city"
+											class="block text-sm font-medium text-gray-700"
+											>City</label
+										>
+										<input
+											type="text"
+											name="city"
+											id="city"
+											autocomplete="address-level2"
+											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+										/>
+									</div>
+
+									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
+										<label
+											for="region"
+											class="block text-sm font-medium text-gray-700"
+											>State / Province</label
+										>
+										<input
+											type="text"
+											name="region"
+											id="region"
+											autocomplete="address-level1"
+											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+										/>
+									</div>
+
+									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
+										<label
+											for="postal-code"
+											class="block text-sm font-medium text-gray-700"
+											>ZIP / Postal code</label
+										>
+										<input
+											type="text"
+											name="postal-code"
+											id="postal-code"
+											autocomplete="postal-code"
+											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+										/>
+									</div>
+								</div>
+							</div>
+							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
+								<button
+									type="submit"
+									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									>Save</button
+								>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="hidden sm:block" aria-hidden="true">
+			<div class="py-5">
+				<div class="border-t border-red-300" />
+			</div>
+		</div>
+
+		<div class="mt-10 sm:mt-0">
+			<div class="md:grid md:grid-cols-3 md:gap-6">
+				<div class="md:col-span-1">
+					<div class="px-4 sm:px-0">
+						<h3 class="text-lg font-medium leading-6 text-gray-900">
+							Notifications
+						</h3>
+						<p class="mt-1 text-sm text-gray-900">
+							Decide which communications you'd like to receive and how.
+						</p>
+					</div>
+				</div>
+				<div class="mt-5 md:mt-0 md:col-span-2">
+					<form action="#" method="POST">
+						<div class="shadow overflow-hidden sm:rounded-md">
+							<div class="px-4 py-5 bg-white space-y-6 sm:p-6">
+								<fieldset>
+									<legend class="sr-only">By Email</legend>
+									<div
+										class="text-base font-medium text-gray-900"
+										aria-hidden="true"
+									>
+										By Email
+									</div>
+									<div class="mt-4 space-y-4">
+										<div class="flex items-start">
+											<div class="flex items-center h-5">
+												<input
+													id="comments"
+													name="comments"
+													type="checkbox"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded"
+												/>
+											</div>
+											<div class="ml-3 text-sm">
+												<label for="comments" class="font-medium text-gray-700"
+													>Comments</label
+												>
+												<p class="text-gray-500">
+													Get notified when someones posts a comment on a
+													posting.
+												</p>
+											</div>
+										</div>
+										<div class="flex items-start">
+											<div class="flex items-center h-5">
+												<input
+													id="candidates"
+													name="candidates"
+													type="checkbox"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded"
+												/>
+											</div>
+											<div class="ml-3 text-sm">
+												<label
+													for="candidates"
+													class="font-medium text-gray-700">Candidates</label
+												>
+												<p class="text-gray-500">
+													Get notified when a candidate applies for a job.
+												</p>
+											</div>
+										</div>
+										<div class="flex items-start">
+											<div class="flex items-center h-5">
+												<input
+													id="offers"
+													name="offers"
+													type="checkbox"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded"
+												/>
+											</div>
+											<div class="ml-3 text-sm">
+												<label for="offers" class="font-medium text-gray-700"
+													>Offers</label
+												>
+												<p class="text-gray-500">
+													Get notified when a candidate accepts or rejects an
+													offer.
+												</p>
+											</div>
+										</div>
+									</div>
+								</fieldset>
+								<fieldset>
+									<legend class="contents text-base font-medium text-gray-900"
+										>Push Notifications</legend
+									>
+									<p class="text-sm text-gray-500">
+										These are delivered via SMS to your mobile phone.
+									</p>
+									<div class="mt-4 space-y-4">
+										<div class="flex items-center">
+											<input
+												id="push-everything"
+												name="push-notifications"
+												type="radio"
+												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+											/>
+											<label
+												for="push-everything"
+												class="ml-3 block text-sm font-medium text-gray-700"
+											>
+												Everything
+											</label>
+										</div>
+										<div class="flex items-center">
+											<input
+												id="push-email"
+												name="push-notifications"
+												type="radio"
+												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+											/>
+											<label
+												for="push-email"
+												class="ml-3 block text-sm font-medium text-gray-700"
+											>
+												Same as email
+											</label>
+										</div>
+										<div class="flex items-center">
+											<input
+												id="push-nothing"
+												name="push-notifications"
+												type="radio"
+												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+											/>
+											<label
+												for="push-nothing"
+												class="ml-3 block text-sm font-medium text-gray-700"
+											>
+												No push notifications
+											</label>
+										</div>
+									</div>
+								</fieldset>
+							</div>
+							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
+								<button
+									type="submit"
+									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									>Save</button
+								>
+							</div>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-
-<!-- component -->
-<style>
-	/*remove custom style*/
-	.squares {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		overflow: hidden;
-	}
-	.squares li {
-		position: absolute;
-		display: block;
-		list-style: none;
-		width: 20px;
-		height: 20px;
-		background: #93c5fd;
-		animation: animate 25s linear infinite;
-		bottom: -150px;
-	}
-	.squares li:nth-child(1) {
-		left: 25%;
-		width: 80px;
-		height: 80px;
-		animation-delay: 0s;
-	}
-
-	.squares li:nth-child(2) {
-		left: 10%;
-		width: 20px;
-		height: 20px;
-		animation-delay: 2s;
-		animation-duration: 12s;
-	}
-
-	.squares li:nth-child(3) {
-		left: 70%;
-		width: 20px;
-		height: 20px;
-		animation-delay: 4s;
-	}
-
-	.squares li:nth-child(4) {
-		left: 40%;
-		width: 60px;
-		height: 60px;
-		animation-delay: 0s;
-		animation-duration: 18s;
-	}
-
-	.squares li:nth-child(5) {
-		left: 65%;
-		width: 20px;
-		height: 20px;
-		animation-delay: 0s;
-	}
-
-	.squares li:nth-child(6) {
-		left: 75%;
-		width: 110px;
-		height: 110px;
-		animation-delay: 3s;
-	}
-
-	.squares li:nth-child(7) {
-		left: 35%;
-		width: 150px;
-		height: 150px;
-		animation-delay: 7s;
-	}
-
-	.squares li:nth-child(8) {
-		left: 50%;
-		width: 25px;
-		height: 25px;
-		animation-delay: 15s;
-		animation-duration: 45s;
-	}
-
-	.squares li:nth-child(9) {
-		left: 20%;
-		width: 15px;
-		height: 15px;
-		animation-delay: 2s;
-		animation-duration: 35s;
-	}
-
-	.squares li:nth-child(10) {
-		left: 85%;
-		width: 150px;
-		height: 150px;
-		animation-delay: 0s;
-		animation-duration: 11s;
-	}
-	@keyframes animate {
-		0% {
-			transform: translateY(0) rotate(0deg);
-			opacity: 1;
-			border-radius: 0;
-		}
-
-		100% {
-			transform: translateY(-1000px) rotate(720deg);
-			opacity: 0;
-			border-radius: 50%;
-		}
-	}
-</style>

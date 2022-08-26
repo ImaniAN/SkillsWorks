@@ -2,11 +2,13 @@
 	// import Sign_up_form from '../components/onboarding/Sign_up_form.svelte';
 	// import Log_in_form from '../components/onboarding/Log_in_form.svelte';
 	import Landing from '../components/onboarding/Landing.svelte';
+	// import Category_filters from '../components/comps/extras/Category_filters.svelte';
 	// import Navbar from '../components/comps/Navbar.svelte';
 	// import Faq from '../components/about_us/Faq.svelte';
 	// import Footer from '../components/comps/Footer.svelte';
 	// import Menu from '../components/comps/extras/Menu.svelte';
 	// import Reviews from '../components/comps/extras/Reviews.svelte';
+	// import Full_side_nav from '../components/comps/extras/Full_side_nav.svelte';
 	// import Tab_pills from '../components/comps/extras/Tab_pills.svelte';
 	// import Testimonial from '../components/comps/extras/Testimonial.svelte';
 	// import Pop_cart from '../components/comps/extras/Pop_cart.svelte';
@@ -36,7 +38,9 @@
 	<!-- <Faq /> -->
 	<!-- <Footer /> -->
 	<Landing />
+	<!-- <Category_filters /> -->
 	<!-- <Menu /> -->
+	<!-- <Full_side_nav /> -->
 	<!-- <Reviews /> -->
 	<!-- <Tab_pills /> -->
 	<!-- <Testimonial /> -->
@@ -54,4 +58,3 @@
 	<!-- <Split_with_headings /> -->
 	<!-- <Branded_accent /> -->
 </main>
-

@@ -1,7 +1,11 @@
-<label class="relative block p-3 border-2 border-gray-200 rounded-lg" for="name">
+<label
+	class="relative block p-3 border-2 border-gray-200 rounded-lg"
+	for="name"
+>
 	<input
 		class="w-full px-0 pt-3.5 pb-0 text-sm placeholder-transparent border-none focus:ring-0 peer"
 		id="name"
+		required
 		type="text"
 		placeholder="Name"
 	/>

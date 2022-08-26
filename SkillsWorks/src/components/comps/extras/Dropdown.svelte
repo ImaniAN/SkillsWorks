@@ -32,8 +32,13 @@
 			<div class="flow-root py-2">
 				<div class="-my-2 divide-y divide-gray-100">
 					<div class="p-2">
-						<strong class="block p-2 text-xs font-medium text-gray-400 uppercase"> General </strong>
+						<strong
+							class="block p-2 text-xs font-medium text-gray-400 uppercase"
+						>
+							General
+						</strong>
 
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
 							class="block px-4 py-2 text-sm text-gray-500 rounded-lg hover:bg-gray-50 hover:text-gray-700"
@@ -42,6 +47,7 @@
 							View on Storefront
 						</a>
 
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
 							class="block px-4 py-2 text-sm text-gray-500 rounded-lg hover:bg-gray-50 hover:text-gray-700"
@@ -50,6 +56,7 @@
 							View Warehouse Info
 						</a>
 
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
 							class="block px-4 py-2 text-sm text-gray-500 rounded-lg hover:bg-gray-50 hover:text-gray-700"
@@ -58,6 +65,7 @@
 							Duplicate Product
 						</a>
 
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
 							class="block px-4 py-2 text-sm text-gray-500 rounded-lg hover:bg-gray-50 hover:text-gray-700"
@@ -68,7 +76,9 @@
 					</div>
 
 					<div class="p-2">
-						<strong class="block p-2 text-xs font-medium text-gray-400 uppercase">
+						<strong
+							class="block p-2 text-xs font-medium text-gray-400 uppercase"
+						>
 							Danger Zone
 						</strong>
 
