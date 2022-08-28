@@ -1,5 +1,11 @@
-<a class="relative block border border-gray-100" href="/product/build-your-own-drone">
-	<button class="absolute p-2 text-white bg-black rounded-full right-4 top-4" type="button">
+<a
+	class="relative block border border-indigo-100"
+	href="/product/build-your-own-drone"
+>
+	<button
+		class="absolute p-2 text-white bg-black rounded-full right-4 top-4"
+		type="button"
+	>
 		<svg
 			class="w-4 h-4"
 			fill="none"
@@ -24,11 +30,13 @@
 	/>
 
 	<div class="p-6">
-		<strong class="inline-block px-3 py-1 text-xs font-medium bg-yellow-400"> New </strong>
+		<strong class="inline-block px-3 py-1 text-xs font-medium bg-yellow-400">
+			New
+		</strong>
 
 		<h5 class="mt-4 text-lg font-bold">Build Your Own Drone</h5>
 
-		<p class="mt-2 text-sm text-gray-700">$14.99</p>
+		<p class="mt-2 text-sm text-gray-700">R14.99</p>
 
 		<button
 			class="block w-full p-4 mt-4 text-sm font-medium bg-yellow-500 rounded-sm"
@@ -37,4 +45,5 @@
 			Add to Cart
 		</button>
 	</div>
+	<!--END:()-->
 </a>

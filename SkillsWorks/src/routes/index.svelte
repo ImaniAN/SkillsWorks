@@ -1,3 +1,4 @@
+<!-- This comp is for showing the index/home/base url/ aka index0 -->
 <script>
 	// import Sign_up_form from '../components/onboarding/Sign_up_form.svelte';
 	// import Log_in_form from '../components/onboarding/Log_in_form.svelte';

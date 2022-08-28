@@ -9,13 +9,14 @@
 						fill="none"
 						viewBox="0 0 24 24"
 						class="w-4 h-4 mr-2 stroke-current"
-						><path
+					>
+						<path
 							stroke-linecap="round"
 							stroke-linejoin="round"
 							stroke-width="2"
 							d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
-						/></svg
-					>
+						/>
+					</svg>
 					Home
 				</a>
 			</li>
@@ -27,13 +28,14 @@
 						fill="none"
 						viewBox="0 0 24 24"
 						class="w-4 h-4 mr-2 stroke-current"
-						><path
+					>
+						<path
 							stroke-linecap="round"
 							stroke-linejoin="round"
 							stroke-width="2"
 							d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
-						/></svg
-					>
+						/>
+					</svg>
 					Documents
 				</a>
 			</li>
@@ -43,18 +45,21 @@
 					fill="none"
 					viewBox="0 0 24 24"
 					class="w-4 h-4 mr-2 stroke-current"
-					><path
+				>
+					<path
 						stroke-linecap="round"
 						stroke-linejoin="round"
 						stroke-width="2"
 						d="M9 13h6m-3-3v6m5 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-					/></svg
-				>
+					/>
+				</svg>
 				Add Document
 			</li>
 		</ul>
 	</div>
+	<!--END:()-->
 </div>
+<!--END:()-->
 
 <div class="drawer drawer-end">
 	<input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
@@ -75,7 +80,9 @@
 								alt="Indoors house"
 							/>
 						</div>
+						<!--END:()-->
 					</div>
+					<!--END:()-->
 
 					<div class="relative flex items-center bg-gray-100">
 						<span
@@ -102,11 +109,16 @@
 								Get in Touch
 							</a>
 						</div>
+						<!--END:()-->
 					</div>
+					<!--END:()-->
 				</div>
+				<!--END:()-->
 			</div>
+			<!--END:()-->
 		</section>
 	</div>
+	<!--END:()-->
 
 	<div class="drawer-side bg-indigo-300">
 		<label for="my-drawer-4" class="drawer-overlay " />
@@ -135,7 +147,7 @@
 				</svg>
 			</summary>
 
-			<form action="" class="border-t border-gray-200 lg:border-t-0">
+			<form action="" class="border-t border-indigo-200 lg:border-t-0">
 				<!-- component -->
 				<div class="flex items-center">
 					<label for="voice-search" class="sr-only">Search</label>
@@ -149,17 +161,20 @@
 								fill="currentColor"
 								viewBox="0 0 20 20"
 								xmlns="http://www.w3.org/2000/svg"
-								><path
+							>
+								<path
 									fill-rule="evenodd"
 									d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
 									clip-rule="evenodd"
-								/></svg
-							>
+								/>
+							</svg>
 						</div>
+						<!--END:()-->
+
 						<input
 							type="text"
 							id="voice-search"
-							class="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+							class="bg-gray-50 border-2 border-indigo-300 border-dashed text-gray-900 text-sm focus:ring-indigo-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-indigo-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-blue-500"
 							placeholder="Search blog topics..."
 						/>
 						<button
@@ -172,17 +187,20 @@
 								fill="currentColor"
 								viewBox="0 0 20 20"
 								xmlns="http://www.w3.org/2000/svg"
-								><path
+							>
+								<path
 									fill-rule="evenodd"
 									d="M7 4a3 3 0 016 0v4a3 3 0 11-6 0V4zm4 10.93A7.001 7.001 0 0017 8a1 1 0 10-2 0A5 5 0 015 8a1 1 0 00-2 0 7.001 7.001 0 006 6.93V17H6a1 1 0 100 2h8a1 1 0 100-2h-3v-2.07z"
 									clip-rule="evenodd"
-								/></svg
-							>
+								/>
+							</svg>
 						</button>
 					</div>
+					<!--END:()-->
+
 					<button
 						type="submit"
-						class="inline-flex items-center py-2.5 px-3 ml-2 text-sm font-medium text-white bg-blue-700 border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+						class="inline-flex items-center py-2.5 px-3 ml-2 text-sm font-medium text-white bg-blue-700 border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-indigo-800"
 					>
 						<svg
 							aria-hidden="true"
@@ -191,15 +209,17 @@
 							stroke="currentColor"
 							viewBox="0 0 24 24"
 							xmlns="http://www.w3.org/2000/svg"
-							><path
+						>
+							<path
 								stroke-linecap="round"
 								stroke-linejoin="round"
 								stroke-width="2"
 								d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-							/></svg
-						>Search
+							/>
+						</svg>Search
 					</button>
 				</div>
+				<!--END:()-->
 
 				<fieldset>
 					<legend
@@ -214,42 +234,47 @@
 								id="toy"
 								type="checkbox"
 								name="type[toy]"
-								class="w-5 h-5 border-gray-300 rounded"
+								class="w-5 h-5 border-indigo-300 rounded"
 							/>
 
 							<label for="toy" class="ml-3 text-sm font-medium"> Toy </label>
 						</div>
+						<!--END:()-->
 
 						<div class="flex items-center">
 							<input
 								id="game"
 								type="checkbox"
 								name="type[game]"
-								class="w-5 h-5 border-gray-300 rounded"
+								class="w-5 h-5 border-indigo-300 rounded"
 							/>
 
 							<label for="game" class="ml-3 text-sm font-medium"> Game </label>
 						</div>
+						<!--END:()-->
 
 						<div class="flex items-center">
 							<input
 								id="outdoor"
 								type="checkbox"
 								name="type[outdoor]"
-								class="w-5 h-5 border-gray-300 rounded"
+								class="w-5 h-5 border-indigo-300 rounded"
 							/>
 
 							<label for="outdoor" class="ml-3 text-sm font-medium">
 								Outdoor
 							</label>
 						</div>
+						<!--END:()-->
 
 						<div class="pt-2">
 							<button type="button" class="text-xs text-gray-500 underline">
 								Reset Type
 							</button>
 						</div>
+						<!--END:()-->
 					</div>
+					<!--END:()-->
 				</fieldset>
 
 				<div>
@@ -266,55 +291,62 @@
 									id="3+"
 									type="checkbox"
 									name="age[3+]"
-									class="w-5 h-5 border-gray-300 rounded"
+									class="w-5 h-5 border-indigo-300 rounded"
 								/>
 
 								<label for="3+" class="ml-3 text-sm font-medium"> 3+ </label>
 							</div>
+							<!--END:()-->
 
 							<div class="flex items-center">
 								<input
 									id="8+"
 									type="checkbox"
 									name="age[8+]"
-									class="w-5 h-5 border-gray-300 rounded"
+									class="w-5 h-5 border-indigo-300 rounded"
 								/>
 
 								<label for="8+" class="ml-3 text-sm font-medium"> 8+ </label>
 							</div>
+							<!--END:()-->
 
 							<div class="flex items-center">
 								<input
 									id="12+"
 									type="checkbox"
 									name="age[12+]"
-									class="w-5 h-5 border-gray-300 rounded"
+									class="w-5 h-5 border-indigo-300 rounded"
 								/>
 
 								<label for="12+" class="ml-3 text-sm font-medium"> 12+ </label>
 							</div>
+							<!--END:()-->
 
 							<div class="flex items-center">
 								<input
 									id="16+"
 									type="checkbox"
 									name="age[16+]"
-									class="w-5 h-5 border-gray-300 rounded"
+									class="w-5 h-5 border-indigo-300 rounded"
 								/>
 
 								<label for="16+" class="ml-3 text-sm font-medium"> 16+ </label>
 							</div>
+							<!--END:()-->
 
 							<div class="pt-2">
 								<button type="button" class="text-xs text-gray-500 underline">
 									Reset Age
 								</button>
 							</div>
+							<!--END:()-->
 						</div>
+						<!--END:()-->
 					</fieldset>
 				</div>
+				<!--END:()-->
 
-				<div class="flex justify-between px-5 py-3 border-t border-gray-200">
+				<div class="flex justify-between px-5 py-3 border-t border-indigo-200">
 					<button
 						name="reset"
 						type="button"
@@ -331,7 +363,10 @@
 						Apply Filters
 					</button>
 				</div>
+				<!--END:()-->
 			</form>
 		</details>
 	</div>
+	<!--END:()-->
 </div>
+<!--END:()-->

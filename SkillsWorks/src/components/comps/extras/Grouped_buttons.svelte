@@ -59,15 +59,23 @@
 		</svg>
 	</button>
 </div>
+<!--END:()-->
 
-<div class="inline-flex items-center overflow-hidden text-white bg-blue-600 rounded">
+<div
+	class="inline-flex items-center overflow-hidden text-white bg-blue-600 rounded"
+>
 	<button
 		class="p-3 bg-blue-600 focus:outline-none focus:bg-blue-700 active:bg-blue-500"
 		type="button"
 	>
 		<span class="sr-only"> Prev </span>
 
-		<svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			class="w-4 h-4"
+			viewBox="0 0 20 20"
+			fill="currentColor"
+		>
 			<path
 				fill-rule="evenodd"
 				d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
@@ -84,7 +92,12 @@
 	>
 		<span class="sr-only"> Next </span>
 
-		<svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			class="w-4 h-4"
+			viewBox="0 0 20 20"
+			fill="currentColor"
+		>
 			<path
 				fill-rule="evenodd"
 				d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
@@ -93,13 +106,14 @@
 		</svg>
 	</button>
 </div>
+<!--END:()-->
 
 <div class="inline-flex items-center -space-x-px text-xs rounded-md">
 	<label class="relative" for="sort">
 		<span class="sr-only"> Sort </span>
 
 		<select
-			class="py-3 pl-5 pr-10 text-xs font-medium border-gray-200 rounded-l-md hover:z-10 focus:outline-none focus:border-indigo-600 focus:z-10 hover:bg-gray-50 focus:ring-0"
+			class="py-3 pl-5 pr-10 text-xs font-medium border-indigo-200 rounded-l-md hover:z-10 focus:outline-none focus:border-indigo-600 focus:z-10 hover:bg-gray-50 focus:ring-0"
 			id="sort"
 			name="sort"
 		>
@@ -125,3 +139,4 @@
 		Export
 	</button>
 </div>
+<!--END:()-->

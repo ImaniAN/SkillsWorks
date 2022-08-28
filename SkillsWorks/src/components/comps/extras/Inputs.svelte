@@ -1,5 +1,5 @@
 <label
-	class="relative block p-3 border-2 border-gray-200 rounded-lg"
+	class="relative block p-3 border-2 border-indigo-200 rounded-lg"
 	for="name"
 >
 	<input

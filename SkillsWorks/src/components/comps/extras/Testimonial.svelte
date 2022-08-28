@@ -9,18 +9,20 @@
 						class="object-cover rounded-lg"
 					/>
 				</div>
+				<!--END:()-->
 
 				<div
 					class="absolute inline-flex px-4 py-2 bg-white rounded-lg shadow-xl -bottom-4 -right-4"
 				>
 					<span class="inline-block w-12 h-10 bg-gray-100 rounded-lg" />
 				</div>
+				<!--END:()-->
 			</div>
+			<!--END:()-->
 
 			<blockquote class="sm:col-span-2">
 				<p class="text-xl font-medium sm:text-2xl">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt perspiciatis cumque neque ut
-					nobis excepturi, quasi iure quisquam autem alias.
+					Lorem ipsum dolor sit ame, consectetur adipisicing.
 				</p>
 
 				<cite class="inline-flex items-center mt-8 not-italic">
@@ -31,5 +33,7 @@
 				</cite>
 			</blockquote>
 		</div>
+		<!--END:()-->
 	</section>
 </div>
+<!--END:()-->

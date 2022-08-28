@@ -3,10 +3,12 @@
 		<div class="inline-flex items-center justify-center w-16 h-16">
 			<span class="block w-10 h-10 bg-gray-200 rounded-lg" />
 		</div>
+		<!--END:()-->
 
-		<div class="border-t border-gray-100">
+		<div class="border-t border-indigo-100">
 			<nav class="flex flex-col p-2">
 				<div class="py-4">
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
 						class="flex justify-center px-2 py-1.5 t text-blue-700 rounded bg-blue-50 group relative"
@@ -38,9 +40,11 @@
 						</span>
 					</a>
 				</div>
+				<!--END:()-->
 
-				<ul class="pt-4 space-y-1 border-t border-gray-100">
+				<ul class="pt-4 space-y-1 border-t border-indigo-100">
 					<li>
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href=""
 							class="flex justify-center px-2 py-1.5 text-gray-500 rounded hover:bg-gray-50 hover:text-gray-700 relative group"
@@ -69,6 +73,7 @@
 					</li>
 
 					<li>
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href=""
 							class="flex relative group justify-center px-2 py-1.5 text-gray-500 rounded hover:bg-gray-50 hover:text-gray-700"
@@ -97,6 +102,7 @@
 					</li>
 
 					<li>
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href=""
 							class="flex justify-center px-2 py-1.5 text-gray-500 rounded hover:bg-gray-50 hover:text-gray-700 relative group"
@@ -125,6 +131,7 @@
 					</li>
 
 					<li>
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href=""
 							class="relative group flex justify-center px-2 py-1.5 text-gray-500 rounded hover:bg-gray-50 hover:text-gray-700"
@@ -154,9 +161,13 @@
 				</ul>
 			</nav>
 		</div>
+		<!--END:()-->
 	</div>
+	<!--END:()-->
 
-	<div class="sticky inset-x-0 bottom-0 p-2 bg-white border-t border-gray-100">
+	<div
+		class="sticky inset-x-0 bottom-0 p-2 bg-white border-t border-indigo-100"
+	>
 		<form action="/logout">
 			<button
 				type="submit"
@@ -185,4 +196,6 @@
 			</button>
 		</form>
 	</div>
+	<!--END:()-->
 </div>
+<!--END:()-->

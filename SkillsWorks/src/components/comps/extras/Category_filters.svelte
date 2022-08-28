@@ -73,9 +73,10 @@
 							</svg>
 						</button>
 					</div>
+					<!--END:()-->
 
 					<!-- Filters -->
-					<form class="mt-4 border-t border-gray-200">
+					<form class="mt-4 border-t border-indigo-200">
 						<h3 class="sr-only">Categories</h3>
 						<ul role="list" class="font-medium text-gray-900 px-2 py-3">
 							<li>
@@ -104,7 +105,7 @@
 							</li>
 						</ul>
 
-						<div class="border-t border-gray-200 px-4 py-6">
+						<div class="border-t border-indigo-200 px-4 py-6">
 							<h3 class="-mx-2 -my-3 flow-root">
 								<!-- Expand/collapse section button -->
 								<button
@@ -163,7 +164,7 @@
 											name="color[]"
 											value="white"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-color-0"
@@ -172,6 +173,7 @@
 											White
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -179,7 +181,7 @@
 											name="color[]"
 											value="beige"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-color-1"
@@ -188,6 +190,7 @@
 											Beige
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -196,7 +199,7 @@
 											value="blue"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-color-2"
@@ -205,6 +208,7 @@
 											Blue
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -212,7 +216,7 @@
 											name="color[]"
 											value="brown"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-color-3"
@@ -221,6 +225,7 @@
 											Brown
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -228,7 +233,7 @@
 											name="color[]"
 											value="green"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-color-4"
@@ -237,6 +242,7 @@
 											Green
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -244,7 +250,7 @@
 											name="color[]"
 											value="purple"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-color-5"
@@ -253,11 +259,15 @@
 											Purple
 										</label>
 									</div>
+									<!--END:()-->
 								</div>
+								<!--END:()-->
 							</div>
+							<!--END:()-->
 						</div>
+						<!--END:()-->
 
-						<div class="border-t border-gray-200 px-4 py-6">
+						<div class="border-t border-indigo-200 px-4 py-6">
 							<h3 class="-mx-2 -my-3 flow-root">
 								<!-- Expand/collapse section button -->
 								<button
@@ -316,7 +326,7 @@
 											name="category[]"
 											value="new-arrivals"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-category-0"
@@ -325,6 +335,7 @@
 											New Arrivals
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -332,7 +343,7 @@
 											name="category[]"
 											value="sale"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-category-1"
@@ -341,6 +352,7 @@
 											Sale
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -349,7 +361,7 @@
 											value="travel"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-category-2"
@@ -358,6 +370,7 @@
 											Travel
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -365,7 +378,7 @@
 											name="category[]"
 											value="organization"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-category-3"
@@ -374,6 +387,7 @@
 											Organization
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -381,7 +395,7 @@
 											name="category[]"
 											value="accessories"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-category-4"
@@ -390,11 +404,15 @@
 											Accessories
 										</label>
 									</div>
+									<!--END:()-->
 								</div>
+								<!--END:()-->
 							</div>
+							<!--END:()-->
 						</div>
+						<!--END:()-->
 
-						<div class="border-t border-gray-200 px-4 py-6">
+						<div class="border-t border-indigo-200 px-4 py-6">
 							<h3 class="-mx-2 -my-3 flow-root">
 								<!-- Expand/collapse section button -->
 								<button
@@ -453,7 +471,7 @@
 											name="size[]"
 											value="2l"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-size-0"
@@ -462,6 +480,7 @@
 											2L
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -469,7 +488,7 @@
 											name="size[]"
 											value="6l"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-size-1"
@@ -478,6 +497,7 @@
 											6L
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -485,7 +505,7 @@
 											name="size[]"
 											value="12l"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-size-2"
@@ -494,6 +514,7 @@
 											12L
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -501,7 +522,7 @@
 											name="size[]"
 											value="18l"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-size-3"
@@ -510,6 +531,7 @@
 											18L
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -517,7 +539,7 @@
 											name="size[]"
 											value="20l"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-size-4"
@@ -526,6 +548,7 @@
 											20L
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -534,7 +557,7 @@
 											value="40l"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-size-5"
@@ -543,17 +566,24 @@
 											40L
 										</label>
 									</div>
+									<!--END:()-->
 								</div>
+								<!--END:()-->
 							</div>
+							<!--END:()-->
 						</div>
+						<!--END:()-->
 					</form>
 				</div>
+				<!--END:()-->
 			</div>
+			<!--END:()-->
 		</div>
+		<!--END:()-->
 
 		<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<div
-				class="relative z-10 flex items-baseline justify-between pt-24 pb-6 border-b border-gray-200"
+				class="relative z-10 flex items-baseline justify-between pt-24 pb-6 border-b border-indigo-200"
 			>
 				<h1 class="text-4xl font-bold tracking-tight text-gray-900">
 					New Arrivals
@@ -586,6 +616,7 @@
 								</svg>
 							</button>
 						</div>
+						<!--END:()-->
 
 						<!--
               Dropdown menu, show/hide based on menu state.
@@ -662,8 +693,11 @@
 									Price: High to Low
 								</a>
 							</div>
+							<!--END:()-->
 						</div>
+						<!--END:()-->
 					</div>
+					<!--END:()-->
 
 					<button
 						type="button"
@@ -704,7 +738,9 @@
 						</svg>
 					</button>
 				</div>
+				<!--END:()-->
 			</div>
+			<!--END:()-->
 
 			<section aria-labelledby="products-heading" class="pt-6 pb-24">
 				<h2 id="products-heading" class="sr-only">Products</h2>
@@ -715,7 +751,7 @@
 						<h3 class="sr-only">Categories</h3>
 						<ul
 							role="list"
-							class="text-sm font-medium text-gray-900 space-y-4 pb-6 border-b border-gray-200"
+							class="text-sm font-medium text-gray-900 space-y-4 pb-6 border-b border-indigo-200"
 						>
 							<li>
 								<!-- svelte-ignore a11y-invalid-attribute -->
@@ -743,7 +779,7 @@
 							</li>
 						</ul>
 
-						<div class="border-b border-gray-200 py-6">
+						<div class="border-b border-indigo-200 py-6">
 							<h3 class="-my-3 flow-root">
 								<!-- Expand/collapse section button -->
 								<button
@@ -802,7 +838,7 @@
 											name="color[]"
 											value="white"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-color-0"
@@ -811,6 +847,7 @@
 											White
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -818,7 +855,7 @@
 											name="color[]"
 											value="beige"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-color-1"
@@ -827,6 +864,7 @@
 											Beige
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -835,7 +873,7 @@
 											value="blue"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-color-2"
@@ -844,6 +882,7 @@
 											Blue
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -851,7 +890,7 @@
 											name="color[]"
 											value="brown"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-color-3"
@@ -860,6 +899,7 @@
 											Brown
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -867,7 +907,7 @@
 											name="color[]"
 											value="green"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-color-4"
@@ -876,6 +916,7 @@
 											Green
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -883,7 +924,7 @@
 											name="color[]"
 											value="purple"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-color-5"
@@ -892,11 +933,15 @@
 											Purple
 										</label>
 									</div>
+									<!--END:()-->
 								</div>
+								<!--END:()-->
 							</div>
+							<!--END:()-->
 						</div>
+						<!--END:()-->
 
-						<div class="border-b border-gray-200 py-6">
+						<div class="border-b border-indigo-200 py-6">
 							<h3 class="-my-3 flow-root">
 								<!-- Expand/collapse section button -->
 								<button
@@ -955,7 +1000,7 @@
 											name="category[]"
 											value="new-arrivals"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-category-0"
@@ -964,6 +1009,7 @@
 											New Arrivals
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -971,7 +1017,7 @@
 											name="category[]"
 											value="sale"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-category-1"
@@ -980,6 +1026,7 @@
 											Sale
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -988,7 +1035,7 @@
 											value="travel"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-category-2"
@@ -997,6 +1044,7 @@
 											Travel
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -1004,7 +1052,7 @@
 											name="category[]"
 											value="organization"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-category-3"
@@ -1013,6 +1061,7 @@
 											Organization
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -1020,7 +1069,7 @@
 											name="category[]"
 											value="accessories"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-category-4"
@@ -1029,11 +1078,15 @@
 											Accessories
 										</label>
 									</div>
+									<!--END:()-->
 								</div>
+								<!--END:()-->
 							</div>
+							<!--END:()-->
 						</div>
+						<!--END:()-->
 
-						<div class="border-b border-gray-200 py-6">
+						<div class="border-b border-indigo-200 py-6">
 							<h3 class="-my-3 flow-root">
 								<!-- Expand/collapse section button -->
 								<button
@@ -1092,7 +1145,7 @@
 											name="size[]"
 											value="2l"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-size-0"
@@ -1101,6 +1154,7 @@
 											2L
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -1108,7 +1162,7 @@
 											name="size[]"
 											value="6l"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-size-1"
@@ -1117,6 +1171,7 @@
 											6L
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -1124,7 +1179,7 @@
 											name="size[]"
 											value="12l"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-size-2"
@@ -1133,6 +1188,7 @@
 											12L
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -1140,7 +1196,7 @@
 											name="size[]"
 											value="18l"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-size-3"
@@ -1149,6 +1205,7 @@
 											18L
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -1156,7 +1213,7 @@
 											name="size[]"
 											value="20l"
 											type="checkbox"
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-size-4"
@@ -1165,6 +1222,7 @@
 											20L
 										</label>
 									</div>
+									<!--END:()-->
 
 									<div class="flex items-center">
 										<input
@@ -1173,7 +1231,7 @@
 											value="40l"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-size-5"
@@ -1182,21 +1240,29 @@
 											40L
 										</label>
 									</div>
+									<!--END:()-->
 								</div>
+								<!--END:()-->
 							</div>
+							<!--END:()-->
 						</div>
+						<!--END:()-->
 					</form>
 
 					<!-- Product grid -->
 					<div class="lg:col-span-3">
 						<!-- Replace with your content -->
 						<div
-							class="border-4 border-dashed border-gray-200 rounded-lg h-96 lg:h-full"
+							class="border-4 border-dashed border-indigo-200 rounded-lg h-96 lg:h-full"
 						/>
 						<!-- /End replace -->
 					</div>
+					<!--END:()-->
 				</div>
+				<!--END:()-->
 			</section>
 		</main>
 	</div>
+	<!--END:()-->
 </div>
+<!--END:()-->

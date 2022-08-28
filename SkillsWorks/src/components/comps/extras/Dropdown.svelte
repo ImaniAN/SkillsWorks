@@ -9,7 +9,7 @@
 	<div class="relative">
 		<button
 			type="button"
-			class="inline-flex items-center justify-center h-full px-2 text-gray-600 border-l border-gray-100 hover:text-gray-700 rounded-r-md hover:bg-gray-50"
+			class="inline-flex items-center justify-center h-full px-2 text-gray-600 border-l border-indigo-100 hover:text-gray-700 rounded-r-md hover:bg-gray-50"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@
 		</button>
 
 		<div
-			class="absolute right-0 z-10 w-56 mt-4 origin-top-right bg-white border border-gray-100 rounded-md shadow-lg"
+			class="absolute right-0 z-10 w-56 mt-4 origin-top-right bg-white border border-indigo-100 rounded-md shadow-lg"
 			role="menu"
 		>
 			<div class="flow-root py-2">
@@ -74,6 +74,7 @@
 							Unpublish Product
 						</a>
 					</div>
+					<!--END:()-->
 
 					<div class="p-2">
 						<strong
@@ -107,8 +108,14 @@
 							</button>
 						</form>
 					</div>
+					<!--END:()-->
 				</div>
+				<!--END:()-->
 			</div>
+			<!--END:()-->
 		</div>
+		<!--END:()-->
 	</div>
+	<!--END:()-->
 </div>
+<!--END:()-->

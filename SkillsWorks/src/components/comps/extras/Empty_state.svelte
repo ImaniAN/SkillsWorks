@@ -1,15 +1,24 @@
-<div class="relative p-8 text-center border border-gray-200 rounded-lg">
+<div
+	class="relative p-8 text-center border-2 border-indigo-300 border-dashed rounded-lg"
+>
 	<h2 class="text-2xl font-medium">There's nothing here...</h2>
 
-	<p class="mt-4 text-sm text-gray-500">Created posts will appear here, try creating one!</p>
+	<p class="mt-4 text-sm text-gray-500">
+		Created posts will appear here, try creating one!
+	</p>
 
+	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href=""
 		class="flex items-center justify-between px-5 py-3 mt-8 text-blue-600 border border-blue-600 rounded-lg hover:bg-blue-600 group"
 	>
-		<span class="text-lg font-medium group-hover:text-white"> Create a team </span>
+		<span class="text-lg font-medium group-hover:text-white">
+			Create a team
+		</span>
 
-		<span class="flex-shrink-0 p-2 ml-4 bg-white border border-blue-600 rounded-full">
+		<span
+			class="flex-shrink-0 p-2 ml-4 bg-white border border-blue-600 rounded-full"
+		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="w-5 h-5"
@@ -27,3 +36,4 @@
 		</span>
 	</a>
 </div>
+<!--END:()-->

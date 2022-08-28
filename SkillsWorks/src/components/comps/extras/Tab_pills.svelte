@@ -1,4 +1,4 @@
-<ul class="flex border-b border-gray-100">
+<ul class="flex border-b border-indigo-100">
 	<li class="flex-1">
 		<a class="relative block p-4" href="">
 			<span class="absolute inset-x-0 w-full h-px bg-pink-600 -bottom-px" />
@@ -21,6 +21,7 @@
 
 				<span class="ml-3 text-sm font-medium text-gray-900"> Settings </span>
 			</div>
+			<!--END:()-->
 		</a>
 	</li>
 
@@ -44,6 +45,7 @@
 
 				<span class="ml-3 text-sm font-medium text-gray-900"> Messages </span>
 			</div>
+			<!--END:()-->
 		</a>
 	</li>
 
@@ -67,6 +69,7 @@
 
 				<span class="ml-3 text-sm font-medium text-gray-900"> Archive </span>
 			</div>
+			<!--END:()-->
 		</a>
 	</li>
 
@@ -88,8 +91,11 @@
 					/>
 				</svg>
 
-				<span class="ml-3 text-sm font-medium text-gray-900"> Notifications </span>
+				<span class="ml-3 text-sm font-medium text-gray-900">
+					Notifications
+				</span>
 			</div>
+			<!--END:()-->
 		</a>
 	</li>
 </ul>

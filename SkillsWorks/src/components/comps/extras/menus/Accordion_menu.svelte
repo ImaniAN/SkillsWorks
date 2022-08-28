@@ -1,4 +1,5 @@
 <nav class="flex flex-col space-y-1">
+	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href=""
 		class="flex items-center px-4 py-2 text-gray-700 bg-gray-100 rounded-lg"
@@ -67,6 +68,7 @@
 
 		<nav class="mt-1.5 ml-8 flex flex-col">
 			<!-- svelte-ignore a11y-missing-attribute -->
+			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href=""
 				class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -89,6 +91,7 @@
 				<span class="ml-3 text-sm font-medium"> Banned Users </span>
 			</a>
 
+			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href=""
 				class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -113,6 +116,7 @@
 		</nav>
 	</details>
 
+	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href=""
 		class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -135,6 +139,7 @@
 		<span class="ml-3 text-sm font-medium"> Billing </span>
 	</a>
 
+	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href=""
 		class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -198,6 +203,7 @@
 
 		<nav class="mt-1.5 ml-8 flex flex-col">
 			<!-- svelte-ignore a11y-missing-attribute -->
+			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href=""
 				class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -220,6 +226,7 @@
 				<span class="ml-3 text-sm font-medium"> Details </span>
 			</a>
 
+			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href=""
 				class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"

@@ -9,13 +9,14 @@
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke="currentColor"
-					><path
+				>
+					<path
 						stroke-linecap="round"
 						stroke-linejoin="round"
 						stroke-width="2"
 						d="M4 6h16M4 12h8m-8 6h16"
-					/></svg
-				>
+					/>
+				</svg>
 			</label>
 			<ul
 				tabindex="0"
@@ -37,10 +38,11 @@
 							width="24"
 							height="24"
 							viewBox="0 0 24 24"
-							><path
-								d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
-							/></svg
 						>
+							<path
+								d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
+							/>
+						</svg>
 					</a>
 					<ul class="p-2">
 						<!-- svelte-ignore a11y-missing-attribute -->
@@ -55,9 +57,13 @@
 				</li>
 			</ul>
 		</div>
+		<!--END:()-->
+
 		<!-- svelte-ignore a11y-missing-attribute -->
 		<a class="btn btn-ghost normal-case text-xl">Home</a>
 	</div>
+	<!--END:()-->
+
 	<div class="navbar-center hidden lg:flex">
 		<ul class="menu menu-horizontal p-0">
 			<!-- svelte-ignore a11y-missing-attribute -->
@@ -76,10 +82,11 @@
 						width="20"
 						height="20"
 						viewBox="0 0 24 24"
-						><path
-							d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
-						/></svg
 					>
+						<path
+							d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
+						/>
+					</svg>
 				</a>
 				<ul class="p-2">
 					<!-- svelte-ignore a11y-missing-attribute -->
@@ -96,14 +103,18 @@
 			<!-- svelte-ignore a11y-missing-attribute -->
 		</ul>
 	</div>
+	<!--END:()-->
+
 	<div class="navbar-end">
 		<!-- svelte-ignore a11y-missing-attribute -->
 		<a class="btn">Sign In</a>
 		<!-- svelte-ignore a11y-missing-attribute -->
 		<a class="btn">Sign Up</a>
 	</div>
+	<!--END:()-->
 </div>
 
+<!--END:()-->
 <style>
 	div.sticky {
 		position: -webkit-sticky;

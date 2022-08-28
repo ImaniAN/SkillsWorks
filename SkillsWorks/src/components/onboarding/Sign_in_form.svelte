@@ -15,13 +15,18 @@
 				>
 					Reference: Call to action
 				</div>
+				<!--END:()-->
+
 				<div class="sm:text-sm xl:text-md text-gray-900 font-normal">
 					What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing
 					and typesetting industry Lorem Ipsum has been the industry's standard
 					dummy text ever since the 1500s when an unknown printer took a galley
 					of type and scrambled it to make a type specimen book it has?
 				</div>
+				<!--END:()-->
 			</div>
+			<!--END:()-->
+
 			<!---remove custom style-->
 			<ul class="squares">
 				<li />
@@ -36,6 +41,8 @@
 				<li />
 			</ul>
 		</div>
+		<!--END:()-->
+
 		<div
 			class="md:flex md:items-center md:justify-cente sm:w-auto md:h-full w-4/5 xl:w-2/5 p-8  md:p-10 lg:p-14 sm:rounded-lg md:rounded-none bg-white"
 		>
@@ -44,6 +51,8 @@
 					<h3 class="font-semibold text-2xl text-gray-800">Sign In</h3>
 					<p class="text-gray-500">Please Sign In</p>
 				</div>
+				<!--END:()-->
+
 				<div class="flex">
 					<div class="w-full md:w-1/2 px-0.5 mb-6 md:mb-0">
 						<button
@@ -56,12 +65,15 @@
 								fill="#fff"
 								viewBox="0 0 24 24"
 								xmlns="http://www.w3.org/2000/svg"
-								><path
-									d="M11.99 13.9v-3.72h9.36c.14.63.25 1.22.25 2.05 0 5.71-3.83 9.77-9.6 9.77-5.52 0-10-4.48-10-10S6.48 2 12 2c2.7 0 4.96.99 6.69 2.61l-2.84 2.76c-.72-.68-1.98-1.48-3.85-1.48-3.31 0-6.01 2.75-6.01 6.12s2.7 6.12 6.01 6.12c3.83 0 5.24-2.65 5.5-4.22h-5.51v-.01Z"
-								/></svg
 							>
+								<path
+									d="M11.99 13.9v-3.72h9.36c.14.63.25 1.22.25 2.05 0 5.71-3.83 9.77-9.6 9.77-5.52 0-10-4.48-10-10S6.48 2 12 2c2.7 0 4.96.99 6.69 2.61l-2.84 2.76c-.72-.68-1.98-1.48-3.85-1.48-3.31 0-6.01 2.75-6.01 6.12s2.7 6.12 6.01 6.12c3.83 0 5.24-2.65 5.5-4.22h-5.51v-.01Z"
+								/>
+							</svg>
 						</button>
 					</div>
+					<!--END:()-->
+
 					<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
 						<button
 							type="submit"
@@ -72,15 +84,19 @@
 								class="w-4 ml-2"
 								viewBox="0 0 24 24"
 								xmlns="http://www.w3.org/2000/svg"
-								><path
+							>
+								<path
 									fill="#fff"
 									fill-rule="evenodd"
 									d="M9.945 22v-8.834H7V9.485h2.945V6.54c0-3.043 1.926-4.54 4.64-4.54 1.3 0 2.418.097 2.744.14v3.18h-1.883c-1.476 0-1.82.703-1.82 1.732v2.433h3.68l-.736 3.68h-2.944L13.685 22"
-								/></svg
-							>
+								/>
+							</svg>
 						</button>
 					</div>
+					<!--END:()-->
 				</div>
+				<!--END:()-->
+
 				<div class="flex items-center justify-center space-x-2 my-5">
 					<span class="h-px w-16 bg-gray-200" />
 					<span class="text-gray-500 font-normal text-center"
@@ -88,6 +104,8 @@
 					>
 					<span class="h-px w-16 bg-gray-200" />
 				</div>
+				<!--END:()-->
+
 				<form class="w-full max-w-lg">
 					<div class="flex flex-wrap -mx-3 mb-4" />
 					<div class="flex flex-wrap -mx-3 mb-4">
@@ -99,7 +117,7 @@
 								Email
 							</label>
 							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-teal-300"
+								class="appearance-none block w-full bg-gray-100 text-gray-700 border-2 border-indigo-300 border-dashed rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
 								id="grid-email"
 								type="email"
 								placeholder="Your email (example@gmail.com)"
@@ -107,7 +125,10 @@
 								name="email"
 							/>
 						</div>
+						<!--END:()-->
 					</div>
+					<!--END:()-->
+
 					<div class="flex flex-wrap -mx-3 mb-4">
 						<div class="w-full px-3">
 							<label
@@ -117,7 +138,7 @@
 								Password
 							</label>
 							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-teal-300"
+								class="appearance-none block w-full bg-gray-100 text-gray-700 border-2 border-indigo-300 border-dashed rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
 								id="grid-password"
 								type="password"
 								name="password"
@@ -125,7 +146,10 @@
 								placeholder="******************"
 							/>
 						</div>
+						<!--END:()-->
 					</div>
+					<!--END:()-->
+
 					<div class="space-y-6 mt-6">
 						<div class="flex items-center justify-between">
 							<div class="flex items-center">
@@ -133,7 +157,7 @@
 									id="remember_me"
 									name="remember_me"
 									type="checkbox"
-									class="h-4 w-4 bg-blue-300 focus:ring-blue-400 border-gray-900 rounded"
+									class="h-4 w-4 bg-blue-300 focus:ring-indigo-400 border-indigo-900 rounded"
 								/>
 								<label
 									for="remember_me"
@@ -142,6 +166,8 @@
 									Remember me
 								</label>
 							</div>
+							<!--END:()-->
+
 							<div class="text-sm text-right">
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-blue-900 hover:text-blue-500 ">
@@ -149,7 +175,10 @@
 								</a>
 								<!-- TODORemeber to href to the Forgot your password Pages -->
 							</div>
+							<!--END:()-->
 						</div>
+						<!--END:()-->
+
 						<div>
 							<button
 								type="submit"
@@ -158,11 +187,15 @@
 								Sign In
 							</button>
 						</div>
+						<!--END:()-->
+
 						<div class="flex items-center justify-center space-x-2 my-5">
 							<span class="h-px w-16 bg-gray-200" />
 							<span class="text-gray-500 font-normal text-center">OR</span>
 							<span class="h-px w-16 bg-gray-200" />
 						</div>
+						<!--END:()-->
+
 						<div>
 							<button
 								type="submit"
@@ -171,12 +204,14 @@
 								Sign Up
 							</button>
 						</div>
+						<!--END:()-->
 					</div>
+					<!--END:()-->
 				</form>
 
 				<div class="pt-6 text-center text-gray-400 text-xs">
 					<span>
-						Copyright © 2021-2024
+						Copyright © 2069-2069
 						<a
 							href="https://github.com/Fathom-Growth-Solutions"
 							rel=""
@@ -184,13 +219,18 @@
 							title="Fathom Growth Solutions"
 							class="text-blue-900 hover:text-blue-500 "
 							>Fathom Growth Solutions</a
-						></span
-					>
+						>
+					</span>
 				</div>
+				<!--END:()-->
 			</div>
+			<!--END:()-->
 		</div>
+		<!--END:()-->
 	</div>
+	<!--END:()-->
 </div>
+<!--END:()-->
 
 <!-- component -->
 <style>

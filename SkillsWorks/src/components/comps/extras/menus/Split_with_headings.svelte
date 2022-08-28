@@ -1,10 +1,14 @@
 <div class="flow-root">
 	<nav class="flex flex-col space-y-2">
 		<div>
-			<strong class="block text-xs font-medium text-gray-400 uppercase"> General </strong>
+			<strong class="block text-xs font-medium text-gray-400 uppercase">
+				General
+			</strong>
 
 			<ul class="mt-2">
 				<li>
+					<!-- svelte-ignore a11y-invalid-attribute -->
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
 						class="block px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg"
@@ -14,6 +18,7 @@
 				</li>
 
 				<li>
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
 						class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -23,6 +28,7 @@
 				</li>
 
 				<li>
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
 						class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -32,6 +38,7 @@
 				</li>
 
 				<li>
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
 						class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -41,6 +48,7 @@
 				</li>
 
 				<li>
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
 						class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -50,12 +58,16 @@
 				</li>
 			</ul>
 		</div>
+		<!--END:()-->
 
 		<div>
-			<strong class="block text-xs font-medium text-gray-400 uppercase"> Support </strong>
+			<strong class="block text-xs font-medium text-gray-400 uppercase">
+				Support
+			</strong>
 
 			<ul class="mt-1">
 				<li>
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
 						class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -65,6 +77,7 @@
 				</li>
 
 				<li>
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
 						class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -74,6 +87,7 @@
 				</li>
 
 				<li>
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
 						class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -83,12 +97,16 @@
 				</li>
 			</ul>
 		</div>
+		<!--END:()-->
 
 		<div>
-			<strong class="block text-xs font-medium text-gray-400 uppercase"> Profile </strong>
+			<strong class="block text-xs font-medium text-gray-400 uppercase">
+				Profile
+			</strong>
 
 			<ul class="mt-1">
 				<li>
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
 						class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -98,6 +116,7 @@
 				</li>
 
 				<li>
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
 						class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -118,5 +137,7 @@
 				</li>
 			</ul>
 		</div>
+		<!--END:()-->
 	</nav>
 </div>
+<!--END:()-->

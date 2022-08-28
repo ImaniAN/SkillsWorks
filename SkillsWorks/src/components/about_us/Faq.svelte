@@ -20,6 +20,7 @@
 				<li />
 			</ul>
 		</div>
+		<!--END:()-->
 
 		<dl class="w-full md:w-2/3">
 			<dt class="mb-4">
@@ -66,7 +67,9 @@
 			</dd>
 		</dl>
 	</div>
+	<!--END:()-->
 </div>
+<!--END:()-->
 
 <!-- component -->
 <style>

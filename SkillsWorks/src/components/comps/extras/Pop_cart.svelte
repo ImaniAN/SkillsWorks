@@ -14,7 +14,12 @@
 				viewBox="0 0 24 24"
 				stroke="currentColor"
 			>
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+				<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M5 13l4 4L19 7"
+				/>
 			</svg>
 
 			<span class="ml-2 text-sm"> Item added to your cart </span>
@@ -41,6 +46,7 @@
 			</svg>
 		</button>
 	</div>
+	<!--END:()-->
 
 	<div class="flex items-start pt-8 pb-12">
 		<img
@@ -57,14 +63,18 @@
 					<dt class="inline">Size:</dt>
 					<dd class="inline">XXS</dd>
 				</div>
+				<!--END:()-->
 
 				<div>
 					<dt class="inline">Color:</dt>
 					<dd class="inline">White</dd>
 				</div>
+				<!--END:()-->
 			</dl>
 		</div>
+		<!--END:()-->
 	</div>
+	<!--END:()-->
 
 	<div class="space-y-4 text-center">
 		<a
@@ -76,7 +86,7 @@
 
 		<form action="/cart" method="post">
 			<button
-				class="block w-full p-4 text-sm font-medium rounded-full text-yellow-50 bg-rose-900 hover:ring-1 hover:ring-rose-900"
+				class="block w-full p-4 text-sm font-medium rounded-full text-yellow-50 bg-red-900 hover:ring-1 hover:ring-red-900"
 				type="submit"
 			>
 				Check out
@@ -90,4 +100,6 @@
 			Continue shopping
 		</a>
 	</div>
+	<!--END:()-->
 </div>
+<!--END:()-->

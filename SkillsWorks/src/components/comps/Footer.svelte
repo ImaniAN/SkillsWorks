@@ -29,6 +29,7 @@
 				</svg>
 			</a>
 		</div>
+		<!--END:()-->
 
 		<div class="grid grid-cols-1 gap-8 mt-16 sm:grid-cols-2 lg:grid-cols-4">
 			<div class="text-center sm:text-left">
@@ -66,6 +67,7 @@
 					</ul>
 				</nav>
 			</div>
+			<!--END:()-->
 
 			<div class="text-center sm:text-left">
 				<p class="text-lg font-medium text-white">Our Services</p>
@@ -102,6 +104,7 @@
 					</ul>
 				</nav>
 			</div>
+			<!--END:()-->
 
 			<div class="text-center sm:text-left">
 				<p class="text-lg font-medium text-white">Resources</p>
@@ -145,6 +148,7 @@
 					</ul>
 				</nav>
 			</div>
+			<!--END:()-->
 
 			<div class="text-center sm:text-left">
 				<p class="text-lg font-medium text-white">Helpful Links</p>
@@ -177,10 +181,10 @@
 
 								<span class="relative flex w-2 h-2 -mr-2">
 									<span
-										class="absolute inline-flex w-full h-full bg-teal-400 rounded-full opacity-75 animate-ping"
+										class="absolute inline-flex w-full h-full bg-violet-400 rounded-full opacity-75 animate-ping"
 									/>
 									<span
-										class="relative inline-flex w-2 h-2 bg-teal-500 rounded-full"
+										class="relative inline-flex w-2 h-2 bg-violet-500 rounded-full"
 									/>
 								</span>
 							</a>
@@ -188,7 +192,9 @@
 					</ul>
 				</nav>
 			</div>
+			<!--END:()-->
 		</div>
+		<!--END:()-->
 
 		<div class="mt-16">
 			<ul class="flex justify-center gap-6 sm:justify-end">
@@ -198,7 +204,7 @@
 						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
-						class="text-teal-500 transition hover:text-teal-500/75"
+						class="text-violet-500 transition hover:text-violet-500/75"
 					>
 						<span class="sr-only">Facebook</span>
 						<svg
@@ -222,7 +228,7 @@
 						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
-						class="text-teal-500 transition hover:text-teal-500/75"
+						class="text-violet-500 transition hover:text-violet-500/75"
 					>
 						<span class="sr-only">Instagram</span>
 						<svg
@@ -246,7 +252,7 @@
 						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
-						class="text-teal-500 transition hover:text-teal-500/75"
+						class="text-violet-500 transition hover:text-violet-500/75"
 					>
 						<span class="sr-only">Twitter</span>
 						<svg
@@ -268,7 +274,7 @@
 						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
-						class="text-teal-500 transition hover:text-teal-500/75"
+						class="text-violet-500 transition hover:text-violet-500/75"
 					>
 						<span class="sr-only">GitHub</span>
 						<svg
@@ -292,7 +298,7 @@
 						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
-						class="text-teal-500 transition hover:text-teal-500/75"
+						class="text-violet-500 transition hover:text-violet-500/75"
 					>
 						<span class="sr-only">Dribbble</span>
 						<svg
@@ -312,7 +318,7 @@
 			</ul>
 
 			<div class="mt-16 sm:flex sm:justify-between sm:items-center">
-				<div class="flex justify-center text-teal-300 sm:justify-start">
+				<div class="flex justify-center text-violet-300 sm:justify-start">
 					<svg
 						class="h-8"
 						viewBox="0 0 118 24"
@@ -361,11 +367,15 @@
 						/>
 					</svg>
 				</div>
+				<!--END:()-->
 
 				<p class="mt-4 text-sm text-center text-gray-500 sm:mt-0 sm:text-right">
-					Copyright &copy; 2022. All rights reserved.
+					Copyright &copy; 2069. All rights reserved.
 				</p>
 			</div>
+			<!--END:()-->
 		</div>
+		<!--END:()-->
 	</div>
+	<!--END:()-->
 </footer>

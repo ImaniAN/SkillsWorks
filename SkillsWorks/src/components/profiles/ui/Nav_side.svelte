@@ -4,6 +4,7 @@
 
 		<nav class="flex flex-col mt-6 space-y-1">
 			<!-- svelte-ignore a11y-missing-attribute -->
+			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href=""
 				class="flex items-center px-4 py-2 text-gray-700 bg-gray-100 rounded-lg"
@@ -71,6 +72,7 @@
 				</summary>
 
 				<nav class="mt-1.5 ml-8 flex flex-col">
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
 						class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -93,6 +95,7 @@
 						<span class="ml-3 text-sm font-medium"> Banned Users </span>
 					</a>
 
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
 						class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -117,6 +120,7 @@
 				</nav>
 			</details>
 
+			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href=""
 				class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -139,6 +143,7 @@
 				<span class="ml-3 text-sm font-medium"> Billing </span>
 			</a>
 
+			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href=""
 				class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -201,6 +206,7 @@
 				</summary>
 
 				<nav class="mt-1.5 ml-8 flex flex-col">
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
 						class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -223,6 +229,7 @@
 						<span class="ml-3 text-sm font-medium"> Details </span>
 					</a>
 
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
 						class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
@@ -272,8 +279,10 @@
 			</details>
 		</nav>
 	</div>
+	<!--END:()-->
 
-	<div class="sticky inset-x-0 bottom-0 border-t border-gray-100">
+	<div class="sticky inset-x-0 bottom-0 border-t border-indigo-100">
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a href="" class="flex items-center p-4 bg-white hover:bg-gray-50 shrink-0">
 			<img
 				class="object-cover w-10 h-10 rounded-full"
@@ -288,6 +297,9 @@
 					<span> simonlewis@fakemail.com </span>
 				</p>
 			</div>
+			<!--END:()-->
 		</a>
 	</div>
+	<!--END:()-->
 </div>
+<!--END:()-->

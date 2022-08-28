@@ -32,8 +32,11 @@
 					</svg>
 				</button>
 			</div>
+			<!--END:()-->
 
-			<div class="flex items-center justify-between flex-1 gap-8 sm:justify-end">
+			<div
+				class="flex items-center justify-between flex-1 gap-8 sm:justify-end"
+			>
 				<div class="flex gap-4">
 					<button
 						type="button"
@@ -55,6 +58,7 @@
 						</svg>
 					</button>
 
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
 						class="block p-2.5 text-gray-600 bg-white rounded-lg hover:text-gray-700 shrink-0 shadow-sm"
@@ -79,6 +83,7 @@
 						</svg>
 					</a>
 
+					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
 						class="block p-2.5 text-gray-600 bg-white rounded-lg hover:text-gray-700 shrink-0 shadow-sm"
@@ -99,8 +104,12 @@
 						</svg>
 					</a>
 				</div>
+				<!--END:()-->
 
-				<button type="button" class="flex items-center transition rounded-lg group shrink-0">
+				<button
+					type="button"
+					class="flex items-center transition rounded-lg group shrink-0"
+				>
 					<img
 						class="object-cover w-10 h-10 rounded-full"
 						src="https://www.hyperui.dev/photos/man-4.jpeg"
@@ -127,14 +136,21 @@
 					</svg>
 				</button>
 			</div>
+			<!--END:()-->
 		</div>
+		<!--END:()-->
 
 		<div class="mt-8">
-			<h1 class="text-2xl font-bold text-gray-900 sm:text-3xl">Welcome Back, Barry!</h1>
+			<h1 class="text-2xl font-bold text-gray-900 sm:text-3xl">
+				Welcome Back, Barry!
+			</h1>
 
 			<p class="mt-1.5 text-sm text-gray-500">
-				Your website has seen a 52% increase in traffic in the last month. Keep it up! 🚀
+				Your website has seen a 52% increase in traffic in the last month. Keep
+				it up! 🚀
 			</p>
 		</div>
+		<!--END:()-->
 	</div>
+	<!--END:()-->
 </header>
