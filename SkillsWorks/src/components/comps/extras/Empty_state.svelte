@@ -1,9 +1,9 @@
 <div
-	class="relative p-8 text-center border-2 border-indigo-300 border-dashed rounded-lg"
+	class="relative p-8 text-center border-2 border-fuchsia-300 border-dashed rounded-lg"
 >
 	<h2 class="text-2xl font-medium">There's nothing here...</h2>
 
-	<p class="mt-4 text-sm text-gray-500">
+	<p class="mt-4 text-sm text-slate-500">
 		Created posts will appear here, try creating one!
 	</p>
 

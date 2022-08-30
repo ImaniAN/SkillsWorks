@@ -113,7 +113,7 @@
 		<span class="sr-only"> Sort </span>
 
 		<select
-			class="py-3 pl-5 pr-10 text-xs font-medium border-indigo-200 rounded-l-md hover:z-10 focus:outline-none focus:border-indigo-600 focus:z-10 hover:bg-gray-50 focus:ring-0"
+			class="py-3 pl-5 pr-10 text-xs font-medium border-fuchsia-300 rounded-l-md hover:z-10 focus:outline-none focus:border-fuchsia-600 focus:z-10 hover:bg-slate-50 focus:ring-0"
 			id="sort"
 			name="sort"
 		>
@@ -126,14 +126,14 @@
 	</label>
 
 	<button
-		class="px-5 py-3 font-medium border hover:z-10 focus:outline-none focus:border-indigo-600 focus:z-10 hover:bg-gray-50 active:opacity-75"
+		class="px-5 py-3 font-medium border hover:z-10 focus:outline-none focus:border-fuchsia-600 focus:z-10 hover:bg-slate-50 active:opacity-75"
 		type="button"
 	>
 		Download
 	</button>
 
 	<button
-		class="px-5 py-3 font-medium border rounded-r-md hover:z-10 focus:outline-none focus:border-indigo-600 focus:z-10 hover:bg-gray-50 active:opacity-75"
+		class="px-5 py-3 font-medium border rounded-r-md hover:z-10 focus:outline-none focus:border-fuchsia-600 focus:z-10 hover:bg-slate-50 active:opacity-75"
 		type="button"
 	>
 		Export

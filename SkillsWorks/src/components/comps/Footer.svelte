@@ -1,4 +1,4 @@
-<footer class="bg-gray-900">
+<footer class="bg-slate-900">
 	<div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
 		<div
 			class="flex flex-col items-center gap-4 p-6 bg-indigo-600 rounded-lg shadow-lg sm:flex-row sm:justify-between"
@@ -369,7 +369,9 @@
 				</div>
 				<!--END:()-->
 
-				<p class="mt-4 text-sm text-center text-gray-500 sm:mt-0 sm:text-right">
+				<p
+					class="mt-4 text-sm text-center text-slate-500 sm:mt-0 sm:text-right"
+				>
 					Copyright &copy; 2069. All rights reserved.
 				</p>
 			</div>

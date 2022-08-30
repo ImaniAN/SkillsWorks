@@ -1,5 +1,5 @@
 <a
-	class="relative block border border-indigo-100"
+	class="relative block border border-fuchsia-100"
 	href="/product/build-your-own-drone"
 >
 	<button
@@ -24,7 +24,7 @@
 
 	<img
 		class="object-contain w-full h-56 lg:h-72"
-		src="https://www.hyperui.dev/photos/toy-1.jpeg"
+		src="https://dummyimage.com/305x305"
 		alt="Build Your Own Drone"
 		loading="lazy"
 	/>
@@ -36,7 +36,7 @@
 
 		<h5 class="mt-4 text-lg font-bold">Build Your Own Drone</h5>
 
-		<p class="mt-2 text-sm text-gray-700">R14.99</p>
+		<p class="mt-2 text-sm text-slate-700">R14.99</p>
 
 		<button
 			class="block w-full p-4 mt-4 text-sm font-medium bg-yellow-500 rounded-sm"

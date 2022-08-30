@@ -2,7 +2,7 @@
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href=""
-		class="flex items-center px-4 py-2 text-gray-700 bg-gray-100 rounded-lg"
+		class="flex items-center px-4 py-2 text-slate-700 bg-slate-100 rounded-lg"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,7 @@
 
 	<details class="group">
 		<summary
-			class="flex items-center px-4 py-2 text-gray-500 rounded-lg cursor-pointer hover:bg-gray-100 hover:text-gray-700"
+			class="flex items-center px-4 py-2 text-slate-500 rounded-lg cursor-pointer hover:bg-slate-100 hover:text-slate-700"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href=""
-				class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+				class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +94,7 @@
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href=""
-				class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+				class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -119,7 +119,7 @@
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href=""
-		class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+		class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -142,7 +142,7 @@
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href=""
-		class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+		class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -164,7 +164,7 @@
 
 	<details class="group">
 		<summary
-			class="flex items-center px-4 py-2 text-gray-500 rounded-lg cursor-pointer hover:bg-gray-100 hover:text-gray-700"
+			class="flex items-center px-4 py-2 text-slate-500 rounded-lg cursor-pointer hover:bg-slate-100 hover:text-slate-700"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -206,7 +206,7 @@
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href=""
-				class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+				class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -229,7 +229,7 @@
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href=""
-				class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+				class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -252,7 +252,7 @@
 			<form action="/logout">
 				<button
 					type="submit"
-					class="flex items-center w-full px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+					class="flex items-center w-full px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"

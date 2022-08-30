@@ -1,7 +1,7 @@
 <div class="flow-root">
 	<nav class="flex flex-col space-y-2">
 		<div>
-			<strong class="block text-xs font-medium text-gray-400 uppercase">
+			<strong class="block text-xs font-medium text-slate-400 uppercase">
 				General
 			</strong>
 
@@ -11,7 +11,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
-						class="block px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg"
+						class="block px-4 py-2 text-sm font-medium text-slate-700 bg-slate-100 rounded-lg"
 					>
 						Profile
 					</a>
@@ -21,7 +21,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
-						class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+						class="block px-4 py-2 text-sm font-medium text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						Team
 					</a>
@@ -31,7 +31,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
-						class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+						class="block px-4 py-2 text-sm font-medium text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						Projects
 					</a>
@@ -41,7 +41,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
-						class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+						class="block px-4 py-2 text-sm font-medium text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						Meetings
 					</a>
@@ -51,7 +51,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
-						class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+						class="block px-4 py-2 text-sm font-medium text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						Calendar
 					</a>
@@ -61,7 +61,7 @@
 		<!--END:()-->
 
 		<div>
-			<strong class="block text-xs font-medium text-gray-400 uppercase">
+			<strong class="block text-xs font-medium text-slate-400 uppercase">
 				Support
 			</strong>
 
@@ -70,7 +70,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
-						class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+						class="block px-4 py-2 text-sm font-medium text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						Update
 					</a>
@@ -80,7 +80,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
-						class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+						class="block px-4 py-2 text-sm font-medium text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						Help
 					</a>
@@ -90,7 +90,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
-						class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+						class="block px-4 py-2 text-sm font-medium text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						Settings
 					</a>
@@ -100,7 +100,7 @@
 		<!--END:()-->
 
 		<div>
-			<strong class="block text-xs font-medium text-gray-400 uppercase">
+			<strong class="block text-xs font-medium text-slate-400 uppercase">
 				Profile
 			</strong>
 
@@ -109,7 +109,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
-						class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+						class="block px-4 py-2 text-sm font-medium text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						Details
 					</a>
@@ -119,7 +119,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
-						class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+						class="block px-4 py-2 text-sm font-medium text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						Subscription
 					</a>
@@ -129,7 +129,7 @@
 					<form action="/logout">
 						<button
 							type="submit"
-							class="block w-full px-4 py-2 text-sm font-medium text-left text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+							class="block w-full px-4 py-2 text-sm font-medium text-left text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 						>
 							Logout
 						</button>

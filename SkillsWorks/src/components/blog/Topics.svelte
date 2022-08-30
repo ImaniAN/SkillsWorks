@@ -1,5 +1,5 @@
 <div class="flex justify-center w-screen">
-	<div class="text-sm breadcrumbs">
+	<div class="text-sm breadcrumbs bg-slate-800">
 		<ul>
 			<li>
 				<!-- svelte-ignore a11y-missing-attribute -->
@@ -76,7 +76,7 @@
 						<div class="relative h-64 sm:h-80 lg:h-full">
 							<img
 								class="absolute inset-0 object-cover w-full h-full"
-								src="https://www.hyperui.dev/photos/house-1.jpeg"
+								src="https://dummyimage.com/305x305"
 								alt="Indoors house"
 							/>
 						</div>
@@ -84,9 +84,9 @@
 					</div>
 					<!--END:()-->
 
-					<div class="relative flex items-center bg-gray-100">
+					<div class="relative flex items-center bg-slate-100">
 						<span
-							class="hidden lg:inset-y-0 lg:absolute lg:w-16 lg:bg-gray-100 lg:block lg:-left-16"
+							class="hidden lg:inset-y-0 lg:absolute lg:w-16 lg:bg-slate-100 lg:block lg:-left-16"
 						/>
 
 						<div class="p-8 sm:p-16 lg:p-24">
@@ -94,7 +94,7 @@
 								Blog Post Title.
 							</h2>
 
-							<p class="mt-4 text-gray-600">
+							<p class="mt-4 text-slate-600">
 								BLOG CONTENT : Lorem ipsum dolor sit amet, consectetur
 								adipisicing elit. Aliquid, molestiae! Quidem est esse numquam
 								odio deleniti, beatae, magni dolores provident quaerat totam
@@ -103,7 +103,7 @@
 							</p>
 
 							<a
-								class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white bg-indigo-600 border border-indigo-600 rounded active:text-indigo-500 hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring"
+								class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white bg-indigo-600 border border-fuchsia-600 rounded active:text-indigo-500 hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring"
 								href="/contact"
 							>
 								Get in Touch
@@ -127,7 +127,7 @@
 			class="overflow-hidden w-2/5 border border-yellow-400 rounded bg-red-300"
 		>
 			<summary
-				class="flex items-center justify-between px-5 py-3 bg-gray-800 lg:hidden"
+				class="flex items-center justify-between px-5 py-3 bg-slate-800 lg:hidden"
 			>
 				<span class="text-sm font-medium"> Toggle Filters </span>
 
@@ -147,7 +147,7 @@
 				</svg>
 			</summary>
 
-			<form action="" class="border-t border-indigo-200 lg:border-t-0">
+			<form action="" class="border-t border-fuchsia-300 lg:border-t-0">
 				<!-- component -->
 				<div class="flex items-center">
 					<label for="voice-search" class="sr-only">Search</label>
@@ -157,7 +157,7 @@
 						>
 							<svg
 								aria-hidden="true"
-								class="w-5 h-5 text-gray-500 dark:text-gray-400"
+								class="w-5 h-5 text-slate-500 dark:text-slate-400"
 								fill="currentColor"
 								viewBox="0 0 20 20"
 								xmlns="http://www.w3.org/2000/svg"
@@ -174,7 +174,7 @@
 						<input
 							type="text"
 							id="voice-search"
-							class="bg-gray-50 border-2 border-indigo-300 border-dashed text-gray-900 text-sm focus:ring-indigo-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-indigo-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-blue-500"
+							class="bg-slate-50 border-2 border-fuchsia-300 border-dashed text-slate-900 text-sm focus:ring-indigo-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-slate-700 dark:border-fuchsia-600 dark:placeholder-slate-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-blue-500"
 							placeholder="Search blog topics..."
 						/>
 						<button
@@ -183,7 +183,7 @@
 						>
 							<svg
 								aria-hidden="true"
-								class="w-4 h-4 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
+								class="w-4 h-4 text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white"
 								fill="currentColor"
 								viewBox="0 0 20 20"
 								xmlns="http://www.w3.org/2000/svg"
@@ -223,7 +223,7 @@
 
 				<fieldset>
 					<legend
-						class="block w-full px-5 py-3 text-xs font-medium bg-gray-500"
+						class="block w-full px-5 py-3 text-xs font-medium bg-slate-500"
 					>
 						Type
 					</legend>
@@ -234,7 +234,7 @@
 								id="toy"
 								type="checkbox"
 								name="type[toy]"
-								class="w-5 h-5 border-indigo-300 rounded"
+								class="w-5 h-5 border-fuchsia-300 rounded"
 							/>
 
 							<label for="toy" class="ml-3 text-sm font-medium"> Toy </label>
@@ -246,7 +246,7 @@
 								id="game"
 								type="checkbox"
 								name="type[game]"
-								class="w-5 h-5 border-indigo-300 rounded"
+								class="w-5 h-5 border-fuchsia-300 rounded"
 							/>
 
 							<label for="game" class="ml-3 text-sm font-medium"> Game </label>
@@ -258,7 +258,7 @@
 								id="outdoor"
 								type="checkbox"
 								name="type[outdoor]"
-								class="w-5 h-5 border-indigo-300 rounded"
+								class="w-5 h-5 border-fuchsia-300 rounded"
 							/>
 
 							<label for="outdoor" class="ml-3 text-sm font-medium">
@@ -268,7 +268,7 @@
 						<!--END:()-->
 
 						<div class="pt-2">
-							<button type="button" class="text-xs text-gray-500 underline">
+							<button type="button" class="text-xs text-slate-500 underline">
 								Reset Type
 							</button>
 						</div>
@@ -280,7 +280,7 @@
 				<div>
 					<fieldset>
 						<legend
-							class="block w-full px-5 py-3 text-xs font-medium bg-gray-500"
+							class="block w-full px-5 py-3 text-xs font-medium bg-slate-500"
 						>
 							Age
 						</legend>
@@ -291,7 +291,7 @@
 									id="3+"
 									type="checkbox"
 									name="age[3+]"
-									class="w-5 h-5 border-indigo-300 rounded"
+									class="w-5 h-5 border-fuchsia-300 rounded"
 								/>
 
 								<label for="3+" class="ml-3 text-sm font-medium"> 3+ </label>
@@ -303,7 +303,7 @@
 									id="8+"
 									type="checkbox"
 									name="age[8+]"
-									class="w-5 h-5 border-indigo-300 rounded"
+									class="w-5 h-5 border-fuchsia-300 rounded"
 								/>
 
 								<label for="8+" class="ml-3 text-sm font-medium"> 8+ </label>
@@ -315,7 +315,7 @@
 									id="12+"
 									type="checkbox"
 									name="age[12+]"
-									class="w-5 h-5 border-indigo-300 rounded"
+									class="w-5 h-5 border-fuchsia-300 rounded"
 								/>
 
 								<label for="12+" class="ml-3 text-sm font-medium"> 12+ </label>
@@ -327,7 +327,7 @@
 									id="16+"
 									type="checkbox"
 									name="age[16+]"
-									class="w-5 h-5 border-indigo-300 rounded"
+									class="w-5 h-5 border-fuchsia-300 rounded"
 								/>
 
 								<label for="16+" class="ml-3 text-sm font-medium"> 16+ </label>
@@ -335,7 +335,7 @@
 							<!--END:()-->
 
 							<div class="pt-2">
-								<button type="button" class="text-xs text-gray-500 underline">
+								<button type="button" class="text-xs text-slate-500 underline">
 									Reset Age
 								</button>
 							</div>
@@ -346,11 +346,11 @@
 				</div>
 				<!--END:()-->
 
-				<div class="flex justify-between px-5 py-3 border-t border-indigo-200">
+				<div class="flex justify-between px-5 py-3 border-t border-fuchsia-300">
 					<button
 						name="reset"
 						type="button"
-						class="text-xs font-medium text-gray-600 underline rounded"
+						class="text-xs font-medium text-slate-600 underline rounded"
 					>
 						Reset All
 					</button>

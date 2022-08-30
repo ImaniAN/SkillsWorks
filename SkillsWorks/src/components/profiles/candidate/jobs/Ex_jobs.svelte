@@ -15,11 +15,11 @@
 					</div>
 					<!--END:()-->
 
-					<div class=" relative w-4/5 ">
+					<div class="relative w-4/5 ">
 						<input
 							type="text"
 							id="&quot;form-subscribe-Filter"
-							class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-indigo-300 border-dashed w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+							class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 							placeholder="Name of Job"
 						/>
 					</div>
@@ -43,40 +43,42 @@
 						<tr>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-white  border-b border-indigo-200 text-gray-800  text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-white  border-b border-fuchsia-300 text-slate-800  text-left text-sm uppercase font-normal"
 								>Position
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-white  border-b border-indigo-200 text-gray-800  text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-white  border-b border-fuchsia-300 text-slate-800  text-left text-sm uppercase font-normal"
 								>Recruiter
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-white  border-b border-indigo-200 text-gray-800  text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-white  border-b border-fuchsia-300 text-slate-800  text-left text-sm uppercase font-normal"
 								>Date Applied
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-white  border-b border-indigo-200 text-gray-800  text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-white  border-b border-fuchsia-300 text-slate-800  text-left text-sm uppercase font-normal"
 								>status
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-white  border-b border-indigo-200 text-gray-800  text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-white  border-b border-fuchsia-300 text-slate-800  text-left text-sm uppercase font-normal"
 							/>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
 												alt="profil"
-												src="https://www.hyperui.dev/photos/house-1.jpeg"
+												src="https://dummyimage.com/305x305"
 												class="mx-auto object-cover rounded-full h-10 w-10 "
 											/>
 										</a>
@@ -84,19 +86,25 @@
 									<!--END:()-->
 
 									<div class="ml-3">
-										<p class="text-gray-900 whitespace-no-wrap">Marcus coco</p>
+										<p class="text-slate-900 whitespace-no-wrap">Marcus coco</p>
 									</div>
 									<!--END:()-->
 								</div>
 								<!--END:()-->
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
-								<p class="text-gray-900 whitespace-no-wrap">Designer</p>
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
+								<p class="text-slate-900 whitespace-no-wrap">Designer</p>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
-								<p class="text-gray-900 whitespace-no-wrap">01/11/2072</p>
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
+								<p class="text-slate-900 whitespace-no-wrap">01/11/2072</p>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-yellow-900 leading-tight"
 								>
@@ -107,7 +115,9 @@
 									<span class="relative"> In Progress ! </span>
 								</span>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview
@@ -115,14 +125,16 @@
 							</td>
 						</tr>
 						<tr>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
 												alt="profil"
-												src="https://www.hyperui.dev/photos/house-1.jpeg"
+												src="https://dummyimage.com/305x305"
 												class="mx-auto object-cover rounded-full h-10 w-10 "
 											/>
 										</a>
@@ -130,19 +142,25 @@
 									<!--END:()-->
 
 									<div class="ml-3">
-										<p class="text-gray-900 whitespace-no-wrap">Jean marc</p>
+										<p class="text-slate-900 whitespace-no-wrap">Jean marc</p>
 									</div>
 									<!--END:()-->
 								</div>
 								<!--END:()-->
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
-								<p class="text-gray-900 whitespace-no-wrap">Admin</p>
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
+								<p class="text-slate-900 whitespace-no-wrap">Admin</p>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
-								<p class="text-gray-900 whitespace-no-wrap">12/09/2069</p>
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
+								<p class="text-slate-900 whitespace-no-wrap">12/09/2069</p>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight"
 								>
@@ -153,7 +171,9 @@
 									<span class="relative">Applied !</span>
 								</span>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview
@@ -161,14 +181,16 @@
 							</td>
 						</tr>
 						<tr>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
 												alt="profil"
-												src="https://www.hyperui.dev/photos/house-1.jpeg"
+												src="https://dummyimage.com/305x305"
 												class="mx-auto object-cover rounded-full h-10 w-10 "
 											/>
 										</a>
@@ -176,7 +198,7 @@
 									<!--END:()-->
 
 									<div class="ml-3">
-										<p class="text-gray-900 whitespace-no-wrap">
+										<p class="text-slate-900 whitespace-no-wrap">
 											Marcus Huger Musovi
 										</p>
 									</div>
@@ -184,13 +206,19 @@
 								</div>
 								<!--END:()-->
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
-								<p class="text-gray-900 whitespace-no-wrap">CTO</p>
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
+								<p class="text-slate-900 whitespace-no-wrap">CTO</p>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
-								<p class="text-gray-900 whitespace-no-wrap">01/11/2069</p>
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
+								<p class="text-slate-900 whitespace-no-wrap">01/11/2069</p>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-yellow-900 leading-tight"
 								>
@@ -201,7 +229,9 @@
 									<span class="relative"> In Progress ! </span>
 								</span>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview
@@ -209,14 +239,16 @@
 							</td>
 						</tr>
 						<tr>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
 												alt="profil"
-												src="https://www.hyperui.dev/photos/house-1.jpeg"
+												src="https://dummyimage.com/305x305"
 												class="mx-auto object-cover rounded-full h-10 w-10 "
 											/>
 										</a>
@@ -224,19 +256,25 @@
 									<!--END:()-->
 
 									<div class="ml-3">
-										<p class="text-gray-900 whitespace-no-wrap">Ecric marc</p>
+										<p class="text-slate-900 whitespace-no-wrap">Ecric marc</p>
 									</div>
 									<!--END:()-->
 								</div>
 								<!--END:()-->
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
-								<p class="text-gray-900 whitespace-no-wrap">Developer</p>
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
+								<p class="text-slate-900 whitespace-no-wrap">Developer</p>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
-								<p class="text-gray-900 whitespace-no-wrap">02/10/2018</p>
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
+								<p class="text-slate-900 whitespace-no-wrap">02/10/2018</p>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight"
 								>
@@ -247,7 +285,9 @@
 									<span class="relative">Applied !</span>
 								</span>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview
@@ -255,14 +295,16 @@
 							</td>
 						</tr>
 						<tr>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
 												alt="profil"
-												src="https://www.hyperui.dev/photos/house-1.jpeg"
+												src="https://dummyimage.com/305x305"
 												class="mx-auto object-cover rounded-full h-10 w-10 "
 											/>
 										</a>
@@ -270,7 +312,7 @@
 									<!--END:()-->
 
 									<div class="ml-3">
-										<p class="text-gray-900 whitespace-no-wrap">
+										<p class="text-slate-900 whitespace-no-wrap">
 											Marcus Niyigena
 										</p>
 									</div>
@@ -278,13 +320,19 @@
 								</div>
 								<!--END:()-->
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
-								<p class="text-gray-900 whitespace-no-wrap">CEO</p>
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
+								<p class="text-slate-900 whitespace-no-wrap">CEO</p>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
-								<p class="text-gray-900 whitespace-no-wrap">01/01/2063</p>
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
+								<p class="text-slate-900 whitespace-no-wrap">01/01/2063</p>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-red-900 leading-tight"
 								>
@@ -295,7 +343,9 @@
 									<span class="relative">Rejected !</span>
 								</span>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview
@@ -303,14 +353,16 @@
 							</td>
 						</tr>
 						<tr>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
 												alt="profil"
-												src="https://www.hyperui.dev/photos/house-1.jpeg"
+												src="https://dummyimage.com/305x305"
 												class="mx-auto object-cover rounded-full h-10 w-10 "
 											/>
 										</a>
@@ -318,19 +370,27 @@
 									<!--END:()-->
 
 									<div class="ml-3">
-										<p class="text-gray-900 whitespace-no-wrap">Julien Huger</p>
+										<p class="text-slate-900 whitespace-no-wrap">
+											Julien Huger
+										</p>
 									</div>
 									<!--END:()-->
 								</div>
 								<!--END:()-->
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
-								<p class="text-gray-900 whitespace-no-wrap">User</p>
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
+								<p class="text-slate-900 whitespace-no-wrap">User</p>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
-								<p class="text-gray-900 whitespace-no-wrap">23/09/2010</p>
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
+								<p class="text-slate-900 whitespace-no-wrap">23/09/2010</p>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight"
 								>
@@ -341,7 +401,9 @@
 									<span class="relative">Applied !</span>
 								</span>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview
@@ -349,14 +411,16 @@
 							</td>
 						</tr>
 						<tr>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
 												alt="profil"
-												src="https://www.hyperui.dev/photos/house-1.jpeg"
+												src="https://dummyimage.com/305x305"
 												class="mx-auto object-cover rounded-full h-10 w-10 "
 											/>
 										</a>
@@ -364,19 +428,25 @@
 									<!--END:()-->
 
 									<div class="ml-3">
-										<p class="text-gray-900 whitespace-no-wrap">John Doe</p>
+										<p class="text-slate-900 whitespace-no-wrap">John Doe</p>
 									</div>
 									<!--END:()-->
 								</div>
 								<!--END:()-->
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
-								<p class="text-gray-900 whitespace-no-wrap">COO</p>
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
+								<p class="text-slate-900 whitespace-no-wrap">COO</p>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
-								<p class="text-gray-900 whitespace-no-wrap">01/10/2032</p>
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
+								<p class="text-slate-900 whitespace-no-wrap">01/10/2032</p>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-red-900 leading-tight"
 								>
@@ -387,7 +457,9 @@
 									<span class="relative">Rejected !</span>
 								</span>
 							</td>
-							<td class="px-5 py-5 border-b border-indigo-200 bg-white text-sm">
+							<td
+								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
+							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview
@@ -402,7 +474,7 @@
 					<div class="flex items-center">
 						<button
 							type="button"
-							class="w-full p-4 border text-base rounded-l-xl text-gray-600 bg-white hover:bg-gray-100"
+							class="w-full p-4 border text-base rounded-l-xl text-slate-600 bg-white hover:bg-slate-100"
 						>
 							<svg
 								width="9"
@@ -419,31 +491,31 @@
 						</button>
 						<button
 							type="button"
-							class="w-full px-4 py-2 border-t border-b text-base text-indigo-500 bg-white hover:bg-gray-100 "
+							class="w-full px-4 py-2 border-t border-b text-base text-indigo-500 bg-white hover:bg-slate-100 "
 						>
 							1
 						</button>
 						<button
 							type="button"
-							class="w-full px-4 py-2 border text-base text-gray-600 bg-white hover:bg-gray-100"
+							class="w-full px-4 py-2 border text-base text-slate-600 bg-white hover:bg-slate-100"
 						>
 							2
 						</button>
 						<button
 							type="button"
-							class="w-full px-4 py-2 border-t border-b text-base text-gray-600 bg-white hover:bg-gray-100"
+							class="w-full px-4 py-2 border-t border-b text-base text-slate-600 bg-white hover:bg-slate-100"
 						>
 							3
 						</button>
 						<button
 							type="button"
-							class="w-full px-4 py-2 border text-base text-gray-600 bg-white hover:bg-gray-100"
+							class="w-full px-4 py-2 border text-base text-slate-600 bg-white hover:bg-slate-100"
 						>
 							4
 						</button>
 						<button
 							type="button"
-							class="w-full p-4 border-t border-b border-r text-base  rounded-r-xl text-gray-600 bg-white hover:bg-gray-100"
+							class="w-full p-4 border-t border-b border-r text-base  rounded-r-xl text-slate-600 bg-white hover:bg-slate-100"
 						>
 							<svg
 								width="9"

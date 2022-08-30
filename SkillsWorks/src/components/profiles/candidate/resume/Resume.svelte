@@ -6,14 +6,14 @@
 		<div class="lg:flex lg:items-center lg:justify-between ">
 			<div class="flex-1 min-w-0">
 				<h2
-					class="text-2xl font-bold leading-7 text-gray-900 sm:text-3xl sm:tracking-tight sm:truncate"
+					class="text-2xl font-bold leading-7 text-slate-900 sm:text-3xl sm:tracking-tight sm:truncate"
 				>
 					*Prefered Job Title* CEO
 				</h2>
 				<div
 					class="mt-1 flex flex-col sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-6"
 				>
-					<div class="mt-2 flex items-center text-sm text-gray-500">
+					<div class="mt-2 flex items-center text-sm text-slate-500">
 						<!-- Heroicon name: solid/briefcase -->
 						<svg
 							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
@@ -35,7 +35,7 @@
 					</div>
 					<!--END:()-->
 
-					<div class="mt-2 flex items-center text-sm text-gray-500">
+					<div class="mt-2 flex items-center text-sm text-slate-500">
 						<!-- Heroicon name: solid/location-marker -->
 						<svg
 							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
@@ -54,7 +54,7 @@
 					</div>
 					<!--END:()-->
 
-					<div class="mt-2 flex items-center text-sm text-gray-500">
+					<div class="mt-2 flex items-center text-sm text-slate-500">
 						<!-- Heroicon name: solid/currency-dollar -->
 						<svg
 							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
@@ -76,7 +76,7 @@
 					</div>
 					<!--END:()-->
 
-					<div class="mt-2 flex items-center text-sm text-gray-500">
+					<div class="mt-2 flex items-center text-sm text-slate-500">
 						<!-- Heroicon name: solid/calendar -->
 						<svg
 							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
@@ -103,7 +103,7 @@
 				<span class="hidden sm:block">
 					<button
 						type="button"
-						class="inline-flex items-center px-4 py-2 border-2 border-indigo-200 border-dashed rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+						class="inline-flex items-center px-4 py-2 border-2 border-fuchsia-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 					>
 						<!-- Heroicon name: solid/pencil -->
 						<svg
@@ -124,7 +124,7 @@
 				<span class="hidden sm:block ml-3">
 					<button
 						type="button"
-						class="inline-flex items-center px-4 py-2 border-2 border-indigo-200 border-dashed rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+						class="inline-flex items-center px-4 py-2 border-2 border-fuchsia-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 					>
 						<!-- Heroicon name: solid/link -->
 						<svg
@@ -171,7 +171,7 @@
 				<div class="ml-3 relative sm:hidden">
 					<button
 						type="button"
-						class="inline-flex items-center px-4 py-2 border-2 border-indigo-200 border-dashed rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+						class="inline-flex items-center px-4 py-2 border-2 border-fuchsia-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 						id="mobile-menu-button"
 						aria-expanded="false"
 						aria-haspopup="true"
@@ -210,11 +210,11 @@
 						aria-labelledby="mobile-menu-button"
 						tabindex="-1"
 					>
-						<!-- Active: "bg-gray-100", Not Active: "" -->
+						<!-- Active: "bg-slate-100", Not Active: "" -->
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
-							class="block px-4 py-2 text-sm text-gray-700"
+							class="block px-4 py-2 text-sm text-slate-700"
 							role="menuitem"
 							tabindex="-1"
 							id="mobile-menu-item-0">Edit</a
@@ -222,7 +222,7 @@
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
-							class="block px-4 py-2 text-sm text-gray-700"
+							class="block px-4 py-2 text-sm text-slate-700"
 							role="menuitem"
 							tabindex="-1"
 							id="mobile-menu-item-1">View</a
@@ -244,8 +244,10 @@
 			<div class="md:grid md:grid-cols-3 md:gap-6">
 				<div class="md:col-span-1">
 					<div class="px-4 sm:px-0">
-						<h3 class="text-lg font-medium leading-6 text-gray-900">Profile</h3>
-						<p class="mt-1 text-sm text-gray-900">
+						<h3 class="text-lg font-medium leading-6 text-slate-900">
+							Profile
+						</h3>
+						<p class="mt-1 text-sm text-slate-900">
 							This information will be displayed publicly so be careful what you
 							share.
 						</p>
@@ -260,15 +262,15 @@
 							<div class="px-4 py-5 bg-white space-y-6 sm:p-6">
 								<div>
 									<!-- svelte-ignore a11y-label-has-associated-control -->
-									<label class="block text-sm font-medium text-gray-700">
+									<label class="block text-sm font-medium text-slate-700">
 										Profile image
 									</label>
 									<div class="mt-1 flex items-center">
 										<span
-											class="inline-block h-12 w-12 rounded-full overflow-hidden bg-gray-100"
+											class="inline-block h-12 w-12 rounded-full overflow-hidden bg-slate-100"
 										>
 											<svg
-												class="h-full w-full text-gray-300"
+												class="h-full w-full text-slate-300"
 												fill="currentColor"
 												viewBox="0 0 24 24"
 											>
@@ -279,7 +281,7 @@
 										</span>
 										<button
 											type="button"
-											class="ml-5 bg-white py-2 px-3 border-2 border-indigo-200 border-dashed rounded-md shadow-sm text-sm leading-4 font-medium text-gray-700 hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+											class="ml-5 bg-white py-2 px-3 border-2 border-fuchsia-300 border-dashed rounded-md shadow-sm text-sm leading-4 font-medium text-slate-700 hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 											>Change</button
 										>
 									</div>
@@ -289,11 +291,11 @@
 
 								<div>
 									<!-- svelte-ignore a11y-label-has-associated-control -->
-									<label class="block text-sm font-medium text-gray-700">
+									<label class="block text-sm font-medium text-slate-700">
 										Cover image
 									</label>
 									<div
-										class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-indigo-200 border-dashed rounded-md"
+										class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-fuchsia-300 border-dashed rounded-md"
 									>
 										<div class="space-y-1 text-center">
 											<svg
@@ -310,7 +312,7 @@
 													stroke-linejoin="round"
 												/>
 											</svg>
-											<div class="flex text-sm text-gray-900">
+											<div class="flex text-sm text-slate-900">
 												<label
 													for="file-upload"
 													class="relative cursor-pointer bg-white rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
@@ -330,7 +332,7 @@
 											</div>
 											<!--END:()-->
 
-											<p class="text-xs text-gray-500">
+											<p class="text-xs text-slate-500">
 												PNG, JPG, GIF up to 10MB
 											</p>
 										</div>
@@ -344,7 +346,7 @@
 								<div>
 									<label
 										for="describe-yourself"
-										class="block text-sm font-medium text-gray-700"
+										class="block text-sm font-medium text-slate-700"
 									>
 										Describe yourself in a few words
 									</label>
@@ -353,13 +355,13 @@
 											id="describe-yourself"
 											name="describe-yourself"
 											rows="2"
-											class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border-2 border-indigo-200 border-dashed rounded-md"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											placeholder="A place to include non-formal information"
 										/>
 									</div>
 									<!--END:()-->
 
-									<p class="mt-2 text-sm text-gray-500">
+									<p class="mt-2 text-sm text-slate-500">
 										Brief description for your profile. URLs are hyperlinked.
 									</p>
 								</div>
@@ -368,7 +370,7 @@
 								<div>
 									<label
 										for="cover-letter"
-										class="block text-sm font-medium text-gray-700"
+										class="block text-sm font-medium text-slate-700"
 									>
 										Cover Letter
 									</label>
@@ -377,13 +379,13 @@
 											id="cover-letter"
 											name="cover-letter"
 											rows="9"
-											class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border-2 border-indigo-200 border-dashed rounded-md"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											placeholder="Motivate your Recruiter?"
 										/>
 									</div>
 									<!--END:()-->
 
-									<p class="mt-2 text-sm text-gray-500">
+									<p class="mt-2 text-sm text-slate-500">
 										URLs are hyperlinked.
 									</p>
 								</div>
@@ -392,13 +394,13 @@
 								<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 									<label
 										for="spoken-languages"
-										class="block text-sm font-medium text-gray-700"
+										class="block text-sm font-medium text-slate-700"
 										>South African languages I am fluent in</label
 									>
 									<select
 										id="spoken-languages"
 										name="spoken-languages"
-										class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+										class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 									>
 										<option value="" disabled selected hidden
 											>South African languages...</option
@@ -407,7 +409,6 @@
 										<option>Pedi</option>
 										<option>isXhosa</option>
 										<option>English</option>
-										<option>Afrikaans</option>
 									</select>
 								</div>
 								<!--END:()-->
@@ -445,10 +446,10 @@
 			<div class="md:grid md:grid-cols-3 md:gap-6">
 				<div class="md:col-span-1">
 					<div class="px-4 sm:px-0">
-						<h3 class="text-lg font-medium leading-6 text-gray-900">
+						<h3 class="text-lg font-medium leading-6 text-slate-900">
 							Personal Details
 						</h3>
-						<p class="mt-1 text-sm text-gray-900">
+						<p class="mt-1 text-sm text-slate-900">
 							Lorem ipsum dolor sit ame, consectetur adipisicing?.
 						</p>
 					</div>
@@ -465,7 +466,7 @@
 										>idk man, you have a lot of copywriting to do</legend
 									>
 									<div
-										class="text-base font-medium text-gray-900"
+										class="text-base font-medium text-slate-900"
 										aria-hidden="true"
 									>
 										idk man, you have a lot of copywriting to do
@@ -480,16 +481,16 @@
 													checked
 													name="disabilities"
 													id="disabilities"
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-indigo-300 rounded"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-fuchsia-300 rounded"
 												/>
 											</div>
 											<!--END:()-->
 
 											<div class="ml-3 text-sm">
-												<label for="offers" class="font-medium text-gray-700"
+												<label for="offers" class="font-medium text-slate-700"
 													>Do you have a South African ID?</label
 												>
-												<p class="text-gray-500">
+												<p class="text-slate-500">
 													Lorem ipsum dolor sit ame, consectetur adipisicing sit
 													ame, consectetur adipisicing?
 												</p>
@@ -505,7 +506,7 @@
 													checked
 													name="criminal-record"
 													id="criminal-record"
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-indigo-300 rounded"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-fuchsia-300 rounded"
 												/>
 											</div>
 											<!--END:()-->
@@ -513,10 +514,10 @@
 											<div class="ml-3 text-sm">
 												<label
 													for="candidates"
-													class="font-medium text-gray-700"
+													class="font-medium text-slate-700"
 													>Are you disabled?</label
 												>
-												<p class="text-gray-500">
+												<p class="text-slate-500">
 													Lorem ipsum dolor sit ame, consectetur adipisicing?
 												</p>
 											</div>
@@ -531,16 +532,16 @@
 													checked
 													name="criminal-record"
 													id="criminal-record"
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-indigo-300 rounded"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-fuchsia-300 rounded"
 												/>
 											</div>
 											<!--END:()-->
 
 											<div class="ml-3 text-sm">
-												<label for="offers" class="font-medium text-gray-700"
+												<label for="offers" class="font-medium text-slate-700"
 													>Can you provide certified copies on request?</label
 												>
-												<p class="text-gray-500">
+												<p class="text-slate-500">
 													Lorem ipsum dolor sit ame, consectetur adipisicing sit
 													ame, consectetur adipisicing?
 												</p>
@@ -556,16 +557,16 @@
 													checked
 													name="drivers-licence"
 													id="drivers-licence"
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-indigo-300 rounded"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-fuchsia-300 rounded"
 												/>
 											</div>
 											<!--END:()-->
 
 											<div class="ml-3 text-sm">
-												<label for="comments" class="font-medium text-gray-700"
+												<label for="comments" class="font-medium text-slate-700"
 													>Do you have drivers licence?</label
 												>
-												<p class="text-gray-500">
+												<p class="text-slate-500">
 													Lorem ipsum dolor sit ame, consectetur adipisicing?
 												</p>
 											</div>
@@ -580,16 +581,16 @@
 													checked
 													name="criminal-record"
 													id="criminal-record"
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-indigo-300 rounded"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-fuchsia-300 rounded"
 												/>
 											</div>
 											<!--END:()-->
 
 											<div class="ml-3 text-sm">
-												<label for="offers" class="font-medium text-gray-700"
+												<label for="offers" class="font-medium text-slate-700"
 													>Do you have a criminal record?</label
 												>
-												<p class="text-gray-500">
+												<p class="text-slate-500">
 													Lorem ipsum dolor sit ame, consectetur adipisicing sit
 													ame, consectetur adipisicing?
 												</p>
@@ -633,10 +634,10 @@
 			<div class="md:grid md:grid-cols-3 md:gap-6">
 				<div class="md:col-span-1">
 					<div class="px-4 sm:px-0">
-						<h3 class="text-lg font-medium leading-6 text-gray-900">
+						<h3 class="text-lg font-medium leading-6 text-slate-900">
 							Profile Information
 						</h3>
-						<p class="mt-1 text-sm text-gray-900">
+						<p class="mt-1 text-sm text-slate-900">
 							Use a permanent address where you can receive mail.
 						</p>
 					</div>
@@ -652,14 +653,14 @@
 									<div class="col-span-6 sm:col-span-2 lg:col-span-1">
 										<label
 											for="title"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Title</label
 										>
 										<select
 											id="title"
 											name="title"
 											autocomplete="title"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300 col-span-6 sm:col-span-3"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											>
 											<option value="" disabled selected hidden>Click</option>
@@ -668,7 +669,6 @@
 											<option>Miss</option>
 											<option>Mrs.</option>
 											<option>+27</option>
-											<option>Imani Niyigena</option>
 										</select>
 									</div>
 									<!--END:()-->
@@ -676,7 +676,7 @@
 									<div class="col-span-6 sm:col-span-2 lg:col-span-3">
 										<label
 											for="first-name"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>First name</label
 										>
 										<input
@@ -684,7 +684,7 @@
 											name="first-name"
 											id="first-name"
 											autocomplete="given-name"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -692,7 +692,7 @@
 									<div class="col-span-6 sm:col-span-2 lg:col-span-2">
 										<label
 											for="last-name"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Last name</label
 										>
 										<input
@@ -700,7 +700,7 @@
 											name="last-name"
 											id="last-name"
 											autocomplete="family-name"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -708,7 +708,7 @@
 									<div class="col-span-6 sm:col-span-6 lg:col-span-2">
 										<label
 											for="email-address"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Email address</label
 										>
 										<input
@@ -716,7 +716,7 @@
 											name="email-address"
 											id="email-address"
 											autocomplete="email"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -724,17 +724,16 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="country-code"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>International Country Code</label
 										>
 										<select
 											id="country-code"
 											name="country-code"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											<option value="" disabled selected hidden>Click</option>
 											<option>+27</option>
-											<option>Imani Niyigena</option>
 										</select>
 									</div>
 									<!--END:()-->
@@ -742,13 +741,13 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="phone"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 										>
 											Contact number
 										</label>
 
 										<input
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											type="tel"
 											id="phone"
 											placeholder="+27 000 000 000"
@@ -759,7 +758,7 @@
 									<div class="col-span-6 sm:col-span-6 lg:col-span-4">
 										<label
 											for="street-address"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Street address</label
 										>
 										<input
@@ -767,7 +766,7 @@
 											name="street-address"
 											id="street-address"
 											autocomplete="street-address"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -775,7 +774,7 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="city"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>City / Town</label
 										>
 										<input
@@ -783,7 +782,7 @@
 											name="city"
 											id="city"
 											autocomplete="address-level2"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -791,7 +790,7 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="region"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>State / Province</label
 										>
 										<input
@@ -799,7 +798,7 @@
 											name="region"
 											id="region"
 											autocomplete="address-level1"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -807,7 +806,7 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="postal-code"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>ZIP / Postal code</label
 										>
 										<input
@@ -815,7 +814,7 @@
 											name="postal-code"
 											id="postal-code"
 											autocomplete="postal-code"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -823,14 +822,14 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="country-name"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Country</label
 										>
 										<input
 											type="text"
 											name="country-name"
 											id="country-name"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -870,10 +869,10 @@
 			<div class="md:grid md:grid-cols-3 md:gap-6">
 				<div class="md:col-span-1">
 					<div class="px-4 sm:px-0">
-						<h3 class="text-lg font-medium leading-6 text-gray-900">
+						<h3 class="text-lg font-medium leading-6 text-slate-900">
 							Education
 						</h3>
-						<p class="mt-1 text-sm text-gray-900">
+						<p class="mt-1 text-sm text-slate-900">
 							Provide academic and education history.
 						</p>
 					</div>
@@ -888,14 +887,14 @@
 									<div class="col-span-6 sm:col-span-2 lg:col-span-1">
 										<label
 											for="country"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Tier</label
 										>
 										<select
 											id="title"
 											name="title"
 											autocomplete="title"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300 col-span-6 sm:col-span-3"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											>
 											<option value="" disabled selected hidden>Click</option>
@@ -911,14 +910,14 @@
 									<div class="col-span-6 sm:col-span-4 lg:col-span-2">
 										<label
 											for="institution-name"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Name of institution</label
 										>
 										<input
 											type="text"
 											name="institution-name"
 											id="institution-name"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -926,14 +925,14 @@
 									<div class="col-span-6 sm:col-span-6 lg:col-span-3">
 										<label
 											for="qualfication-name"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Name of qualfication</label
 										>
 										<input
 											type="text"
 											name="qualfication-name"
 											id="qualfication-name"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -941,7 +940,7 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="email-address"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Start Date</label
 										>
 										<input
@@ -949,7 +948,7 @@
 											name="email-address"
 											id="email-address"
 											autocomplete="email"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -957,14 +956,14 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="end-date-edu"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>End Date</label
 										>
 										<input
 											type="date"
 											name="end-date-edu"
 											id="end-date-edu"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -972,7 +971,7 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="still-studying"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Still studying here?</label
 										>
 										<input
@@ -980,7 +979,7 @@
 											type="checkbox"
 											name="still-studying"
 											id="still-studying"
-											class="block appearance-none w-full bg-indigo-200 border border-indigo-600 text-indigo-600 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class="block appearance-none w-full bg-indigo-200 border border-fuchsia-600 text-indigo-600 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-fuchsia-300 border-dashed"
 										/>
 									</div>
 									<!--END:()-->
@@ -988,13 +987,13 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="phone"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 										>
 											Contact number
 										</label>
 
 										<input
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											type="tel"
 											id="phone"
 											placeholder="+27 000 000 000"
@@ -1005,7 +1004,7 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="city"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>City / Town</label
 										>
 										<input
@@ -1013,7 +1012,7 @@
 											name="city"
 											id="city"
 											autocomplete="address-level2"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1021,14 +1020,14 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="country-name"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Country</label
 										>
 										<input
 											type="text"
 											name="country-name"
 											id="country-name"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1037,10 +1036,10 @@
 										<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 											<fieldset>
 												<legend
-													class="contents text-base font-medium text-gray-900"
+													class="contents text-base font-medium text-slate-900"
 													>Time spent</legend
 												>
-												<p class="text-sm text-gray-500">
+												<p class="text-sm text-slate-500">
 													The type of learning.
 												</p>
 												<div class="mt-4 space-y-4">
@@ -1050,11 +1049,11 @@
 															name="time-spent"
 															type="radio"
 															checked
-															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-indigo-200 border-dashed"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
 														/>
 														<label
 															for="push-everything"
-															class="ml-3 block text-sm font-medium text-gray-700"
+															class="ml-3 block text-sm font-medium text-slate-700"
 														>
 															Part-time
 														</label>
@@ -1066,11 +1065,11 @@
 															id="time-spent"
 															name="time-spent"
 															type="radio"
-															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-indigo-200 border-dashed"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
 														/>
 														<label
 															for="time-spent"
-															class="ml-3 block text-sm font-medium text-gray-700"
+															class="ml-3 block text-sm font-medium text-slate-700"
 														>
 															Full-time
 														</label>
@@ -1082,10 +1081,10 @@
 											<!--END:()-->
 											<fieldset>
 												<legend
-													class="contents text-base font-medium text-gray-900"
+													class="contents text-base font-medium text-slate-900"
 													>Type of learning</legend
 												>
-												<p class="text-sm text-gray-500">
+												<p class="text-sm text-slate-500">
 													How did you get your education.
 												</p>
 												<div class="mt-4 space-y-4">
@@ -1094,11 +1093,11 @@
 															id="learning-type"
 															name="learning-type"
 															type="radio"
-															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-indigo-200 border-dashed"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
 														/>
 														<label
 															for="learning-type"
-															class="ml-3 block text-sm font-medium text-gray-700"
+															class="ml-3 block text-sm font-medium text-slate-700"
 														>
 															At institution premesis
 														</label>
@@ -1110,11 +1109,11 @@
 															id="learning-type"
 															name="learning-type"
 															type="radio"
-															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-indigo-200 border-dashed"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
 														/>
 														<label
 															for="push-email"
-															class="ml-3 block text-sm font-medium text-gray-700"
+															class="ml-3 block text-sm font-medium text-slate-700"
 														>
 															Online
 														</label>
@@ -1126,11 +1125,11 @@
 															id="learning-type"
 															name="learning-type"
 															type="radio"
-															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-indigo-200 border-dashed"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
 														/>
 														<label
 															for="push-nothing"
-															class="ml-3 block text-sm font-medium text-gray-700"
+															class="ml-3 block text-sm font-medium text-slate-700"
 														>
 															Distance Learning
 														</label>
@@ -1143,11 +1142,11 @@
 															id="learning-type"
 															name="learning-type"
 															type="radio"
-															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-indigo-200 border-dashed"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
 														/>
 														<label
 															for="learning-type"
-															class="ml-3 block text-sm font-medium text-gray-700"
+															class="ml-3 block text-sm font-medium text-slate-700"
 														>
 															Self taught
 														</label>
@@ -1164,11 +1163,11 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-4">
 										<div class="col-span-6 sm:col-span-4">
 											<!--svelte-ignore a11y-label-has-associated-control -->
-											<label class="block text-sm font-medium text-gray-700">
+											<label class="block text-sm font-medium text-slate-700">
 												Documents
 											</label>
 											<div
-												class="mt-1 flex justify-center px-6 py-20 border-2 border-indigo-200 border-dashed rounded-md"
+												class="mt-1 flex justify-center px-6 py-20 border-2 border-fuchsia-300 border-dashed rounded-md"
 											>
 												<div class="space-y-1 text-center">
 													<svg
@@ -1185,7 +1184,7 @@
 															stroke-linejoin="round"
 														/>
 													</svg>
-													<div class="flex text-sm text-gray-900">
+													<div class="flex text-sm text-slate-900">
 														<label
 															for="file-upload"
 															class="relative cursor-pointer bg-white rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
@@ -1205,7 +1204,7 @@
 													</div>
 													<!--END:()-->
 
-													<p class="text-xs text-gray-500">
+													<p class="text-xs text-slate-500">
 														PDF, DOC, DOCX up to 10MB
 													</p>
 												</div>
@@ -1213,7 +1212,7 @@
 											</div>
 											<!--END:()-->
 											<div
-												class="mt-1 text-center flex text-indigo-400 justify-center px-1 py-1 border-2 border-indigo-200 border-dashed rounded-md"
+												class="mt-1 text-center flex text-indigo-400 justify-center px-1 py-1 border-2 border-fuchsia-300 border-dashed rounded-md"
 											>
 												Eish sohn... You have no documents saved...
 											</div>
@@ -1266,10 +1265,10 @@
 			<div class="md:grid md:grid-cols-3 md:gap-6">
 				<div class="md:col-span-1">
 					<div class="px-4 sm:px-0">
-						<h3 class="text-lg font-medium leading-6 text-gray-900">
+						<h3 class="text-lg font-medium leading-6 text-slate-900">
 							Work Experience
 						</h3>
-						<p class="mt-1 text-sm text-gray-900">
+						<p class="mt-1 text-sm text-slate-900">
 							Please make sure that all your references are contactable.
 						</p>
 					</div>
@@ -1285,14 +1284,14 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
 										<label
 											for="institution-name"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Name of Employer / Company</label
 										>
 										<input
 											type="text"
 											name="institution-name"
 											id="institution-name"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1300,14 +1299,14 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
 										<label
 											for="qualfication-name"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Name of Position / Job</label
 										>
 										<input
 											type="text"
 											name="qualfication-name"
 											id="qualfication-name"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1315,14 +1314,14 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="start-date-edu"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Start Date</label
 										>
 										<input
 											type="date"
 											name="start-date-edu"
 											id="start-date-edu"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1330,14 +1329,14 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="end-date-edu"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>End Date</label
 										>
 										<input
 											type="date"
 											name="end-date-edu"
 											id="end-date-edu"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1345,7 +1344,7 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="still-studying"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Still working here?</label
 										>
 										<input
@@ -1353,9 +1352,9 @@
 											type="checkbox"
 											name="still-studying"
 											id="still-studying"
-											class="block appearance-none w-full bg-indigo-200 border border-indigo-600 text-indigo-600 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class="block appearance-none w-full bg-indigo-200 border border-fuchsia-600 text-indigo-600 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-fuchsia-300 border-dashed"
 										/>
-										<p class="mt-2 text-sm text-gray-500">
+										<p class="mt-2 text-sm text-slate-500">
 											End date can be left empty.
 										</p>
 									</div>
@@ -1364,13 +1363,13 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="phone"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 										>
 											Contact number
 										</label>
 
 										<input
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											type="tel"
 											id="phone"
 											placeholder="+27 000 000 000"
@@ -1381,7 +1380,7 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="city"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>City / Town</label
 										>
 										<input
@@ -1389,7 +1388,7 @@
 											name="city"
 											id="city"
 											autocomplete="address-level2"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1397,14 +1396,14 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="country-name"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Country</label
 										>
 										<input
 											type="text"
 											name="country-name"
 											id="country-name"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1412,10 +1411,10 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<fieldset>
 											<legend
-												class="contents text-base font-medium text-gray-900"
+												class="contents text-base font-medium text-slate-900"
 												>Employment type</legend
 											>
-											<p class="text-sm text-gray-500">
+											<p class="text-sm text-slate-500">
 												The type work arrangemnet you had.
 											</p>
 											<div class="mt-4 space-y-4">
@@ -1425,11 +1424,11 @@
 														id="emp-type"
 														name="emp-type"
 														type="radio"
-														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-indigo-200 border-dashed"
+														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
 													/>
 													<label
 														for="push-everything"
-														class="ml-3 block text-sm font-medium text-gray-700"
+														class="ml-3 block text-sm font-medium text-slate-700"
 													>
 														Volenter
 													</label>
@@ -1441,11 +1440,11 @@
 														id="emp-type"
 														name="emp-type"
 														type="radio"
-														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-indigo-200 border-dashed"
+														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
 													/>
 													<label
 														for="time-spent"
-														class="ml-3 block text-sm font-medium text-gray-700"
+														class="ml-3 block text-sm font-medium text-slate-700"
 													>
 														Permanent
 													</label>
@@ -1457,11 +1456,11 @@
 														id="emp-type"
 														name="emp-type"
 														type="radio"
-														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-indigo-200 border-dashed"
+														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
 													/>
 													<label
 														for="time-spent"
-														class="ml-3 block text-sm font-medium text-gray-700"
+														class="ml-3 block text-sm font-medium text-slate-700"
 													>
 														Full-time
 													</label>
@@ -1472,11 +1471,11 @@
 														id="emp-type"
 														name="emp-type"
 														type="radio"
-														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-indigo-200 border-dashed"
+														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
 													/>
 													<label
 														for="learning-type"
-														class="ml-3 block text-sm font-medium text-gray-700"
+														class="ml-3 block text-sm font-medium text-slate-700"
 													>
 														Contract
 													</label>
@@ -1488,11 +1487,11 @@
 														id="emp-type"
 														name="emp-type"
 														type="radio"
-														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-indigo-200 border-dashed"
+														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
 													/>
 													<label
 														for="push-email"
-														class="ml-3 block text-sm font-medium text-gray-700"
+														class="ml-3 block text-sm font-medium text-slate-700"
 													>
 														Part-time
 													</label>
@@ -1504,11 +1503,11 @@
 														id="emp-type"
 														name="emp-type"
 														type="radio"
-														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-indigo-200 border-dashed"
+														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
 													/>
 													<label
 														for="push-nothing"
-														class="ml-3 block text-sm font-medium text-gray-700"
+														class="ml-3 block text-sm font-medium text-slate-700"
 													>
 														Seasonal
 													</label>
@@ -1520,11 +1519,11 @@
 														id="emp-type"
 														name="emp-type"
 														type="radio"
-														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-indigo-200 border-dashed"
+														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
 													/>
 													<label
 														for="learning-type"
-														class="ml-3 block text-sm font-medium text-gray-700"
+														class="ml-3 block text-sm font-medium text-slate-700"
 													>
 														Casual
 													</label>
@@ -1539,7 +1538,7 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-4">
 										<label
 											for="cover-letter"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 										>
 											Responsibilities
 										</label>
@@ -1548,13 +1547,13 @@
 												id="cover-letter"
 												name="cover-letter"
 												rows="12"
-												class="text-orange-500 shadow-sm focus:ring-indigo-500 px-5 py-2 focus:border-indigo-500 mt-1 block w-full sm:text-sm border-2 border-indigo-200 border-dashed rounded-md"
+												class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 												placeholder="Mention roles, duties, tools and equipment that you used."
 											/>
 										</div>
 										<!--END:()-->
 
-										<p class="mt-2 text-sm text-gray-500">
+										<p class="mt-2 text-sm text-slate-500">
 											Bruv Add some extra information or something bra.
 										</p>
 									</div>
@@ -1585,10 +1584,10 @@
 			<div class="md:grid md:grid-cols-3 md:gap-6">
 				<div class="md:col-span-1">
 					<div class="px-4 sm:px-0">
-						<h3 class="text-lg font-medium leading-6 text-gray-900">
+						<h3 class="text-lg font-medium leading-6 text-slate-900">
 							Reference
 						</h3>
-						<p class="mt-1 text-sm text-gray-900">A contacabtle reference.</p>
+						<p class="mt-1 text-sm text-slate-900">A contacabtle reference.</p>
 					</div>
 					<!--END:()-->
 				</div>
@@ -1602,14 +1601,14 @@
 									<div class="col-span-6 sm:col-span-2 lg:col-span-1">
 										<label
 											for="country"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Title</label
 										>
 										<select
 											id="title"
 											name="title"
 											autocomplete="title"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300 col-span-6 sm:col-span-3"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											>
 											<option value="" disabled selected hidden>Click</option>
@@ -1618,7 +1617,6 @@
 											<option>Miss</option>
 											<option>Mrs.</option>
 											<option>+27</option>
-											<option>Imani Niyigena</option>
 										</select>
 									</div>
 									<!--END:()-->
@@ -1626,7 +1624,7 @@
 									<div class="col-span-6 sm:col-span-2 lg:col-span-3">
 										<label
 											for="first-name"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>First name</label
 										>
 										<input
@@ -1634,7 +1632,7 @@
 											name="first-name"
 											id="first-name"
 											autocomplete="given-name"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1642,7 +1640,7 @@
 									<div class="col-span-6 sm:col-span-2 lg:col-span-2">
 										<label
 											for="last-name"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Last name</label
 										>
 										<input
@@ -1650,7 +1648,7 @@
 											name="last-name"
 											id="last-name"
 											autocomplete="family-name"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1658,7 +1656,7 @@
 									<div class="col-span-6 sm:col-span-6 lg:col-span-6">
 										<label
 											for="qualfication-name"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Name of Position / Job</label
 										>
 										<input
@@ -1666,7 +1664,7 @@
 											name="qualfication-name"
 											id="qualfication-name"
 											autocomplete="qualfication-name"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1674,7 +1672,7 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
 										<label
 											for="email-address"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Email address</label
 										>
 										<input
@@ -1682,7 +1680,7 @@
 											name="email-address"
 											id="email-address"
 											autocomplete="email"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1690,7 +1688,7 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
 										<label
 											for="email-address"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Alternative email address</label
 										>
 										<input
@@ -1698,7 +1696,7 @@
 											name="email-address"
 											id="email-address"
 											autocomplete="email"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1706,13 +1704,13 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
 										<label
 											for="phone"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 										>
 											Contact number
 										</label>
 
 										<input
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											type="tel"
 											id="phone"
 											placeholder="+27 000 000 000"
@@ -1723,13 +1721,13 @@
 									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
 										<label
 											for="phone"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 										>
 											Alternative contact number
 										</label>
 
 										<input
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											type="tel"
 											id="phone"
 											placeholder="+27 000 000 000"
@@ -1781,10 +1779,10 @@
 			<div class="md:grid md:grid-cols-3 md:gap-6">
 				<div class="md:col-span-1">
 					<div class="px-4 sm:px-0">
-						<h3 class="text-lg font-medium leading-6 text-gray-900">
+						<h3 class="text-lg font-medium leading-6 text-slate-900">
 							Skills, compenticies and abilities
 						</h3>
-						<p class="mt-1 text-sm text-gray-900">
+						<p class="mt-1 text-sm text-slate-900">
 							Your capabilites and talents.
 						</p>
 					</div>
@@ -1797,31 +1795,31 @@
 						<div class="shadow overflow-hidden sm:rounded-md">
 							<div class="px-4 py-5 bg-white sm:p-6">
 								<div class="grid grid-cols-6 gap-6">
-									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
+									<div class="col-span-6 lg:col-span-2">
 										<label
 											for="skill-name"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Name of skill</label
 										>
 										<input
 											type="text"
 											name="skill-name"
 											id="skill-name"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
 
-									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
+									<div class="col-span-6 lg:col-span-4">
 										<label
 											for="country-code"
-											class="block text-sm font-medium text-gray-700"
+											class="block text-sm font-medium text-slate-700"
 											>Degree of exposure</label
 										>
 										<select
 											id="country-code"
 											name="country-code"
-											class="block appearance-none w-full bg-gray-100 border-2 border-indigo-200 border-dashed text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											<option value="" disabled selected hidden>Click</option>
 											<option>Review (heard of)</option>
@@ -1877,10 +1875,10 @@
 			<div class="md:grid md:grid-cols-3 md:gap-6">
 				<div class="md:col-span-1">
 					<div class="px-4 sm:px-0">
-						<h3 class="text-lg font-medium leading-6 text-gray-900">
+						<h3 class="text-lg font-medium leading-6 text-slate-900">
 							Notifications
 						</h3>
-						<p class="mt-1 text-sm text-gray-900">
+						<p class="mt-1 text-sm text-slate-900">
 							Decide which communications you'd like to receive and how.
 						</p>
 					</div>
@@ -1895,7 +1893,7 @@
 								<fieldset>
 									<legend class="sr-only">By Email</legend>
 									<div
-										class="text-base font-medium text-gray-900"
+										class="text-base font-medium text-slate-900"
 										aria-hidden="true"
 									>
 										By Email
@@ -1910,16 +1908,16 @@
 													name="comments"
 													type="checkbox"
 													checked
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-indigo-200 border-dashed rounded"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed rounded"
 												/>
 											</div>
 											<!--END:()-->
 
 											<div class="ml-3 text-sm">
-												<label for="comments" class="font-medium text-gray-700"
+												<label for="comments" class="font-medium text-slate-700"
 													>Reviews</label
 												>
-												<p class="text-gray-500">
+												<p class="text-slate-500">
 													Get notified when someones reviews your profile or
 													Resume / CV
 												</p>
@@ -1935,7 +1933,7 @@
 													name="candidates"
 													type="checkbox"
 													checked
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-indigo-200 border-dashed rounded"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed rounded"
 												/>
 											</div>
 											<!--END:()-->
@@ -1943,9 +1941,9 @@
 											<div class="ml-3 text-sm">
 												<label
 													for="candidates"
-													class="font-medium text-gray-700">Job postings</label
+													class="font-medium text-slate-700">Job postings</label
 												>
-												<p class="text-gray-500">
+												<p class="text-slate-500">
 													Get notified when a recruiter posts a job that matches
 													your preferences.
 												</p>
@@ -1961,16 +1959,16 @@
 													name="offers"
 													type="checkbox"
 													checked
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-indigo-200 border-dashed rounded"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed rounded"
 												/>
 											</div>
 											<!--END:()-->
 
 											<div class="ml-3 text-sm">
-												<label for="offers" class="font-medium text-gray-700"
+												<label for="offers" class="font-medium text-slate-700"
 													>Offers, Interviews and feedback</label
 												>
-												<p class="text-gray-500">
+												<p class="text-slate-500">
 													Get notified when a recruiter reaches out and makes an
 													offer.
 												</p>
@@ -1982,10 +1980,10 @@
 									<!--END:()-->
 								</fieldset>
 								<fieldset>
-									<legend class="contents text-base font-medium text-gray-900"
+									<legend class="contents text-base font-medium text-slate-900"
 										>Push Notifications</legend
 									>
-									<p class="text-sm text-gray-500">
+									<p class="text-sm text-slate-500">
 										These are delivered via SMS to your mobile phone.
 									</p>
 									<div class="mt-4 space-y-4">
@@ -1995,11 +1993,11 @@
 												name="push-notifications"
 												type="radio"
 												checked
-												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-indigo-200 border-dashed"
+												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
 											/>
 											<label
 												for="push-everything"
-												class="ml-3 block text-sm font-medium text-gray-700"
+												class="ml-3 block text-sm font-medium text-slate-700"
 											>
 												Everything
 											</label>
@@ -2011,11 +2009,11 @@
 												id="push-email"
 												name="push-notifications"
 												type="radio"
-												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-indigo-200 border-dashed"
+												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
 											/>
 											<label
 												for="push-email"
-												class="ml-3 block text-sm font-medium text-gray-700"
+												class="ml-3 block text-sm font-medium text-slate-700"
 											>
 												Same as email
 											</label>
@@ -2027,11 +2025,11 @@
 												id="push-nothing"
 												name="push-notifications"
 												type="radio"
-												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-indigo-200 border-dashed"
+												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
 											/>
 											<label
 												for="push-nothing"
-												class="ml-3 block text-sm font-medium text-gray-700"
+												class="ml-3 block text-sm font-medium text-slate-700"
 											>
 												No push notifications
 											</label>

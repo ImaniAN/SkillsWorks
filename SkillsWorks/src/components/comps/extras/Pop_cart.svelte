@@ -6,7 +6,7 @@
 	tabindex="-1"
 >
 	<div class="flex items-start justify-between">
-		<h2 class="flex items-center text-gray-700">
+		<h2 class="flex items-center text-slate-700">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="w-4 h-4"
@@ -51,14 +51,14 @@
 	<div class="flex items-start pt-8 pb-12">
 		<img
 			class="object-cover w-16 h-20 border-2 border-black rounded-lg"
-			src="../../photos/tee-green-person-2.png"
+			src="https://dummyimage.com/305x305"
 			alt="Basic Tee"
 		/>
 
 		<div class="ml-4">
 			<h3 class="text-sm">Basic Tee 6-Pack</h3>
 
-			<dl class="mt-1 space-y-1 text-xs text-gray-500">
+			<dl class="mt-1 space-y-1 text-xs text-slate-500">
 				<div>
 					<dt class="inline">Size:</dt>
 					<dd class="inline">XXS</dd>

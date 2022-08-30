@@ -1,11 +1,11 @@
 <div class="flex flex-col justify-between w-16 h-screen bg-white border-r">
 	<div>
 		<div class="inline-flex items-center justify-center w-16 h-16">
-			<span class="block w-10 h-10 bg-gray-200 rounded-lg" />
+			<span class="block w-10 h-10 bg-slate-200 rounded-lg" />
 		</div>
 		<!--END:()-->
 
-		<div class="border-t border-indigo-100">
+		<div class="border-t border-fuchsia-100">
 			<nav class="flex flex-col p-2">
 				<div class="py-4">
 					<!-- svelte-ignore a11y-invalid-attribute -->
@@ -34,7 +34,7 @@
 						</svg>
 
 						<span
-							class="absolute text-xs font-medium text-white bg-gray-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
+							class="absolute text-xs font-medium text-white bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
 						>
 							General
 						</span>
@@ -42,12 +42,12 @@
 				</div>
 				<!--END:()-->
 
-				<ul class="pt-4 space-y-1 border-t border-indigo-100">
+				<ul class="pt-4 space-y-1 border-t border-fuchsia-100">
 					<li>
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href=""
-							class="flex justify-center px-2 py-1.5 text-gray-500 rounded hover:bg-gray-50 hover:text-gray-700 relative group"
+							class="flex justify-center px-2 py-1.5 text-slate-500 rounded hover:bg-slate-50 hover:text-slate-700 relative group"
 						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@
 							</svg>
 
 							<span
-								class="absolute text-xs font-medium text-white bg-gray-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
+								class="absolute text-xs font-medium text-white bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
 							>
 								Teams
 							</span>
@@ -76,7 +76,7 @@
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href=""
-							class="flex relative group justify-center px-2 py-1.5 text-gray-500 rounded hover:bg-gray-50 hover:text-gray-700"
+							class="flex relative group justify-center px-2 py-1.5 text-slate-500 rounded hover:bg-slate-50 hover:text-slate-700"
 						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +94,7 @@
 							</svg>
 
 							<span
-								class="absolute text-xs font-medium text-white bg-gray-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
+								class="absolute text-xs font-medium text-white bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
 							>
 								Billing
 							</span>
@@ -105,7 +105,7 @@
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href=""
-							class="flex justify-center px-2 py-1.5 text-gray-500 rounded hover:bg-gray-50 hover:text-gray-700 relative group"
+							class="flex justify-center px-2 py-1.5 text-slate-500 rounded hover:bg-slate-50 hover:text-slate-700 relative group"
 						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -123,7 +123,7 @@
 							</svg>
 
 							<span
-								class="absolute text-xs font-medium text-white bg-gray-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
+								class="absolute text-xs font-medium text-white bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
 							>
 								Invoices
 							</span>
@@ -134,7 +134,7 @@
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href=""
-							class="relative group flex justify-center px-2 py-1.5 text-gray-500 rounded hover:bg-gray-50 hover:text-gray-700"
+							class="relative group flex justify-center px-2 py-1.5 text-slate-500 rounded hover:bg-slate-50 hover:text-slate-700"
 						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -152,7 +152,7 @@
 							</svg>
 
 							<span
-								class="absolute text-xs font-medium text-white bg-gray-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
+								class="absolute text-xs font-medium text-white bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
 							>
 								Account
 							</span>
@@ -166,12 +166,12 @@
 	<!--END:()-->
 
 	<div
-		class="sticky inset-x-0 bottom-0 p-2 bg-white border-t border-indigo-100"
+		class="sticky inset-x-0 bottom-0 p-2 bg-white border-t border-fuchsia-100"
 	>
 		<form action="/logout">
 			<button
 				type="submit"
-				class="flex justify-center w-full px-2 py-1.5 text-sm text-gray-500 rounded-lg hover:bg-gray-50 hover:text-gray-700 group relative"
+				class="flex justify-center w-full px-2 py-1.5 text-sm text-slate-500 rounded-lg hover:bg-slate-50 hover:text-slate-700 group relative"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -189,7 +189,7 @@
 				</svg>
 
 				<span
-					class="absolute text-xs font-medium text-white bg-gray-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
+					class="absolute text-xs font-medium text-white bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
 				>
 					Logout
 				</span>

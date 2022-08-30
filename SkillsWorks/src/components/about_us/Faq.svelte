@@ -1,4 +1,4 @@
-<div class="bg-lightblue py-20 px-4">
+<div class="bg-lightblue py-2 px-4">
 	<div class="mx-auto max-w-6xl flex flex-col md:flex-row">
 		<div
 			class="hidden md:flex flex-auto items-start justify-end p-10 pr-20 overflow-hidden bg-no-repeat bg-cover relative"
@@ -88,7 +88,7 @@
 		list-style: none;
 		width: 20px;
 		height: 20px;
-		background: #93c5fd;
+		background:orangered;
 		animation: animate 25s linear infinite;
 		bottom: -150px;
 	}

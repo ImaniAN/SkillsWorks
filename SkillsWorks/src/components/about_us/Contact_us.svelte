@@ -1,5 +1,5 @@
-<section class="text-gray-600 body-font relative">
-	<div class="absolute inset-0 bg-gray-300">
+<section class="text-slate-600 body-font relative">
+	<div class="absolute inset-0 bg-slate-300">
 		<iframe
 			width="100%"
 			height="100%"
@@ -14,20 +14,20 @@
 			referrerpolicy="no-referrer-when-downgrade"
 		/>
 	</div>
-	<!--END:()-->
+	<!--END:(The div for Iframe location)-->
 
 	<div class="container px-5 py-24 mx-auto flex">
 		<div
 			class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md"
 		>
-			<h2 class="text-gray-900 text-lg mb-1 font-medium title-font">
+			<h2 class="text-slate-900 text-lg mb-1 font-medium title-font">
 				Feedback
 			</h2>
-			<p class="leading-relaxed mb-5 text-gray-600">
+			<p class="leading-relaxed mb-5 text-slate-600">
 				Post-ironic portland shabby chic echo park, banjo fashion axe
 			</p>
 			<div class="relative mb-4">
-				<label for="name" class="leading-7 text-sm text-gray-600"
+				<label for="name" class="leading-7 text-sm text-slate-600"
 					>Full Name</label
 				>
 				<input
@@ -35,44 +35,46 @@
 					id="name"
 					required
 					name="name"
-					class="w-full bg-white rounded border-2 border-indigo-300 border-dashed focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 				/>
 			</div>
 			<!--END:()-->
 
 			<div class="relative mb-4">
-				<label for="phone" class="leading-7 text-sm text-gray-600">Phone</label>
+				<label for="phone" class="leading-7 text-sm text-slate-600">Phone</label
+				>
 				<input
 					type="text"
 					id="phone"
 					placeholder="+27 000 000 000"
 					name="phone"
-					class="w-full bg-white rounded border-2 border-indigo-300 border-dashed focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 				/>
 			</div>
 			<!--END:()-->
 
 			<div class="relative mb-4">
-				<label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+				<label for="email" class="leading-7 text-sm text-slate-600">Email</label
+				>
 				<input
 					id="email"
 					type="email"
 					placeholder="Your email (example@gmail.com)"
 					required
 					name="email"
-					class="w-full bg-white rounded border-2 border-indigo-300 border-dashed focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 				/>
 			</div>
 			<!--END:()-->
 
 			<div class="relative mb-4">
-				<label for="message" class="leading-7 text-sm text-gray-600"
+				<label for="message" class="leading-7 text-sm text-slate-600"
 					>Message</label
 				>
 				<textarea
 					id="message"
 					name="message"
-					class="w-full bg-white rounded border-2 border-indigo-300 border-dashed focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 				/>
 			</div>
 			<!--END:()-->
@@ -81,8 +83,10 @@
 				class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
 				>Button</button
 			>
-			<div class="mt-16">
-				<p class="text-xs text-gray-500 mt-3">
+			<!--END:()-->
+
+			<div class="p-3">
+				<p class="text-xs text-slate-500">
 					Feel free to reach us on these platforms
 				</p>
 				<ul class="flex justify-center gap-6 sm:justify-end">
@@ -228,8 +232,40 @@
 					</li>
 				</ul>
 			</div>
-			<!--END:()-->
+
+			<div
+				class="bg-white relative flex flex-wrap p-2 mt-1 rounded border-dashed shadow-md"
+			>
+				<div class="lg:w-11/12 px-6 mt-1">
+					<h2
+						class="title-font font-semibold text-gray-900 tracking-widest text-xs"
+					>
+						ADDRESS
+					</h2>
+					<p class="mt-1">
+						Photo booth tattooed prism, portland taiyaki hoodie neutra
+						typewriter
+					</p>
+				</div>
+				<div class="lg:w-11/12 pt-6 px-6 mt-1">
+					<h2
+						class="title-font font-semibold text-gray-900 tracking-widest text-xs"
+					>
+						EMAIL
+					</h2>
+					<!-- svelte-ignore a11y-invalid-attribute -->
+					<a href="#" class="text-lime-500 leading-relaxed">example@email.com</a
+					>
+					<h2
+						class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4"
+					>
+						PHONE
+					</h2>
+					<p class="leading-relaxed">123-456-7890</p>
+				</div>
+			</div>
 		</div>
+
 		<!--END:()-->
 	</div>
 	<!--END:()-->

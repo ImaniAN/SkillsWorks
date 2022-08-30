@@ -30,7 +30,7 @@
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href=""
-		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-gray-500 hover:border-indigo-100 hover:bg-gray-50 hover:text-gray-700"
+		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-fuchsia-100 hover:bg-slate-50 hover:text-slate-700"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href=""
-		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-gray-500 hover:border-indigo-100 hover:bg-gray-50 hover:text-gray-700"
+		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-fuchsia-100 hover:bg-slate-50 hover:text-slate-700"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href=""
-		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-gray-500 hover:border-indigo-100 hover:bg-gray-50 hover:text-gray-700"
+		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-fuchsia-100 hover:bg-slate-50 hover:text-slate-700"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +99,7 @@
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href=""
-		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-gray-500 hover:border-indigo-100 hover:bg-gray-50 hover:text-gray-700"
+		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-fuchsia-100 hover:bg-slate-50 hover:text-slate-700"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"

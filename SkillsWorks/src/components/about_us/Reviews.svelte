@@ -1,5 +1,7 @@
-<section>
-	<div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
+<section
+	class="px-4 py-8 mx-auto justify-center border-2 border-dashed border-red-900"
+>
+	<div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8 bg-slate-900">
 		<h2 class="text-xl font-bold sm:text-2xl">Customer Reviews</h2>
 
 		<div class="flex items-center mt-4">
@@ -52,7 +54,7 @@
 					</svg>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="w-5 h-5 text-gray-200"
+						class="w-5 h-5 text-slate-200"
 						viewBox="0 0 20 20"
 						fill="currentColor"
 					>
@@ -61,13 +63,10 @@
 						/>
 					</svg>
 				</div>
-				<!--END:()-->
 
-				<p class="mt-0.5 text-xs text-gray-500">Based on 48 reviews</p>
+				<p class="mt-0.5 text-xs text-slate-500">Based on 48 reviews</p>
 			</div>
-			<!--END:()-->
 		</div>
-		<!--END:()-->
 
 		<div class="grid grid-cols-1 mt-8 lg:grid-cols-2 gap-x-16 gap-y-12">
 			<blockquote>
@@ -115,7 +114,7 @@
 						</svg>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							class="w-5 h-5 text-gray-200"
+							class="w-5 h-5 text-slate-200"
 							viewBox="0 0 20 20"
 							fill="currentColor"
 						>
@@ -124,14 +123,13 @@
 							/>
 						</svg>
 					</div>
-					<!--END:()-->
 
 					<p class="mt-2 font-medium sm:ml-4 sm:mt-0">
 						The best thing money can buy!
 					</p>
 				</header>
 
-				<p class="mt-2 text-gray-700">
+				<p class="mt-2 text-slate-700">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
 					possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto
 					alias incidunt cum tempore aliquid aliquam error quisquam ipsam
@@ -139,7 +137,7 @@
 				</p>
 
 				<footer class="mt-4">
-					<p class="text-xs text-gray-500">John Doe - 12th January, 2069</p>
+					<p class="text-xs text-slate-500">John Doe - 12th January, 2024</p>
 				</footer>
 			</blockquote>
 
@@ -188,7 +186,7 @@
 						</svg>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							class="w-5 h-5 text-gray-200"
+							class="w-5 h-5 text-slate-200"
 							viewBox="0 0 20 20"
 							fill="currentColor"
 						>
@@ -197,14 +195,13 @@
 							/>
 						</svg>
 					</div>
-					<!--END:()-->
 
 					<p class="mt-2 font-medium sm:ml-4 sm:mt-0">
 						The best thing money can buy!
 					</p>
 				</header>
 
-				<p class="mt-2 text-gray-700">
+				<p class="mt-2 text-slate-700">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
 					possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto
 					alias incidunt cum tempore aliquid aliquam error quisquam ipsam
@@ -212,7 +209,7 @@
 				</p>
 
 				<footer class="mt-4">
-					<p class="text-xs text-gray-500">John Doe - 12th January, 2069</p>
+					<p class="text-xs text-slate-500">John Doe - 12th January, 2024</p>
 				</footer>
 			</blockquote>
 
@@ -261,7 +258,7 @@
 						</svg>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							class="w-5 h-5 text-gray-200"
+							class="w-5 h-5 text-slate-200"
 							viewBox="0 0 20 20"
 							fill="currentColor"
 						>
@@ -270,14 +267,13 @@
 							/>
 						</svg>
 					</div>
-					<!--END:()-->
 
 					<p class="mt-2 font-medium sm:ml-4 sm:mt-0">
 						The best thing money can buy!
 					</p>
 				</header>
 
-				<p class="mt-2 text-gray-700">
+				<p class="mt-2 text-slate-700">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
 					possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto
 					alias incidunt cum tempore aliquid aliquam error quisquam ipsam
@@ -285,7 +281,7 @@
 				</p>
 
 				<footer class="mt-4">
-					<p class="text-xs text-gray-500">John Doe - 12th January, 2069</p>
+					<p class="text-xs text-slate-500">John Doe - 12th January, 2024</p>
 				</footer>
 			</blockquote>
 
@@ -334,7 +330,7 @@
 						</svg>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							class="w-5 h-5 text-gray-200"
+							class="w-5 h-5 text-slate-200"
 							viewBox="0 0 20 20"
 							fill="currentColor"
 						>
@@ -343,14 +339,13 @@
 							/>
 						</svg>
 					</div>
-					<!--END:()-->
 
 					<p class="mt-2 font-medium sm:ml-4 sm:mt-0">
 						The best thing money can buy!
 					</p>
 				</header>
 
-				<p class="mt-2 text-gray-700">
+				<p class="mt-2 text-slate-700">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
 					possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto
 					alias incidunt cum tempore aliquid aliquam error quisquam ipsam
@@ -358,11 +353,9 @@
 				</p>
 
 				<footer class="mt-4">
-					<p class="text-xs text-gray-500">John Doe - 12th January, 2069</p>
+					<p class="text-xs text-slate-500">John Doe - 12th January, 2024</p>
 				</footer>
 			</blockquote>
 		</div>
-		<!--END:()-->
 	</div>
-	<!--END:()-->
 </section>

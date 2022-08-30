@@ -1,6 +1,6 @@
 <section class="fixed inset-y-0 right-0 z-50 flex">
 	<div class="w-screen max-w-sm">
-		<div class="flex flex-col h-full divide-y divide-gray-200 bg-gray-50">
+		<div class="flex flex-col h-full divide-y divide-slate-200 bg-slate-50">
 			<div class="overflow-y-scroll">
 				<header class="flex items-center justify-between h-16 pl-6">
 					<span class="text-sm font-medium tracking-widest uppercase">
@@ -9,7 +9,7 @@
 
 					<button
 						aria-label="Close menu"
-						class="w-16 h-16 border-l border-indigo-200"
+						class="w-16 h-16 border-l border-fuchsia-300"
 						type="button"
 					>
 						<svg
@@ -30,7 +30,7 @@
 				</header>
 
 				<nav
-					class="flex flex-col text-sm font-medium text-gray-500 border-t border-b border-indigo-200 divide-y divide-gray-200"
+					class="flex flex-col text-sm font-medium text-slate-500 border-t border-b border-fuchsia-300 divide-y divide-slate-200"
 				>
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a href="" class="px-6 py-3"> Home </a>

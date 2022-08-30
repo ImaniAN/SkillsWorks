@@ -1,7 +1,7 @@
 <div class="inline-flex items-stretch bg-white border rounded-md">
 	<a
 		href="/edit"
-		class="px-4 py-2 text-sm text-gray-600 hover:text-gray-700 hover:bg-gray-50 rounded-l-md"
+		class="px-4 py-2 text-sm text-slate-600 hover:text-slate-700 hover:bg-slate-50 rounded-l-md"
 	>
 		Edit
 	</a>
@@ -9,7 +9,7 @@
 	<div class="relative">
 		<button
 			type="button"
-			class="inline-flex items-center justify-center h-full px-2 text-gray-600 border-l border-indigo-100 hover:text-gray-700 rounded-r-md hover:bg-gray-50"
+			class="inline-flex items-center justify-center h-full px-2 text-slate-600 border-l border-fuchsia-100 hover:text-slate-700 rounded-r-md hover:bg-slate-50"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -26,14 +26,14 @@
 		</button>
 
 		<div
-			class="absolute right-0 z-10 w-56 mt-4 origin-top-right bg-white border border-indigo-100 rounded-md shadow-lg"
+			class="absolute right-0 z-10 w-56 mt-4 origin-top-right bg-white border border-fuchsia-100 rounded-md shadow-lg"
 			role="menu"
 		>
 			<div class="flow-root py-2">
-				<div class="-my-2 divide-y divide-gray-100">
+				<div class="-my-2 divide-y divide-slate-100">
 					<div class="p-2">
 						<strong
-							class="block p-2 text-xs font-medium text-gray-400 uppercase"
+							class="block p-2 text-xs font-medium text-slate-400 uppercase"
 						>
 							General
 						</strong>
@@ -41,7 +41,7 @@
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
-							class="block px-4 py-2 text-sm text-gray-500 rounded-lg hover:bg-gray-50 hover:text-gray-700"
+							class="block px-4 py-2 text-sm text-slate-500 rounded-lg hover:bg-slate-50 hover:text-slate-700"
 							role="menuitem"
 						>
 							View on Storefront
@@ -50,7 +50,7 @@
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
-							class="block px-4 py-2 text-sm text-gray-500 rounded-lg hover:bg-gray-50 hover:text-gray-700"
+							class="block px-4 py-2 text-sm text-slate-500 rounded-lg hover:bg-slate-50 hover:text-slate-700"
 							role="menuitem"
 						>
 							View Warehouse Info
@@ -59,7 +59,7 @@
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
-							class="block px-4 py-2 text-sm text-gray-500 rounded-lg hover:bg-gray-50 hover:text-gray-700"
+							class="block px-4 py-2 text-sm text-slate-500 rounded-lg hover:bg-slate-50 hover:text-slate-700"
 							role="menuitem"
 						>
 							Duplicate Product
@@ -68,7 +68,7 @@
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
-							class="block px-4 py-2 text-sm text-gray-500 rounded-lg hover:bg-gray-50 hover:text-gray-700"
+							class="block px-4 py-2 text-sm text-slate-500 rounded-lg hover:bg-slate-50 hover:text-slate-700"
 							role="menuitem"
 						>
 							Unpublish Product
@@ -78,7 +78,7 @@
 
 					<div class="p-2">
 						<strong
-							class="block p-2 text-xs font-medium text-gray-400 uppercase"
+							class="block p-2 text-xs font-medium text-slate-400 uppercase"
 						>
 							Danger Zone
 						</strong>

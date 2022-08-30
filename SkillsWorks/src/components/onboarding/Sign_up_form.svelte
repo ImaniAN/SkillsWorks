@@ -11,13 +11,13 @@
 			/>
 			<div class="w-full z-10 mb-10">
 				<div
-					class="sm:text-4xl xl:text-5xl  text-gray-800 font-bold leading-tight mb-6"
+					class="sm:text-4xl xl:text-5xl  text-slate-800 font-bold leading-tight mb-6"
 				>
 					Reference: Call to action
 				</div>
 				<!--END:()-->
 
-				<div class="sm:text-sm xl:text-md text-gray-900 font-normal">
+				<div class="sm:text-sm xl:text-md text-slate-900 font-normal">
 					What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing
 					and typesetting industry Lorem Ipsum has been the industry's standard
 					dummy text ever since the 1500s when an unknown printer took a galley
@@ -48,8 +48,8 @@
 		>
 			<div class="max-w-md w-full space-y-8">
 				<div class="mb-10 text-center">
-					<h3 class="font-semibold text-2xl text-gray-800">Sign Up</h3>
-					<p class="text-gray-500">Please register your account.</p>
+					<h3 class="font-semibold text-2xl text-slate-800">Sign Up</h3>
+					<p class="text-slate-500">Please register your account.</p>
 				</div>
 				<!--END:()-->
 
@@ -57,7 +57,7 @@
 					<div class="w-full md:w-1/2 px-0.5 mb-6 md:mb-0">
 						<button
 							type="submit"
-							class="w-full flex items-center justify-center bg-red-500  hover:bg-red-400 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
+							class="w-full flex items-center justify-center bg-red-500  hover:bg-red-400 text-slate-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
 						>
 							Google
 							<svg
@@ -77,7 +77,7 @@
 					<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
 						<button
 							type="submit"
-							class="w-full flex items-center justify-center bg-blue-600  hover:bg-blue-500 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
+							class="w-full flex items-center justify-center bg-blue-600  hover:bg-blue-500 text-slate-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
 						>
 							Facebook
 							<svg
@@ -98,11 +98,11 @@
 				<!--END:()-->
 
 				<div class="flex items-center justify-center space-x-2 my-5">
-					<span class="h-px w-16 bg-gray-200" />
-					<span class="text-gray-500 font-normal text-center"
+					<span class="h-px w-16 bg-slate-200" />
+					<span class="text-slate-500 font-normal text-center"
 						>or continue with</span
 					>
-					<span class="h-px w-16 bg-gray-200" />
+					<span class="h-px w-16 bg-slate-200" />
 				</div>
 				<!--END:()-->
 
@@ -110,13 +110,13 @@
 					<div class="flex flex-wrap -mx-3 mb-4">
 						<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
 							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
 								for="grid-first-name"
 							>
 								First Name
 							</label>
 							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 rounded py-3 px-4 mb-3 border-2 border-indigo-300 border-dashed leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 								id="grid-first-name"
 								type="text"
 								placeholder="Jane"
@@ -126,13 +126,13 @@
 
 						<div class="w-full md:w-1/2 px-3">
 							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
 								for="grid-last-name"
 							>
 								Last Name
 							</label>
 							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 border-2 border-indigo-300 border-dashed rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 								id="grid-last-name"
 								type="text"
 								placeholder="Doe"
@@ -145,13 +145,13 @@
 					<div class="flex flex-wrap -mx-3 mb-4">
 						<div class="w-full px-3">
 							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
 								for="grid-email"
 							>
 								Email
 							</label>
 							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 border-2 border-indigo-300 border-dashed rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 								id="grid-email"
 								type="email"
 								placeholder="Your email (example@gmail.com)"
@@ -166,13 +166,13 @@
 					<div class="flex flex-wrap -mx-3 mb-4">
 						<div class="w-full px-3">
 							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
 								for="grid-password"
 							>
 								Password
 							</label>
 							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 border-2 border-indigo-300 border-dashed rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 								id="grid-password"
 								type="password"
 								name="password"
@@ -187,13 +187,13 @@
 					<div class="flex flex-wrap -mx-3 mb-4">
 						<div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
 							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
 								for="grid-city"
 							>
 								City
 							</label>
 							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 border-2 border-indigo-300 border-dashed rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 								id="grid-city"
 								type="text"
 								placeholder="Wakanda"
@@ -204,7 +204,7 @@
 						<div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
 							<label
 								for="grid-region"
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
 								>State / Province</label
 							>
 							<input
@@ -212,20 +212,20 @@
 								name="region"
 								id="region"
 								autocomplete="address-level1"
-								class="appearance-none block w-full bg-gray-100 text-gray-700 border-2 border-indigo-300 border-dashed rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 							/>
 						</div>
 						<!--END:()-->
 
 						<div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
 							<label
-								class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
 								for="grid-zip"
 							>
 								Zip
 							</label>
 							<input
-								class="appearance-none block w-full bg-gray-100 text-gray-700 border-2 border-indigo-300 border-dashed rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-indigo-300"
+								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 								id="grid-zip"
 								type="text"
 								placeholder="xxxx"
@@ -240,13 +240,14 @@
 							<div class="flex items-center">
 								<input
 									id="remember_me"
+									checked
 									name="remember_me"
 									type="checkbox"
-									class="h-4 w-4 bg-blue-300 focus:ring-indigo-400 border-indigo-900 rounded"
+									class="h-4 w-4 focus:ring-indigo-400 border-fuchsia-900 rounded"
 								/>
 								<label
 									for="remember_me"
-									class="ml-2 block text-sm text-gray-800"
+									class="ml-2 block text-sm text-slate-800"
 								>
 									Remember me
 								</label>
@@ -267,7 +268,7 @@
 						<div>
 							<button
 								type="submit"
-								class="w-full flex justify-center bg-blue-300  hover:bg-blue-500 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
+								class="w-full flex justify-center bg-blue-300  hover:bg-blue-500 text-slate-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
 							>
 								Sign In
 							</button>
@@ -275,16 +276,16 @@
 						<!--END:()-->
 
 						<div class="flex items-center justify-center space-x-2 my-5">
-							<span class="h-px w-16 bg-gray-200" />
-							<span class="text-gray-500 font-normal text-center">OR</span>
-							<span class="h-px w-16 bg-gray-200" />
+							<span class="h-px w-16 bg-slate-200" />
+							<span class="text-slate-500 font-normal text-center">OR</span>
+							<span class="h-px w-16 bg-slate-200" />
 						</div>
 						<!--END:()-->
 
 						<div>
 							<button
 								type="submit"
-								class="w-full flex justify-center bg-green-300  hover:bg-green-500 text-gray-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
+								class="w-full flex justify-center bg-green-300  hover:bg-green-500 text-slate-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
 							>
 								Sign Up
 							</button>
@@ -294,7 +295,7 @@
 					<!--END:()-->
 				</form>
 
-				<div class="pt-6 text-center text-gray-400 text-xs">
+				<div class="pt-6 text-center text-slate-400 text-xs">
 					<span>
 						Copyright © 2069-2069
 						<a
@@ -334,7 +335,7 @@
 		list-style: none;
 		width: 20px;
 		height: 20px;
-		background: #93c5fd;
+		background: orangered;
 		animation: animate 25s linear infinite;
 		bottom: -150px;
 	}

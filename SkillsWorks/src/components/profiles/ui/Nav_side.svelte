@@ -1,13 +1,13 @@
 <div class="flex flex-col justify-between h-screen bg-white border-r">
 	<div class="px-4 py-6">
-		<span class="block w-32 h-10 bg-gray-200 rounded-lg" />
+		<span class="block w-32 h-10 bg-slate-200 rounded-lg" />
 
 		<nav class="flex flex-col mt-6 space-y-1">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href=""
-				class="flex items-center px-4 py-2 text-gray-700 bg-gray-100 rounded-lg"
+				class="flex items-center px-4 py-2 text-slate-700 bg-slate-100 rounded-lg"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@
 
 			<details class="group">
 				<summary
-					class="flex items-center px-4 py-2 text-gray-500 rounded-lg cursor-pointer hover:bg-gray-100 hover:text-gray-700"
+					class="flex items-center px-4 py-2 text-slate-500 rounded-lg cursor-pointer hover:bg-slate-100 hover:text-slate-700"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
-						class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+						class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -98,7 +98,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
-						class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+						class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -123,7 +123,7 @@
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href=""
-				class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+				class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +146,7 @@
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href=""
-				class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+				class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -168,7 +168,7 @@
 
 			<details class="group">
 				<summary
-					class="flex items-center px-4 py-2 text-gray-500 rounded-lg cursor-pointer hover:bg-gray-100 hover:text-gray-700"
+					class="flex items-center px-4 py-2 text-slate-500 rounded-lg cursor-pointer hover:bg-slate-100 hover:text-slate-700"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -209,7 +209,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
-						class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+						class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -232,7 +232,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
-						class="flex items-center px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+						class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -255,7 +255,7 @@
 					<form action="/logout">
 						<button
 							type="submit"
-							class="flex items-center w-full px-4 py-2 text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+							class="flex items-center w-full px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -281,12 +281,15 @@
 	</div>
 	<!--END:()-->
 
-	<div class="sticky inset-x-0 bottom-0 border-t border-indigo-100">
+	<div class="sticky inset-x-0 bottom-0 border-t border-fuchsia-100">
 		<!-- svelte-ignore a11y-invalid-attribute -->
-		<a href="" class="flex items-center p-4 bg-white hover:bg-gray-50 shrink-0">
+		<a
+			href=""
+			class="flex items-center p-4 bg-white hover:bg-slate-50 shrink-0"
+		>
 			<img
 				class="object-cover w-10 h-10 rounded-full"
-				src="https://www.hyperui.dev/photos/man-4.jpeg"
+				src="https://dummyimage.com/305x305"
 				alt="Simon Lewis"
 			/>
 

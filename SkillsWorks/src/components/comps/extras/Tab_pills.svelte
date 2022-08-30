@@ -1,4 +1,4 @@
-<ul class="flex border-b border-indigo-100">
+<ul class="flex border-b border-fuchsia-100">
 	<li class="flex-1">
 		<a class="relative block p-4" href="">
 			<span class="absolute inset-x-0 w-full h-px bg-pink-600 -bottom-px" />
@@ -6,7 +6,7 @@
 			<div class="flex items-center justify-center">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="flex-shrink-0 w-5 h-5 text-gray-500"
+					class="flex-shrink-0 w-5 h-5 text-slate-500"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke="currentColor"
@@ -19,7 +19,7 @@
 					/>
 				</svg>
 
-				<span class="ml-3 text-sm font-medium text-gray-900"> Settings </span>
+				<span class="ml-3 text-sm font-medium text-slate-900"> Settings </span>
 			</div>
 			<!--END:()-->
 		</a>
@@ -30,7 +30,7 @@
 			<div class="flex items-center justify-center">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="flex-shrink-0 w-5 h-5 text-gray-500"
+					class="flex-shrink-0 w-5 h-5 text-slate-500"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke="currentColor"
@@ -43,7 +43,7 @@
 					/>
 				</svg>
 
-				<span class="ml-3 text-sm font-medium text-gray-900"> Messages </span>
+				<span class="ml-3 text-sm font-medium text-slate-900"> Messages </span>
 			</div>
 			<!--END:()-->
 		</a>
@@ -54,7 +54,7 @@
 			<div class="flex items-center justify-center">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="flex-shrink-0 w-5 h-5 text-gray-500"
+					class="flex-shrink-0 w-5 h-5 text-slate-500"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke="currentColor"
@@ -67,7 +67,7 @@
 					/>
 				</svg>
 
-				<span class="ml-3 text-sm font-medium text-gray-900"> Archive </span>
+				<span class="ml-3 text-sm font-medium text-slate-900"> Archive </span>
 			</div>
 			<!--END:()-->
 		</a>
@@ -78,7 +78,7 @@
 			<div class="flex items-center justify-center">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					class="flex-shrink-0 w-5 h-5 text-gray-500"
+					class="flex-shrink-0 w-5 h-5 text-slate-500"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke="currentColor"
@@ -91,7 +91,7 @@
 					/>
 				</svg>
 
-				<span class="ml-3 text-sm font-medium text-gray-900">
+				<span class="ml-3 text-sm font-medium text-slate-900">
 					Notifications
 				</span>
 			</div>

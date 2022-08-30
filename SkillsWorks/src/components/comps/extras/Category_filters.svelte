@@ -49,10 +49,10 @@
 					class="ml-auto relative max-w-xs w-full h-full bg-white shadow-xl py-4 pb-12 flex flex-col overflow-y-auto"
 				>
 					<div class="px-4 flex items-center justify-between">
-						<h2 class="text-lg font-medium text-gray-900">Filters</h2>
+						<h2 class="text-lg font-medium text-slate-900">Filters</h2>
 						<button
 							type="button"
-							class="-mr-2 w-10 h-10 bg-white p-2 rounded-md flex items-center justify-center text-gray-400"
+							class="-mr-2 w-10 h-10 bg-white p-2 rounded-md flex items-center justify-center text-slate-400"
 						>
 							<span class="sr-only">Close menu</span>
 							<!-- Heroicon name: outline/x -->
@@ -76,9 +76,9 @@
 					<!--END:()-->
 
 					<!-- Filters -->
-					<form class="mt-4 border-t border-indigo-200">
+					<form class="mt-4 border-t border-fuchsia-300">
 						<h3 class="sr-only">Categories</h3>
-						<ul role="list" class="font-medium text-gray-900 px-2 py-3">
+						<ul role="list" class="font-medium text-slate-900 px-2 py-3">
 							<li>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="block px-2 py-3"> Totes </a>
@@ -105,16 +105,16 @@
 							</li>
 						</ul>
 
-						<div class="border-t border-indigo-200 px-4 py-6">
+						<div class="border-t border-fuchsia-300 px-4 py-6">
 							<h3 class="-mx-2 -my-3 flow-root">
 								<!-- Expand/collapse section button -->
 								<button
 									type="button"
-									class="px-2 py-3 bg-white w-full flex items-center justify-between text-gray-400 hover:text-gray-500"
+									class="px-2 py-3 bg-white w-full flex items-center justify-between text-slate-400 hover:text-slate-500"
 									aria-controls="filter-section-mobile-0"
 									aria-expanded="false"
 								>
-									<span class="font-medium text-gray-900"> Color </span>
+									<span class="font-medium text-slate-900"> Color </span>
 									<span class="ml-6 flex items-center">
 										<!--
                       Expand icon, show/hide based on section open state.
@@ -164,11 +164,11 @@
 											name="color[]"
 											value="white"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-color-0"
-											class="ml-3 min-w-0 flex-1 text-gray-500"
+											class="ml-3 min-w-0 flex-1 text-slate-500"
 										>
 											White
 										</label>
@@ -181,11 +181,11 @@
 											name="color[]"
 											value="beige"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-color-1"
-											class="ml-3 min-w-0 flex-1 text-gray-500"
+											class="ml-3 min-w-0 flex-1 text-slate-500"
 										>
 											Beige
 										</label>
@@ -199,11 +199,11 @@
 											value="blue"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-color-2"
-											class="ml-3 min-w-0 flex-1 text-gray-500"
+											class="ml-3 min-w-0 flex-1 text-slate-500"
 										>
 											Blue
 										</label>
@@ -216,11 +216,11 @@
 											name="color[]"
 											value="brown"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-color-3"
-											class="ml-3 min-w-0 flex-1 text-gray-500"
+											class="ml-3 min-w-0 flex-1 text-slate-500"
 										>
 											Brown
 										</label>
@@ -233,11 +233,11 @@
 											name="color[]"
 											value="green"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-color-4"
-											class="ml-3 min-w-0 flex-1 text-gray-500"
+											class="ml-3 min-w-0 flex-1 text-slate-500"
 										>
 											Green
 										</label>
@@ -250,11 +250,11 @@
 											name="color[]"
 											value="purple"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-color-5"
-											class="ml-3 min-w-0 flex-1 text-gray-500"
+											class="ml-3 min-w-0 flex-1 text-slate-500"
 										>
 											Purple
 										</label>
@@ -267,16 +267,16 @@
 						</div>
 						<!--END:()-->
 
-						<div class="border-t border-indigo-200 px-4 py-6">
+						<div class="border-t border-fuchsia-300 px-4 py-6">
 							<h3 class="-mx-2 -my-3 flow-root">
 								<!-- Expand/collapse section button -->
 								<button
 									type="button"
-									class="px-2 py-3 bg-white w-full flex items-center justify-between text-gray-400 hover:text-gray-500"
+									class="px-2 py-3 bg-white w-full flex items-center justify-between text-slate-400 hover:text-slate-500"
 									aria-controls="filter-section-mobile-1"
 									aria-expanded="false"
 								>
-									<span class="font-medium text-gray-900"> Category </span>
+									<span class="font-medium text-slate-900"> Category </span>
 									<span class="ml-6 flex items-center">
 										<!--
                       Expand icon, show/hide based on section open state.
@@ -326,11 +326,11 @@
 											name="category[]"
 											value="new-arrivals"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-category-0"
-											class="ml-3 min-w-0 flex-1 text-gray-500"
+											class="ml-3 min-w-0 flex-1 text-slate-500"
 										>
 											New Arrivals
 										</label>
@@ -343,11 +343,11 @@
 											name="category[]"
 											value="sale"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-category-1"
-											class="ml-3 min-w-0 flex-1 text-gray-500"
+											class="ml-3 min-w-0 flex-1 text-slate-500"
 										>
 											Sale
 										</label>
@@ -361,11 +361,11 @@
 											value="travel"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-category-2"
-											class="ml-3 min-w-0 flex-1 text-gray-500"
+											class="ml-3 min-w-0 flex-1 text-slate-500"
 										>
 											Travel
 										</label>
@@ -378,11 +378,11 @@
 											name="category[]"
 											value="organization"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-category-3"
-											class="ml-3 min-w-0 flex-1 text-gray-500"
+											class="ml-3 min-w-0 flex-1 text-slate-500"
 										>
 											Organization
 										</label>
@@ -395,11 +395,11 @@
 											name="category[]"
 											value="accessories"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-category-4"
-											class="ml-3 min-w-0 flex-1 text-gray-500"
+											class="ml-3 min-w-0 flex-1 text-slate-500"
 										>
 											Accessories
 										</label>
@@ -412,16 +412,16 @@
 						</div>
 						<!--END:()-->
 
-						<div class="border-t border-indigo-200 px-4 py-6">
+						<div class="border-t border-fuchsia-300 px-4 py-6">
 							<h3 class="-mx-2 -my-3 flow-root">
 								<!-- Expand/collapse section button -->
 								<button
 									type="button"
-									class="px-2 py-3 bg-white w-full flex items-center justify-between text-gray-400 hover:text-gray-500"
+									class="px-2 py-3 bg-white w-full flex items-center justify-between text-slate-400 hover:text-slate-500"
 									aria-controls="filter-section-mobile-2"
 									aria-expanded="false"
 								>
-									<span class="font-medium text-gray-900"> Size </span>
+									<span class="font-medium text-slate-900"> Size </span>
 									<span class="ml-6 flex items-center">
 										<!--
                       Expand icon, show/hide based on section open state.
@@ -471,11 +471,11 @@
 											name="size[]"
 											value="2l"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-size-0"
-											class="ml-3 min-w-0 flex-1 text-gray-500"
+											class="ml-3 min-w-0 flex-1 text-slate-500"
 										>
 											2L
 										</label>
@@ -488,11 +488,11 @@
 											name="size[]"
 											value="6l"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-size-1"
-											class="ml-3 min-w-0 flex-1 text-gray-500"
+											class="ml-3 min-w-0 flex-1 text-slate-500"
 										>
 											6L
 										</label>
@@ -505,11 +505,11 @@
 											name="size[]"
 											value="12l"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-size-2"
-											class="ml-3 min-w-0 flex-1 text-gray-500"
+											class="ml-3 min-w-0 flex-1 text-slate-500"
 										>
 											12L
 										</label>
@@ -522,11 +522,11 @@
 											name="size[]"
 											value="18l"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-size-3"
-											class="ml-3 min-w-0 flex-1 text-gray-500"
+											class="ml-3 min-w-0 flex-1 text-slate-500"
 										>
 											18L
 										</label>
@@ -539,11 +539,11 @@
 											name="size[]"
 											value="20l"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-size-4"
-											class="ml-3 min-w-0 flex-1 text-gray-500"
+											class="ml-3 min-w-0 flex-1 text-slate-500"
 										>
 											20L
 										</label>
@@ -557,11 +557,11 @@
 											value="40l"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-size-5"
-											class="ml-3 min-w-0 flex-1 text-gray-500"
+											class="ml-3 min-w-0 flex-1 text-slate-500"
 										>
 											40L
 										</label>
@@ -583,9 +583,9 @@
 
 		<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<div
-				class="relative z-10 flex items-baseline justify-between pt-24 pb-6 border-b border-indigo-200"
+				class="relative z-10 flex items-baseline justify-between pt-24 pb-6 border-b border-fuchsia-300"
 			>
-				<h1 class="text-4xl font-bold tracking-tight text-gray-900">
+				<h1 class="text-4xl font-bold tracking-tight text-slate-900">
 					New Arrivals
 				</h1>
 
@@ -594,7 +594,7 @@
 						<div>
 							<button
 								type="button"
-								class="group inline-flex justify-center text-sm font-medium text-gray-700 hover:text-gray-900"
+								class="group inline-flex justify-center text-sm font-medium text-slate-700 hover:text-slate-900"
 								id="menu-button"
 								aria-expanded="false"
 								aria-haspopup="true"
@@ -602,7 +602,7 @@
 								Sort
 								<!-- Heroicon name: solid/chevron-down -->
 								<svg
-									class="flex-shrink-0 -mr-1 ml-1 h-5 w-5 text-gray-400 group-hover:text-gray-500"
+									class="flex-shrink-0 -mr-1 ml-1 h-5 w-5 text-slate-400 group-hover:text-slate-500"
 									xmlns="http://www.w3.org/2000/svg"
 									viewBox="0 0 20 20"
 									fill="currentColor"
@@ -637,14 +637,14 @@
 						>
 							<div class="py-1" role="none">
 								<!--
-                  Active: "bg-gray-100", Not Active: ""
+                  Active: "bg-slate-100", Not Active: ""
 
-                  Selected: "font-medium text-gray-900", Not Selected: "text-gray-500"
+                  Selected: "font-medium text-slate-900", Not Selected: "text-slate-500"
                 -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a
 									href="#"
-									class="font-medium text-gray-900 block px-4 py-2 text-sm"
+									class="font-medium text-slate-900 block px-4 py-2 text-sm"
 									role="menuitem"
 									tabindex="-1"
 									id="menu-item-0"
@@ -654,7 +654,7 @@
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a
 									href="#"
-									class="text-gray-500 block px-4 py-2 text-sm"
+									class="text-slate-500 block px-4 py-2 text-sm"
 									role="menuitem"
 									tabindex="-1"
 									id="menu-item-1"
@@ -664,7 +664,7 @@
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a
 									href="#"
-									class="text-gray-500 block px-4 py-2 text-sm"
+									class="text-slate-500 block px-4 py-2 text-sm"
 									role="menuitem"
 									tabindex="-1"
 									id="menu-item-2"
@@ -675,7 +675,7 @@
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a
 									href="#"
-									class="text-gray-500 block px-4 py-2 text-sm"
+									class="text-slate-500 block px-4 py-2 text-sm"
 									role="menuitem"
 									tabindex="-1"
 									id="menu-item-3"
@@ -685,7 +685,7 @@
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a
 									href="#"
-									class="text-gray-500 block px-4 py-2 text-sm"
+									class="text-slate-500 block px-4 py-2 text-sm"
 									role="menuitem"
 									tabindex="-1"
 									id="menu-item-4"
@@ -701,7 +701,7 @@
 
 					<button
 						type="button"
-						class="p-2 -m-2 ml-5 sm:ml-7 text-gray-400 hover:text-gray-500"
+						class="p-2 -m-2 ml-5 sm:ml-7 text-slate-400 hover:text-slate-500"
 					>
 						<span class="sr-only">View grid</span>
 						<!-- Heroicon name: solid/view-grid -->
@@ -719,7 +719,7 @@
 					</button>
 					<button
 						type="button"
-						class="p-2 -m-2 ml-4 sm:ml-6 text-gray-400 hover:text-gray-500 lg:hidden"
+						class="p-2 -m-2 ml-4 sm:ml-6 text-slate-400 hover:text-slate-500 lg:hidden"
 					>
 						<span class="sr-only">Filters</span>
 						<!-- Heroicon name: solid/filter -->
@@ -751,7 +751,7 @@
 						<h3 class="sr-only">Categories</h3>
 						<ul
 							role="list"
-							class="text-sm font-medium text-gray-900 space-y-4 pb-6 border-b border-indigo-200"
+							class="text-sm font-medium text-slate-900 space-y-4 pb-6 border-b border-fuchsia-300"
 						>
 							<li>
 								<!-- svelte-ignore a11y-invalid-attribute -->
@@ -779,16 +779,16 @@
 							</li>
 						</ul>
 
-						<div class="border-b border-indigo-200 py-6">
+						<div class="border-b border-fuchsia-300 py-6">
 							<h3 class="-my-3 flow-root">
 								<!-- Expand/collapse section button -->
 								<button
 									type="button"
-									class="py-3 bg-white w-full flex items-center justify-between text-sm text-gray-400 hover:text-gray-500"
+									class="py-3 bg-white w-full flex items-center justify-between text-sm text-slate-400 hover:text-slate-500"
 									aria-controls="filter-section-0"
 									aria-expanded="false"
 								>
-									<span class="font-medium text-gray-900"> Color </span>
+									<span class="font-medium text-slate-900"> Color </span>
 									<span class="ml-6 flex items-center">
 										<!--
                       Expand icon, show/hide based on section open state.
@@ -838,11 +838,11 @@
 											name="color[]"
 											value="white"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-color-0"
-											class="ml-3 text-sm text-gray-600"
+											class="ml-3 text-sm text-slate-600"
 										>
 											White
 										</label>
@@ -855,11 +855,11 @@
 											name="color[]"
 											value="beige"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-color-1"
-											class="ml-3 text-sm text-gray-600"
+											class="ml-3 text-sm text-slate-600"
 										>
 											Beige
 										</label>
@@ -873,11 +873,11 @@
 											value="blue"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-color-2"
-											class="ml-3 text-sm text-gray-600"
+											class="ml-3 text-sm text-slate-600"
 										>
 											Blue
 										</label>
@@ -890,11 +890,11 @@
 											name="color[]"
 											value="brown"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-color-3"
-											class="ml-3 text-sm text-gray-600"
+											class="ml-3 text-sm text-slate-600"
 										>
 											Brown
 										</label>
@@ -907,11 +907,11 @@
 											name="color[]"
 											value="green"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-color-4"
-											class="ml-3 text-sm text-gray-600"
+											class="ml-3 text-sm text-slate-600"
 										>
 											Green
 										</label>
@@ -924,11 +924,11 @@
 											name="color[]"
 											value="purple"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-color-5"
-											class="ml-3 text-sm text-gray-600"
+											class="ml-3 text-sm text-slate-600"
 										>
 											Purple
 										</label>
@@ -941,16 +941,16 @@
 						</div>
 						<!--END:()-->
 
-						<div class="border-b border-indigo-200 py-6">
+						<div class="border-b border-fuchsia-300 py-6">
 							<h3 class="-my-3 flow-root">
 								<!-- Expand/collapse section button -->
 								<button
 									type="button"
-									class="py-3 bg-white w-full flex items-center justify-between text-sm text-gray-400 hover:text-gray-500"
+									class="py-3 bg-white w-full flex items-center justify-between text-sm text-slate-400 hover:text-slate-500"
 									aria-controls="filter-section-1"
 									aria-expanded="false"
 								>
-									<span class="font-medium text-gray-900"> Category </span>
+									<span class="font-medium text-slate-900"> Category </span>
 									<span class="ml-6 flex items-center">
 										<!--
                       Expand icon, show/hide based on section open state.
@@ -1000,11 +1000,11 @@
 											name="category[]"
 											value="new-arrivals"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-category-0"
-											class="ml-3 text-sm text-gray-600"
+											class="ml-3 text-sm text-slate-600"
 										>
 											New Arrivals
 										</label>
@@ -1017,11 +1017,11 @@
 											name="category[]"
 											value="sale"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-category-1"
-											class="ml-3 text-sm text-gray-600"
+											class="ml-3 text-sm text-slate-600"
 										>
 											Sale
 										</label>
@@ -1035,11 +1035,11 @@
 											value="travel"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-category-2"
-											class="ml-3 text-sm text-gray-600"
+											class="ml-3 text-sm text-slate-600"
 										>
 											Travel
 										</label>
@@ -1052,11 +1052,11 @@
 											name="category[]"
 											value="organization"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-category-3"
-											class="ml-3 text-sm text-gray-600"
+											class="ml-3 text-sm text-slate-600"
 										>
 											Organization
 										</label>
@@ -1069,11 +1069,11 @@
 											name="category[]"
 											value="accessories"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-category-4"
-											class="ml-3 text-sm text-gray-600"
+											class="ml-3 text-sm text-slate-600"
 										>
 											Accessories
 										</label>
@@ -1086,16 +1086,16 @@
 						</div>
 						<!--END:()-->
 
-						<div class="border-b border-indigo-200 py-6">
+						<div class="border-b border-fuchsia-300 py-6">
 							<h3 class="-my-3 flow-root">
 								<!-- Expand/collapse section button -->
 								<button
 									type="button"
-									class="py-3 bg-white w-full flex items-center justify-between text-sm text-gray-400 hover:text-gray-500"
+									class="py-3 bg-white w-full flex items-center justify-between text-sm text-slate-400 hover:text-slate-500"
 									aria-controls="filter-section-2"
 									aria-expanded="false"
 								>
-									<span class="font-medium text-gray-900"> Size </span>
+									<span class="font-medium text-slate-900"> Size </span>
 									<span class="ml-6 flex items-center">
 										<!--
                       Expand icon, show/hide based on section open state.
@@ -1145,11 +1145,11 @@
 											name="size[]"
 											value="2l"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-size-0"
-											class="ml-3 text-sm text-gray-600"
+											class="ml-3 text-sm text-slate-600"
 										>
 											2L
 										</label>
@@ -1162,11 +1162,11 @@
 											name="size[]"
 											value="6l"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-size-1"
-											class="ml-3 text-sm text-gray-600"
+											class="ml-3 text-sm text-slate-600"
 										>
 											6L
 										</label>
@@ -1179,11 +1179,11 @@
 											name="size[]"
 											value="12l"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-size-2"
-											class="ml-3 text-sm text-gray-600"
+											class="ml-3 text-sm text-slate-600"
 										>
 											12L
 										</label>
@@ -1196,11 +1196,11 @@
 											name="size[]"
 											value="18l"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-size-3"
-											class="ml-3 text-sm text-gray-600"
+											class="ml-3 text-sm text-slate-600"
 										>
 											18L
 										</label>
@@ -1213,11 +1213,11 @@
 											name="size[]"
 											value="20l"
 											type="checkbox"
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-size-4"
-											class="ml-3 text-sm text-gray-600"
+											class="ml-3 text-sm text-slate-600"
 										>
 											20L
 										</label>
@@ -1231,11 +1231,11 @@
 											value="40l"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-indigo-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-size-5"
-											class="ml-3 text-sm text-gray-600"
+											class="ml-3 text-sm text-slate-600"
 										>
 											40L
 										</label>
@@ -1253,7 +1253,7 @@
 					<div class="lg:col-span-3">
 						<!-- Replace with your content -->
 						<div
-							class="border-4 border-dashed border-indigo-200 rounded-lg h-96 lg:h-full"
+							class="border-4 border-dashed border-fuchsia-300 rounded-lg h-96 lg:h-full"
 						/>
 						<!-- /End replace -->
 					</div>

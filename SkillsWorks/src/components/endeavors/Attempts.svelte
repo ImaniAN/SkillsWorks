@@ -24,26 +24,26 @@
 </main>
 
 <section
-	class="flex items-center h-full p-16 dark:bg-gray-900 dark:text-gray-100"
+	class="flex items-center h-full p-16 dark:bg-slate-900 dark:text-slate-100"
 >
 	<div
 		class="container flex flex-col items-center justify-center px-5 mx-auto my-8"
 	>
 		<div class="max-w-md text-center">
-			<h2 class="mb-8 font-extrabold text-9xl dark:text-gray-600">
+			<h2 class="mb-8 font-extrabold text-9xl dark:text-slate-600">
 				<span class="sr-only">Error</span>404
 			</h2>
 			<p class="text-2xl font-semibold md:text-3xl">
 				Sorry, we couldn't find this page.
 			</p>
-			<p class="mt-4 mb-8 dark:text-gray-400">
+			<p class="mt-4 mb-8 dark:text-slate-400">
 				But dont worry, you can find plenty of other things on our homepage.
 			</p>
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				rel="noopener noreferrer"
 				href="#"
-				class="px-8 py-3 font-semibold rounded dark:bg-violet-400 dark:text-gray-900"
+				class="px-8 py-3 font-semibold rounded dark:bg-violet-400 dark:text-slate-900"
 				>Back to homepage</a
 			>
 		</div>
@@ -57,27 +57,29 @@
 >
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-8 offset-sm-2 text-gray-50 text-center -mt-52">
+			<div class="col-sm-8 offset-sm-2 text-slate-50 text-center -mt-52">
 				<div class="relative ">
 					<h1
 						class="relative text-9xl tracking-tighter-less text-shadow font-sans font-bold"
 					>
 						<span>4</span> <span>0</span> <span>4</span>
 					</h1>
-					<span class="absolute  top-0   -ml-12  text-gray-300 font-semibold"
+					<span class="absolute  top-0   -ml-12  text-slate-300 font-semibold"
 						>Oops!</span
 					>
 				</div>
 				<!--END:()-->
 
-				<h5 class="text-gray-300 font-semibold -mr-10 -mt-3">Page not found</h5>
-				<p class="text-gray-100 mt-2 mb-6">
+				<h5 class="text-slate-300 font-semibold -mr-10 -mt-3">
+					Page not found
+				</h5>
+				<p class="text-slate-100 mt-2 mb-6">
 					we are sorry, but the page you requested was not found
 				</p>
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a
 					href="#"
-					class="bg-green-400  px-5 py-3 text-sm shadow-sm font-medium tracking-wider text-gray-50 rounded-full hover:shadow-lg"
+					class="bg-green-400  px-5 py-3 text-sm shadow-sm font-medium tracking-wider text-slate-50 rounded-full hover:shadow-lg"
 				>
 					Got to Home
 				</a>
@@ -90,7 +92,7 @@
 </div>
 <!--END:()-->
 
-<div class="bg-gray-100 h-screen justify-center">
+<div class="bg-slate-100 h-screen justify-center">
 	<center class="mt-24 m-auto">
 		<svg
 			class="emoji-404 "
@@ -181,8 +183,8 @@
 			/>
 		</svg>
 		<div class=" tracking-widest mt-4">
-			<span class="text-gray-500 text-6xl block"> <span>4 0 4</span> </span>
-			<span class="text-gray-500 text-xl"
+			<span class="text-slate-500 text-6xl block"> <span>4 0 4</span> </span>
+			<span class="text-slate-500 text-xl"
 				>Sorry, We couldn't find what you are looking for!</span
 			>
 		</div>
@@ -192,10 +194,10 @@
 		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a
 			href="#"
-			class="text-gray-500 font-mono text-xl bg-gray-200 p-3 rounded-md hover:shadow-md"
+			class="text-slate-500 font-mono text-xl bg-slate-200 p-3 rounded-md hover:shadow-md"
 			>Go back
 		</a>
-		<!-- <a href="${{url() => previous()}}" class="text-gray-500 font-mono text-xl bg-gray-200 p-3 rounded-md hover:shadow-md">Go back </a> -->
+		<!-- <a href="${{url() => previous()}}" class="text-slate-500 font-mono text-xl bg-slate-200 p-3 rounded-md hover:shadow-md">Go back </a> -->
 	</center>
 </div>
 

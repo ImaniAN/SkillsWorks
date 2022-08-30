@@ -3,7 +3,7 @@
 
 	<div class="relative mx-auto max-w-screen-2xl">
 		<div class="grid grid-cols-1 md:grid-cols-2">
-			<div class="py-12 bg-gray-50 md:py-24">
+			<div class="py-12 bg-slate-50 md:py-24">
 				<div class="max-w-lg px-4 mx-auto lg:px-8">
 					<div class="flex items-center">
 						<span class="w-10 h-10 bg-blue-900 rounded-full" />
@@ -14,25 +14,25 @@
 
 					<div class="mt-8">
 						<p class="text-2xl font-medium tracking-tight">R99.99</p>
-						<p class="mt-1 text-sm text-gray-500">For the purchase of</p>
+						<p class="mt-1 text-sm text-slate-500">For the purchase of</p>
 					</div>
 					<!--END:()-->
 
 					<div class="mt-12">
 						<div class="flow-root">
-							<ul class="-my-4 divide-y divide-gray-200">
+							<ul class="-my-4 divide-y divide-slate-200">
 								<li class="flex items-center justify-between py-4">
 									<div class="flex items-start">
 										<img
 											class="flex-shrink-0 object-cover w-16 h-16 rounded-lg"
-											src="https://images.unsplash.com/photo-1588099768531-a72d4a198538?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2xvdGhpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+											src="https://dummyimage.com/305x305"
 											alt=""
 										/>
 
 										<div class="ml-4">
 											<p class="text-sm">Vibrant Trainers</p>
 
-											<dl class="mt-1 space-y-1 text-xs text-gray-500">
+											<dl class="mt-1 space-y-1 text-xs text-slate-500">
 												<div>
 													<dt class="inline">Color:</dt>
 													<dd class="inline">Blue</dd>
@@ -53,7 +53,7 @@
 									<div>
 										<p class="text-sm">
 											R49.99
-											<small class="text-gray-500">x1</small>
+											<small class="text-slate-500">x1</small>
 										</p>
 									</div>
 									<!--END:()-->
@@ -63,14 +63,14 @@
 									<div class="flex items-start">
 										<img
 											class="flex-shrink-0 object-cover w-16 h-16 rounded-lg"
-											src="https://images.unsplash.com/photo-1588099768531-a72d4a198538?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2xvdGhpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+											src="https://dummyimage.com/305x305"
 											alt=""
 										/>
 
 										<div class="ml-4">
 											<p class="text-sm">Vibrant Trainers</p>
 
-											<dl class="mt-1 space-y-1 text-xs text-gray-500">
+											<dl class="mt-1 space-y-1 text-xs text-slate-500">
 												<div>
 													<dt class="inline">Color:</dt>
 													<dd class="inline">Blue</dd>
@@ -91,7 +91,7 @@
 									<div>
 										<p class="text-sm">
 											R25
-											<small class="text-gray-500">x2</small>
+											<small class="text-slate-500">x2</small>
 										</p>
 									</div>
 									<!--END:()-->
@@ -110,12 +110,12 @@
 				<div class="max-w-lg px-4 mx-auto lg:px-8">
 					<form class="grid grid-cols-6 gap-4">
 						<div class="col-span-3">
-							<label class="block mb-1 text-sm text-gray-600" for="first_name">
+							<label class="block mb-1 text-sm text-slate-600" for="first_name">
 								First Name
 							</label>
 
 							<input
-								class="rounded-lg shadow-sm border-indigo-200 w-full text-sm p-2.5"
+								class="rounded-lg shadow-sm border-fuchsia-300 w-full text-sm p-2.5"
 								type="text"
 								id="frst_name"
 							/>
@@ -123,12 +123,12 @@
 						<!--END:()-->
 
 						<div class="col-span-3">
-							<label class="block mb-1 text-sm text-gray-600" for="last_name">
+							<label class="block mb-1 text-sm text-slate-600" for="last_name">
 								Last Name
 							</label>
 
 							<input
-								class="rounded-lg shadow-sm border-indigo-200 w-full text-sm p-2.5"
+								class="rounded-lg shadow-sm border-fuchsia-300 w-full text-sm p-2.5"
 								type="text"
 								id="last_name"
 							/>
@@ -136,12 +136,12 @@
 						<!--END:()-->
 
 						<div class="col-span-6">
-							<label class="block mb-1 text-sm text-gray-600" for="email">
+							<label class="block mb-1 text-sm text-slate-600" for="email">
 								Email
 							</label>
 
 							<input
-								class="rounded-lg shadow-sm border-indigo-200 w-full text-sm p-2.5"
+								class="rounded-lg shadow-sm border-fuchsia-300 w-full text-sm p-2.5"
 								type="email"
 								placeholder="Your email (example@gmail.com)"
 								required
@@ -152,12 +152,12 @@
 						<!--END:()-->
 
 						<div class="col-span-6">
-							<label class="block mb-1 text-sm text-gray-600" for="phone">
+							<label class="block mb-1 text-sm text-slate-600" for="phone">
 								Phone
 							</label>
 
 							<input
-								class="rounded-lg shadow-sm border-indigo-200 w-full text-sm p-2.5"
+								class="rounded-lg shadow-sm border-fuchsia-300 w-full text-sm p-2.5"
 								type="tel"
 								id="phone"
 								placeholder="+27 000 000 000"
@@ -166,7 +166,7 @@
 						<!--END:()-->
 
 						<fieldset class="col-span-6">
-							<legend class="block mb-1 text-sm text-gray-600">
+							<legend class="block mb-1 text-sm text-slate-600">
 								Card Details
 							</legend>
 
@@ -175,7 +175,7 @@
 									<label class="sr-only" for="card-number">Card Number</label>
 
 									<input
-										class="border-indigo-200 relative rounded-t-lg w-full focus:z-10 text-sm p-2.5 placeholder-gray-400"
+										class="border-fuchsia-300 relative rounded-t-lg w-full focus:z-10 text-sm p-2.5 placeholder-slate-400"
 										type="text"
 										name="card-number"
 										id="card-number"
@@ -191,7 +191,7 @@
 										</label>
 
 										<input
-											class="border-indigo-200 relative rounded-bl-lg w-full focus:z-10 text-sm p-2.5 placeholder-gray-400"
+											class="border-fuchsia-300 relative rounded-bl-lg w-full focus:z-10 text-sm p-2.5 placeholder-slate-400"
 											type="text"
 											name="card-expiration-date"
 											id="card-expiration-date"
@@ -204,7 +204,7 @@
 										<label class="sr-only" for="card-cvc">CVC</label>
 
 										<input
-											class="border-indigo-200 relative rounded-br-lg w-full focus:z-10 text-sm p-2.5 placeholder-gray-400"
+											class="border-fuchsia-300 relative rounded-br-lg w-full focus:z-10 text-sm p-2.5 placeholder-slate-400"
 											type="text"
 											name="card-cvc"
 											id="card-cvc"
@@ -219,7 +219,7 @@
 						</fieldset>
 
 						<fieldset class="col-span-6">
-							<legend class="block mb-1 text-sm text-gray-600">
+							<legend class="block mb-1 text-sm text-slate-600">
 								Billing Address
 							</legend>
 
@@ -228,7 +228,7 @@
 									<label class="sr-only" for="country">Country</label>
 
 									<select
-										class="border-indigo-200 relative rounded-t-lg w-full focus:z-10 text-sm p-2.5"
+										class="border-fuchsia-300 relative rounded-t-lg w-full focus:z-10 text-sm p-2.5"
 										id="country"
 										name="country"
 									>
@@ -248,7 +248,7 @@
 									</label>
 
 									<input
-										class="border-indigo-200 relative rounded-b-lg w-full focus:z-10 text-sm p-2.5 placeholder-gray-400"
+										class="border-fuchsia-300 relative rounded-b-lg w-full focus:z-10 text-sm p-2.5 placeholder-slate-400"
 										type="text"
 										name="postal-code"
 										id="postal-code"

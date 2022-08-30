@@ -1,4 +1,4 @@
-<header class="bg-gray-50">
+<header class="bg-slate-50">
 	<div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
 		<div class="flex items-center sm:justify-between sm:gap-4">
 			<div class="relative hidden sm:block">
@@ -12,7 +12,7 @@
 				/>
 
 				<button
-					class="absolute p-2 text-gray-600 transition -translate-y-1/2 rounded-md hover:text-gray-700 bg-gray-50 top-1/2 right-1"
+					class="absolute p-2 text-slate-600 transition -translate-y-1/2 rounded-md hover:text-slate-700 bg-slate-50 top-1/2 right-1"
 					type="button"
 					aria-label="Submit Search"
 				>
@@ -40,7 +40,7 @@
 				<div class="flex gap-4">
 					<button
 						type="button"
-						class="block sm:hidden p-2.5 text-gray-600 bg-white rounded-lg hover:text-gray-700 shrink-0 shadow-sm"
+						class="block sm:hidden p-2.5 text-slate-600 bg-white rounded-lg hover:text-slate-700 shrink-0 shadow-sm"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
-						class="block p-2.5 text-gray-600 bg-white rounded-lg hover:text-gray-700 shrink-0 shadow-sm"
+						class="block p-2.5 text-slate-600 bg-white rounded-lg hover:text-slate-700 shrink-0 shadow-sm"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +86,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href=""
-						class="block p-2.5 text-gray-600 bg-white rounded-lg hover:text-gray-700 shrink-0 shadow-sm"
+						class="block p-2.5 text-slate-600 bg-white rounded-lg hover:text-slate-700 shrink-0 shadow-sm"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -112,19 +112,19 @@
 				>
 					<img
 						class="object-cover w-10 h-10 rounded-full"
-						src="https://www.hyperui.dev/photos/man-4.jpeg"
+						src="https://dummyimage.com/305x305"
 						alt="Simon Lewis"
 					/>
 
 					<p class="hidden ml-2 text-xs text-left sm:block">
 						<strong class="block font-medium">Simon Lewis</strong>
 
-						<span class="text-gray-500"> simonlewis@fakemail.com </span>
+						<span class="text-slate-500"> simonlewis@fakemail.com </span>
 					</p>
 
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="hidden w-5 h-5 ml-4 text-gray-500 transition sm:block group-hover:text-gray-700"
+						class="hidden w-5 h-5 ml-4 text-slate-500 transition sm:block group-hover:text-slate-700"
 						viewBox="0 0 20 20"
 						fill="currentColor"
 					>
@@ -141,11 +141,11 @@
 		<!--END:()-->
 
 		<div class="mt-8">
-			<h1 class="text-2xl font-bold text-gray-900 sm:text-3xl">
+			<h1 class="text-2xl font-bold text-slate-900 sm:text-3xl">
 				Welcome Back, Barry!
 			</h1>
 
-			<p class="mt-1.5 text-sm text-gray-500">
+			<p class="mt-1.5 text-sm text-slate-500">
 				Your website has seen a 52% increase in traffic in the last month. Keep
 				it up! 🚀
 			</p>
