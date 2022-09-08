@@ -76,7 +76,7 @@
 					<!--END:()-->
 
 					<!-- Filters -->
-					<form class="mt-4 border-t border-fuchsia-300">
+					<form class="mt-4 border-t border-red-300">
 						<h3 class="sr-only">Categories</h3>
 						<ul role="list" class="font-medium text-slate-900 px-2 py-3">
 							<li>
@@ -105,7 +105,7 @@
 							</li>
 						</ul>
 
-						<div class="border-t border-fuchsia-300 px-4 py-6">
+						<div class="border-t border-red-300 px-4 py-6">
 							<h3 class="-mx-2 -my-3 flow-root">
 								<!-- Expand/collapse section button -->
 								<button
@@ -164,7 +164,7 @@
 											name="color[]"
 											value="white"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-color-0"
@@ -181,7 +181,7 @@
 											name="color[]"
 											value="beige"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-color-1"
@@ -199,7 +199,7 @@
 											value="blue"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-color-2"
@@ -216,7 +216,7 @@
 											name="color[]"
 											value="brown"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-color-3"
@@ -233,7 +233,7 @@
 											name="color[]"
 											value="green"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-color-4"
@@ -250,7 +250,7 @@
 											name="color[]"
 											value="purple"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-color-5"
@@ -267,7 +267,7 @@
 						</div>
 						<!--END:()-->
 
-						<div class="border-t border-fuchsia-300 px-4 py-6">
+						<div class="border-t border-red-300 px-4 py-6">
 							<h3 class="-mx-2 -my-3 flow-root">
 								<!-- Expand/collapse section button -->
 								<button
@@ -326,7 +326,7 @@
 											name="category[]"
 											value="new-arrivals"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-category-0"
@@ -343,7 +343,7 @@
 											name="category[]"
 											value="sale"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-category-1"
@@ -361,7 +361,7 @@
 											value="travel"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-category-2"
@@ -378,7 +378,7 @@
 											name="category[]"
 											value="organization"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-category-3"
@@ -395,7 +395,7 @@
 											name="category[]"
 											value="accessories"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-category-4"
@@ -412,7 +412,7 @@
 						</div>
 						<!--END:()-->
 
-						<div class="border-t border-fuchsia-300 px-4 py-6">
+						<div class="border-t border-red-300 px-4 py-6">
 							<h3 class="-mx-2 -my-3 flow-root">
 								<!-- Expand/collapse section button -->
 								<button
@@ -471,7 +471,7 @@
 											name="size[]"
 											value="2l"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-size-0"
@@ -488,7 +488,7 @@
 											name="size[]"
 											value="6l"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-size-1"
@@ -505,7 +505,7 @@
 											name="size[]"
 											value="12l"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-size-2"
@@ -522,7 +522,7 @@
 											name="size[]"
 											value="18l"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-size-3"
@@ -539,7 +539,7 @@
 											name="size[]"
 											value="20l"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-size-4"
@@ -557,7 +557,7 @@
 											value="40l"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-mobile-size-5"
@@ -583,7 +583,7 @@
 
 		<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<div
-				class="relative z-10 flex items-baseline justify-between pt-24 pb-6 border-b border-fuchsia-300"
+				class="relative z-10 flex items-baseline justify-between pt-24 pb-6 border-b border-red-300"
 			>
 				<h1 class="text-4xl font-bold tracking-tight text-slate-900">
 					New Arrivals
@@ -751,7 +751,7 @@
 						<h3 class="sr-only">Categories</h3>
 						<ul
 							role="list"
-							class="text-sm font-medium text-slate-900 space-y-4 pb-6 border-b border-fuchsia-300"
+							class="text-sm font-medium text-slate-900 space-y-4 pb-6 border-b border-red-300"
 						>
 							<li>
 								<!-- svelte-ignore a11y-invalid-attribute -->
@@ -779,7 +779,7 @@
 							</li>
 						</ul>
 
-						<div class="border-b border-fuchsia-300 py-6">
+						<div class="border-b border-red-300 py-6">
 							<h3 class="-my-3 flow-root">
 								<!-- Expand/collapse section button -->
 								<button
@@ -838,7 +838,7 @@
 											name="color[]"
 											value="white"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-color-0"
@@ -855,7 +855,7 @@
 											name="color[]"
 											value="beige"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-color-1"
@@ -873,7 +873,7 @@
 											value="blue"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-color-2"
@@ -890,7 +890,7 @@
 											name="color[]"
 											value="brown"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-color-3"
@@ -907,7 +907,7 @@
 											name="color[]"
 											value="green"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-color-4"
@@ -924,7 +924,7 @@
 											name="color[]"
 											value="purple"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-color-5"
@@ -941,7 +941,7 @@
 						</div>
 						<!--END:()-->
 
-						<div class="border-b border-fuchsia-300 py-6">
+						<div class="border-b border-red-300 py-6">
 							<h3 class="-my-3 flow-root">
 								<!-- Expand/collapse section button -->
 								<button
@@ -1000,7 +1000,7 @@
 											name="category[]"
 											value="new-arrivals"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-category-0"
@@ -1017,7 +1017,7 @@
 											name="category[]"
 											value="sale"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-category-1"
@@ -1035,7 +1035,7 @@
 											value="travel"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-category-2"
@@ -1052,7 +1052,7 @@
 											name="category[]"
 											value="organization"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-category-3"
@@ -1069,7 +1069,7 @@
 											name="category[]"
 											value="accessories"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-category-4"
@@ -1086,7 +1086,7 @@
 						</div>
 						<!--END:()-->
 
-						<div class="border-b border-fuchsia-300 py-6">
+						<div class="border-b border-red-300 py-6">
 							<h3 class="-my-3 flow-root">
 								<!-- Expand/collapse section button -->
 								<button
@@ -1145,7 +1145,7 @@
 											name="size[]"
 											value="2l"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-size-0"
@@ -1162,7 +1162,7 @@
 											name="size[]"
 											value="6l"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-size-1"
@@ -1179,7 +1179,7 @@
 											name="size[]"
 											value="12l"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-size-2"
@@ -1196,7 +1196,7 @@
 											name="size[]"
 											value="18l"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-size-3"
@@ -1213,7 +1213,7 @@
 											name="size[]"
 											value="20l"
 											type="checkbox"
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-size-4"
@@ -1231,7 +1231,7 @@
 											value="40l"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-fuchsia-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
 										/>
 										<label
 											for="filter-size-5"
@@ -1253,7 +1253,7 @@
 					<div class="lg:col-span-3">
 						<!-- Replace with your content -->
 						<div
-							class="border-4 border-dashed border-fuchsia-300 rounded-lg h-96 lg:h-full"
+							class="border-4 border-dashed border-red-300 rounded-lg h-96 lg:h-full"
 						/>
 						<!-- /End replace -->
 					</div>

@@ -1,11 +1,30 @@
-<div class="bg-indigo-100 text-slate-700 py-2 px-4">
-	<div class="mx-auto max-w-6xl flex flex-col md:flex-row">
+<div class="relative min-h-screen flex ">
+	<div
+		class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto bg-white"
+	>
 		<div
-			class="hidden md:flex flex-auto items-start justify-end p-10 pr-20 overflow-hidden bg-no-repeat bg-cover relative"
+			class="w-11-12 h-full hidden md:flex flex-auto items-end justify-end p-10 pr-20 overflow-hidden bg-blue-900 text-white bg-no-repeat bg-cover relative"
 		>
-			<h2 class="mr-8 w-full md:w-1/3 text-3xl font-extrabold leading-9">
-				Frequently Asked Questions
-			</h2>
+			<div
+				class="absolute bg-gradient-to-b from-indigo-100 to-blue-600 opacity-75 inset-0 z-0"
+			/>
+			<div class="w-full z-10 mb-10">
+				<div
+					class="sm:text-4xl xl:text-5xl  text-slate-800 font-bold leading-tight mb-6"
+				>
+					Reference: Call to action
+				</div>
+				<!--END:()-->
+
+				<div class="sm:text-sm xl:text-md text-slate-900 font-normal">
+					What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing
+					and typesetting industry Lorem Ipsum has been the industry's standard
+					dummy text ever since the 1500s when an unknown printer took a galley
+					of type and scrambled it to make a type specimen book it has?
+				</div>
+				<!--END:()-->
+			</div>
+			<!--END:()-->
 			<!---remove custom style-->
 			<ul class="squares">
 				<li />
@@ -21,51 +40,6 @@
 			</ul>
 		</div>
 		<!--END:()-->
-
-		<dl class="w-full md:w-11/12">
-			<dt class="mb-4">
-				<h3 class="text-xl font-semibold">
-					We already have ongoing projects. Will Valohai easily integrate with
-					them?
-				</h3>
-			</dt>
-			<dd class="mb-16">
-				<p>
-					Running existing machine learning projects in Valohai is very simple!
-					Integration only requires adding a valohai.yaml configuration file.
-					Moving projects in and out of Valohai is easy – the integration is
-					only the configuration file.
-				</p>
-			</dd>
-			<dt class="mb-4">
-				<h3 class="text-xl font-semibold">
-					How do you compare to other data science platforms?
-				</h3>
-			</dt>
-			<dd class="mb-16">
-				<p>
-					We don't. Valohai isn't a data science platform; it&#x27;s a Machine
-					Learning Management Platform that handles the whole ML pipeline from
-					feature extraction, to training of your model and to deploying it into
-					production in a reproducible manner. Data science platforms offer
-					hosted notebooks and AutoML solutions.
-				</p>
-			</dd>
-			<dt class="mb-4">
-				<h3 class="text-xl font-semibold">
-					Does Valohai charge for computation?
-				</h3>
-			</dt>
-			<dd class="mb-16">
-				<p>
-					Depends. Most of our customers use their own cloud and thus pay for
-					usage according to their own agreements. Valohai doesn&#x27;t charge
-					anything on top of the per-user license fee. If you don&#x27;t have a
-					cloud provider, you can use our AWS, GCP and Azure accounts, and
-					we&#x27;ll only charge you for what you use.
-				</p>
-			</dd>
-		</dl>
 	</div>
 	<!--END:()-->
 </div>

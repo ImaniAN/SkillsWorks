@@ -181,10 +181,10 @@
 
 								<span class="relative flex w-2 h-2 -mr-2">
 									<span
-										class="absolute inline-flex w-full h-full bg-violet-400 rounded-full opacity-75 animate-ping"
+										class="absolute inline-flex w-full h-full bg-indigo-400 rounded-full opacity-75 animate-ping"
 									/>
 									<span
-										class="relative inline-flex w-2 h-2 bg-violet-500 rounded-full"
+										class="relative inline-flex w-2 h-2 bg-indigo-500 rounded-full"
 									/>
 								</span>
 							</a>
@@ -204,7 +204,7 @@
 						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
-						class="text-violet-500 transition hover:text-violet-500/75"
+						class="text-indigo-500 transition hover:text-indigo-500/75"
 					>
 						<span class="sr-only">Facebook</span>
 						<svg
@@ -228,7 +228,7 @@
 						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
-						class="text-violet-500 transition hover:text-violet-500/75"
+						class="text-indigo-500 transition hover:text-indigo-500/75"
 					>
 						<span class="sr-only">Instagram</span>
 						<svg
@@ -252,7 +252,7 @@
 						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
-						class="text-violet-500 transition hover:text-violet-500/75"
+						class="text-indigo-500 transition hover:text-indigo-500/75"
 					>
 						<span class="sr-only">Twitter</span>
 						<svg
@@ -274,7 +274,7 @@
 						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
-						class="text-violet-500 transition hover:text-violet-500/75"
+						class="text-indigo-500 transition hover:text-indigo-500/75"
 					>
 						<span class="sr-only">GitHub</span>
 						<svg
@@ -298,7 +298,7 @@
 						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
-						class="text-violet-500 transition hover:text-violet-500/75"
+						class="text-indigo-500 transition hover:text-indigo-500/75"
 					>
 						<span class="sr-only">Dribbble</span>
 						<svg
@@ -318,7 +318,7 @@
 			</ul>
 
 			<div class="mt-16 sm:flex sm:justify-between sm:items-center">
-				<div class="flex justify-center text-violet-300 sm:justify-start">
+				<div class="flex justify-center text-indigo-300 sm:justify-start">
 					<svg
 						class="h-8"
 						viewBox="0 0 118 24"

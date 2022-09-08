@@ -1,6 +1,6 @@
-<ul class="flex border-b border-fuchsia-100">
+<ul class="flex border-b border-indigo-100">
 	<li class="flex-1">
-		<a class="relative block p-4" href="">
+		<a class="relative block p-4" href="#">
 			<span class="absolute inset-x-0 w-full h-px bg-pink-600 -bottom-px" />
 
 			<div class="flex items-center justify-center">
@@ -26,7 +26,7 @@
 	</li>
 
 	<li class="flex-1">
-		<a class="relative block p-4" href="">
+		<a class="relative block p-4" href="#">
 			<div class="flex items-center justify-center">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@
 	</li>
 
 	<li class="flex-1">
-		<a class="relative block p-4" href="">
+		<a class="relative block p-4" href="#">
 			<div class="flex items-center justify-center">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +74,7 @@
 	</li>
 
 	<li class="flex-1">
-		<a class="relative block p-4" href="">
+		<a class="relative block p-4" href="#">
 			<div class="flex items-center justify-center">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"

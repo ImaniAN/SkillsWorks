@@ -19,7 +19,7 @@
 			<!--END:()-->
 
 			<ul class="flex flex-col">
-				<li class="border-fuchsia-400 flex flex-row mb-2">
+				<li class="border-indigo-400 flex flex-row mb-2">
 					<div
 						class="transition duration-500 shadow ease-in-out transform hover:-translate-y-1 hover:shadow-lg select-none cursor-pointer bg-white dark:bg-slate-800 rounded-md flex flex-1 items-center p-4"
 					>
@@ -70,7 +70,7 @@
 					</div>
 					<!--END:()-->
 				</li>
-				<li class="border-fuchsia-400 flex flex-row mb-2">
+				<li class="border-indigo-400 flex flex-row mb-2">
 					<div
 						class="transition duration-500 shadow ease-in-out transform hover:-translate-y-1 hover:shadow-lg select-none cursor-pointer bg-white dark:bg-slate-800 rounded-md flex flex-1 items-center p-4"
 					>
@@ -121,7 +121,7 @@
 					</div>
 					<!--END:()-->
 				</li>
-				<li class="border-fuchsia-400 flex flex-row mb-2">
+				<li class="border-indigo-400 flex flex-row mb-2">
 					<div
 						class="transition duration-500 shadow ease-in-out transform hover:-translate-y-1 hover:shadow-lg select-none cursor-pointer bg-white dark:bg-slate-800 rounded-md flex flex-1 items-center p-4"
 					>
@@ -172,7 +172,7 @@
 					</div>
 					<!--END:()-->
 				</li>
-				<li class="border-fuchsia-400 flex flex-row mb-2">
+				<li class="border-indigo-400 flex flex-row mb-2">
 					<div
 						class="transition duration-500 shadow ease-in-out transform hover:-translate-y-1 hover:shadow-lg select-none cursor-pointer bg-white dark:bg-slate-800 rounded-md flex flex-1 items-center p-4"
 					>
@@ -223,7 +223,7 @@
 					</div>
 					<!--END:()-->
 				</li>
-				<li class="border-fuchsia-400 flex flex-row mb-2">
+				<li class="border-indigo-400 flex flex-row mb-2">
 					<div
 						class="transition duration-500 shadow ease-in-out transform hover:-translate-y-1 hover:shadow-lg select-none cursor-pointer bg-white dark:bg-slate-800 rounded-md flex flex-1 items-center p-4"
 					>
@@ -274,7 +274,7 @@
 					</div>
 					<!--END:()-->
 				</li>
-				<li class="border-fuchsia-400 flex flex-row mb-2">
+				<li class="border-indigo-400 flex flex-row mb-2">
 					<div
 						class="transition duration-500 shadow ease-in-out transform hover:-translate-y-1 hover:shadow-lg select-none cursor-pointer bg-white dark:bg-slate-800 rounded-md flex flex-1 items-center p-4"
 					>

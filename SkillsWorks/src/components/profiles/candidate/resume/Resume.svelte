@@ -2,8 +2,8 @@
 
 <!-- Comp Start -->
 <div class="px-8 py-4 flex justify-center">
-	<div class="px-8 py-4 border bg-indigo-200">
-		<div class="lg:flex lg:items-center lg:justify-between ">
+	<div class="px-8 py-4 border bg-indigo-400 bg-opacity-60">
+		<div class="lg:flex lg:items-center lg:justify-between">
 			<div class="flex-1 min-w-0">
 				<h2
 					class="text-2xl font-bold leading-7 text-slate-900 sm:text-3xl sm:tracking-tight sm:truncate"
@@ -13,10 +13,10 @@
 				<div
 					class="mt-1 flex flex-col sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-6"
 				>
-					<div class="mt-2 flex items-center text-sm text-slate-500">
+					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/briefcase -->
 						<svg
-							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
+							class="flex-shrink-0 mr-1.5 h-5 w-5 text-rose-500"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
@@ -35,10 +35,10 @@
 					</div>
 					<!--END:()-->
 
-					<div class="mt-2 flex items-center text-sm text-slate-500">
+					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/location-marker -->
 						<svg
-							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
+							class="flex-shrink-0 mr-1.5 h-5 w-5 text-rose-500"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
@@ -54,10 +54,10 @@
 					</div>
 					<!--END:()-->
 
-					<div class="mt-2 flex items-center text-sm text-slate-500">
+					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/currency-dollar -->
 						<svg
-							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
+							class="flex-shrink-0 mr-1.5 h-5 w-5 text-rose-500"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
@@ -76,10 +76,10 @@
 					</div>
 					<!--END:()-->
 
-					<div class="mt-2 flex items-center text-sm text-slate-500">
+					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/calendar -->
 						<svg
-							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
+							class="flex-shrink-0 mr-1.5 h-5 w-5 text-rose-500"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
@@ -103,11 +103,11 @@
 				<span class="hidden sm:block">
 					<button
 						type="button"
-						class="inline-flex items-center px-4 py-2 border-2 border-fuchsia-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+						class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-lime-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 					>
 						<!-- Heroicon name: solid/pencil -->
 						<svg
-							class="-ml-1 mr-2 h-5 w-5 text-green-500"
+							class="-ml-1 mr-2 h-5 w-5 text-rose-500"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
@@ -124,11 +124,11 @@
 				<span class="hidden sm:block ml-3">
 					<button
 						type="button"
-						class="inline-flex items-center px-4 py-2 border-2 border-fuchsia-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+						class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-lime-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 					>
 						<!-- Heroicon name: solid/link -->
 						<svg
-							class="-ml-1 mr-2 h-5 w-5 text-green-500"
+							class="-ml-1 mr-2 h-5 w-5 text-rose-500"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
@@ -171,7 +171,7 @@
 				<div class="ml-3 relative sm:hidden">
 					<button
 						type="button"
-						class="inline-flex items-center px-4 py-2 border-2 border-fuchsia-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+						class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-lime-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 						id="mobile-menu-button"
 						aria-expanded="false"
 						aria-haspopup="true"
@@ -281,7 +281,7 @@
 										</span>
 										<button
 											type="button"
-											class="ml-5 bg-white py-2 px-3 border-2 border-fuchsia-300 border-dashed rounded-md shadow-sm text-sm leading-4 font-medium text-slate-700 hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+											class="ml-5 bg-white py-2 px-3 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm leading-4 font-medium text-slate-700 hover:bg-lime-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 											>Change</button
 										>
 									</div>
@@ -295,11 +295,11 @@
 										Cover image
 									</label>
 									<div
-										class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-fuchsia-300 border-dashed rounded-md"
+										class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-red-300 border-dashed rounded-md"
 									>
 										<div class="space-y-1 text-center">
 											<svg
-												class="mx-auto h-12 w-12 text-green-500"
+												class="mx-auto h-12 w-12 text-rose-500"
 												stroke="currentColor"
 												fill="none"
 												viewBox="0 0 48 48"
@@ -315,7 +315,7 @@
 											<div class="flex text-sm text-slate-900">
 												<label
 													for="file-upload"
-													class="relative cursor-pointer bg-white rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+													class="relative cursor-pointer bg-white rounded-md font-medium text-rose-500 hover:text-rose-700 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
 												>
 													<span>Upload a file</span>
 													<input
@@ -355,7 +355,7 @@
 											id="describe-yourself"
 											name="describe-yourself"
 											rows="2"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											placeholder="A place to include non-formal information"
 										/>
 									</div>
@@ -379,7 +379,7 @@
 											id="cover-letter"
 											name="cover-letter"
 											rows="9"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											placeholder="Motivate your Recruiter?"
 										/>
 									</div>
@@ -400,7 +400,7 @@
 									<select
 										id="spoken-languages"
 										name="spoken-languages"
-										class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+										class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 									>
 										<option value="" disabled selected hidden
 											>South African languages...</option
@@ -415,10 +415,10 @@
 							</div>
 							<!--END:()-->
 
-							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
+							<div class="px-4 py-3 bg-lime-200 text-right sm:px-6">
 								<button
 									type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 									>Save</button
 								>
 							</div>
@@ -463,13 +463,13 @@
 							<div class="px-4 py-5 bg-white space-y-6 sm:p-6">
 								<fieldset>
 									<legend class="sr-only"
-										>idk man, you have a lot of copywriting to do</legend
+										>idk man, you have a lot of things to figure out to do</legend
 									>
 									<div
 										class="text-base font-medium text-slate-900"
 										aria-hidden="true"
 									>
-										idk man, you have a lot of copywriting to do
+										idk man, you have a lot of things to figure out to do
 									</div>
 									<!--END:()-->
 
@@ -481,7 +481,7 @@
 													checked
 													name="disabilities"
 													id="disabilities"
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-fuchsia-300 rounded"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-red-300 rounded"
 												/>
 											</div>
 											<!--END:()-->
@@ -506,7 +506,7 @@
 													checked
 													name="criminal-record"
 													id="criminal-record"
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-fuchsia-300 rounded"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-red-300 rounded"
 												/>
 											</div>
 											<!--END:()-->
@@ -532,7 +532,7 @@
 													checked
 													name="criminal-record"
 													id="criminal-record"
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-fuchsia-300 rounded"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-red-300 rounded"
 												/>
 											</div>
 											<!--END:()-->
@@ -557,7 +557,7 @@
 													checked
 													name="drivers-licence"
 													id="drivers-licence"
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-fuchsia-300 rounded"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-red-300 rounded"
 												/>
 											</div>
 											<!--END:()-->
@@ -581,7 +581,7 @@
 													checked
 													name="criminal-record"
 													id="criminal-record"
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-fuchsia-300 rounded"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-red-300 rounded"
 												/>
 											</div>
 											<!--END:()-->
@@ -604,10 +604,10 @@
 							</div>
 							<!--END:()-->
 
-							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
+							<div class="px-4 py-3 bg-lime-200 text-right sm:px-6">
 								<button
 									type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 									>Save</button
 								>
 							</div>
@@ -660,7 +660,7 @@
 											id="title"
 											name="title"
 											autocomplete="title"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											>
 											<option value="" disabled selected hidden>Click</option>
@@ -684,7 +684,7 @@
 											name="first-name"
 											id="first-name"
 											autocomplete="given-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -700,7 +700,7 @@
 											name="last-name"
 											id="last-name"
 											autocomplete="family-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -716,7 +716,7 @@
 											name="email-address"
 											id="email-address"
 											autocomplete="email"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -730,7 +730,7 @@
 										<select
 											id="country-code"
 											name="country-code"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											<option value="" disabled selected hidden>Click</option>
 											<option>+27</option>
@@ -747,7 +747,7 @@
 										</label>
 
 										<input
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											type="tel"
 											id="phone"
 											placeholder="+27 000 000 000"
@@ -766,7 +766,7 @@
 											name="street-address"
 											id="street-address"
 											autocomplete="street-address"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -782,7 +782,7 @@
 											name="city"
 											id="city"
 											autocomplete="address-level2"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -791,14 +791,14 @@
 										<label
 											for="region"
 											class="block text-sm font-medium text-slate-700"
-											>State / Province</label
+											>Province</label
 										>
 										<input
 											type="text"
 											name="region"
 											id="region"
 											autocomplete="address-level1"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -814,7 +814,7 @@
 											name="postal-code"
 											id="postal-code"
 											autocomplete="postal-code"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -829,7 +829,7 @@
 											type="text"
 											name="country-name"
 											id="country-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -838,10 +838,10 @@
 							</div>
 							<!--END:()-->
 
-							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
+							<div class="px-4 py-3 bg-lime-200 text-right sm:px-6">
 								<button
 									type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 									>Save</button
 								>
 							</div>
@@ -894,7 +894,7 @@
 											id="title"
 											name="title"
 											autocomplete="title"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											>
 											<option value="" disabled selected hidden>Click</option>
@@ -917,7 +917,7 @@
 											type="text"
 											name="institution-name"
 											id="institution-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -932,7 +932,7 @@
 											type="text"
 											name="qualfication-name"
 											id="qualfication-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -948,7 +948,7 @@
 											name="email-address"
 											id="email-address"
 											autocomplete="email"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -963,7 +963,7 @@
 											type="date"
 											name="end-date-edu"
 											id="end-date-edu"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -979,7 +979,7 @@
 											type="checkbox"
 											name="still-studying"
 											id="still-studying"
-											class="block appearance-none w-full bg-indigo-200 border border-fuchsia-600 text-indigo-600 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-fuchsia-300 border-dashed"
+											class="block appearance-none w-full bg-indigo-200 border border-indigo-600 text-indigo-600 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-red-300 border-dashed"
 										/>
 									</div>
 									<!--END:()-->
@@ -993,7 +993,7 @@
 										</label>
 
 										<input
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											type="tel"
 											id="phone"
 											placeholder="+27 000 000 000"
@@ -1012,7 +1012,7 @@
 											name="city"
 											id="city"
 											autocomplete="address-level2"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1027,7 +1027,7 @@
 											type="text"
 											name="country-name"
 											id="country-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1049,7 +1049,7 @@
 															name="time-spent"
 															type="radio"
 															checked
-															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed"
 														/>
 														<label
 															for="push-everything"
@@ -1065,7 +1065,7 @@
 															id="time-spent"
 															name="time-spent"
 															type="radio"
-															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed"
 														/>
 														<label
 															for="time-spent"
@@ -1093,7 +1093,7 @@
 															id="learning-type"
 															name="learning-type"
 															type="radio"
-															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed"
 														/>
 														<label
 															for="learning-type"
@@ -1109,7 +1109,7 @@
 															id="learning-type"
 															name="learning-type"
 															type="radio"
-															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed"
 														/>
 														<label
 															for="push-email"
@@ -1125,7 +1125,7 @@
 															id="learning-type"
 															name="learning-type"
 															type="radio"
-															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed"
 														/>
 														<label
 															for="push-nothing"
@@ -1142,7 +1142,7 @@
 															id="learning-type"
 															name="learning-type"
 															type="radio"
-															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed"
 														/>
 														<label
 															for="learning-type"
@@ -1167,11 +1167,11 @@
 												Documents
 											</label>
 											<div
-												class="mt-1 flex justify-center px-6 py-20 border-2 border-fuchsia-300 border-dashed rounded-md"
+												class="mt-1 flex justify-center px-6 py-20 border-2 border-red-300 border-dashed rounded-md"
 											>
 												<div class="space-y-1 text-center">
 													<svg
-														class="mx-auto h-12 w-12 text-green-500 py "
+														class="mx-auto h-12 w-12 text-rose-500 py "
 														stroke="currentColor"
 														fill="none"
 														viewBox="0 0 48 48"
@@ -1187,7 +1187,7 @@
 													<div class="flex text-sm text-slate-900">
 														<label
 															for="file-upload"
-															class="relative cursor-pointer bg-white rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+															class="relative cursor-pointer bg-white rounded-md font-medium text-rose-500 hover:text-rose-700 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
 														>
 															<span>Upload a document</span>
 															<input
@@ -1212,7 +1212,7 @@
 											</div>
 											<!--END:()-->
 											<div
-												class="mt-1 text-center flex text-indigo-400 justify-center px-1 py-1 border-2 border-fuchsia-300 border-dashed rounded-md"
+												class="mt-1 text-center flex text-indigo-400 justify-center px-1 py-1 border-2 border-red-300 border-dashed rounded-md"
 											>
 												Eish sohn... You have no documents saved...
 											</div>
@@ -1226,7 +1226,7 @@
 							</div>
 							<!--END:()-->
 
-							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
+							<div class="px-4 py-3 bg-lime-200 text-right sm:px-6">
 								<button
 									type="submit"
 									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -1234,7 +1234,7 @@
 								>
 								<button
 									type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 									>Save</button
 								>
 							</div>
@@ -1291,7 +1291,7 @@
 											type="text"
 											name="institution-name"
 											id="institution-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1306,7 +1306,7 @@
 											type="text"
 											name="qualfication-name"
 											id="qualfication-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1321,7 +1321,7 @@
 											type="date"
 											name="start-date-edu"
 											id="start-date-edu"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1336,7 +1336,7 @@
 											type="date"
 											name="end-date-edu"
 											id="end-date-edu"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1352,7 +1352,7 @@
 											type="checkbox"
 											name="still-studying"
 											id="still-studying"
-											class="block appearance-none w-full bg-indigo-200 border border-fuchsia-600 text-indigo-600 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-fuchsia-300 border-dashed"
+											class="block appearance-none w-full bg-indigo-200 border border-indigo-600 text-indigo-600 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-red-300 border-dashed"
 										/>
 										<p class="mt-2 text-sm text-slate-500">
 											End date can be left empty.
@@ -1369,7 +1369,7 @@
 										</label>
 
 										<input
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											type="tel"
 											id="phone"
 											placeholder="+27 000 000 000"
@@ -1388,7 +1388,7 @@
 											name="city"
 											id="city"
 											autocomplete="address-level2"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1403,7 +1403,7 @@
 											type="text"
 											name="country-name"
 											id="country-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1424,7 +1424,7 @@
 														id="emp-type"
 														name="emp-type"
 														type="radio"
-														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
+														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed"
 													/>
 													<label
 														for="push-everything"
@@ -1440,7 +1440,7 @@
 														id="emp-type"
 														name="emp-type"
 														type="radio"
-														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
+														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed"
 													/>
 													<label
 														for="time-spent"
@@ -1456,7 +1456,7 @@
 														id="emp-type"
 														name="emp-type"
 														type="radio"
-														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
+														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed"
 													/>
 													<label
 														for="time-spent"
@@ -1471,7 +1471,7 @@
 														id="emp-type"
 														name="emp-type"
 														type="radio"
-														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
+														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed"
 													/>
 													<label
 														for="learning-type"
@@ -1487,7 +1487,7 @@
 														id="emp-type"
 														name="emp-type"
 														type="radio"
-														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
+														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed"
 													/>
 													<label
 														for="push-email"
@@ -1503,7 +1503,7 @@
 														id="emp-type"
 														name="emp-type"
 														type="radio"
-														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
+														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed"
 													/>
 													<label
 														for="push-nothing"
@@ -1519,7 +1519,7 @@
 														id="emp-type"
 														name="emp-type"
 														type="radio"
-														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
+														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed"
 													/>
 													<label
 														for="learning-type"
@@ -1547,7 +1547,7 @@
 												id="cover-letter"
 												name="cover-letter"
 												rows="12"
-												class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+												class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 												placeholder="Mention roles, duties, tools and equipment that you used."
 											/>
 										</div>
@@ -1608,7 +1608,7 @@
 											id="title"
 											name="title"
 											autocomplete="title"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											>
 											<option value="" disabled selected hidden>Click</option>
@@ -1632,7 +1632,7 @@
 											name="first-name"
 											id="first-name"
 											autocomplete="given-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1648,7 +1648,7 @@
 											name="last-name"
 											id="last-name"
 											autocomplete="family-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1664,7 +1664,7 @@
 											name="qualfication-name"
 											id="qualfication-name"
 											autocomplete="qualfication-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1680,7 +1680,7 @@
 											name="email-address"
 											id="email-address"
 											autocomplete="email"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1696,7 +1696,7 @@
 											name="email-address"
 											id="email-address"
 											autocomplete="email"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1710,7 +1710,7 @@
 										</label>
 
 										<input
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											type="tel"
 											id="phone"
 											placeholder="+27 000 000 000"
@@ -1727,7 +1727,7 @@
 										</label>
 
 										<input
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											type="tel"
 											id="phone"
 											placeholder="+27 000 000 000"
@@ -1738,7 +1738,7 @@
 								<!--END:()-->
 							</div>
 							<!--END:()-->
-							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
+							<div class="px-4 py-3 bg-lime-200 text-right sm:px-6">
 								<button
 									type="submit"
 									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -1746,7 +1746,7 @@
 								>
 								<button
 									type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 									>Save</button
 								>
 							</div>
@@ -1805,7 +1805,7 @@
 											type="text"
 											name="skill-name"
 											id="skill-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -1819,7 +1819,7 @@
 										<select
 											id="country-code"
 											name="country-code"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											<option value="" disabled selected hidden>Click</option>
 											<option>Review (heard of)</option>
@@ -1836,7 +1836,7 @@
 								<!--END:()-->
 							</div>
 							<!--END:()-->
-							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
+							<div class="px-4 py-3 bg-lime-200 text-right sm:px-6">
 								<button
 									type="submit"
 									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -1844,7 +1844,7 @@
 								>
 								<button
 									type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 									>Save</button
 								>
 							</div>
@@ -1908,7 +1908,7 @@
 													name="comments"
 													type="checkbox"
 													checked
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed rounded"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed rounded"
 												/>
 											</div>
 											<!--END:()-->
@@ -1933,7 +1933,7 @@
 													name="candidates"
 													type="checkbox"
 													checked
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed rounded"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed rounded"
 												/>
 											</div>
 											<!--END:()-->
@@ -1959,7 +1959,7 @@
 													name="offers"
 													type="checkbox"
 													checked
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed rounded"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed rounded"
 												/>
 											</div>
 											<!--END:()-->
@@ -1993,7 +1993,7 @@
 												name="push-notifications"
 												type="radio"
 												checked
-												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
+												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed"
 											/>
 											<label
 												for="push-everything"
@@ -2009,7 +2009,7 @@
 												id="push-email"
 												name="push-notifications"
 												type="radio"
-												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
+												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed"
 											/>
 											<label
 												for="push-email"
@@ -2025,7 +2025,7 @@
 												id="push-nothing"
 												name="push-notifications"
 												type="radio"
-												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-fuchsia-300 border-dashed"
+												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed"
 											/>
 											<label
 												for="push-nothing"
@@ -2041,10 +2041,10 @@
 							</div>
 							<!--END:()-->
 
-							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
+							<div class="px-4 py-3 bg-lime-200 text-right sm:px-6">
 								<button
 									type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 									>Save</button
 								>
 							</div>

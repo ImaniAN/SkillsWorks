@@ -117,7 +117,7 @@
 								Email
 							</label>
 							<input
-								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 								id="grid-email"
 								type="email"
 								placeholder="Your email (example@gmail.com)"
@@ -138,7 +138,7 @@
 								Password
 							</label>
 							<input
-								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 								id="grid-password"
 								type="password"
 								name="password"
@@ -158,7 +158,7 @@
 									checked
 									name="remember_me"
 									type="checkbox"
-									class="h-4 w-4 focus:ring-indigo-400 border-fuchsia-900 rounded"
+									class="h-4 w-4 focus:ring-indigo-400 border-indigo-900 rounded"
 								/>
 								<label
 									for="remember_me"

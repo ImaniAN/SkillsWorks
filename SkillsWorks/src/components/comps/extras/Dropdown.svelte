@@ -9,7 +9,7 @@
 	<div class="relative">
 		<button
 			type="button"
-			class="inline-flex items-center justify-center h-full px-2 text-slate-600 border-l border-fuchsia-100 hover:text-slate-700 rounded-r-md hover:bg-slate-50"
+			class="inline-flex items-center justify-center h-full px-2 text-slate-600 border-l border-indigo-100 hover:text-slate-700 rounded-r-md hover:bg-slate-50"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@
 		</button>
 
 		<div
-			class="absolute right-0 z-10 w-56 mt-4 origin-top-right bg-white border border-fuchsia-100 rounded-md shadow-lg"
+			class="absolute right-0 z-10 w-56 mt-4 origin-top-right bg-white border border-indigo-100 rounded-md shadow-lg"
 			role="menu"
 		>
 			<div class="flow-root py-2">

@@ -1,7 +1,7 @@
 <nav class="flex flex-col space-y-1">
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
-		href=""
+		href="#"
 		class="flex items-center px-4 py-2 text-slate-700 bg-slate-100 rounded-lg"
 	>
 		<svg
@@ -70,7 +70,7 @@
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
-				href=""
+				href="#"
 				class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 			>
 				<svg
@@ -93,7 +93,7 @@
 
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
-				href=""
+				href="#"
 				class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 			>
 				<svg
@@ -118,7 +118,7 @@
 
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
-		href=""
+		href="#"
 		class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 	>
 		<svg
@@ -141,7 +141,7 @@
 
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
-		href=""
+		href="#"
 		class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 	>
 		<svg
@@ -205,7 +205,7 @@
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
-				href=""
+				href="#"
 				class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 			>
 				<svg
@@ -228,7 +228,7 @@
 
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
-				href=""
+				href="#"
 				class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 			>
 				<svg

@@ -2,7 +2,7 @@
 	<li>
 		<a
 			href="/?page=1"
-			class="inline-flex items-center justify-center w-8 h-8 border border-fuchsia-100 rounded"
+			class="inline-flex items-center justify-center w-8 h-8 border border-indigo-100 rounded"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +22,7 @@
 	<li>
 		<a
 			href="/?page=1"
-			class="block w-8 h-8 leading-8 text-center border border-fuchsia-100 rounded"
+			class="block w-8 h-8 leading-8 text-center border border-indigo-100 rounded"
 		>
 			1
 		</a>
@@ -37,7 +37,7 @@
 	<li>
 		<a
 			href="/?page=3"
-			class="block w-8 h-8 leading-8 text-center border border-fuchsia-100 rounded"
+			class="block w-8 h-8 leading-8 text-center border border-indigo-100 rounded"
 		>
 			3
 		</a>
@@ -46,7 +46,7 @@
 	<li>
 		<a
 			href="/?page=4"
-			class="block w-8 h-8 leading-8 text-center border border-fuchsia-100 rounded"
+			class="block w-8 h-8 leading-8 text-center border border-indigo-100 rounded"
 		>
 			4
 		</a>
@@ -55,7 +55,7 @@
 	<li>
 		<a
 			href="/?page=3"
-			class="inline-flex items-center justify-center w-8 h-8 border border-fuchsia-100 rounded"
+			class="inline-flex items-center justify-center w-8 h-8 border border-indigo-100 rounded"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +77,7 @@
 	<li>
 		<a
 			href="/?page=1"
-			class="inline-flex items-center justify-center w-8 h-8 border border-fuchsia-100 rounded-full"
+			class="inline-flex items-center justify-center w-8 h-8 border border-indigo-100 rounded-full"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +97,7 @@
 	<li>
 		<a
 			href="/?page=1"
-			class="block w-8 h-8 leading-8 text-center border border-fuchsia-100 rounded-full"
+			class="block w-8 h-8 leading-8 text-center border border-indigo-100 rounded-full"
 		>
 			1
 		</a>
@@ -112,7 +112,7 @@
 	<li>
 		<a
 			href="/?page=3"
-			class="block w-8 h-8 leading-8 text-center border border-fuchsia-100 rounded-full"
+			class="block w-8 h-8 leading-8 text-center border border-indigo-100 rounded-full"
 		>
 			3
 		</a>
@@ -121,7 +121,7 @@
 	<li>
 		<a
 			href="/?page=4"
-			class="block w-8 h-8 leading-8 text-center border border-fuchsia-100 rounded-full"
+			class="block w-8 h-8 leading-8 text-center border border-indigo-100 rounded-full"
 		>
 			4
 		</a>
@@ -130,7 +130,7 @@
 	<li>
 		<a
 			href="/?page=3"
-			class="inline-flex items-center justify-center w-8 h-8 border border-fuchsia-100 rounded-full"
+			class="inline-flex items-center justify-center w-8 h-8 border border-indigo-100 rounded-full"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -151,7 +151,7 @@
 <div class="inline-flex items-center justify-center space-x-3">
 	<a
 		href="/?page=1"
-		class="inline-flex items-center justify-center w-8 h-8 border border-fuchsia-100 rounded"
+		class="inline-flex items-center justify-center w-8 h-8 border border-indigo-100 rounded"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -175,7 +175,7 @@
 
 	<a
 		href="/?page=3"
-		class="inline-flex items-center justify-center w-8 h-8 border border-fuchsia-100 rounded"
+		class="inline-flex items-center justify-center w-8 h-8 border border-indigo-100 rounded"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"

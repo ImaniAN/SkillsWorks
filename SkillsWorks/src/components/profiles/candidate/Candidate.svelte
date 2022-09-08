@@ -1,7 +1,7 @@
 <!-- This comp is for showing the candidate their profile information -->
 <div class="px-8 py-4 flex justify-center">
 	<div class="px-8 py-4 border bg-indigo-200">
-		<div class="lg:flex lg:items-center lg:justify-between ">
+		<div class="lg:flex lg:items-center lg:justify-between">
 			<div class="flex-1 min-w-0">
 				<h2
 					class="text-2xl font-bold leading-7 text-slate-900 sm:text-3xl sm:tracking-tight sm:truncate"
@@ -97,11 +97,11 @@
 			</div>
 			<!--END:()-->
 
-			<div class="mt-5 flex lg:mt-0 lg:ml-4">
+			<div class="mt-5 flex lg:mt-0 lg:ml-4 ">
 				<span class="hidden sm:block">
 					<button
 						type="button"
-						class="inline-flex items-center px-4 py-2 border-2 border-fuchsia-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+						class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 					>
 						<!-- Heroicon name: solid/pencil -->
 						<svg
@@ -122,7 +122,7 @@
 				<span class="hidden sm:block ml-3">
 					<button
 						type="button"
-						class="inline-flex items-center px-4 py-2 border-2 border-fuchsia-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+						class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 					>
 						<!-- Heroicon name: solid/link -->
 						<svg
@@ -169,7 +169,7 @@
 				<div class="ml-3 relative sm:hidden">
 					<button
 						type="button"
-						class="inline-flex items-center px-4 py-2 border-2 border-fuchsia-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+						class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 						id="mobile-menu-button"
 						aria-expanded="false"
 						aria-haspopup="true"
@@ -236,7 +236,7 @@
 
 		<br />
 
-		<div>
+		<div class="">
 			<div class="md:grid md:grid-cols-3 md:gap-6">
 				<div class="md:col-span-1">
 					<div class="px-4 sm:px-0">
@@ -277,7 +277,7 @@
 										</span>
 										<button
 											type="button"
-											class="ml-5 bg-white py-2 px-3 border-2 border-fuchsia-300 border-dashed rounded-md shadow-sm text-sm leading-4 font-medium text-slate-700 hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+											class="ml-5 bg-white py-2 px-3 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm leading-4 font-medium text-slate-700 hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 											>Change</button
 										>
 									</div>
@@ -291,7 +291,7 @@
 										Cover image
 									</label>
 									<div
-										class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-fuchsia-300 border-dashed rounded-md"
+										class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-red-300 border-dashed rounded-md"
 									>
 										<div class="space-y-1 text-center">
 											<svg
@@ -348,7 +348,7 @@
 											id="Describeyourself"
 											name="Describeyourself"
 											rows="2"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											placeholder="A place to include non-formal information"
 										/>
 									</div>
@@ -372,7 +372,7 @@
 											id="coverletter"
 											name="coverletter"
 											rows="9"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											placeholder="Motivate your Recruiter?"
 										/>
 									</div>
@@ -393,7 +393,7 @@
 									<select
 										id="country"
 										name="country"
-										class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+										class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 									>
 										<option value="" disabled selected hidden
 											>South African languages...</option
@@ -412,7 +412,7 @@
 							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 								<button
 									type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 									>Save</button
 								>
 							</div>
@@ -467,7 +467,7 @@
 											id="title"
 											name="title"
 											autocomplete="title"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											>
 											<option value="" disabled selected hidden>Click</option>
@@ -492,7 +492,7 @@
 											name="first-name"
 											id="first-name"
 											autocomplete="given-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -508,7 +508,7 @@
 											name="last-name"
 											id="last-name"
 											autocomplete="family-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -524,7 +524,7 @@
 											name="email-address"
 											id="email-address"
 											autocomplete="email"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -538,7 +538,7 @@
 										<select
 											id="country-code"
 											name="country-code"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											<option value="" disabled selected hidden>Click</option>
 											<option>+27</option>
@@ -555,7 +555,7 @@
 										</label>
 
 										<input
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											type="tel"
 											id="phone"
 											placeholder="+27 000 000 000"
@@ -574,7 +574,7 @@
 											name="street-address"
 											id="street-address"
 											autocomplete="street-address"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -590,7 +590,7 @@
 											name="city"
 											id="city"
 											autocomplete="address-level2"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -599,14 +599,14 @@
 										<label
 											for="region"
 											class="block text-sm font-medium text-slate-700"
-											>State / Province</label
+											>Province</label
 										>
 										<input
 											type="text"
 											name="region"
 											id="region"
 											autocomplete="address-level1"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -622,7 +622,7 @@
 											name="postal-code"
 											id="postal-code"
 											autocomplete="postal-code"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -637,7 +637,7 @@
 											type="text"
 											name="country-name"
 											id="country-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
 									<!--END:()-->
@@ -649,7 +649,7 @@
 							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 								<button
 									type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 									>Save</button
 								>
 							</div>
@@ -711,7 +711,7 @@
 													name="comments"
 													type="checkbox"
 													checked
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-fuchsia-300 rounded"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-red-300 rounded"
 												/>
 											</div>
 											<!--END:()-->
@@ -736,7 +736,7 @@
 													name="candidates"
 													type="checkbox"
 													checked
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-fuchsia-300 rounded"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-red-300 rounded"
 												/>
 											</div>
 											<!--END:()-->
@@ -762,7 +762,7 @@
 													name="offers"
 													type="checkbox"
 													checked
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-fuchsia-300 rounded"
+													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-red-300 rounded"
 												/>
 											</div>
 											<!--END:()-->
@@ -796,7 +796,7 @@
 												name="push-notifications"
 												type="radio"
 												checked
-												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-fuchsia-300 border-dashed"
+												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-red-300 border-dashed"
 											/>
 											<label
 												for="push-everything"
@@ -812,7 +812,7 @@
 												id="push-email"
 												name="push-notifications"
 												type="radio"
-												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-fuchsia-300 border-dashed"
+												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-red-300 border-dashed"
 											/>
 											<label
 												for="push-email"
@@ -828,7 +828,7 @@
 												id="push-nothing"
 												name="push-notifications"
 												type="radio"
-												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-fuchsia-300 border-dashed"
+												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-red-300 border-dashed"
 											/>
 											<label
 												for="push-nothing"
@@ -847,7 +847,7 @@
 							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 								<button
 									type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 									>Save</button
 								>
 							</div>

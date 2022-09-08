@@ -35,7 +35,7 @@
 					id="name"
 					required
 					name="name"
-					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 				/>
 			</div>
 			<!--END:()-->
@@ -48,7 +48,7 @@
 					id="phone"
 					placeholder="+27 000 000 000"
 					name="phone"
-					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 				/>
 			</div>
 			<!--END:()-->
@@ -62,7 +62,7 @@
 					placeholder="Your email (example@gmail.com)"
 					required
 					name="email"
-					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 				/>
 			</div>
 			<!--END:()-->
@@ -74,7 +74,7 @@
 				<textarea
 					id="message"
 					name="message"
-					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 				/>
 			</div>
 			<!--END:()-->
@@ -96,7 +96,7 @@
 							href="#"
 							rel="noopener noreferrer"
 							target="_blank"
-							class="text-violet-500 transition hover:text-violet-500/75"
+							class="text-indigo-500 transition hover:text-indigo-500/75"
 						>
 							<span class="sr-only">Facebook</span>
 							<svg
@@ -120,7 +120,7 @@
 							href="#"
 							rel="noopener noreferrer"
 							target="_blank"
-							class="text-violet-500 transition hover:text-violet-500/75"
+							class="text-indigo-500 transition hover:text-indigo-500/75"
 						>
 							<span class="sr-only">Instagram</span>
 							<svg
@@ -144,7 +144,7 @@
 							href="#"
 							rel="noopener noreferrer"
 							target="_blank"
-							class="text-violet-500 transition hover:text-violet-500/75"
+							class="text-indigo-500 transition hover:text-indigo-500/75"
 						>
 							<span class="sr-only">Twitter</span>
 							<svg
@@ -166,7 +166,7 @@
 							href="#"
 							rel="noopener noreferrer"
 							target="_blank"
-							class="text-violet-500 transition hover:text-violet-500/75"
+							class="text-indigo-500 transition hover:text-indigo-500/75"
 						>
 							<span class="sr-only">GitHub</span>
 							<svg
@@ -190,7 +190,7 @@
 							href="#"
 							rel="noopener noreferrer"
 							target="_blank"
-							class="text-violet-500 transition hover:text-violet-500/75"
+							class="text-indigo-500 transition hover:text-indigo-500/75"
 						>
 							<span class="sr-only">Dribbble</span>
 							<svg
@@ -213,7 +213,7 @@
 							href="#"
 							rel="noopener noreferrer"
 							target="_blank"
-							class="text-violet-500 transition hover:text-violet-500/75"
+							class="text-indigo-500 transition hover:text-indigo-500/75"
 						>
 							<span class="sr-only">Facebook</span>
 							<svg

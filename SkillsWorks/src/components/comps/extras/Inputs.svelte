@@ -1,7 +1,4 @@
-<label
-	class="relative block p-3 border-2 border-fuchsia-300 rounded-lg"
-	for="name"
->
+<label class="relative block p-3 border-2 border-red-300 rounded-lg" for="name">
 	<input
 		class="w-full px-0 pt-3.5 pb-0 text-sm placeholder-transparent border-none focus:ring-0 peer"
 		id="name"
@@ -25,7 +22,7 @@
 		Zip
 	</label>
 	<input
-		class="relative block rounded-lg  flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base  focus:ring-2 focus:ring-indigo-600 focus:"
+		class="relative block rounded-lg  flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base  focus:ring-2 focus:ring-indigo-600 focus:"
 		id="grid-zip"
 		type="text"
 		placeholder="xxxx"
@@ -34,7 +31,7 @@
 
 <div class="w-11/12 md:w-2/3 px-4 py-2 mb-5 md:mb-1">
 	<label
-		class="border-2 border-fuchsia-300 border-dashed relative block pt-4 mb-2 rounded-lg w-full bg-white shadow-sm peer tracking-wide text-rose-400 text-xs font-bold"
+		class="border-2 border-red-300 border-dashed relative block pt-4 mb-2 rounded-lg w-full bg-white shadow-sm peer tracking-wide text-rose-400 text-xs font-bold"
 		for="*name of input*"
 	>
 		<input
@@ -60,7 +57,7 @@
 		First Name
 	</label>
 	<input
-		class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+		class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 		id="grid-first-name"
 		type="text"
 		placeholder="Jane"

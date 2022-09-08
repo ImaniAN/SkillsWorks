@@ -1,5 +1,5 @@
 <div
-	class="relative p-8 text-center border-2 border-fuchsia-300 border-dashed rounded-lg"
+	class="relative p-8 text-center border-2 border-red-300 border-dashed rounded-lg"
 >
 	<h2 class="text-2xl font-medium">There's nothing here...</h2>
 
@@ -9,7 +9,7 @@
 
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
-		href=""
+		href="#"
 		class="flex items-center justify-between px-5 py-3 mt-8 text-blue-600 border border-blue-600 rounded-lg hover:bg-blue-600 group"
 	>
 		<span class="text-lg font-medium group-hover:text-white">

@@ -1,5 +1,5 @@
 <a
-	class="relative block border border-fuchsia-100"
+	class="relative block border border-indigo-100"
 	href="/product/build-your-own-drone"
 >
 	<button

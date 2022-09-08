@@ -103,7 +103,7 @@
 							</p>
 
 							<a
-								class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white bg-indigo-600 border border-fuchsia-600 rounded active:text-indigo-500 hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring"
+								class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white bg-indigo-600 border border-indigo-600 rounded active:text-indigo-500 hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring"
 								href="/contact"
 							>
 								Get in Touch
@@ -147,7 +147,7 @@
 				</svg>
 			</summary>
 
-			<form action="" class="border-t border-fuchsia-300 lg:border-t-0">
+			<form action="" class="border-t border-red-300 lg:border-t-0">
 				<!-- component -->
 				<div class="flex items-center">
 					<label for="voice-search" class="sr-only">Search</label>
@@ -174,7 +174,7 @@
 						<input
 							type="text"
 							id="voice-search"
-							class="bg-slate-50 border-2 border-fuchsia-300 border-dashed text-slate-900 text-sm focus:ring-indigo-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-slate-700 dark:border-fuchsia-600 dark:placeholder-slate-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-blue-500"
+							class="bg-slate-50 border-2 border-red-300 border-dashed text-slate-900 text-sm focus:ring-indigo-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-slate-700 dark:border-indigo-600 dark:placeholder-slate-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-blue-500"
 							placeholder="Search blog topics..."
 						/>
 						<button
@@ -234,7 +234,7 @@
 								id="toy"
 								type="checkbox"
 								name="type[toy]"
-								class="w-5 h-5 border-fuchsia-300 rounded"
+								class="w-5 h-5 border-red-300 rounded"
 							/>
 
 							<label for="toy" class="ml-3 text-sm font-medium"> Toy </label>
@@ -246,7 +246,7 @@
 								id="game"
 								type="checkbox"
 								name="type[game]"
-								class="w-5 h-5 border-fuchsia-300 rounded"
+								class="w-5 h-5 border-red-300 rounded"
 							/>
 
 							<label for="game" class="ml-3 text-sm font-medium"> Game </label>
@@ -258,7 +258,7 @@
 								id="outdoor"
 								type="checkbox"
 								name="type[outdoor]"
-								class="w-5 h-5 border-fuchsia-300 rounded"
+								class="w-5 h-5 border-red-300 rounded"
 							/>
 
 							<label for="outdoor" class="ml-3 text-sm font-medium">
@@ -291,7 +291,7 @@
 									id="3+"
 									type="checkbox"
 									name="age[3+]"
-									class="w-5 h-5 border-fuchsia-300 rounded"
+									class="w-5 h-5 border-red-300 rounded"
 								/>
 
 								<label for="3+" class="ml-3 text-sm font-medium"> 3+ </label>
@@ -303,7 +303,7 @@
 									id="8+"
 									type="checkbox"
 									name="age[8+]"
-									class="w-5 h-5 border-fuchsia-300 rounded"
+									class="w-5 h-5 border-red-300 rounded"
 								/>
 
 								<label for="8+" class="ml-3 text-sm font-medium"> 8+ </label>
@@ -315,7 +315,7 @@
 									id="12+"
 									type="checkbox"
 									name="age[12+]"
-									class="w-5 h-5 border-fuchsia-300 rounded"
+									class="w-5 h-5 border-red-300 rounded"
 								/>
 
 								<label for="12+" class="ml-3 text-sm font-medium"> 12+ </label>
@@ -327,7 +327,7 @@
 									id="16+"
 									type="checkbox"
 									name="age[16+]"
-									class="w-5 h-5 border-fuchsia-300 rounded"
+									class="w-5 h-5 border-red-300 rounded"
 								/>
 
 								<label for="16+" class="ml-3 text-sm font-medium"> 16+ </label>
@@ -346,7 +346,7 @@
 				</div>
 				<!--END:()-->
 
-				<div class="flex justify-between px-5 py-3 border-t border-fuchsia-300">
+				<div class="flex justify-between px-5 py-3 border-t border-red-300">
 					<button
 						name="reset"
 						type="button"

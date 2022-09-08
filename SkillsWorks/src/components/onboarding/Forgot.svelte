@@ -18,7 +18,7 @@
 					</label>
 					<div class="flex relative ">
 						<span
-							class="rounded-l-md inline-flex  items-center px-3 border-t bg-white border-l border-b  border-fuchsia-300 text-slate-500 shadow-sm text-sm"
+							class="rounded-l-md inline-flex  items-center px-3 border-t bg-white border-l border-b  border-red-300 text-slate-500 shadow-sm text-sm"
 						>
 							<svg
 								width="15"
@@ -38,7 +38,7 @@
 							placeholder="Your email (example@gmail.com)"
 							required
 							name="email"
-							class=" rounded-r-lg flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+							class=" rounded-r-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 						/>
 					</div>
 					<!--END:()-->

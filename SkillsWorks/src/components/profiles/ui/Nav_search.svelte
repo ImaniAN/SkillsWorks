@@ -60,7 +60,7 @@
 
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						href=""
+						href="#"
 						class="block p-2.5 text-slate-600 bg-white rounded-lg hover:text-slate-700 shrink-0 shadow-sm"
 					>
 						<svg
@@ -85,7 +85,7 @@
 
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						href=""
+						href="#"
 						class="block p-2.5 text-slate-600 bg-white rounded-lg hover:text-slate-700 shrink-0 shadow-sm"
 					>
 						<svg

@@ -10,7 +10,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						href=""
+						href="#"
 						class="block px-4 py-2 text-sm font-medium text-slate-700 bg-slate-100 rounded-lg"
 					>
 						Profile
@@ -20,7 +20,7 @@
 				<li>
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						href=""
+						href="#"
 						class="block px-4 py-2 text-sm font-medium text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						Team
@@ -30,7 +30,7 @@
 				<li>
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						href=""
+						href="#"
 						class="block px-4 py-2 text-sm font-medium text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						Projects
@@ -40,7 +40,7 @@
 				<li>
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						href=""
+						href="#"
 						class="block px-4 py-2 text-sm font-medium text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						Meetings
@@ -50,7 +50,7 @@
 				<li>
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						href=""
+						href="#"
 						class="block px-4 py-2 text-sm font-medium text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						Calendar
@@ -69,7 +69,7 @@
 				<li>
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						href=""
+						href="#"
 						class="block px-4 py-2 text-sm font-medium text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						Update
@@ -79,7 +79,7 @@
 				<li>
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						href=""
+						href="#"
 						class="block px-4 py-2 text-sm font-medium text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						Help
@@ -89,7 +89,7 @@
 				<li>
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						href=""
+						href="#"
 						class="block px-4 py-2 text-sm font-medium text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						Settings
@@ -108,7 +108,7 @@
 				<li>
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						href=""
+						href="#"
 						class="block px-4 py-2 text-sm font-medium text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						Details
@@ -118,7 +118,7 @@
 				<li>
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						href=""
+						href="#"
 						class="block px-4 py-2 text-sm font-medium text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
 					>
 						Subscription

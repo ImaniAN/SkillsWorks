@@ -1,13 +1,42 @@
 <div class="flex flex-col justify-between h-screen bg-white border-r">
 	<div class="px-4 py-6">
-		<span class="block w-32 h-10 bg-slate-200 rounded-lg" />
+		<div class="relative">
+			<label class="sr-only" for="search"> Search </label>
 
+			<input
+				class="rounded-lg border-transparent flex-1 appearance-none border-2 border-indigo-600 border-dashed bg-white text-indigo-600 placeholder-indigo-300 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent h-10 pl-4 w-4/5"
+				id="search"
+				type="search"
+				placeholder="Search Here BruV..."
+			/>
+
+			<button
+				class="border-2 border-dashed border-indigo-600 absolute p-2 text-indigo-600 transition -translate-y-1/2 rounded-md hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-slate-50 hover:bg-indigo-600 top-1/2 right-1"
+				type="button"
+				aria-label="Submit Search"
+			>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="w-4 h-4"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke="currentColor"
+					stroke-width="2"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+					/>
+				</svg>
+			</button>
+		</div>
+		<!--END:()-->
 		<nav class="flex flex-col mt-6 space-y-1">
-			<!-- svelte-ignore a11y-missing-attribute -->
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href="#"
-				class="flex items-center px-4 py-2 text-slate-700 bg-slate-100 rounded-lg"
+				class="hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-700 bg-indigo-100 rounded-lg"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +63,7 @@
 
 			<details class="group">
 				<summary
-					class="flex items-center px-4 py-2 text-slate-500 rounded-lg cursor-pointer hover:bg-slate-100 hover:text-slate-700"
+					class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg cursor-pointer hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +104,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href="#"
-						class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
+						class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -98,7 +127,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href="#"
-						class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
+						class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -123,7 +152,7 @@
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href="#"
-				class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
+				class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +175,7 @@
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href="#"
-				class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
+				class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -168,7 +197,7 @@
 
 			<details class="group">
 				<summary
-					class="flex items-center px-4 py-2 text-slate-500 rounded-lg cursor-pointer hover:bg-slate-100 hover:text-slate-700"
+					class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg cursor-pointer hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -209,7 +238,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href="#"
-						class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
+						class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -232,7 +261,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href="#"
-						class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
+						class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -255,7 +284,7 @@
 					<form action="/logout">
 						<button
 							type="submit"
-							class="flex items-center w-full px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
+							class="flex items-center w-full px-4 py-2 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
 						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"

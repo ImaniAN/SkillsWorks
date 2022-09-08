@@ -9,7 +9,7 @@
 
 					<button
 						aria-label="Close menu"
-						class="w-16 h-16 border-l border-fuchsia-300"
+						class="w-16 h-16 border-l border-red-300"
 						type="button"
 					>
 						<svg
@@ -30,14 +30,14 @@
 				</header>
 
 				<nav
-					class="flex flex-col text-sm font-medium text-slate-500 border-t border-b border-fuchsia-300 divide-y divide-slate-200"
+					class="flex flex-col text-sm font-medium text-slate-500 border-t border-b border-red-300 divide-y divide-slate-200"
 				>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a href="" class="px-6 py-3"> Home </a>
+					<a href="#" class="px-6 py-3"> Home </a>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a href="" class="px-6 py-3"> About </a>
+					<a href="#" class="px-6 py-3"> About </a>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a href="" class="flex items-center justify-between px-6 py-3">
+					<a href="#" class="flex items-center justify-between px-6 py-3">
 						Products
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@
 						</svg>
 					</a>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a href="" class="flex items-center justify-between px-6 py-3">
+					<a href="#" class="flex items-center justify-between px-6 py-3">
 						Collections
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -73,13 +73,13 @@
 						</svg>
 					</a>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a href="" class="px-6 py-3"> Services </a>
+					<a href="#" class="px-6 py-3"> Services </a>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a href="" class="px-6 py-3"> History </a>
+					<a href="#" class="px-6 py-3"> History </a>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a href="" class="px-6 py-3"> Contact </a>
+					<a href="#" class="px-6 py-3"> Contact </a>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a href="" class="flex items-center justify-between px-6 py-3">
+					<a href="#" class="flex items-center justify-between px-6 py-3">
 						Support
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +97,7 @@
 						</svg>
 					</a>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a href="" class="flex items-center px-6 py-3">
+					<a href="#" class="flex items-center px-6 py-3">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							class="w-5 h-5 mr-3"
@@ -115,7 +115,7 @@
 						Account
 					</a>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a href="" class="flex items-center px-6 py-3">
+					<a href="#" class="flex items-center px-6 py-3">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							class="w-5 h-5 mr-3"
@@ -133,11 +133,11 @@
 						Careers
 					</a>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a href="" class="px-6 py-3"> FAQs </a>
+					<a href="#" class="px-6 py-3"> FAQs </a>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a href="" class="px-6 py-3"> Privacy Policy </a>
+					<a href="#" class="px-6 py-3"> Privacy Policy </a>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a href="" class="px-6 py-3"> Terms Conditions </a>
+					<a href="#" class="px-6 py-3"> Terms Conditions </a>
 				</nav>
 			</div>
 			<!--END:()-->

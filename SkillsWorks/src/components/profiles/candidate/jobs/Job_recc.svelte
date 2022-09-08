@@ -19,7 +19,7 @@
 						<input
 							type="text"
 							id="&quot;form-subscribe-Filter"
-							class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-fuchsia-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+							class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 							placeholder="Name of Job"
 						/>
 					</div>
@@ -43,35 +43,33 @@
 						<tr>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-white  border-b border-fuchsia-300 text-slate-800  text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-white  border-b border-red-300 text-slate-800  text-left text-sm uppercase font-normal"
 								>Position
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-white  border-b border-fuchsia-300 text-slate-800  text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-white  border-b border-red-300 text-slate-800  text-left text-sm uppercase font-normal"
 								>Recruiter
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-white  border-b border-fuchsia-300 text-slate-800  text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-white  border-b border-red-300 text-slate-800  text-left text-sm uppercase font-normal"
 								>Date Applied
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-white  border-b border-fuchsia-300 text-slate-800  text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-white  border-b border-red-300 text-slate-800  text-left text-sm uppercase font-normal"
 								>status
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-white  border-b border-fuchsia-300 text-slate-800  text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-white  border-b border-red-300 text-slate-800  text-left text-sm uppercase font-normal"
 							/>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
@@ -92,19 +90,13 @@
 								</div>
 								<!--END:()-->
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<p class="text-slate-900 whitespace-no-wrap">Designer</p>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<p class="text-slate-900 whitespace-no-wrap">01/11/2072</p>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-yellow-900 leading-tight"
 								>
@@ -115,9 +107,7 @@
 									<span class="relative"> Applied ! </span>
 								</span>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview
@@ -125,9 +115,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
@@ -148,19 +136,13 @@
 								</div>
 								<!--END:()-->
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<p class="text-slate-900 whitespace-no-wrap">Admin</p>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<p class="text-slate-900 whitespace-no-wrap">12/09/2069</p>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight"
 								>
@@ -171,9 +153,7 @@
 									<span class="relative">Recomended !</span>
 								</span>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview
@@ -181,9 +161,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
@@ -206,19 +184,13 @@
 								</div>
 								<!--END:()-->
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<p class="text-slate-900 whitespace-no-wrap">CTO</p>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<p class="text-slate-900 whitespace-no-wrap">01/11/2069</p>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-yellow-900 leading-tight"
 								>
@@ -229,9 +201,7 @@
 									<span class="relative"> Applied ! </span>
 								</span>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview
@@ -239,9 +209,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
@@ -262,19 +230,13 @@
 								</div>
 								<!--END:()-->
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<p class="text-slate-900 whitespace-no-wrap">Developer</p>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<p class="text-slate-900 whitespace-no-wrap">02/10/2018</p>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight"
 								>
@@ -285,9 +247,7 @@
 									<span class="relative">Recomended !</span>
 								</span>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview
@@ -295,9 +255,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
@@ -320,19 +278,13 @@
 								</div>
 								<!--END:()-->
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<p class="text-slate-900 whitespace-no-wrap">CEO</p>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<p class="text-slate-900 whitespace-no-wrap">01/01/2063</p>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-red-900 leading-tight"
 								>
@@ -343,9 +295,7 @@
 									<span class="relative">Liked !</span>
 								</span>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview
@@ -353,9 +303,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
@@ -378,19 +326,13 @@
 								</div>
 								<!--END:()-->
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<p class="text-slate-900 whitespace-no-wrap">User</p>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<p class="text-slate-900 whitespace-no-wrap">23/09/2010</p>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight"
 								>
@@ -401,9 +343,7 @@
 									<span class="relative">Recomended !</span>
 								</span>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview
@@ -411,9 +351,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
@@ -434,19 +372,13 @@
 								</div>
 								<!--END:()-->
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<p class="text-slate-900 whitespace-no-wrap">COO</p>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<p class="text-slate-900 whitespace-no-wrap">01/10/2032</p>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-red-900 leading-tight"
 								>
@@ -457,9 +389,7 @@
 									<span class="relative">Liked !</span>
 								</span>
 							</td>
-							<td
-								class="px-5 py-5 border-b border-fuchsia-300 bg-white text-sm"
-							>
+							<td class="px-5 py-5 border-b border-red-300 bg-white text-sm">
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview

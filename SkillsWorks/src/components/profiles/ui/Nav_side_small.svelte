@@ -5,12 +5,12 @@
 		</div>
 		<!--END:()-->
 
-		<div class="border-t border-fuchsia-100">
+		<div class="border-t border-indigo-100">
 			<nav class="flex flex-col p-2">
 				<div class="py-4">
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						href=""
+						href="#"
 						class="flex justify-center px-2 py-1.5 t text-blue-700 rounded bg-blue-50 group relative"
 					>
 						<svg
@@ -42,11 +42,11 @@
 				</div>
 				<!--END:()-->
 
-				<ul class="pt-4 space-y-1 border-t border-fuchsia-100">
+				<ul class="pt-4 space-y-1 border-t border-indigo-100">
 					<li>
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
-							href=""
+							href="#"
 							class="flex justify-center px-2 py-1.5 text-slate-500 rounded hover:bg-slate-50 hover:text-slate-700 relative group"
 						>
 							<svg
@@ -75,7 +75,7 @@
 					<li>
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
-							href=""
+							href="#"
 							class="flex relative group justify-center px-2 py-1.5 text-slate-500 rounded hover:bg-slate-50 hover:text-slate-700"
 						>
 							<svg
@@ -104,7 +104,7 @@
 					<li>
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
-							href=""
+							href="#"
 							class="flex justify-center px-2 py-1.5 text-slate-500 rounded hover:bg-slate-50 hover:text-slate-700 relative group"
 						>
 							<svg
@@ -133,7 +133,7 @@
 					<li>
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
-							href=""
+							href="#"
 							class="relative group flex justify-center px-2 py-1.5 text-slate-500 rounded hover:bg-slate-50 hover:text-slate-700"
 						>
 							<svg
@@ -166,7 +166,7 @@
 	<!--END:()-->
 
 	<div
-		class="sticky inset-x-0 bottom-0 p-2 bg-white border-t border-fuchsia-100"
+		class="sticky inset-x-0 bottom-0 p-2 bg-white border-t border-indigo-100"
 	>
 		<form action="/logout">
 			<button

@@ -1,8 +1,8 @@
 <nav class="flex flex-col">
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
-		href=""
-		class="flex items-center border-l-[3px] border-blue-500 bg-blue-50 px-4 py-3 text-blue-700"
+		href="#"
+		class="flex items-center border-l-[3px] hover:border-lime-500 bg-blue-50 px-4 py-3 hover:text-blue-700"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -29,8 +29,8 @@
 
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
-		href=""
-		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-fuchsia-100 hover:bg-slate-50 hover:text-slate-700"
+		href="#"
+		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-indigo-100 hover:bg-slate-200 hover:text-slate-900"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -52,8 +52,8 @@
 
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
-		href=""
-		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-fuchsia-100 hover:bg-slate-50 hover:text-slate-700"
+		href="#"
+		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-indigo-100 hover:bg-slate-50 hover:text-slate-700"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -75,8 +75,8 @@
 
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
-		href=""
-		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-fuchsia-100 hover:bg-slate-50 hover:text-slate-700"
+		href="#"
+		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-indigo-100 hover:bg-slate-50 hover:text-slate-700"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -98,8 +98,8 @@
 
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
-		href=""
-		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-fuchsia-100 hover:bg-slate-50 hover:text-slate-700"
+		href="#"
+		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-indigo-100 hover:bg-slate-50 hover:text-slate-700"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
