@@ -4,6 +4,9 @@
 	import Accordion_menu from '../comps/extras/menus/Accordion_menu.svelte';
 	import Dets_app from '../profiles/candidate/jobs/Dets_app.svelte';
 	import Applied_jobs from '../profiles/candidate/jobs/Ex_jobs.svelte'; //Updated
+	import Int_questions from '../profiles/recruiter/jobs/Int_questions.svelte'; //Updated
+	import Post_job from '../profiles/recruiter/jobs/Post_job.svelte'; //Updated
+	import Applicant_profile from '../profiles/recruiter/jobs/Applicant_profile.svelte'; //Updated
 	import Attempts from '../endeavors/Attempts.svelte'; //Updated
 	import Blog from '../blog/Topics.svelte'; //Updated
 	import Branded_accent from '../comps/extras/menus/Branded_accent.svelte';
@@ -30,6 +33,7 @@
 	import Messages from '../profiles/ui/messages/Messages.svelte'; //Updated
 	import Nav_search from '../profiles/ui/Nav_search.svelte';
 	import Nav_side from '../profiles/ui/Nav_side.svelte';
+	import Job_preview from '../profiles/ui/Job_preview.svelte';
 	import Nav_side_small from '../profiles/ui/Nav_side_small.svelte';
 	import Navbar from '../comps/Navbar.svelte'; //Updated...
 	import Pagination from '../comps/extras/Pagination.svelte';
@@ -68,7 +72,11 @@
 		// { name: 'Full_side_nav', component: Full_side_nav },
 		// { name: 'Grouped_buttons', component: Grouped_buttons },
 		// { name: 'Inputs', component: Inputs },
-		{ name: 'Home', component: Intro },
+		// { name: 'Home', component: Intro },
+		{ name: 'Post_job', component: Post_job },
+		// { name: 'Int_questions', component: Int_questions },
+		{ name: 'Applicant_profile', component: Applicant_profile },
+		{ name: 'Job_preview', component: Job_preview },
 		// { name: 'Job Recommendations', component: Job_reccommendations },
 		// { name: 'Menu', component: Menu },
 		// { name: 'Messages', component: Messages },
@@ -333,7 +341,9 @@
 	<main>
 		<div class="max-w-7xl mx-auto p-2 ">
 			<!-- Replace with your content -->
-			<div class="relative min-h-screen flex rounded-lg border-4 border-dashed border-gray-200 ">
+			<div
+				class="relative min-h-screen flex rounded-lg border-4 border-dashed border-gray-200 "
+			>
 				<svelte:component this={selectedPage.component} />
 				<!--END:()-->
 			</div>

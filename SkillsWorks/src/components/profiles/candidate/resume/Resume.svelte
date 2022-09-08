@@ -813,7 +813,7 @@
 											type="text"
 											name="postal-code"
 											id="postal-code"
-											autocomplete="postal-code"
+											mplete="postal-codeautoco"
 											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
