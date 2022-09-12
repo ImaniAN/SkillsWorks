@@ -31,7 +31,7 @@
 						START
 					</h2>
 					<h1
-						class="text-5xl text-lime-500 pb-4 mb-4 border-b border-slate-800 leading-none"
+						class="text-5xl text-yellow-500 pb-4 mb-4 border-b border-slate-800 leading-none"
 					>
 						Free
 					</h1>
@@ -206,7 +206,7 @@
 						BUSINESS
 					</h2>
 					<h1
-						class="text-5xl text-lime-500 leading-none flex items-center pb-4 mb-4 border-b border-slate-800"
+						class="text-5xl text-yellow-500 leading-none flex items-center pb-4 mb-4 border-b border-slate-800"
 					>
 						<span>R1560</span>
 						<span class="text-lg ml-1 font-normal text-indigo-400">/mo</span>
@@ -326,7 +326,7 @@
 						SPECIAL
 					</h2>
 					<h1
-						class="text-5xl text-lime-500 leading-none flex items-center pb-4 mb-4 border-b border-slate-800"
+						class="text-5xl text-yellow-500 leading-none flex items-center pb-4 mb-4 border-b border-slate-800"
 					>
 						<span>R75321</span>
 						<span class="text-lg ml-1 font-normal text-indigo-400">/mo</span>

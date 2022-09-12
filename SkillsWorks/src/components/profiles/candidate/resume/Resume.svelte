@@ -2,7 +2,7 @@
 
 <!-- Comp Start -->
 <div class="px-8 py-4 flex justify-center">
-	<div class="px-8 py-4 border bg-indigo-400 bg-opacity-60">
+	<div class="px-8 py-4 border bg-indigo-200 bg-opacity-60">
 		<div class="lg:flex lg:items-center lg:justify-between">
 			<div class="flex-1 min-w-0">
 				<h2
@@ -16,7 +16,7 @@
 					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/briefcase -->
 						<svg
-							class="flex-shrink-0 mr-1.5 h-5 w-5 text-rose-500"
+							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
@@ -38,7 +38,7 @@
 					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/location-marker -->
 						<svg
-							class="flex-shrink-0 mr-1.5 h-5 w-5 text-rose-500"
+							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
@@ -57,7 +57,7 @@
 					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/currency-dollar -->
 						<svg
-							class="flex-shrink-0 mr-1.5 h-5 w-5 text-rose-500"
+							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
@@ -79,7 +79,7 @@
 					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/calendar -->
 						<svg
-							class="flex-shrink-0 mr-1.5 h-5 w-5 text-rose-500"
+							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
@@ -103,11 +103,11 @@
 				<span class="hidden sm:block">
 					<button
 						type="button"
-						class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-lime-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+						class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 					>
 						<!-- Heroicon name: solid/pencil -->
 						<svg
-							class="-ml-1 mr-2 h-5 w-5 text-rose-500"
+							class="-ml-1 mr-2 h-5 w-5 text-green-500"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
@@ -124,11 +124,11 @@
 				<span class="hidden sm:block ml-3">
 					<button
 						type="button"
-						class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-lime-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+						class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 					>
 						<!-- Heroicon name: solid/link -->
 						<svg
-							class="-ml-1 mr-2 h-5 w-5 text-rose-500"
+							class="-ml-1 mr-2 h-5 w-5 text-green-500"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
@@ -171,7 +171,7 @@
 				<div class="ml-3 relative sm:hidden">
 					<button
 						type="button"
-						class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-lime-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+						class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 						id="mobile-menu-button"
 						aria-expanded="false"
 						aria-haspopup="true"
@@ -239,6 +239,15 @@
 		<br />
 		<!--END:()-->
 
+		<!--START: Red line shandis-->
+		<div class="hidden sm:block" aria-hidden="true">
+			<div class="border-t border-red-300" />
+		</div>
+		<!--END: Red line shandis-->
+
+		<br />
+		<!--END:()-->
+
 		<!-- Resume Start -->
 		<div>
 			<div class="md:grid md:grid-cols-3 md:gap-6">
@@ -281,7 +290,7 @@
 										</span>
 										<button
 											type="button"
-											class="ml-5 bg-white py-2 px-3 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm leading-4 font-medium text-slate-700 hover:bg-lime-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+											class="ml-5 bg-white py-2 px-3 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm leading-4 font-medium text-slate-700 hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 											>Change</button
 										>
 									</div>
@@ -299,7 +308,7 @@
 									>
 										<div class="space-y-1 text-center">
 											<svg
-												class="mx-auto h-12 w-12 text-rose-500"
+												class="mx-auto h-12 w-12 text-green-500"
 												stroke="currentColor"
 												fill="none"
 												viewBox="0 0 48 48"
@@ -315,7 +324,7 @@
 											<div class="flex text-sm text-slate-900">
 												<label
 													for="file-upload"
-													class="relative cursor-pointer bg-white rounded-md font-medium text-rose-500 hover:text-rose-700 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+													class="relative cursor-pointer bg-white rounded-md font-medium text-green-500 hover:text-green-700 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
 												>
 													<span>Upload a file</span>
 													<input
@@ -415,7 +424,7 @@
 							</div>
 							<!--END:()-->
 
-							<div class="px-4 py-3 bg-lime-200 text-right sm:px-6">
+							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 								<button
 									type="submit"
 									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -604,7 +613,7 @@
 							</div>
 							<!--END:()-->
 
-							<div class="px-4 py-3 bg-lime-200 text-right sm:px-6">
+							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 								<button
 									type="submit"
 									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -813,7 +822,7 @@
 											type="text"
 											name="postal-code"
 											id="postal-code"
-											mplete="postal-codeautoco"
+											autocomplete="postal-code"
 											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										/>
 									</div>
@@ -838,7 +847,7 @@
 							</div>
 							<!--END:()-->
 
-							<div class="px-4 py-3 bg-lime-200 text-right sm:px-6">
+							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 								<button
 									type="submit"
 									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -1171,7 +1180,7 @@
 											>
 												<div class="space-y-1 text-center">
 													<svg
-														class="mx-auto h-12 w-12 text-rose-500 py "
+														class="mx-auto h-12 w-12 text-green-500 py "
 														stroke="currentColor"
 														fill="none"
 														viewBox="0 0 48 48"
@@ -1187,7 +1196,7 @@
 													<div class="flex text-sm text-slate-900">
 														<label
 															for="file-upload"
-															class="relative cursor-pointer bg-white rounded-md font-medium text-rose-500 hover:text-rose-700 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+															class="relative cursor-pointer bg-white rounded-md font-medium text-green-500 hover:text-green-700 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
 														>
 															<span>Upload a document</span>
 															<input
@@ -1226,7 +1235,7 @@
 							</div>
 							<!--END:()-->
 
-							<div class="px-4 py-3 bg-lime-200 text-right sm:px-6">
+							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 								<button
 									type="submit"
 									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -1738,7 +1747,7 @@
 								<!--END:()-->
 							</div>
 							<!--END:()-->
-							<div class="px-4 py-3 bg-lime-200 text-right sm:px-6">
+							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 								<button
 									type="submit"
 									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -1836,7 +1845,7 @@
 								<!--END:()-->
 							</div>
 							<!--END:()-->
-							<div class="px-4 py-3 bg-lime-200 text-right sm:px-6">
+							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 								<button
 									type="submit"
 									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -2041,7 +2050,7 @@
 							</div>
 							<!--END:()-->
 
-							<div class="px-4 py-3 bg-lime-200 text-right sm:px-6">
+							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 								<button
 									type="submit"
 									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"

@@ -1,447 +1,1229 @@
-<div class="relative min-h-screen flex ">
-	<div
-		class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto min-w-0 bg-white"
-	>
+<div class="px-8 py-4 justify-center">
+	<div class="relative min-h-screen flex ">
 		<div
-			class="sm:w-1/2 xl:w-3/5 h-full hidden md:flex flex-auto items-end justify-end p-10 pr-20 overflow-hidden bg-blue-900 text-white bg-no-repeat bg-cover relative"
-			style="background-image: url(https://images.unsplash.com/photo-1543599538-a6c4f6cc5c05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);"
+			class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded"
 		>
-			<div
-				class="absolute bg-gradient-to-b from-indigo-100 to-blue-600 opacity-75 inset-0 z-0"
-			/>
-			<div class="w-full z-10 mb-10">
-				<div
-					class="sm:text-4xl xl:text-5xl  text-slate-800 font-bold leading-tight mb-6"
-				>
-					Reference: Call to action
-				</div>
-				<!--END:()-->
-
-				<div class="sm:text-sm xl:text-md text-slate-900 font-normal">
-					What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing
-					and typesetting industry Lorem Ipsum has been the industry's standard
-					dummy text ever since the 1500s when an unknown printer took a galley
-					of type and scrambled it to make a type specimen book it has?
-				</div>
-				<!--END:()-->
-			</div>
-			<!--END:()-->
-
-			<!---remove custom style-->
-			<ul class="squares">
-				<li />
-				<li />
-				<li />
-				<li />
-				<li />
-				<li />
-				<li />
-				<li />
-				<li />
-				<li />
-			</ul>
-		</div>
-		<!--END:()-->
-
-		<div
-			class="md:flex md:items-center md:justify-cente sm:w-auto md:h-full w-4/5 xl:w-2/5 p-8  md:p-10 lg:p-14 sm:rounded-lg md:rounded-none bg-white"
-		>
-			<div class="max-w-md w-full space-y-8">
-				<div class="mb-10 text-center">
-					<h3 class="font-semibold text-2xl text-slate-800">Sign Up</h3>
-					<p class="text-slate-500">Please register your account.</p>
-				</div>
-				<!--END:()-->
-
-				<div class="flex">
-					<div class="w-full md:w-1/2 px-0.5 mb-6 md:mb-0">
-						<button
-							type="submit"
-							class="w-full flex items-center justify-center bg-red-500  hover:bg-red-400 text-slate-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
-						>
-							Google
-							<svg
-								class="w-4 ml-2"
-								fill="#fff"
-								viewBox="0 0 24 24"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<path
-									d="M11.99 13.9v-3.72h9.36c.14.63.25 1.22.25 2.05 0 5.71-3.83 9.77-9.6 9.77-5.52 0-10-4.48-10-10S6.48 2 12 2c2.7 0 4.96.99 6.69 2.61l-2.84 2.76c-.72-.68-1.98-1.48-3.85-1.48-3.31 0-6.01 2.75-6.01 6.12s2.7 6.12 6.01 6.12c3.83 0 5.24-2.65 5.5-4.22h-5.51v-.01Z"
-								/>
-							</svg>
-						</button>
+			<div class="rounded-t mb-0 px-4 py-3 border-0">
+				<div class="flex flex-wrap items-center">
+					<div class="relative w-full px-4 max-w-full flex-grow flex-1">
+						<h3 class="font-semibold text-base text-blueGray-700">
+							Page visits
+						</h3>
 					</div>
-					<!--END:()-->
-
-					<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-						<button
-							type="submit"
-							class="w-full flex items-center justify-center bg-blue-600  hover:bg-blue-500 text-slate-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
-						>
-							Facebook
-							<svg
-								class="w-4 ml-2"
-								viewBox="0 0 24 24"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<path
-									fill="#fff"
-									fill-rule="evenodd"
-									d="M9.945 22v-8.834H7V9.485h2.945V6.54c0-3.043 1.926-4.54 4.64-4.54 1.3 0 2.418.097 2.744.14v3.18h-1.883c-1.476 0-1.82.703-1.82 1.732v2.433h3.68l-.736 3.68h-2.944L13.685 22"
-								/>
-							</svg>
-						</button>
-					</div>
-					<!--END:()-->
-				</div>
-				<!--END:()-->
-
-				<div class="flex items-center justify-center space-x-2 my-5">
-					<span class="h-px w-16 bg-slate-200" />
-					<span class="text-slate-500 font-normal text-center"
-						>or continue with</span
+					<div
+						class="relative w-full px-4 max-w-full flex-grow flex-1 text-right"
 					>
-					<span class="h-px w-16 bg-slate-200" />
-				</div>
-				<!--END:()-->
-
-				<form class="w-full max-w-lg">
-					<div class="flex flex-wrap -mx-3 mb-4">
-						<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-								for="grid-first-name"
-							>
-								First Name
-							</label>
-							<input
-								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
-								id="grid-first-name"
-								type="text"
-								placeholder="Jane"
-							/>
-						</div>
-						<!--END:()-->
-
-						<div class="w-full md:w-1/2 px-3">
-							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-								for="grid-last-name"
-							>
-								Last Name
-							</label>
-							<input
-								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
-								id="grid-last-name"
-								type="text"
-								placeholder="Doe"
-							/>
-						</div>
-						<!--END:()-->
-					</div>
-					<!--END:()-->
-
-					<div class="flex flex-wrap -mx-3 mb-4">
-						<div class="w-full px-3">
-							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-								for="grid-email"
-							>
-								Email
-							</label>
-							<input
-								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
-								id="grid-email"
-								type="email"
-								placeholder="Your email (example@gmail.com)"
-								required
-								name="email"
-							/>
-						</div>
-						<!--END:()-->
-					</div>
-					<!--END:()-->
-
-					<div class="flex flex-wrap -mx-3 mb-4">
-						<div class="w-full px-3">
-							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-								for="grid-password"
-							>
-								Password
-							</label>
-							<input
-								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
-								id="grid-password"
-								type="password"
-								name="password"
-								required
-								placeholder="******************"
-							/>
-						</div>
-						<!--END:()-->
-					</div>
-					<!--END:()-->
-
-					<div class="flex flex-wrap -mx-3 mb-4">
-						<div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-								for="grid-city"
-							>
-								City
-							</label>
-							<input
-								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
-								id="grid-city"
-								type="text"
-								placeholder="Wakanda"
-							/>
-						</div>
-						<!--END:()-->
-
-						<div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-								for="grid-province"
-							>
-								Province
-							</label>
-							<div class="relative">
-								<select
-									class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
-									id="province"
-								>
-									<option value="" disabled selected hidden>Select...</option>
-									<option>+27</option>
-								</select>
-								<div
-									class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-slate-700"
-								>
-									<svg
-										class="fill-current h-4 w-4"
-										xmlns="http://www.w3.org/2000/svg"
-										viewBox="0 0 20 20"
-									>
-										<path
-											d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-										/>
-									</svg>
-								</div>
-								<!--END:()-->
-							</div>
-							<!--END:()-->
-						</div>
-						<!--END:()-->
-
-						<div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-								for="grid-zip"
-							>
-								Zip
-							</label>
-							<input
-								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
-								id="grid-zip"
-								type="text"
-								placeholder="xxxx"
-							/>
-						</div>
-						<!--END:()-->
-					</div>
-					<!--END:()-->
-
-					<div class="space-y-6 mt-6">
-						<div class="flex items-center justify-between">
-							<div class="flex items-center">
-								<input
-									id="remember_me"
-									checked
-									name="remember_me"
-									type="checkbox"
-									class="h-4 w-4 focus:ring-indigo-400 border-red-300 rounded"
-								/>
-								<label
-									for="remember_me"
-									class="ml-2 block text-sm text-slate-800"
-								>
-									Remember me
-								</label>
-							</div>
-							<!--END:()-->
-
-							<div class="text-sm text-right">
-								<!-- svelte-ignore a11y-invalid-attribute -->
-								<a href="#" class="text-blue-300 hover:text-blue-500 ">
-									Forgot your password?
-								</a>
-								<!-- TODORemeber to href to the Forgot your password Pages -->
-							</div>
-							<!--END:()-->
-						</div>
-						<!--END:()-->
-
-						<div>
-							<button
-								type="submit"
-								class="w-full flex justify-center bg-blue-300  hover:bg-blue-500 text-slate-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
-							>
-								Sign In
-							</button>
-						</div>
-						<!--END:()-->
-
-						<div class="flex items-center justify-center space-x-2 my-5">
-							<span class="h-px w-16 bg-slate-200" />
-							<span class="text-slate-500 font-normal text-center">OR</span>
-							<span class="h-px w-16 bg-slate-200" />
-						</div>
-						<!--END:()-->
-
-						<div>
-							<button
-								type="submit"
-								class="w-full flex justify-center bg-green-300  hover:bg-green-500 text-slate-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
-							>
-								Sign Up
-							</button>
-						</div>
-						<!--END:()-->
-					</div>
-					<!--END:()-->
-				</form>
-
-				<div class="pt-6 text-center text-slate-400 text-xs">
-					<span>
-						Copyright © 2069-2069
-						<a
-							href="https://github.com/Fathom-Growth-Solutions"
-							rel=""
-							target="_blank"
-							title="Fathom Growth Solutions"
-							class="text-blue-300 hover:text-blue-500 "
-							>Fathom Growth Solutions</a
+						<button
+							class="bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+							type="button"
 						>
-					</span>
+							See all
+						</button>
+					</div>
 				</div>
-				<!--END:()-->
 			</div>
-			<!--END:()-->
+			<div class="block w-full overflow-x-auto">
+				<!-- Projects table -->
+				<table class="items-center w-full bg-transparent border-collapse">
+					<thead>
+						<tr>
+							<th
+								class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+							>
+								Page name
+							</th>
+							<th
+								class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+							>
+								Visitors
+							</th>
+							<th
+								class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+							>
+								Unique users
+							</th>
+							<th
+								class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+							>
+								Bounce rate
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left"
+							>
+								/argon/
+							</th>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								4,569
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								340
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<i class="fas fa-arrow-up text-emerald-500 mr-4" />
+								46,53%
+							</td>
+						</tr>
+						<tr>
+							<th
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left"
+							>
+								/argon/index.html
+							</th>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								3,985
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								319
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<i class="fas fa-arrow-down text-orange-500 mr-4" />
+								46,53%
+							</td>
+						</tr>
+						<tr>
+							<th
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left"
+							>
+								/argon/charts.html
+							</th>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								3,513
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								294
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<i class="fas fa-arrow-down text-orange-500 mr-4" />
+								36,49%
+							</td>
+						</tr>
+						<tr>
+							<th
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left"
+							>
+								/argon/tables.html
+							</th>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								2,050
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								147
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<i class="fas fa-arrow-up text-emerald-500 mr-4" />
+								50,87%
+							</td>
+						</tr>
+						<tr>
+							<th
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left"
+							>
+								/argon/profile.html
+							</th>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								1,795
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								190
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<i class="fas fa-arrow-down text-red-500 mr-4" />
+								46,53%
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 		</div>
-		<!--END:()-->
+	</div>
+	<!--END:()-->
+
+	<div class="relative min-h-screen flex ">
+		<div
+			class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded"
+		>
+			<div class="rounded-t mb-0 px-4 py-3 border-0">
+				<div class="flex flex-wrap items-center">
+					<div class="relative w-full px-4 max-w-full flex-grow flex-1">
+						<h3 class="font-semibold text-base text-blueGray-700">
+							Social traffic
+						</h3>
+					</div>
+					<div
+						class="relative w-full px-4 max-w-full flex-grow flex-1 text-right"
+					>
+						<button
+							class="bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+							type="button"
+						>
+							See all
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="block w-full overflow-x-auto">
+				<!-- Projects table -->
+				<table class="items-center w-full bg-transparent border-collapse">
+					<thead class="thead-light">
+						<tr>
+							<th
+								class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+							>
+								Referral
+							</th>
+							<th
+								class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left"
+							>
+								Visitors
+							</th>
+							<th
+								class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left min-w-140-px"
+							/>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left"
+							>
+								Facebook
+							</th>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								1,480
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<div class="flex items-center">
+									<span class="mr-2">60%</span>
+									<div class="relative w-full">
+										<div
+											class="overflow-hidden h-2 text-xs flex rounded bg-red-200"
+										>
+											<div
+												style="width: 60%;"
+												class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"
+											/>
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<th
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left"
+							>
+								Facebook
+							</th>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								5,480
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<div class="flex items-center">
+									<span class="mr-2">70%</span>
+									<div class="relative w-full">
+										<div
+											class="overflow-hidden h-2 text-xs flex rounded bg-emerald-200"
+										>
+											<div
+												style="width: 70%;"
+												class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
+											/>
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<th
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left"
+							>
+								Google
+							</th>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								4,807
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<div class="flex items-center">
+									<span class="mr-2">80%</span>
+									<div class="relative w-full">
+										<div
+											class="overflow-hidden h-2 text-xs flex rounded bg-purple-200"
+										>
+											<div
+												style="width: 80%;"
+												class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-500"
+											/>
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<th
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left"
+							>
+								Instagram
+							</th>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								3,678
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<div class="flex items-center">
+									<span class="mr-2">75%</span>
+									<div class="relative w-full">
+										<div
+											class="overflow-hidden h-2 text-xs flex rounded bg-lightBlue-200"
+										>
+											<div
+												style="width: 75%;"
+												class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-lightBlue-500"
+											/>
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<th
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left"
+							>
+								twitter
+							</th>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								2,645
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<div class="flex items-center">
+									<span class="mr-2">30%</span>
+									<div class="relative w-full">
+										<div
+											class="overflow-hidden h-2 text-xs flex rounded bg-orange-200"
+										>
+											<div
+												style="width: 30%;"
+												class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-orange-500"
+											/>
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<!--END:()-->
+
+	<div class="relative min-h-screen flex ">
+		<div
+			class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg mt-16"
+		>
+			<div class="px-6">
+				<div class="flex flex-wrap justify-center">
+					<div class="w-full px-4 flex justify-center">
+						<div class="relative">
+							<img
+								alt="..."
+								src="..."
+								class="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
+							/>
+						</div>
+					</div>
+					<div class="w-full px-4 text-center mt-20">
+						<div class="flex justify-center py-4 lg:pt-4 pt-8">
+							<div class="mr-4 p-3 text-center">
+								<span
+									class="text-xl font-bold block uppercase tracking-wide text-blueGray-600"
+								>
+									22
+								</span>
+								<span class="text-sm text-blueGray-400">Friends</span>
+							</div>
+							<div class="mr-4 p-3 text-center">
+								<span
+									class="text-xl font-bold block uppercase tracking-wide text-blueGray-600"
+								>
+									10
+								</span>
+								<span class="text-sm text-blueGray-400">Photos</span>
+							</div>
+							<div class="lg:mr-4 p-3 text-center">
+								<span
+									class="text-xl font-bold block uppercase tracking-wide text-blueGray-600"
+								>
+									89
+								</span>
+								<span class="text-sm text-blueGray-400">Comments</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-center mt-12">
+					<h3
+						class="text-xl font-semibold leading-normal text-blueGray-700 mb-2"
+					>
+						Jenna Stones
+					</h3>
+					<div
+						class="text-sm leading-normal mt-0 mb-2 text-blueGray-400 font-bold uppercase"
+					>
+						<i class="fas fa-map-marker-alt mr-2 text-lg text-blueGray-400" />
+						Los Angeles, California
+					</div>
+					<div class="mb-2 text-blueGray-600 mt-10">
+						<i class="fas fa-briefcase mr-2 text-lg text-blueGray-400" />
+						Solution Manager - Creative Tim Officer
+					</div>
+					<div class="mb-2 text-blueGray-600">
+						<i class="fas fa-university mr-2 text-lg text-blueGray-400" />
+						University of Computer Science
+					</div>
+				</div>
+				<div class="mt-10 py-10 border-t border-blueGray-200 text-center">
+					<div class="flex flex-wrap justify-center">
+						<div class="w-full lg:w-9/12 px-4">
+							<p class="mb-4 text-lg leading-relaxed text-blueGray-700">
+								An artist of considerable range, Jenna the name taken by
+								Melbourne-raised, Brooklyn-based Nick Murphy writes, performs
+								and records all of his own music, giving it a warm, intimate
+								feel with a solid groove structure. An artist of considerable
+								range.
+							</p>
+							<a
+								href="#pablo"
+								on:click={(e) => e.preventDefault()}
+								class="font-normal text-red-500"
+							>
+								Show more
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--END:()-->
+	<div class="relative min-h-screen flex ">
+		<div
+			class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-100 border-0"
+		>
+			<div class="rounded-t bg-white mb-0 px-6 py-6">
+				<div class="text-center flex justify-between">
+					<h6 class="text-blueGray-700 text-xl font-bold">My account</h6>
+					<button
+						class="bg-red-400 text-white active:bg-red-500 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
+						type="button"
+					>
+						Settings
+					</button>
+				</div>
+			</div>
+			<div class="flex-auto px-4 lg:px-10 py-10 pt-0">
+				<form>
+					<h6 class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">
+						User Information
+					</h6>
+					<div class="flex flex-wrap">
+						<div class="w-full lg:w-6/12 px-4">
+							<div class="relative w-full mb-3">
+								<label
+									class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+									for="grid-username"
+								>
+									Username
+								</label>
+								<input
+									id="grid-username"
+									type="text"
+									class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+									value="lucky.jesse"
+								/>
+							</div>
+						</div>
+						<div class="w-full lg:w-6/12 px-4">
+							<div class="relative w-full mb-3">
+								<label
+									class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+									for="grid-email"
+								>
+									Email address
+								</label>
+								<input
+									id="grid-email"
+									type="email"
+									class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+									value="jesse@example.com"
+								/>
+							</div>
+						</div>
+						<div class="w-full lg:w-6/12 px-4">
+							<div class="relative w-full mb-3">
+								<label
+									class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+									for="grid-first-name"
+								>
+									First Name
+								</label>
+								<input
+									id="grid-first-name"
+									type="text"
+									class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+									value="Lucky"
+								/>
+							</div>
+						</div>
+						<div class="w-full lg:w-6/12 px-4">
+							<div class="relative w-full mb-3">
+								<label
+									class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+									for="grid-last-name"
+								>
+									Last Name
+								</label>
+								<input
+									id="grid-last-name"
+									type="text"
+									class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+									value="Jesse"
+								/>
+							</div>
+						</div>
+					</div>
+
+					<hr class="mt-6 border-b-1 border-blueGray-300" />
+
+					<h6 class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">
+						Contact Information
+					</h6>
+					<div class="flex flex-wrap">
+						<div class="w-full lg:w-12/12 px-4">
+							<div class="relative w-full mb-3">
+								<label
+									class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+									for="grid-address"
+								>
+									Address
+								</label>
+								<input
+									id="grid-address"
+									type="text"
+									class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+									value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
+								/>
+							</div>
+						</div>
+						<div class="w-full lg:w-4/12 px-4">
+							<div class="relative w-full mb-3">
+								<label
+									class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+									for="grid-city"
+								>
+									City
+								</label>
+								<input
+									id="grid-city"
+									type="email"
+									class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+									value="New York"
+								/>
+							</div>
+						</div>
+						<div class="w-full lg:w-4/12 px-4">
+							<div class="relative w-full mb-3">
+								<label
+									class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+									for="grid-country"
+								>
+									Country
+								</label>
+								<input
+									id="grid-country"
+									type="text"
+									class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+									value="United States"
+								/>
+							</div>
+						</div>
+						<div class="w-full lg:w-4/12 px-4">
+							<div class="relative w-full mb-3">
+								<label
+									class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+									for="grid-postal-code"
+								>
+									Postal Code
+								</label>
+								<input
+									id="grid-postal-code"
+									type="text"
+									class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+									value="Postal Code"
+								/>
+							</div>
+						</div>
+					</div>
+
+					<hr class="mt-6 border-b-1 border-blueGray-300" />
+
+					<h6 class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">
+						About Me
+					</h6>
+					<div class="flex flex-wrap">
+						<div class="w-full lg:w-12/12 px-4">
+							<div class="relative w-full mb-3">
+								<label
+									class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+									for="grid-about-me"
+								>
+									About me
+								</label>
+								<textarea
+									id="grid-about-me"
+									type="text"
+									class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+									rows="4"
+									value="A beautiful UI Kit and Admin for Svelte & Tailwind CSS. It is Free
+                and Open Source."
+								/>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!--END:()-->
+	<div class="relative min-h-screen flex ">
+		<script>
+			// core components
+			import TableDropdown from 'components/Dropdowns/TableDropdown.svelte';
+
+			const bootstrap = '../assets/img/bootstrap.jpg';
+			const angular = '../assets/img/angular.jpg';
+			const sketch = '../assets/img/sketch.jpg';
+			const react = '../assets/img/react.jpg';
+			const vue = '../assets/img/react.jpg';
+
+			const team1 = '../assets/img/team-1-800x800.jpg';
+			const team2 = '../assets/img/team-2-800x800.jpg';
+			const team3 = '../assets/img/team-3-800x800.jpg';
+			const team4 = '../assets/img/team-4-470x470.png';
+
+			// can be one of light or dark
+			export let color = 'light';
+		</script>
+
+		<div
+			class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded "
+		>
+			<div class="rounded-t mb-0 px-4 py-3 border-0">
+				<div class="flex flex-wrap items-center">
+					<div class="relative w-full px-4 max-w-full flex-grow flex-1">
+						<h3 class="font-semibold text-lg">Card Tables</h3>
+					</div>
+				</div>
+			</div>
+			<div class="block w-full overflow-x-auto">
+				<!-- Projects table -->
+				<table class="items-center w-full bg-transparent border-collapse">
+					<thead>
+						<tr>
+							<th
+								class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left "
+							>
+								Project
+							</th>
+							<th
+								class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left "
+							>
+								Budget
+							</th>
+							<th
+								class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left "
+							>
+								Status
+							</th>
+							<th
+								class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left "
+							>
+								Users
+							</th>
+							<th
+								class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left "
+							>
+								Completion
+							</th>
+							<th
+								class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left "
+							/>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center"
+							>
+								<img
+									src="..."
+									class="h-12 w-12 bg-white rounded-full border"
+									alt="..."
+								/>
+								<span class="ml-3 font-bold "> Argon Design System </span>
+							</th>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								$2,500 USD
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<i class="fas fa-circle text-orange-500 mr-2" /> pending
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<div class="flex">
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
+									/>
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+									/>
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+									/>
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+									/>
+								</div>
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<div class="flex items-center">
+									<span class="mr-2">60%</span>
+									<div class="relative w-full">
+										<div
+											class="overflow-hidden h-2 text-xs flex rounded bg-red-200"
+										>
+											<div
+												style="width: 60%;"
+												class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"
+											/>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right"
+							>
+								<!-- <TableDropdown /> -->
+							</td>
+						</tr>
+						<tr>
+							<th
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center"
+							>
+								<img
+									src="..."
+									class="h-12 w-12 bg-white rounded-full border"
+									alt="..."
+								/>
+								<span class="ml-3 font-bold "> Angular Now UI Kit PRO </span>
+							</th>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								$1,800 USD
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<i class="fas fa-circle text-emerald-500 mr-2" />
+								completed
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<div class="flex">
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
+									/>
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+									/>
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+									/>
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+									/>
+								</div>
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<div class="flex items-center">
+									<span class="mr-2">100%</span>
+									<div class="relative w-full">
+										<div
+											class="overflow-hidden h-2 text-xs flex rounded bg-emerald-200"
+										>
+											<div
+												style="width: 100%;"
+												class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
+											/>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right"
+							>
+								<!-- <TableDropdown /> -->
+							</td>
+						</tr>
+						<tr>
+							<th
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center"
+							>
+								<img
+									src="..."
+									class="h-12 w-12 bg-white rounded-full border"
+									alt="..."
+								/>
+								<span class="ml-3 font-bold "> Black Dashboard Sketch </span>
+							</th>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								$3,150 USD
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<i class="fas fa-circle text-red-500 mr-2" /> delayed
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<div class="flex">
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
+									/>
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+									/>
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+									/>
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+									/>
+								</div>
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<div class="flex items-center">
+									<span class="mr-2">73%</span>
+									<div class="relative w-full">
+										<div
+											class="overflow-hidden h-2 text-xs flex rounded bg-red-200"
+										>
+											<div
+												style="width: 73%;"
+												class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"
+											/>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right"
+							>
+								<!-- <TableDropdown /> -->
+							</td>
+						</tr>
+						<tr>
+							<th
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center"
+							>
+								<img
+									src="..."
+									class="h-12 w-12 bg-white rounded-full border"
+									alt="..."
+								/>
+								<span class="ml-3 font-bold "> React Material Dashboard </span>
+							</th>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								$4,400 USD
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<i class="fas fa-circle text-teal-500 mr-2" /> on schedule
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<div class="flex">
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
+									/>
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+									/>
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+									/>
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+									/>
+								</div>
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<div class="flex items-center">
+									<span class="mr-2">90%</span>
+									<div class="relative w-full">
+										<div
+											class="overflow-hidden h-2 text-xs flex rounded bg-teal-200"
+										>
+											<div
+												style="width: 90%;"
+												class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-teal-500"
+											/>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right"
+							>
+								<!-- <TableDropdown /> -->
+							</td>
+						</tr>
+						<tr>
+							<th
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center"
+							>
+								<img
+									src="..."
+									class="h-12 w-12 bg-white rounded-full border"
+									alt="..."
+								/>
+								<span class="ml-3 font-bold "> React Material Dashboard </span>
+							</th>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								$2,200 USD
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<i class="fas fa-circle text-emerald-500 mr-2" />
+								completed
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<div class="flex">
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow"
+									/>
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+									/>
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+									/>
+									<img
+										src="..."
+										alt="..."
+										class="w-10 h-10 rounded-full border-2 border-blueGray-50 shadow -ml-4"
+									/>
+								</div>
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
+							>
+								<div class="flex items-center">
+									<span class="mr-2">100%</span>
+									<div class="relative w-full">
+										<div
+											class="overflow-hidden h-2 text-xs flex rounded bg-emerald-200"
+										>
+											<div
+												style="width: 100%;"
+												class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-emerald-500"
+											/>
+										</div>
+									</div>
+								</div>
+							</td>
+							<td
+								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-right"
+							>
+								<!-- <TableDropdown /> -->
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<!--END:()-->
+	<div class="relative min-h-screen flex ">CONTENT00</div>
+	<!--END:()-->
+
+	<div class="relative min-h-screen flex ">
+		<div>
+			<!-- <AuthNavbar /> -->
+			<main class="profile-page">
+				<section class="relative block h-500-px">
+					<div
+						class="absolute top-0 w-full h-full bg-center bg-cover"
+						style="
+          background-image: url(https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80);
+        "
+					>
+						<span
+							id="blackOverlay"
+							class="w-full h-full absolute opacity-50 bg-black"
+						/>
+					</div>
+					<div
+						class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
+						style="transform: translateZ(0);"
+					>
+						<svg
+							class="absolute bottom-0 overflow-hidden"
+							xmlns="http://www.w3.org/2000/svg"
+							preserveAspectRatio="none"
+							version="1.1"
+							viewBox="0 0 2560 100"
+							x="0"
+							y="0"
+						>
+							<polygon
+								class="text-blueGray-200 fill-current"
+								points="2560 0 2560 100 0 100"
+							/>
+						</svg>
+					</div>
+				</section>
+				<section class="relative py-16 bg-blueGray-200">
+					<div class="container mx-auto px-4">
+						<div
+							class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64"
+						>
+							<div class="px-6">
+								<div class="flex flex-wrap justify-center">
+									<div
+										class="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center"
+									>
+										<div class="relative">
+											<img
+												alt="..."
+												src="..."
+												class="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
+											/>
+										</div>
+									</div>
+									<div
+										class="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center"
+									>
+										<div class="py-6 px-3 mt-32 sm:mt-0">
+											<button
+												class="bg-red-400 active:bg-red-500 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
+												type="button"
+											>
+												Connect
+											</button>
+										</div>
+									</div>
+									<div class="w-full lg:w-4/12 px-4 lg:order-1">
+										<div class="flex justify-center py-4 lg:pt-4 pt-8">
+											<div class="mr-4 p-3 text-center">
+												<span
+													class="text-xl font-bold block uppercase tracking-wide text-blueGray-600"
+												>
+													22
+												</span>
+												<span class="text-sm text-blueGray-400">Friends</span>
+											</div>
+											<div class="mr-4 p-3 text-center">
+												<span
+													class="text-xl font-bold block uppercase tracking-wide text-blueGray-600"
+												>
+													10
+												</span>
+												<span class="text-sm text-blueGray-400">Photos</span>
+											</div>
+											<div class="lg:mr-4 p-3 text-center">
+												<span
+													class="text-xl font-bold block uppercase tracking-wide text-blueGray-600"
+												>
+													89
+												</span>
+												<span class="text-sm text-blueGray-400">Comments</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="text-center mt-12">
+									<h3
+										class="text-4xl font-semibold leading-normal text-blueGray-700 mb-2"
+									>
+										Jenna Stones
+									</h3>
+									<div
+										class="text-sm leading-normal mt-0 mb-2 text-blueGray-400 font-bold uppercase"
+									>
+										<i
+											class="fas fa-map-marker-alt mr-2 text-lg text-blueGray-400"
+										/>
+										Los Angeles, California
+									</div>
+									<div class="mb-2 text-blueGray-600 mt-10">
+										<i
+											class="fas fa-briefcase mr-2 text-lg text-blueGray-400"
+										/>
+										Solution Manager - Creative Tim Officer
+									</div>
+									<div class="mb-2 text-blueGray-600">
+										<i
+											class="fas fa-university mr-2 text-lg text-blueGray-400"
+										/>
+										University of Computer Science
+									</div>
+								</div>
+								<div
+									class="mt-10 py-10 border-t border-blueGray-200 text-center"
+								>
+									<div class="flex flex-wrap justify-center">
+										<div class="w-full lg:w-9/12 px-4">
+											<p class="mb-4 text-lg leading-relaxed text-blueGray-700">
+												An artist of considerable range, Jenna the name taken by
+												Melbourne-raised, Brooklyn-based Nick Murphy writes,
+												performs and records all of his own music, giving it a
+												warm, intimate feel with a solid groove structure. An
+												artist of considerable range.
+											</p>
+											<a
+												href="#pablo"
+												on:click={(e) => e.preventDefault()}
+												class="font-normal text-red-500"
+											>
+												Show more
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<!-- <Footer /> -->
+		</div>
 	</div>
 	<!--END:()-->
 </div>
-<!--END:()-->
-
-<!-- component -->
-<style>
-	/*remove custom style*/
-	.squares {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		overflow: hidden;
-	}
-	.squares li {
-		position: absolute;
-		display: block;
-		list-style: none;
-		width: 20px;
-		height: 20px;
-		background: orangered;
-		animation: animate 25s linear infinite;
-		bottom: -150px;
-	}
-	.squares li:nth-child(1) {
-		left: 25%;
-		width: 80px;
-		height: 80px;
-		animation-delay: 0s;
-	}
-
-	.squares li:nth-child(2) {
-		left: 10%;
-		width: 20px;
-		height: 20px;
-		animation-delay: 2s;
-		animation-duration: 12s;
-	}
-
-	.squares li:nth-child(3) {
-		left: 70%;
-		width: 20px;
-		height: 20px;
-		animation-delay: 4s;
-	}
-
-	.squares li:nth-child(4) {
-		left: 40%;
-		width: 60px;
-		height: 60px;
-		animation-delay: 0s;
-		animation-duration: 18s;
-	}
-
-	.squares li:nth-child(5) {
-		left: 65%;
-		width: 20px;
-		height: 20px;
-		animation-delay: 0s;
-	}
-
-	.squares li:nth-child(6) {
-		left: 75%;
-		width: 110px;
-		height: 110px;
-		animation-delay: 3s;
-	}
-
-	.squares li:nth-child(7) {
-		left: 35%;
-		width: 150px;
-		height: 150px;
-		animation-delay: 7s;
-	}
-
-	.squares li:nth-child(8) {
-		left: 50%;
-		width: 25px;
-		height: 25px;
-		animation-delay: 15s;
-		animation-duration: 45s;
-	}
-
-	.squares li:nth-child(9) {
-		left: 20%;
-		width: 15px;
-		height: 15px;
-		animation-delay: 2s;
-		animation-duration: 35s;
-	}
-
-	.squares li:nth-child(10) {
-		left: 85%;
-		width: 150px;
-		height: 150px;
-		animation-delay: 0s;
-		animation-duration: 11s;
-	}
-	@keyframes animate {
-		0% {
-			transform: translateY(0) rotate(0deg);
-			opacity: 1;
-			border-radius: 0;
-		}
-
-		100% {
-			transform: translateY(-1000px) rotate(720deg);
-			opacity: 0;
-			border-radius: 50%;
-		}
-	}
-</style>

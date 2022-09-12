@@ -254,7 +254,8 @@
 						EMAIL
 					</h2>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<a href="#" class="text-lime-500 leading-relaxed">example@email.com</a
+					<a href="#" class="text-yellow-500 leading-relaxed"
+						>example@email.com</a
 					>
 					<h2
 						class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4"

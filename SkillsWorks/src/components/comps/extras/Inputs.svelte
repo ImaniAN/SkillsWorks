@@ -31,7 +31,7 @@
 
 <div class="w-11/12 md:w-2/3 px-4 py-2 mb-5 md:mb-1">
 	<label
-		class="border-2 border-red-300 border-dashed relative block pt-4 mb-2 rounded-lg w-full bg-white shadow-sm peer tracking-wide text-rose-400 text-xs font-bold"
+		class="border-2 border-red-300 border-dashed relative block pt-4 mb-2 rounded-lg w-full bg-white shadow-sm peer tracking-wide text-green-400 text-xs font-bold"
 		for="*name of input*"
 	>
 		<input

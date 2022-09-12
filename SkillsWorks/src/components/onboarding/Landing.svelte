@@ -1,18 +1,22 @@
 <script>
-	import About_us from '../about_us/about_us.svelte'; //Updated
+	// @ts-ignore
+	import About_us from '../about_us/About_us.svelte'; //Updated
 	// import Athing from '../';
 	import Accordion_menu from '../comps/extras/menus/Accordion_menu.svelte';
+	// import Ad_man from '../profiles/admin/analytics/Adman.svelte'; //Creates aFailed to fetch dynamically imported module:TYPEERROR(NO solutions avaliable)
 	import Dets_app from '../profiles/candidate/jobs/Dets_app.svelte';
 	import Applied_jobs from '../profiles/candidate/jobs/Ex_jobs.svelte'; //Updated
 	import Int_questions from '../profiles/recruiter/jobs/Int_questions.svelte'; //Updated
 	import Post_job from '../profiles/recruiter/jobs/Post_job.svelte'; //Updated
+	import Ex_posts from '../profiles/recruiter/jobs/Ex_posts.svelte'; //Updated
 	import Applicant_profile from '../profiles/recruiter/jobs/Applicant_profile.svelte'; //Updated
 	import Attempts from '../endeavors/Attempts.svelte'; //Updated
 	import Blog from '../blog/Topics.svelte'; //Updated
 	import Branded_accent from '../comps/extras/menus/Branded_accent.svelte';
 	import Candi_info from '../profiles/candidate/Candidate.svelte';
+	import Contact_validation from '../profiles/admin/analytics/Contact_validation.svelte';
 	import Category_filters from '../comps/extras/Category_filters.svelte';
-	import Contact_us from '../about_us/Contact_us.svelte'; //Updated
+	// import Contact_us from '../about_us/Contact_us.svelte'; //Updated
 	import Dash_nav from '../profiles/ui/Dash_nav.svelte'; //Updated //Please add things properly for goodness sake
 	import Pricing_plan from '../profiles/ui/Pricing_plan.svelte'; //Updated //Please add things properly for goodness sake
 	import Sub_plans from '../profiles/ui/Sub_plans.svelte'; //Updated //Please add things properly for goodness sake
@@ -20,7 +24,7 @@
 	import Dash_nav_final from '../profiles/ui/Dash_nav_final.svelte';
 	import Dropdown from '../comps/extras/Dropdown.svelte';
 	import Empty_state from '../comps/extras/Empty_state.svelte';
-	import Faq from '../about_us/Faq.svelte'; //Updated
+	// import Faq from '../about_us/Faq.svelte'; //Updated
 	import Footer from '../comps/Footer.svelte'; //Updated...
 	import Forgot from './Forgot.svelte'; //Updated
 	import Full_side_nav from '../comps/extras/Full_side_nav.svelte';
@@ -30,6 +34,7 @@
 	import Jobs_search from '../profiles/ui/Jobs_search.svelte'; //Updated
 	import Job_reccommendations from '../profiles/candidate/jobs/Job_recc.svelte';
 	import Menu from '../profiles/ui/F_Menu.svelte';
+	import Man_report from '../profiles/admin/analytics/Man_report.svelte';
 	import Messages from '../profiles/ui/messages/Messages.svelte'; //Updated
 	import Nav_search from '../profiles/ui/Nav_search.svelte';
 	import Nav_side from '../profiles/ui/Nav_side.svelte';
@@ -42,24 +47,29 @@
 	import Resume_form from '../profiles/candidate/resume/Resume.svelte'; //Updated
 	import Reviews from '../about_us/Reviews.svelte';
 	import Sign_in_form from './Sign_in_form.svelte'; //Updated
+	import Signn from '../profiles/ui/Sign_register.svelte';
 	import Sign_up_form from '../onboarding/Sign_up_form.svelte'; //Updated
+	import Sub_man from '../profiles/admin/analytics/Sub_man.svelte';
 	import Accordion_Menu from '../comps/extras/menus/Accordion_menu.svelte';
 	// import something from ''./Intro.svelte';
 	import Split_with_headings from '../comps/extras/menus/Split_with_headings.svelte';
 	import Sub_plan_card from '../comps/extras/Sub_plan_card.svelte';
 	import Tab_pills from '../comps/extras/Tab_pills.svelte';
-	import Testimonial from '../about_us/Testimonial.svelte';
+	// import Testimonial from '../about_us/Testimonial.svelte';
 
 	const webpages = [
 		// { name: 'UI_Name', component: Import_name },
+		// { name: 'Ad_man', component: Ad_man },
 		// { name: 'About Us', component: About_us },
 		// { name: 'Accordion_menu', component: Accordion_menu },
 		// { name: 'Applied Jobs', component: Applied_jobs },
 		// { name: 'Attempts', component: Attempts },
 		// { name: 'Blog', component: Blog },
 		// { name: 'Branded_accent', component: Branded_accent },
-		// { name: 'Candidate information', component: Candi_info },
+		// { name: 'Candidate info', component: Candi_info },
+		// { name: 'Ex_posts', component: Ex_posts },
 		// { name: 'Category_filters', component: Category_filters },
+		// { name: 'Contact_validation', component: Contact_validation },
 		// { name: 'Contact Us', component: Contact_us },
 		// { name: 'Dash_nav with banner kinda main', component: Dash_nav },
 		// { name: 'Dash_nav_final', component: Dash_nav_final },
@@ -73,11 +83,12 @@
 		// { name: 'Grouped_buttons', component: Grouped_buttons },
 		// { name: 'Inputs', component: Inputs },
 		// { name: 'Home', component: Intro },
-		{ name: 'Post_job', component: Post_job },
+		// { name: 'Post_job', component: Post_job },
 		// { name: 'Int_questions', component: Int_questions },
-		{ name: 'Applicant_profile', component: Applicant_profile },
-		{ name: 'Job_preview', component: Job_preview },
-		// { name: 'Job Recommendations', component: Job_reccommendations },
+		// { name: 'Applicant_profile', component: Applicant_profile },
+		// { name: 'Job_preview', component: Job_preview },
+		// { name: 'Job Recs', component: Job_reccommendations },
+		// { name: 'Man_report', component: Man_report },
 		// { name: 'Menu', component: Menu },
 		// { name: 'Messages', component: Messages },
 		// { name: 'Nav with Search idk', component: Nav_search },
@@ -89,11 +100,13 @@
 		// { name: 'Reviews', component: Reviews },
 		// { name: 'Accordion_Menu', component: Accordion_Menu },
 		// { name: 'Split_with_headings', component: Split_with_headings },
-		// { name: 'Resume Explorer', component: Resume_form },
+		// { name: 'Resume', component: Resume_form },
 		// { name: 'Sign In', component: Sign_in_form },
 		// { name: 'Sign Up', component: Sign_up_form },
+		// { name: 'Sub_man', component: Sub_man },
 		// { name: 'Jobs search', component: Jobs_search },
 		// { name: 'Sub_plans', component: Sub_plans },
+		{ name: 'Sign', component: Signn },
 		// { name: 'Pricing_plan', component: Pricing_plan },
 		// { name: 'Sub_plan_card', component: Sub_plan_card },
 		// { name: 'Tab_pills', component: Tab_pills },
@@ -128,11 +141,11 @@
 						<div class="ml-10 flex items-baseline space-x-4">
 							<!-- Current: "bg-slate-900 text-white", Default: "text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600  focus:text-indigo-900 focus:bg-indigo-50   hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50" -->
 							<!-- svelte-ignore a11y-invalid-attribute -->
-							<a
+							<!-- <a
 								href="#"
 								class="bg-slate-900 text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600  focus:text-indigo-900 focus:bg-indigo-50   hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 								aria-current="page">Dashboard</a
-							>
+							> -->
 							{#each webpages as webpageObj}
 								<button
 									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600  focus:text-indigo-900 focus:bg-indigo-50   hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"

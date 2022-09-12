@@ -279,7 +279,7 @@
 					class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto bg-slate-50"
 				>
 					<div
-						class="w-11/12 h-full sm:hidden md:flex flex-auto items-end justify-end overflow-hidden bg-lime-200 text-white bg-no-repeat bg-cover relative"
+						class="w-11/12 h-full sm:hidden md:flex flex-auto items-end justify-end overflow-hidden bg-yellow-200 text-white bg-no-repeat bg-cover relative"
 					>
 						<div
 							class="absolute bg-gradient-to-b from-white to-indigo-900 opacity-25 inset-0 z-0"
@@ -351,7 +351,7 @@
 		left: 3%;
 		width: 99px;
 		height: 99px;
-		animation-delay: 3,14s;
+		animation-delay: 3, 14s;
 		animation-duration: 30s;
 	}
 
@@ -359,7 +359,7 @@
 		left: 26%;
 		width: 114px;
 		height: 114px;
-		animation-delay: 3,14s;
+		animation-delay: 3, 14s;
 		animation-duration: 10s;
 	}
 
@@ -367,7 +367,7 @@
 		left: 39%;
 		width: 133px;
 		height: 133px;
-		animation-delay: 3,14s;
+		animation-delay: 3, 14s;
 		animation-duration: 20s;
 	}
 
@@ -375,7 +375,7 @@
 		left: 48%;
 		width: 88px;
 		height: 88px;
-		animation-delay: 3,14s;
+		animation-delay: 3, 14s;
 		animation-duration: 11s;
 	}
 
@@ -383,7 +383,7 @@
 		left: 55%;
 		width: 55px;
 		height: 55px;
-		animation-delay: 3,14s;
+		animation-delay: 3, 14s;
 		animation-duration: 32s;
 	}
 
@@ -391,7 +391,7 @@
 		left: 69%;
 		width: 99px;
 		height: 99px;
-		animation-delay: 3,14s;
+		animation-delay: 3, 14s;
 		animation-duration: 33s;
 	}
 
@@ -399,7 +399,7 @@
 		left: 62%;
 		width: 88px;
 		height: 88px;
-		animation-delay: 3,14s;
+		animation-delay: 3, 14s;
 		animation-duration: 34s;
 	}
 
@@ -407,7 +407,7 @@
 		left: 19%;
 		width: 69px;
 		height: 69px;
-		animation-delay: 3,14s;
+		animation-delay: 3, 14s;
 		animation-duration: 21s;
 	}
 
@@ -415,7 +415,7 @@
 		left: 2%;
 		width: 82px;
 		height: 82px;
-		animation-delay: 3,14s;
+		animation-delay: 3, 14s;
 		animation-duration: 22s;
 	}
 
@@ -423,7 +423,7 @@
 		left: 5%;
 		width: 50px;
 		height: 50px;
-		animation-delay: 3,14s;
+		animation-delay: 3, 14s;
 		animation-duration: 23s;
 	}
 
@@ -431,7 +431,7 @@
 		left: 39%;
 		width: 314px;
 		height: 314px;
-		animation-delay: 3,14s;
+		animation-delay: 3, 14s;
 		animation-duration: 24s;
 	}
 
@@ -439,7 +439,7 @@
 		left: 42%;
 		width: 20px;
 		height: 20px;
-		animation-delay: 3,14s;
+		animation-delay: 3, 14s;
 		animation-duration: 12s;
 	}
 
@@ -447,14 +447,14 @@
 		left: 33%;
 		width: 153px;
 		height: 153px;
-		animation-delay: 3,14s;
+		animation-delay: 3, 14s;
 		animation-duration: 13s;
 	}
 	.squares li:nth-child(14) {
 		left: 12%;
 		width: 222px;
 		height: 222px;
-		animation-delay: 3,14s;
+		animation-delay: 3, 14s;
 		animation-duration: 14s;
 	}
 
@@ -462,14 +462,14 @@
 		left: 55%;
 		width: 55px;
 		height: 55px;
-		animation-delay: 3,14s;
+		animation-delay: 3, 14s;
 		animation-duration: 15s;
 	}
 	.squares li:nth-child(16) {
 		left: 44%;
 		width: 33px;
 		height: 33px;
-		animation-delay: 3,14s;
+		animation-delay: 3, 14s;
 		animation-duration: 25s;
 	}
 
@@ -477,14 +477,14 @@
 		left: 77%;
 		width: 77px;
 		height: 77px;
-		animation-delay: 3,14s;
+		animation-delay: 3, 14s;
 		animation-duration: 26s;
 	}
 	.squares li:nth-child(18) {
 		left: 88%;
 		width: 217px;
 		height: 217px;
-		animation-delay: 3,14s;
+		animation-delay: 3, 14s;
 		animation-duration: 17s;
 	}
 
@@ -492,7 +492,7 @@
 		left: 90%;
 		width: 238px;
 		height: 238px;
-		animation-delay: 3,14s;
+		animation-delay: 3, 14s;
 		animation-duration: 27s;
 	}
 	@keyframes animate {

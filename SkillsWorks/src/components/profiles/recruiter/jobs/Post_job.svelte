@@ -2,7 +2,7 @@
 
 <!-- Comp Start -->
 <div class="px-8 py-4 flex justify-center">
-	<div class="px-8 py-4 border bg-indigo-400 bg-opacity-60">
+	<div class="px-8 py-4 border bg-indigo-200 bg-opacity-60">
 		<div class="lg:flex lg:items-center lg:justify-between">
 			<div class="flex-1 min-w-0">
 				<h2
@@ -16,7 +16,7 @@
 					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/briefcase -->
 						<svg
-							class="flex-shrink-0 mr-1.5 h-5 w-5 text-rose-500"
+							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
@@ -38,7 +38,7 @@
 					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/location-marker -->
 						<svg
-							class="flex-shrink-0 mr-1.5 h-5 w-5 text-rose-500"
+							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
@@ -57,7 +57,7 @@
 					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/currency-dollar -->
 						<svg
-							class="flex-shrink-0 mr-1.5 h-5 w-5 text-rose-500"
+							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
@@ -79,7 +79,7 @@
 					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/calendar -->
 						<svg
-							class="flex-shrink-0 mr-1.5 h-5 w-5 text-rose-500"
+							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
@@ -103,11 +103,11 @@
 				<span class="hidden sm:block">
 					<button
 						type="button"
-						class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-lime-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+						class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 					>
 						<!-- Heroicon name: solid/pencil -->
 						<svg
-							class="-ml-1 mr-2 h-5 w-5 text-rose-500"
+							class="-ml-1 mr-2 h-5 w-5 text-green-500"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
@@ -124,11 +124,11 @@
 				<span class="hidden sm:block ml-3">
 					<button
 						type="button"
-						class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-lime-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+						class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 					>
 						<!-- Heroicon name: solid/link -->
 						<svg
-							class="-ml-1 mr-2 h-5 w-5 text-rose-500"
+							class="-ml-1 mr-2 h-5 w-5 text-green-500"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
 							fill="currentColor"
@@ -171,7 +171,7 @@
 				<div class="ml-3 relative sm:hidden">
 					<button
 						type="button"
-						class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-lime-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+						class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-white hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 						id="mobile-menu-button"
 						aria-expanded="false"
 						aria-haspopup="true"
@@ -577,7 +577,7 @@
 											<textarea
 												id="cover-letter"
 												name="cover-letter"
-												rows="12"
+												rows="17"
 												class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 												placeholder="Mention roles, duties, tools and equipment that you used."
 											/>
@@ -1053,7 +1053,7 @@
 							</div>
 							<!--END:()-->
 						</div>
-						<div class="px-4 py-3 bg-lime-200 text-right sm:px-6">
+						<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 							<button
 								type="submit"
 								class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -1153,7 +1153,7 @@
 								<!--END:()-->
 							</div>
 							<!--END:()-->
-							<div class="px-4 py-3 bg-lime-200 text-right sm:px-6">
+							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 								<button
 									type="submit"
 									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
@@ -1358,7 +1358,7 @@
 							</div>
 							<!--END:()-->
 
-							<div class="px-4 py-3 bg-lime-200 text-right sm:px-6">
+							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 								<button
 									type="submit"
 									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"

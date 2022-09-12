@@ -1,6 +1,8 @@
 <!-- This comp is for showing the candidate their profile information -->
+
+<!-- Comp Start -->
 <div class="px-8 py-4 flex justify-center">
-	<div class="px-8 py-4 border bg-indigo-200">
+	<div class="px-8 py-4 border bg-indigo-200 bg-opacity-60">
 		<div class="lg:flex lg:items-center lg:justify-between">
 			<div class="flex-1 min-w-0">
 				<h2
@@ -11,7 +13,7 @@
 				<div
 					class="mt-1 flex flex-col sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-6"
 				>
-					<div class="mt-2 flex items-center text-sm text-slate-500">
+					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/briefcase -->
 						<svg
 							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
@@ -33,7 +35,7 @@
 					</div>
 					<!--END:()-->
 
-					<div class="mt-2 flex items-center text-sm text-slate-500">
+					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/location-marker -->
 						<svg
 							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
@@ -52,7 +54,7 @@
 					</div>
 					<!--END:()-->
 
-					<div class="mt-2 flex items-center text-sm text-slate-500">
+					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/currency-dollar -->
 						<svg
 							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
@@ -74,7 +76,7 @@
 					</div>
 					<!--END:()-->
 
-					<div class="mt-2 flex items-center text-sm text-slate-500">
+					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/calendar -->
 						<svg
 							class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
@@ -97,7 +99,7 @@
 			</div>
 			<!--END:()-->
 
-			<div class="mt-5 flex lg:mt-0 lg:ml-4 ">
+			<div class="mt-5 flex lg:mt-0 lg:ml-4">
 				<span class="hidden sm:block">
 					<button
 						type="button"
@@ -233,6 +235,15 @@
 			<!--END:()-->
 		</div>
 		<!--END:()-->
+
+		<br />
+		<!--END:()-->
+
+		<!--START: Red line shandis-->
+		<div class="hidden sm:block" aria-hidden="true">
+			<div class="border-t border-red-300" />
+		</div>
+		<!--END: Red line shandis-->
 
 		<br />
 

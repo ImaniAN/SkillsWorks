@@ -2,7 +2,7 @@
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href="#"
-		class="flex items-center border-l-[3px] hover:border-lime-500 bg-blue-50 px-4 py-3 hover:text-blue-700"
+		class="flex items-center border-l-[3px] hover:border-yellow-500 bg-blue-50 px-4 py-3 hover:text-blue-700"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
