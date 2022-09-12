@@ -104,7 +104,7 @@
 								</p>
 
 								<a
-									class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white bg-indigo-600 border border-indigo-600 rounded active:text-indigo-500 hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring"
+									class="inline-block px-12 py-3 mt-8 text-sm font-medium text-indigo-50 bg-indigo-600 border border-indigo-600 rounded active:text-indigo-500 hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring"
 									href="/contact"
 								>
 									Get in Touch
@@ -175,7 +175,7 @@
 							<input
 								type="text"
 								id="voice-search"
-								class="bg-slate-50 border-2 border-red-300 border-dashed text-slate-900 text-sm focus:ring-indigo-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-slate-700 dark:border-indigo-600 dark:placeholder-slate-400 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-blue-500"
+								class="bg-slate-50 border-2 border-red-300 border-dashed text-slate-900 text-sm focus:ring-indigo-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-slate-700 dark:border-indigo-600 dark:placeholder-slate-400 dark:text-indigo-50 dark:focus:ring-indigo-500 dark:focus:border-blue-500"
 								placeholder="Search blog topics..."
 							/>
 							<button
@@ -184,7 +184,7 @@
 							>
 								<svg
 									aria-hidden="true"
-									class="w-4 h-4 text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white"
+									class="w-4 h-4 text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-indigo-50"
 									fill="currentColor"
 									viewBox="0 0 20 20"
 									xmlns="http://www.w3.org/2000/svg"
@@ -201,7 +201,7 @@
 
 						<button
 							type="submit"
-							class="inline-flex items-center py-2.5 px-3 ml-2 text-sm font-medium text-white bg-blue-700 border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-indigo-800"
+							class="inline-flex items-center py-2.5 px-3 ml-2 text-sm font-medium text-indigo-50 bg-blue-700 border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-indigo-800"
 						>
 							<svg
 								aria-hidden="true"
@@ -368,7 +368,7 @@
 						<button
 							name="commit"
 							type="button"
-							class="px-5 py-3 text-xs font-medium text-white bg-green-600 rounded"
+							class="px-5 py-3 text-xs font-medium text-indigo-50 bg-green-600 rounded"
 						>
 							Apply Filters
 						</button>

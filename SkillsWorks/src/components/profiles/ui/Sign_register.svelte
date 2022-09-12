@@ -4,40 +4,46 @@
 			<div class="flex content-center items-center justify-center h-full">
 				<div class="w-full px-4">
 					<div
-						class="relative flex flex-col break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200 border-0"
+						class="relative flex flex-col break-words w-full mb-6 shadow-lg rounded-lg bg-blue-200 border-0"
 					>
 						<div class="rounded-t mb-0 px-6 py-6">
 							<div class="text-center mb-3">
-								<h6 class="text-blueGray-500 text-sm font-bold">
-									Sign in with
-								</h6>
+								<h6 class="text-slate-500 text-sm font-bold">Sign in with</h6>
 							</div>
 							<div class="btn-wrapper text-center">
 								<button
-									class="bg-white active:bg-blueGray-50 text-blueGray-700 px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
+									class="bg-indigo-50 active:bg-blue-50 text-slate-700 px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
 									type="button"
 								>
-									<img alt="..." class="w-5 mr-1" src="..." />
+									<img
+										alt="..."
+										class="w-5 mr-1"
+										src="https://dummyimage.com/305x305"
+									/>
 									Github
 								</button>
 								<button
-									class="bg-white active:bg-blueGray-50 text-blueGray-700 px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
+									class="bg-indigo-50 active:bg-blue-50 text-slate-700 px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
 									type="button"
 								>
-									<img alt="..." class="w-5 mr-1" src="..." />
+									<img
+										alt="..."
+										class="w-5 mr-1"
+										src="https://dummyimage.com/305x305"
+									/>
 									Google
 								</button>
 							</div>
-							<hr class="mt-6 border-b-1 border-blueGray-300" />
+							<hr class="mt-6 border-b-1 border-blue-300" />
 						</div>
 						<div class="flex-auto px-4 lg:px-10 py-10 pt-0">
-							<div class="text-blueGray-400 text-center mb-3 font-bold">
+							<div class="text-slate-400 text-center mb-3 font-bold">
 								<small>Or sign in with credentials</small>
 							</div>
 							<form>
 								<div class="relative w-full mb-3">
 									<label
-										class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+										class="block uppercase text-slate-600 text-xs font-bold mb-2"
 										for="grid-email"
 									>
 										Email
@@ -45,14 +51,14 @@
 									<input
 										id="grid-email"
 										type="email"
-										class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+										class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
 										placeholder="Email"
 									/>
 								</div>
 
 								<div class="relative w-full mb-3">
 									<label
-										class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+										class="block uppercase text-slate-600 text-xs font-bold mb-2"
 										for="grid-password"
 									>
 										Password
@@ -60,7 +66,7 @@
 									<input
 										id="grid-password"
 										type="password"
-										class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+										class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
 										placeholder="Password"
 									/>
 								</div>
@@ -69,9 +75,9 @@
 										<input
 											id="customCheckLogin"
 											type="checkbox"
-											class="form-checkbox border-0 rounded text-blueGray-700 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+											class="form-checkbox border-0 rounded text-slate-700 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
-										<span class="ml-2 text-sm font-semibold text-blueGray-600">
+										<span class="ml-2 text-sm font-semibold text-slate-600">
 											Remember me
 										</span>
 									</label>
@@ -79,7 +85,7 @@
 
 								<div class="text-center mt-6">
 									<button
-										class="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
+										class="bg-blue-800 text-indigo-50 active:bg-blue-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
 										type="button"
 									>
 										Sign In
@@ -91,14 +97,14 @@
 					<div class="flex flex-wrap mt-6 relative">
 						<div class="w-1/2">
 							<!-- svelte-ignore a11y-invalid-attribute -->
-							<a href="#" class="text-blueGray-200">
+							<a href="#" class="text-slate-200">
 								<small>Forgot password?</small>
 							</a>
 						</div>
 						<div class="w-1/2 text-right">
 							<!-- svelte-ignore a11y-invalid-attribute -->
-							<a href="#" class="text-blueGray-200">
-								<!-- <a use:link href="/auth/register" class="text-blueGray-200"> -->
+							<a href="#" class="text-slate-200">
+								<!-- <a use:link href="/auth/register" class="text-slate-200"> -->
 								<small>Create new account</small>
 							</a>
 						</div>
@@ -112,40 +118,46 @@
 			<div class="flex content-center items-center justify-center h-full">
 				<div class="w-full px-4">
 					<div
-						class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200 border-0"
+						class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blue-200 border-0"
 					>
 						<div class="rounded-t mb-0 px-6 py-6">
 							<div class="text-center mb-3">
-								<h6 class="text-blueGray-500 text-sm font-bold">
-									Sign up with
-								</h6>
+								<h6 class="text-slate-500 text-sm font-bold">Sign up with</h6>
 							</div>
 							<div class="btn-wrapper text-center">
 								<button
-									class="bg-white active:bg-blueGray-50 text-blueGray-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center text-xs ease-linear transition-all duration-150"
+									class="bg-indigo-50 active:bg-blue-50 text-slate-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center text-xs ease-linear transition-all duration-150"
 									type="button"
 								>
-									<img alt="..." class="w-5 mr-1" src="..." />
+									<img
+										alt="..."
+										class="w-5 mr-1"
+										src="https://dummyimage.com/305x305"
+									/>
 									Github
 								</button>
 								<button
-									class="bg-white active:bg-blueGray-50 text-blueGray-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center text-xs ease-linear transition-all duration-150"
+									class="bg-indigo-50 active:bg-blue-50 text-slate-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center text-xs ease-linear transition-all duration-150"
 									type="button"
 								>
-									<img alt="..." class="w-5 mr-1" src="..." />
+									<img
+										alt="..."
+										class="w-5 mr-1"
+										src="https://dummyimage.com/305x305"
+									/>
 									Google
 								</button>
 							</div>
-							<hr class="mt-6 border-b-1 border-blueGray-300" />
+							<hr class="mt-6 border-b-1 border-blue-300" />
 						</div>
 						<div class="flex-auto px-4 lg:px-10 py-10 pt-0">
-							<div class="text-blueGray-400 text-center mb-3 font-bold">
+							<div class="text-slate-400 text-center mb-3 font-bold">
 								<small>Or sign up with credentials</small>
 							</div>
 							<form>
 								<div class="relative w-full mb-3">
 									<label
-										class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+										class="block uppercase text-slate-600 text-xs font-bold mb-2"
 										for="grid-name"
 									>
 										Name
@@ -153,14 +165,14 @@
 									<input
 										id="grid-name"
 										type="email"
-										class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+										class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
 										placeholder="Name"
 									/>
 								</div>
 
 								<div class="relative w-full mb-3">
 									<label
-										class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+										class="block uppercase text-slate-600 text-xs font-bold mb-2"
 										for="grid-email"
 									>
 										Email
@@ -168,14 +180,14 @@
 									<input
 										id="grid-email"
 										type="email"
-										class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+										class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
 										placeholder="Email"
 									/>
 								</div>
 
 								<div class="relative w-full mb-3">
 									<label
-										class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+										class="block uppercase text-slate-600 text-xs font-bold mb-2"
 										for="grid-password"
 									>
 										Password
@@ -183,7 +195,7 @@
 									<input
 										id="grid-password"
 										type="password"
-										class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+										class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
 										placeholder="Password"
 									/>
 								</div>
@@ -193,9 +205,9 @@
 										<input
 											id="customCheckLogin"
 											type="checkbox"
-											class="form-checkbox border-0 rounded text-blueGray-700 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+											class="form-checkbox border-0 rounded text-slate-700 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
-										<span class="ml-2 text-sm font-semibold text-blueGray-600">
+										<span class="ml-2 text-sm font-semibold text-slate-600">
 											I agree with the
 											<a
 												href="#pablo"
@@ -210,7 +222,7 @@
 
 								<div class="text-center mt-6">
 									<button
-										class="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
+										class="bg-blue-800 text-indigo-50 active:bg-blue-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
 										type="button"
 									>
 										Create Account

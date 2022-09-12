@@ -1,58 +1,58 @@
 <!--
-  This example requires Tailwind CSS v2.0+
+ This example requires Tailwind CSS v2.0+
 
-  This example requires some changes to your config:
+ This example requires some changes to your config:
 
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
+ ```
+ // tailwind.config.js
+ module.exports = {
+  // ...
+  plugins: [
+ // ...
+ require('@tailwindcss/forms'),
+  ],
+ }
+ ```
 -->
-<div class="bg-white">
+<div class="bg-indigo-50">
 	<div>
 		<!--
-      Mobile filter dialog
+ Mobile filter dialog
 
-      Off-canvas filters for mobile, show/hide based on off-canvas filters state.
-    -->
+ Off-canvas filters for mobile, show/hide based on off-canvas filters state.
+  -->
 		<div class="relative z-40 lg:hidden" role="dialog" aria-modal="true">
 			<!--
-        Off-canvas menu backdrop, show/hide based on off-canvas menu state.
+  Off-canvas menu backdrop, show/hide based on off-canvas menu state.
 
-        Entering: "transition-opacity ease-linear duration-300"
-          From: "opacity-0"
-          To: "opacity-100"
-        Leaving: "transition-opacity ease-linear duration-300"
-          From: "opacity-100"
-          To: "opacity-0"
-      -->
+  Entering: "transition-opacity ease-linear duration-300"
+   From: "opacity-0"
+   To: "opacity-100"
+  Leaving: "transition-opacity ease-linear duration-300"
+   From: "opacity-100"
+   To: "opacity-0"
+ -->
 			<div class="fixed inset-0 bg-black bg-opacity-25" />
 
 			<div class="fixed inset-0 flex z-40">
 				<!--
-          Off-canvas menu, show/hide based on off-canvas menu state.
+   Off-canvas menu, show/hide based on off-canvas menu state.
 
-          Entering: "transition ease-in-out duration-300 transform"
-            From: "translate-x-full"
-            To: "translate-x-0"
-          Leaving: "transition ease-in-out duration-300 transform"
-            From: "translate-x-0"
-            To: "translate-x-full"
-        -->
+   Entering: "transition ease-in-out duration-300 transform"
+  From: "translate-x-full"
+  To: "translate-x-0"
+   Leaving: "transition ease-in-out duration-300 transform"
+  From: "translate-x-0"
+  To: "translate-x-full"
+  -->
 				<div
-					class="ml-auto relative max-w-xs w-full h-full bg-white shadow-xl py-4 pb-12 flex flex-col overflow-y-auto"
+					class="ml-auto relative max-w-xs w-full h-full bg-indigo-50 shadow-xl py-4 pb-12 flex flex-col overflow-y-auto"
 				>
 					<div class="px-4 flex items-center justify-between">
 						<h2 class="text-lg font-medium text-slate-900">Filters</h2>
 						<button
 							type="button"
-							class="-mr-2 w-10 h-10 bg-white p-2 rounded-md flex items-center justify-center text-slate-400"
+							class="-mr-2 w-10 h-10 bg-indigo-50 p-2 rounded-md flex items-center justify-center text-slate-400"
 						>
 							<span class="sr-only">Close menu</span>
 							<!-- Heroicon name: outline/x -->
@@ -110,17 +110,17 @@
 								<!-- Expand/collapse section button -->
 								<button
 									type="button"
-									class="px-2 py-3 bg-white w-full flex items-center justify-between text-slate-400 hover:text-slate-500"
+									class="px-2 py-3 bg-indigo-50 w-full flex items-center justify-between text-slate-400 hover:text-slate-500"
 									aria-controls="filter-section-mobile-0"
 									aria-expanded="false"
 								>
 									<span class="font-medium text-slate-900"> Color </span>
 									<span class="ml-6 flex items-center">
 										<!--
-                      Expand icon, show/hide based on section open state.
+     Expand icon, show/hide based on section open state.
 
-                      Heroicon name: solid/plus-sm
-                    -->
+     Heroicon name: solid/plus-sm
+    -->
 										<svg
 											class="h-5 w-5"
 											xmlns="http://www.w3.org/2000/svg"
@@ -135,10 +135,10 @@
 											/>
 										</svg>
 										<!--
-                      Collapse icon, show/hide based on section open state.
+     Collapse icon, show/hide based on section open state.
 
-                      Heroicon name: solid/minus-sm
-                    -->
+     Heroicon name: solid/minus-sm
+    -->
 										<svg
 											class="h-5 w-5"
 											xmlns="http://www.w3.org/2000/svg"
@@ -272,17 +272,17 @@
 								<!-- Expand/collapse section button -->
 								<button
 									type="button"
-									class="px-2 py-3 bg-white w-full flex items-center justify-between text-slate-400 hover:text-slate-500"
+									class="px-2 py-3 bg-indigo-50 w-full flex items-center justify-between text-slate-400 hover:text-slate-500"
 									aria-controls="filter-section-mobile-1"
 									aria-expanded="false"
 								>
 									<span class="font-medium text-slate-900"> Category </span>
 									<span class="ml-6 flex items-center">
 										<!--
-                      Expand icon, show/hide based on section open state.
+     Expand icon, show/hide based on section open state.
 
-                      Heroicon name: solid/plus-sm
-                    -->
+     Heroicon name: solid/plus-sm
+    -->
 										<svg
 											class="h-5 w-5"
 											xmlns="http://www.w3.org/2000/svg"
@@ -297,10 +297,10 @@
 											/>
 										</svg>
 										<!--
-                      Collapse icon, show/hide based on section open state.
+     Collapse icon, show/hide based on section open state.
 
-                      Heroicon name: solid/minus-sm
-                    -->
+     Heroicon name: solid/minus-sm
+    -->
 										<svg
 											class="h-5 w-5"
 											xmlns="http://www.w3.org/2000/svg"
@@ -417,17 +417,17 @@
 								<!-- Expand/collapse section button -->
 								<button
 									type="button"
-									class="px-2 py-3 bg-white w-full flex items-center justify-between text-slate-400 hover:text-slate-500"
+									class="px-2 py-3 bg-indigo-50 w-full flex items-center justify-between text-slate-400 hover:text-slate-500"
 									aria-controls="filter-section-mobile-2"
 									aria-expanded="false"
 								>
 									<span class="font-medium text-slate-900"> Size </span>
 									<span class="ml-6 flex items-center">
 										<!--
-                      Expand icon, show/hide based on section open state.
+     Expand icon, show/hide based on section open state.
 
-                      Heroicon name: solid/plus-sm
-                    -->
+     Heroicon name: solid/plus-sm
+    -->
 										<svg
 											class="h-5 w-5"
 											xmlns="http://www.w3.org/2000/svg"
@@ -442,10 +442,10 @@
 											/>
 										</svg>
 										<!--
-                      Collapse icon, show/hide based on section open state.
+     Collapse icon, show/hide based on section open state.
 
-                      Heroicon name: solid/minus-sm
-                    -->
+     Heroicon name: solid/minus-sm
+    -->
 										<svg
 											class="h-5 w-5"
 											xmlns="http://www.w3.org/2000/svg"
@@ -619,17 +619,17 @@
 						<!--END:()-->
 
 						<!--
-              Dropdown menu, show/hide based on menu state.
+   Dropdown menu, show/hide based on menu state.
 
-              Entering: "transition ease-out duration-100"
-                From: "transform opacity-0 scale-95"
-                To: "transform opacity-100 scale-100"
-              Leaving: "transition ease-in duration-75"
-                From: "transform opacity-100 scale-100"
-                To: "transform opacity-0 scale-95"
-            -->
+   Entering: "transition ease-out duration-100"
+    From: "transform opacity-0 scale-95"
+    To: "transform opacity-100 scale-100"
+   Leaving: "transition ease-in duration-75"
+    From: "transform opacity-100 scale-100"
+    To: "transform opacity-0 scale-95"
+  -->
 						<div
-							class="origin-top-right absolute right-0 mt-2 w-40 rounded-md shadow-2xl bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+							class="origin-top-right absolute right-0 mt-2 w-40 rounded-md shadow-2xl bg-indigo-50 ring-1 ring-black ring-opacity-5 focus:outline-none"
 							role="menu"
 							aria-orientation="vertical"
 							aria-labelledby="menu-button"
@@ -637,10 +637,10 @@
 						>
 							<div class="py-1" role="none">
 								<!--
-                  Active: "bg-slate-100", Not Active: ""
+   Active: "bg-slate-100", Not Active: ""
 
-                  Selected: "font-medium text-slate-900", Not Selected: "text-slate-500"
-                -->
+   Selected: "font-medium text-slate-900", Not Selected: "text-slate-500"
+    -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a
 									href="#"
@@ -784,17 +784,17 @@
 								<!-- Expand/collapse section button -->
 								<button
 									type="button"
-									class="py-3 bg-white w-full flex items-center justify-between text-sm text-slate-400 hover:text-slate-500"
+									class="py-3 bg-indigo-50 w-full flex items-center justify-between text-sm text-slate-400 hover:text-slate-500"
 									aria-controls="filter-section-0"
 									aria-expanded="false"
 								>
 									<span class="font-medium text-slate-900"> Color </span>
 									<span class="ml-6 flex items-center">
 										<!--
-                      Expand icon, show/hide based on section open state.
+     Expand icon, show/hide based on section open state.
 
-                      Heroicon name: solid/plus-sm
-                    -->
+     Heroicon name: solid/plus-sm
+    -->
 										<svg
 											class="h-5 w-5"
 											xmlns="http://www.w3.org/2000/svg"
@@ -809,10 +809,10 @@
 											/>
 										</svg>
 										<!--
-                      Collapse icon, show/hide based on section open state.
+     Collapse icon, show/hide based on section open state.
 
-                      Heroicon name: solid/minus-sm
-                    -->
+     Heroicon name: solid/minus-sm
+    -->
 										<svg
 											class="h-5 w-5"
 											xmlns="http://www.w3.org/2000/svg"
@@ -946,17 +946,17 @@
 								<!-- Expand/collapse section button -->
 								<button
 									type="button"
-									class="py-3 bg-white w-full flex items-center justify-between text-sm text-slate-400 hover:text-slate-500"
+									class="py-3 bg-indigo-50 w-full flex items-center justify-between text-sm text-slate-400 hover:text-slate-500"
 									aria-controls="filter-section-1"
 									aria-expanded="false"
 								>
 									<span class="font-medium text-slate-900"> Category </span>
 									<span class="ml-6 flex items-center">
 										<!--
-                      Expand icon, show/hide based on section open state.
+     Expand icon, show/hide based on section open state.
 
-                      Heroicon name: solid/plus-sm
-                    -->
+     Heroicon name: solid/plus-sm
+    -->
 										<svg
 											class="h-5 w-5"
 											xmlns="http://www.w3.org/2000/svg"
@@ -971,10 +971,10 @@
 											/>
 										</svg>
 										<!--
-                      Collapse icon, show/hide based on section open state.
+     Collapse icon, show/hide based on section open state.
 
-                      Heroicon name: solid/minus-sm
-                    -->
+     Heroicon name: solid/minus-sm
+    -->
 										<svg
 											class="h-5 w-5"
 											xmlns="http://www.w3.org/2000/svg"
@@ -1091,17 +1091,17 @@
 								<!-- Expand/collapse section button -->
 								<button
 									type="button"
-									class="py-3 bg-white w-full flex items-center justify-between text-sm text-slate-400 hover:text-slate-500"
+									class="py-3 bg-indigo-50 w-full flex items-center justify-between text-sm text-slate-400 hover:text-slate-500"
 									aria-controls="filter-section-2"
 									aria-expanded="false"
 								>
 									<span class="font-medium text-slate-900"> Size </span>
 									<span class="ml-6 flex items-center">
 										<!--
-                      Expand icon, show/hide based on section open state.
+     Expand icon, show/hide based on section open state.
 
-                      Heroicon name: solid/plus-sm
-                    -->
+     Heroicon name: solid/plus-sm
+    -->
 										<svg
 											class="h-5 w-5"
 											xmlns="http://www.w3.org/2000/svg"
@@ -1116,10 +1116,10 @@
 											/>
 										</svg>
 										<!--
-                      Collapse icon, show/hide based on section open state.
+     Collapse icon, show/hide based on section open state.
 
-                      Heroicon name: solid/minus-sm
-                    -->
+     Heroicon name: solid/minus-sm
+    -->
 										<svg
 											class="h-5 w-5"
 											xmlns="http://www.w3.org/2000/svg"

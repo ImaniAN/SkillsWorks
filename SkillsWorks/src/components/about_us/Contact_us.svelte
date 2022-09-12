@@ -18,7 +18,7 @@
 
 	<div class="container px-5 py-24 mx-auto flex">
 		<div
-			class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md"
+			class="lg:w-1/3 md:w-1/2 bg-indigo-50 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md"
 		>
 			<h2 class="text-slate-900 text-lg mb-1 font-medium title-font">
 				Feedback
@@ -35,7 +35,7 @@
 					id="name"
 					required
 					name="name"
-					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 				/>
 			</div>
 			<!--END:()-->
@@ -48,7 +48,7 @@
 					id="phone"
 					placeholder="+27 000 000 000"
 					name="phone"
-					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 				/>
 			</div>
 			<!--END:()-->
@@ -62,7 +62,7 @@
 					placeholder="Your email (example@gmail.com)"
 					required
 					name="email"
-					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 				/>
 			</div>
 			<!--END:()-->
@@ -74,13 +74,13 @@
 				<textarea
 					id="message"
 					name="message"
-					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+					class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 				/>
 			</div>
 			<!--END:()-->
 
 			<button
-				class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+				class="text-indigo-50 bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
 				>Button</button
 			>
 			<!--END:()-->
@@ -234,11 +234,11 @@
 			</div>
 
 			<div
-				class="bg-white relative flex flex-wrap p-2 mt-1 rounded border-dashed shadow-md"
+				class="bg-indigo-50 relative flex flex-wrap p-2 mt-1 rounded border-dashed shadow-md"
 			>
 				<div class="lg:w-11/12 px-6 mt-1">
 					<h2
-						class="title-font font-semibold text-gray-900 tracking-widest text-xs"
+						class="title-font font-semibold text-slate-900 tracking-widest text-xs"
 					>
 						ADDRESS
 					</h2>
@@ -249,7 +249,7 @@
 				</div>
 				<div class="lg:w-11/12 pt-6 px-6 mt-1">
 					<h2
-						class="title-font font-semibold text-gray-900 tracking-widest text-xs"
+						class="title-font font-semibold text-slate-900 tracking-widest text-xs"
 					>
 						EMAIL
 					</h2>
@@ -258,7 +258,7 @@
 						>example@email.com</a
 					>
 					<h2
-						class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4"
+						class="title-font font-semibold text-slate-900 tracking-widest text-xs mt-4"
 					>
 						PHONE
 					</h2>

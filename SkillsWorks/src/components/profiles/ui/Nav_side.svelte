@@ -1,4 +1,4 @@
-<div class="flex flex-col justify-between h-screen bg-white border-r">
+<div class="flex flex-col justify-between h-screen bg-indigo-50 border-r">
 	<div class="px-4 py-6">
 		<span class="block w-32 h-10 bg-slate-200 rounded-lg" />
 
@@ -285,7 +285,7 @@
 		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a
 			href="#"
-			class="flex items-center p-4 bg-white hover:bg-slate-50 shrink-0"
+			class="flex items-center p-4 bg-indigo-50 hover:bg-slate-50 shrink-0"
 		>
 			<img
 				class="object-cover w-10 h-10 rounded-full"

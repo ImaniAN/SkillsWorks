@@ -1,6 +1,6 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="container mx-auto p-1 sm:px-8 max-w-4xl border ">
-	<div class="bg-white shadow overflow-hidden sm:rounded-lg">
+	<div class="bg-indigo-50 shadow overflow-hidden sm:rounded-lg">
 		<div class="px-4 py-5 sm:px-6">
 			<h3 class="text-lg leading-6 font-medium text-slate-900">
 				Applicant Information
@@ -19,7 +19,9 @@
 						Margot Foster
 					</dd>
 				</div>
-				<div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+				<div
+					class="bg-indigo-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
+				>
 					<dt class="text-sm font-medium text-slate-500">Application for</dt>
 					<dd class="mt-1 text-sm text-slate-900 sm:mt-0 sm:col-span-2">
 						Backend Developer
@@ -33,7 +35,9 @@
 						margotfoster@example.com
 					</dd>
 				</div>
-				<div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+				<div
+					class="bg-indigo-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
+				>
 					<dt class="text-sm font-medium text-slate-500">Salary expectation</dt>
 					<dd class="mt-1 text-sm text-slate-900 sm:mt-0 sm:col-span-2">
 						$120,000
@@ -51,7 +55,9 @@
 						deserunt qui eu.
 					</dd>
 				</div>
-				<div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+				<div
+					class="bg-indigo-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
+				>
 					<dt class="text-sm font-medium text-slate-500">Attachments</dt>
 					<dd class="mt-1 text-sm text-slate-900 sm:mt-0 sm:col-span-2">
 						<!-- svelte-ignore a11y-no-redundant-roles -->

@@ -1,10 +1,10 @@
-<div class="flex flex-col justify-between h-screen bg-white border-r">
+<div class="flex flex-col justify-between h-screen bg-indigo-50 border-r">
 	<div class="px-4 py-6">
 		<div class="relative">
 			<label class="sr-only" for="search"> Search </label>
 
 			<input
-				class="rounded-lg border-transparent flex-1 appearance-none border-2 border-indigo-600 border-dashed bg-white text-indigo-600 placeholder-indigo-300 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent h-10 pl-4 w-4/5"
+				class="rounded-lg border-transparent flex-1 appearance-none border-2 border-indigo-600 border-dashed bg-indigo-50 text-indigo-600 placeholder-indigo-300 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent h-10 pl-4 w-4/5"
 				id="search"
 				type="search"
 				placeholder="Search Here BruV..."
@@ -314,7 +314,7 @@
 		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a
 			href="#"
-			class="flex items-center p-4 bg-white hover:bg-slate-50 shrink-0"
+			class="flex items-center p-4 bg-indigo-50 hover:bg-slate-50 shrink-0"
 		>
 			<img
 				class="object-cover w-10 h-10 rounded-full"

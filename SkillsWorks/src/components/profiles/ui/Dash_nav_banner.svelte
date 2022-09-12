@@ -10,18 +10,18 @@
 				<!-- Mobile menu button-->
 				<button
 					type="button"
-					class="inline-flex items-center justify-center p-2 rounded-md text-slate-400 hover:text-white hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+					class="inline-flex items-center justify-center p-2 rounded-md text-slate-400 hover:text-indigo-50 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
 					aria-controls="mobile-menu"
 					aria-expanded="false"
 				>
 					<span class="sr-only">Open main menu</span>
 					<!--
-            Icon when menu is closed.
+  Icon when menu is closed.
 
-            Heroicon name: outline/menu
+  Heroicon name: outline/menu
 
-            Menu open: "hidden", Menu closed: "block"
-          -->
+  Menu open: "hidden", Menu closed: "block"
+   -->
 					<svg
 						class="block h-6 w-6"
 						xmlns="http://www.w3.org/2000/svg"
@@ -38,12 +38,12 @@
 						/>
 					</svg>
 					<!--
-            Icon when menu is open.
+  Icon when menu is open.
 
-            Heroicon name: outline/x
+  Heroicon name: outline/x
 
-            Menu open: "block", Menu closed: "hidden"
-          -->
+  Menu open: "block", Menu closed: "hidden"
+   -->
 					<svg
 						class="hidden h-6 w-6"
 						xmlns="http://www.w3.org/2000/svg"
@@ -78,32 +78,32 @@
 				</div>
 				<div class="hidden sm:block sm:ml-6">
 					<div class="flex space-x-4">
-						<!-- Current: "bg-slate-900 text-white", Default: "text-slate-300 hover:bg-slate-700 hover:text-white" -->
+						<!-- Current: "bg-slate-900 text-indigo-50", Default: "text-slate-300 hover:bg-slate-700 hover:text-indigo-50" -->
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
-							class="bg-slate-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+							class="bg-slate-900 text-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 							aria-current="page">Dashboard</a
 						>
 
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
-							class="text-slate-300 hover:bg-slate-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+							class="text-slate-300 hover:bg-slate-700 hover:text-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 							>Team</a
 						>
 
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
-							class="text-slate-300 hover:bg-slate-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+							class="text-slate-300 hover:bg-slate-700 hover:text-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 							>Projects</a
 						>
 
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
-							class="text-slate-300 hover:bg-slate-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+							class="text-slate-300 hover:bg-slate-700 hover:text-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 							>Calendar</a
 						>
 					</div>
@@ -114,7 +114,7 @@
 			>
 				<button
 					type="button"
-					class="bg-slate-800 p-1 rounded-full text-slate-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-800 focus:ring-white"
+					class="bg-slate-800 p-1 rounded-full text-slate-400 hover:text-indigo-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-800 focus:ring-white"
 				>
 					<span class="sr-only">View notifications</span>
 					<!-- Heroicon name: outline/bell -->
@@ -155,17 +155,17 @@
 					</div>
 
 					<!--
-            Dropdown menu, show/hide based on menu state.
+  Dropdown menu, show/hide based on menu state.
 
-            Entering: "transition ease-out duration-100"
-              From: "transform opacity-0 scale-95"
-              To: "transform opacity-100 scale-100"
-            Leaving: "transition ease-in duration-75"
-              From: "transform opacity-100 scale-100"
-              To: "transform opacity-0 scale-95"
-          -->
+  Entering: "transition ease-out duration-100"
+   From: "transform opacity-0 scale-95"
+   To: "transform opacity-100 scale-100"
+  Leaving: "transition ease-in duration-75"
+   From: "transform opacity-100 scale-100"
+   To: "transform opacity-0 scale-95"
+   -->
 					<div
-						class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+						class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-indigo-50 ring-1 ring-black ring-opacity-5 focus:outline-none"
 						role="menu"
 						aria-orientation="vertical"
 						aria-labelledby="user-menu-button"
@@ -205,32 +205,32 @@
 	<!-- Mobile menu, show/hide based on menu state. -->
 	<div class="sm:hidden" id="mobile-menu">
 		<div class="px-2 pt-2 pb-3 space-y-1">
-			<!-- Current: "bg-slate-900 text-white", Default: "text-slate-300 hover:bg-slate-700 hover:text-white" -->
+			<!-- Current: "bg-slate-900 text-indigo-50", Default: "text-slate-300 hover:bg-slate-700 hover:text-indigo-50" -->
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href="#"
-				class="bg-slate-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+				class="bg-slate-900 text-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 				aria-current="page">Dashboard</a
 			>
 
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href="#"
-				class="text-slate-300 hover:bg-slate-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+				class="text-slate-300 hover:bg-slate-700 hover:text-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 				>Team</a
 			>
 
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href="#"
-				class="text-slate-300 hover:bg-slate-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+				class="text-slate-300 hover:bg-slate-700 hover:text-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 				>Projects</a
 			>
 
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href="#"
-				class="text-slate-300 hover:bg-slate-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+				class="text-slate-300 hover:bg-slate-700 hover:text-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 				>Calendar</a
 			>
 		</div>

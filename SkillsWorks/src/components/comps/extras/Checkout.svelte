@@ -106,7 +106,7 @@
 			</div>
 			<!--END:()-->
 
-			<div class="py-12 bg-white md:py-24">
+			<div class="py-12 bg-indigo-50 md:py-24">
 				<div class="max-w-lg px-4 mx-auto lg:px-8">
 					<form class="grid grid-cols-6 gap-4">
 						<div class="col-span-3">
@@ -170,7 +170,7 @@
 								Card Details
 							</legend>
 
-							<div class="-space-y-px bg-white rounded-lg shadow-sm">
+							<div class="-space-y-px bg-indigo-50 rounded-lg shadow-sm">
 								<div>
 									<label class="sr-only" for="card-number">Card Number</label>
 
@@ -223,7 +223,7 @@
 								Billing Address
 							</legend>
 
-							<div class="-space-y-px bg-white rounded-lg shadow-sm">
+							<div class="-space-y-px bg-indigo-50 rounded-lg shadow-sm">
 								<div>
 									<label class="sr-only" for="country">Country</label>
 
@@ -263,7 +263,7 @@
 
 						<div class="col-span-6">
 							<button
-								class="rounded-lg bg-black text-sm p-2.5 text-white w-full block"
+								class="rounded-lg bg-black text-sm p-2.5 text-indigo-50 w-full block"
 								type="submit"
 							>
 								Pay Now

@@ -1,9 +1,9 @@
 <div class="relative min-h-screen flex ">
 	<div
-		class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto min-w-0 bg-white"
+		class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto min-w-0 bg-indigo-50"
 	>
 		<div
-			class="sm:w-1/2 xl:w-3/5 h-full hidden md:flex flex-auto items-end justify-end p-10 pr-20 overflow-hidden bg-blue-900 text-white bg-no-repeat bg-cover relative"
+			class="sm:w-1/2 xl:w-3/5 h-full hidden md:flex flex-auto items-end justify-end p-10 pr-20 overflow-hidden bg-blue-900 text-indigo-50 bg-no-repeat bg-cover relative"
 			style="background-image: url(https://images.unsplash.com/photo-1543599538-a6c4f6cc5c05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);"
 		>
 			<div
@@ -11,7 +11,7 @@
 			/>
 			<div class="w-full z-10 mb-10">
 				<div
-					class="sm:text-4xl xl:text-5xl  text-slate-800 font-bold leading-tight mb-6"
+					class="sm:text-4xl xl:text-5xl text-slate-800 font-bold leading-tight mb-6"
 				>
 					Reference: Call to action
 				</div>
@@ -44,7 +44,7 @@
 		<!--END:()-->
 
 		<div
-			class="md:flex md:items-center md:justify-cente sm:w-auto md:h-full w-4/5 xl:w-2/5 p-8  md:p-10 lg:p-14 sm:rounded-lg md:rounded-none bg-white"
+			class="md:flex md:items-center md:justify-cente sm:w-auto md:h-full w-4/5 xl:w-2/5 p-8 md:p-10 lg:p-14 sm:rounded-lg md:rounded-none bg-indigo-50"
 		>
 			<div class="max-w-md w-full space-y-8">
 				<div class="mb-10 text-center">
@@ -57,7 +57,7 @@
 					<div class="w-full md:w-1/2 px-0.5 mb-6 md:mb-0">
 						<button
 							type="submit"
-							class="w-full flex items-center justify-center bg-red-500  hover:bg-red-400 text-slate-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
+							class="w-full flex items-center justify-center bg-red-500 hover:bg-red-400 text-slate-100 p-3 rounded-full tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
 						>
 							Google
 							<svg
@@ -77,7 +77,7 @@
 					<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
 						<button
 							type="submit"
-							class="w-full flex items-center justify-center bg-blue-600  hover:bg-blue-500 text-slate-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
+							class="w-full flex items-center justify-center bg-blue-600 hover:bg-blue-500 text-slate-100 p-3 rounded-full tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
 						>
 							Facebook
 							<svg
@@ -117,7 +117,7 @@
 								Email
 							</label>
 							<input
-								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 								id="grid-email"
 								type="email"
 								placeholder="Your email (example@gmail.com)"
@@ -138,7 +138,7 @@
 								Password
 							</label>
 							<input
-								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 								id="grid-password"
 								type="password"
 								name="password"
@@ -183,7 +183,7 @@
 						<div>
 							<button
 								type="submit"
-								class="w-full flex justify-center bg-blue-300  hover:bg-blue-500 text-slate-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
+								class="w-full flex justify-center bg-blue-300 hover:bg-blue-500 text-slate-100 p-3 rounded-full tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
 							>
 								Sign In
 							</button>
@@ -200,7 +200,7 @@
 						<div>
 							<button
 								type="submit"
-								class="w-full flex justify-center bg-green-300  hover:bg-green-500 text-slate-100 p-3  rounded-full tracking-wide font-semibold  shadow-lg cursor-pointer transition ease-in duration-500"
+								class="w-full flex justify-center bg-green-300 hover:bg-green-500 text-slate-100 p-3 rounded-full tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
 							>
 								Sign Up
 							</button>

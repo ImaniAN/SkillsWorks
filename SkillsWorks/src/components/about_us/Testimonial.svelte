@@ -14,7 +14,7 @@
 				<!--END:()-->
 
 				<div
-					class="absolute inline-flex px-4 py-2 bg-white rounded-lg shadow-xl -bottom-4 -right-4"
+					class="absolute inline-flex px-4 py-2 bg-indigo-50 rounded-lg shadow-xl -bottom-4 -right-4"
 				>
 					<span class="inline-block w-12 h-10 bg-slate-100 rounded-lg" />
 				</div>
@@ -58,7 +58,9 @@
 						fanny pack vaporware.
 					</p>
 					<span class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4" />
-					<h2 class="text-white font-medium title-font tracking-wider text-sm">
+					<h2
+						class="text-indigo-50 font-medium title-font tracking-wider text-sm"
+					>
 						HOLDEN CAULFIELD
 					</h2>
 					<p class="text-slate-500">Senior Product Designer</p>
@@ -78,7 +80,9 @@
 						fanny pack vaporware.
 					</p>
 					<span class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4" />
-					<h2 class="text-white font-medium title-font tracking-wider text-sm">
+					<h2
+						class="text-indigo-50 font-medium title-font tracking-wider text-sm"
+					>
 						ALPER KAMU
 					</h2>
 					<p class="text-slate-500">UI Develeoper</p>
@@ -98,7 +102,9 @@
 						fanny pack vaporware.
 					</p>
 					<span class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4" />
-					<h2 class="text-white font-medium title-font tracking-wider text-sm">
+					<h2
+						class="text-indigo-50 font-medium title-font tracking-wider text-sm"
+					>
 						HENRY LETHAM
 					</h2>
 					<p class="text-slate-500">CTO</p>
@@ -109,13 +115,13 @@
 </section>
 <!--END:()-->
 
-<section class="text-gray-600 body-font">
+<section class="text-slate-600 body-font">
 	<div class="container px-5 py-24 mx-auto">
 		<div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="currentColor"
-				class="inline-block w-8 h-8 text-gray-400 mb-8"
+				class="inline-block w-8 h-8 text-slate-400 mb-8"
 				viewBox="0 0 975.036 975.036"
 			>
 				<path
@@ -134,27 +140,29 @@
 				vinegar.
 			</p>
 			<span class="inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6" />
-			<h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
+			<h2 class="text-slate-900 font-medium title-font tracking-wider text-sm">
 				HOLDEN CAULFIELD
 			</h2>
-			<p class="text-gray-500">Senior Product Designer</p>
+			<p class="text-slate-500">Senior Product Designer</p>
 		</div>
 	</div>
 </section>
 <!--END:()-->
 
-<section class="text-gray-400 bg-gray-900 body-font">
+<section class="text-slate-400 bg-slate-900 body-font">
 	<div class="container px-5 py-24 mx-auto">
-		<h1 class="text-3xl font-medium title-font text-white mb-12 text-center">
+		<h1
+			class="text-3xl font-medium title-font text-indigo-50 mb-12 text-center"
+		>
 			Testimonials
 		</h1>
 		<div class="flex flex-wrap -m-4">
 			<div class="p-4 md:w-1/2 w-full">
-				<div class="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
+				<div class="h-full bg-slate-800 bg-opacity-40 p-8 rounded">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="currentColor"
-						class="block w-5 h-5 text-gray-500 mb-4"
+						class="block w-5 h-5 text-slate-500 mb-4"
 						viewBox="0 0 975.036 975.036"
 					>
 						<path
@@ -176,20 +184,20 @@
 							class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
 						/>
 						<span class="flex-grow flex flex-col pl-4">
-							<span class="title-font font-medium text-white"
+							<span class="title-font font-medium text-indigo-50"
 								>Holden Caulfield</span
 							>
-							<span class="text-gray-500 text-sm">UI DEVELOPER</span>
+							<span class="text-slate-500 text-sm">UI DEVELOPER</span>
 						</span>
 					</a>
 				</div>
 			</div>
 			<div class="p-4 md:w-1/2 w-full">
-				<div class="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
+				<div class="h-full bg-slate-800 bg-opacity-40 p-8 rounded">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="currentColor"
-						class="block w-5 h-5 text-gray-500 mb-4"
+						class="block w-5 h-5 text-slate-500 mb-4"
 						viewBox="0 0 975.036 975.036"
 					>
 						<path
@@ -210,8 +218,10 @@
 							class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
 						/>
 						<span class="flex-grow flex flex-col pl-4">
-							<span class="title-font font-medium text-white">Alper Kamu</span>
-							<span class="text-gray-500 text-sm">DESIGNER</span>
+							<span class="title-font font-medium text-indigo-50"
+								>Alper Kamu</span
+							>
+							<span class="text-slate-500 text-sm">DESIGNER</span>
 						</span>
 					</a>
 				</div>

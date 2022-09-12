@@ -1,7 +1,9 @@
 <section class="text-slate-400 bg-slate-900 body-font">
 	<div class="container px-5 py-8 mx-auto">
 		<div class="flex flex-col text-center w-full mb-20">
-			<h1 class="text-2xl font-medium title-font mb-4 text-white">OUR TEAM</h1>
+			<h1 class="text-2xl font-medium title-font mb-4 text-indigo-50">
+				OUR TEAM
+			</h1>
 			<p class="lg:w-2/3 mx-auto leading-relaxed text-base">
 				Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
 				gentrify, subway tile poke farm-to-table. Franzen you probably haven't
@@ -17,7 +19,7 @@
 						src="https://dummyimage.com/305x305"
 					/>
 					<div class="w-full">
-						<h2 class="title-font font-medium text-lg text-white">
+						<h2 class="title-font font-medium text-lg text-indigo-50">
 							Alper Kamu
 						</h2>
 						<h3 class="text-slate-500 mb-3">UI Developer</h3>
@@ -86,7 +88,7 @@
 						src="https://dummyimage.com/305x305"
 					/>
 					<div class="w-full">
-						<h2 class="title-font font-medium text-lg text-white">
+						<h2 class="title-font font-medium text-lg text-indigo-50">
 							Holden Caulfield
 						</h2>
 						<h3 class="text-slate-500 mb-3">UI Developer</h3>
@@ -155,7 +157,7 @@
 						src="https://dummyimage.com/305x305"
 					/>
 					<div class="w-full">
-						<h2 class="title-font font-medium text-lg text-white">
+						<h2 class="title-font font-medium text-lg text-indigo-50">
 							Atticus Finch
 						</h2>
 						<h3 class="text-slate-500 mb-3">UI Developer</h3>
@@ -224,7 +226,7 @@
 						src="https://dummyimage.com/305x305"
 					/>
 					<div class="w-full">
-						<h2 class="title-font font-medium text-lg text-white">
+						<h2 class="title-font font-medium text-lg text-indigo-50">
 							Henry Letham
 						</h2>
 						<h3 class="text-slate-500 mb-3">UI Developer</h3>

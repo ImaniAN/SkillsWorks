@@ -3,7 +3,7 @@
 	href="/product/build-your-own-drone"
 >
 	<button
-		class="absolute p-2 text-white bg-black rounded-full right-4 top-4"
+		class="absolute p-2 text-indigo-50 bg-black rounded-full right-4 top-4"
 		type="button"
 	>
 		<svg

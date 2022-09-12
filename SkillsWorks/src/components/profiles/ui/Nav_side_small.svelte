@@ -1,4 +1,4 @@
-<div class="flex flex-col justify-between w-16 h-screen bg-white border-r">
+<div class="flex flex-col justify-between w-16 h-screen bg-indigo-50 border-r">
 	<div>
 		<div class="inline-flex items-center justify-center w-16 h-16">
 			<span class="block w-10 h-10 bg-slate-200 rounded-lg" />
@@ -34,7 +34,7 @@
 						</svg>
 
 						<span
-							class="absolute text-xs font-medium text-white bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
+							class="absolute text-xs font-medium text-indigo-50 bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
 						>
 							General
 						</span>
@@ -65,7 +65,7 @@
 							</svg>
 
 							<span
-								class="absolute text-xs font-medium text-white bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
+								class="absolute text-xs font-medium text-indigo-50 bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
 							>
 								Teams
 							</span>
@@ -94,7 +94,7 @@
 							</svg>
 
 							<span
-								class="absolute text-xs font-medium text-white bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
+								class="absolute text-xs font-medium text-indigo-50 bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
 							>
 								Billing
 							</span>
@@ -123,7 +123,7 @@
 							</svg>
 
 							<span
-								class="absolute text-xs font-medium text-white bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
+								class="absolute text-xs font-medium text-indigo-50 bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
 							>
 								Invoices
 							</span>
@@ -152,7 +152,7 @@
 							</svg>
 
 							<span
-								class="absolute text-xs font-medium text-white bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
+								class="absolute text-xs font-medium text-indigo-50 bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
 							>
 								Account
 							</span>
@@ -166,7 +166,7 @@
 	<!--END:()-->
 
 	<div
-		class="sticky inset-x-0 bottom-0 p-2 bg-white border-t border-indigo-100"
+		class="sticky inset-x-0 bottom-0 p-2 bg-indigo-50 border-t border-indigo-100"
 	>
 		<form action="/logout">
 			<button
@@ -189,7 +189,7 @@
 				</svg>
 
 				<span
-					class="absolute text-xs font-medium text-white bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
+					class="absolute text-xs font-medium text-indigo-50 bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
 				>
 					Logout
 				</span>

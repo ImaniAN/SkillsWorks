@@ -1,16 +1,16 @@
 <div class="relative min-h-screen flex ">
 	<div
-		class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto bg-white"
+		class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto bg-indigo-50"
 	>
 		<div
-			class="w-11-12 h-full hidden md:flex flex-auto items-end justify-end p-10 pr-20 overflow-hidden bg-blue-900 text-white bg-no-repeat bg-cover relative"
+			class="w-11-12 h-full hidden md:flex flex-auto items-end justify-end p-10 pr-20 overflow-hidden bg-blue-900 text-indigo-50 bg-no-repeat bg-cover relative"
 		>
 			<div
 				class="absolute bg-gradient-to-b from-indigo-100 to-blue-600 opacity-75 inset-0 z-0"
 			/>
 			<div class="w-full z-10 mb-10">
 				<div
-					class="sm:text-4xl xl:text-5xl  text-slate-800 font-bold leading-tight mb-6"
+					class="sm:text-4xl xl:text-5xl text-slate-800 font-bold leading-tight mb-6"
 				>
 					Reference: Call to action
 				</div>

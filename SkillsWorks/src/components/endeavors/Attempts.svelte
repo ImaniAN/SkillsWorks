@@ -2,7 +2,7 @@
 	<main
 		class="h-screen w-full flex flex-col justify-center items-center bg-[#1A2238]"
 	>
-		<h1 class="text-9xl font-extrabold text-white tracking-widest">404</h1>
+		<h1 class="text-9xl font-extrabold text-indigo-50 tracking-widest">404</h1>
 		<div class="bg-[#FF6A3D] px-2 text-sm rounded rotate-12 absolute">
 			Page Not Found
 		</div>
@@ -55,7 +55,7 @@
 		<!--END:()-->
 	</section>
 	<div
-		class="flex items-center justify-center min-h-screen bg-indigo-500  bg-fixed bg-cover bg-bottom error-bg"
+		class="flex items-center justify-center min-h-screen bg-indigo-500 bg-fixed bg-cover bg-bottom error-bg"
 		style="background-image: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23f0b608' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23e6d710' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23e7af05' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23e7d808' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d8a408' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23f1e213' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23f0b607' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23e4d506' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23eab822' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23e8da14' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23e8b008' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23edde14' points='943 900 1210 900 971 687'/%3E%3C/svg%3E);"
 	>
 		<div class="container">
@@ -67,7 +67,7 @@
 						>
 							<span>4</span> <span>0</span> <span>4</span>
 						</h1>
-						<span class="absolute  top-0   -ml-12  text-slate-300 font-semibold"
+						<span class="absolute top-0  -ml-12 text-slate-300 font-semibold"
 							>Oops!</span
 						>
 					</div>
@@ -82,7 +82,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href="#"
-						class="bg-green-400  px-5 py-3 text-sm shadow-sm font-medium tracking-wider text-slate-50 rounded-full hover:shadow-lg"
+						class="bg-green-400 px-5 py-3 text-sm shadow-sm font-medium tracking-wider text-slate-50 rounded-full hover:shadow-lg"
 					>
 						Got to Home
 					</a>
@@ -110,7 +110,7 @@
 			>
 				<circle cx="113" cy="113" fill="#FFE585" r="109" />
 				<line
-					enable-background="new    "
+					enable-background="new  "
 					fill="none"
 					opacity="0.29"
 					stroke="#6E6E96"
@@ -123,7 +123,7 @@
 					y2="245.135"
 				/>
 				<line
-					enable-background="new    "
+					enable-background="new  "
 					fill="none"
 					opacity="0.17"
 					stroke="#6E6E96"
@@ -136,7 +136,7 @@
 					y2="245.135"
 				/>
 				<line
-					enable-background="new    "
+					enable-background="new  "
 					fill="none"
 					opacity="0.17"
 					stroke="#6E6E96"
@@ -149,15 +149,15 @@
 					y2="245.135"
 				/> <circle cx="68.732" cy="93" fill="#6E6E96" r="9" />
 				<path
-					d="M115.568,5.947c-1.026,0-2.049,0.017-3.069,0.045  c54.425,1.551,98.069,46.155,98.069,100.955c0,55.781-45.219,101-101,101c-55.781,0-101-45.219-101-101  c0-8.786,1.124-17.309,3.232-25.436c-3.393,10.536-5.232,21.771-5.232,33.436c0,60.199,48.801,109,109,109s109-48.801,109-109  S175.768,5.947,115.568,5.947z"
-					enable-background="new    "
+					d="M115.568,5.947c-1.026,0-2.049,0.017-3.069,0.045 c54.425,1.551,98.069,46.155,98.069,100.955c0,55.781-45.219,101-101,101c-55.781,0-101-45.219-101-101 c0-8.786,1.124-17.309,3.232-25.436c-3.393,10.536-5.232,21.771-5.232,33.436c0,60.199,48.801,109,109,109s109-48.801,109-109 S175.768,5.947,115.568,5.947z"
+					enable-background="new  "
 					fill="#FF9900"
 					opacity="0.24"
 				/> <circle cx="156.398" cy="93" fill="#6E6E96" r="9" />
 				<ellipse
 					cx="67.732"
 					cy="140.894"
-					enable-background="new    "
+					enable-background="new  "
 					fill="#FF0000"
 					opacity="0.18"
 					rx="17.372"
@@ -166,14 +166,14 @@
 				<ellipse
 					cx="154.88"
 					cy="140.894"
-					enable-background="new    "
+					enable-background="new  "
 					fill="#FF0000"
 					opacity="0.18"
 					rx="17.371"
 					ry="8.106"
 				/>
 				<path
-					d="M13,118.5C13,61.338,59.338,15,116.5,15c55.922,0,101.477,44.353,103.427,99.797  c0.044-1.261,0.073-2.525,0.073-3.797C220,50.802,171.199,2,111,2S2,50.802,2,111c0,50.111,33.818,92.318,79.876,105.06  C41.743,201.814,13,163.518,13,118.5z"
+					d="M13,118.5C13,61.338,59.338,15,116.5,15c55.922,0,101.477,44.353,103.427,99.797 c0.044-1.261,0.073-2.525,0.073-3.797C220,50.802,171.199,2,111,2S2,50.802,2,111c0,50.111,33.818,92.318,79.876,105.06 C41.743,201.814,13,163.518,13,118.5z"
 					fill="#FFEFB5"
 				/>
 				<circle

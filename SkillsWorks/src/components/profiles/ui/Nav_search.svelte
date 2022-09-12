@@ -5,7 +5,7 @@
 				<label class="sr-only" for="search"> Search </label>
 
 				<input
-					class="w-full h-10 pl-4 pr-10 text-sm bg-white border-none rounded-lg shadow-sm sm:w-56"
+					class="w-full h-10 pl-4 pr-10 text-sm bg-indigo-50 border-none rounded-lg shadow-sm sm:w-56"
 					id="search"
 					type="search"
 					placeholder="Search website..."
@@ -40,7 +40,7 @@
 				<div class="flex gap-4">
 					<button
 						type="button"
-						class="block sm:hidden p-2.5 text-slate-600 bg-white rounded-lg hover:text-slate-700 shrink-0 shadow-sm"
+						class="block sm:hidden p-2.5 text-slate-600 bg-indigo-50 rounded-lg hover:text-slate-700 shrink-0 shadow-sm"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href="#"
-						class="block p-2.5 text-slate-600 bg-white rounded-lg hover:text-slate-700 shrink-0 shadow-sm"
+						class="block p-2.5 text-slate-600 bg-indigo-50 rounded-lg hover:text-slate-700 shrink-0 shadow-sm"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +86,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href="#"
-						class="block p-2.5 text-slate-600 bg-white rounded-lg hover:text-slate-700 shrink-0 shadow-sm"
+						class="block p-2.5 text-slate-600 bg-indigo-50 rounded-lg hover:text-slate-700 shrink-0 shadow-sm"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"

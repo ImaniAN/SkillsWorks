@@ -70,7 +70,7 @@
 						</span>Tumeric plaid portland
 					</p>
 					<button
-						class="flex items-center mt-auto text-white bg-slate-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-slate-700 rounded"
+						class="flex items-center mt-auto text-indigo-50 bg-slate-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-slate-700 rounded"
 						>Button
 						<svg
 							fill="none"
@@ -94,7 +94,7 @@
 					class="h-full p-6 rounded-lg border-2 border-pink-500 flex flex-col relative overflow-hidden"
 				>
 					<span
-						class="bg-pink-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
+						class="bg-pink-500 text-indigo-50 px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
 						>POPULAR</span
 					>
 					<h2
@@ -177,7 +177,7 @@
 						</span>Mixtape chillwave tumeric
 					</p>
 					<button
-						class="flex items-center mt-auto text-white bg-pink-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-pink-600 rounded"
+						class="flex items-center mt-auto text-indigo-50 bg-pink-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-pink-600 rounded"
 						>Button
 						<svg
 							fill="none"
@@ -297,7 +297,7 @@
 						</span>Mixtape chillwave tumeric
 					</p>
 					<button
-						class="flex items-center mt-auto text-white bg-slate-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-slate-700 rounded"
+						class="flex items-center mt-auto text-indigo-50 bg-slate-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-slate-700 rounded"
 						>Button
 						<svg
 							fill="none"
@@ -417,7 +417,7 @@
 						</span>Crdigan chillwave brooklyn Lorem ipsum ipsum Vexillologist
 					</p>
 					<button
-						class="flex items-center mt-auto text-white bg-slate-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-slate-700 rounded"
+						class="flex items-center mt-auto text-indigo-50 bg-slate-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-slate-700 rounded"
 						>Button
 						<svg
 							fill="none"

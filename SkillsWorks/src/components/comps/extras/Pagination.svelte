@@ -29,7 +29,7 @@
 	</li>
 
 	<li
-		class="block w-8 h-8 leading-8 text-center text-white bg-blue-600 border-blue-600 rounded"
+		class="block w-8 h-8 leading-8 text-center text-indigo-50 bg-blue-600 border-blue-600 rounded"
 	>
 		2
 	</li>
@@ -104,7 +104,7 @@
 	</li>
 
 	<li
-		class="block w-8 h-8 leading-8 text-center text-white bg-blue-600 border-blue-600 rounded-full"
+		class="block w-8 h-8 leading-8 text-center text-indigo-50 bg-blue-600 border-blue-600 rounded-full"
 	>
 		2
 	</li>
@@ -193,7 +193,7 @@
 </div>
 
 <div
-	class="inline-flex items-center justify-center py-1 text-white bg-blue-600 rounded"
+	class="inline-flex items-center justify-center py-1 text-indigo-50 bg-blue-600 rounded"
 >
 	<a href="/?page=1" class="inline-flex items-center justify-center w-8 h-8">
 		<svg
@@ -210,7 +210,7 @@
 		</svg>
 	</a>
 
-	<span class="w-px h-4 bg-white/25" />
+	<span class="w-px h-4 bg-indigo-50/25" />
 
 	<input
 		type="number"
@@ -219,7 +219,7 @@
 		value="2"
 	/>
 
-	<span class="w-px h-4 bg-white/25" />
+	<span class="w-px h-4 bg-indigo-50/25" />
 
 	<a href="/?page=3" class="inline-flex items-center justify-center w-8 h-8">
 		<svg

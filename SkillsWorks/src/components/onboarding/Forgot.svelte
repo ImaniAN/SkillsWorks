@@ -1,9 +1,9 @@
 <div class="flex justify-center w-screen">
 	<div
-		class="flex justify-center w-screen max-w-lg flex-col px-8 py-8 bg-white rounded-lg shadow dark:bg-slate-800"
+		class="flex justify-center w-screen max-w-lg flex-col px-8 py-8 bg-indigo-50 rounded-lg shadow dark:bg-slate-800"
 	>
 		<div
-			class="self-center mb-6 text-xl font-light text-slate-600 sm:text-2xl dark:text-white"
+			class="self-center mb-6 text-xl font-light text-slate-600 sm:text-2xl dark:text-indigo-50"
 		>
 			Recover your Your Account
 		</div>
@@ -18,7 +18,7 @@
 					</label>
 					<div class="flex relative ">
 						<span
-							class="rounded-l-md inline-flex  items-center px-3 border-t bg-white border-l border-b  border-red-300 text-slate-500 shadow-sm text-sm"
+							class="rounded-l-md inline-flex items-center px-3 border-t bg-indigo-50 border-l border-b border-red-300 text-slate-500 shadow-sm text-sm"
 						>
 							<svg
 								width="15"
@@ -38,7 +38,7 @@
 							placeholder="Your email (example@gmail.com)"
 							required
 							name="email"
-							class=" rounded-r-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-white text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+							class=" rounded-r-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 						/>
 					</div>
 					<!--END:()-->
@@ -48,7 +48,7 @@
 				<div class="flex w-full">
 					<button
 						type="submit"
-						class="py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
+						class="py-2 px-4 bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-indigo-50 w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg "
 					>
 						Send a recovery link!
 					</button>

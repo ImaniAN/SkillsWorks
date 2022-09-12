@@ -62,7 +62,7 @@
 <!--END:()-->
 
 <div
-	class="inline-flex items-center overflow-hidden text-white bg-blue-600 rounded"
+	class="inline-flex items-center overflow-hidden text-indigo-50 bg-blue-600 rounded"
 >
 	<button
 		class="p-3 bg-blue-600 focus:outline-none focus:bg-blue-700 active:bg-blue-500"
@@ -84,7 +84,7 @@
 		</svg>
 	</button>
 
-	<span class="w-px h-4 bg-white/25" />
+	<span class="w-px h-4 bg-indigo-50/25" />
 
 	<button
 		class="p-3 bg-blue-600 focus:outline-none focus:bg-blue-700 active:bg-blue-500"

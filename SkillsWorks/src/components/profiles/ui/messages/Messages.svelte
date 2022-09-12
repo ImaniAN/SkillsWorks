@@ -1,8 +1,8 @@
 <!-- component -->
 <main class="flex w-full h-full shadow-lg rounded-3xl">
-	<section class="flex flex-col w-2/12 bg-white rounded-l-3xl">
+	<section class="flex flex-col w-2/12 bg-indigo-50 rounded-l-3xl">
 		<div
-			class="w-16 mx-auto mt-12 mb-20 p-4 bg-indigo-600 rounded-2xl text-white"
+			class="w-16 mx-auto mt-12 mb-20 p-4 bg-indigo-600 rounded-2xl text-indigo-50"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +22,7 @@
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				href="#"
-				class="relative w-16 p-4 bg-purple-100 text-purple-900 rounded-2xl mb-4"
+				class="relative w-16 p-4 bg-indigo-100 text-indigo-900 rounded-2xl mb-4"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -38,12 +38,15 @@
 					/>
 				</svg>
 				<span
-					class="absolute -top-2 -right-2 bg-red-600 h-6 w-6 p-2 flex justify-center items-center text-white rounded-full"
-					>3</span
+					class="absolute -top-2 -right-2 bg-red-600 h-6 w-6 p-2 flex justify-center items-center text-indigo-50 rounded-full"
+					>88</span
 				>
 			</a>
 			<!-- svelte-ignore a11y-invalid-attribute -->
-			<a href="#" class="w-16 p-4 border text-gray-700 rounded-2xl mb-4">
+			<a
+				href="#"
+				class="w-16 p-4 border-2 border-dashed border-red-300 text-slate-700 rounded-2xl mb-4"
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
@@ -59,7 +62,10 @@
 				</svg>
 			</a>
 			<!-- svelte-ignore a11y-invalid-attribute -->
-			<a href="#" class="w-16 p-4 border text-gray-700 rounded-2xl mb-4">
+			<a
+				href="#"
+				class="w-16 p-4 border-2 border-dashed border-red-300 text-slate-700 rounded-2xl mb-4"
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
@@ -75,7 +81,10 @@
 				</svg>
 			</a>
 			<!-- svelte-ignore a11y-invalid-attribute -->
-			<a href="#" class="w-16 p-4 border text-gray-700 rounded-2xl mb-4">
+			<a
+				href="#"
+				class="w-16 p-4 border-2 border-dashed border-red-300 text-slate-700 rounded-2xl mb-4"
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
@@ -91,7 +100,10 @@
 				</svg>
 			</a>
 			<!-- svelte-ignore a11y-invalid-attribute -->
-			<a href="#" class="w-16 p-4 border text-gray-700 rounded-2xl mb-24">
+			<a
+				href="#"
+				class="w-16 p-4 border-2 border-dashed border-red-300 text-slate-700 rounded-2xl mb-24"
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
@@ -107,7 +119,10 @@
 				</svg>
 			</a>
 			<!-- svelte-ignore a11y-invalid-attribute -->
-			<a href="#" class="w-16 p-4 border text-gray-700 rounded-2xl">
+			<a
+				href="#"
+				class="w-16 p-4 border-2 border-dashed border-red-300 text-slate-700 rounded-2xl"
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
@@ -131,92 +146,106 @@
 		</nav>
 	</section>
 	<section
-		class="flex flex-col pt-3 w-4/12 bg-gray-50 h-full overflow-y-scroll"
+		class="flex flex-col pt-3 w-4/12 bg-slate-50 h-full overflow-y-scroll"
 	>
-		<label class="px-3">
+		<label class="px-3 border-2 border-dashed border-red-300">
 			<input
-				class="rounded-lg p-4 bg-gray-100 transition duration-200 focus:outline-none focus:ring-2 w-full"
+				class="rounded-lg p-4 bg-slate-100 transition duration-200 focus:outline-none focus:ring-2 w-full"
 				placeholder="Search..."
 			/>
 		</label>
 
 		<ul class="mt-6">
-			<li class="py-5 border-b px-3 transition hover:bg-indigo-100">
+			<li
+				class="py-5 border-2 border-dashed border-red-300-b px-3 transition hover:bg-indigo-100"
+			>
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a href="#" class="flex justify-between items-center">
-					<h3 class="text-lg font-semibold">Akhil Gautam</h3>
-					<p class="text-md text-gray-400">23m ago</p>
+					<h3 class="text-lg text-slate-900 font-semibold">Akhil Gautam</h3>
+					<p class="text-md text-slate-400">23m ago</p>
 				</a>
-				<div class="text-md italic text-gray-400">You have been invited!</div>
+				<div class="text-md italic text-slate-400">You have been invited!</div>
 			</li>
-			<li class="py-5 border-b px-3 transition hover:bg-indigo-100">
+			<li
+				class="py-5 border-2 border-dashed border-red-300-b px-3 transition hover:bg-indigo-100"
+			>
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a href="#" class="flex justify-between items-center">
-					<h3 class="text-lg font-semibold">Akhil Gautam</h3>
-					<p class="text-md text-gray-400">23m ago</p>
+					<h3 class="text-lg text-slate-900 font-semibold">Akhil Gautam</h3>
+					<p class="text-md text-slate-400">23m ago</p>
 				</a>
-				<div class="text-md italic text-gray-400">You have been invited!</div>
+				<div class="text-md italic text-slate-400">You have been invited!</div>
 			</li>
-			<li class="py-5 border-b px-3 transition hover:bg-indigo-100">
+			<li
+				class="py-5 border-2 border-dashed border-red-300-b px-3 transition hover:bg-indigo-100"
+			>
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a href="#" class="flex justify-between items-center">
-					<h3 class="text-lg font-semibold">Akhil Gautam</h3>
-					<p class="text-md text-gray-400">23m ago</p>
+					<h3 class="text-lg text-slate-900 font-semibold">Akhil Gautam</h3>
+					<p class="text-md text-slate-400">23m ago</p>
 				</a>
-				<div class="text-md italic text-gray-400">You have been invited!</div>
+				<div class="text-md italic text-slate-400">You have been invited!</div>
 			</li>
-			<li class="py-5 border-b px-3 transition hover:bg-indigo-100">
+			<li
+				class="py-5 border-2 border-dashed border-red-300-b px-3 transition hover:bg-indigo-100"
+			>
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a href="#" class="flex justify-between items-center">
-					<h3 class="text-lg font-semibold">Akhil Gautam</h3>
-					<p class="text-md text-gray-400">23m ago</p>
+					<h3 class="text-lg text-slate-900 font-semibold">Akhil Gautam</h3>
+					<p class="text-md text-slate-400">23m ago</p>
 				</a>
-				<div class="text-md italic text-gray-400">You have been invited!</div>
+				<div class="text-md italic text-slate-400">You have been invited!</div>
 			</li>
-			<li class="py-5 border-b px-3 bg-indigo-600 text-white">
+			<li
+				class="py-5 border-2 border-dashed border-red-300-b px-3 bg-indigo-600 text-indigo-50"
+			>
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a href="#" class="flex justify-between items-center">
-					<h3 class="text-lg font-semibold">Akhil Gautam</h3>
+					<h3 class="text-lg text-slate-900 font-semibold">Akhil Gautam</h3>
 					<p class="text-md">23m ago</p>
 				</a>
 				<div class="text-md">You have been invited!</div>
 			</li>
-			<li class="py-5 border-b px-3 transition hover:bg-indigo-100">
+			<li
+				class="py-5 border-2 border-dashed border-red-300-b px-3 transition hover:bg-indigo-100"
+			>
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a href="#" class="flex justify-between items-center">
-					<h3 class="text-lg font-semibold">Akhil Gautam</h3>
-					<p class="text-md text-gray-400">23m ago</p>
+					<h3 class="text-lg text-slate-900 font-semibold">Akhil Gautam</h3>
+					<p class="text-md text-slate-400">23m ago</p>
 				</a>
-				<div class="text-md italic text-gray-400">You have been invited!</div>
+				<div class="text-md italic text-slate-400">You have been invited!</div>
 			</li>
-			<li class="py-5 border-b px-3 transition hover:bg-indigo-100">
+			<li
+				class="py-5 border-2 border-dashed border-red-300-b px-3 transition hover:bg-indigo-100"
+			>
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a href="#" class="flex justify-between items-center">
-					<h3 class="text-lg font-semibold">Akhil Gautam</h3>
-					<p class="text-md text-gray-400">23m ago</p>
+					<h3 class="text-lg text-slate-900 font-semibold">Akhil Gautam</h3>
+					<p class="text-md text-slate-400">23m ago</p>
 				</a>
-				<div class="text-md italic text-gray-400">You have been invited!</div>
+				<div class="text-md italic text-slate-400">You have been invited!</div>
 			</li>
 		</ul>
 	</section>
-	<section class="w-6/12 px-4 flex flex-col bg-white rounded-r-3xl">
-		<div class="flex justify-between items-center h-48 border-b-2 mb-8">
+	<section class="w-6/12 px-4 flex flex-col bg-indigo-50 rounded-r-3xl">
+		<div class="flex justify-between items-center h-48 mb-8">
 			<div class="flex space-x-4 items-center">
 				<div class="h-12 w-12 rounded-full overflow-hidden">
 					<img
 						alt="#"
-						src="https://bit.ly/2KfKgdy"
+						src="https://dummyimage.com/305x305"
 						loading="lazy"
 						class="h-full w-full object-cover"
 					/>
 				</div>
 				<div class="flex flex-col">
-					<h3 class="font-semibold text-lg">Akhil Gautam</h3>
-					<p class="text-light text-gray-400">akhil.gautam123@gmail.com</p>
+					<h3 class="font-semibold text-slate-900 text-lg">Akhil Gautam</h3>
+					<p class="text-light text-slate-400">akhil.gautam123@gmail.com</p>
 				</div>
 			</div>
 			<div>
-				<ul class="flex text-gray-400 space-x-4">
+				<ul class="flex text-slate-900 space-x-4">
 					<li class="w-6 h-6">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -297,9 +326,9 @@
 			</div>
 		</div>
 		<section>
-			<h1 class="font-bold text-2xl">We need UI/UX designer</h1>
+			<h1 class="font-bold text-slate-900 text-2xl">We need UI/UX designer</h1>
 			<!-- svelte-ignore a11y-invalid-attribute -->
-			<article class="mt-8 text-gray-500 leading-7 tracking-wider">
+			<article class="mt-8 text-slate-500 leading-7 tracking-wider">
 				<p>Hi Akhil,</p>
 				<p>
 					Design and develop enterprise-facing UI and consumer-facing UI as well
@@ -314,7 +343,7 @@
 			</article>
 			<ul class="flex space-x-4 mt-12">
 				<li
-					class="w-10 h-10 border rounded-lg p-1 cursor-pointer transition duration-200 text-indigo-600 hover:bg-blue-100"
+					class="w-10 h-10 border-2 border-dashed border-red-300 rounded-lg p-1 cursor-pointer transition duration-200 text-indigo-600 hover:bg-blue-100"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -331,7 +360,7 @@
 					</svg>
 				</li>
 				<li
-					class="w-10 h-10 border rounded-lg p-1 cursor-pointer transition duration-200 text-blue-800 hover:bg-blue-100"
+					class="w-10 h-10 border-2 border-dashed border-red-300 rounded-lg p-1 cursor-pointer transition duration-200 text-blue-800 hover:bg-blue-100"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -348,7 +377,7 @@
 					</svg>
 				</li>
 				<li
-					class="w-10 h-10 border rounded-lg p-1 cursor-pointer transition duration-200 text-pink-400 hover:bg-blue-100"
+					class="w-10 h-10 border-2 border-dashed border-red-300 rounded-lg p-1 cursor-pointer transition duration-200 text-pink-400 hover:bg-blue-100"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -365,7 +394,7 @@
 					</svg>
 				</li>
 				<li
-					class="w-10 h-10 border rounded-lg p-1 cursor-pointer transition duration-200 text-yellow-500 hover:bg-blue-100"
+					class="w-10 h-10 border-2 border-dashed border-red-300 rounded-lg p-1 cursor-pointer transition duration-200 text-yellow-500 hover:bg-blue-100"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -389,14 +418,14 @@
 				</li>
 			</ul>
 		</section>
-		<section class="mt-6 border rounded-xl bg-gray-50 mb-3">
+		<section class="mt-6 rounded-xl bg-slate-50 mb-3">
 			<textarea
-				class="w-full bg-gray-50 p-2 rounded-xl"
+				class=" border-2 border-dashed border-red-300 w-full bg-slate-50 p-2 rounded-xl"
 				placeholder="Type your reply here..."
 				rows="3"
 			/>
 			<div class="flex items-center justify-between p-2">
-				<button class="h-6 w-6 text-gray-400">
+				<button class="h-6 w-6 text-slate-400">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
@@ -411,7 +440,7 @@
 						/>
 					</svg>
 				</button>
-				<button class="bg-purple-600 text-white px-6 py-2 rounded-xl"
+				<button class="bg-indigo-600 text-indigo-50 px-6 py-2 rounded-xl"
 					>Reply</button
 				>
 			</div>

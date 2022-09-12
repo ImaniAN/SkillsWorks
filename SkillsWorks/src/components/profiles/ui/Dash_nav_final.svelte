@@ -20,39 +20,39 @@
 					</div>
 					<div class="hidden md:block">
 						<div class="ml-10 flex items-baseline space-x-4">
-							<!-- Current: "bg-slate-900 text-white", Default: "text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600  focus:text-indigo-900 focus:bg-indigo-50   hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50" -->
+							<!-- Current: "bg-slate-900 text-indigo-50", Default: "text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50" -->
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a
 								href="#"
-								class="bg-slate-900 text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600  focus:text-indigo-900 focus:bg-indigo-50   hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
+								class="bg-slate-900 text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 								aria-current="page">Dashboard</a
 							>
 
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a
 								href="#"
-								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600  focus:text-indigo-900 focus:bg-indigo-50   hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 								>Team</a
 							>
 
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a
 								href="#"
-								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600  focus:text-indigo-900 focus:bg-indigo-50   hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 								>Projects</a
 							>
 
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a
 								href="#"
-								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600  focus:text-indigo-900 focus:bg-indigo-50   hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 								>Calendar</a
 							>
 
 							<!-- svelte-ignore a11y-invalid-attribute -->
 							<a
 								href="#"
-								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600  focus:text-indigo-900 focus:bg-indigo-50   hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 								>Reports</a
 							>
 						</div>
@@ -62,7 +62,7 @@
 					<div class="ml-4 flex items-center md:ml-6">
 						<button
 							type="button"
-							class="bg-slate-800 p-1 rounded-full text-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-600  focus:text-indigo-900 focus:bg-indigo-50 cursor-pointer hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
+							class="bg-slate-800 p-1 rounded-full text-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 cursor-pointer hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
 						>
 							<span class="sr-only">View notifications</span>
 							<!-- Heroicon name: outline/bell -->
@@ -103,17 +103,17 @@
 							</div>
 
 							<!--
-                Dropdown menu, show/hide based on menu state.
+    Dropdown menu, show/hide based on menu state.
 
-                Entering: "transition ease-out duration-100"
-                  From: "transform opacity-0 scale-95"
-                  To: "transform opacity-100 scale-100"
-                Leaving: "transition ease-in duration-75"
-                  From: "transform opacity-100 scale-100"
-                  To: "transform opacity-0 scale-95"
-              -->
+    Entering: "transition ease-out duration-100"
+   From: "transform opacity-0 scale-95"
+   To: "transform opacity-100 scale-100"
+    Leaving: "transition ease-in duration-75"
+   From: "transform opacity-100 scale-100"
+   To: "transform opacity-0 scale-95"
+   -->
 							<div
-								class="z-10 origin-top-right absolute right-0 mt-2 w-96 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+								class="z-10 origin-top-right absolute right-0 mt-2 w-96 rounded-md shadow-lg py-1 bg-indigo-50 ring-1 ring-black ring-opacity-5 focus:outline-none"
 								role="menu"
 								aria-orientation="vertical"
 								aria-labelledby="user-menu-button"
@@ -128,16 +128,16 @@
 					<!-- Mobile menu button -->
 					<button
 						type="button"
-						class="bg-slate-800 inline-flex items-center justify-center p-2 rounded-md text-slate-400 hover:text-white hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-800 focus:ring-white"
+						class="bg-slate-800 inline-flex items-center justify-center p-2 rounded-md text-slate-400 hover:text-indigo-50 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-800 focus:ring-white"
 						aria-controls="mobile-menu"
 						aria-expanded="false"
 					>
 						<span class="sr-only">Open main menu</span>
 						<!--
-              Heroicon name: outline/menu
+   Heroicon name: outline/menu
 
-              Menu open: "hidden", Menu closed: "block"
-            -->
+   Menu open: "hidden", Menu closed: "block"
+  -->
 						<svg
 							class="block h-6 w-6"
 							xmlns="http://www.w3.org/2000/svg"
@@ -154,10 +154,10 @@
 							/>
 						</svg>
 						<!--
-              Heroicon name: outline/x
+   Heroicon name: outline/x
 
-              Menu open: "block", Menu closed: "hidden"
-            -->
+   Menu open: "block", Menu closed: "hidden"
+  -->
 						<svg
 							class="hidden h-6 w-6"
 							xmlns="http://www.w3.org/2000/svg"
@@ -181,39 +181,39 @@
 		<!-- Mobile menu, show/hide based on menu state. -->
 		<div class="md:hidden" id="mobile-menu">
 			<div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-				<!-- Current: "bg-slate-900 text-white", Default: "text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600  focus:text-indigo-900 focus:bg-indigo-50   hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50" -->
+				<!-- Current: "bg-slate-900 text-indigo-50", Default: "text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50" -->
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a
 					href="#"
-					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600  focus:text-indigo-900 focus:bg-indigo-50   hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
+					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 					aria-current="page">Dashboard</a
 				>
 
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a
 					href="#"
-					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600  focus:text-indigo-900 focus:bg-indigo-50   hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
+					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 					>Team</a
 				>
 
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a
 					href="#"
-					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600  focus:text-indigo-900 focus:bg-indigo-50   hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
+					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 					>Projects</a
 				>
 
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a
 					href="#"
-					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600  focus:text-indigo-900 focus:bg-indigo-50   hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
+					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 					>Calendar</a
 				>
 
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a
 					href="#"
-					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600  focus:text-indigo-900 focus:bg-indigo-50   hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
+					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 					>Reports</a
 				>
 			</div>
@@ -227,7 +227,7 @@
 						/>
 					</div>
 					<div class="ml-3">
-						<div class="text-base font-medium leading-none text-white">
+						<div class="text-base font-medium leading-none text-indigo-50">
 							Tom Cook
 						</div>
 						<div class="text-sm font-medium leading-none text-slate-400">
@@ -236,7 +236,7 @@
 					</div>
 					<button
 						type="button"
-						class="ml-auto bg-slate-800 flex-shrink-0 p-1 rounded-full text-slate-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-800 focus:ring-white"
+						class="ml-auto bg-slate-800 flex-shrink-0 p-1 rounded-full text-slate-400 hover:text-indigo-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-800 focus:ring-white"
 					>
 						<span class="sr-only">View notifications</span>
 						<!-- Heroicon name: outline/bell -->
@@ -264,7 +264,7 @@
 		</div>
 	</nav>
 	<!-- <Banner /> -->
-	<header class="bg-white shadow">
+	<header class="bg-indigo-50 shadow">
 		<div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
 			<h1 class="text-3xl tracking-tight font-bold text-slate-900">
 				Dashboard
@@ -279,7 +279,7 @@
 					class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto bg-slate-50"
 				>
 					<div
-						class="w-11/12 h-full sm:hidden md:flex flex-auto items-end justify-end overflow-hidden bg-yellow-200 text-white bg-no-repeat bg-cover relative"
+						class="w-11/12 h-full sm:hidden md:flex flex-auto items-end justify-end overflow-hidden bg-yellow-200 text-indigo-50 bg-no-repeat bg-cover relative"
 					>
 						<div
 							class="absolute bg-gradient-to-b from-white to-indigo-900 opacity-25 inset-0 z-0"

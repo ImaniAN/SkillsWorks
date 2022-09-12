@@ -3,12 +3,12 @@
 		<div
 			class="flex flex-col items-center gap-4 p-6 bg-indigo-600 rounded-lg shadow-lg sm:flex-row sm:justify-between"
 		>
-			<strong class="text-xl text-white sm:text-xl">
+			<strong class="text-xl text-indigo-50 sm:text-xl">
 				Make Your Next Career Move!
 			</strong>
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
-				class="inline-flex items-center px-8 py-3 text-indigo-600 bg-white border border-white rounded-full hover:bg-transparent hover:text-white active:bg-white/90 focus:outline-none focus:ring"
+				class="inline-flex items-center px-8 py-3 text-indigo-600 bg-indigo-50 border border-white rounded-full hover:bg-transparent hover:text-indigo-50 active:bg-indigo-50/90 focus:outline-none focus:ring"
 				href="#"
 			>
 				<span class="text-sm font-medium"> Let's Get Started </span>
@@ -33,34 +33,46 @@
 
 		<div class="grid grid-cols-1 gap-8 mt-16 sm:grid-cols-2 lg:grid-cols-4">
 			<div class="text-center sm:text-left">
-				<p class="text-lg font-medium text-white">About Us</p>
+				<p class="text-lg font-medium text-indigo-50">About Us</p>
 
 				<nav class="mt-8">
 					<ul class="space-y-4 text-sm">
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
-							<a class="text-white transition hover:text-white/75" href="#">
+							<a
+								class="text-indigo-50 transition hover:text-indigo-50/75"
+								href="#"
+							>
 								Company History
 							</a>
 						</li>
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
-							<a class="text-white transition hover:text-white/75" href="#">
+							<a
+								class="text-indigo-50 transition hover:text-indigo-50/75"
+								href="#"
+							>
 								Meet the Team
 							</a>
 						</li>
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
-							<a class="text-white transition hover:text-white/75" href="#">
+							<a
+								class="text-indigo-50 transition hover:text-indigo-50/75"
+								href="#"
+							>
 								Employee Handbook
 							</a>
 						</li>
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
-							<a class="text-white transition hover:text-white/75" href="#">
+							<a
+								class="text-indigo-50 transition hover:text-indigo-50/75"
+								href="#"
+							>
 								Careers
 							</a>
 						</li>
@@ -70,34 +82,46 @@
 			<!--END:()-->
 
 			<div class="text-center sm:text-left">
-				<p class="text-lg font-medium text-white">Our Services</p>
+				<p class="text-lg font-medium text-indigo-50">Our Services</p>
 
 				<nav class="mt-8">
 					<ul class="space-y-4 text-sm">
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
-							<a class="text-white transition hover:text-white/75" href="#">
+							<a
+								class="text-indigo-50 transition hover:text-indigo-50/75"
+								href="#"
+							>
 								Web Development
 							</a>
 						</li>
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
-							<a class="text-white transition hover:text-white/75" href="#">
+							<a
+								class="text-indigo-50 transition hover:text-indigo-50/75"
+								href="#"
+							>
 								Web Design
 							</a>
 						</li>
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
-							<a class="text-white transition hover:text-white/75" href="#">
+							<a
+								class="text-indigo-50 transition hover:text-indigo-50/75"
+								href="#"
+							>
 								Marketing
 							</a>
 						</li>
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
-							<a class="text-white transition hover:text-white/75" href="#">
+							<a
+								class="text-indigo-50 transition hover:text-indigo-50/75"
+								href="#"
+							>
 								Google Ads
 							</a>
 						</li>
@@ -107,41 +131,56 @@
 			<!--END:()-->
 
 			<div class="text-center sm:text-left">
-				<p class="text-lg font-medium text-white">Resources</p>
+				<p class="text-lg font-medium text-indigo-50">Resources</p>
 
 				<nav class="mt-8">
 					<ul class="space-y-4 text-sm">
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
-							<a class="text-white transition hover:text-white/75" href="#">
+							<a
+								class="text-indigo-50 transition hover:text-indigo-50/75"
+								href="#"
+							>
 								Online Guides
 							</a>
 						</li>
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
-							<a class="text-white transition hover:text-white/75" href="#">
+							<a
+								class="text-indigo-50 transition hover:text-indigo-50/75"
+								href="#"
+							>
 								Conference Notes
 							</a>
 						</li>
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
-							<a class="text-white transition hover:text-white/75" href="#">
+							<a
+								class="text-indigo-50 transition hover:text-indigo-50/75"
+								href="#"
+							>
 								Forum
 							</a>
 						</li>
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
-							<a class="text-white transition hover:text-white/75" href="#">
+							<a
+								class="text-indigo-50 transition hover:text-indigo-50/75"
+								href="#"
+							>
 								Downloads
 							</a>
 						</li>
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
-							<a class="text-white transition hover:text-white/75" href="#">
+							<a
+								class="text-indigo-50 transition hover:text-indigo-50/75"
+								href="#"
+							>
 								Upcoming Events
 							</a>
 						</li>
@@ -151,20 +190,26 @@
 			<!--END:()-->
 
 			<div class="text-center sm:text-left">
-				<p class="text-lg font-medium text-white">Helpful Links</p>
+				<p class="text-lg font-medium text-indigo-50">Helpful Links</p>
 
 				<nav class="mt-8">
 					<ul class="space-y-4 text-sm">
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
-							<a class="text-white transition hover:text-white/75" href="#">
+							<a
+								class="text-indigo-50 transition hover:text-indigo-50/75"
+								href="#"
+							>
 								FAQs
 							</a>
 						</li>
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
-							<a class="text-white transition hover:text-white/75" href="#">
+							<a
+								class="text-indigo-50 transition hover:text-indigo-50/75"
+								href="#"
+							>
 								Support
 							</a>
 						</li>
@@ -175,7 +220,9 @@
 								class="flex group justify-center gap-1.5 sm:justify-start"
 								href="#"
 							>
-								<span class="text-white transition group-hover:text-white/75">
+								<span
+									class="text-indigo-50 transition group-hover:text-indigo-50/75"
+								>
 									Live Chat
 								</span>
 

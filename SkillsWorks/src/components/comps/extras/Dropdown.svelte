@@ -1,4 +1,4 @@
-<div class="inline-flex items-stretch bg-white border rounded-md">
+<div class="inline-flex items-stretch bg-indigo-50 border rounded-md">
 	<a
 		href="/edit"
 		class="px-4 py-2 text-sm text-slate-600 hover:text-slate-700 hover:bg-slate-50 rounded-l-md"
@@ -26,7 +26,7 @@
 		</button>
 
 		<div
-			class="absolute right-0 z-10 w-56 mt-4 origin-top-right bg-white border border-indigo-100 rounded-md shadow-lg"
+			class="absolute right-0 z-10 w-56 mt-4 origin-top-right bg-indigo-50 border border-indigo-100 rounded-md shadow-lg"
 			role="menu"
 		>
 			<div class="flow-root py-2">
