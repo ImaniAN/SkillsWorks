@@ -34,6 +34,7 @@
 		<!--END:()-->
 		<nav class="flex flex-col mt-6 space-y-1">
 			<!-- svelte-ignore a11y-invalid-attribute -->
+
 			<a
 				href="#"
 				class="hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-700 bg-indigo-100 rounded-lg"
@@ -150,6 +151,7 @@
 			</details>
 
 			<!-- svelte-ignore a11y-invalid-attribute -->
+
 			<a
 				href="#"
 				class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
@@ -173,6 +175,7 @@
 			</a>
 
 			<!-- svelte-ignore a11y-invalid-attribute -->
+
 			<a
 				href="#"
 				class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
@@ -311,6 +314,7 @@
 	<!--END:()-->
 
 	<div class="sticky inset-x-0 bottom-0 border-t border-indigo-100">
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a
 			href="#"

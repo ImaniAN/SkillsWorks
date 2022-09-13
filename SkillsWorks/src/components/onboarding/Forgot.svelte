@@ -1,9 +1,9 @@
 <div class="flex justify-center w-screen">
 	<div
-		class="flex justify-center w-screen max-w-lg flex-col px-8 py-8 bg-indigo-50 rounded-lg shadow dark:bg-slate-800"
+		class="flex justify-center w-screen max-w-lg flex-col px-8 py-8 rounded-lg shadow bg-green-200"
 	>
 		<div
-			class="self-center mb-6 text-xl font-light text-slate-600 sm:text-2xl dark:text-indigo-50"
+			class="self-center mb-6 text-xl font-light  sm:text-2xl text-slate-600"
 		>
 			Recover your Your Account
 		</div>
@@ -12,13 +12,13 @@
 		<div class="mt-8">
 			<form action="#">
 				<div class="flex flex-col mb-2">
-					<label for="-email" class="text-slate-200">
+					<label for="-email" class="text-slate-600">
 						Email
-						<span class="text-red-500 -dot"> * </span>
+						<span class="text-red-500"> * </span>
 					</label>
 					<div class="flex relative ">
 						<span
-							class="rounded-l-md inline-flex items-center px-3 border-t bg-indigo-50 border-l border-b border-red-300 text-slate-500 shadow-sm text-sm"
+							class="rounded-l-md inline-flex items-center px-3 bg-indigo-50  text-slate-500 shadow-sm text-sm"
 						>
 							<svg
 								width="15"

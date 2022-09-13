@@ -3,8 +3,8 @@
 		<div class="text-sm breadcrumbs bg-slate-800">
 			<ul>
 				<li>
-					<!-- svelte-ignore a11y-missing-attribute -->
-					<a>
+					<!-- svelte-ignore a11y-invalid-attribute -->
+					<a href="#">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
@@ -22,8 +22,8 @@
 					</a>
 				</li>
 				<li>
-					<!-- svelte-ignore a11y-missing-attribute -->
-					<a>
+					<!-- svelte-ignore a11y-invalid-attribute -->
+					<a href="#">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
@@ -103,6 +103,7 @@
 									ipsum dolor sit amet, consectetur adipisicing elit.
 								</p>
 
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a
 									class="inline-block px-12 py-3 mt-8 text-sm font-medium text-indigo-50 bg-indigo-600 border border-indigo-600 rounded active:text-indigo-500 hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring"
 									href="/contact"
@@ -235,7 +236,7 @@
 									id="toy"
 									type="checkbox"
 									name="type[toy]"
-									class="w-5 h-5 border-red-300 rounded"
+									class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 								/>
 
 								<label for="toy" class="ml-3 text-sm font-medium"> Toy </label>
@@ -247,7 +248,7 @@
 									id="game"
 									type="checkbox"
 									name="type[game]"
-									class="w-5 h-5 border-red-300 rounded"
+									class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 								/>
 
 								<label for="game" class="ml-3 text-sm font-medium">
@@ -261,7 +262,7 @@
 									id="outdoor"
 									type="checkbox"
 									name="type[outdoor]"
-									class="w-5 h-5 border-red-300 rounded"
+									class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 								/>
 
 								<label for="outdoor" class="ml-3 text-sm font-medium">
@@ -294,7 +295,7 @@
 										id="3+"
 										type="checkbox"
 										name="age[3+]"
-										class="w-5 h-5 border-red-300 rounded"
+										class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 									/>
 
 									<label for="3+" class="ml-3 text-sm font-medium"> 3+ </label>
@@ -306,7 +307,7 @@
 										id="8+"
 										type="checkbox"
 										name="age[8+]"
-										class="w-5 h-5 border-red-300 rounded"
+										class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 									/>
 
 									<label for="8+" class="ml-3 text-sm font-medium"> 8+ </label>
@@ -318,7 +319,7 @@
 										id="12+"
 										type="checkbox"
 										name="age[12+]"
-										class="w-5 h-5 border-red-300 rounded"
+										class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 									/>
 
 									<label for="12+" class="ml-3 text-sm font-medium">
@@ -332,7 +333,7 @@
 										id="16+"
 										type="checkbox"
 										name="age[16+]"
-										class="w-5 h-5 border-red-300 rounded"
+										class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 									/>
 
 									<label for="16+" class="ml-3 text-sm font-medium">

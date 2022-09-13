@@ -1,5 +1,6 @@
 <ul class="flex border-b border-indigo-100">
 	<li class="flex-1">
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a class="relative block p-4" href="#">
 			<span class="absolute inset-x-0 w-full h-px bg-pink-600 -bottom-px" />
 
@@ -26,6 +27,7 @@
 	</li>
 
 	<li class="flex-1">
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a class="relative block p-4" href="#">
 			<div class="flex items-center justify-center">
 				<svg
@@ -50,6 +52,7 @@
 	</li>
 
 	<li class="flex-1">
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a class="relative block p-4" href="#">
 			<div class="flex items-center justify-center">
 				<svg
@@ -74,6 +77,7 @@
 	</li>
 
 	<li class="flex-1">
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a class="relative block p-4" href="#">
 			<div class="flex items-center justify-center">
 				<svg

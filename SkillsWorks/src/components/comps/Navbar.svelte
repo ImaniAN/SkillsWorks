@@ -23,14 +23,23 @@
 				class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
 			>
 				<!-- svelte-ignore a11y-missing-attribute -->
-				<li><a>Contact Us</a></li>
+				<li>
+					<!-- svelte-ignore a11y-invalid-attribute -->
+					<a>Contact Us</a>
+				</li>
 				<!-- svelte-ignore a11y-missing-attribute -->
-				<li><a>About Us</a></li>
+				<li>
+					<!-- svelte-ignore a11y-invalid-attribute -->
+					<a>About Us</a>
+				</li>
 				<!-- svelte-ignore a11y-missing-attribute -->
-				<li><a>FAQs</a></li>
+				<li>
+					<!-- svelte-ignore a11y-invalid-attribute -->
+					<a>FAQs</a>
+				</li>
 				<li tabindex="0">
-					<!-- svelte-ignore a11y-missing-attribute -->
-					<a class="justify-between">
+					<!-- svelte-ignore a11y-invalid-attribute -->
+					<a href="#" class="justify-between">
 						Blog
 						<svg
 							class="fill-current"
@@ -46,13 +55,25 @@
 					</a>
 					<ul class="p-2">
 						<!-- svelte-ignore a11y-missing-attribute -->
-						<li><a>Personal</a></li>
+						<li>
+							<!-- svelte-ignore a11y-invalid-attribute -->
+							<a>Personal</a>
+						</li>
 						<!-- svelte-ignore a11y-missing-attribute -->
-						<li><a>Fashion</a></li>
+						<li>
+							<!-- svelte-ignore a11y-invalid-attribute -->
+							<a>Fashion</a>
+						</li>
 						<!-- svelte-ignore a11y-missing-attribute -->
-						<li><a>Lifestyle</a></li>
+						<li>
+							<!-- svelte-ignore a11y-invalid-attribute -->
+							<a>Lifestyle</a>
+						</li>
 						<!-- svelte-ignore a11y-missing-attribute -->
-						<li><a>News</a></li>
+						<li>
+							<!-- svelte-ignore a11y-invalid-attribute -->
+							<a>News</a>
+						</li>
 					</ul>
 				</li>
 			</ul>
@@ -60,6 +81,7 @@
 		<!--END:()-->
 
 		<!-- svelte-ignore a11y-missing-attribute -->
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a class="btn btn-ghost normal-case text-xl">Home</a>
 	</div>
 	<!--END:()-->
@@ -67,13 +89,23 @@
 	<div class="navbar-center hidden lg:flex">
 		<ul class="menu menu-horizontal p-0">
 			<!-- svelte-ignore a11y-missing-attribute -->
-			<li><a>Contact Us</a></li>
+			<li>
+				<!-- svelte-ignore a11y-invalid-attribute -->
+				<a>Contact Us</a>
+			</li>
 			<!-- svelte-ignore a11y-missing-attribute -->
-			<li><a>About Us</a></li>
+			<li>
+				<!-- svelte-ignore a11y-invalid-attribute -->
+				<a>About Us</a>
+			</li>
 			<!-- svelte-ignore a11y-missing-attribute -->
-			<li><a>FAQs</a></li>
+			<li>
+				<!-- svelte-ignore a11y-invalid-attribute -->
+				<a>FAQs</a>
+			</li>
 			<li tabindex="0">
 				<!-- svelte-ignore a11y-missing-attribute -->
+				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a>
 					Blog
 					<svg
@@ -90,13 +122,25 @@
 				</a>
 				<ul class="p-2">
 					<!-- svelte-ignore a11y-missing-attribute -->
-					<li><a>Personal</a></li>
+					<li>
+						<!-- svelte-ignore a11y-invalid-attribute -->
+						<a>Personal</a>
+					</li>
 					<!-- svelte-ignore a11y-missing-attribute -->
-					<li><a>Fashion</a></li>
+					<li>
+						<!-- svelte-ignore a11y-invalid-attribute -->
+						<a>Fashion</a>
+					</li>
 					<!-- svelte-ignore a11y-missing-attribute -->
-					<li><a>Lifestyle</a></li>
+					<li>
+						<!-- svelte-ignore a11y-invalid-attribute -->
+						<a>Lifestyle</a>
+					</li>
 					<!-- svelte-ignore a11y-missing-attribute -->
-					<li><a>News</a></li>
+					<li>
+						<!-- svelte-ignore a11y-invalid-attribute -->
+						<a>News</a>
+					</li>
 					<li />
 				</ul>
 			</li>
@@ -107,8 +151,10 @@
 
 	<div class="navbar-end">
 		<!-- svelte-ignore a11y-missing-attribute -->
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a class="btn">Sign In</a>
 		<!-- svelte-ignore a11y-missing-attribute -->
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a class="btn">Sign Up</a>
 	</div>
 	<!--END:()-->

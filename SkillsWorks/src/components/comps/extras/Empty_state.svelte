@@ -8,6 +8,7 @@
 	</p>
 
 	<!-- svelte-ignore a11y-invalid-attribute -->
+	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href="#"
 		class="flex items-center justify-between px-5 py-3 mt-8 text-blue-600 border border-blue-600 rounded-lg hover:bg-blue-600 group"

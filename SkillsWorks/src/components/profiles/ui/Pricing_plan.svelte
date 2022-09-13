@@ -124,6 +124,7 @@
 			class="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto border-2 border-dashed border-pink-500"
 		>
 			<!-- svelte-ignore a11y-invalid-attribute -->
+
 			<a href="#" class="text-pink-400 inline-flex items-center md:mb-2 lg:mb-0"
 				>Learn More
 				<svg

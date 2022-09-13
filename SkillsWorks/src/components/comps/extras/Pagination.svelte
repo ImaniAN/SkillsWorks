@@ -1,5 +1,6 @@
 <ol class="flex justify-center space-x-1 text-xs font-medium">
 	<li>
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a
 			href="/?page=1"
 			class="inline-flex items-center justify-center w-8 h-8 border border-indigo-100 rounded"
@@ -20,6 +21,7 @@
 	</li>
 
 	<li>
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a
 			href="/?page=1"
 			class="block w-8 h-8 leading-8 text-center border border-indigo-100 rounded"
@@ -35,6 +37,7 @@
 	</li>
 
 	<li>
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a
 			href="/?page=3"
 			class="block w-8 h-8 leading-8 text-center border border-indigo-100 rounded"
@@ -44,6 +47,7 @@
 	</li>
 
 	<li>
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a
 			href="/?page=4"
 			class="block w-8 h-8 leading-8 text-center border border-indigo-100 rounded"
@@ -53,6 +57,7 @@
 	</li>
 
 	<li>
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a
 			href="/?page=3"
 			class="inline-flex items-center justify-center w-8 h-8 border border-indigo-100 rounded"
@@ -75,6 +80,7 @@
 
 <ol class="flex justify-center space-x-1 text-xs font-medium">
 	<li>
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a
 			href="/?page=1"
 			class="inline-flex items-center justify-center w-8 h-8 border border-indigo-100 rounded-full"
@@ -95,6 +101,7 @@
 	</li>
 
 	<li>
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a
 			href="/?page=1"
 			class="block w-8 h-8 leading-8 text-center border border-indigo-100 rounded-full"
@@ -110,6 +117,7 @@
 	</li>
 
 	<li>
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a
 			href="/?page=3"
 			class="block w-8 h-8 leading-8 text-center border border-indigo-100 rounded-full"
@@ -119,6 +127,7 @@
 	</li>
 
 	<li>
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a
 			href="/?page=4"
 			class="block w-8 h-8 leading-8 text-center border border-indigo-100 rounded-full"
@@ -128,6 +137,7 @@
 	</li>
 
 	<li>
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a
 			href="/?page=3"
 			class="inline-flex items-center justify-center w-8 h-8 border border-indigo-100 rounded-full"
@@ -149,6 +159,7 @@
 </ol>
 
 <div class="inline-flex items-center justify-center space-x-3">
+	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href="/?page=1"
 		class="inline-flex items-center justify-center w-8 h-8 border border-indigo-100 rounded"
@@ -173,6 +184,7 @@
 		12
 	</p>
 
+	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href="/?page=3"
 		class="inline-flex items-center justify-center w-8 h-8 border border-indigo-100 rounded"
@@ -195,6 +207,7 @@
 <div
 	class="inline-flex items-center justify-center py-1 text-indigo-50 bg-blue-600 rounded"
 >
+	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a href="/?page=1" class="inline-flex items-center justify-center w-8 h-8">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -221,6 +234,7 @@
 
 	<span class="w-px h-4 bg-indigo-50/25" />
 
+	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a href="/?page=3" class="inline-flex items-center justify-center w-8 h-8">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"

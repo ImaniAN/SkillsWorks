@@ -1,3 +1,4 @@
+<!-- svelte-ignore a11y-invalid-attribute -->
 <a
 	class="relative block border border-indigo-100"
 	href="/product/build-your-own-drone"

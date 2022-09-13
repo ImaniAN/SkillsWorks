@@ -1,4 +1,5 @@
 <div class="inline-flex items-stretch bg-indigo-50 border rounded-md">
+	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href="/edit"
 		class="px-4 py-2 text-sm text-slate-600 hover:text-slate-700 hover:bg-slate-50 rounded-l-md"
@@ -39,6 +40,7 @@
 						</strong>
 
 						<!-- svelte-ignore a11y-invalid-attribute -->
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
 							class="block px-4 py-2 text-sm text-slate-500 rounded-lg hover:bg-slate-50 hover:text-slate-700"
@@ -47,6 +49,7 @@
 							View on Storefront
 						</a>
 
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
@@ -57,6 +60,7 @@
 						</a>
 
 						<!-- svelte-ignore a11y-invalid-attribute -->
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
 							class="block px-4 py-2 text-sm text-slate-500 rounded-lg hover:bg-slate-50 hover:text-slate-700"
@@ -65,6 +69,7 @@
 							Duplicate Product
 						</a>
 
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"

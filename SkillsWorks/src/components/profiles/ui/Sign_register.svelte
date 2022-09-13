@@ -75,7 +75,7 @@
 										<input
 											id="customCheckLogin"
 											type="checkbox"
-											class="form-checkbox border-0 rounded text-slate-700 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<span class="ml-2 text-sm font-semibold text-slate-600">
 											Remember me
@@ -97,13 +97,16 @@
 					<div class="flex flex-wrap mt-6 relative">
 						<div class="w-1/2">
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a href="#" class="text-slate-200">
 								<small>Forgot password?</small>
 							</a>
 						</div>
 						<div class="w-1/2 text-right">
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a href="#" class="text-slate-200">
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- <a use:link href="/auth/register" class="text-slate-200"> -->
 								<small>Create new account</small>
 							</a>
@@ -205,10 +208,11 @@
 										<input
 											id="customCheckLogin"
 											type="checkbox"
-											class="form-checkbox border-0 rounded text-slate-700 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<span class="ml-2 text-sm font-semibold text-slate-600">
 											I agree with the
+											<!-- svelte-ignore a11y-invalid-attribute -->
 											<a
 												href="#pablo"
 												on:click={(e) => e.preventDefault()}

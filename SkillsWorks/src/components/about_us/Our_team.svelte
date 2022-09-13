@@ -29,6 +29,7 @@
 						</p>
 						<span class="inline-flex">
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a href="#" class="text-indigo-700">
 								<svg
 									fill="none"
@@ -45,6 +46,7 @@
 								</svg>
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a href="#" class="ml-9 text-indigo-700">
 								<svg
 									fill="none"
@@ -61,6 +63,7 @@
 								</svg>
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a href="#" class="ml-9 text-indigo-700">
 								<svg
 									fill="none"
@@ -98,6 +101,7 @@
 						</p>
 						<span class="inline-flex">
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a href="#" class="text-indigo-700">
 								<svg
 									fill="none"
@@ -114,6 +118,7 @@
 								</svg>
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a href="#" class="ml-9 text-indigo-700">
 								<svg
 									fill="none"
@@ -130,6 +135,7 @@
 								</svg>
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a href="#" class="ml-9 text-indigo-700">
 								<svg
 									fill="none"
@@ -167,6 +173,7 @@
 						</p>
 						<span class="inline-flex">
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a href="#" class="text-indigo-700">
 								<svg
 									fill="none"
@@ -183,6 +190,7 @@
 								</svg>
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a href="#" class="ml-9 text-indigo-700">
 								<svg
 									fill="none"
@@ -199,6 +207,7 @@
 								</svg>
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a href="#" class="ml-9 text-indigo-700">
 								<svg
 									fill="none"
@@ -236,6 +245,7 @@
 						</p>
 						<span class="inline-flex">
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a href="#" class="text-indigo-700">
 								<svg
 									fill="none"
@@ -252,6 +262,7 @@
 								</svg>
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a href="#" class="ml-9 text-indigo-700">
 								<svg
 									fill="none"
@@ -268,6 +279,7 @@
 								</svg>
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a href="#" class="ml-9 text-indigo-700">
 								<svg
 									fill="none"

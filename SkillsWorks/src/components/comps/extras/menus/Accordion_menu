@@ -69,6 +69,7 @@
 		<nav class="mt-1.5 ml-8 flex flex-col">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<!-- svelte-ignore a11y-invalid-attribute -->
+
 			<a
 				href="#"
 				class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
@@ -92,6 +93,7 @@
 			</a>
 
 			<!-- svelte-ignore a11y-invalid-attribute -->
+
 			<a
 				href="#"
 				class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
@@ -117,6 +119,7 @@
 	</details>
 
 	<!-- svelte-ignore a11y-invalid-attribute -->
+	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href="#"
 		class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
@@ -139,6 +142,7 @@
 		<span class="ml-3 text-sm font-medium"> Billing </span>
 	</a>
 
+	<!-- svelte-ignore a11y-invalid-attribute -->
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href="#"
@@ -204,6 +208,7 @@
 		<nav class="mt-1.5 ml-8 flex flex-col">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<!-- svelte-ignore a11y-invalid-attribute -->
+
 			<a
 				href="#"
 				class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
@@ -227,6 +232,7 @@
 			</a>
 
 			<!-- svelte-ignore a11y-invalid-attribute -->
+
 			<a
 				href="#"
 				class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"

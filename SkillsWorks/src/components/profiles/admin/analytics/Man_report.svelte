@@ -20,7 +20,7 @@
 						class="relative w-full px-4 max-w-full flex-grow flex-1 text-right"
 					>
 						<button
-							class="bg-indigo-500 text-indigo-50 active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+							class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 							type="button"
 						>
 							See all
@@ -262,7 +262,7 @@
 						class="relative w-full px-4 max-w-full flex-grow flex-1 text-right"
 					>
 						<button
-							class="bg-indigo-500 text-indigo-50 active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+							class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 							type="button"
 						>
 							See all
@@ -517,6 +517,7 @@
 								range.
 							</p>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a href="#" class="font-normal text-red-500"> Show more </a>
 						</div>
 					</div>
@@ -533,7 +534,7 @@
 				<div class="text-center flex justify-between">
 					<h6 class="text-slate-900 text-xl font-bold">My account</h6>
 					<button
-						class="bg-red-400 text-indigo-50 active:bg-red-500 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
+						class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 						type="button"
 					>
 						Settings
@@ -557,6 +558,7 @@
 								<input
 									id="grid-username"
 									type="text"
+									placeholder=""
 									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
 									value="lucky.jesse"
 								/>
@@ -589,6 +591,7 @@
 								<input
 									id="grid-first-name"
 									type="text"
+									placeholder=""
 									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
 									value="Lucky"
 								/>
@@ -605,6 +608,7 @@
 								<input
 									id="grid-last-name"
 									type="text"
+									placeholder=""
 									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
 									value="Jesse"
 								/>
@@ -629,6 +633,7 @@
 								<input
 									id="grid-address"
 									type="text"
+									placeholder=""
 									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
 									value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
 								/>
@@ -661,6 +666,7 @@
 								<input
 									id="grid-country"
 									type="text"
+									placeholder=""
 									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
 									value="United States"
 								/>
@@ -677,6 +683,7 @@
 								<input
 									id="grid-postal-code"
 									type="text"
+									placeholder=""
 									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
 									value="Postal Code"
 								/>
@@ -701,6 +708,7 @@
 								<textarea
 									id="grid-about-me"
 									type="text"
+									placeholder=""
 									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
 									rows="4"
 									value="A beautiful UI Kit and Admin for Svelte & Tailwind CSS. It is Free
@@ -763,6 +771,7 @@
 						</tr>
 					</thead>
 					<tbody>
+						<!--TODO:(Add that cool ui thing that makes the images float and do cool stuff when you click on it... it rises and stays selected... Check the comps file under extras) -->
 						<tr>
 							<th
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center"

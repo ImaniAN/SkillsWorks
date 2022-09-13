@@ -8,16 +8,14 @@
 </script>
 
 <div>
-	<!-- <AuthNavbar /> -->
+	<!--<authNavbar /> -->
 	<main>
 		<div
 			class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
 		>
 			<div
 				class="absolute top-0 w-full h-full bg-center bg-cover"
-				style="
-   background-image: url(https://dummyimage.com/305x305);
-  "
+				style="background-image: url(https://dummyimage.com/305x305);"
 			>
 				<span
 					id="blackOverlay"
@@ -91,7 +89,7 @@
 						>
 							<div class="px-4 py-5 flex-auto">
 								<div
-									class="text-indigo-50 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400"
+									class="text-indigo-50 p-2 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400"
 								>
 									<i class="fas fa-retweet" />
 								</div>
@@ -153,8 +151,8 @@
 							faster. You can change the text and images and you're good to go.
 							Just make sure you enable them first via JavaScript.
 						</p>
-						<a href="/" class="font-bold text-slate-700 mt-8">
-							<!-- <a use:link href="/" class="font-bold text-slate-700 mt-8"> -->
+						<!-- svelte-ignore a11y-invalid-attribute -->
+						<a href="#" class="font-bold text-slate-700 mt-8">
 							Check Notus Svelte!
 						</a>
 					</div>
@@ -195,7 +193,7 @@
 			</div>
 		</section>
 
-		<section class="relative py-20">
+		<section class="relative py-20 bg-lime-200">
 			<div
 				class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
 				style="transform: translateZ(0);"
@@ -210,13 +208,13 @@
 					y="0"
 				>
 					<polygon
-						class="text-indigo-50 fill-current"
+						class="text-lime-200 fill-current"
 						points="2560 0 2560 100 0 100"
 					/>
 				</svg>
 			</div>
 
-			<div class="container mx-auto px-4">
+			<div class="container mx-auto px-4 ">
 				<div class="items-center flex flex-wrap">
 					<div class="w-full md:w-4/12 ml-auto mr-auto px-4">
 						<img
@@ -225,7 +223,7 @@
 							src="https://dummyimage.com/305x305"
 						/>
 					</div>
-					<div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+					<div class="w-full md:w-5/12 ml-auto mr-auto px-4 ">
 						<div class="md:pr-12">
 							<div
 								class="text-red-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-red-300"
@@ -292,7 +290,7 @@
 			</div>
 		</section>
 
-		<section class="pt-20 pb-48">
+		<section class="bg-rose-200 pt-20 pb-8">
 			<div class="container mx-auto px-4">
 				<div class="flex flex-wrap justify-center text-center mb-24">
 					<div class="w-full lg:w-6/12 px-4">
@@ -305,12 +303,12 @@
 							maximum.
 						</p>
 					</div>
+					<Our_team />
 				</div>
-				<Our_team />
 			</div>
 		</section>
 
-		<section class="pb-20 relative block bg-indigo-400">
+		<section class="pb-2 relative block bg-indigo-400">
 			<div
 				class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
 				style="transform: translateZ(0);"
@@ -331,7 +329,7 @@
 				</svg>
 			</div>
 
-			<div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+			<div class="container mx-auto px-4 lg:pt-24 lg:pb-4">
 				<div class="flex flex-wrap text-center justify-center">
 					<div class="w-full lg:w-6/12 px-4">
 						<h2 class="text-4xl font-semibold text-indigo-50">
@@ -388,9 +386,9 @@
 						</p>
 					</div>
 				</div>
+				<ContactUs />
 			</div>
 		</section>
-		<ContactUs />
 	</main>
 	<!-- <Footer /> -->
 </div>

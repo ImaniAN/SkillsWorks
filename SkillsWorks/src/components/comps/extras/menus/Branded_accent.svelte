@@ -1,5 +1,6 @@
 <nav class="flex flex-col">
 	<!-- svelte-ignore a11y-invalid-attribute -->
+	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href="#"
 		class="flex items-center border-l-[3px] hover:border-yellow-500 bg-blue-50 px-4 py-3 hover:text-blue-700"
@@ -28,6 +29,7 @@
 	</a>
 
 	<!-- svelte-ignore a11y-invalid-attribute -->
+	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href="#"
 		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-indigo-100 hover:bg-slate-200 hover:text-slate-900"
@@ -50,6 +52,7 @@
 		<span class="ml-3 text-sm font-medium"> Teams </span>
 	</a>
 
+	<!-- svelte-ignore a11y-invalid-attribute -->
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href="#"
@@ -74,6 +77,7 @@
 	</a>
 
 	<!-- svelte-ignore a11y-invalid-attribute -->
+	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href="#"
 		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-indigo-100 hover:bg-slate-50 hover:text-slate-700"
@@ -96,6 +100,7 @@
 		<span class="ml-3 text-sm font-medium"> Invoices </span>
 	</a>
 
+	<!-- svelte-ignore a11y-invalid-attribute -->
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href="#"

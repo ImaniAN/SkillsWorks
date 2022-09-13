@@ -77,6 +77,7 @@
 	<!--END:()-->
 
 	<div class="space-y-4 text-center">
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a
 			class="block p-4 text-sm border-2 border-black rounded-full hover:ring-1 hover:ring-black shadow-[0_4px_0_0_rgba(0,0,0,1)] font-medium"
 			href="/cart"
@@ -93,6 +94,7 @@
 			</button>
 		</form>
 
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a
 			class="inline-block text-sm tracking-wide underline underline-offset-4 hover:text-2xl/75"
 			href="/collections/all"

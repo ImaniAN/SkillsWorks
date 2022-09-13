@@ -98,11 +98,11 @@
 				<!--END:()-->
 
 				<div class="flex items-center justify-center space-x-2 my-5">
-					<span class="h-px w-16 bg-slate-200" />
+					<span class="h-px w-16 bg-indigo-600" />
 					<span class="text-slate-500 font-normal text-center"
 						>or continue with</span
 					>
-					<span class="h-px w-16 bg-slate-200" />
+					<span class="h-px w-16 bg-indigo-600" />
 				</div>
 				<!--END:()-->
 
@@ -209,6 +209,7 @@
 							>
 							<input
 								type="text"
+								placeholder=""
 								name="region"
 								id="region"
 								autocomplete="address-level1"
@@ -235,6 +236,24 @@
 					</div>
 					<!--END:()-->
 
+					<div class="w-full px-3">
+						<label class="inline-flex items-center cursor-pointer">
+							<span class="h-px w-16 bg-indigo-600" />
+							<input
+								required
+								id="customCheckLogin"
+								type="checkbox"
+								class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+							/>
+							<span class="ml-2 text-sm px-2 font-semibold text-slate-600">
+								I agree with the
+								<!-- svelte-ignore a11y-invalid-attribute -->
+								<a href="#" class="text-red-600"> Privacy Policy </a>
+							</span>
+							<span class="h-px w-16 bg-indigo-600" />
+						</label>
+					</div>
+
 					<div class="space-y-6 mt-6">
 						<div class="flex items-center justify-between">
 							<div class="flex items-center">
@@ -243,7 +262,7 @@
 									checked
 									name="remember_me"
 									type="checkbox"
-									class="h-4 w-4 focus:ring-indigo-400 border-indigo-900 rounded"
+									class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 								/>
 								<label
 									for="remember_me"
@@ -255,6 +274,7 @@
 							<!--END:()-->
 
 							<div class="text-sm text-right">
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-blue-900 hover:text-blue-500 ">
 									Forgot your password?
@@ -276,9 +296,9 @@
 						<!--END:()-->
 
 						<div class="flex items-center justify-center space-x-2 my-5">
-							<span class="h-px w-16 bg-slate-200" />
+							<span class="h-px w-16 bg-indigo-600" />
 							<span class="text-slate-500 font-normal text-center">OR</span>
-							<span class="h-px w-16 bg-slate-200" />
+							<span class="h-px w-16 bg-indigo-600" />
 						</div>
 						<!--END:()-->
 
@@ -298,6 +318,7 @@
 				<div class="pt-6 text-center text-slate-400 text-xs">
 					<span>
 						Copyright © 2069-2069
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="https://github.com/Fathom-Growth-Solutions"
 							rel=""

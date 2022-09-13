@@ -5,6 +5,7 @@
 		<nav class="flex flex-col mt-6 space-y-1">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<!-- svelte-ignore a11y-invalid-attribute -->
+
 			<a
 				href="#"
 				class="flex items-center px-4 py-2 text-slate-700 bg-slate-100 rounded-lg"
@@ -121,6 +122,7 @@
 			</details>
 
 			<!-- svelte-ignore a11y-invalid-attribute -->
+
 			<a
 				href="#"
 				class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
@@ -144,6 +146,7 @@
 			</a>
 
 			<!-- svelte-ignore a11y-invalid-attribute -->
+
 			<a
 				href="#"
 				class="flex items-center px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"
@@ -282,6 +285,7 @@
 	<!--END:()-->
 
 	<div class="sticky inset-x-0 bottom-0 border-t border-indigo-100">
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a
 			href="#"

@@ -28,9 +28,12 @@
 		class="flex flex-col text-sm font-medium text-slate-500 border-t border-b border-red-300 divide-y divide-slate-200"
 	>
 		<!-- svelte-ignore a11y-invalid-attribute -->
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a href="#" class="px-6 py-3"> Home </a>
 		<!-- svelte-ignore a11y-invalid-attribute -->
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a href="#" class="px-6 py-3"> About </a>
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a href="#" class="flex items-center justify-between px-6 py-3">
 			Products
@@ -50,6 +53,7 @@
 			</svg>
 		</a>
 		<!-- svelte-ignore a11y-invalid-attribute -->
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a href="#" class="flex items-center justify-between px-6 py-3">
 			Collections
 			<svg
@@ -68,11 +72,15 @@
 			</svg>
 		</a>
 		<!-- svelte-ignore a11y-invalid-attribute -->
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a href="#" class="px-6 py-3"> Services </a>
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a href="#" class="px-6 py-3"> History </a>
 		<!-- svelte-ignore a11y-invalid-attribute -->
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a href="#" class="px-6 py-3"> Contact </a>
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a href="#" class="flex items-center justify-between px-6 py-3">
 			Support
@@ -92,6 +100,7 @@
 			</svg>
 		</a>
 		<!-- svelte-ignore a11y-invalid-attribute -->
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a href="#" class="flex items-center px-6 py-3">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -109,6 +118,7 @@
 			</svg>
 			Account
 		</a>
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a href="#" class="flex items-center px-6 py-3">
 			<svg
@@ -128,9 +138,12 @@
 			Careers
 		</a>
 		<!-- svelte-ignore a11y-invalid-attribute -->
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a href="#" class="px-6 py-3"> FAQs </a>
 		<!-- svelte-ignore a11y-invalid-attribute -->
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a href="#" class="px-6 py-3"> Privacy Policy </a>
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a href="#" class="px-6 py-3"> Terms Conditions </a>
 	</nav>

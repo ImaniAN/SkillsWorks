@@ -120,6 +120,7 @@
 										intimate feel with a solid groove structure. An artist of
 										considerable range.
 									</p>
+									<!-- svelte-ignore a11y-invalid-attribute -->
 									<a
 										href="#pablo"
 										on:click={(e) => e.preventDefault()}

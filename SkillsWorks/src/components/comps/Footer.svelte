@@ -7,6 +7,7 @@
 				Make Your Next Career Move!
 			</strong>
 			<!-- svelte-ignore a11y-invalid-attribute -->
+
 			<a
 				class="inline-flex items-center px-8 py-3 text-indigo-600 bg-indigo-50 border border-white rounded-full hover:bg-transparent hover:text-indigo-50 active:bg-indigo-50/90 focus:outline-none focus:ring"
 				href="#"
@@ -39,6 +40,7 @@
 					<ul class="space-y-4 text-sm">
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								class="text-indigo-50 transition hover:text-indigo-50/75"
 								href="#"
@@ -49,6 +51,7 @@
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								class="text-indigo-50 transition hover:text-indigo-50/75"
 								href="#"
@@ -59,6 +62,7 @@
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								class="text-indigo-50 transition hover:text-indigo-50/75"
 								href="#"
@@ -69,6 +73,7 @@
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								class="text-indigo-50 transition hover:text-indigo-50/75"
 								href="#"
@@ -88,6 +93,7 @@
 					<ul class="space-y-4 text-sm">
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								class="text-indigo-50 transition hover:text-indigo-50/75"
 								href="#"
@@ -98,6 +104,7 @@
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								class="text-indigo-50 transition hover:text-indigo-50/75"
 								href="#"
@@ -108,6 +115,7 @@
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								class="text-indigo-50 transition hover:text-indigo-50/75"
 								href="#"
@@ -118,6 +126,7 @@
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								class="text-indigo-50 transition hover:text-indigo-50/75"
 								href="#"
@@ -137,6 +146,7 @@
 					<ul class="space-y-4 text-sm">
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								class="text-indigo-50 transition hover:text-indigo-50/75"
 								href="#"
@@ -147,6 +157,7 @@
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								class="text-indigo-50 transition hover:text-indigo-50/75"
 								href="#"
@@ -157,6 +168,7 @@
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								class="text-indigo-50 transition hover:text-indigo-50/75"
 								href="#"
@@ -167,6 +179,7 @@
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								class="text-indigo-50 transition hover:text-indigo-50/75"
 								href="#"
@@ -177,6 +190,7 @@
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								class="text-indigo-50 transition hover:text-indigo-50/75"
 								href="#"
@@ -196,6 +210,7 @@
 					<ul class="space-y-4 text-sm">
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								class="text-indigo-50 transition hover:text-indigo-50/75"
 								href="#"
@@ -206,6 +221,7 @@
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								class="text-indigo-50 transition hover:text-indigo-50/75"
 								href="#"
@@ -216,6 +232,7 @@
 
 						<li>
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								class="flex group justify-center gap-1.5 sm:justify-start"
 								href="#"

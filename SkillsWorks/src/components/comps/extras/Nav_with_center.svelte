@@ -5,15 +5,20 @@
 		<nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<!-- svelte-ignore a11y-missing-attribute -->
+			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a class="mr-5 hover:text-indigo-50">First Link</a>
 			<!-- svelte-ignore a11y-missing-attribute -->
+			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a class="mr-5 hover:text-indigo-50">Second Link</a>
 			<!-- svelte-ignore a11y-missing-attribute -->
+			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a class="mr-5 hover:text-indigo-50">Third Link</a>
 			<!-- svelte-ignore a11y-missing-attribute -->
+			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a class="hover:text-indigo-50">Fourth Link</a>
 		</nav>
 		<!-- svelte-ignore a11y-missing-attribute -->
+		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a
 			class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-indigo-50 lg:items-center lg:justify-center mb-4 md:mb-0"
 		>

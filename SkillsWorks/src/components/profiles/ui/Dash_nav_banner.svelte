@@ -80,12 +80,14 @@
 					<div class="flex space-x-4">
 						<!-- Current: "bg-slate-900 text-indigo-50", Default: "text-slate-300 hover:bg-slate-700 hover:text-indigo-50" -->
 						<!-- svelte-ignore a11y-invalid-attribute -->
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
 							class="bg-slate-900 text-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 							aria-current="page">Dashboard</a
 						>
 
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
@@ -94,12 +96,14 @@
 						>
 
 						<!-- svelte-ignore a11y-invalid-attribute -->
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
 							class="text-slate-300 hover:bg-slate-700 hover:text-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 							>Projects</a
 						>
 
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
@@ -173,6 +177,7 @@
 					>
 						<!-- Active: "bg-slate-100", Not Active: "" -->
 						<!-- svelte-ignore a11y-invalid-attribute -->
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
 							class="block px-4 py-2 text-sm text-slate-700"
@@ -181,6 +186,7 @@
 							id="user-menu-item-0">Your Profile</a
 						>
 						<!-- svelte-ignore a11y-invalid-attribute -->
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
 							class="block px-4 py-2 text-sm text-slate-700"
@@ -188,6 +194,7 @@
 							tabindex="-1"
 							id="user-menu-item-1">Settings</a
 						>
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
@@ -207,6 +214,7 @@
 		<div class="px-2 pt-2 pb-3 space-y-1">
 			<!-- Current: "bg-slate-900 text-indigo-50", Default: "text-slate-300 hover:bg-slate-700 hover:text-indigo-50" -->
 			<!-- svelte-ignore a11y-invalid-attribute -->
+
 			<a
 				href="#"
 				class="bg-slate-900 text-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
@@ -214,6 +222,7 @@
 			>
 
 			<!-- svelte-ignore a11y-invalid-attribute -->
+
 			<a
 				href="#"
 				class="text-slate-300 hover:bg-slate-700 hover:text-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
@@ -221,6 +230,7 @@
 			>
 
 			<!-- svelte-ignore a11y-invalid-attribute -->
+
 			<a
 				href="#"
 				class="text-slate-300 hover:bg-slate-700 hover:text-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
@@ -228,6 +238,7 @@
 			>
 
 			<!-- svelte-ignore a11y-invalid-attribute -->
+
 			<a
 				href="#"
 				class="text-slate-300 hover:bg-slate-700 hover:text-indigo-50 block px-3 py-2 rounded-md text-base font-medium"

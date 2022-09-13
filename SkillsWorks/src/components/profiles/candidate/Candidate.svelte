@@ -212,6 +212,7 @@
 					>
 						<!-- Active: "bg-slate-100", Not Active: "" -->
 						<!-- svelte-ignore a11y-invalid-attribute -->
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
 							class="block px-4 py-2 text-sm text-slate-700"
@@ -219,6 +220,7 @@
 							tabindex="-1"
 							id="mobile-menu-item-0">Edit</a
 						>
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
@@ -276,15 +278,11 @@
 										<span
 											class="inline-block h-12 w-12 rounded-full overflow-hidden bg-slate-100"
 										>
-											<svg
-												class="h-full w-full text-slate-300"
-												fill="currentColor"
-												viewBox="0 0 24 24"
-											>
-												<path
-													d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z"
-												/>
-											</svg>
+											<img
+												alt="team"
+												class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+												src="https://dummyimage.com/305x305"
+											/>
 										</span>
 										<button
 											type="button"
@@ -423,7 +421,7 @@
 							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 								<button
 									type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-indigo-50 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 									>Save</button
 								>
 							</div>
@@ -500,10 +498,11 @@
 										>
 										<input
 											type="text"
+											placeholder=""
 											name="first-name"
 											id="first-name"
 											autocomplete="given-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										/>
 									</div>
 									<!--END:()-->
@@ -516,10 +515,11 @@
 										>
 										<input
 											type="text"
+											placeholder=""
 											name="last-name"
 											id="last-name"
 											autocomplete="family-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										/>
 									</div>
 									<!--END:()-->
@@ -532,10 +532,11 @@
 										>
 										<input
 											type="text"
+											placeholder=""
 											name="email-address"
 											id="email-address"
 											autocomplete="email"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										/>
 									</div>
 									<!--END:()-->
@@ -547,8 +548,9 @@
 											>International Country Code</label
 										>
 										<select
-											id="country-code"
-											name="country-code"
+											id="title"
+											name="title"
+											autocomplete="title"
 											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											<option value="" disabled selected hidden>Click</option>
@@ -566,7 +568,7 @@
 										</label>
 
 										<input
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 											type="tel"
 											id="phone"
 											placeholder="+27 000 000 000"
@@ -582,10 +584,11 @@
 										>
 										<input
 											type="text"
+											placeholder=""
 											name="street-address"
 											id="street-address"
 											autocomplete="street-address"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										/>
 									</div>
 									<!--END:()-->
@@ -598,10 +601,11 @@
 										>
 										<input
 											type="text"
+											placeholder=""
 											name="city"
 											id="city"
 											autocomplete="address-level2"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										/>
 									</div>
 									<!--END:()-->
@@ -614,10 +618,11 @@
 										>
 										<input
 											type="text"
+											placeholder=""
 											name="region"
 											id="region"
 											autocomplete="address-level1"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										/>
 									</div>
 									<!--END:()-->
@@ -630,10 +635,11 @@
 										>
 										<input
 											type="text"
+											placeholder=""
 											name="postal-code"
 											id="postal-code"
 											autocomplete="postal-code"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										/>
 									</div>
 									<!--END:()-->
@@ -646,9 +652,10 @@
 										>
 										<input
 											type="text"
+											placeholder=""
 											name="country-name"
 											id="country-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										/>
 									</div>
 									<!--END:()-->
@@ -660,7 +667,7 @@
 							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 								<button
 									type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-indigo-50 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 									>Save</button
 								>
 							</div>
@@ -722,7 +729,7 @@
 													name="comments"
 													type="checkbox"
 													checked
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-red-300 rounded"
+													class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 												/>
 											</div>
 											<!--END:()-->
@@ -747,7 +754,7 @@
 													name="candidates"
 													type="checkbox"
 													checked
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-red-300 rounded"
+													class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 												/>
 											</div>
 											<!--END:()-->
@@ -773,7 +780,7 @@
 													name="offers"
 													type="checkbox"
 													checked
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-red-300 rounded"
+													class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 												/>
 											</div>
 											<!--END:()-->
@@ -858,7 +865,7 @@
 							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 								<button
 									type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-indigo-50 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 									>Save</button
 								>
 							</div>

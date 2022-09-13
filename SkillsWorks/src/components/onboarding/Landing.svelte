@@ -1,8 +1,8 @@
 <script>
 	// @ts-ignore
-	import About_us from '../about_us/About_us.svelte'; //Updated
+	import About_us from '../about_us/Aboutus.svelte'; //Updated
 	// import Athing from '../';
-	import Accordion_menu from '../comps/extras/menus/Accordion_menu.svelte';
+	// import Accordion_menu from '../comps/extras/menus/Accordion_menu.svelte';
 	// import Ad_man from '../profiles/admin/analytics/Adman.svelte'; //Creates aFailed to fetch dynamically imported module:TYPEERROR(NO solutions avaliable)
 	import Dets_app from '../profiles/candidate/jobs/Dets_app.svelte';
 	import Applied_jobs from '../profiles/candidate/jobs/Ex_jobs.svelte'; //Updated
@@ -50,7 +50,7 @@
 	import Signn from '../profiles/ui/Sign_register.svelte';
 	import Sign_up_form from '../onboarding/Sign_up_form.svelte'; //Updated
 	import Sub_man from '../profiles/admin/analytics/Sub_man.svelte';
-	import Accordion_Menu from '../comps/extras/menus/Accordion_menu.svelte';
+	// import Accordion_Menu from '../comps/extras/menus/Accordion_menu.svelte';
 	// import something from ''./Intro.svelte';
 	import Split_with_headings from '../comps/extras/menus/Split_with_headings.svelte';
 	import Sub_plan_card from '../comps/extras/Sub_plan_card.svelte';

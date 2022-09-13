@@ -11,7 +11,11 @@
 					<div class="form-control">
 						<label class="label cursor-pointer">
 							<span class="label-text">Hide Rejected</span>
-							<input type="checkbox" class="toggle toggle-secondary" checked />
+							<input
+								type="checkbox"
+								class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+								checked
+							/>
 						</label>
 					</div>
 					<!--END:()-->
@@ -76,6 +80,7 @@
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
+										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
 												alt="profil"
@@ -120,6 +125,7 @@
 								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview
 								</a>
@@ -131,6 +137,7 @@
 							>
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
+										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
@@ -176,6 +183,7 @@
 								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview
 								</a>
@@ -187,6 +195,7 @@
 							>
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
+										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
@@ -234,6 +243,7 @@
 								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview
 								</a>
@@ -245,6 +255,7 @@
 							>
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
+										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
@@ -290,6 +301,7 @@
 								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview
 								</a>
@@ -301,6 +313,7 @@
 							>
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
+										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
@@ -348,6 +361,7 @@
 								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview
 								</a>
@@ -359,6 +373,7 @@
 							>
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
+										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
@@ -406,6 +421,7 @@
 								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview
 								</a>
@@ -417,6 +433,7 @@
 							>
 								<div class="flex items-center">
 									<div class="flex-shrink-0">
+										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
@@ -461,6 +478,7 @@
 							<td
 								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
 							>
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="text-indigo-600 hover:text-indigo-900"
 									>Preview

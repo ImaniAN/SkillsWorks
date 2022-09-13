@@ -45,6 +45,7 @@
 				<ul class="pt-4 space-y-1 border-t border-indigo-100">
 					<li>
 						<!-- svelte-ignore a11y-invalid-attribute -->
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
 							class="flex justify-center px-2 py-1.5 text-slate-500 rounded hover:bg-slate-50 hover:text-slate-700 relative group"
@@ -73,6 +74,7 @@
 					</li>
 
 					<li>
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
@@ -103,6 +105,7 @@
 
 					<li>
 						<!-- svelte-ignore a11y-invalid-attribute -->
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
 							class="flex justify-center px-2 py-1.5 text-slate-500 rounded hover:bg-slate-50 hover:text-slate-700 relative group"
@@ -131,6 +134,7 @@
 					</li>
 
 					<li>
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"

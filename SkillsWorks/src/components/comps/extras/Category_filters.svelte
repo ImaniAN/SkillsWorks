@@ -81,25 +81,30 @@
 						<ul role="list" class="font-medium text-slate-900 px-2 py-3">
 							<li>
 								<!-- svelte-ignore a11y-invalid-attribute -->
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="block px-2 py-3"> Totes </a>
 							</li>
 
 							<li>
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="block px-2 py-3"> Backpacks </a>
 							</li>
 
 							<li>
 								<!-- svelte-ignore a11y-invalid-attribute -->
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="block px-2 py-3"> Travel Bags </a>
 							</li>
 
 							<li>
 								<!-- svelte-ignore a11y-invalid-attribute -->
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="block px-2 py-3"> Hip Bags </a>
 							</li>
 
 							<li>
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#" class="block px-2 py-3"> Laptop Sleeves </a>
 							</li>
@@ -164,7 +169,7 @@
 											name="color[]"
 											value="white"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-mobile-color-0"
@@ -181,7 +186,7 @@
 											name="color[]"
 											value="beige"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-mobile-color-1"
@@ -199,7 +204,7 @@
 											value="blue"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-mobile-color-2"
@@ -216,7 +221,7 @@
 											name="color[]"
 											value="brown"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-mobile-color-3"
@@ -233,7 +238,7 @@
 											name="color[]"
 											value="green"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-mobile-color-4"
@@ -250,7 +255,7 @@
 											name="color[]"
 											value="purple"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-mobile-color-5"
@@ -326,7 +331,7 @@
 											name="category[]"
 											value="new-arrivals"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-mobile-category-0"
@@ -343,7 +348,7 @@
 											name="category[]"
 											value="sale"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-mobile-category-1"
@@ -361,7 +366,7 @@
 											value="travel"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-mobile-category-2"
@@ -378,7 +383,7 @@
 											name="category[]"
 											value="organization"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-mobile-category-3"
@@ -395,7 +400,7 @@
 											name="category[]"
 											value="accessories"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-mobile-category-4"
@@ -471,7 +476,7 @@
 											name="size[]"
 											value="2l"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-mobile-size-0"
@@ -488,7 +493,7 @@
 											name="size[]"
 											value="6l"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-mobile-size-1"
@@ -505,7 +510,7 @@
 											name="size[]"
 											value="12l"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-mobile-size-2"
@@ -522,7 +527,7 @@
 											name="size[]"
 											value="18l"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-mobile-size-3"
@@ -539,7 +544,7 @@
 											name="size[]"
 											value="20l"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-mobile-size-4"
@@ -557,7 +562,7 @@
 											value="40l"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-mobile-size-5"
@@ -642,6 +647,7 @@
    Selected: "font-medium text-slate-900", Not Selected: "text-slate-500"
     -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a
 									href="#"
 									class="font-medium text-slate-900 block px-4 py-2 text-sm"
@@ -652,6 +658,7 @@
 									Most Popular
 								</a>
 								<!-- svelte-ignore a11y-invalid-attribute -->
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a
 									href="#"
 									class="text-slate-500 block px-4 py-2 text-sm"
@@ -661,6 +668,7 @@
 								>
 									Best Rating
 								</a>
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a
 									href="#"
@@ -673,6 +681,7 @@
 								</a>
 
 								<!-- svelte-ignore a11y-invalid-attribute -->
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a
 									href="#"
 									class="text-slate-500 block px-4 py-2 text-sm"
@@ -682,6 +691,7 @@
 								>
 									Price: Low to High
 								</a>
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a
 									href="#"
@@ -755,25 +765,30 @@
 						>
 							<li>
 								<!-- svelte-ignore a11y-invalid-attribute -->
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#"> Totes </a>
 							</li>
 
 							<li>
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#"> Backpacks </a>
 							</li>
 
 							<li>
 								<!-- svelte-ignore a11y-invalid-attribute -->
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#"> Travel Bags </a>
 							</li>
 
 							<li>
 								<!-- svelte-ignore a11y-invalid-attribute -->
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#"> Hip Bags </a>
 							</li>
 
 							<li>
+								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a href="#"> Laptop Sleeves </a>
 							</li>
@@ -838,7 +853,7 @@
 											name="color[]"
 											value="white"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-color-0"
@@ -855,7 +870,7 @@
 											name="color[]"
 											value="beige"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-color-1"
@@ -873,7 +888,7 @@
 											value="blue"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-color-2"
@@ -890,7 +905,7 @@
 											name="color[]"
 											value="brown"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-color-3"
@@ -907,7 +922,7 @@
 											name="color[]"
 											value="green"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-color-4"
@@ -924,7 +939,7 @@
 											name="color[]"
 											value="purple"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-color-5"
@@ -1000,7 +1015,7 @@
 											name="category[]"
 											value="new-arrivals"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-category-0"
@@ -1017,7 +1032,7 @@
 											name="category[]"
 											value="sale"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-category-1"
@@ -1035,7 +1050,7 @@
 											value="travel"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-category-2"
@@ -1052,7 +1067,7 @@
 											name="category[]"
 											value="organization"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-category-3"
@@ -1069,7 +1084,7 @@
 											name="category[]"
 											value="accessories"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-category-4"
@@ -1145,7 +1160,7 @@
 											name="size[]"
 											value="2l"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-size-0"
@@ -1162,7 +1177,7 @@
 											name="size[]"
 											value="6l"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-size-1"
@@ -1179,7 +1194,7 @@
 											name="size[]"
 											value="12l"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-size-2"
@@ -1196,7 +1211,7 @@
 											name="size[]"
 											value="18l"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-size-3"
@@ -1213,7 +1228,7 @@
 											name="size[]"
 											value="20l"
 											type="checkbox"
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-size-4"
@@ -1231,7 +1246,7 @@
 											value="40l"
 											type="checkbox"
 											checked
-											class="h-4 w-4 border-red-300 rounded text-indigo-600 focus:ring-indigo-500"
+											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<label
 											for="filter-size-5"

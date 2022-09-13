@@ -55,7 +55,8 @@
 	<!-- <Pagination /> -->
 	<!-- <Nav_side_small /> -->
 	<!-- <Nav_side /> -->
-	<!-- <Accordion_menu /> -->
+	<!-- <!-- svelte-ignore a11y-invalid-attribute -->
+	<accordion_menu /> -->
 	<!-- <Split_with_headings /> -->
 	<!-- <Branded_accent /> -->
 </main>

@@ -22,6 +22,7 @@
 						<div class="ml-10 flex items-baseline space-x-4">
 							<!-- Current: "bg-slate-900 text-indigo-50", Default: "text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50" -->
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								href="#"
 								class="bg-slate-900 text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
@@ -29,6 +30,7 @@
 							>
 
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								href="#"
 								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
@@ -36,6 +38,7 @@
 							>
 
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								href="#"
 								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
@@ -43,6 +46,7 @@
 							>
 
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								href="#"
 								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
@@ -50,6 +54,7 @@
 							>
 
 							<!-- svelte-ignore a11y-invalid-attribute -->
+
 							<a
 								href="#"
 								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"

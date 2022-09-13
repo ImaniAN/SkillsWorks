@@ -88,6 +88,8 @@
 									</span>
 								</div>
 								<div class="ml-4 flex-shrink-0">
+									<!-- svelte-ignore a11y-invalid-attribute -->
+									<!-- svelte-ignore a11y-invalid-attribute -->
 									<a
 										href="#"
 										class="font-medium text-indigo-600 hover:text-indigo-500"
@@ -119,6 +121,7 @@
 									</span>
 								</div>
 								<div class="ml-4 flex-shrink-0">
+									<!-- svelte-ignore a11y-invalid-attribute -->
 									<a
 										href="#"
 										class="font-medium text-indigo-600 hover:text-indigo-500"

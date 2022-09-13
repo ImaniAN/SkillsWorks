@@ -212,6 +212,7 @@
 					>
 						<!-- Active: "bg-slate-100", Not Active: "" -->
 						<!-- svelte-ignore a11y-invalid-attribute -->
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
 							class="block px-4 py-2 text-sm text-slate-700"
@@ -219,6 +220,7 @@
 							tabindex="-1"
 							id="mobile-menu-item-0">Edit</a
 						>
+						<!-- svelte-ignore a11y-invalid-attribute -->
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
@@ -278,9 +280,10 @@
 										>
 										<input
 											type="text"
+											placeholder=""
 											name="institution-name"
 											id="institution-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										/>
 									</div>
 									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
@@ -291,9 +294,10 @@
 										>
 										<input
 											type="text"
+											placeholder=""
 											name="qualfication-name"
 											id="qualfication-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										/>
 									</div>
 									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
@@ -303,8 +307,9 @@
 											>Sinority</label
 										>
 										<select
-											id="country-code"
-											name="country-code"
+											id="title"
+											name="title"
+											autocomplete="title"
 											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											<option value="" disabled selected hidden>Click</option>
@@ -328,7 +333,7 @@
 											type="number"
 											id="quantity"
 											name="quantity"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 											min="1"
 											max="50"
 										/>
@@ -361,8 +366,9 @@
 											>Level of "exposure"</label
 										>
 										<select
-											id="country-code"
-											name="country-code"
+											id="title"
+											name="title"
+											autocomplete="title"
 											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											<option value="" disabled selected hidden>Click</option>
@@ -623,7 +629,7 @@
 											type="number"
 											id="quantity"
 											name="quantity"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 											min="1"
 											max="50"
 										/>
@@ -636,8 +642,9 @@
 											>Currency</label
 										>
 										<select
-											id="country-code"
-											name="country-code"
+											id="title"
+											name="title"
+											autocomplete="title"
 											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											<option value="" disabled selected hidden>Click</option>
@@ -689,8 +696,9 @@
 											>Business / Job / Work / Position Stream</label
 										>
 										<select
-											id="country-code"
-											name="country-code"
+											id="title"
+											name="title"
+											autocomplete="title"
 											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											<option value="" disabled selected hidden>Click</option>
@@ -712,10 +720,11 @@
 										>
 										<input
 											type="text"
+											placeholder=""
 											name="city"
 											id="city"
 											autocomplete="address-level2"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										/>
 									</div>
 									<!--END:()-->
@@ -727,9 +736,10 @@
 										>
 										<input
 											type="text"
+											placeholder=""
 											name="country-name"
 											id="country-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										/>
 									</div>
 									<!--END:()-->
@@ -758,9 +768,11 @@
 				<div class="md:col-span-1">
 					<div class="px-4 sm:px-0">
 						<h3 class="text-lg font-medium leading-6 text-slate-900">
-							Reference
+							Extra job requirements for that specific job ad
 						</h3>
-						<p class="mt-1 text-sm text-slate-900">A contacabtle reference.</p>
+						<p class="mt-1 text-sm text-slate-900">
+							You might need to add more information to put behind a pay wall.
+						</p>
 					</div>
 					<!--END:()-->
 				</div>
@@ -815,9 +827,10 @@
 									>
 									<input
 										type="text"
+										placeholder=""
 										name="qualfication-name"
 										id="qualfication-name"
-										class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+										class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 									/>
 								</div>
 								<!--END:()-->
@@ -930,7 +943,7 @@
 													checked
 													name="disabilities"
 													id="disabilities"
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-red-300 rounded"
+													class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 												/>
 											</div>
 											<!--END:()-->
@@ -955,7 +968,7 @@
 													checked
 													name="criminal-record"
 													id="criminal-record"
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-red-300 rounded"
+													class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 												/>
 											</div>
 											<!--END:()-->
@@ -981,7 +994,7 @@
 													checked
 													name="criminal-record"
 													id="criminal-record"
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-red-300 rounded"
+													class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 												/>
 											</div>
 											<!--END:()-->
@@ -1006,7 +1019,7 @@
 													checked
 													name="drivers-licence"
 													id="drivers-licence"
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-red-300 rounded"
+													class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 												/>
 											</div>
 											<!--END:()-->
@@ -1030,7 +1043,7 @@
 													checked
 													name="criminal-record"
 													id="criminal-record"
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-red-300 rounded"
+													class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 												/>
 											</div>
 											<!--END:()-->
@@ -1056,12 +1069,12 @@
 						<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 							<button
 								type="submit"
-								class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-indigo-50 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 								>Add another block</button
 							>
 							<button
 								type="submit"
-								class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-indigo-50 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 								>Save</button
 							>
 						</div>
@@ -1120,9 +1133,10 @@
 										>
 										<input
 											type="text"
+											placeholder=""
 											name="skill-name"
 											id="skill-name"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										/>
 									</div>
 									<!--END:()-->
@@ -1134,8 +1148,9 @@
 											>Degree of exposure</label
 										>
 										<select
-											id="country-code"
-											name="country-code"
+											id="title"
+											name="title"
+											autocomplete="title"
 											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											<option value="" disabled selected hidden>Click</option>
@@ -1156,12 +1171,12 @@
 							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 								<button
 									type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-indigo-50 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 									>Add another block</button
 								>
 								<button
 									type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-indigo-50 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 									>Save</button
 								>
 							</div>
@@ -1225,7 +1240,7 @@
 													name="comments"
 													type="checkbox"
 													checked
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed rounded"
+													class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 												/>
 											</div>
 											<!--END:()-->
@@ -1250,7 +1265,7 @@
 													name="candidates"
 													type="checkbox"
 													checked
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed rounded"
+													class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 												/>
 											</div>
 											<!--END:()-->
@@ -1276,7 +1291,7 @@
 													name="offers"
 													type="checkbox"
 													checked
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed rounded"
+													class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 												/>
 											</div>
 											<!--END:()-->
@@ -1361,7 +1376,7 @@
 							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 								<button
 									type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-indigo-50 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 									>Save</button
 								>
 							</div>
