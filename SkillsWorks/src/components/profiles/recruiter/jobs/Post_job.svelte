@@ -1,8 +1,8 @@
 <!-- This comp is for showing the candidate their profile information -->
 
 <!-- Comp Start -->
-<div class="px-8 py-4 flex justify-center">
-	<div class="px-8 py-4 border bg-indigo-200 bg-opacity-60">
+<div class="flex justify-center">
+	<div class="px-8 py-4 border bg-indigo-200 bg-opacity-70">
 		<div class="lg:flex lg:items-center lg:justify-between">
 			<div class="flex-1 min-w-0">
 				<h2
@@ -310,7 +310,7 @@
 											id="title"
 											name="title"
 											autocomplete="title"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											<option value="" disabled selected hidden>Click</option>
 											<option>Review (heard of)</option>
@@ -347,7 +347,7 @@
 										<select
 											id="spoken-languages"
 											name="spoken-languages"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											<option value="" disabled selected hidden
 												>South African languages...</option
@@ -369,7 +369,7 @@
 											id="title"
 											name="title"
 											autocomplete="title"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											<option value="" disabled selected hidden>Click</option>
 											<option>Review (heard of)</option>
@@ -584,7 +584,7 @@
 												id="cover-letter"
 												name="cover-letter"
 												rows="17"
-												class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+												class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 												placeholder="Mention roles, duties, tools and equipment that you used."
 											/>
 										</div>
@@ -607,7 +607,7 @@
 												id="cover-letter"
 												name="cover-letter"
 												rows="12"
-												class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+												class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 												placeholder="Mention roles, duties, tools and equipment that you used."
 											/>
 										</div>
@@ -645,7 +645,7 @@
 											id="title"
 											name="title"
 											autocomplete="title"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											<option value="" disabled selected hidden>Click</option>
 											<option>Review (heard of)</option>
@@ -683,7 +683,7 @@
 											type="number"
 											id="quantity"
 											name="quantity"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											min="1"
 											max="50"
 										/>
@@ -699,7 +699,7 @@
 											id="title"
 											name="title"
 											autocomplete="title"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											<option value="" disabled selected hidden>Click</option>
 											<option>Review (heard of)</option>
@@ -792,7 +792,7 @@
 										type="number"
 										id="quantity"
 										name="quantity"
-										class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+										class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										min="0"
 										max="50"
 									/>
@@ -807,7 +807,7 @@
 									<select
 										id="spoken-languages"
 										name="spoken-languages"
-										class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+										class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 									>
 										<option value="" disabled selected hidden
 											>South African languages...</option
@@ -844,7 +844,7 @@
 										type="number"
 										id="quantity"
 										name="quantity"
-										class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+										class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										min="18"
 										max="65"
 									/>
@@ -859,7 +859,7 @@
 									<select
 										id="spoken-languages"
 										name="spoken-languages"
-										class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+										class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 									>
 										<option value="" disabled selected hidden>None...</option>
 										<option>Male</option>
@@ -1151,7 +1151,7 @@
 											id="title"
 											name="title"
 											autocomplete="title"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											<option value="" disabled selected hidden>Click</option>
 											<option>Review (heard of)</option>

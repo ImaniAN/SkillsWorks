@@ -1,5 +1,5 @@
 <!-- This comp is for showing all the jobs that a candidate has applied for -->
-<div class="container mx-auto px-1 sm:px-8 max-w-4xl border ">
+<div class="container mx-auto px-1 sm:px-8 border">
 	<div class="py-8">
 		<div class="flex flex-row mb-1 sm:mb-0 justify-between w-full">
 			<h2 class="text-2xl leading-tight">Job History</h2>
@@ -23,7 +23,7 @@
 						<input
 							type="text"
 							id="&quot;form-subscribe-Filter"
-							class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+							class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 							placeholder="Name of Job"
 						/>
 					</div>
@@ -125,9 +125,11 @@
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
-								<a href="#" class="text-indigo-600 hover:text-indigo-900"
-									>Preview
-								</a>
+								<button
+									type="submit"
+									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+									>Preview</button
+								>
 							</td>
 						</tr>
 						<tr>
@@ -183,9 +185,11 @@
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
-								<a href="#" class="text-indigo-600 hover:text-indigo-900"
-									>Preview
-								</a>
+								<button
+									type="submit"
+									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+									>Preview</button
+								>
 							</td>
 						</tr>
 						<tr>
@@ -243,9 +247,11 @@
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
-								<a href="#" class="text-indigo-600 hover:text-indigo-900"
-									>Preview
-								</a>
+								<button
+									type="submit"
+									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+									>Preview</button
+								>
 							</td>
 						</tr>
 						<tr>
@@ -301,9 +307,11 @@
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
-								<a href="#" class="text-indigo-600 hover:text-indigo-900"
-									>Preview
-								</a>
+								<button
+									type="submit"
+									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+									>Preview</button
+								>
 							</td>
 						</tr>
 						<tr>
@@ -361,9 +369,11 @@
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
-								<a href="#" class="text-indigo-600 hover:text-indigo-900"
-									>Preview
-								</a>
+								<button
+									type="submit"
+									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+									>Preview</button
+								>
 							</td>
 						</tr>
 						<tr>
@@ -421,9 +431,11 @@
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
-								<a href="#" class="text-indigo-600 hover:text-indigo-900"
-									>Preview
-								</a>
+								<button
+									type="submit"
+									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+									>Preview</button
+								>
 							</td>
 						</tr>
 						<tr>
@@ -479,9 +491,11 @@
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
-								<a href="#" class="text-indigo-600 hover:text-indigo-900"
-									>Preview
-								</a>
+								<button
+									type="submit"
+									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+									>Preview</button
+								>
 							</td>
 						</tr>
 					</tbody>

@@ -1,8 +1,8 @@
 <!-- This comp is for showing the candidate their profile information -->
 
 <!-- Comp Start -->
-<div class="px-8 py-4 flex justify-center">
-	<div class="px-8 py-4 border bg-indigo-200 bg-opacity-60">
+<div class="flex justify-center">
+	<div class="px-8 py-4 border bg-indigo-200 bg-opacity-70">
 		<div class="lg:flex lg:items-center lg:justify-between">
 			<div class="flex-1 min-w-0">
 				<h2
@@ -357,7 +357,7 @@
 											id="Describeyourself"
 											name="Describeyourself"
 											rows="2"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											placeholder="A place to include non-formal information"
 										/>
 									</div>
@@ -381,7 +381,7 @@
 											id="coverletter"
 											name="coverletter"
 											rows="9"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 											placeholder="Motivate your Recruiter?"
 										/>
 									</div>
@@ -402,7 +402,7 @@
 									<select
 										id="country"
 										name="country"
-										class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+										class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 									>
 										<option value="" disabled selected hidden
 											>South African languages...</option
@@ -476,7 +476,7 @@
 											id="title"
 											name="title"
 											autocomplete="title"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											>
 											<option value="" disabled selected hidden>Click</option>
@@ -551,7 +551,7 @@
 											id="title"
 											name="title"
 											autocomplete="title"
-											class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 										>
 											<option value="" disabled selected hidden>Click</option>
 											<option>+27</option>

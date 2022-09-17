@@ -15,7 +15,6 @@
 	import Branded_accent from '../comps/extras/menus/Branded_accent.svelte';
 	import Candi_info from '../profiles/candidate/Candidate.svelte';
 	import Contact_validation from '../profiles/admin/analytics/Contact_validation.svelte';
-	import Category_filters from '../comps/extras/Category_filters.svelte';
 	// import Contact_us from '../about_us/Contact_us.svelte'; //Updated
 	import Dash_nav from '../profiles/ui/Dash_nav.svelte'; //Updated //Please add things properly for goodness sake
 	import Pricing_plan from '../profiles/ui/Pricing_plan.svelte'; //Updated //Please add things properly for goodness sake
@@ -60,16 +59,15 @@
 	const webpages = [
 		// { name: 'UI_Name', component: Import_name },
 		// { name: 'Ad_man', component: Ad_man },
-		// { name: 'About Us', component: About_us },
+		{ name: 'About Us', component: About_us },
 		// { name: 'Accordion_menu', component: Accordion_menu },
 		// { name: 'Applied Jobs', component: Applied_jobs },
 		// { name: 'Attempts', component: Attempts },
 		// { name: 'Blog', component: Blog },
 		// { name: 'Branded_accent', component: Branded_accent },
-		// { name: 'Candidate info', component: Candi_info },
+		{ name: 'Candidate info', component: Candi_info },
 		// { name: 'Ex_posts', component: Ex_posts },
-		// { name: 'Category_filters', component: Category_filters },
-		// { name: 'Contact_validation', component: Contact_validation },
+		{ name: 'Contact_validation', component: Contact_validation },
 		// { name: 'Contact Us', component: Contact_us },
 		// { name: 'Dash_nav with banner kinda main', component: Dash_nav },
 		// { name: 'Dash_nav_final', component: Dash_nav_final },
@@ -81,10 +79,10 @@
 		// { name: 'Forgot', component: Forgot },
 		// { name: 'Full_side_nav', component: Full_side_nav },
 		// { name: 'Grouped_buttons', component: Grouped_buttons },
-		{ name: 'Inputs', component: Inputs },
-		// { name: 'Home', component: Intro },
-		// { name: 'Post_job', component: Post_job },
-		// { name: 'Int_questions', component: Int_questions },
+		// { name: 'Inputs', component: Inputs },
+		{ name: 'Home', component: Intro },
+		{ name: 'Post_job', component: Post_job },
+		{ name: 'Int_questions', component: Int_questions },
 		// { name: 'Applicant_profile', component: Applicant_profile },
 		// { name: 'Job_preview', component: Job_preview },
 		// { name: 'Job Recs', component: Job_reccommendations },
@@ -100,9 +98,9 @@
 		// { name: 'Reviews', component: Reviews },
 		// { name: 'Accordion_Menu', component: Accordion_Menu },
 		// { name: 'Split_with_headings', component: Split_with_headings },
-		// { name: 'Resume', component: Resume_form },
-		// { name: 'Sign In', component: Sign_in_form },
-		// { name: 'Sign Up', component: Sign_up_form },
+		{ name: 'Resume', component: Resume_form },
+		{ name: 'Sign In', component: Sign_in_form },
+		{ name: 'Sign Up', component: Sign_up_form },
 		// { name: 'Sub_man', component: Sub_man },
 		// { name: 'Jobs search', component: Jobs_search },
 		// { name: 'Sub_plans', component: Sub_plans },
@@ -123,235 +121,112 @@
 	const loadPage = (obj) => (selectedPage = obj);
 </script>
 
-<!-- <Navbar /> -->
+<!--
+  This component uses @tailwindcss/forms
 
-<div class="min-h-full">
-	<nav class="bg-slate-800 sticky">
-		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-			<div class="flex items-center justify-between h-16">
-				<div class="flex items-center">
-					<div class="flex-shrink-0">
-						<img
-							class="h-8 w-8"
-							src="https://dummyimage.com/305x305"
-							alt="Workflow"
-						/>
-					</div>
-					<div class="hidden md:block">
-						<div class="ml-10 flex items-baseline space-x-4">
-							<!-- Current: "bg-slate-900 text-indigo-50", Default: "text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50" -->
-							<!-- svelte-ignore a11y-invalid-attribute -->
-							<!-- <a
-								href="#"
-								class="bg-slate-900 text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
-								aria-current="page">Dashboard</a
-							> -->
-							{#each webpages as webpageObj}
-								<button
-									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
-									title={webpageObj.name}
-									on:click={() => loadPage(webpageObj)}
-									>{webpageObj.name}</button
-								>
-							{/each}
-							<!--END:()-->
-						</div>
-					</div>
-				</div>
-				<div class="hidden md:block">
-					<div class="ml-4 flex items-center md:ml-6">
-						<button
-							type="button"
-							class="bg-slate-800 p-1 rounded-full text-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 cursor-pointer hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
-						>
-							<span class="sr-only">View notifications</span>
-							<!-- Heroicon name: outline/bell -->
-							<svg
-								class="h-6 w-6"
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								stroke-width="2"
-								stroke="currentColor"
-								aria-hidden="true"
-							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
-								/>
-							</svg>
-						</button>
+  yarn add @tailwindcss/forms
+  npm install @tailwindcss/forms
 
-						<!-- Profile dropdown -->
-						<div class="ml-3 relative">
-							<div>
-								<button
-									type="button"
-									class="max-w-xs bg-slate-800 rounded-full flex items-center text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-800 focus:ring-white"
-									id="user-menu-button"
-									aria-expanded="false"
-									aria-haspopup="true"
-								>
-									<span class="sr-only">Open user menu</span>
-									<img
-										class="h-8 w-8 rounded-full"
-										src="https://dummyimage.com/305x305"
-										alt=""
-									/>
-								</button>
-							</div>
-
-							<!--
-    Dropdown menu, show/hide based on menu state.
-
-    Entering: "transition ease-out duration-100"
-   From: "transform opacity-0 scale-95"
-   To: "transform opacity-100 scale-100"
-    Leaving: "transition ease-in duration-75"
-   From: "transform opacity-100 scale-100"
-   To: "transform opacity-0 scale-95"
-   -->
-							<div
-								class="z-10 origin-top-right absolute right-0 mt-2 w-96 rounded-md shadow-lg py-1 bg-indigo-50 ring-1 ring-black ring-opacity-5 focus:outline-none"
-								role="menu"
-								aria-orientation="vertical"
-								aria-labelledby="user-menu-button"
-								tabindex="-1"
-							>
-								<!-- <Menu /> -->
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="-mr-2 flex md:hidden">
-					<!-- Mobile menu button -->
-					<button
-						type="button"
-						class="bg-slate-800 inline-flex items-center justify-center p-2 rounded-md text-slate-400 hover:text-indigo-50 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-800 focus:ring-white"
-						aria-controls="mobile-menu"
-						aria-expanded="false"
-					>
-						<span class="sr-only">Open main menu</span>
-						<!--
-   Heroicon name: outline/menu
-
-   Menu open: "hidden", Menu closed: "block"
-  -->
-						<svg
-							class="block h-6 w-6"
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke-width="2"
-							stroke="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								d="M4 6h16M4 12h16M4 18h16"
-							/>
-						</svg>
-						<!--
-   Heroicon name: outline/x
-
-   Menu open: "block", Menu closed: "hidden"
-  -->
-						<svg
-							class="hidden h-6 w-6"
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke-width="2"
-							stroke="currentColor"
-							aria-hidden="true"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								d="M6 18L18 6M6 6l12 12"
-							/>
-						</svg>
-					</button>
-				</div>
-			</div>
-		</div>
-
-		<!-- Mobile menu, show/hide based on menu state. -->
-		<div class="md:hidden" id="mobile-menu">
-			<div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-				<!-- Current: "bg-slate-900 text-indigo-50", Default: "text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50" -->
-				<!-- svelte-ignore a11y-invalid-attribute -->
-				<a
-					href="#"
-					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
-					aria-current="page">Dashboard</a
+  plugins: [require('@tailwindcss/forms')]
+-->
+<div class="">
+	<header
+		class="sticky top-3 mx-4 bg-opacity-70 z-50 bg-indigo-200 rounded-full px-2 py-2"
+	>
+		<div class="flex items-center justify-between px-4 mx-auto max-w-screen-xl">
+			<div class="flex flex-1">
+				<nav
+					class="sticky items-center justify-center text-sm font-medium space-x-8 lg:flex lg:flex-1 lg:w-0"
 				>
-				{#each webpages as webpageObj}
-					<button
-						class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
-						title={webpageObj.name}
-						on:click={() => loadPage(webpageObj)}>{webpageObj.name}</button
-					>
-				{/each}
-				<!--END:()-->
-			</div>
-			<div class="pt-4 pb-3 border-t border-slate-700">
-				<div class="flex items-center px-5">
-					<div class="flex-shrink-0">
-						<img
-							class="h-10 w-10 rounded-full"
-							src="https://dummyimage.com/305x305"
-							alt=""
-						/>
-					</div>
-					<div class="ml-3">
-						<div class="text-base font-medium leading-none text-indigo-50">
-							Tom Cook
-						</div>
-						<div class="text-sm font-medium leading-none text-slate-400">
-							tom@example.com
-						</div>
-					</div>
-					<button
-						type="button"
-						class="ml-auto bg-slate-800 flex-shrink-0 p-1 rounded-full text-slate-400 hover:text-indigo-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-800 focus:ring-white"
-					>
-						<span class="sr-only">View notifications</span>
-						<!-- Heroicon name: outline/bell -->
-						<svg
-							class="h-6 w-6"
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke-width="2"
-							stroke="currentColor"
-							aria-hidden="true"
+					<div class="z-50 group inline-block">
+						<button
+							class="outline-none focus:outline-none border px-3 py-1 bg-white rounded-sm flex items-center min-w-32"
 						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
-							/>
-						</svg>
-					</button>
-				</div>
-				<div class="mt-3 px-2 space-y-1">
-					<!-- <Menu /> -->
-				</div>
+							<span class="pr-1 font-semibold flex-1">Menu Options</span>
+							<span>
+								<svg
+									class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+								>
+									<path
+										d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+									/>
+								</svg>
+							</span>
+						</button>
+						<ul
+							class="bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
+						>
+							<li class="px-3 py-1 hover:bg-gray-100">
+								{#each webpages as webpageObj}
+									<button
+										class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+										title={webpageObj.name}
+										on:click={() => loadPage(webpageObj)}
+										>{webpageObj.name}</button
+									>
+								{/each}
+							</li>
+						</ul>
+					</div>
+				</nav>
 			</div>
-		</div>
-	</nav>
-	<!-- <Banner /> -->
-	<header class="bg-indigo-50 shadow">
-		<div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-			<h1 class="text-3xl tracking-tight font-bold text-slate-900">
-				Header and where the banner should be!
-			</h1>
+
+			<div
+				class="sticky items-center justify-center text-sm font-medium space-x-8 lg:flex lg:flex-1 lg:w-0 flex-shrink-0"
+			>
+				<img
+					class="h-8 w-8"
+					src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+					alt="Your Company"
+				/>
+			</div>
+
+			<div class="items-center lg:flex text-right sm:px-6">
+				<div class="flex items-center ">
+					<form class="mb-0 lg:flex">
+						<div class="px-3 relative">
+							<input
+								class="rounded-lg border-transparent flex-1 appearance-none border-2 border-indigo-600 border-dashed bg-indigo-50 text-indigo-600 placeholder-indigo-300 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent h-10 pl-4 w-4/5"
+								placeholder="Search..."
+								type="text"
+							/>
+
+							<button
+								class="border-2 border-dashed border-indigo-600 rounded-md hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-slate-50 hover:bg-indigo-600 absolute inset-y-0 right-0 p-2 mr-px text-gray-600 rounded-r-lg"
+								type="submit"
+							>
+								<svg
+									class="w-5 h-5"
+									fill="currentColor"
+									viewBox="0 0 20 20"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										clip-rule="evenodd"
+										d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+										fill-rule="evenodd"
+									/>
+								</svg>
+							</button>
+						</div>
+					</form>
+				</div>
+				<button
+					type="submit"
+					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+					>Sign In</button
+				>
+				<button
+					type="submit"
+					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+					>Sign Up</button
+				>
+			</div>
 		</div>
 	</header>
-	<main>
+	<main class="relative">
 		<div class="max-w-7xl mx-auto p-2 ">
 			<!-- Replace with your content -->
 			<div
@@ -363,7 +238,6 @@
 		</div>
 	</main>
 </div>
-<!-- Loaded component/webpage -->
 
 <Footer />
 
@@ -374,26 +248,34 @@
 		top: 0;
 		justify-content: center;
 		align-items: center;
-		overflow: hidden;
-		z-index: 20;
+		z-index: 50;
+	}
+	/* since nested groupes are not supported we have to use
+     regular css for the nested dropdowns
+  */
+	li > button svg {
+		transform: rotate(-90deg);
+	}
+	li:hover > button svg {
+		transform: rotate(-270deg);
 	}
 
-	/* Fade in tabs */
-	@-webkit-keyframes fadeEffect {
-		from {
-			opacity: 0;
-		}
-		to {
-			opacity: 1;
-		}
+	/* Below styles fake what can be achieved with the tailwind config
+     you need to add the group-hover variant to scale and define your custom
+     min width style.
+  	 See https://codesandbox.io/s/tailwindcss-multilevel-dropdown-y91j7?file=/index.html
+  	 for implementation with config file
+  */
+	.group:hover .group-hover\:scale-100 {
+		transform: scale(1);
 	}
-
-	@keyframes fadeEffect {
-		from {
-			opacity: 0;
-		}
-		to {
-			opacity: 1;
-		}
+	.group:hover .group-hover\:-rotate-180 {
+		transform: rotate(180deg);
+	}
+	.scale-0 {
+		transform: scale(0);
+	}
+	.min-w-32 {
+		min-width: 8rem;
 	}
 </style>

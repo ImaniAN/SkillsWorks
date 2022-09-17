@@ -62,7 +62,7 @@
 					<dd class="mt-1 text-sm text-slate-900 sm:mt-0 sm:col-span-2">
 						<!-- svelte-ignore a11y-no-redundant-roles -->
 						<ul
-							role="list"
+							role=""
 							class="border border-slate-200 rounded-md divide-y divide-slate-200"
 						>
 							<li

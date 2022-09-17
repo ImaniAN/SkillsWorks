@@ -116,7 +116,7 @@
 								First Name
 							</label>
 							<input
-								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+								class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 								id="grid-first-name"
 								type="text"
 								placeholder="Jane"
@@ -132,7 +132,7 @@
 								Last Name
 							</label>
 							<input
-								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+								class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 								id="grid-last-name"
 								type="text"
 								placeholder="Doe"
@@ -151,7 +151,7 @@
 								Email
 							</label>
 							<input
-								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+								class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 								id="grid-email"
 								type="email"
 								placeholder="Your email (example@gmail.com)"
@@ -172,7 +172,7 @@
 								Password
 							</label>
 							<input
-								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+								class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 								id="grid-password"
 								type="password"
 								name="password"
@@ -193,7 +193,7 @@
 								City
 							</label>
 							<input
-								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+								class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 								id="grid-city"
 								type="text"
 								placeholder="Wakanda"
@@ -210,7 +210,7 @@
 							</label>
 							<div class="relative">
 								<select
-									class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+									class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 									id="province"
 								>
 									<option value="" disabled selected hidden>Select...</option>
@@ -243,7 +243,7 @@
 								Zip
 							</label>
 							<input
-								class=" rounded-lg border-transparent flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+								class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 								id="grid-zip"
 								type="text"
 								placeholder="xxxx"

@@ -22,54 +22,200 @@
 		</div>
 		<!--END:()-->
 
-		<dl class="w-full md:w-11/12">
-			<dt class="mb-4">
-				<h3 class="text-xl font-semibold">
-					We already have ongoing projects. Will Valohai easily integrate with
-					them?
-				</h3>
-			</dt>
-			<dd class="mb-16">
-				<p>
-					Running existing machine learning projects in Valohai is very simple!
-					Integration only requires adding a valohai.yaml configuration file.
-					Moving projects in and out of Valohai is easy – the integration is
-					only the configuration file.
+		<div class="space-y-4">
+			<details class="p-6 border-l-4 border-green-500 bg-gray-50 group" open>
+				<summary class="flex items-center justify-between cursor-pointer">
+					<h5 class="text-lg font-medium text-gray-900">
+						Lorem ipsum dolor sit amet consectetur adipisicing?
+					</h5>
+
+					<span
+						class="flex-shrink-0 ml-1.5 p-1.5 text-gray-900 bg-white rounded-full sm:p-3"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="flex-shrink-0 w-5 h-5 transition duration-300 group-open:-rotate-45"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+					</span>
+				</summary>
+
+				<p class="mt-4 leading-relaxed text-gray-700">
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
+					veritatis molestias culpa in, recusandae laboriosam neque aliquid
+					libero nesciunt voluptate dicta quo officiis explicabo consequuntur
+					distinctio corporis earum similique!
 				</p>
-			</dd>
-			<dt class="mb-4">
-				<h3 class="text-xl font-semibold">
-					How do you compare to other data science platforms?
-				</h3>
-			</dt>
-			<dd class="mb-16">
-				<p>
-					We don't. Valohai isn't a data science platform; it&#x27;s a Machine
-					Learning Management Platform that handles the whole ML pipeline from
-					feature extraction, to training of your model and to deploying it into
-					production in a reproducible manner. Data science platforms offer
-					hosted notebooks and AutoML solutions.
+			</details>
+
+			<details class="p-6 border-l-4 border-green-500 bg-gray-50 group">
+				<summary class="flex items-center justify-between cursor-pointer">
+					<h5 class="text-lg font-medium text-gray-900">
+						Lorem ipsum dolor sit amet consectetur adipisicing?
+					</h5>
+
+					<span
+						class="flex-shrink-0 ml-1.5 p-1.5 text-gray-900 bg-white rounded-full sm:p-3"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="flex-shrink-0 w-5 h-5 transition duration-300 group-open:-rotate-45"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+					</span>
+				</summary>
+
+				<p class="mt-4 leading-relaxed text-gray-700">
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
+					veritatis molestias culpa in, recusandae laboriosam neque aliquid
+					libero nesciunt voluptate dicta quo officiis explicabo consequuntur
+					distinctio corporis earum similique!
 				</p>
-			</dd>
-			<dt class="mb-4">
-				<h3 class="text-xl font-semibold">
-					Does Valohai charge for computation?
-				</h3>
-			</dt>
-			<dd class="mb-16">
-				<p>
-					Depends. Most of our customers use their own cloud and thus pay for
-					usage according to their own agreements. Valohai doesn&#x27;t charge
-					anything on top of the per-user license fee. If you don&#x27;t have a
-					cloud provider, you can use our AWS, GCP and Azure accounts, and
-					we&#x27;ll only charge you for what you use.
+			</details>
+			<details class="p-6 border-l-4 border-green-500 bg-gray-50 group">
+				<summary class="flex items-center justify-between cursor-pointer">
+					<h5 class="text-lg font-medium text-gray-900">
+						Lorem ipsum dolor sit amet consectetur adipisicing?
+					</h5>
+
+					<span
+						class="flex-shrink-0 ml-1.5 p-1.5 text-gray-900 bg-white rounded-full sm:p-3"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="flex-shrink-0 w-5 h-5 transition duration-300 group-open:-rotate-45"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+					</span>
+				</summary>
+
+				<p class="mt-4 leading-relaxed text-gray-700">
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
+					veritatis molestias culpa in, recusandae laboriosam neque aliquid
+					libero nesciunt voluptate dicta quo officiis explicabo consequuntur
+					distinctio corporis earum similique!
 				</p>
-			</dd>
-		</dl>
+			</details>
+			<details class="p-6 border-l-4 border-green-500 bg-gray-50 group">
+				<summary class="flex items-center justify-between cursor-pointer">
+					<h5 class="text-lg font-medium text-gray-900">
+						Lorem ipsum dolor sit amet consectetur adipisicing?
+					</h5>
+
+					<span
+						class="flex-shrink-0 ml-1.5 p-1.5 text-gray-900 bg-white rounded-full sm:p-3"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="flex-shrink-0 w-5 h-5 transition duration-300 group-open:-rotate-45"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+					</span>
+				</summary>
+
+				<p class="mt-4 leading-relaxed text-gray-700">
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
+					veritatis molestias culpa in, recusandae laboriosam neque aliquid
+					libero nesciunt voluptate dicta quo officiis explicabo consequuntur
+					distinctio corporis earum similique!
+				</p>
+			</details>
+			<details class="p-6 border-l-4 border-green-500 bg-gray-50 group">
+				<summary class="flex items-center justify-between cursor-pointer">
+					<h5 class="text-lg font-medium text-gray-900">
+						Lorem ipsum dolor sit amet consectetur adipisicing?
+					</h5>
+
+					<span
+						class="flex-shrink-0 ml-1.5 p-1.5 text-gray-900 bg-white rounded-full sm:p-3"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="flex-shrink-0 w-5 h-5 transition duration-300 group-open:-rotate-45"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+					</span>
+				</summary>
+
+				<p class="mt-4 leading-relaxed text-gray-700">
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
+					veritatis molestias culpa in, recusandae laboriosam neque aliquid
+					libero nesciunt voluptate dicta quo officiis explicabo consequuntur
+					distinctio corporis earum similique!
+				</p>
+			</details>
+			<details class="p-6 border-l-4 border-green-500 bg-gray-50 group">
+				<summary class="flex items-center justify-between cursor-pointer">
+					<h5 class="text-lg font-medium text-gray-900">
+						Lorem ipsum dolor sit amet consectetur adipisicing?
+					</h5>
+
+					<span
+						class="flex-shrink-0 ml-1.5 p-1.5 text-gray-900 bg-white rounded-full sm:p-3"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="flex-shrink-0 w-5 h-5 transition duration-300 group-open:-rotate-45"
+							viewBox="0 0 20 20"
+							fill="currentColor"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+					</span>
+				</summary>
+
+				<p class="mt-4 leading-relaxed text-gray-700">
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
+					veritatis molestias culpa in, recusandae laboriosam neque aliquid
+					libero nesciunt voluptate dicta quo officiis explicabo consequuntur
+					distinctio corporis earum similique!
+				</p>
+			</details>
+		</div>
 	</div>
 	<!--END:()-->
 </div>
 <!--END:()-->
+
 
 <!-- component -->
 <style>
