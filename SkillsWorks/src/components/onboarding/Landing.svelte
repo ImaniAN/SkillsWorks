@@ -54,6 +54,8 @@
 	import Split_with_headings from '../comps/extras/menus/Split_with_headings.svelte';
 	import Sub_plan_card from '../comps/extras/Sub_plan_card.svelte';
 	import Tab_pills from '../comps/extras/Tab_pills.svelte';
+	import SignInForm from './Sign_in_form.svelte';
+	import SignUpForm from '../onboarding/Sign_up_form.svelte';
 	// import Testimonial from '../about_us/Testimonial.svelte';
 
 	const webpages = [
@@ -133,14 +135,12 @@
 	<header
 		class="sticky top-3 mx-4 bg-opacity-70 z-50 bg-indigo-200 rounded-full px-2 py-2"
 	>
-		<div class="flex items-center justify-between px-4 mx-auto max-w-screen-xl">
+		<div class="flex items-center justify-between max-w-screen-xl">
 			<div class="flex flex-1">
-				<nav
-					class="sticky items-center justify-center text-sm font-medium space-x-8 lg:flex lg:flex-1 lg:w-0"
-				>
+				<nav class="sticky  text-sm font-medium lg:flex lg:flex-1 lg:w-0">
 					<div class="z-50 group inline-block">
 						<button
-							class="outline-none focus:outline-none border px-3 py-1 bg-white rounded-sm flex items-center min-w-32"
+							class="outline-none focus:outline-none border py-1 bg-white rounded-sm flex min-w-32"
 						>
 							<span class="pr-1 font-semibold flex-1">Menu Options</span>
 							<span>
@@ -213,16 +213,20 @@
 						</div>
 					</form>
 				</div>
-				<button
-					type="submit"
-					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
-					>Sign In</button
-				>
-				<button
-					type="submit"
-					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
-					>Sign Up</button
-				>
+				<form>
+					<!-- svelte-ignore a11y-invalid-attribute target=”_blank” -->
+					<a
+						href="#"
+						class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+						>Sign In</a
+					>
+					<!-- svelte-ignore a11y-invalid-attribute -->
+					<a
+						href="#"
+						class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+						>Sign Up</a
+					>
+				</form>
 			</div>
 		</div>
 	</header>
