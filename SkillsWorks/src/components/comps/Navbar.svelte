@@ -1,5 +1,8 @@
+<!--START:()-->
 <div class="navbar bg-base-100 sticky">
+	<!--START:()-->
 	<div class="navbar-start">
+		<!--START:()-->
 		<div class="dropdown">
 			<!-- svelte-ignore a11y-label-has-associated-control -->
 			<label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -86,6 +89,7 @@
 	</div>
 	<!--END:()-->
 
+	<!--START:()-->
 	<div class="navbar-center hidden lg:flex">
 		<ul class="menu menu-horizontal p-0">
 			<!-- svelte-ignore a11y-missing-attribute -->
@@ -149,6 +153,7 @@
 	</div>
 	<!--END:()-->
 
+	<!--START:()-->
 	<div class="navbar-end">
 		<!-- svelte-ignore a11y-missing-attribute -->
 		<!-- svelte-ignore a11y-invalid-attribute -->

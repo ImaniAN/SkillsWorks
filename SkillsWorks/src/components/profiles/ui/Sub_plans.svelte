@@ -1,5 +1,7 @@
 <section class="text-slate-900 bg-slate-200 body-font overflow-hidden">
+	<!--START:()-->
 	<div class="container px-5 py-24 mx-auto">
+		<!--START:()-->
 		<div class="flex flex-col text-center w-full mb-20">
 			<h1
 				class="sm:text-4xl text-3xl font-medium title-font mb-2 text-slate-900"
@@ -9,6 +11,7 @@
 			<p class="lg:w-2/3 mx-auto leading-relaxed text-base">
 				Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical.
 			</p>
+			<!--START:()-->
 			<div
 				class="flex mx-auto border-2 border-pink-500 rounded overflow-hidden mt-6"
 			>
@@ -20,8 +23,11 @@
 				>
 			</div>
 		</div>
+		<!--START:()-->
 		<div class="flex flex-wrap -m-4">
+			<!--START:()-->
 			<div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+				<!--START:()-->
 				<div
 					class="h-full p-6 rounded-lg border-2 border-slate-900 flex flex-col relative overflow-hidden"
 				>
@@ -89,7 +95,9 @@
 					</p>
 				</div>
 			</div>
+			<!--START:()-->
 			<div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+				<!--START:()-->
 				<div
 					class="h-full p-6 rounded-lg border-2 border-pink-500 flex flex-col relative overflow-hidden"
 				>
@@ -196,7 +204,9 @@
 					</p>
 				</div>
 			</div>
+			<!--START:()-->
 			<div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+				<!--START:()-->
 				<div
 					class="h-full p-6 rounded-lg border-2 border-slate-900 flex flex-col relative overflow-hidden"
 				>
@@ -316,7 +326,9 @@
 					</p>
 				</div>
 			</div>
+			<!--START:()-->
 			<div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+				<!--START:()-->
 				<div
 					class="h-full p-6 rounded-lg border-2 border-slate-900 flex flex-col relative overflow-hidden"
 				>

@@ -1,15 +1,24 @@
+<!--START:()-->
 <div class="px-8 py-4 justify-center">
+	<!--START:()-->
 	<div class="relative min-h-screen flex ">
+		<!--START:()-->
 		<div class="container mx-auto px-4 h-full">
+			<!--START:()-->
 			<div class="flex content-center items-center justify-center h-full">
+				<!--START:()-->
 				<div class="w-full px-4">
+					<!--START:()-->
 					<div
 						class="relative flex flex-col break-words w-full mb-6 shadow-lg rounded-lg bg-blue-200 border-0"
 					>
+						<!--START:()-->
 						<div class="rounded-t mb-0 px-6 py-6">
+							<!--START:()-->
 							<div class="text-center mb-3">
 								<h6 class="text-slate-500 text-sm font-bold">Sign in with</h6>
 							</div>
+							<!--START:()-->
 							<div class="btn-wrapper text-center">
 								<button
 									class="bg-indigo-50 active:bg-blue-50 text-slate-700 px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
@@ -36,11 +45,14 @@
 							</div>
 							<hr class="mt-6 border-b-1 border-blue-300" />
 						</div>
+						<!--START:()-->
 						<div class="flex-auto px-4 lg:px-10 py-10 pt-0">
+							<!--START:()-->
 							<div class="text-slate-400 text-center mb-3 font-bold">
 								<small>Or sign in with credentials</small>
 							</div>
 							<form>
+								<!--START:()-->
 								<div class="relative w-full mb-3">
 									<label
 										class="block uppercase text-slate-600 text-xs font-bold mb-2"
@@ -56,6 +68,7 @@
 									/>
 								</div>
 
+								<!--START:()-->
 								<div class="relative w-full mb-3">
 									<label
 										class="block uppercase text-slate-600 text-xs font-bold mb-2"
@@ -70,6 +83,7 @@
 										placeholder="Password"
 									/>
 								</div>
+								<!--START:()-->
 								<div>
 									<label class="inline-flex items-center cursor-pointer">
 										<input
@@ -83,6 +97,7 @@
 									</label>
 								</div>
 
+								<!--START:()-->
 								<div class="text-center mt-6">
 									<button
 										class="bg-blue-800 text-indigo-50 active:bg-blue-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
@@ -94,7 +109,9 @@
 							</form>
 						</div>
 					</div>
+					<!--START:()-->
 					<div class="flex flex-wrap mt-6 relative">
+						<!--START:()-->
 						<div class="w-1/2">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
@@ -102,6 +119,7 @@
 								<small>Forgot password?</small>
 							</a>
 						</div>
+						<!--START:()-->
 						<div class="w-1/2 text-right">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
@@ -116,17 +134,25 @@
 			</div>
 		</div>
 	</div>
+	<!--START:()-->
 	<div class="relative min-h-screen flex ">
+		<!--START:()-->
 		<div class="container mx-auto px-4 h-full">
+			<!--START:()-->
 			<div class="flex content-center items-center justify-center h-full">
+				<!--START:()-->
 				<div class="w-full px-4">
+					<!--START:()-->
 					<div
 						class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blue-200 border-0"
 					>
+						<!--START:()-->
 						<div class="rounded-t mb-0 px-6 py-6">
+							<!--START:()-->
 							<div class="text-center mb-3">
 								<h6 class="text-slate-500 text-sm font-bold">Sign up with</h6>
 							</div>
+							<!--START:()-->
 							<div class="btn-wrapper text-center">
 								<button
 									class="bg-indigo-50 active:bg-blue-50 text-slate-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center text-xs ease-linear transition-all duration-150"
@@ -153,11 +179,14 @@
 							</div>
 							<hr class="mt-6 border-b-1 border-blue-300" />
 						</div>
+						<!--START:()-->
 						<div class="flex-auto px-4 lg:px-10 py-10 pt-0">
+							<!--START:()-->
 							<div class="text-slate-400 text-center mb-3 font-bold">
 								<small>Or sign up with credentials</small>
 							</div>
 							<form>
+								<!--START:()-->
 								<div class="relative w-full mb-3">
 									<label
 										class="block uppercase text-slate-600 text-xs font-bold mb-2"
@@ -173,6 +202,7 @@
 									/>
 								</div>
 
+								<!--START:()-->
 								<div class="relative w-full mb-3">
 									<label
 										class="block uppercase text-slate-600 text-xs font-bold mb-2"
@@ -188,6 +218,7 @@
 									/>
 								</div>
 
+								<!--START:()-->
 								<div class="relative w-full mb-3">
 									<label
 										class="block uppercase text-slate-600 text-xs font-bold mb-2"
@@ -203,6 +234,7 @@
 									/>
 								</div>
 
+								<!--START:()-->
 								<div>
 									<label class="inline-flex items-center cursor-pointer">
 										<input
@@ -224,6 +256,7 @@
 									</label>
 								</div>
 
+								<!--START:()-->
 								<div class="text-center mt-6">
 									<button
 										class="bg-blue-800 text-indigo-50 active:bg-blue-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"

@@ -2,18 +2,24 @@
 	import Flaotees from '../ui/Flaotees.svelte';
 </script>
 
+<!--START:()-->
 <div class="relative min-h-screen flex ">
+	<!--START:()-->
 	<div
 		class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto min-w-0 bg-indigo-50"
 	>
+		<!--START:()-->
 		<div
 			class="sm:w-1/2 xl:w-3/5 h-full hidden md:flex flex-auto items-end justify-end p-10 pr-20 overflow-hidden bg-blue-900 text-indigo-50 bg-no-repeat bg-cover relative"
 			style="background-image: url(https://images.unsplash.com/photo-1543599538-a6c4f6cc5c05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);"
 		>
+			<!--START:()-->
 			<div
 				class="absolute bg-gradient-to-b from-indigo-100 to-blue-600 opacity-75 inset-0 z-0"
 			/>
+			<!--START:()-->
 			<div class="w-full z-10 mb-10">
+				<!--START:()-->
 				<div
 					class="sm:text-4xl xl:text-5xl text-slate-800 font-bold leading-tight mb-6"
 				>
@@ -21,6 +27,7 @@
 				</div>
 				<!--END:()-->
 
+				<!--START:()-->
 				<div class="sm:text-sm xl:text-md text-slate-900 font-normal">
 					What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing
 					and typesetting industry Lorem Ipsum has been the industry's standard
@@ -36,17 +43,22 @@
 		</div>
 		<!--END:()-->
 
+		<!--START:()-->
 		<div
 			class="md:flex md:items-center md:justify-cente sm:w-auto md:h-full w-4/5 xl:w-2/5 p-8 md:p-10 lg:p-14 sm:rounded-lg md:rounded-none bg-indigo-50"
 		>
+			<!--START:()-->
 			<div class="max-w-md w-full space-y-8">
+				<!--START:()-->
 				<div class="mb-10 text-center">
 					<h3 class="font-semibold text-2xl text-slate-800">Sign Up</h3>
 					<p class="text-slate-500">Please register your account.</p>
 				</div>
 				<!--END:()-->
 
+				<!--START:()-->
 				<div class="flex">
+					<!--START:()-->
 					<div class="w-full md:w-1/2 px-0.5 mb-6 md:mb-0">
 						<button
 							type="submit"
@@ -67,6 +79,7 @@
 					</div>
 					<!--END:()-->
 
+					<!--START:()-->
 					<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
 						<button
 							type="submit"
@@ -90,6 +103,7 @@
 				</div>
 				<!--END:()-->
 
+				<!--START:()-->
 				<div class="flex items-center justify-center space-x-2 my-5">
 					<span class="h-px w-16 bg-indigo-600" />
 					<span class="text-slate-500 font-normal text-center"
@@ -100,16 +114,18 @@
 				<!--END:()-->
 
 				<form class="w-full max-w-lg">
+					<!--START:()-->
 					<div class="flex flex-wrap -mx-3 mb-4">
+						<!--START:()-->
 						<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
 							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
+								class="block text-sm font-medium text-slate-700"
 								for="grid-first-name"
 							>
 								First Name
 							</label>
 							<input
-								class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 								id="grid-first-name"
 								type="text"
 								placeholder="Jane"
@@ -117,15 +133,16 @@
 						</div>
 						<!--END:()-->
 
+						<!--START:()-->
 						<div class="w-full md:w-1/2 px-3">
 							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
+								class="block text-sm font-medium text-slate-700"
 								for="grid-last-name"
 							>
 								Last Name
 							</label>
 							<input
-								class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 								id="grid-last-name"
 								type="text"
 								placeholder="Doe"
@@ -135,16 +152,18 @@
 					</div>
 					<!--END:()-->
 
+					<!--START:()-->
 					<div class="flex flex-wrap -mx-3 mb-4">
+						<!--START:()-->
 						<div class="w-full px-3">
 							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
+								class="block text-sm font-medium text-slate-700"
 								for="grid-email"
 							>
 								Email
 							</label>
 							<input
-								class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 								id="grid-email"
 								type="email"
 								placeholder="Your email (example@gmail.com)"
@@ -156,16 +175,18 @@
 					</div>
 					<!--END:()-->
 
+					<!--START:()-->
 					<div class="flex flex-wrap -mx-3 mb-4">
+						<!--START:()-->
 						<div class="w-full px-3">
 							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
+								class="block text-sm font-medium text-slate-700"
 								for="grid-password"
 							>
 								Password
 							</label>
 							<input
-								class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 								id="grid-password"
 								type="password"
 								name="password"
@@ -177,16 +198,18 @@
 					</div>
 					<!--END:()-->
 
+					<!--START:()-->
 					<div class="flex flex-wrap -mx-3 mb-4">
+						<!--START:()-->
 						<div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
 							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
+								class="block text-sm font-medium text-slate-700"
 								for="grid-city"
 							>
 								City
 							</label>
 							<input
-								class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 								id="grid-city"
 								type="text"
 								placeholder="Wakanda"
@@ -194,21 +217,24 @@
 						</div>
 						<!--END:()-->
 
+						<!--START:()-->
 						<div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
 							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
+								class="block text-sm font-medium text-slate-700"
 								for="grid-province"
 							>
 								Province
 							</label>
+							<!--START:()-->
 							<div class="relative">
 								<select
-									class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+									class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 									id="province"
 								>
 									<option value="" disabled selected hidden>Select...</option>
 									<option>+27</option>
 								</select>
+								<!--START:()-->
 								<div
 									class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-slate-700"
 								>
@@ -228,15 +254,16 @@
 						</div>
 						<!--END:()-->
 
+						<!--START:()-->
 						<div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
 							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
+								class="block text-sm font-medium text-slate-700"
 								for="grid-zip"
 							>
 								Zip
 							</label>
 							<input
-								class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 								id="grid-zip"
 								type="text"
 								placeholder="xxxx"
@@ -246,8 +273,11 @@
 					</div>
 					<!--END:()-->
 
+					<!--START:()-->
 					<div class="space-y-6 mt-6">
+						<!--START:()-->
 						<div class="flex items-center justify-between">
+							<!--START:()-->
 							<div class="flex items-center">
 								<input
 									id="remember_me"
@@ -265,6 +295,7 @@
 							</div>
 							<!--END:()-->
 
+							<!--START:()-->
 							<div class="text-sm text-right">
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
@@ -277,6 +308,7 @@
 						</div>
 						<!--END:()-->
 
+						<!--START:()-->
 						<div>
 							<button
 								type="submit"
@@ -287,6 +319,7 @@
 						</div>
 						<!--END:()-->
 
+						<!--START:()-->
 						<div class="flex items-center justify-center space-x-2 my-5">
 							<span class="h-px w-16 bg-indigo-600" />
 							<span class="text-slate-500 font-normal text-center">OR</span>
@@ -294,6 +327,7 @@
 						</div>
 						<!--END:()-->
 
+						<!--START:()-->
 						<div>
 							<button
 								type="submit"
@@ -307,6 +341,7 @@
 					<!--END:()-->
 				</form>
 
+				<!--START:()-->
 				<div class="pt-6 text-center text-slate-400 text-xs">
 					<span>
 						Copyright © 2069-2069

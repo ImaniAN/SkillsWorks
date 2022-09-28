@@ -1,7 +1,11 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
+<!--START:()-->
 <div class="bg-indigo-600">
+	<!--START:()-->
 	<div class="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
+		<!--START:()-->
 		<div class="flex items-center justify-between flex-wrap">
+			<!--START:()-->
 			<div class="w-0 flex-1 flex items-center">
 				<span class="flex p-2 rounded-lg bg-indigo-800">
 					<!-- Heroicon name: outline/speakerphone -->
@@ -28,6 +32,7 @@
 					</span>
 				</p>
 			</div>
+			<!--START:()-->
 			<div
 				class="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto"
 			>
@@ -39,6 +44,7 @@
 					Learn more
 				</a>
 			</div>
+			<!--START:()-->
 			<div class="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
 				<button
 					type="button"

@@ -2,8 +2,11 @@
 	import Flaotees from '../profiles/ui/Flaotees.svelte';
 </script>
 
+<!--START:()-->
 <div class="bg-indigo-100 text-slate-700 py-2 px-4">
+	<!--START:()-->
 	<div class="mx-auto max-w-6xl flex flex-col md:flex-row">
+		<!--START:()-->
 		<div
 			class="hidden md:flex flex-auto items-start justify-end p-10 pr-20 overflow-hidden bg-no-repeat bg-cover relative"
 		>
@@ -15,6 +18,7 @@
 		</div>
 		<!--END:()-->
 
+		<!--START:()-->
 		<div class="space-y-4">
 			<details class="p-6 border-l-4 border-green-500 bg-gray-50 group" open>
 				<summary class="flex items-center justify-between cursor-pointer">

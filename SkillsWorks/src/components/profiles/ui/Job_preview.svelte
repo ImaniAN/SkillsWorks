@@ -1,5 +1,7 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
+<!--START:()-->
 <div class="bg-indigo-50 shadow sm:rounded-lg">
+	<!--START:()-->
 	<div class="bg-lime-100 px-4 py-5 sm:px-6">
 		<h3 class="text-lg font-medium leading-6 text-slate-900">
 			Applicant Information
@@ -8,8 +10,10 @@
 			Personal details and application.
 		</p>
 	</div>
+	<!--START:()-->
 	<div class="max-h-screen border-t border-slate-200">
 		<dl class="relative">
+			<!--START:()-->
 			<div
 				class="bg-slate-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 			>
@@ -18,6 +22,7 @@
 					Margot Foster
 				</dd>
 			</div>
+			<!--START:()-->
 			<div
 				class="bg-indigo-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 			>
@@ -26,6 +31,7 @@
 					Backend Developer
 				</dd>
 			</div>
+			<!--START:()-->
 			<div
 				class="bg-slate-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 			>
@@ -34,6 +40,7 @@
 					margotfoster@example.com
 				</dd>
 			</div>
+			<!--START:()-->
 			<div
 				class="bg-indigo-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 			>
@@ -42,6 +49,7 @@
 					$120,000
 				</dd>
 			</div>
+			<!--START:()-->
 			<div
 				class="bg-slate-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 			>
@@ -53,6 +61,7 @@
 					nostrud pariatur mollit ad adipisicing reprehenderit deserunt qui eu.
 				</dd>
 			</div>
+			<!--START:()-->
 			<div
 				class="bg-indigo-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 			>
@@ -66,6 +75,7 @@
 						<li
 							class="flex items-center justify-between py-3 pl-3 pr-4 text-sm"
 						>
+							<!--START:()-->
 							<div class="flex w-0 flex-1 items-center">
 								<!-- Heroicon name: mini/paper-clip -->
 								<svg
@@ -85,6 +95,7 @@
 									>coverletter_back_end_developer.pdf</span
 								>
 							</div>
+							<!--START:()-->
 							<div class="ml-4 flex-shrink-0">
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
@@ -98,6 +109,7 @@
 						<li
 							class="flex items-center justify-between py-3 pl-3 pr-4 text-sm"
 						>
+							<!--START:()-->
 							<div class="flex w-0 flex-1 items-center">
 								<!-- Heroicon name: mini/paper-clip -->
 								<svg
@@ -117,6 +129,7 @@
 									>resume_back_end_developer.pdf</span
 								>
 							</div>
+							<!--START:()-->
 							<div class="ml-4 flex-shrink-0">
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
@@ -130,6 +143,7 @@
 						<li
 							class="flex items-center justify-between py-3 pl-3 pr-4 text-sm"
 						>
+							<!--START:()-->
 							<div class="flex w-0 flex-1 items-center">
 								<!-- Heroicon name: mini/paper-clip -->
 								<svg
@@ -149,6 +163,7 @@
 									>coverletter_back_end_developer.pdf</span
 								>
 							</div>
+							<!--START:()-->
 							<div class="ml-4 flex-shrink-0">
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
@@ -162,6 +177,7 @@
 					</ul>
 				</dd>
 			</div>
+			<!--START:()-->
 			<div class="bg-indigo-50 px-4 py-5 grid grid-cols-3 gap-4 sm:px-6">
 				<button
 					type="submit"

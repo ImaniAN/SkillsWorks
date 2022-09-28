@@ -7,12 +7,15 @@
 	import ContactUs from '../about_us/Contact_us.svelte';
 </script>
 
+<!--START:()-->
 <div>
 	<!--<authNavbar /> -->
 	<main>
+		<!--START:()-->
 		<div
 			class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
 		>
+			<!--START:()-->
 			<div
 				class="absolute top-0 w-full h-full bg-center bg-cover"
 				style="background-image: url(https://dummyimage.com/305x305);"
@@ -22,9 +25,13 @@
 					class="w-full h-full absolute opacity-75 bg-black"
 				/>
 			</div>
+			<!--START:()-->
 			<div class="container relative mx-auto">
+				<!--START:()-->
 				<div class="items-center flex flex-wrap">
+					<!--START:()-->
 					<div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+						<!--START:()-->
 						<div class="pr-12">
 							<h1 class="text-indigo-50 font-semibold text-5xl">
 								Your story starts with us.
@@ -38,6 +45,7 @@
 					</div>
 				</div>
 			</div>
+			<!--START:()-->
 			<div
 				class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
 				style="transform: translateZ(0);"
@@ -60,13 +68,19 @@
 		</div>
 
 		<section class="pb-20 bg-blue-200 -mt-24">
+			<!--START:()-->
 			<div class="container mx-auto px-4">
+				<!--START:()-->
 				<div class="flex flex-wrap">
+					<!--START:()-->
 					<div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+						<!--START:()-->
 						<div
 							class="relative flex flex-col min-w-0 break-words bg-indigo-50 w-full mb-8 shadow-lg rounded-lg"
 						>
+							<!--START:()-->
 							<div class="px-4 py-5 flex-auto">
+								<!--START:()-->
 								<div
 									class="text-indigo-50 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
 								>
@@ -83,11 +97,15 @@
 						</div>
 					</div>
 
+					<!--START:()-->
 					<div class="w-full md:w-4/12 px-4 text-center">
+						<!--START:()-->
 						<div
 							class="relative flex flex-col min-w-0 break-words bg-indigo-50 w-full mb-8 shadow-lg rounded-lg"
 						>
+							<!--START:()-->
 							<div class="px-4 py-5 flex-auto">
+								<!--START:()-->
 								<div
 									class="text-indigo-50 p-2 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400"
 								>
@@ -104,11 +122,15 @@
 						</div>
 					</div>
 
+					<!--START:()-->
 					<div class="pt-6 w-full md:w-4/12 px-4 text-center">
+						<!--START:()-->
 						<div
 							class="relative flex flex-col min-w-0 break-words bg-indigo-50 w-full mb-8 shadow-lg rounded-lg"
 						>
+							<!--START:()-->
 							<div class="px-4 py-5 flex-auto">
+								<!--START:()-->
 								<div
 									class="text-indigo-50 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400"
 								>
@@ -126,8 +148,11 @@
 					</div>
 				</div>
 
+				<!--START:()-->
 				<div class="flex flex-wrap items-center mt-32">
+					<!--START:()-->
 					<div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+						<!--START:()-->
 						<div
 							class="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-indigo-50"
 						>
@@ -157,7 +182,9 @@
 						</a>
 					</div>
 
+					<!--START:()-->
 					<div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+						<!--START:()-->
 						<div
 							class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-red-400"
 						>
@@ -194,6 +221,7 @@
 		</section>
 
 		<section class="relative py-20 bg-lime-200">
+			<!--START:()-->
 			<div
 				class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
 				style="transform: translateZ(0);"
@@ -214,8 +242,11 @@
 				</svg>
 			</div>
 
+			<!--START:()-->
 			<div class="container mx-auto px-4 ">
+				<!--START:()-->
 				<div class="items-center flex flex-wrap">
+					<!--START:()-->
 					<div class="w-full md:w-4/12 ml-auto mr-auto px-4">
 						<img
 							alt="..."
@@ -223,8 +254,11 @@
 							src="https://dummyimage.com/305x305"
 						/>
 					</div>
+					<!--START:()-->
 					<div class="w-full md:w-5/12 ml-auto mr-auto px-4 ">
+						<!--START:()-->
 						<div class="md:pr-12">
+							<!--START:()-->
 							<div
 								class="text-red-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-red-300"
 							>
@@ -240,7 +274,9 @@
 							</p>
 							<ul class="list-none mt-6">
 								<li class="py-2">
+									<!--START:()-->
 									<div class="flex items-center">
+										<!--START:()-->
 										<div>
 											<span
 												class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3"
@@ -248,6 +284,7 @@
 												<i class="fas fa-fingerprint" />
 											</span>
 										</div>
+										<!--START:()-->
 										<div>
 											<h4 class="text-slate-500">
 												Carefully crafted components
@@ -256,7 +293,9 @@
 									</div>
 								</li>
 								<li class="py-2">
+									<!--START:()-->
 									<div class="flex items-center">
+										<!--START:()-->
 										<div>
 											<span
 												class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3"
@@ -264,13 +303,16 @@
 												<i class="fab fa-html5" />
 											</span>
 										</div>
+										<!--START:()-->
 										<div>
 											<h4 class="text-slate-500">Amazing page examples</h4>
 										</div>
 									</div>
 								</li>
 								<li class="py-2">
+									<!--START:()-->
 									<div class="flex items-center">
+										<!--START:()-->
 										<div>
 											<span
 												class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3"
@@ -278,6 +320,7 @@
 												<i class="far fa-paper-plane" />
 											</span>
 										</div>
+										<!--START:()-->
 										<div>
 											<h4 class="text-slate-500">Dynamic components</h4>
 										</div>
@@ -291,8 +334,11 @@
 		</section>
 
 		<section class="bg-rose-200 pt-20 pb-8">
+			<!--START:()-->
 			<div class="container mx-auto px-4">
+				<!--START:()-->
 				<div class="flex flex-wrap justify-center text-center mb-24">
+					<!--START:()-->
 					<div class="w-full lg:w-6/12 px-4">
 						<h2 class="text-4xl text-slate-800 font-semibold">
 							Here are our heroes
@@ -309,6 +355,7 @@
 		</section>
 
 		<section class="pb-2 relative block bg-indigo-400">
+			<!--START:()-->
 			<div
 				class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
 				style="transform: translateZ(0);"
@@ -329,8 +376,11 @@
 				</svg>
 			</div>
 
+			<!--START:()-->
 			<div class="container mx-auto px-4 lg:pt-24 lg:pb-4">
+				<!--START:()-->
 				<div class="flex flex-wrap text-center justify-center">
+					<!--START:()-->
 					<div class="w-full lg:w-6/12 px-4">
 						<h2 class="text-4xl font-semibold text-indigo-50">
 							Build something
@@ -342,8 +392,11 @@
 						</p>
 					</div>
 				</div>
+				<!--START:()-->
 				<div class="flex flex-wrap mt-12 justify-center">
+					<!--START:()-->
 					<div class="w-full lg:w-3/12 px-4 text-center">
+						<!--START:()-->
 						<div
 							class="text-slate-800 p-3 w-12 h-12 shadow-lg rounded-full bg-indigo-50 inline-flex items-center justify-center"
 						>
@@ -357,7 +410,9 @@
 							bulk of the card's content.
 						</p>
 					</div>
+					<!--START:()-->
 					<div class="w-full lg:w-3/12 px-4 text-center">
+						<!--START:()-->
 						<div
 							class="text-slate-800 p-3 w-12 h-12 shadow-lg rounded-full bg-indigo-50 inline-flex items-center justify-center"
 						>
@@ -371,7 +426,9 @@
 							bulk of the card's content.
 						</p>
 					</div>
+					<!--START:()-->
 					<div class="w-full lg:w-3/12 px-4 text-center">
+						<!--START:()-->
 						<div
 							class="text-slate-800 p-3 w-12 h-12 shadow-lg rounded-full bg-indigo-50 inline-flex items-center justify-center"
 						>
@@ -387,7 +444,9 @@
 					</div>
 				</div>
 				<section class="py-2 mb-2 text-white bg-slate-900">
+					<!--START:()-->
 					<div class="px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
+						<!--START:()-->
 						<div class="max-w-lg mx-auto text-center">
 							<h2 class="text-3xl font-bold sm:text-4xl">
 								Kickstart your marketing
@@ -400,6 +459,7 @@
 							</p>
 						</div>
 
+						<!--START:()-->
 						<div
 							class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"
 						>
@@ -608,6 +668,7 @@
 							</a>
 						</div>
 
+						<!--START:()-->
 						<div class="mt-12 text-center">
 							<a
 								class="inline-flex items-center px-8 py-3 mt-8 text-white bg-pink-600 border border-pink-600 rounded hover:bg-transparent active:text-pink-500 focus:outline-none focus:ring"

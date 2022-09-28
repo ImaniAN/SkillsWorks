@@ -1,6 +1,9 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
+<!--START:()-->
 <div class="container mx-auto p-1 sm:px-8 max-w-4xl border ">
+	<!--START:()-->
 	<div class="bg-indigo-50 shadow overflow-hidden sm:rounded-lg">
+		<!--START:()-->
 		<div class="px-4 py-5 sm:px-6">
 			<h3 class="text-lg leading-6 font-medium text-slate-900">
 				Applicant Information
@@ -9,8 +12,10 @@
 				Personal details and application.
 			</p>
 		</div>
+		<!--START:()-->
 		<div class="border-t border-slate-200">
 			<dl>
+				<!--START:()-->
 				<div
 					class="bg-slate-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 				>
@@ -19,6 +24,7 @@
 						Margot Foster
 					</dd>
 				</div>
+				<!--START:()-->
 				<div
 					class="bg-indigo-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 				>
@@ -27,6 +33,7 @@
 						Backend Developer
 					</dd>
 				</div>
+				<!--START:()-->
 				<div
 					class="bg-slate-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 				>
@@ -35,6 +42,7 @@
 						margotfoster@example.com
 					</dd>
 				</div>
+				<!--START:()-->
 				<div
 					class="bg-indigo-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 				>
@@ -43,6 +51,7 @@
 						$120,000
 					</dd>
 				</div>
+				<!--START:()-->
 				<div
 					class="bg-slate-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 				>
@@ -55,6 +64,7 @@
 						deserunt qui eu.
 					</dd>
 				</div>
+				<!--START:()-->
 				<div
 					class="bg-indigo-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 				>
@@ -68,6 +78,7 @@
 							<li
 								class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
 							>
+								<!--START:()-->
 								<div class="w-0 flex-1 flex items-center">
 									<!-- Heroicon name: solid/paper-clip -->
 									<svg
@@ -87,6 +98,7 @@
 										resume_back_end_developer.pdf
 									</span>
 								</div>
+								<!--START:()-->
 								<div class="ml-4 flex-shrink-0">
 									<!-- svelte-ignore a11y-invalid-attribute -->
 									<!-- svelte-ignore a11y-invalid-attribute -->
@@ -101,6 +113,7 @@
 							<li
 								class="pl-3 pr-4 py-3 flex items-center justify-between text-sm"
 							>
+								<!--START:()-->
 								<div class="w-0 flex-1 flex items-center">
 									<!-- Heroicon name: solid/paper-clip -->
 									<svg
@@ -120,6 +133,7 @@
 										coverletter_back_end_developer.pdf
 									</span>
 								</div>
+								<!--START:()-->
 								<div class="ml-4 flex-shrink-0">
 									<!-- svelte-ignore a11y-invalid-attribute -->
 									<a

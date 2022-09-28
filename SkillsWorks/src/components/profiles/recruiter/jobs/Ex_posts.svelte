@@ -1,14 +1,19 @@
 <!-- This comp is for showing all the jobs that a candidate has applied for -->
+<!--START:()-->
 <div
 	class="container mx-auto px-1 sm:px-8 max-w-4xl border-2 border-indigo-400 border-dashed w-screen"
 >
+	<!--START:()-->
 	<div class="py-8">
+		<!--START:()-->
 		<div class="flex flex-row mb-1 sm:mb-0 justify-between w-full">
 			<h2 class="text-2xl leading-tight text-indigo-400">Posted Jobs</h2>
+			<!--START:()-->
 			<div class="text-end">
 				<form
 					class="flex flex-col md:flex-row w-4/5 md:w-full md:space-x-3 space-y-3 md:space-y-0 justify-center"
 				>
+					<!--START:()-->
 					<div class="form-control">
 						<label class="label cursor-pointer">
 							<span class="label-text text-indigo-400"
@@ -23,11 +28,12 @@
 					</div>
 					<!--END:()-->
 
+					<!--START:()-->
 					<div class="relative w-4/5 ">
 						<input
 							type="text"
 							id="&quot;form-subscribe-Filter"
-							class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+							class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 							placeholder="Name of Job"
 						/>
 					</div>
@@ -44,7 +50,9 @@
 		</div>
 		<!--END:()-->
 
+		<!--START:()-->
 		<div class="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
+			<!--START:()-->
 			<div class="inline-block min-w-full shadow rounded-lg overflow-hidden">
 				<table class="min-w-full leading-normal ">
 					<thead>
@@ -80,7 +88,9 @@
 							<td
 								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
 							>
+								<!--START:()-->
 								<div class="flex items-center">
+									<!--START:()-->
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
@@ -94,6 +104,7 @@
 									</div>
 									<!--END:()-->
 
+									<!--START:()-->
 									<div class="ml-3">
 										<p class="text-slate-900 whitespace-no-wrap">Marcus coco</p>
 									</div>
@@ -140,7 +151,9 @@
 							<td
 								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
 							>
+								<!--START:()-->
 								<div class="flex items-center">
+									<!--START:()-->
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
@@ -154,6 +167,7 @@
 									</div>
 									<!--END:()-->
 
+									<!--START:()-->
 									<div class="ml-3">
 										<p class="text-slate-900 whitespace-no-wrap">Jean marc</p>
 									</div>
@@ -200,7 +214,9 @@
 							<td
 								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
 							>
+								<!--START:()-->
 								<div class="flex items-center">
+									<!--START:()-->
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
@@ -214,6 +230,7 @@
 									</div>
 									<!--END:()-->
 
+									<!--START:()-->
 									<div class="ml-3">
 										<p class="text-slate-900 whitespace-no-wrap">
 											Marcus Huger Musovi
@@ -262,7 +279,9 @@
 							<td
 								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
 							>
+								<!--START:()-->
 								<div class="flex items-center">
+									<!--START:()-->
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
@@ -276,6 +295,7 @@
 									</div>
 									<!--END:()-->
 
+									<!--START:()-->
 									<div class="ml-3">
 										<p class="text-slate-900 whitespace-no-wrap">Ecric marc</p>
 									</div>
@@ -322,7 +342,9 @@
 							<td
 								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
 							>
+								<!--START:()-->
 								<div class="flex items-center">
+									<!--START:()-->
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
@@ -336,6 +358,7 @@
 									</div>
 									<!--END:()-->
 
+									<!--START:()-->
 									<div class="ml-3">
 										<p class="text-slate-900 whitespace-no-wrap">
 											Marcus Niyigena
@@ -384,7 +407,9 @@
 							<td
 								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
 							>
+								<!--START:()-->
 								<div class="flex items-center">
+									<!--START:()-->
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
@@ -398,6 +423,7 @@
 									</div>
 									<!--END:()-->
 
+									<!--START:()-->
 									<div class="ml-3">
 										<p class="text-slate-900 whitespace-no-wrap">
 											Julien Huger
@@ -446,7 +472,9 @@
 							<td
 								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
 							>
+								<!--START:()-->
 								<div class="flex items-center">
+									<!--START:()-->
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
@@ -460,6 +488,7 @@
 									</div>
 									<!--END:()-->
 
+									<!--START:()-->
 									<div class="ml-3">
 										<p class="text-slate-900 whitespace-no-wrap">John Doe</p>
 									</div>
@@ -504,9 +533,11 @@
 						</tr>
 					</tbody>
 				</table>
+				<!--START:()-->
 				<div
 					class="px-5 bg-indigo-50 py-5 flex flex-col xs:flex-row items-center xs:justify-between"
 				>
+					<!--START:()-->
 					<div class="flex items-center">
 						<button
 							type="button"

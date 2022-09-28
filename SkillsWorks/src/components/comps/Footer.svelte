@@ -1,5 +1,7 @@
 <footer class="bg-slate-900">
+	<!--START:()-->
 	<div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+		<!--START:()-->
 		<div
 			class="flex flex-col items-center gap-4 p-6 bg-indigo-600 rounded-lg shadow-lg sm:flex-row sm:justify-between"
 		>
@@ -32,7 +34,9 @@
 		</div>
 		<!--END:()-->
 
+		<!--START:()-->
 		<div class="grid grid-cols-1 gap-8 mt-16 sm:grid-cols-2 lg:grid-cols-4">
+			<!--START:()-->
 			<div class="text-center sm:text-left">
 				<p class="text-lg font-medium text-indigo-50">About Us</p>
 
@@ -86,6 +90,7 @@
 			</div>
 			<!--END:()-->
 
+			<!--START:()-->
 			<div class="text-center sm:text-left">
 				<p class="text-lg font-medium text-indigo-50">Our Services</p>
 
@@ -139,6 +144,7 @@
 			</div>
 			<!--END:()-->
 
+			<!--START:()-->
 			<div class="text-center sm:text-left">
 				<p class="text-lg font-medium text-indigo-50">Resources</p>
 
@@ -203,6 +209,7 @@
 			</div>
 			<!--END:()-->
 
+			<!--START:()-->
 			<div class="text-center sm:text-left">
 				<p class="text-lg font-medium text-indigo-50">Helpful Links</p>
 
@@ -260,6 +267,7 @@
 		</div>
 		<!--END:()-->
 
+		<!--START:()-->
 		<div class="mt-16">
 			<ul class="flex justify-center gap-6 sm:justify-end">
 				<li>
@@ -381,7 +389,9 @@
 				</li>
 			</ul>
 
+			<!--START:()-->
 			<div class="mt-16 sm:flex sm:justify-between sm:items-center">
+				<!--START:()-->
 				<div class="flex justify-center text-indigo-300 sm:justify-start">
 					<svg
 						class="h-8"

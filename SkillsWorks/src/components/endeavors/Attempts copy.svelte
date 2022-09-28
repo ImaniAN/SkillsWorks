@@ -1,8 +1,10 @@
+<!--START:()-->
 <div class="overflow-scroll container justify-center">
 	<main
 		class="h-screen w-full flex flex-col justify-center items-center bg-[#1A2238]"
 	>
 		<h1 class="text-9xl font-extrabold text-indigo-50 tracking-widest">404</h1>
+		<!--START:()-->
 		<div class="bg-[#FF6A3D] px-2 text-sm rounded rotate-12 absolute">
 			Page Not Found
 		</div>
@@ -30,9 +32,11 @@
 	<section
 		class="flex items-center h-full p-16 dark:bg-slate-900 dark:text-slate-100"
 	>
+		<!--START:()-->
 		<div
 			class="container flex flex-col items-center justify-center px-5 mx-auto my-8"
 		>
+			<!--START:()-->
 			<div class="max-w-md text-center">
 				<h2 class="mb-8 font-extrabold text-9xl dark:text-slate-600">
 					<span class="sr-only">Error</span>404
@@ -55,13 +59,18 @@
 		</div>
 		<!--END:()-->
 	</section>
+	<!--START:()-->
 	<div
 		class="flex items-center justify-center min-h-screen bg-indigo-500 bg-fixed bg-cover bg-bottom error-bg"
 		style="background-image: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23f0b608' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23e6d710' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23e7af05' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23e7d808' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d8a408' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23f1e213' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23f0b607' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23e4d506' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23eab822' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23e8da14' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23e8b008' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23edde14' points='943 900 1210 900 971 687'/%3E%3C/svg%3E);"
 	>
+		<!--START:()-->
 		<div class="container">
+			<!--START:()-->
 			<div class="row">
+				<!--START:()-->
 				<div class="col-sm-8 offset-sm-2 text-slate-50 text-center -mt-52">
+					<!--START:()-->
 					<div class="relative ">
 						<h1
 							class="relative text-9xl tracking-tighter-less text-shadow font-sans font-bold"
@@ -96,6 +105,7 @@
 	</div>
 	<!--END:()-->
 
+	<!--START:()-->
 	<div class="bg-slate-100 h-screen justify-center">
 		<center class="mt-24 m-auto">
 			<svg
@@ -186,6 +196,7 @@
 					stroke-width="8"
 				/>
 			</svg>
+			<!--START:()-->
 			<div class=" tracking-widest mt-4">
 				<span class="text-slate-500 text-6xl block"> <span>4 0 4</span> </span>
 				<span class="text-slate-500 text-xl"

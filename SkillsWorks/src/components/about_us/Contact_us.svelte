@@ -1,4 +1,5 @@
 <section class="text-slate-600 body-font relative">
+	<!--START:()-->
 	<div class="absolute inset-0 bg-slate-300">
 		<iframe
 			width="100%"
@@ -16,7 +17,9 @@
 	</div>
 	<!--END:(The div for Iframe location)-->
 
+	<!--START:()-->
 	<div class="container px-5 py-24 mx-auto flex">
+		<!--START:()-->
 		<div
 			class="lg:w-1/3 md:w-1/2 bg-indigo-50 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md"
 		>
@@ -26,6 +29,7 @@
 			<p class="leading-relaxed mb-5 text-slate-600">
 				Post-ironic portland shabby chic echo park, banjo fashion axe
 			</p>
+			<!--START:()-->
 			<div class="relative mb-4">
 				<label for="name" class="leading-7 text-sm text-slate-600"
 					>Full Name</label
@@ -41,6 +45,7 @@
 			</div>
 			<!--END:()-->
 
+			<!--START:()-->
 			<div class="relative mb-4">
 				<label for="phone" class="leading-7 text-sm text-slate-600">Phone</label
 				>
@@ -54,6 +59,7 @@
 			</div>
 			<!--END:()-->
 
+			<!--START:()-->
 			<div class="relative mb-4">
 				<label for="email" class="leading-7 text-sm text-slate-600">Email</label
 				>
@@ -68,6 +74,7 @@
 			</div>
 			<!--END:()-->
 
+			<!--START:()-->
 			<div class="relative mb-4">
 				<label for="message" class="leading-7 text-sm text-slate-600"
 					>Message</label
@@ -75,7 +82,7 @@
 				<textarea
 					id="message"
 					name="message"
-					class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+					class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 				/>
 			</div>
 			<!--END:()-->
@@ -86,9 +93,11 @@
 			>
 			<!--END:()-->
 
+			<!--START:()-->
 			<div
 				class="bg-indigo-50 relative flex flex-wrap p-2 mt-1 rounded border-dashed shadow-md"
 			>
+				<!--START:()-->
 				<div class="lg:w-11/12 px-6 mt-1">
 					<h2
 						class="title-font font-semibold text-slate-900 tracking-widest text-xs"
@@ -100,6 +109,7 @@
 						typewriter
 					</p>
 				</div>
+				<!--START:()-->
 				<div class="lg:w-11/12 pt-6 px-6 mt-1">
 					<h2
 						class="title-font font-semibold text-slate-900 tracking-widest text-xs"
@@ -117,6 +127,7 @@
 					</h2>
 					<p class="leading-relaxed">123-456-7890</p>
 				</div>
+				<!--START:()-->
 				<div class="p-3">
 					<p class="text-xs text-slate-500">
 						Feel free to reach us on these platforms

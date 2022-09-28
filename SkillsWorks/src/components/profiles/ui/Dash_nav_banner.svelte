@@ -4,8 +4,11 @@
 
 <!-- This example requires Tailwind CSS v2.0+ -->
 <nav class="bg-slate-800">
+	<!--START:()-->
 	<div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+		<!--START:()-->
 		<div class="relative flex items-center justify-between h-16">
+			<!--START:()-->
 			<div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
 				<!-- Mobile menu button-->
 				<button
@@ -61,9 +64,11 @@
 					</svg>
 				</button>
 			</div>
+			<!--START:()-->
 			<div
 				class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
 			>
+				<!--START:()-->
 				<div class="flex-shrink-0 flex items-center">
 					<img
 						class="block lg:hidden h-8 w-auto"
@@ -76,7 +81,9 @@
 						alt="Workflow"
 					/>
 				</div>
+				<!--START:()-->
 				<div class="hidden sm:block sm:ml-6">
+					<!--START:()-->
 					<div class="flex space-x-4">
 						<!-- Current: "bg-slate-900 text-indigo-50", Default: "text-slate-300 hover:bg-slate-700 hover:text-indigo-50" -->
 						<!-- svelte-ignore a11y-invalid-attribute -->
@@ -113,6 +120,7 @@
 					</div>
 				</div>
 			</div>
+			<!--START:()-->
 			<div
 				class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
 			>
@@ -140,7 +148,9 @@
 				</button>
 
 				<!-- Profile dropdown -->
+				<!--START:()-->
 				<div class="ml-3 relative">
+					<!--START:()-->
 					<div>
 						<button
 							type="button"
@@ -168,6 +178,7 @@
    From: "transform opacity-100 scale-100"
    To: "transform opacity-0 scale-95"
    -->
+					<!--START:()-->
 					<div
 						class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-indigo-50 ring-1 ring-black ring-opacity-5 focus:outline-none"
 						role="menu"
@@ -210,7 +221,9 @@
 	</div>
 
 	<!-- Mobile menu, show/hide based on menu state. -->
+	<!--START:()-->
 	<div class="sm:hidden" id="mobile-menu">
+		<!--START:()-->
 		<div class="px-2 pt-2 pb-3 space-y-1">
 			<!-- Current: "bg-slate-900 text-indigo-50", Default: "text-slate-300 hover:bg-slate-700 hover:text-indigo-50" -->
 			<!-- svelte-ignore a11y-invalid-attribute -->

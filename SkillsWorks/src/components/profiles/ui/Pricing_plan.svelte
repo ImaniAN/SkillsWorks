@@ -1,5 +1,7 @@
 <section class="text-slate-900 bg-slate-200 body-font ">
+	<!--START:()-->
 	<div class="container px-5 py-24 mx-auto ">
+		<!--START:()-->
 		<div class="flex flex-col text-center w-full mb-20">
 			<h1
 				class="sm:text-4xl text-3xl font-medium title-font mb-2 text-slate-900"
@@ -11,6 +13,7 @@
 				lyft biodiesel artisan direct trade mumblecore 3 wolf moon twee
 			</p>
 		</div>
+		<!--START:()-->
 		<div
 			class="lg:w-2/3 w-full mx-auto overflow-auto border-2 border-dashed border-pink-500"
 		>
@@ -120,6 +123,7 @@
 				</tbody>
 			</table>
 		</div>
+		<!--START:()-->
 		<div
 			class="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto border-2 border-dashed border-pink-500"
 		>

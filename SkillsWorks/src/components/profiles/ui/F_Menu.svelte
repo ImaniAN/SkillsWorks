@@ -1,5 +1,8 @@
+<!--START:()-->
 <div class="flex flex-col justify-between h-screen bg-indigo-50 border-r">
+	<!--START:()-->
 	<div class="px-4 py-6">
+		<!--START:()-->
 		<div class="relative">
 			<label class="sr-only" for="search"> Search </label>
 
@@ -313,6 +316,7 @@
 	</div>
 	<!--END:()-->
 
+	<!--START:()-->
 	<div class="sticky inset-x-0 bottom-0 border-t border-indigo-100">
 		<!-- svelte-ignore a11y-invalid-attribute -->
 		<!-- svelte-ignore a11y-invalid-attribute -->
@@ -326,6 +330,7 @@
 				alt="Simon Lewis"
 			/>
 
+			<!--START:()-->
 			<div class="ml-1.5">
 				<p class="text-xs">
 					<strong class="block font-medium">Simon Lewis</strong>

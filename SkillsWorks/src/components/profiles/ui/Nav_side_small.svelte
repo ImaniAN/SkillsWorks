@@ -1,12 +1,17 @@
+<!--START:()-->
 <div class="flex flex-col justify-between w-16 h-screen bg-indigo-50 border-r">
+	<!--START:()-->
 	<div>
+		<!--START:()-->
 		<div class="inline-flex items-center justify-center w-16 h-16">
 			<span class="block w-10 h-10 bg-slate-200 rounded-lg" />
 		</div>
 		<!--END:()-->
 
+		<!--START:()-->
 		<div class="border-t border-indigo-100">
 			<nav class="flex flex-col p-2">
+				<!--START:()-->
 				<div class="py-4">
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
@@ -169,6 +174,7 @@
 	</div>
 	<!--END:()-->
 
+	<!--START:()-->
 	<div
 		class="sticky inset-x-0 bottom-0 p-2 bg-indigo-50 border-t border-indigo-100"
 	>

@@ -1,9 +1,13 @@
+<!--START:()-->
 <div class="max-w-5xl px-4 py-8 mx-auto">
 	<section
 		class="p-8 bg-slate-100 border-2 border-dashed border-indigo-900 rounded-lg"
 	>
+		<!--START:()-->
 		<div class="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
+			<!--START:()-->
 			<div class="relative">
+				<!--START:()-->
 				<div class="aspect-w-1 aspect-h-1">
 					<img
 						src="https://dummyimage.com/305x305"
@@ -13,6 +17,7 @@
 				</div>
 				<!--END:()-->
 
+				<!--START:()-->
 				<div
 					class="absolute inline-flex px-4 py-2 bg-indigo-50 rounded-lg shadow-xl -bottom-4 -right-4"
 				>
@@ -42,9 +47,13 @@
 
 <section class="text-slate-400 bg-slate-900 body-font">
 	Use this for multiple people
+	<!--START:()-->
 	<div class="container px-5 py-24 mx-auto">
+		<!--START:()-->
 		<div class="flex flex-wrap -m-4">
+			<!--START:()-->
 			<div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+				<!--START:()-->
 				<div class="h-full text-center">
 					<img
 						alt="testimonial"
@@ -66,7 +75,9 @@
 					<p class="text-slate-500">Senior Product Designer</p>
 				</div>
 			</div>
+			<!--START:()-->
 			<div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+				<!--START:()-->
 				<div class="h-full text-center">
 					<img
 						alt="testimonial"
@@ -88,7 +99,9 @@
 					<p class="text-slate-500">UI Develeoper</p>
 				</div>
 			</div>
+			<!--START:()-->
 			<div class="lg:w-1/3 lg:mb-0 p-4">
+				<!--START:()-->
 				<div class="h-full text-center">
 					<img
 						alt="testimonial"
@@ -116,7 +129,9 @@
 <!--END:()-->
 
 <section class="text-slate-600 body-font">
+	<!--START:()-->
 	<div class="container px-5 py-24 mx-auto">
+		<!--START:()-->
 		<div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -150,14 +165,18 @@
 <!--END:()-->
 
 <section class="text-slate-400 bg-slate-900 body-font">
+	<!--START:()-->
 	<div class="container px-5 py-24 mx-auto">
 		<h1
 			class="text-3xl font-medium title-font text-indigo-50 mb-12 text-center"
 		>
 			Testimonials
 		</h1>
+		<!--START:()-->
 		<div class="flex flex-wrap -m-4">
+			<!--START:()-->
 			<div class="p-4 md:w-1/2 w-full">
+				<!--START:()-->
 				<div class="h-full bg-slate-800 bg-opacity-40 p-8 rounded">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -192,7 +211,9 @@
 					</a>
 				</div>
 			</div>
+			<!--START:()-->
 			<div class="p-4 md:w-1/2 w-full">
+				<!--START:()-->
 				<div class="h-full bg-slate-800 bg-opacity-40 p-8 rounded">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"

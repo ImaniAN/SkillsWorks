@@ -1,18 +1,24 @@
 <!-- This comp is for showing the candidate their profile information -->
 
 <!-- Comp Start -->
+<!--START:()-->
 <div class="flex justify-center">
+	<!--START:()-->
 	<div class="px-8 py-4 border bg-indigo-200 bg-opacity-70">
+		<!--START:()-->
 		<div class="lg:flex lg:items-center lg:justify-between">
+			<!--START:()-->
 			<div class="flex-1 min-w-0">
 				<h2
 					class="text-2xl font-bold leading-7 text-slate-900 sm:text-3xl sm:tracking-tight sm:truncate"
 				>
 					*Prefered Job Title* CEO
 				</h2>
+				<!--START:()-->
 				<div
 					class="mt-1 flex flex-col sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-6"
 				>
+					<!--START:()-->
 					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/briefcase -->
 						<svg
@@ -35,6 +41,7 @@
 					</div>
 					<!--END:()-->
 
+					<!--START:()-->
 					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/location-marker -->
 						<svg
@@ -54,6 +61,7 @@
 					</div>
 					<!--END:()-->
 
+					<!--START:()-->
 					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/currency-dollar -->
 						<svg
@@ -76,6 +84,7 @@
 					</div>
 					<!--END:()-->
 
+					<!--START:()-->
 					<div class="mt-2 flex items-center text-sm text-slate-900">
 						<!-- Heroicon name: solid/calendar -->
 						<svg
@@ -99,6 +108,7 @@
 			</div>
 			<!--END:()-->
 
+			<!--START:()-->
 			<div class="mt-5 flex lg:mt-0 lg:ml-4">
 				<span class="hidden sm:block">
 					<button
@@ -168,6 +178,7 @@
 				</span>
 
 				<!-- Dropdown -->
+				<!--START:()-->
 				<div class="ml-3 relative sm:hidden">
 					<button
 						type="button"
@@ -203,6 +214,7 @@
    From: "transform opacity-100 scale-100"
    To: "transform opacity-0 scale-95"
  -->
+					<!--START:()-->
 					<div
 						class="origin-top-right absolute right-0 mt-2 -mr-1 w-48 rounded-md shadow-lg py-1 bg-indigo-50 ring-1 ring-black ring-opacity-5 focus:outline-none"
 						role="menu"
@@ -242,8 +254,11 @@
 		<!--END:()-->
 
 		<!--START: Red line shandis-->
+		<!--START:()-->
 		<div class="hidden sm:block" aria-hidden="true">
+			<!--START:()-->
 			<div class="pb-6">
+				<!--START:()-->
 				<div class="border-t border-red-300" />
 			</div>
 		</div>
@@ -251,9 +266,13 @@
 
 		<!-- Interview questions information Start -->
 
+		<!--START:()-->
 		<div class="mt-10 sm:mt-0">
+			<!--START:()-->
 			<div class="md:grid md:grid-cols-3 md:gap-6">
+				<!--START:()-->
 				<div class="md:col-span-1">
+					<!--START:()-->
 					<div class="px-4 sm:px-0">
 						<h3 class="text-lg font-medium leading-6 text-slate-900">
 							Interview questions
@@ -266,12 +285,17 @@
 				</div>
 				<!--END:()-->
 
+				<!--START:()-->
 				<div class="mt-5 md:mt-0 md:col-span-2">
 					<form action="#" method="POST">
+						<!--START:()-->
 						<div class="shadow sm:rounded-md sm:overflow-hidden">
+							<!--START:()-->
 							<div class="px-4 py-5 bg-indigo-50 space-y-6 sm:p-6">
+								<!--START:()-->
 								<div class="grid grid-cols-6 gap-6">
 									<!-- here -->
+									<!--START:()-->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
 										<label
 											for="institution-name"
@@ -286,6 +310,7 @@
 											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										/>
 									</div>
+									<!--START:()-->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
 										<label
 											for="qualfication-name"
@@ -300,6 +325,7 @@
 											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										/>
 									</div>
+									<!--START:()-->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
 										<label
 											for="country-code"
@@ -310,7 +336,7 @@
 											id="title"
 											name="title"
 											autocomplete="title"
-											class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										>
 											<option value="" disabled selected hidden>Click</option>
 											<option>Review (heard of)</option>
@@ -323,6 +349,7 @@
 										</select>
 									</div>
 									<!--END:()-->
+									<!--START:()-->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
 										<label
 											for="quantity"
@@ -338,6 +365,7 @@
 											max="50"
 										/>
 									</div>
+									<!--START:()-->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
 										<label
 											for="spoken-languages"
@@ -347,7 +375,7 @@
 										<select
 											id="spoken-languages"
 											name="spoken-languages"
-											class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										>
 											<option value="" disabled selected hidden
 												>South African languages...</option
@@ -359,6 +387,7 @@
 										</select>
 									</div>
 									<!--END:()-->
+									<!--START:()-->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
 										<label
 											for="country-code"
@@ -369,7 +398,7 @@
 											id="title"
 											name="title"
 											autocomplete="title"
-											class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										>
 											<option value="" disabled selected hidden>Click</option>
 											<option>Review (heard of)</option>
@@ -382,6 +411,7 @@
 										</select>
 									</div>
 									<!--END:()-->
+									<!--START:()-->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<fieldset>
 											<legend
@@ -391,7 +421,9 @@
 											<p class="text-sm text-slate-500">
 												The type work arrangemnet you had.
 											</p>
+											<!--START:()-->
 											<div class="mt-4 space-y-4">
+												<!--START:()-->
 												<div class="flex items-center">
 													<input
 														checked
@@ -409,6 +441,7 @@
 												</div>
 												<!--END:()-->
 
+												<!--START:()-->
 												<div class="flex items-center">
 													<input
 														id="emp-type"
@@ -425,6 +458,7 @@
 												</div>
 												<!--END:()-->
 
+												<!--START:()-->
 												<div class="flex items-center">
 													<input
 														id="emp-type"
@@ -440,6 +474,7 @@
 													</label>
 												</div>
 												<!--END:()-->
+												<!--START:()-->
 												<div class="flex items-center">
 													<input
 														id="emp-type"
@@ -456,6 +491,7 @@
 												</div>
 												<!--END:()-->
 
+												<!--START:()-->
 												<div class="flex items-center">
 													<input
 														id="emp-type"
@@ -472,6 +508,7 @@
 												</div>
 												<!--END:()-->
 
+												<!--START:()-->
 												<div class="flex items-center">
 													<input
 														id="emp-type"
@@ -488,6 +525,7 @@
 												</div>
 												<!--END:()-->
 
+												<!--START:()-->
 												<div class="flex items-center">
 													<input
 														id="emp-type"
@@ -518,7 +556,9 @@
 											<p class="text-sm text-slate-500">
 												Expected hours to do work.
 											</p>
+											<!--START:()-->
 											<div class="mt-4 space-y-4">
+												<!--START:()-->
 												<div class="flex items-center">
 													<input
 														id="learning-type"
@@ -535,6 +575,7 @@
 												</div>
 												<!--END:()-->
 
+												<!--START:()-->
 												<div class="flex items-center">
 													<input
 														id="learning-type"
@@ -551,6 +592,7 @@
 												</div>
 												<!--END:()-->
 
+												<!--START:()-->
 												<div class="flex items-center">
 													<input
 														checked
@@ -572,6 +614,7 @@
 										</fieldset>
 									</div>
 									<!--END:()-->
+									<!--START:()-->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-4">
 										<label
 											for="cover-letter"
@@ -579,12 +622,13 @@
 										>
 											Responsibilities, Duties and Roles
 										</label>
+										<!--START:()-->
 										<div class="mt-1">
 											<textarea
 												id="cover-letter"
 												name="cover-letter"
 												rows="17"
-												class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+												class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 												placeholder="Mention roles, duties, tools and equipment that you used."
 											/>
 										</div>
@@ -595,6 +639,7 @@
 										</p>
 									</div>
 									<!--END:()-->
+									<!--START:()-->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-6">
 										<label
 											for="cover-letter"
@@ -602,12 +647,13 @@
 										>
 											Benefits etc
 										</label>
+										<!--START:()-->
 										<div class="mt-1">
 											<textarea
 												id="cover-letter"
 												name="cover-letter"
 												rows="12"
-												class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+												class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 												placeholder="Mention roles, duties, tools and equipment that you used."
 											/>
 										</div>
@@ -618,6 +664,7 @@
 										</p>
 									</div>
 									<!--END:()-->
+									<!--START:()-->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="quantity"
@@ -635,6 +682,7 @@
 										/>
 									</div>
 									<!--END:()-->
+									<!--START:()-->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="country-code"
@@ -645,7 +693,7 @@
 											id="title"
 											name="title"
 											autocomplete="title"
-											class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										>
 											<option value="" disabled selected hidden>Click</option>
 											<option>Review (heard of)</option>
@@ -658,6 +706,7 @@
 										</select>
 									</div>
 									<!--END:()-->
+									<!--START:()-->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label
 											for="still-studying"
@@ -673,6 +722,7 @@
 										/>
 									</div>
 									<!--END:()-->
+									<!--START:()-->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
 										<label
 											for="quantity"
@@ -683,12 +733,13 @@
 											type="number"
 											id="quantity"
 											name="quantity"
-											class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 											min="1"
 											max="50"
 										/>
 									</div>
 									<!--END:()-->
+									<!--START:()-->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
 										<label
 											for="country-code"
@@ -699,7 +750,7 @@
 											id="title"
 											name="title"
 											autocomplete="title"
-											class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										>
 											<option value="" disabled selected hidden>Click</option>
 											<option>Review (heard of)</option>
@@ -712,6 +763,7 @@
 										</select>
 									</div>
 									<!--END:()-->
+									<!--START:()-->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
 										<label
 											for="city"
@@ -728,6 +780,7 @@
 										/>
 									</div>
 									<!--END:()-->
+									<!--START:()-->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-3">
 										<label
 											for="country-name"
@@ -750,8 +803,11 @@
 							</div>
 							<!--END:()-->
 						</div>
+						<!--START:()-->
 						<div class="hidden sm:block" aria-hidden="true">
+							<!--START:()-->
 							<div class="py-5">
+								<!--START:()-->
 								<div class="border-t border-red-300" />
 							</div>
 						</div>
@@ -763,9 +819,13 @@
 		</div>
 		<!--END:()-->
 
+		<!--START:()-->
 		<div class="mt-10 sm:mt-0">
+			<!--START:()-->
 			<div class="md:grid md:grid-cols-3 md:gap-6">
+				<!--START:()-->
 				<div class="md:col-span-1">
+					<!--START:()-->
 					<div class="px-4 sm:px-0">
 						<h3 class="text-lg font-medium leading-6 text-slate-900">
 							Reference
@@ -776,10 +836,15 @@
 				</div>
 				<!--END:()-->
 
+				<!--START:()-->
 				<div class="mt-5 md:mt-0 md:col-span-2">
+					<!--START:()-->
 					<div class="shadow overflow-hidden sm:rounded-md">
+						<!--START:()-->
 						<div class="px-4 py-5 bg-indigo-50 sm:p-6">
+							<!--START:()-->
 							<div class="grid grid-cols-6 gap-6">
+								<!--START:()-->
 								<div class="col-span-6 sm:col-span-3 lg:col-span-3">
 									<label
 										for="quantity"
@@ -790,12 +855,13 @@
 										type="number"
 										id="quantity"
 										name="quantity"
-										class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+										class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										min="0"
 										max="50"
 									/>
 								</div>
 								<!--END:()-->
+								<!--START:()-->
 								<div class="col-span-6 sm:col-span-3 lg:col-span-3">
 									<label
 										for="spoken-languages"
@@ -805,7 +871,7 @@
 									<select
 										id="spoken-languages"
 										name="spoken-languages"
-										class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+										class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 									>
 										<option value="" disabled selected hidden
 											>South African languages...</option
@@ -817,6 +883,7 @@
 									</select>
 								</div>
 								<!--END:()-->
+								<!--START:()-->
 								<div class="col-span-6 sm:col-span-6 lg:col-span-2">
 									<label
 										for="qualfication-name"
@@ -832,6 +899,7 @@
 									/>
 								</div>
 								<!--END:()-->
+								<!--START:()-->
 								<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 									<label
 										for="quantity"
@@ -842,12 +910,13 @@
 										type="number"
 										id="quantity"
 										name="quantity"
-										class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+										class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										min="18"
 										max="65"
 									/>
 								</div>
 								<!--END:()-->
+								<!--START:()-->
 								<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 									<label
 										for="spoken-languages"
@@ -857,7 +926,7 @@
 									<select
 										id="spoken-languages"
 										name="spoken-languages"
-										class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+										class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 									>
 										<option value="" disabled selected hidden>None...</option>
 										<option>Male</option>
@@ -866,6 +935,7 @@
 									</select>
 								</div>
 								<!--END:()-->
+								<!--START:()-->
 								<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 									<label
 										for="still-studying"
@@ -881,6 +951,7 @@
 									/>
 								</div>
 								<!--END:()-->
+								<!--START:()-->
 								<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 									<label
 										for="still-studying"
@@ -896,6 +967,7 @@
 									/>
 								</div>
 								<!--END:()-->
+								<!--START:()-->
 								<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 									<label
 										for="still-studying"
@@ -913,18 +985,23 @@
 								<!--END:()-->
 							</div>
 							<!--START: Red line shandis-->
+							<!--START:()-->
 							<div class="hidden sm:block" aria-hidden="true">
+								<!--START:()-->
 								<div class="py-4">
+									<!--START:()-->
 									<div class="border-t border-red-300" />
 								</div>
 							</div>
 							<!--END:()-->
 							<!--END: Red line shandis-->
+							<!--START:()-->
 							<div class="">
 								<fieldset>
 									<legend class="sr-only"
 										>idk man, you have a lot of things to figure out to do</legend
 									>
+									<!--START:()-->
 									<div
 										class="text-base font-medium text-slate-900"
 										aria-hidden="true"
@@ -933,8 +1010,11 @@
 									</div>
 									<!--END:()-->
 
+									<!--START:()-->
 									<div class="mt-4 space-y-4">
+										<!--START:()-->
 										<div class="flex items-start">
+											<!--START:()-->
 											<div class="flex items-center h-5">
 												<input
 													type="checkbox"
@@ -946,6 +1026,7 @@
 											</div>
 											<!--END:()-->
 
+											<!--START:()-->
 											<div class="ml-3 text-sm">
 												<label for="offers" class="font-medium text-slate-700"
 													>Do you have a South African ID?</label
@@ -959,7 +1040,9 @@
 										</div>
 										<!--END:()-->
 
+										<!--START:()-->
 										<div class="flex items-start">
+											<!--START:()-->
 											<div class="flex items-center h-5">
 												<input
 													type="checkbox"
@@ -971,6 +1054,7 @@
 											</div>
 											<!--END:()-->
 
+											<!--START:()-->
 											<div class="ml-3 text-sm">
 												<label
 													for="candidates"
@@ -985,7 +1069,9 @@
 										</div>
 										<!--END:()-->
 
+										<!--START:()-->
 										<div class="flex items-start">
+											<!--START:()-->
 											<div class="flex items-center h-5">
 												<input
 													type="checkbox"
@@ -997,6 +1083,7 @@
 											</div>
 											<!--END:()-->
 
+											<!--START:()-->
 											<div class="ml-3 text-sm">
 												<label for="offers" class="font-medium text-slate-700"
 													>Can you provide certified copies on request?</label
@@ -1010,7 +1097,9 @@
 										</div>
 										<!--END:()-->
 
+										<!--START:()-->
 										<div class="flex items-start">
+											<!--START:()-->
 											<div class="flex items-center h-5">
 												<input
 													type="checkbox"
@@ -1022,6 +1111,7 @@
 											</div>
 											<!--END:()-->
 
+											<!--START:()-->
 											<div class="ml-3 text-sm">
 												<label for="comments" class="font-medium text-slate-700"
 													>Do you have drivers licence?</label
@@ -1034,7 +1124,9 @@
 										</div>
 										<!--END:()-->
 
+										<!--START:()-->
 										<div class="flex items-start">
+											<!--START:()-->
 											<div class="flex items-center h-5">
 												<input
 													type="checkbox"
@@ -1046,6 +1138,7 @@
 											</div>
 											<!--END:()-->
 
+											<!--START:()-->
 											<div class="ml-3 text-sm">
 												<label for="offers" class="font-medium text-slate-700"
 													>Do you have a criminal record?</label
@@ -1064,6 +1157,7 @@
 							</div>
 							<!--END:()-->
 						</div>
+						<!--START:()-->
 						<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 							<button
 								type="submit"
@@ -1092,8 +1186,11 @@
 		<!-- ... END -->
 
 		<!--START: Red line shandis-->
+		<!--START:()-->
 		<div class="hidden sm:block" aria-hidden="true">
+			<!--START:()-->
 			<div class="py-5">
+				<!--START:()-->
 				<div class="border-t border-red-300" />
 			</div>
 			<!--END:()-->
@@ -1103,9 +1200,13 @@
 
 		<!-- Skills, compenticies and abilities Start -->
 
+		<!--START:()-->
 		<div class="mt-10 sm:mt-0">
+			<!--START:()-->
 			<div class="md:grid md:grid-cols-3 md:gap-6">
+				<!--START:()-->
 				<div class="md:col-span-1">
+					<!--START:()-->
 					<div class="px-4 sm:px-0">
 						<h3 class="text-lg font-medium leading-6 text-slate-900">
 							Job Ad Type
@@ -1118,11 +1219,16 @@
 				</div>
 				<!--END:()-->
 
+				<!--START:()-->
 				<div class="mt-5 md:mt-0 md:col-span-2">
 					<form action="#" method="POST">
+						<!--START:()-->
 						<div class="shadow overflow-hidden sm:rounded-md">
+							<!--START:()-->
 							<div class="px-4 py-5 bg-indigo-50 sm:p-6">
+								<!--START:()-->
 								<div class="grid grid-cols-6 gap-6">
+									<!--START:()-->
 									<div class="col-span-6 lg:col-span-2">
 										<label
 											for="skill-name"
@@ -1139,6 +1245,7 @@
 									</div>
 									<!--END:()-->
 
+									<!--START:()-->
 									<div class="col-span-6 lg:col-span-4">
 										<label
 											for="country-code"
@@ -1149,7 +1256,7 @@
 											id="title"
 											name="title"
 											autocomplete="title"
-											class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+											class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 										>
 											<option value="" disabled selected hidden>Click</option>
 											<option>Review (heard of)</option>
@@ -1166,6 +1273,7 @@
 								<!--END:()-->
 							</div>
 							<!--END:()-->
+							<!--START:()-->
 							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 								<button
 									type="submit"
@@ -1192,8 +1300,11 @@
 		<!--END:()-->
 
 		<!--START: Red line shandis-->
+		<!--START:()-->
 		<div class="hidden sm:block" aria-hidden="true">
+			<!--START:()-->
 			<div class="py-5">
+				<!--START:()-->
 				<div class="border-t border-red-300" />
 			</div>
 			<!--END:()-->
@@ -1201,9 +1312,13 @@
 		<!--END:()-->
 		<!--END: Red line shandis-->
 
+		<!--START:()-->
 		<div class="mt-10 sm:mt-0">
+			<!--START:()-->
 			<div class="md:grid md:grid-cols-3 md:gap-6">
+				<!--START:()-->
 				<div class="md:col-span-1">
+					<!--START:()-->
 					<div class="px-4 sm:px-0">
 						<h3 class="text-lg font-medium leading-6 text-slate-900">
 							Notifications
@@ -1216,12 +1331,16 @@
 				</div>
 				<!--END:()-->
 
+				<!--START:()-->
 				<div class="mt-5 md:mt-0 md:col-span-2">
 					<form action="#" method="POST">
+						<!--START:()-->
 						<div class="shadow overflow-hidden sm:rounded-md">
+							<!--START:()-->
 							<div class="px-4 py-5 bg-indigo-50 space-y-6 sm:p-6">
 								<fieldset>
 									<legend class="sr-only">By Email</legend>
+									<!--START:()-->
 									<div
 										class="text-base font-medium text-slate-900"
 										aria-hidden="true"
@@ -1230,8 +1349,11 @@
 									</div>
 									<!--END:()-->
 
+									<!--START:()-->
 									<div class="mt-4 space-y-4">
+										<!--START:()-->
 										<div class="flex items-start">
+											<!--START:()-->
 											<div class="flex items-center h-5">
 												<input
 													id="comments"
@@ -1243,6 +1365,7 @@
 											</div>
 											<!--END:()-->
 
+											<!--START:()-->
 											<div class="ml-3 text-sm">
 												<label for="comments" class="font-medium text-slate-700"
 													>Reviews</label
@@ -1256,7 +1379,9 @@
 										</div>
 										<!--END:()-->
 
+										<!--START:()-->
 										<div class="flex items-start">
+											<!--START:()-->
 											<div class="flex items-center h-5">
 												<input
 													id="candidates"
@@ -1268,6 +1393,7 @@
 											</div>
 											<!--END:()-->
 
+											<!--START:()-->
 											<div class="ml-3 text-sm">
 												<label
 													for="candidates"
@@ -1282,7 +1408,9 @@
 										</div>
 										<!--END:()-->
 
+										<!--START:()-->
 										<div class="flex items-start">
+											<!--START:()-->
 											<div class="flex items-center h-5">
 												<input
 													id="offers"
@@ -1294,6 +1422,7 @@
 											</div>
 											<!--END:()-->
 
+											<!--START:()-->
 											<div class="ml-3 text-sm">
 												<label for="offers" class="font-medium text-slate-700"
 													>Offers, Interviews and feedback</label
@@ -1316,7 +1445,9 @@
 									<p class="text-sm text-slate-500">
 										These are delivered via SMS to your mobile phone.
 									</p>
+									<!--START:()-->
 									<div class="mt-4 space-y-4">
+										<!--START:()-->
 										<div class="flex items-center">
 											<input
 												id="push-everything"
@@ -1334,6 +1465,7 @@
 										</div>
 										<!--END:()-->
 
+										<!--START:()-->
 										<div class="flex items-center">
 											<input
 												id="push-email"
@@ -1350,6 +1482,7 @@
 										</div>
 										<!--END:()-->
 
+										<!--START:()-->
 										<div class="flex items-center">
 											<input
 												id="push-nothing"
@@ -1371,6 +1504,7 @@
 							</div>
 							<!--END:()-->
 
+							<!--START:()-->
 							<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 								<button
 									type="submit"

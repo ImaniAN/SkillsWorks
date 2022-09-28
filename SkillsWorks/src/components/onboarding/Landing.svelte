@@ -11,8 +11,9 @@
 	import Ex_posts from '../profiles/recruiter/jobs/Ex_posts.svelte'; //Updated
 	import Applicant_profile from '../profiles/recruiter/jobs/Applicant_profile.svelte'; //Updated
 	import Attempts from '../endeavors/Attempts.svelte'; //Updated
+	import Attempts_copy from '../endeavors/Attempts copy.svelte'; //Updated
 	import Blog from '../blog/Topics.svelte'; //Updated
-	import Branded_accent from '../comps/extras/menus/Branded_accent.svelte';
+	import Branded_accent from '../comps/menus/Branded_accent.svelte';
 	import Candi_info from '../profiles/candidate/Candidate.svelte';
 	import Contact_validation from '../profiles/admin/analytics/Contact_validation.svelte';
 	// import Contact_us from '../about_us/Contact_us.svelte'; //Updated
@@ -21,14 +22,14 @@
 	import Sub_plans from '../profiles/ui/Sub_plans.svelte'; //Updated //Please add things properly for goodness sake
 	import Dash_nav_banner from '../profiles/ui/Dash_nav_banner.svelte';
 	import Dash_nav_final from '../profiles/ui/Dash_nav_final.svelte';
-	import Dropdown from '../comps/extras/Dropdown.svelte';
-	import Empty_state from '../comps/extras/Empty_state.svelte';
+	import Dropdown from '../comps/mock/Dropdown.svelte';
+	import Empty_state from '../comps/mock/Empty_state.svelte';
 	// import Faq from '../about_us/Faq.svelte'; //Updated
 	import Footer from '../comps/Footer.svelte'; //Updated...
 	import Forgot from './Forgot.svelte'; //Updated
-	import Full_side_nav from '../comps/extras/Full_side_nav.svelte';
-	import Grouped_buttons from '../comps/extras/Grouped_buttons.svelte';
-	import Inputs from '../comps/extras/Inputs.svelte';
+	import Full_side_nav from '../comps/mock/Full_side_nav.svelte';
+	import Grouped_buttons from '../comps/mock/Grouped_buttons.svelte';
+	import Inputs from '../comps/mock/Inputs.svelte';
 	import Intro from './Intro.svelte';
 	import Jobs_search from '../profiles/ui/Jobs_search.svelte'; //Updated
 	import Job_reccommendations from '../profiles/candidate/jobs/Job_recc.svelte';
@@ -40,9 +41,9 @@
 	import Job_preview from '../profiles/ui/Job_preview.svelte';
 	import Nav_side_small from '../profiles/ui/Nav_side_small.svelte';
 	import Navbar from '../comps/Navbar.svelte'; //Updated...
-	import Pagination from '../comps/extras/Pagination.svelte';
+	import Pagination from '../comps/mock/Pagination.svelte';
 	import Pri_pol from '../about_us/Pri_pol.svelte';
-	import Pop_cart from '../comps/extras/Pop_cart.svelte';
+	import Pop_cart from '../comps/mock/Pop_cart.svelte';
 	import Resume_form from '../profiles/candidate/resume/Resume.svelte'; //Updated
 	import Reviews from '../about_us/Reviews.svelte';
 	import Sign_in_form from './Sign_in_form.svelte'; //Updated
@@ -51,9 +52,9 @@
 	import Sub_man from '../profiles/admin/analytics/Sub_man.svelte';
 	// import Accordion_Menu from '../comps/extras/menus/Accordion_menu.svelte';
 	// import something from ''./Intro.svelte';
-	import Split_with_headings from '../comps/extras/menus/Split_with_headings.svelte';
-	import Sub_plan_card from '../comps/extras/Sub_plan_card.svelte';
-	import Tab_pills from '../comps/extras/Tab_pills.svelte';
+	import Split_with_headings from '../comps/menus/Split_with_headings.svelte';
+	import Sub_plan_card from '../comps/mock/Sub_plan_card.svelte';
+	import Tab_pills from '../comps/mock/Tab_pills.svelte';
 	import SignInForm from './Sign_in_form.svelte';
 	import SignUpForm from '../onboarding/Sign_up_form.svelte';
 	// import Testimonial from '../about_us/Testimonial.svelte';
@@ -61,15 +62,16 @@
 	const webpages = [
 		// { name: 'UI_Name', component: Import_name },
 		// { name: 'Ad_man', component: Ad_man },
-		{ name: 'About Us', component: About_us },
+		// { name: 'About Us', component: About_us },
 		// { name: 'Accordion_menu', component: Accordion_menu },
 		// { name: 'Applied Jobs', component: Applied_jobs },
 		// { name: 'Attempts', component: Attempts },
+		// { name: 'Attempts_copy', component: Attempts_copy },
 		// { name: 'Blog', component: Blog },
 		// { name: 'Branded_accent', component: Branded_accent },
-		{ name: 'Candidate info', component: Candi_info },
+		// { name: 'Candidate info', component: Candi_info },
 		// { name: 'Ex_posts', component: Ex_posts },
-		{ name: 'Contact_validation', component: Contact_validation },
+		// { name: 'Contact_validation', component: Contact_validation },
 		// { name: 'Contact Us', component: Contact_us },
 		// { name: 'Dash_nav with banner kinda main', component: Dash_nav },
 		// { name: 'Dash_nav_final', component: Dash_nav_final },
@@ -82,9 +84,9 @@
 		// { name: 'Full_side_nav', component: Full_side_nav },
 		// { name: 'Grouped_buttons', component: Grouped_buttons },
 		// { name: 'Inputs', component: Inputs },
-		{ name: 'Home', component: Intro },
+		// { name: 'Home', component: Intro },
 		{ name: 'Post_job', component: Post_job },
-		{ name: 'Int_questions', component: Int_questions },
+		// { name: 'Int_questions', component: Int_questions },
 		// { name: 'Applicant_profile', component: Applicant_profile },
 		// { name: 'Job_preview', component: Job_preview },
 		// { name: 'Job Recs', component: Job_reccommendations },
@@ -100,7 +102,7 @@
 		// { name: 'Reviews', component: Reviews },
 		// { name: 'Accordion_Menu', component: Accordion_Menu },
 		// { name: 'Split_with_headings', component: Split_with_headings },
-		{ name: 'Resume', component: Resume_form },
+		// { name: 'Resume', component: Resume_form },
 		{ name: 'Sign In', component: Sign_in_form },
 		{ name: 'Sign Up', component: Sign_up_form },
 		// { name: 'Sub_man', component: Sub_man },
@@ -131,13 +133,17 @@
 
   plugins: [require('@tailwindcss/forms')]
 -->
+<!--START:()-->
 <div class="">
 	<header
 		class="sticky top-3 mx-4 bg-opacity-70 z-50 bg-indigo-200 rounded-full px-2 py-2"
 	>
+		<!--START:()-->
 		<div class="flex items-center justify-between max-w-screen-xl">
+			<!--START:()-->
 			<div class="flex flex-1">
 				<nav class="sticky  text-sm font-medium lg:flex lg:flex-1 lg:w-0">
+					<!--START:()-->
 					<div class="z-50 group inline-block">
 						<button
 							class="outline-none focus:outline-none border py-1 bg-white rounded-sm flex min-w-32"
@@ -173,6 +179,7 @@
 				</nav>
 			</div>
 
+			<!--START:()-->
 			<div
 				class="sticky items-center justify-center text-sm font-medium space-x-8 lg:flex lg:flex-1 lg:w-0 flex-shrink-0"
 			>
@@ -183,9 +190,12 @@
 				/>
 			</div>
 
+			<!--START:()-->
 			<div class="items-center lg:flex text-right sm:px-6">
+				<!--START:()-->
 				<div class="flex items-center ">
 					<form class="mb-0 lg:flex">
+						<!--START:()-->
 						<div class="px-3 relative">
 							<input
 								class="rounded-lg border-transparent flex-1 appearance-none border-2 border-indigo-600 border-dashed bg-indigo-50 text-indigo-600 placeholder-indigo-300 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent h-10 pl-4 w-4/5"
@@ -231,8 +241,10 @@
 		</div>
 	</header>
 	<main class="relative">
+		<!--START:()-->
 		<div class="max-w-7xl mx-auto p-2 ">
 			<!-- Replace with your content -->
+			<!--START:()-->
 			<div
 				class="relative min-h-screen flex rounded-lg border-4 border-dashed border-slate-200 "
 			>

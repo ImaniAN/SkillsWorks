@@ -1,16 +1,20 @@
 <section
 	class="px-4 py-8 mx-auto justify-center border-2 border-dashed border-red-900"
 >
+	<!--START:()-->
 	<div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8 bg-slate-900">
 		<h2 class="text-xl font-bold sm:text-2xl">Customer Reviews</h2>
 
+		<!--START:()-->
 		<div class="flex items-center mt-4">
 			<p class="text-3xl font-medium">
 				3.8
 				<span class="sr-only"> Average review score </span>
 			</p>
 
+			<!--START:()-->
 			<div class="ml-4">
+				<!--START:()-->
 				<div class="flex -ml-1">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -68,9 +72,11 @@
 			</div>
 		</div>
 
+		<!--START:()-->
 		<div class="grid grid-cols-1 mt-8 lg:grid-cols-2 gap-x-16 gap-y-12">
 			<blockquote>
 				<header class="sm:items-center sm:flex">
+					<!--START:()-->
 					<div class="flex -ml-1">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -143,6 +149,7 @@
 
 			<blockquote>
 				<header class="sm:items-center sm:flex">
+					<!--START:()-->
 					<div class="flex -ml-1">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -215,6 +222,7 @@
 
 			<blockquote>
 				<header class="sm:items-center sm:flex">
+					<!--START:()-->
 					<div class="flex -ml-1">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -287,6 +295,7 @@
 
 			<blockquote>
 				<header class="sm:items-center sm:flex">
+					<!--START:()-->
 					<div class="flex -ml-1">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"

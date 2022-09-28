@@ -1,7 +1,10 @@
+<!--START:()-->
 <div class="flex justify-center w-screen">
+	<!--START:()-->
 	<div
 		class="flex justify-center w-screen max-w-lg flex-col px-8 py-8 rounded-lg shadow bg-green-200"
 	>
+		<!--START:()-->
 		<div
 			class="self-center mb-6 text-xl font-light  sm:text-2xl text-slate-600"
 		>
@@ -9,13 +12,16 @@
 		</div>
 		<!--END:()-->
 
+		<!--START:()-->
 		<div class="mt-8">
 			<form action="#">
+				<!--START:()-->
 				<div class="flex flex-col mb-2">
 					<label for="-email" class="text-slate-600">
 						Email
 						<span class="text-red-500"> * </span>
 					</label>
+					<!--START:()-->
 					<div class="flex relative ">
 						<span
 							class="rounded-l-md inline-flex items-center px-3 bg-indigo-50  text-slate-500 shadow-sm text-sm"
@@ -45,6 +51,7 @@
 				</div>
 				<!--END:()-->
 
+				<!--START:()-->
 				<div class="flex w-full">
 					<button
 						type="submit"
@@ -53,6 +60,7 @@
 						Send a recovery link!
 					</button>
 
+					<!--START:()-->
 					<div class="flex flex-col mb-6" />
 				</div>
 				<!--END:()-->

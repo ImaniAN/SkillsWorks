@@ -1,5 +1,7 @@
 <section class="text-slate-400 bg-slate-900 body-font">
+	<!--START:()-->
 	<div class="container px-5 py-8 mx-auto">
+		<!--START:()-->
 		<div class="flex flex-col text-center w-full mb-20">
 			<h1 class="text-2xl font-medium title-font mb-4 text-indigo-50">
 				OUR TEAM
@@ -10,14 +12,18 @@
 				heard of them.
 			</p>
 		</div>
+		<!--START:()-->
 		<div class="flex flex-wrap -m-4">
+			<!--START:()-->
 			<div class="p-4 lg:w-1/4 md:w-1/2">
+				<!--START:()-->
 				<div class="h-full flex flex-col items-center text-center">
 					<img
 						alt="team"
 						class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
 						src="https://dummyimage.com/305x305"
 					/>
+					<!--START:()-->
 					<div class="w-full">
 						<h2 class="title-font font-medium text-lg text-indigo-50">
 							Alper Kamu
@@ -83,13 +89,16 @@
 					</div>
 				</div>
 			</div>
+			<!--START:()-->
 			<div class="p-4 lg:w-1/4 md:w-1/2">
+				<!--START:()-->
 				<div class="h-full flex flex-col items-center text-center">
 					<img
 						alt="team"
 						class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
 						src="https://dummyimage.com/305x305"
 					/>
+					<!--START:()-->
 					<div class="w-full">
 						<h2 class="title-font font-medium text-lg text-indigo-50">
 							Holden Caulfield
@@ -155,13 +164,16 @@
 					</div>
 				</div>
 			</div>
+			<!--START:()-->
 			<div class="p-4 lg:w-1/4 md:w-1/2">
+				<!--START:()-->
 				<div class="h-full flex flex-col items-center text-center">
 					<img
 						alt="team"
 						class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
 						src="https://dummyimage.com/305x305"
 					/>
+					<!--START:()-->
 					<div class="w-full">
 						<h2 class="title-font font-medium text-lg text-indigo-50">
 							Atticus Finch
@@ -227,13 +239,16 @@
 					</div>
 				</div>
 			</div>
+			<!--START:()-->
 			<div class="p-4 lg:w-1/4 md:w-1/2">
+				<!--START:()-->
 				<div class="h-full flex flex-col items-center text-center">
 					<img
 						alt="team"
 						class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
 						src="https://dummyimage.com/305x305"
 					/>
+					<!--START:()-->
 					<div class="w-full">
 						<h2 class="title-font font-medium text-lg text-indigo-50">
 							Henry Letham

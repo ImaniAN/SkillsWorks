@@ -1,20 +1,37 @@
+<!--(This component is used to Sign up during the onboarding procress)-->
 <script>
 	import Flaotees from '../profiles/ui/Flaotees.svelte';
-	import Banner from '../profiles/ui/Banner.svelte';
+	import Countries_input from '../comps/Form Inputs/Countries_input.svelte';
+	import F_name from '../comps/Form Inputs/f_name.svelte';
+	import L_name from '../comps/Form Inputs/l_name.svelte';
+	import Email_input from '../comps/Form Inputs/email.svelte';
+	import Int_contact_num from '../comps/Form Inputs/Int_contact_num.svelte';
+	import City_input from '../comps/Form Inputs/City.svelte';
+	import Postal_code from '../comps/Form Inputs/Postal_code.svelte';
+	import New_password from '../comps/Form Inputs/New_password.svelte';
+	import Confirm_password from '../comps/Form Inputs/Confirm_password.svelte';
+	import Rem_me_f_pass from '../comps/Form Inputs/rem_me_f_pass.svelte';
+	import Mini_footer from '../comps/Form Inputs/mini_footer.svelte';
 </script>
 
+<!--START:()-->
 <div class="relative min-h-screen flex ">
+	<!--START:()-->
 	<div
 		class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto min-w-0 bg-indigo-50"
 	>
+		<!--START:()-->
 		<div
 			class="sm:w-1/2 xl:w-3/5 h-full hidden md:flex flex-auto items-end justify-end p-10 pr-20 overflow-hidden bg-blue-900 text-indigo-50 bg-no-repeat bg-cover relative"
 			style="background-image: url(https://images.unsplash.com/photo-1543599538-a6c4f6cc5c05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);"
 		>
+			<!--START:()-->
 			<div
 				class="absolute bg-gradient-to-b from-indigo-100 to-blue-600 opacity-75 inset-0 z-0"
 			/>
+			<!--START:()-->
 			<div class="w-full z-10 mb-10">
+				<!--START:()-->
 				<div
 					class="sm:text-4xl xl:text-5xl text-slate-800 font-bold leading-tight mb-6"
 				>
@@ -22,6 +39,7 @@
 				</div>
 				<!--END:()-->
 
+				<!--START:()-->
 				<div class="sm:text-sm xl:text-md text-slate-900 font-normal">
 					What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing
 					and typesetting industry Lorem Ipsum has been the industry's standard
@@ -31,65 +49,75 @@
 				<!--END:()-->
 			</div>
 			<!--END:()-->
-			<!---remove custom style-->
 			<Flaotees />
 		</div>
 		<!--END:()-->
 
+		<!--START:()-->
 		<div
-			class="md:flex md:items-center md:justify-cente sm:w-auto md:h-full w-4/5 xl:w-2/5 p-8 md:p-10 lg:p-14 sm:rounded-lg md:rounded-none bg-indigo-50"
+			class="md:flex md:items-center md:justify-cente sm:w-auto md:h-full w-4/5 xl:w-2/5 p-8 md:p-10 lg:p-14 sm:rounded-lg md:rounded-none bg-slate-100"
 		>
+			<!--START:()-->
 			<div class="max-w-md w-full space-y-8">
-				<div class="mb-10 text-center">
+				<!--START:()-->
+				<div class="mb-2 text-center">
 					<h3 class="font-semibold text-2xl text-slate-800">Sign Up</h3>
-					<p class="text-slate-500">Please register your account.</p>
+					<p class="text-slate-500">Please register your account using ...</p>
 				</div>
 				<!--END:()-->
 
+				<!--START:()-->
 				<div class="flex">
+					<!--START:()-->
 					<div class="w-full md:w-1/2 px-0.5 mb-6 md:mb-0">
-						<button
-							type="submit"
-							class="w-full flex items-center justify-center bg-red-500 hover:bg-red-400 text-slate-100 p-3 rounded-full tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
-						>
-							Google
-							<svg
-								class="w-4 ml-2"
-								fill="#fff"
-								viewBox="0 0 24 24"
-								xmlns="http://www.w3.org/2000/svg"
+						<form action="#" method="get" target="_blank">
+							<button
+								type="submit"
+								class="w-full flex items-center justify-center bg-red-500 hover:bg-red-400 text-slate-100 p-3 rounded-full tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
 							>
-								<path
-									d="M11.99 13.9v-3.72h9.36c.14.63.25 1.22.25 2.05 0 5.71-3.83 9.77-9.6 9.77-5.52 0-10-4.48-10-10S6.48 2 12 2c2.7 0 4.96.99 6.69 2.61l-2.84 2.76c-.72-.68-1.98-1.48-3.85-1.48-3.31 0-6.01 2.75-6.01 6.12s2.7 6.12 6.01 6.12c3.83 0 5.24-2.65 5.5-4.22h-5.51v-.01Z"
-								/>
-							</svg>
-						</button>
+								Google
+								<svg
+									class="w-4 ml-2"
+									fill="#fff"
+									viewBox="0 0 24 24"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M11.99 13.9v-3.72h9.36c.14.63.25 1.22.25 2.05 0 5.71-3.83 9.77-9.6 9.77-5.52 0-10-4.48-10-10S6.48 2 12 2c2.7 0 4.96.99 6.69 2.61l-2.84 2.76c-.72-.68-1.98-1.48-3.85-1.48-3.31 0-6.01 2.75-6.01 6.12s2.7 6.12 6.01 6.12c3.83 0 5.24-2.65 5.5-4.22h-5.51v-.01Z"
+									/>
+								</svg>
+							</button>
+						</form>
 					</div>
 					<!--END:()-->
 
+					<!--START:()-->
 					<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-						<button
-							type="submit"
-							class="w-full flex items-center justify-center bg-blue-600 hover:bg-blue-500 text-slate-100 p-3 rounded-full tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
-						>
-							Facebook
-							<svg
-								class="w-4 ml-2"
-								viewBox="0 0 24 24"
-								xmlns="http://www.w3.org/2000/svg"
+						<form action="#" method="get" target="_blank">
+							<button
+								type="submit"
+								class="w-full flex items-center justify-center bg-blue-600 hover:bg-blue-500 text-slate-100 p-3 rounded-full tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
 							>
-								<path
-									fill="#fff"
-									fill-rule="evenodd"
-									d="M9.945 22v-8.834H7V9.485h2.945V6.54c0-3.043 1.926-4.54 4.64-4.54 1.3 0 2.418.097 2.744.14v3.18h-1.883c-1.476 0-1.82.703-1.82 1.732v2.433h3.68l-.736 3.68h-2.944L13.685 22"
-								/>
-							</svg>
-						</button>
+								Facebook
+								<svg
+									class="w-4 ml-2"
+									viewBox="0 0 24 24"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										fill="#fff"
+										fill-rule="evenodd"
+										d="M9.945 22v-8.834H7V9.485h2.945V6.54c0-3.043 1.926-4.54 4.64-4.54 1.3 0 2.418.097 2.744.14v3.18h-1.883c-1.476 0-1.82.703-1.82 1.732v2.433h3.68l-.736 3.68h-2.944L13.685 22"
+									/>
+								</svg>
+							</button>
+						</form>
 					</div>
 					<!--END:()-->
 				</div>
 				<!--END:()-->
 
+				<!--START:()-->
 				<div class="flex items-center justify-center space-x-2 my-5">
 					<span class="h-px w-16 bg-indigo-600" />
 					<span class="text-slate-500 font-normal text-center"
@@ -99,136 +127,80 @@
 				</div>
 				<!--END:()-->
 
-				<form class="w-full max-w-lg">
+				<form class="w-full max-w-lg" name="form" action="#" method="post">
+					<!--START:()-->
 					<div class="flex flex-wrap -mx-3 mb-4">
+						<!--START:()-->
 						<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-								for="grid-first-name"
-							>
-								First Name
-							</label>
-							<input
-								class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
-								id="grid-first-name"
-								type="text"
-								placeholder="Jane"
-							/>
+							<F_name />
 						</div>
 						<!--END:()-->
 
+						<!--START:()-->
 						<div class="w-full md:w-1/2 px-3">
-							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-								for="grid-last-name"
-							>
-								Last Name
-							</label>
-							<input
-								class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
-								id="grid-last-name"
-								type="text"
-								placeholder="Doe"
-							/>
+							<L_name />
 						</div>
 						<!--END:()-->
 					</div>
 					<!--END:()-->
 
+					<!--START:()-->
 					<div class="flex flex-wrap -mx-3 mb-4">
 						<div class="w-full px-3">
-							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-								for="grid-email"
-							>
-								Email
-							</label>
-							<input
-								class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
-								id="grid-email"
-								type="email"
-								placeholder="Your email (example@gmail.com)"
-								required
-								name="email"
-							/>
+							<Email_input />
 						</div>
-						<!--END:()-->
 					</div>
 					<!--END:()-->
 
+					<!--START:()-->
 					<div class="flex flex-wrap -mx-3 mb-4">
 						<div class="w-full px-3">
-							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-								for="grid-password"
-							>
-								Password
-							</label>
-							<input
-								class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
-								id="grid-password"
-								type="password"
-								name="password"
-								required
-								placeholder="******************"
-							/>
+							<Int_contact_num />
 						</div>
-						<!--END:()-->
 					</div>
 					<!--END:()-->
 
+					<!--START:()-->
 					<div class="flex flex-wrap -mx-3 mb-4">
-						<div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-								for="grid-city"
-							>
-								City
-							</label>
-							<input
-								class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
-								id="grid-city"
-								type="text"
-								placeholder="Wakanda"
-							/>
+						<!--START:()-->
+						<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+							<City_input />
 						</div>
 						<!--END:()-->
 
-						<div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-							<label
-								for="grid-region"
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-								>Province</label
-							>
-							<input
-								type="text"
-								placeholder=""
-								name="region"
-								id="region"
-								autocomplete="address-level1"
-								class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
-							/>
-						</div>
-						<!--END:()-->
-
-						<div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-							<label
-								class="block uppercase tracking-wide text-slate-700 text-xs font-bold mb-2"
-								for="grid-zip"
-							>
-								Zip
-							</label>
-							<input
-								class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
-								id="grid-zip"
-								type="text"
-								placeholder="xxxx"
-							/>
+						<!--START:()-->
+						<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+							<Postal_code />
 						</div>
 						<!--END:()-->
 					</div>
 					<!--END:()-->
 
+					<!--START:()-->
+					<div class="flex flex-wrap -mx-3 mb-4">
+						<div class="w-full px-3">
+							<Countries_input />
+						</div>
+					</div>
+					<!--END:()-->
+
+					<!--START:()-->
+					<div class="flex flex-wrap -mx-3 mb-4">
+						<div class="w-full px-3">
+							<New_password />
+						</div>
+					</div>
+					<!--END:()-->
+
+					<!--START:()-->
+					<div class="flex flex-wrap -mx-3 mb-4">
+						<div class="w-full px-3">
+							<Confirm_password />
+						</div>
+					</div>
+					<!--END:()-->
+
+					<!--START:()-->
 					<div class="flex items-center justify-center space-x-2 my-5">
 						<label class="inline-flex items-center cursor-pointer">
 							<span class="h-px w-16 bg-indigo-600" />
@@ -236,71 +208,49 @@
 								required
 								id="customCheckLogin"
 								type="checkbox"
-								class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+								class="border-dashed form-checkbox border-2 rounded border-red-200 text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 							/>
 							<span class="ml-2 text-sm px-2 font-semibold text-slate-600">
 								I agree with the
 								<!-- svelte-ignore a11y-invalid-attribute -->
-								<a href="#" class="text-red-600"> Privacy Policy </a>
+								<a href="#" class="text-red-600">
+									Privacy Policy
+								</a><!-- TODORemeber to href to the Pri_pol Page -->
 							</span>
 							<span class="h-px w-16 bg-indigo-600" />
 						</label>
 					</div>
+					<!--END:()-->
 
+					<!--START:()-->
 					<div class="space-y-6 mt-6">
 						<div class="flex items-center justify-between">
-							<div class="flex items-center">
-								<input
-									id="remember_me"
-									checked
-									name="remember_me"
-									type="checkbox"
-									class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
-								/>
-								<label
-									for="remember_me"
-									class="ml-2 block text-sm text-slate-800"
-								>
-									Remember me
-								</label>
-							</div>
-							<!--END:()-->
-
-							<div class="text-sm text-right">
-								<!-- svelte-ignore a11y-invalid-attribute -->
-								<!-- svelte-ignore a11y-invalid-attribute -->
-								<a href="#" class="text-blue-900 hover:text-blue-500 ">
-									Forgot your password?
-								</a>
-								<!-- TODORemeber to href to the Forgot your password Pages -->
-							</div>
-							<!--END:()-->
+							<Rem_me_f_pass />
 						</div>
 						<!--END:()-->
 
+						<!--START:()-->
 						<div>
 							<button
 								type="submit"
 								class="w-full flex justify-center bg-blue-300 hover:bg-blue-500 text-slate-100 p-3 rounded-full tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
 							>
-								Sign In
+								Sign Up
 							</button>
-						</div>
-						<!--END:()-->
 
-						<div class="flex items-center justify-center space-x-2 my-5">
-							<span class="h-px w-16 bg-indigo-600" />
-							<span class="text-slate-500 font-normal text-center">OR</span>
-							<span class="h-px w-16 bg-indigo-600" />
-						</div>
-						<!--END:()-->
+							<!--START:()-->
+							<div class="flex items-center justify-center space-x-2 my-5">
+								<span class="h-px w-16 bg-indigo-600" />
+								<span class="text-slate-500 font-normal text-center">OR</span>
+								<span class="h-px w-16 bg-indigo-600" />
+							</div>
+							<!--END:()-->
 
-						<div>
 							<button
 								type="submit"
 								class="w-full flex justify-center bg-green-300 hover:bg-green-500 text-slate-100 p-3 rounded-full tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
 							>
-								Sign Up
+								Sign In
 							</button>
 						</div>
 						<!--END:()-->
@@ -308,19 +258,9 @@
 					<!--END:()-->
 				</form>
 
+				<!--START:()-->
 				<div class="pt-6 text-center text-slate-400 text-xs">
-					<span>
-						Copyright © 2069-2069
-						<!-- svelte-ignore a11y-invalid-attribute -->
-						<a
-							href="https://github.com/Fathom-Growth-Solutions"
-							rel=""
-							target="_blank"
-							title="Fathom Growth Solutions"
-							class="text-blue-900 hover:text-blue-500 "
-							>Fathom Growth Solutions</a
-						>
-					</span>
+					<Mini_footer />
 				</div>
 				<!--END:()-->
 			</div>

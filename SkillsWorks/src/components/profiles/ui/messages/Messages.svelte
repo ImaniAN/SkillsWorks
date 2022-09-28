@@ -1,6 +1,7 @@
 <!-- component -->
 <main class="flex w-full h-full shadow-lg rounded-3xl">
 	<section class="flex flex-col w-2/12 bg-indigo-50 rounded-l-3xl">
+		<!--START:()-->
 		<div
 			class="w-16 mx-auto mt-12 mb-20 p-4 bg-indigo-400 rounded-2xl text-indigo-50"
 		>
@@ -156,7 +157,7 @@
 	>
 		<label class="p-2">
 			<input
-				class=" rounded-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+				class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 				placeholder="Search..."
 			/>
 		</label>
@@ -170,6 +171,7 @@
 					<h3 class="text-lg text-slate-900 font-semibold">Akhil Gautam</h3>
 					<p class="text-md text-slate-400">23m ago</p>
 				</a>
+				<!--START:()-->
 				<div class="text-md italic text-slate-400">You have been invited!</div>
 			</li>
 			<li
@@ -180,6 +182,7 @@
 					<h3 class="text-lg text-slate-900 font-semibold">Akhil Gautam</h3>
 					<p class="text-md text-slate-400">23m ago</p>
 				</a>
+				<!--START:()-->
 				<div class="text-md italic text-slate-400">You have been invited!</div>
 			</li>
 			<li
@@ -190,6 +193,7 @@
 					<h3 class="text-lg text-slate-900 font-semibold">Akhil Gautam</h3>
 					<p class="text-md text-slate-400">23m ago</p>
 				</a>
+				<!--START:()-->
 				<div class="text-md italic text-slate-400">You have been invited!</div>
 			</li>
 			<li
@@ -200,6 +204,7 @@
 					<h3 class="text-lg text-slate-900 font-semibold">Akhil Gautam</h3>
 					<p class="text-md text-slate-400">23m ago</p>
 				</a>
+				<!--START:()-->
 				<div class="text-md italic text-slate-400">You have been invited!</div>
 			</li>
 			<li
@@ -210,6 +215,7 @@
 					<h3 class="text-lg text-slate-900 font-semibold">Akhil Gautam</h3>
 					<p class="text-md">23m ago</p>
 				</a>
+				<!--START:()-->
 				<div class="text-md">You have been invited!</div>
 			</li>
 			<li
@@ -220,6 +226,7 @@
 					<h3 class="text-lg text-slate-900 font-semibold">Akhil Gautam</h3>
 					<p class="text-md text-slate-400">23m ago</p>
 				</a>
+				<!--START:()-->
 				<div class="text-md italic text-slate-400">You have been invited!</div>
 			</li>
 			<li
@@ -230,13 +237,17 @@
 					<h3 class="text-lg text-slate-900 font-semibold">Akhil Gautam</h3>
 					<p class="text-md text-slate-400">23m ago</p>
 				</a>
+				<!--START:()-->
 				<div class="text-md italic text-slate-400">You have been invited!</div>
 			</li>
 		</ul>
 	</section>
 	<section class="w-6/12 px-4 flex flex-col bg-indigo-50 rounded-r-3xl">
+		<!--START:()-->
 		<div class="flex justify-between items-center h-48 mb-8">
+			<!--START:()-->
 			<div class="flex space-x-4 items-center">
+				<!--START:()-->
 				<div class="h-12 w-12 rounded-full overflow-hidden">
 					<img
 						alt="#"
@@ -245,11 +256,13 @@
 						class="h-full w-full object-cover"
 					/>
 				</div>
+				<!--START:()-->
 				<div class="flex flex-col">
 					<h3 class="font-semibold text-slate-900 text-lg">Akhil Gautam</h3>
 					<p class="text-light text-slate-400">akhil.gautam123@gmail.com</p>
 				</div>
 			</div>
+			<!--START:()-->
 			<div>
 				<ul class="flex text-slate-900 space-x-4">
 					<li class="w-6 h-6">
@@ -431,6 +444,7 @@
 				placeholder="Type your reply here..."
 				rows="3"
 			/>
+			<!--START:()-->
 			<div class="flex items-center justify-between p-2">
 				<button class="h-6 w-6 text-slate-400">
 					<svg

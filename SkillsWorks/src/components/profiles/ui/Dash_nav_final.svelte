@@ -6,11 +6,16 @@
 	import Candi_info from '../candidate/Candidate.svelte';
 </script>
 
+<!--START:()-->
 <div class="min-h-full">
 	<nav class="bg-slate-800">
+		<!--START:()-->
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<!--START:()-->
 			<div class="flex items-center justify-between h-16">
+				<!--START:()-->
 				<div class="flex items-center">
+					<!--START:()-->
 					<div class="flex-shrink-0">
 						<img
 							class="h-8 w-8"
@@ -18,7 +23,9 @@
 							alt="Workflow"
 						/>
 					</div>
+					<!--START:()-->
 					<div class="hidden md:block">
+						<!--START:()-->
 						<div class="ml-10 flex items-baseline space-x-4">
 							<!-- Current: "bg-slate-900 text-indigo-50", Default: "text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50" -->
 							<!-- svelte-ignore a11y-invalid-attribute -->
@@ -63,7 +70,9 @@
 						</div>
 					</div>
 				</div>
+				<!--START:()-->
 				<div class="hidden md:block">
+					<!--START:()-->
 					<div class="ml-4 flex items-center md:ml-6">
 						<button
 							type="button"
@@ -89,7 +98,9 @@
 						</button>
 
 						<!-- Profile dropdown -->
+						<!--START:()-->
 						<div class="ml-3 relative">
+							<!--START:()-->
 							<div>
 								<button
 									type="button"
@@ -117,6 +128,7 @@
    From: "transform opacity-100 scale-100"
    To: "transform opacity-0 scale-95"
    -->
+							<!--START:()-->
 							<div
 								class="z-10 origin-top-right absolute right-0 mt-2 w-96 rounded-md shadow-lg py-1 bg-indigo-50 ring-1 ring-black ring-opacity-5 focus:outline-none"
 								role="menu"
@@ -129,6 +141,7 @@
 						</div>
 					</div>
 				</div>
+				<!--START:()-->
 				<div class="-mr-2 flex md:hidden">
 					<!-- Mobile menu button -->
 					<button
@@ -184,7 +197,9 @@
 		</div>
 
 		<!-- Mobile menu, show/hide based on menu state. -->
+		<!--START:()-->
 		<div class="md:hidden" id="mobile-menu">
+			<!--START:()-->
 			<div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
 				<!-- Current: "bg-slate-900 text-indigo-50", Default: "text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50" -->
 				<!-- svelte-ignore a11y-invalid-attribute -->
@@ -222,8 +237,11 @@
 					>Reports</a
 				>
 			</div>
+			<!--START:()-->
 			<div class="pt-4 pb-3 border-t border-slate-700">
+				<!--START:()-->
 				<div class="flex items-center px-5">
+					<!--START:()-->
 					<div class="flex-shrink-0">
 						<img
 							class="h-10 w-10 rounded-full"
@@ -231,10 +249,13 @@
 							alt=""
 						/>
 					</div>
+					<!--START:()-->
 					<div class="ml-3">
+						<!--START:()-->
 						<div class="text-base font-medium leading-none text-indigo-50">
 							Tom Cook
 						</div>
+						<!--START:()-->
 						<div class="text-sm font-medium leading-none text-slate-400">
 							tom@example.com
 						</div>
@@ -262,6 +283,7 @@
 						</svg>
 					</button>
 				</div>
+				<!--START:()-->
 				<div class="mt-3 px-2 space-y-1">
 					<Menu />
 				</div>
@@ -270,6 +292,7 @@
 	</nav>
 	<!-- <Banner /> -->
 	<header class="bg-indigo-50 shadow">
+		<!--START:()-->
 		<div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
 			<h1 class="text-3xl tracking-tight font-bold text-slate-900">
 				Dashboard
@@ -277,19 +300,26 @@
 		</div>
 	</header>
 	<main>
+		<!--START:()-->
 		<div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
 			<!-- Replace with your content -->
+			<!--START:()-->
 			<div class="relative min-h-screen flex ">
+				<!--START:()-->
 				<div
 					class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto bg-slate-50"
 				>
+					<!--START:()-->
 					<div
 						class="w-11/12 h-full sm:hidden md:flex flex-auto items-end justify-end overflow-hidden bg-yellow-200 text-indigo-50 bg-no-repeat bg-cover relative"
 					>
+						<!--START:()-->
 						<div
 							class="absolute bg-gradient-to-b from-white to-indigo-900 opacity-25 inset-0 z-0"
 						/>
+						<!--START:()-->
 						<div class="w-full z-10 mb-1">
+							<!--START:()-->
 							<div class="leading-tight mb-1">
 								<!-- <Candi_info /> -->
 								<!-- <Resume /> -->

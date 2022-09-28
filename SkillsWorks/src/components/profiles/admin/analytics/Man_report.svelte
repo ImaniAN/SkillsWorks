@@ -6,16 +6,23 @@
 	// import Contact_us from '../about_us/Contact_us.svelte'; //Updated
 </script>
 
+<!--START:()-->
 <div class="px-8 py-4 justify-center">
+	<!--START:()-->
 	<div class="relative min-h-screen flex ">
+		<!--START:()-->
 		<div
 			class="relative flex flex-col min-w-0 break-words bg-indigo-100 w-full mb-6 shadow-lg rounded"
 		>
+			<!--START:()-->
 			<div class="rounded-t mb-0 px-4 py-3 border-0">
+				<!--START:()-->
 				<div class="flex flex-wrap items-center">
+					<!--START:()-->
 					<div class="relative w-full px-4 max-w-full flex-grow flex-1">
 						<h3 class="font-semibold text-base text-slate-900">Page visits</h3>
 					</div>
+					<!--START:()-->
 					<div
 						class="relative w-full px-4 max-w-full flex-grow flex-1 text-right"
 					>
@@ -28,6 +35,7 @@
 					</div>
 				</div>
 			</div>
+			<!--START:()-->
 			<div class="block w-full overflow-x-auto">
 				<!-- Projects table -->
 				<table class="items-center w-full bg-transparent border-collapse">
@@ -247,17 +255,23 @@
 	</div>
 	<!--END:()-->
 
+	<!--START:()-->
 	<div class="relative min-h-screen flex ">
+		<!--START:()-->
 		<div
 			class="relative flex flex-col min-w-0 break-words bg-indigo-100 w-full mb-6 shadow-lg rounded"
 		>
+			<!--START:()-->
 			<div class="rounded-t mb-0 px-4 py-3 border-0">
+				<!--START:()-->
 				<div class="flex flex-wrap items-center">
+					<!--START:()-->
 					<div class="relative w-full px-4 max-w-full flex-grow flex-1">
 						<h3 class="font-semibold text-base text-slate-900">
 							Social traffic
 						</h3>
 					</div>
+					<!--START:()-->
 					<div
 						class="relative w-full px-4 max-w-full flex-grow flex-1 text-right"
 					>
@@ -270,6 +284,7 @@
 					</div>
 				</div>
 			</div>
+			<!--START:()-->
 			<div class="block w-full overflow-x-auto">
 				<!-- Projects table -->
 				<table class="items-center w-full bg-transparent border-collapse">
@@ -305,12 +320,16 @@
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
 							>
+								<!--START:()-->
 								<div class="flex items-center">
 									<span class="mr-2">60%</span>
+									<!--START:()-->
 									<div class="relative w-full">
+										<!--START:()-->
 										<div
 											class="overflow-hidden h-2 text-xs flex rounded bg-red-200"
 										>
+											<!--START:()-->
 											<div
 												style="width: 60%;"
 												class="shadow-none flex flex-col text-center whitespace-nowrap text-indigo-50 justify-center bg-red-500"
@@ -334,12 +353,16 @@
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
 							>
+								<!--START:()-->
 								<div class="flex items-center">
 									<span class="mr-2">70%</span>
+									<!--START:()-->
 									<div class="relative w-full">
+										<!--START:()-->
 										<div
 											class="overflow-hidden h-2 text-xs flex rounded bg-emerald-200"
 										>
+											<!--START:()-->
 											<div
 												style="width: 70%;"
 												class="shadow-none flex flex-col text-center whitespace-nowrap text-indigo-50 justify-center bg-emerald-500"
@@ -363,12 +386,16 @@
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
 							>
+								<!--START:()-->
 								<div class="flex items-center">
 									<span class="mr-2">80%</span>
+									<!--START:()-->
 									<div class="relative w-full">
+										<!--START:()-->
 										<div
 											class="overflow-hidden h-2 text-xs flex rounded bg-purple-200"
 										>
+											<!--START:()-->
 											<div
 												style="width: 80%;"
 												class="shadow-none flex flex-col text-center whitespace-nowrap text-indigo-50 justify-center bg-purple-500"
@@ -392,12 +419,16 @@
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
 							>
+								<!--START:()-->
 								<div class="flex items-center">
 									<span class="mr-2">75%</span>
+									<!--START:()-->
 									<div class="relative w-full">
+										<!--START:()-->
 										<div
 											class="overflow-hidden h-2 text-xs flex rounded bg-blue-200"
 										>
+											<!--START:()-->
 											<div
 												style="width: 75%;"
 												class="shadow-none flex flex-col text-center whitespace-nowrap text-indigo-50 justify-center bg-blue-500"
@@ -421,12 +452,16 @@
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
 							>
+								<!--START:()-->
 								<div class="flex items-center">
 									<span class="mr-2">30%</span>
+									<!--START:()-->
 									<div class="relative w-full">
+										<!--START:()-->
 										<div
 											class="overflow-hidden h-2 text-xs flex rounded bg-orange-200"
 										>
+											<!--START:()-->
 											<div
 												style="width: 30%;"
 												class="shadow-none flex flex-col text-center whitespace-nowrap text-indigo-50 justify-center bg-orange-500"
@@ -443,13 +478,19 @@
 	</div>
 	<!--END:()-->
 
+	<!--START:()-->
 	<div class="border-2 border-dashed border-red-700 relative min-h-screen flex">
+		<!--START:()-->
 		<div
 			class="relative flex flex-col min-w-0 break-words bg-indigo-100 w-full mb-6 shadow-xl rounded-lg mt-16"
 		>
+			<!--START:()-->
 			<div class="px-6">
+				<!--START:()-->
 				<div class="flex flex-wrap justify-center">
+					<!--START:()-->
 					<div class="w-full px-4 flex justify-center">
+						<!--START:()-->
 						<div class="flex flex-wrap justify-center mb-40">
 							<img
 								alt="..."
@@ -458,8 +499,11 @@
 							/>
 						</div>
 					</div>
+					<!--START:()-->
 					<div class="w-full px-4 text-center mt-20">
+						<!--START:()-->
 						<div class="flex justify-center py-4 lg:pt-4 pt-8">
+							<!--START:()-->
 							<div class="mr-4 p-3 text-center">
 								<span
 									class="text-xl font-bold block uppercase tracking-wide text-slate-600"
@@ -468,6 +512,7 @@
 								</span>
 								<span class="text-sm text-slate-400">Friends</span>
 							</div>
+							<!--START:()-->
 							<div class="mr-4 p-3 text-center">
 								<span
 									class="text-xl font-bold block uppercase tracking-wide text-slate-600"
@@ -476,6 +521,7 @@
 								</span>
 								<span class="text-sm text-slate-400">Photos</span>
 							</div>
+							<!--START:()-->
 							<div class="lg:mr-4 p-3 text-center">
 								<span
 									class="text-xl font-bold block uppercase tracking-wide text-slate-600"
@@ -487,27 +533,34 @@
 						</div>
 					</div>
 				</div>
+				<!--START:()-->
 				<div class="text-center mt-12">
 					<h3 class="text-xl font-semibold leading-normal text-slate-900 mb-2">
 						Jenna Stones
 					</h3>
+					<!--START:()-->
 					<div
 						class="text-sm leading-normal mt-0 mb-2 text-slate-400 font-bold uppercase"
 					>
 						<i class="fas fa-map-marker-alt mr-2 text-lg text-slate-400" />
 						Los Angeles, California
 					</div>
+					<!--START:()-->
 					<div class="mb-2 text-slate-600 mt-10">
 						<i class="fas fa-briefcase mr-2 text-lg text-slate-400" />
 						Solution Manager - Creative Tim Officer
 					</div>
+					<!--START:()-->
 					<div class="mb-2 text-slate-600">
 						<i class="fas fa-university mr-2 text-lg text-slate-400" />
 						University of Computer Science
 					</div>
 				</div>
+				<!--START:()-->
 				<div class="mt-10 py-10 border-t border-blue-200 text-center">
+					<!--START:()-->
 					<div class="flex flex-wrap justify-center">
+						<!--START:()-->
 						<div class="w-full lg:w-9/12 px-4">
 							<p class="mb-4 text-lg leading-relaxed text-slate-900">
 								An artist of considerable range, Jenna the name taken by
@@ -526,11 +579,15 @@
 		</div>
 	</div>
 	<!--END:()-->
+	<!--START:()-->
 	<div class="relative min-h-screen flex ">
+		<!--START:()-->
 		<div
 			class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blue-100 border-0"
 		>
+			<!--START:()-->
 			<div class="rounded-t bg-indigo-400 mb-0 px-6 py-6">
+				<!--START:()-->
 				<div class="text-center flex justify-between">
 					<h6 class="text-slate-900 text-xl font-bold">My account</h6>
 					<button
@@ -541,13 +598,17 @@
 					</button>
 				</div>
 			</div>
+			<!--START:()-->
 			<div class="flex-auto px-4 lg:px-10 py-10 pt-0">
 				<form>
 					<h6 class="text-slate-400 text-sm mt-3 mb-6 font-bold uppercase">
 						User Information
 					</h6>
+					<!--START:()-->
 					<div class="flex flex-wrap">
+						<!--START:()-->
 						<div class="w-full lg:w-6/12 px-4">
+							<!--START:()-->
 							<div class="relative w-full mb-3">
 								<label
 									class="block uppercase text-slate-600 text-xs font-bold mb-2"
@@ -564,7 +625,9 @@
 								/>
 							</div>
 						</div>
+						<!--START:()-->
 						<div class="w-full lg:w-6/12 px-4">
+							<!--START:()-->
 							<div class="relative w-full mb-3">
 								<label
 									class="block uppercase text-slate-600 text-xs font-bold mb-2"
@@ -580,7 +643,9 @@
 								/>
 							</div>
 						</div>
+						<!--START:()-->
 						<div class="w-full lg:w-6/12 px-4">
+							<!--START:()-->
 							<div class="relative w-full mb-3">
 								<label
 									class="block uppercase text-slate-600 text-xs font-bold mb-2"
@@ -597,7 +662,9 @@
 								/>
 							</div>
 						</div>
+						<!--START:()-->
 						<div class="w-full lg:w-6/12 px-4">
+							<!--START:()-->
 							<div class="relative w-full mb-3">
 								<label
 									class="block uppercase text-slate-600 text-xs font-bold mb-2"
@@ -621,8 +688,11 @@
 					<h6 class="text-slate-400 text-sm mt-3 mb-6 font-bold uppercase">
 						Contact Information
 					</h6>
+					<!--START:()-->
 					<div class="flex flex-wrap">
+						<!--START:()-->
 						<div class="w-full lg:w-12/12 px-4">
+							<!--START:()-->
 							<div class="relative w-full mb-3">
 								<label
 									class="block uppercase text-slate-600 text-xs font-bold mb-2"
@@ -639,7 +709,9 @@
 								/>
 							</div>
 						</div>
+						<!--START:()-->
 						<div class="w-full lg:w-4/12 px-4">
+							<!--START:()-->
 							<div class="relative w-full mb-3">
 								<label
 									class="block uppercase text-slate-600 text-xs font-bold mb-2"
@@ -655,7 +727,9 @@
 								/>
 							</div>
 						</div>
+						<!--START:()-->
 						<div class="w-full lg:w-4/12 px-4">
+							<!--START:()-->
 							<div class="relative w-full mb-3">
 								<label
 									class="block uppercase text-slate-600 text-xs font-bold mb-2"
@@ -672,7 +746,9 @@
 								/>
 							</div>
 						</div>
+						<!--START:()-->
 						<div class="w-full lg:w-4/12 px-4">
+							<!--START:()-->
 							<div class="relative w-full mb-3">
 								<label
 									class="block uppercase text-slate-600 text-xs font-bold mb-2"
@@ -696,8 +772,11 @@
 					<h6 class="text-slate-400 text-sm mt-3 mb-6 font-bold uppercase">
 						About Me
 					</h6>
+					<!--START:()-->
 					<div class="flex flex-wrap">
+						<!--START:()-->
 						<div class="w-full lg:w-12/12 px-4">
+							<!--START:()-->
 							<div class="relative w-full mb-3">
 								<label
 									class="block uppercase text-slate-600 text-xs font-bold mb-2"
@@ -722,17 +801,23 @@
 		</div>
 	</div>
 	<!--END:()-->
+	<!--START:()-->
 	<div class="relative min-h-screen flex ">
+		<!--START:()-->
 		<div
 			class="bg-indigo-200 relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded "
 		>
+			<!--START:()-->
 			<div class="rounded-t mb-0 px-4 py-3 border-0">
+				<!--START:()-->
 				<div class="flex flex-wrap items-center">
+					<!--START:()-->
 					<div class="relative w-full px-4 max-w-full flex-grow flex-1">
 						<h3 class="font-semibold text-slate-900 text-lg">Card Tables</h3>
 					</div>
 				</div>
 			</div>
+			<!--START:()-->
 			<div class="block w-full overflow-x-auto">
 				<!-- Projects table -->
 				<table
@@ -796,6 +881,7 @@
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
 							>
+								<!--START:()-->
 								<div class="flex">
 									<img
 										src="https://dummyimage.com/305x305"
@@ -822,12 +908,16 @@
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
 							>
+								<!--START:()-->
 								<div class="flex items-center">
 									<span class="mr-2">60%</span>
+									<!--START:()-->
 									<div class="relative w-full">
+										<!--START:()-->
 										<div
 											class="overflow-hidden h-2 text-xs flex rounded bg-red-200"
 										>
+											<!--START:()-->
 											<div
 												style="width: 60%;"
 												class="shadow-none flex flex-col text-center whitespace-nowrap text-indigo-50 justify-center bg-red-500"
@@ -867,6 +957,7 @@
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
 							>
+								<!--START:()-->
 								<div class="flex">
 									<img
 										src="https://dummyimage.com/305x305"
@@ -893,12 +984,16 @@
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
 							>
+								<!--START:()-->
 								<div class="flex items-center">
 									<span class="mr-2">100%</span>
+									<!--START:()-->
 									<div class="relative w-full">
+										<!--START:()-->
 										<div
 											class="overflow-hidden h-2 text-xs flex rounded bg-emerald-200"
 										>
+											<!--START:()-->
 											<div
 												style="width: 100%;"
 												class="shadow-none flex flex-col text-center whitespace-nowrap text-indigo-50 justify-center bg-emerald-500"
@@ -937,6 +1032,7 @@
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
 							>
+								<!--START:()-->
 								<div class="flex">
 									<img
 										src="https://dummyimage.com/305x305"
@@ -963,12 +1059,16 @@
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
 							>
+								<!--START:()-->
 								<div class="flex items-center">
 									<span class="mr-2">73%</span>
+									<!--START:()-->
 									<div class="relative w-full">
+										<!--START:()-->
 										<div
 											class="overflow-hidden h-2 text-xs flex rounded bg-red-200"
 										>
+											<!--START:()-->
 											<div
 												style="width: 73%;"
 												class="shadow-none flex flex-col text-center whitespace-nowrap text-indigo-50 justify-center bg-red-500"
@@ -1007,6 +1107,7 @@
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
 							>
+								<!--START:()-->
 								<div class="flex">
 									<img
 										src="https://dummyimage.com/305x305"
@@ -1033,12 +1134,16 @@
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
 							>
+								<!--START:()-->
 								<div class="flex items-center">
 									<span class="mr-2">90%</span>
+									<!--START:()-->
 									<div class="relative w-full">
+										<!--START:()-->
 										<div
 											class="overflow-hidden h-2 text-xs flex rounded bg-teal-200"
 										>
+											<!--START:()-->
 											<div
 												style="width: 90%;"
 												class="shadow-none flex flex-col text-center whitespace-nowrap text-indigo-50 justify-center bg-teal-500"
@@ -1078,6 +1183,7 @@
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
 							>
+								<!--START:()-->
 								<div class="flex">
 									<img
 										src="https://dummyimage.com/305x305"
@@ -1104,12 +1210,16 @@
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
 							>
+								<!--START:()-->
 								<div class="flex items-center">
 									<span class="mr-2">100%</span>
+									<!--START:()-->
 									<div class="relative w-full">
+										<!--START:()-->
 										<div
 											class="overflow-hidden h-2 text-xs flex rounded bg-emerald-200"
 										>
+											<!--START:()-->
 											<div
 												style="width: 100%;"
 												class="shadow-none flex flex-col text-center whitespace-nowrap text-indigo-50 justify-center bg-emerald-500"

@@ -1,6 +1,9 @@
 <section>
+	<!--START:()-->
 	<div class="px-4 py-12 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
+		<!--START:()-->
 		<div class="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:items-start">
+			<!--START:()-->
 			<div class="lg:sticky lg:top-4">
 				<details open class="overscroll-hidden border border-gray-200 rounded">
 					<summary
@@ -32,7 +35,9 @@
 								Type
 							</legend>
 
+							<!--START:()-->
 							<div class="px-5 py-6 space-y-2">
+								<!--START:()-->
 								<div class="flex items-center">
 									<input
 										id="toy"
@@ -46,6 +51,7 @@
 									</label>
 								</div>
 
+								<!--START:()-->
 								<div class="flex items-center">
 									<input
 										id="game"
@@ -59,6 +65,7 @@
 									</label>
 								</div>
 
+								<!--START:()-->
 								<div class="flex items-center">
 									<input
 										id="outdoor"
@@ -72,6 +79,7 @@
 									</label>
 								</div>
 
+								<!--START:()-->
 								<div class="pt-2">
 									<button type="button" class="text-xs text-gray-500 underline">
 										Reset Type
@@ -80,6 +88,7 @@
 							</div>
 						</fieldset>
 
+						<!--START:()-->
 						<div>
 							<fieldset>
 								<legend
@@ -88,7 +97,9 @@
 									Age
 								</legend>
 
+								<!--START:()-->
 								<div class="px-5 py-6 space-y-2">
+									<!--START:()-->
 									<div class="flex items-center">
 										<input
 											id="3+"
@@ -102,6 +113,7 @@
 										</label>
 									</div>
 
+									<!--START:()-->
 									<div class="flex items-center">
 										<input
 											id="8+"
@@ -115,6 +127,7 @@
 										</label>
 									</div>
 
+									<!--START:()-->
 									<div class="flex items-center">
 										<input
 											id="12+"
@@ -128,6 +141,7 @@
 										</label>
 									</div>
 
+									<!--START:()-->
 									<div class="flex items-center">
 										<input
 											id="16+"
@@ -141,6 +155,7 @@
 										</label>
 									</div>
 
+									<!--START:()-->
 									<div class="pt-2">
 										<button
 											type="button"
@@ -153,6 +168,7 @@
 							</fieldset>
 						</div>
 
+						<!--START:()-->
 						<div
 							class="flex justify-between px-5 py-3 border-t border-gray-200"
 						>
@@ -176,7 +192,9 @@
 				</details>
 			</div>
 
+			<!--START:()-->
 			<div class="lg:col-span-3">
+				<!--START:()-->
 				<div class="flex items-center justify-between">
 					<p class="text-sm text-gray-500">
 						<span class="hidden sm:inline"> Showing>>>> </span>
@@ -184,8 +202,10 @@
 					</p>
 				</div>
 
+				<!--START:()-->
 				<div class="justify-center max-w-7xl mx-auto p-2 ">
 					<!-- Replace with your content -->
+					<!--START:()-->
 					<div
 						class="px-2 py-2 relative min-h-screen justify-center rounded-lg border-double border-4 border-sky-500"
 					>
@@ -298,17 +318,23 @@
 							</ol>
 						</nav>
 
+						<!--START:()-->
 						<div class="max-w-7xl mx-auto p-2 ">
 							<!-- Replace with your content -->
+							<!--START:()-->
 							<div
 								class="relative min-h-screen flex rounded-lg border-4 border-dashed border-slate-200 "
 							>
 								<section>
+									<!--START:()-->
 									<div
 										class="px-4 py-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8"
 									>
+										<!--START:()-->
 										<div class="grid grid-cols-1 lg:grid-cols-2 lg:h-screen">
+											<!--START:()-->
 											<div class="relative z-10 lg:py-16">
+												<!--START:()-->
 												<div class="relative h-64 sm:h-80 lg:h-full">
 													<img
 														class="absolute inset-0 object-cover w-full h-full"
@@ -318,11 +344,13 @@
 												</div>
 											</div>
 
+											<!--START:()-->
 											<div class="relative flex items-center bg-indigo-100">
 												<span
 													class="hidden lg:inset-y-0 lg:absolute lg:w-16 lg:bg-indigo-100 lg:block lg:-left-16"
 												/>
 
+												<!--START:()-->
 												<div class="p-8 sm:p-16 lg:p-24">
 													<h2 class="text-2xl font-bold sm:text-3xl">
 														Lorem ipsum dolor sit amet, consectetur adipisicing

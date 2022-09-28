@@ -1,6 +1,9 @@
 <header class="bg-slate-50">
+	<!--START:()-->
 	<div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8">
+		<!--START:()-->
 		<div class="flex items-center sm:justify-between sm:gap-4">
+			<!--START:()-->
 			<div class="relative hidden sm:block">
 				<label class="sr-only" for="search"> Search </label>
 
@@ -34,9 +37,11 @@
 			</div>
 			<!--END:()-->
 
+			<!--START:()-->
 			<div
 				class="flex items-center justify-between flex-1 gap-8 sm:justify-end"
 			>
+				<!--START:()-->
 				<div class="flex gap-4">
 					<button
 						type="button"
@@ -140,6 +145,7 @@
 		</div>
 		<!--END:()-->
 
+		<!--START:()-->
 		<div class="mt-8">
 			<h1 class="text-2xl font-bold text-slate-900 sm:text-3xl">
 				Welcome Back, Barry!

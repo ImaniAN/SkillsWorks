@@ -7,6 +7,7 @@
 	import Contact_us from '../about_us/Contact_us.svelte'; //Updated
 </script>
 
+<!--START:()-->
 <div class="justify-center">
 	<Our_team />
 	<Testimonial />
