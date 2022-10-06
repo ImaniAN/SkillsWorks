@@ -4,7 +4,7 @@
 	import Countries_input from '../comps/Form Inputs/Countries_input.svelte';
 	import F_name from '../comps/Form Inputs/f_name.svelte';
 	import L_name from '../comps/Form Inputs/l_name.svelte';
-	import Email_input from '../comps/Form Inputs/email.svelte';
+	import Email_input from '../comps/Form Inputs/Email_input.svelte';
 	import Int_contact_num from '../comps/Form Inputs/Int_contact_num.svelte';
 	import City_input from '../comps/Form Inputs/City.svelte';
 	import Postal_code from '../comps/Form Inputs/Postal_code.svelte';
@@ -15,7 +15,7 @@
 </script>
 
 <!--START:()-->
-<div class="relative min-h-screen flex ">
+<div class="relative min-h-screen flex">
 	<!--START:()-->
 	<div
 		class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto min-w-0 bg-indigo-50"
@@ -208,7 +208,7 @@
 								required
 								id="customCheckLogin"
 								type="checkbox"
-								class="border-dashed form-checkbox border-2 rounded border-red-200 text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+								class="border-dashed form-checkbox border-2 rounded border-pink-200 text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 							/>
 							<span class="ml-2 text-sm px-2 font-semibold text-slate-600">
 								I agree with the

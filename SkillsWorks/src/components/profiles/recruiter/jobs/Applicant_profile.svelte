@@ -1,3 +1,7 @@
+<script>
+	// import Big_checkbox from '../../../comps/Form Inputs/Big_checkbox.svelte';
+</script>
+
 <!-- This example requires Tailwind CSS v2.0+ -->
 <!--START:()-->
 <div class="bg-indigo-50 shadow sm:rounded-lg">
@@ -13,6 +17,7 @@
 	<!--START:()-->
 	<div class="max-h-screen border-t border-slate-200">
 		<dl class="relative">
+
 			<!--START:()-->
 			<div
 				class="bg-slate-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
@@ -22,6 +27,7 @@
 					Margot Foster
 				</dd>
 			</div>
+
 			<!--START:()-->
 			<div
 				class="bg-indigo-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
@@ -31,6 +37,7 @@
 					Backend Developer
 				</dd>
 			</div>
+
 			<!--START:()-->
 			<div
 				class="bg-slate-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
@@ -40,6 +47,7 @@
 					margotfoster@example.com
 				</dd>
 			</div>
+
 			<!--START:()-->
 			<div
 				class="bg-indigo-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
@@ -49,6 +57,7 @@
 					$120,000
 				</dd>
 			</div>
+
 			<!--START:()-->
 			<div
 				class="bg-slate-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
@@ -61,6 +70,7 @@
 					nostrud pariatur mollit ad adipisicing reprehenderit deserunt qui eu.
 				</dd>
 			</div>
+
 			<!--START:()-->
 			<div
 				class="bg-indigo-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
@@ -181,17 +191,17 @@
 			<div class="bg-indigo-50 px-4 py-5 grid grid-cols-3 gap-4 sm:px-6">
 				<button
 					type="submit"
-					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 					>Dala sumtin</button
 				>
 				<button
 					type="submit"
-					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 					>Do something</button
 				>
 				<button
 					type="submit"
-					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 					>Dala sumtin</button
 				>
 			</div>

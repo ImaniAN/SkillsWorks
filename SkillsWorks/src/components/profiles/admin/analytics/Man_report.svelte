@@ -9,7 +9,7 @@
 <!--START:()-->
 <div class="px-8 py-4 justify-center">
 	<!--START:()-->
-	<div class="relative min-h-screen flex ">
+	<div class="relative min-h-screen flex">
 		<!--START:()-->
 		<div
 			class="relative flex flex-col min-w-0 break-words bg-indigo-100 w-full mb-6 shadow-lg rounded"
@@ -27,7 +27,7 @@
 						class="relative w-full px-4 max-w-full flex-grow flex-1 text-right"
 					>
 						<button
-							class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+							class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 							type="button"
 						>
 							See all
@@ -256,7 +256,7 @@
 	<!--END:()-->
 
 	<!--START:()-->
-	<div class="relative min-h-screen flex ">
+	<div class="relative min-h-screen flex">
 		<!--START:()-->
 		<div
 			class="relative flex flex-col min-w-0 break-words bg-indigo-100 w-full mb-6 shadow-lg rounded"
@@ -276,7 +276,7 @@
 						class="relative w-full px-4 max-w-full flex-grow flex-1 text-right"
 					>
 						<button
-							class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+							class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 							type="button"
 						>
 							See all
@@ -479,7 +479,9 @@
 	<!--END:()-->
 
 	<!--START:()-->
-	<div class="border-2 border-dashed border-red-700 relative min-h-screen flex">
+	<div
+		class="border-2 border-dashed border-pink-700 relative min-h-screen flex"
+	>
 		<!--START:()-->
 		<div
 			class="relative flex flex-col min-w-0 break-words bg-indigo-100 w-full mb-6 shadow-xl rounded-lg mt-16"
@@ -580,7 +582,7 @@
 	</div>
 	<!--END:()-->
 	<!--START:()-->
-	<div class="relative min-h-screen flex ">
+	<div class="relative min-h-screen flex">
 		<!--START:()-->
 		<div
 			class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blue-100 border-0"
@@ -591,7 +593,7 @@
 				<div class="text-center flex justify-between">
 					<h6 class="text-slate-900 text-xl font-bold">My account</h6>
 					<button
-						class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+						class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 						type="button"
 					>
 						Settings
@@ -802,7 +804,7 @@
 	</div>
 	<!--END:()-->
 	<!--START:()-->
-	<div class="relative min-h-screen flex ">
+	<div class="relative min-h-screen flex">
 		<!--START:()-->
 		<div
 			class="bg-indigo-200 relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded "
@@ -866,7 +868,7 @@
 									class="h-12 w-12 bg-indigo-50 rounded-full border"
 									alt="..."
 								/>
-								<span class="ml-3 font-bold "> Argon Design System </span>
+								<span class="ml-3 font-bold">Argon Design System </span>
 							</th>
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
@@ -941,7 +943,7 @@
 									class="h-12 w-12 bg-indigo-50 rounded-full border"
 									alt="..."
 								/>
-								<span class="ml-3 font-bold "> Angular Now UI Kit PRO </span>
+								<span class="ml-3 font-bold">Angular Now UI Kit PRO </span>
 							</th>
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
@@ -1017,7 +1019,7 @@
 									class="h-12 w-12 bg-indigo-50 rounded-full border"
 									alt="..."
 								/>
-								<span class="ml-3 font-bold "> Black Dashboard Sketch </span>
+								<span class="ml-3 font-bold">Black Dashboard Sketch </span>
 							</th>
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
@@ -1092,7 +1094,7 @@
 									class="h-12 w-12 bg-indigo-50 rounded-full border"
 									alt="..."
 								/>
-								<span class="ml-3 font-bold "> React Material Dashboard </span>
+								<span class="ml-3 font-bold">React Material Dashboard </span>
 							</th>
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"
@@ -1167,7 +1169,7 @@
 									class="h-12 w-12 bg-indigo-50 rounded-full border"
 									alt="..."
 								/>
-								<span class="ml-3 font-bold "> React Material Dashboard </span>
+								<span class="ml-3 font-bold">React Material Dashboard </span>
 							</th>
 							<td
 								class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4"

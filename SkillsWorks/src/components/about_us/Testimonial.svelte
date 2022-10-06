@@ -1,7 +1,7 @@
 <!--START:()-->
 <div class="max-w-5xl px-4 py-8 mx-auto">
 	<section
-		class="p-8 bg-slate-100 border-2 border-dashed border-indigo-900 rounded-lg"
+		class="p-8 bg-slate-100 border-2 border-dashed border-pink-900 rounded-lg"
 	>
 		<!--START:()-->
 		<div class="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">

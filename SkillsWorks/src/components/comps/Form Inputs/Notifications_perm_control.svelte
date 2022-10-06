@@ -110,7 +110,7 @@
 					name="push-notifications"
 					type="radio"
 					checked
-					class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed"
+					class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-pink-300 border-dashed"
 				/>
 				<label
 					for="push-everything"
@@ -127,7 +127,7 @@
 					id="push-email"
 					name="push-notifications"
 					type="radio"
-					class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed"
+					class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-pink-300 border-dashed"
 				/>
 				<label
 					for="push-email"
@@ -144,7 +144,7 @@
 					id="push-nothing"
 					name="push-notifications"
 					type="radio"
-					class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-red-300 border-dashed"
+					class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-pink-300 border-dashed"
 				/>
 				<label
 					for="push-nothing"

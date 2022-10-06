@@ -1,7 +1,7 @@
 <!--START:()-->
 <div class="px-8 py-4 justify-center">
 	<!--START:()-->
-	<div class="relative min-h-screen flex ">
+	<div class="relative min-h-screen flex">
 		<!--START:()-->
 		<div class="container mx-auto px-4 h-full">
 			<!--START:()-->
@@ -135,7 +135,7 @@
 		</div>
 	</div>
 	<!--START:()-->
-	<div class="relative min-h-screen flex ">
+	<div class="relative min-h-screen flex">
 		<!--START:()-->
 		<div class="container mx-auto px-4 h-full">
 			<!--START:()-->

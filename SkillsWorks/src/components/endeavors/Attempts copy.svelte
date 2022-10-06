@@ -71,7 +71,7 @@
 				<!--START:()-->
 				<div class="col-sm-8 offset-sm-2 text-slate-50 text-center -mt-52">
 					<!--START:()-->
-					<div class="relative ">
+					<div class="relative">
 						<h1
 							class="relative text-9xl tracking-tighter-less text-shadow font-sans font-bold"
 						>

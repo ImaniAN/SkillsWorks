@@ -1,11 +1,22 @@
+<script>
+	// @ts-ignore
+	import Free_tab from '../../ui/Sub_pills/Free.svelte'; //Updated
+	import In_arrers_tab from '../../ui/Sub_pills/In_arrers.svelte'; //Updated
+	import Premium_tab from '../../ui/Sub_pills/Premium.svelte'; //Updated
+	import Pro_tab from '../../ui/Sub_pills/Pro.svelte'; //Updated
+	import Unvalidated_tab from '../../ui/Sub_pills/Unvalidated.svelte'; //Updated
+	import Preview_tab from '../../ui/Sub_pills/Preview.svelte'; //Updated
+	import Search_Input from '../../../comps/Form Inputs/Search_input.svelte';
+</script>
+
 <!-- This comp is for showing all the jobs that a candidate has applied for -->
 <!--START:()-->
-<div class="container mx-auto px-1 sm:px-8 border">
+<div class="container mx-auto px-1 sm:px-8">
 	<!--START:()-->
 	<div class="py-8">
 		<!--START:()-->
 		<div class="flex flex-row mb-1 sm:mb-0 justify-between w-full">
-			<h2 class="text-2xl leading-tight">Recomended Jobs</h2>
+			<h2 class="text-2xl leading-tight">Job recommendations</h2>
 			<!--START:()-->
 			<div class="text-end">
 				<form
@@ -14,7 +25,7 @@
 					<!--START:()-->
 					<div class="form-control">
 						<label class="label cursor-pointer">
-							<span class="label-text">Hide Rejected</span>
+							<span class="label-text">Hide Free Subscriptions</span>
 							<input
 								type="checkbox"
 								class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
@@ -25,21 +36,10 @@
 					<!--END:()-->
 
 					<!--START:()-->
-					<div class=" relative w-4/5 ">
-						<input
-							type="text"
-							id="&quot;form-subscribe-Filter"
-							class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
-							placeholder="Name of Job"
-						/>
+					<div class="p-3 relative w-11/12">
+						<Search_Input />
 					</div>
 					<!--END:()-->
-
-					<button
-						class="flex-shrink-0 px-4 py-2 text-base font-semibold text-indigo-50 bg-indigo-600 rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-indigo-200"
-						type="submit"
-						>Filter
-					</button>
 				</form>
 			</div>
 			<!--END:()-->
@@ -50,39 +50,39 @@
 		<div class="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
 			<!--START:()-->
 			<div class="inline-block min-w-full shadow rounded-lg overflow-hidden">
-				<table class="min-w-full leading-normal ">
+				<table class="min-w-full leading-normal">
 					<thead>
 						<tr>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-indigo-50 border-b border-red-300 text-slate-800 text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-indigo-50 border-b border-pink-300 text-slate-800 text-left text-sm uppercase font-normal"
 								>Position
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-indigo-50 border-b border-red-300 text-slate-800 text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-indigo-50 border-b border-pink-300 text-slate-800 text-left text-sm uppercase font-normal"
 								>Recruiter
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-indigo-50 border-b border-red-300 text-slate-800 text-left text-sm uppercase font-normal"
-								>Date Applied
+								class="px-5 py-3 bg-indigo-50 border-b border-pink-300 text-slate-800 text-left text-sm uppercase font-normal"
+								>Date Subscribed
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-indigo-50 border-b border-red-300 text-slate-800 text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-indigo-50 border-b border-pink-300 text-slate-800 text-left text-sm uppercase font-normal"
 								>status
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-indigo-50 border-b border-red-300 text-slate-800 text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-indigo-50 border-b border-pink-300 text-slate-800 text-left text-sm uppercase font-normal"
 							/>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
 							>
 								<!--START:()-->
 								<div class="flex items-center">
@@ -102,50 +102,39 @@
 
 									<!--START:()-->
 									<div class="ml-3">
-										<p class="text-slate-900 whitespace-no-wrap">Marcus coco</p>
+										<p class="text-slate-900 whitespace-no-wrap">
+											Some position in HR1
+										</p>
 									</div>
 									<!--END:()-->
 								</div>
 								<!--END:()-->
 							</td>
 							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
 							>
-								<p class="text-slate-900 whitespace-no-wrap">Designer</p>
+								<p class="text-slate-900 whitespace-no-wrap">Company0</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">01/11/2072</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
 							>
-								<span
-									class="relative inline-block px-3 py-1 font-semibold text-yellow-900 leading-tight"
-								>
-									<span
-										aria-hidden="true"
-										class="absolute inset-0 bg-yellow-700 opacity-50 rounded-full"
-									/>
-									<span class="relative"> Applied ! </span>
-								</span>
+								<Free_tab />
+								<Unvalidated_tab />
 							</td>
 							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
 							>
-								<!-- svelte-ignore a11y-invalid-attribute -->
-								<!-- svelte-ignore a11y-invalid-attribute -->
-								<button
-									type="submit"
-									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
-									>Preview</button
-								>
+								<Preview_tab />
 							</td>
 						</tr>
 						<tr>
 							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
 							>
 								<!--START:()-->
 								<div class="flex items-center">
@@ -165,50 +154,39 @@
 
 									<!--START:()-->
 									<div class="ml-3">
-										<p class="text-slate-900 whitespace-no-wrap">Jean marc</p>
+										<p class="text-slate-900 whitespace-no-wrap">
+											Some position in HR3
+										</p>
 									</div>
 									<!--END:()-->
 								</div>
 								<!--END:()-->
 							</td>
 							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
 							>
-								<p class="text-slate-900 whitespace-no-wrap">Admin</p>
+								<p class="text-slate-900 whitespace-no-wrap">Company1</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">12/09/2069</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
 							>
-								<span
-									class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight"
-								>
-									<span
-										aria-hidden="true"
-										class="absolute inset-0 bg-green-700 opacity-50 rounded-full"
-									/>
-									<span class="relative">Recomended !</span>
-								</span>
+								<Pro_tab />
+								<In_arrers_tab />
 							</td>
 							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
 							>
-								<!-- svelte-ignore a11y-invalid-attribute -->
-								<!-- svelte-ignore a11y-invalid-attribute -->
-								<button
-									type="submit"
-									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
-									>Preview</button
-								>
+								<Preview_tab />
 							</td>
 						</tr>
 						<tr>
 							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
 							>
 								<!--START:()-->
 								<div class="flex items-center">
@@ -229,7 +207,7 @@
 									<!--START:()-->
 									<div class="ml-3">
 										<p class="text-slate-900 whitespace-no-wrap">
-											Marcus Huger Musovi
+											Some position in HR2
 										</p>
 									</div>
 									<!--END:()-->
@@ -237,307 +215,37 @@
 								<!--END:()-->
 							</td>
 							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
 							>
-								<p class="text-slate-900 whitespace-no-wrap">CTO</p>
+								<p class="text-slate-900 whitespace-no-wrap">Company2</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<p class="text-slate-900 whitespace-no-wrap">01/11/2069</p>
-							</td>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<span
-									class="relative inline-block px-3 py-1 font-semibold text-yellow-900 leading-tight"
-								>
-									<span
-										aria-hidden="true"
-										class="absolute inset-0 bg-yellow-700 opacity-50 rounded-full"
-									/>
-									<span class="relative"> Applied ! </span>
-								</span>
-							</td>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<!-- svelte-ignore a11y-invalid-attribute -->
-								<!-- svelte-ignore a11y-invalid-attribute -->
-								<button
-									type="submit"
-									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
-									>Preview</button
-								>
-							</td>
-						</tr>
-						<tr>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<!--START:()-->
-								<div class="flex items-center">
-									<!--START:()-->
-									<div class="flex-shrink-0">
-										<!-- svelte-ignore a11y-invalid-attribute -->
-										<!-- svelte-ignore a11y-invalid-attribute -->
-										<a href="#" class="block relative">
-											<img
-												alt="profil"
-												src="https://dummyimage.com/305x305"
-												class="mx-auto object-cover rounded-full h-10 w-10 "
-											/>
-										</a>
-									</div>
-									<!--END:()-->
-
-									<!--START:()-->
-									<div class="ml-3">
-										<p class="text-slate-900 whitespace-no-wrap">Ecric marc</p>
-									</div>
-									<!--END:()-->
-								</div>
-								<!--END:()-->
-							</td>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<p class="text-slate-900 whitespace-no-wrap">Developer</p>
-							</td>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">02/10/2018</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
 							>
-								<span
-									class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight"
-								>
-									<span
-										aria-hidden="true"
-										class="absolute inset-0 bg-green-700 opacity-50 rounded-full"
-									/>
-									<span class="relative">Recomended !</span>
-								</span>
+								<Premium_tab />
 							</td>
 							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
 							>
-								<!-- svelte-ignore a11y-invalid-attribute -->
-								<!-- svelte-ignore a11y-invalid-attribute -->
-								<button
-									type="submit"
-									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
-									>Preview</button
-								>
-							</td>
-						</tr>
-						<tr>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<!--START:()-->
-								<div class="flex items-center">
-									<!--START:()-->
-									<div class="flex-shrink-0">
-										<!-- svelte-ignore a11y-invalid-attribute -->
-										<!-- svelte-ignore a11y-invalid-attribute -->
-										<a href="#" class="block relative">
-											<img
-												alt="profil"
-												src="https://dummyimage.com/305x305"
-												class="mx-auto object-cover rounded-full h-10 w-10 "
-											/>
-										</a>
-									</div>
-									<!--END:()-->
-
-									<!--START:()-->
-									<div class="ml-3">
-										<p class="text-slate-900 whitespace-no-wrap">
-											Marcus Niyigena
-										</p>
-									</div>
-									<!--END:()-->
-								</div>
-								<!--END:()-->
-							</td>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<p class="text-slate-900 whitespace-no-wrap">CEO</p>
-							</td>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<p class="text-slate-900 whitespace-no-wrap">01/01/2063</p>
-							</td>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<span
-									class="relative inline-block px-3 py-1 font-semibold text-red-900 leading-tight"
-								>
-									<span
-										aria-hidden="true"
-										class="absolute inset-0 bg-red-700 opacity-50 rounded-full"
-									/>
-									<span class="relative">Liked !</span>
-								</span>
-							</td>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<!-- svelte-ignore a11y-invalid-attribute -->
-								<!-- svelte-ignore a11y-invalid-attribute -->
-								<button
-									type="submit"
-									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
-									>Preview</button
-								>
-							</td>
-						</tr>
-						<tr>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<!--START:()-->
-								<div class="flex items-center">
-									<!--START:()-->
-									<div class="flex-shrink-0">
-										<!-- svelte-ignore a11y-invalid-attribute -->
-										<!-- svelte-ignore a11y-invalid-attribute -->
-										<a href="#" class="block relative">
-											<img
-												alt="profil"
-												src="https://dummyimage.com/305x305"
-												class="mx-auto object-cover rounded-full h-10 w-10 "
-											/>
-										</a>
-									</div>
-									<!--END:()-->
-
-									<!--START:()-->
-									<div class="ml-3">
-										<p class="text-slate-900 whitespace-no-wrap">
-											Julien Huger
-										</p>
-									</div>
-									<!--END:()-->
-								</div>
-								<!--END:()-->
-							</td>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<p class="text-slate-900 whitespace-no-wrap">User</p>
-							</td>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<p class="text-slate-900 whitespace-no-wrap">23/09/2010</p>
-							</td>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<span
-									class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight"
-								>
-									<span
-										aria-hidden="true"
-										class="absolute inset-0 bg-green-700 opacity-50 rounded-full"
-									/>
-									<span class="relative">Recomended !</span>
-								</span>
-							</td>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<!-- svelte-ignore a11y-invalid-attribute -->
-								<!-- svelte-ignore a11y-invalid-attribute -->
-								<button
-									type="submit"
-									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
-									>Preview</button
-								>
-							</td>
-						</tr>
-						<tr>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<!--START:()-->
-								<div class="flex items-center">
-									<!--START:()-->
-									<div class="flex-shrink-0">
-										<!-- svelte-ignore a11y-invalid-attribute -->
-										<!-- svelte-ignore a11y-invalid-attribute -->
-										<a href="#" class="block relative">
-											<img
-												alt="profil"
-												src="https://dummyimage.com/305x305"
-												class="mx-auto object-cover rounded-full h-10 w-10 "
-											/>
-										</a>
-									</div>
-									<!--END:()-->
-
-									<!--START:()-->
-									<div class="ml-3">
-										<p class="text-slate-900 whitespace-no-wrap">John Doe</p>
-									</div>
-									<!--END:()-->
-								</div>
-								<!--END:()-->
-							</td>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<p class="text-slate-900 whitespace-no-wrap">COO</p>
-							</td>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<p class="text-slate-900 whitespace-no-wrap">01/10/2032</p>
-							</td>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<span
-									class="relative inline-block px-3 py-1 font-semibold text-red-900 leading-tight"
-								>
-									<span
-										aria-hidden="true"
-										class="absolute inset-0 bg-red-700 opacity-50 rounded-full"
-									/>
-									<span class="relative">Liked !</span>
-								</span>
-							</td>
-							<td
-								class="px-5 py-5 border-b border-red-300 bg-indigo-50 text-sm"
-							>
-								<!-- svelte-ignore a11y-invalid-attribute -->
-								<!-- svelte-ignore a11y-invalid-attribute -->
-								<button
-									type="submit"
-									class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
-									>Preview</button
-								>
+								<Preview_tab />
 							</td>
 						</tr>
 					</tbody>
 				</table>
 				<!--START:()-->
 				<div
-					class="px-5 bg-indigo-50 py-5 flex flex-col xs:flex-row items-center xs:justify-between"
+					class="px-5 bg-indigo-500 py-5 flex flex-col xs:flex-row items-center xs:justify-between"
 				>
 					<!--START:()-->
 					<div class="flex items-center">
 						<button
 							type="button"
-							class="w-full p-4 border text-base rounded-l-xl text-slate-600 bg-indigo-50 hover:bg-slate-100"
+							class="w-full p-4 border text-base rounded-l-xl text-slate-600 bg-indigo-200 hover:bg-slate-100"
 						>
 							<svg
 								width="9"
@@ -560,25 +268,25 @@
 						</button>
 						<button
 							type="button"
-							class="w-full px-4 py-2 border text-base text-slate-600 bg-indigo-50 hover:bg-slate-100"
+							class="w-full px-4 py-2 border text-base text-slate-600 bg-indigo-100 hover:bg-slate-100"
 						>
 							2
 						</button>
 						<button
 							type="button"
-							class="w-full px-4 py-2 border-t border-b text-base text-slate-600 bg-indigo-50 hover:bg-slate-100"
+							class="w-full px-4 py-2 border-t border-b text-base text-slate-600 bg-indigo-100 hover:bg-slate-100"
 						>
 							3
 						</button>
 						<button
 							type="button"
-							class="w-full px-4 py-2 border text-base text-slate-600 bg-indigo-50 hover:bg-slate-100"
+							class="w-full px-4 py-2 border text-base text-slate-600 bg-indigo-100 hover:bg-slate-100"
 						>
 							4
 						</button>
 						<button
 							type="button"
-							class="w-full p-4 border-t border-b border-r text-base rounded-r-xl text-slate-600 bg-indigo-50 hover:bg-slate-100"
+							class="w-full p-4 border-t border-b border-r text-base rounded-r-xl text-slate-600 bg-indigo-200 hover:bg-slate-100"
 						>
 							<svg
 								width="9"

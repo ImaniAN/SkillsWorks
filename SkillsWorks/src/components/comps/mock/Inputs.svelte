@@ -3,7 +3,9 @@
 	<header
 		class="sticky top-3 mx-4 bg-opacity-70 z-50 bg-indigo-200 rounded-full px-2 py-2"
 	>
-		<nav class=" sticky flex items-center justify-between max-w-3xl p-4 mx-auto">
+		<nav
+			class=" sticky flex items-center justify-between max-w-3xl p-4 mx-auto"
+		>
 			<a
 				class="inline-flex items-center justify-center w-10 h-10 bg-gray-100 rounded-lg"
 				href="/"
@@ -52,12 +54,12 @@
 			<div class="flex flex-1">
 				<button
 					type="submit"
-					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 					>Sign In</button
 				>
 				<button
 					type="submit"
-					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 					>Sign Up</button
 				>
 			</div>
@@ -65,7 +67,7 @@
 	</header>
 	<main class="relative">
 		<!--START:()-->
-		<div class="max-w-7xl mx-auto p-2 ">
+		<div class="max-w-7xl mx-auto p-2">
 			<!-- Replace with your content -->
 			<!--START:()-->
 			<div
@@ -79,7 +81,6 @@
 </div>
 
 <!-- <Footer /> -->
-
 <style>
 	nav.sticky {
 		position: -webkit-sticky;

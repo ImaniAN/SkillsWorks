@@ -1,8 +1,8 @@
 <!--START:()-->
-<div class="flex justify-center w-screen">
+<div class="flex h-fit justify-center w-screen">
 	<!--START:()-->
 	<div
-		class="flex justify-center w-screen max-w-lg flex-col px-8 py-8 rounded-lg shadow bg-green-200"
+		class="flex h-fit justify-center w-screen max-w-lg flex-col px-8 py-8 rounded-lg shadow bg-green-200"
 	>
 		<!--START:()-->
 		<div
@@ -17,12 +17,12 @@
 			<form action="#">
 				<!--START:()-->
 				<div class="flex flex-col mb-2">
-					<label for="-email" class="text-slate-600">
+					<label for="email" class="text-slate-600">
 						Email
 						<span class="text-red-500"> * </span>
 					</label>
 					<!--START:()-->
-					<div class="flex relative ">
+					<div class="flex relative">
 						<span
 							class="rounded-l-md inline-flex items-center px-3 bg-indigo-50  text-slate-500 shadow-sm text-sm"
 						>
@@ -41,10 +41,11 @@
 						<input
 							id="email"
 							type="email"
+							autocomplete="username"
 							placeholder="Your email (example@gmail.com)"
 							required
 							name="email"
-							class=" rounded-r-lg flex-1 appearance-none border-2 border-red-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+							class=" rounded-r-lg flex-1 appearance-none border-2 border-pink-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 						/>
 					</div>
 					<!--END:()-->
@@ -55,7 +56,7 @@
 				<div class="flex w-full">
 					<button
 						type="submit"
-						class="py-2 px-4 bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-indigo-50 w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg "
+						class="text-slate-300 focus:outline-none w-full focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 					>
 						Send a recovery link!
 					</button>

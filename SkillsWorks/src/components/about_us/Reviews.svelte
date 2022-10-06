@@ -1,15 +1,17 @@
 <section
-	class="px-4 py-8 mx-auto justify-center border-2 border-dashed border-red-900"
+	class="px-4 py-8 mx-auto justify-center border-2 border-dashed border-pink-900"
 >
 	<!--START:()-->
 	<div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8 bg-slate-900">
-		<h2 class="text-xl font-bold sm:text-2xl">Customer Reviews</h2>
+		<h2 class="text-green-300 text-xl font-bold sm:text-2xl">
+			Customer Reviews
+		</h2>
 
 		<!--START:()-->
 		<div class="flex items-center mt-4">
-			<p class="text-3xl font-medium">
+			<p class="text-green-300 text-3xl font-medium">
 				3.8
-				<span class="sr-only"> Average review score </span>
+				<span class="sr-only text-green-300"> Average review score </span>
 			</p>
 
 			<!--START:()-->
@@ -130,12 +132,12 @@
 						</svg>
 					</div>
 
-					<p class="mt-2 font-medium sm:ml-4 sm:mt-0">
+					<p class="text-green-300 mt-2 font-medium sm:ml-4 sm:mt-0">
 						The best thing money can buy!
 					</p>
 				</header>
 
-				<p class="mt-2 text-slate-700">
+				<p class="mt-2 text-slate-50">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
 					possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto
 					alias incidunt cum tempore aliquid aliquam error quisquam ipsam
@@ -203,12 +205,12 @@
 						</svg>
 					</div>
 
-					<p class="mt-2 font-medium sm:ml-4 sm:mt-0">
+					<p class="text-green-300 mt-2 font-medium sm:ml-4 sm:mt-0">
 						The best thing money can buy!
 					</p>
 				</header>
 
-				<p class="mt-2 text-slate-700">
+				<p class="mt-2 text-slate-50">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
 					possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto
 					alias incidunt cum tempore aliquid aliquam error quisquam ipsam
@@ -276,12 +278,12 @@
 						</svg>
 					</div>
 
-					<p class="mt-2 font-medium sm:ml-4 sm:mt-0">
+					<p class="text-green-300 mt-2 font-medium sm:ml-4 sm:mt-0">
 						The best thing money can buy!
 					</p>
 				</header>
 
-				<p class="mt-2 text-slate-700">
+				<p class="mt-2 text-slate-50">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
 					possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto
 					alias incidunt cum tempore aliquid aliquam error quisquam ipsam
@@ -349,12 +351,12 @@
 						</svg>
 					</div>
 
-					<p class="mt-2 font-medium sm:ml-4 sm:mt-0">
+					<p class="text-green-300 mt-2 font-medium sm:ml-4 sm:mt-0">
 						The best thing money can buy!
 					</p>
 				</header>
 
-				<p class="mt-2 text-slate-700">
+				<p class="mt-2 text-slate-50">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
 					possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto
 					alias incidunt cum tempore aliquid aliquam error quisquam ipsam

@@ -1,11 +1,11 @@
-<section>
+<section class="w-full">
 	<!--START:()-->
 	<div class="px-4 py-12 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
 		<!--START:()-->
 		<div class="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:items-start">
 			<!--START:()-->
 			<div class="lg:sticky lg:top-4">
-				<details open class="overscroll-hidden border border-gray-200 rounded">
+				<details open class="overflow-hidden border border-gray-200 rounded">
 					<summary
 						class="flex items-center justify-between px-5 py-3 bg-gray-100 lg:hidden"
 					>
@@ -203,7 +203,7 @@
 				</div>
 
 				<!--START:()-->
-				<div class="justify-center max-w-7xl mx-auto p-2 ">
+				<div class="justify-center max-w-7xl mx-auto p-2">
 					<!-- Replace with your content -->
 					<!--START:()-->
 					<div
@@ -319,13 +319,13 @@
 						</nav>
 
 						<!--START:()-->
-						<div class="max-w-7xl mx-auto p-2 ">
+						<div class=" max-w-7xl mx-auto p-2">
 							<!-- Replace with your content -->
 							<!--START:()-->
 							<div
-								class="relative min-h-screen flex rounded-lg border-4 border-dashed border-slate-200 "
+								class=" relative min-h-screen flex rounded-lg border-4 border-dashed border-slate-200 "
 							>
-								<section>
+								<section class="overflow-scroll">
 									<!--START:()-->
 									<div
 										class="px-4 py-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8"
@@ -338,7 +338,7 @@
 												<div class="relative h-64 sm:h-80 lg:h-full">
 													<img
 														class="absolute inset-0 object-cover w-full h-full"
-														src="https://www.hyperui.dev/photos/house-1.jpeg"
+														src="https://images.unsplash.com/photo-1543599538-a6c4f6cc5c05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
 														alt="Indoors house"
 													/>
 												</div>
@@ -366,7 +366,7 @@
 													</p>
 
 													<a
-														class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white bg-indigo-600 border border-indigo-600 rounded active:text-indigo-500 hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring"
+														class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white bg-indigo-600 border border-pink-600 rounded active:text-indigo-500 hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring"
 														href="/contact"
 													>
 														Get in Touch

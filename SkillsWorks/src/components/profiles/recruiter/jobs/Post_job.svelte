@@ -10,9 +10,9 @@
 	import CRUD_save from '../../../comps/Form Inputs/CRUD_save.svelte';
 	import Currency_input from '../../../comps/Form Inputs/Currency.svelte';
 	import Degree_expo from '../../../comps/Form Inputs/Degree_expo.svelte';
-	import Emp_name from '../../../comps/Form Inputs/Emp_name.svelte';
 	import Level_of_exp from '../../../comps/Form Inputs/Level_of_exp.svelte';
 	import Num_pos_ava from '../../../comps/Form Inputs/Num_pos_ava.svelte';
+	import Insti_name from '../../../comps/Form Inputs/Insti_name.svelte';
 	import Emp_type from '../../../comps/Form Inputs/Emp_type.svelte';
 	import Extra_options from '../../../comps/Form Inputs/Extra_options.svelte';
 	import Posi_name from '../../../comps/Form Inputs/Posi_name.svelte';
@@ -22,12 +22,13 @@
 	import SA_langs from '../../../comps/Form Inputs/SA_langs.svelte';
 	import Stream_job from '../../../comps/Form Inputs/Stream_job.svelte';
 	import Sinority from '../../../comps/Form Inputs/Sinority.svelte';
+	import Sub_options from '../../../comps/Form Inputs/Subs_options.svelte';
 	import Sex_iden from '../../../comps/Form Inputs/Sex_iden.svelte';
 	import Yrs_of_exp from '../../../comps/Form Inputs/Yrs_of_exp.svelte';
 </script>
 
 <!--START:()-->
-<div class="relative min-h-screen flex ">
+<div class="relative min-h-screen flex">
 	<!--START:()-->
 	<div
 		class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto bg-slate-50"
@@ -41,9 +42,9 @@
 				class="absolute bg-gradient-to-b from-white to-indigo-900 opacity-25 inset-0 z-0"
 			/>
 			<!--START:()-->
-			<div class="w-full z-10 mb-1">
+			<div class="w-full z-10">
 				<!--START:()-->
-				<div class="leading-tight mb-1">
+				<div class="leading-tight">
 					<!-- Comp Start -->
 					<!--START:()-->
 					<div class="flex justify-center">
@@ -56,7 +57,7 @@
 									<h2
 										class="text-2xl font-bold leading-7 text-slate-900 sm:text-3xl sm:tracking-tight sm:truncate"
 									>
-										*Prefered Job Title* e.g *CEO*
+										*Prefered Job Title* (e.g *CEO*)
 									</h2>
 									<!--START:()-->
 									<div
@@ -160,7 +161,7 @@
 									<span class="hidden sm:block">
 										<button
 											type="button"
-											class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+											class="inline-flex items-center px-4 py-2 border-2 border-pink-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 										>
 											<!-- Heroicon name: solid/pencil -->
 											<svg
@@ -183,7 +184,7 @@
 									<span class="hidden sm:block ml-3">
 										<button
 											type="button"
-											class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+											class="inline-flex items-center px-4 py-2 border-2 border-pink-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 										>
 											<!-- Heroicon name: solid/link -->
 											<svg
@@ -233,7 +234,7 @@
 									<div class="ml-3 relative sm:hidden">
 										<button
 											type="button"
-											class="inline-flex items-center px-4 py-2 border-2 border-red-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+											class="inline-flex items-center px-4 py-2 border-2 border-pink-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 											id="mobile-menu-button"
 											aria-expanded="false"
 											aria-haspopup="true"
@@ -342,7 +343,7 @@
 
 														<!--START:()-->
 														<div class="col-span-6 sm:col-span-3 lg:col-span-3">
-															<Emp_name />
+															<Insti_name />
 														</div>
 														<!--END:()-->
 
@@ -514,10 +515,11 @@
 															placeholder=""
 															name="qualfication-name"
 															id="qualfication-name"
-															class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
+															class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-pink-600 border-pink-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 														/>
 													</div>
 													<!--END:()-->
+
 													<!--START:()-->
 													<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 														<label
@@ -529,7 +531,7 @@
 															type="number"
 															id="quantity"
 															name="quantity"
-															class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
+															class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-pink-600 border-pink-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 															min="18"
 															max="65"
 														/>
@@ -552,6 +554,7 @@
 														<Big_checkbox />
 													</div>
 													<!--END:()-->
+
 													<!--START:()-->
 													<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 														<label
@@ -562,6 +565,7 @@
 														<Big_checkbox />
 													</div>
 													<!--END:()-->
+
 													<!--START:()-->
 													<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 														<label
@@ -648,13 +652,7 @@
 																class="block text-sm font-medium text-slate-700"
 																>Name of Subscription type</label
 															>
-															<input
-																type="text"
-																placeholder=""
-																name="skill-name"
-																id="skill-name"
-																class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
-															/>
+															<Sub_options />
 														</div>
 														<!--END:()-->
 

@@ -6,6 +6,6 @@
 		rel=""
 		target="_blank"
 		title="Fathom Growth Solutions"
-		class="text-blue-900 hover:text-blue-500 ">Fathom Growth Solutions</a
+		class="text-blue-900 hover:text-blue-500">Fathom Growth Solutions</a
 	>
 </span>

@@ -287,7 +287,7 @@
 	<!--END:()-->
 
 	<!--START:()-->
-	<div class="sticky inset-x-0 bottom-0 border-t border-indigo-100">
+	<div class="sticky inset-x-0 bottom-0 border-t border-pink-100">
 		<!-- svelte-ignore a11y-invalid-attribute -->
 		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a

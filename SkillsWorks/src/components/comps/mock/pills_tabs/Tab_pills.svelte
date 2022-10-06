@@ -1,4 +1,4 @@
-<ul class="flex border-b border-indigo-100">
+<ul class="flex border-b border-pink-100">
 	<li class="flex-1">
 		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a class="relative block p-4" href="#">

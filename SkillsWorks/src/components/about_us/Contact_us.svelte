@@ -1,4 +1,12 @@
-<section class="text-slate-600 body-font relative">
+<script>
+	import Email_input from '../comps/Form Inputs/Email_input.svelte';
+	import F_name from '../comps/Form Inputs/f_name.svelte';
+	import L_name from '../comps/Form Inputs/l_name.svelte';
+	import Int_contact_num from '../comps/Form Inputs/Int_contact_num.svelte';
+	import Message_input from '../comps/Form Inputs/Message_input.svelte';
+</script>
+
+<section class="text-slate-600 body-font relative w-full">
 	<!--START:()-->
 	<div class="absolute inset-0 bg-slate-300">
 		<iframe
@@ -23,73 +31,51 @@
 		<div
 			class="lg:w-1/3 md:w-1/2 bg-indigo-50 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md"
 		>
+			<!--START:()-->
 			<h2 class="text-slate-900 text-lg mb-1 font-medium title-font">
-				Feedback
+				Please feel free to contact us
 			</h2>
+			<!--END:()-->
+
+			<!--START:()-->
 			<p class="leading-relaxed mb-5 text-slate-600">
 				Post-ironic portland shabby chic echo park, banjo fashion axe
 			</p>
+			<!--END:()-->
+
 			<!--START:()-->
 			<div class="relative mb-4">
-				<label for="name" class="leading-7 text-sm text-slate-600"
-					>Full Name</label
-				>
-				<input
-					type="text"
-					placeholder=""
-					id="name"
-					required
-					name="name"
-					class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
-				/>
+				<F_name />
 			</div>
 			<!--END:()-->
 
 			<!--START:()-->
 			<div class="relative mb-4">
-				<label for="phone" class="leading-7 text-sm text-slate-600">Phone</label
-				>
-				<input
-					type="text"
-					id="phone"
-					placeholder="+27 000 000 000"
-					name="phone"
-					class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
-				/>
+				<L_name />
 			</div>
 			<!--END:()-->
 
 			<!--START:()-->
 			<div class="relative mb-4">
-				<label for="email" class="leading-7 text-sm text-slate-600">Email</label
-				>
-				<input
-					id="email"
-					type="email"
-					placeholder="Your email (example@gmail.com)"
-					required
-					name="email"
-					class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
-				/>
+				<Int_contact_num />
 			</div>
 			<!--END:()-->
 
 			<!--START:()-->
 			<div class="relative mb-4">
-				<label for="message" class="leading-7 text-sm text-slate-600"
-					>Message</label
-				>
-				<textarea
-					id="message"
-					name="message"
-					class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-red-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
-				/>
+				<Email_input />
+			</div>
+			<!--END:()-->
+
+			<!--START:()-->
+			<div class="relative mb-4">
+				<Message_input />
 			</div>
 			<!--END:()-->
 
 			<button
-				class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 bg-indigo-600 rounded-md text-sm font-medium"
-				>Button</button
+				class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 bg-indigo-600 rounded-md text-sm font-medium"
+				>Send This Message !!!</button
 			>
 			<!--END:()-->
 

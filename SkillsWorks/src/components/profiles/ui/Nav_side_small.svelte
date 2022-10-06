@@ -9,7 +9,7 @@
 		<!--END:()-->
 
 		<!--START:()-->
-		<div class="border-t border-indigo-100">
+		<div class="border-t border-pink-100">
 			<nav class="flex flex-col p-2">
 				<!--START:()-->
 				<div class="py-4">
@@ -47,7 +47,7 @@
 				</div>
 				<!--END:()-->
 
-				<ul class="pt-4 space-y-1 border-t border-indigo-100">
+				<ul class="pt-4 space-y-1 border-t border-pink-100">
 					<li>
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<!-- svelte-ignore a11y-invalid-attribute -->
@@ -176,7 +176,7 @@
 
 	<!--START:()-->
 	<div
-		class="sticky inset-x-0 bottom-0 p-2 bg-indigo-50 border-t border-indigo-100"
+		class="sticky inset-x-0 bottom-0 p-2 bg-indigo-50 border-t border-pink-100"
 	>
 		<form action="/logout">
 			<button

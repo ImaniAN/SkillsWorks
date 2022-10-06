@@ -7,14 +7,14 @@
 			<label class="sr-only" for="search"> Search </label>
 
 			<input
-				class="rounded-lg border-transparent flex-1 appearance-none border-2 border-indigo-600 border-dashed bg-indigo-50 text-indigo-600 placeholder-indigo-300 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent h-10 pl-4 w-4/5"
+				class="rounded-lg border-transparent flex-1 appearance-none border-2 border-pink-600 border-dashed bg-indigo-50 text-indigo-600 placeholder-indigo-300 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent h-10 pl-4 w-4/5"
 				id="search"
 				type="search"
 				placeholder="Search Here BruV..."
 			/>
 
 			<button
-				class="border-2 border-dashed border-indigo-600 absolute p-2 text-indigo-600 transition -translate-y-1/2 rounded-md hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-slate-50 hover:bg-indigo-600 top-1/2 right-1"
+				class="border-2 border-dashed border-pink-600 absolute p-2 text-indigo-600 transition -translate-y-1/2 rounded-md hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-slate-50 hover:bg-indigo-600 top-1/2 right-1"
 				type="button"
 				aria-label="Submit Search"
 			>
@@ -40,7 +40,7 @@
 
 			<a
 				href="#"
-				class="hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50 flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-700 bg-indigo-100 rounded-lg"
+				class="hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-700 bg-indigo-100 rounded-lg"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@
 
 			<details class="group">
 				<summary
-					class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg cursor-pointer hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
+					class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg cursor-pointer hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href="#"
-						class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
+						class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +131,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href="#"
-						class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
+						class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -157,7 +157,7 @@
 
 			<a
 				href="#"
-				class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
+				class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -181,7 +181,7 @@
 
 			<a
 				href="#"
-				class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
+				class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -203,7 +203,7 @@
 
 			<details class="group">
 				<summary
-					class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg cursor-pointer hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
+					class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg cursor-pointer hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -244,7 +244,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href="#"
-						class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
+						class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -267,7 +267,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href="#"
-						class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
+						class="flex items-center px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-dashed focus:text-indigo-900 focus:bg-indigo-50 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -290,7 +290,7 @@
 					<form action="/logout">
 						<button
 							type="submit"
-							class="flex items-center w-full px-4 py-2 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-indigo-600 hover:text-indigo-900 hover:bg-indigo-50"
+							class="flex items-center w-full px-4 py-2 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50"
 						>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -317,7 +317,7 @@
 	<!--END:()-->
 
 	<!--START:()-->
-	<div class="sticky inset-x-0 bottom-0 border-t border-indigo-100">
+	<div class="sticky inset-x-0 bottom-0 border-t border-pink-100">
 		<!-- svelte-ignore a11y-invalid-attribute -->
 		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a

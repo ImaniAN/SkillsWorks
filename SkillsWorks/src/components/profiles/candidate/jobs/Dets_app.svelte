@@ -1,6 +1,6 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <!--START:()-->
-<div class="container mx-auto p-1 sm:px-8 max-w-4xl border ">
+<div class="container mx-auto p-1 sm:px-8 max-w-4xl border">
 	<!--START:()-->
 	<div class="bg-indigo-50 shadow overflow-hidden sm:rounded-lg">
 		<!--START:()-->

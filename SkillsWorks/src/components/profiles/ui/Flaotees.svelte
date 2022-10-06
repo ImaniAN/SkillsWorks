@@ -1,7 +1,4 @@
-<ul class="squares max-w-sm:hidden">
-	<li />
-	<li />
-	<li />
+<ul class="squares">
 	<li />
 	<li />
 	<li />
@@ -51,7 +48,7 @@
 		list-style: none;
 		width: 20px;
 		height: 20px;
-		background: indigo;
+		background: green;
 		animation: animate 25s linear infinite;
 		bottom: -320px;
 	}

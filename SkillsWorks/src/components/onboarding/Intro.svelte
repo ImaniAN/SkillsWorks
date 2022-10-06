@@ -243,7 +243,7 @@
 			</div>
 
 			<!--START:()-->
-			<div class="container mx-auto px-4 ">
+			<div class="container mx-auto px-4">
 				<!--START:()-->
 				<div class="items-center flex flex-wrap">
 					<!--START:()-->
@@ -255,7 +255,7 @@
 						/>
 					</div>
 					<!--START:()-->
-					<div class="w-full md:w-5/12 ml-auto mr-auto px-4 ">
+					<div class="w-full md:w-5/12 ml-auto mr-auto px-4">
 						<!--START:()-->
 						<div class="md:pr-12">
 							<!--START:()-->

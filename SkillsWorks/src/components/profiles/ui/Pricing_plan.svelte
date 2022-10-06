@@ -1,6 +1,6 @@
-<section class="text-slate-900 bg-slate-200 body-font ">
+<section class="text-slate-900 bg-slate-200 body-font">
 	<!--START:()-->
-	<div class="container px-5 py-24 mx-auto ">
+	<div class="container px-5 py-24 mx-auto">
 		<!--START:()-->
 		<div class="flex flex-col text-center w-full mb-20">
 			<h1
