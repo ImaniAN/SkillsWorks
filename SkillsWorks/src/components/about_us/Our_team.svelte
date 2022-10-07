@@ -3,7 +3,7 @@
 	<div class="container px-5 py-8 mx-auto">
 		<!--START:()-->
 		<div class="flex flex-col text-center w-full mb-20">
-			<h1 class="text-2xl font-medium title-font mb-4 text-indigo-50">
+			<h1 class="text-2xl font-medium title-font mb-4 text-amber-500">
 				OUR TEAM
 			</h1>
 			<p class="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -28,7 +28,7 @@
 						<h2 class="title-font font-medium text-lg text-indigo-50">
 							Alper Kamu
 						</h2>
-						<h3 class="text-slate-500 mb-3">UI Developer</h3>
+						<h3 class="text-amber-500 mb-3">UI Developer</h3>
 						<p class="mb-4">
 							DIY tote bag drinking vinegar cronut adaptogen squid fanny pack
 							vaporware.
@@ -36,7 +36,7 @@
 						<span class="inline-flex">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="text-indigo-700">
+							<a href="#" class="text-amber-500">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -53,7 +53,7 @@
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="ml-9 text-indigo-700">
+							<a href="#" class="ml-9 text-amber-500">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -70,7 +70,7 @@
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="ml-9 text-indigo-700">
+							<a href="#" class="ml-9 text-amber-500">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -103,7 +103,7 @@
 						<h2 class="title-font font-medium text-lg text-indigo-50">
 							Holden Caulfield
 						</h2>
-						<h3 class="text-slate-500 mb-3">UI Developer</h3>
+						<h3 class="text-amber-500 mb-3">UI Developer</h3>
 						<p class="mb-4">
 							DIY tote bag drinking vinegar cronut adaptogen squid fanny pack
 							vaporware.
@@ -111,7 +111,7 @@
 						<span class="inline-flex">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="text-indigo-700">
+							<a href="#" class="text-amber-500">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -128,7 +128,7 @@
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="ml-9 text-indigo-700">
+							<a href="#" class="ml-9 text-amber-500">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -145,7 +145,7 @@
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="ml-9 text-indigo-700">
+							<a href="#" class="ml-9 text-amber-500">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -178,7 +178,7 @@
 						<h2 class="title-font font-medium text-lg text-indigo-50">
 							Atticus Finch
 						</h2>
-						<h3 class="text-slate-500 mb-3">UI Developer</h3>
+						<h3 class="text-amber-500 mb-3">UI Developer</h3>
 						<p class="mb-4">
 							DIY tote bag drinking vinegar cronut adaptogen squid fanny pack
 							vaporware.
@@ -186,7 +186,7 @@
 						<span class="inline-flex">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="text-indigo-700">
+							<a href="#" class="text-amber-500">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -203,7 +203,7 @@
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="ml-9 text-indigo-700">
+							<a href="#" class="ml-9 text-amber-500">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -220,7 +220,7 @@
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="ml-9 text-indigo-700">
+							<a href="#" class="ml-9 text-amber-500">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -253,7 +253,7 @@
 						<h2 class="title-font font-medium text-lg text-indigo-50">
 							Henry Letham
 						</h2>
-						<h3 class="text-slate-500 mb-3">UI Developer</h3>
+						<h3 class="text-amber-500 mb-3">UI Developer</h3>
 						<p class="mb-4">
 							DIY tote bag drinking vinegar cronut adaptogen squid fanny pack
 							vaporware.
@@ -261,7 +261,7 @@
 						<span class="inline-flex">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="text-indigo-700">
+							<a href="#" class="text-amber-500">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -278,7 +278,7 @@
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="ml-9 text-indigo-700">
+							<a href="#" class="ml-9 text-amber-500">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -295,7 +295,7 @@
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="ml-9 text-indigo-700">
+							<a href="#" class="ml-9 text-amber-500">
 								<svg
 									fill="none"
 									stroke="currentColor"

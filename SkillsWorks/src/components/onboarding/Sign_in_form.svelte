@@ -112,11 +112,11 @@
 
 				<!--START:()-->
 				<div class="flex items-center justify-center space-x-2 my-5">
-					<span class="h-px w-16 bg-indigo-600" />
+					<span class="h-px w-16 bg-amber-500" />
 					<span class="text-slate-500 font-normal text-center"
 						>or continue with</span
 					>
-					<span class="h-px w-16 bg-indigo-600" />
+					<span class="h-px w-16 bg-amber-500" />
 				</div>
 				<!--END:()-->
 
@@ -155,9 +155,9 @@
 
 							<!--START:()-->
 							<div class="flex items-center justify-center space-x-2 my-5">
-								<span class="h-px w-16 bg-indigo-600" />
+								<span class="h-px w-16 bg-amber-500" />
 								<span class="text-slate-500 font-normal text-center">OR</span>
-								<span class="h-px w-16 bg-indigo-600" />
+								<span class="h-px w-16 bg-amber-500" />
 							</div>
 							<!--END:()-->
 

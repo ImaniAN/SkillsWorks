@@ -2,12 +2,12 @@
 <div>
 	<!--svelte-ignore a11y-label-has-associated-control -->
 	<div
-		class="mt-1 flex justify-center px-6 py-16 border-2 border-pink-300 border-dashed rounded-md"
+		class="mt-1 flex justify-center px-6 py-16 border-2 border-teal-300 border-dashed rounded-md"
 	>
 		<!--START:()-->
 		<div class="space-y-1 text-center">
 			<svg
-				class="mx-auto h-12 w-12 text-green-500 py "
+				class="mx-auto h-12 w-12 text-amber-500 py "
 				stroke="currentColor"
 				fill="none"
 				viewBox="0 0 48 48"
@@ -24,7 +24,7 @@
 			<div class="flex text-sm text-slate-900">
 				<label
 					for="file-upload"
-					class="relative cursor-pointer bg-indigo-50 rounded-md font-medium text-green-500 hover:text-green-700 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+					class="relative cursor-pointer bg-indigo-50 rounded-md font-medium text-amber-500 hover:text-amber-700 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
 				>
 					<span>Upload a document</span>
 					<input
@@ -48,7 +48,7 @@
 	<!--END:()-->
 	<!--START:()-->
 	<div
-		class="mt-1 text-center flex text-indigo-400 justify-center px-1 py-1 border-2 border-pink-300 border-dashed rounded-md"
+		class="mt-1 text-center cursor-pointer flex font-medium text-amber-500 hover:text-amber-700 justify-center px-1 py-1 border-2 border-teal-300 border-dashed rounded-md"
 	>
 		Eish sohn... There is nothing here...
 	</div>

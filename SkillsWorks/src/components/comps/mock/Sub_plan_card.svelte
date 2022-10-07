@@ -1,6 +1,6 @@
 <!-- svelte-ignore a11y-invalid-attribute -->
 <a
-	class="relative block border border-pink-100"
+	class="relative block border border-teal-100"
 	href="/product/build-your-own-drone"
 >
 	<button
@@ -32,7 +32,7 @@
 
 	<!--START:()-->
 	<div class="p-6">
-		<strong class="inline-block px-3 py-1 text-xs font-medium bg-yellow-400">
+		<strong class="inline-block px-3 py-1 text-xs font-medium bg-amber-400">
 			New
 		</strong>
 
@@ -41,7 +41,7 @@
 		<p class="mt-2 text-sm text-slate-700">R14.99</p>
 
 		<button
-			class="block w-full p-4 mt-4 text-sm font-medium bg-yellow-500 rounded-sm"
+			class="block w-full p-4 mt-4 text-sm font-medium bg-amber-500 rounded-sm"
 			type="button"
 		>
 			Add to Cart

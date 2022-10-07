@@ -4,8 +4,10 @@
 </script>
 
 <!--START:()-->
-<div class="bg-indigo-300 text-yellow-500 mb-auto py-auto w-full py-2 px-2">
-	<h2 class="md:hidden p-2 text-center z-10 w-full md:w-2/3 text-5xl font-extrabold">
+<div class="bg-indigo-300 text-amber-500 mb-auto py-auto w-full py-2 px-2">
+	<h2
+		class="md:hidden p-2 text-center z-10 w-full md:w-2/3 text-5xl font-extrabold"
+	>
 		Frequently Asked Questions
 	</h2>
 	<!--START:()-->
@@ -25,14 +27,14 @@
 		<!--START:()-->
 		<div class="w-2/3 space-y-2">
 			<!--START:()-->
-			<details class="p-6 border-l-4 border-yellow-500 bg-slate-300 group">
+			<details class="p-6 border-l-4 border-amber-500 bg-slate-100 group">
 				<summary class="flex items-center justify-between cursor-pointer">
-					<h5 class="text-lg font-medium text-yellow-500">
+					<h5 class="text-lg font-medium text-amber-500">
 						Questions about Prices and Subscriptions etc...
 					</h5>
 
 					<span
-						class="flex-shrink-0 ml-1.5 p-1.5 text-yellow-500 bg-white rounded-full sm:p-3"
+						class="flex-shrink-0 ml-1.5 p-1.5 text-amber-500 bg-white rounded-full sm:p-3"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -58,14 +60,14 @@
 			<!--END:()-->
 
 			<!--START:()-->
-			<details class="p-6 border-l-4 border-yellow-500 bg-slate-300 group">
+			<details class="p-6 border-l-4 border-amber-500 bg-slate-100 group">
 				<summary class="flex items-center justify-between cursor-pointer">
-					<h5 class="text-lg font-medium text-yellow-500">
+					<h5 class="text-lg font-medium text-amber-500">
 						Lorem ipsum dolor sit amet consectetur adipisicing?
 					</h5>
 
 					<!--START:()--><span
-						class="flex-shrink-0 ml-1.5 p-1.5 text-yellow-500 bg-white rounded-full sm:p-3"
+						class="flex-shrink-0 ml-1.5 p-1.5 text-amber-500 bg-white rounded-full sm:p-3"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +85,7 @@
 				</summary>
 				<!--END:()-->
 
-				<p class="mt-4 leading-relaxed text-rose-400">
+				<p class="mt-4 leading-relaxed text-teal-400">
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
 					veritatis molestias culpa in, recusandae laboriosam neque aliquid
 					libero nesciunt voluptate dicta quo officiis explicabo consequuntur
@@ -93,14 +95,14 @@
 			<!--END:()-->
 
 			<!--START:()-->
-			<details class="p-6 border-l-4 border-yellow-500 bg-slate-300 group">
+			<details class="p-6 border-l-4 border-amber-500 bg-slate-100 group">
 				<summary class="flex items-center justify-between cursor-pointer">
-					<h5 class="text-lg font-medium text-yellow-500">
+					<h5 class="text-lg font-medium text-amber-500">
 						Lorem ipsum dolor sit amet consectetur adipisicing?
 					</h5>
 
 					<span
-						class="flex-shrink-0 ml-1.5 p-1.5 text-yellow-500 bg-white rounded-full sm:p-3"
+						class="flex-shrink-0 ml-1.5 p-1.5 text-amber-500 bg-white rounded-full sm:p-3"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -117,7 +119,7 @@
 					</span>
 				</summary>
 
-				<p class="mt-4 leading-relaxed text-rose-400">
+				<p class="mt-4 leading-relaxed text-teal-400">
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
 					veritatis molestias culpa in, recusandae laboriosam neque aliquid
 					libero nesciunt voluptate dicta quo officiis explicabo consequuntur

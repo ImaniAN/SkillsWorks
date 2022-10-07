@@ -12,7 +12,7 @@
 				id="emp-type"
 				name="emp-type"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-pink-300 border-dashed"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
 				for="push-everything"
@@ -29,7 +29,7 @@
 				id="emp-type"
 				name="emp-type"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-pink-300 border-dashed"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
 				for="time-spent"
@@ -46,7 +46,7 @@
 				id="emp-type"
 				name="emp-type"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-pink-300 border-dashed"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
 				for="time-spent"
@@ -62,7 +62,7 @@
 				id="emp-type"
 				name="emp-type"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-pink-300 border-dashed"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
 				for="learning-type"
@@ -79,7 +79,7 @@
 				id="emp-type"
 				name="emp-type"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-pink-300 border-dashed"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
 				for="push-email"
@@ -96,7 +96,7 @@
 				id="emp-type"
 				name="emp-type"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-pink-300 border-dashed"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
 				for="push-nothing"
@@ -113,7 +113,7 @@
 				id="emp-type"
 				name="emp-type"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-pink-300 border-dashed"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
 				for="learning-type"
@@ -142,7 +142,7 @@
 				id="learning-type"
 				name="learning-type"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-pink-300 border-dashed"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
 				for="learning-type"
@@ -159,7 +159,7 @@
 				id="learning-type"
 				name="learning-type"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-pink-300 border-dashed"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
 				for="push-email"
@@ -177,7 +177,7 @@
 				id="learning-type"
 				name="learning-type"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-pink-300 border-dashed"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
 				for="learning-type"

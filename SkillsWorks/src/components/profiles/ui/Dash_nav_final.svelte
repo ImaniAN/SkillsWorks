@@ -27,12 +27,12 @@
 					<div class="hidden md:block">
 						<!--START:()-->
 						<div class="ml-10 flex items-baseline space-x-4">
-							<!-- Current: "bg-slate-900 text-indigo-50", Default: "text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50" -->
+							<!-- Current: "bg-slate-900 text-indigo-50", Default: "text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50" -->
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
 							<a
 								href="#"
-								class="bg-slate-900 text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
+								class="bg-slate-900 text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 								aria-current="page">Dashboard</a
 							>
 
@@ -40,7 +40,7 @@
 
 							<a
 								href="#"
-								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 								>Team</a
 							>
 
@@ -48,7 +48,7 @@
 
 							<a
 								href="#"
-								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 								>Projects</a
 							>
 
@@ -56,7 +56,7 @@
 
 							<a
 								href="#"
-								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 								>Calendar</a
 							>
 
@@ -64,7 +64,7 @@
 
 							<a
 								href="#"
-								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+								class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 								>Reports</a
 							>
 						</div>
@@ -76,7 +76,7 @@
 					<div class="ml-4 flex items-center md:ml-6">
 						<button
 							type="button"
-							class="bg-slate-800 p-1 rounded-full text-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 cursor-pointer hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50"
+							class="bg-slate-800 p-1 rounded-full text-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 cursor-pointer hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50"
 						>
 							<span class="sr-only">View notifications</span>
 							<!-- Heroicon name: outline/bell -->
@@ -201,39 +201,39 @@
 		<div class="md:hidden" id="mobile-menu">
 			<!--START:()-->
 			<div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-				<!-- Current: "bg-slate-900 text-indigo-50", Default: "text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50" -->
+				<!-- Current: "bg-slate-900 text-indigo-50", Default: "text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50" -->
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a
 					href="#"
-					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
+					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 					aria-current="page">Dashboard</a
 				>
 
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a
 					href="#"
-					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
+					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 					>Team</a
 				>
 
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a
 					href="#"
-					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
+					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 					>Projects</a
 				>
 
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a
 					href="#"
-					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
+					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 					>Calendar</a
 				>
 
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a
 					href="#"
-					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
+					class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50  hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 					>Reports</a
 				>
 			</div>
@@ -311,7 +311,7 @@
 				>
 					<!--START:()-->
 					<div
-						class="w-11/12 h-full sm:hidden md:flex flex-auto items-end justify-end overflow-hidden bg-yellow-200 text-indigo-50 bg-no-repeat bg-cover relative"
+						class="w-11/12 h-full sm:hidden md:flex flex-auto items-end justify-end overflow-hidden bg-amber-500 text-indigo-50 bg-no-repeat bg-cover relative"
 					>
 						<!--START:()-->
 						<div

@@ -1,6 +1,6 @@
 <!--START:()-->
 <div
-	class="block p-10 sm:px-12 border-2 border-black bg-yellow-50 rounded-b-xl shadow-[0_4px_0_0_rgba(0,0,0,1)] max-w-sm w-screen"
+	class="block p-10 sm:px-12 border-2 border-black bg-amber-50 rounded-b-xl shadow-[0_4px_0_0_rgba(0,0,0,1)] max-w-sm w-screen"
 	aria-modal="true"
 	aria-label="Item added to your cart"
 	role="dialog"
@@ -94,7 +94,7 @@
 
 		<form action="/cart" method="post">
 			<button
-				class="block w-full p-4 text-sm font-medium rounded-full text-yellow-50 bg-red-900 hover:ring-1 hover:ring-red-900"
+				class="block w-full p-4 text-sm font-medium rounded-full text-amber-50 bg-red-900 hover:ring-1 hover:ring-red-900"
 				type="submit"
 			>
 				Check out

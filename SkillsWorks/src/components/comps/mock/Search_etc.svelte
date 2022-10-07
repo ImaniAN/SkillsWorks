@@ -1,11 +1,11 @@
 <input
-	class="rounded-lg border-transparent flex-1 appearance-none border-2 border-pink-600 border-dashed bg-indigo-50 text-indigo-600 placeholder-indigo-300 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent h-10 pl-4 w-4/5"
+	class="rounded-lg border-transparent flex-1 appearance-none border-2 border-teal-600 border-dashed bg-indigo-50 text-indigo-600 placeholder-indigo-300 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent h-10 pl-4 w-4/5"
 	placeholder="Search..."
 	type="text"
 />
 
 <button
-	class="border-2 border-dashed border-pink-600 rounded-md hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-slate-50 hover:bg-indigo-600 absolute inset-y-0 right-0 p-2 mr-px text-gray-600 rounded-r-lg"
+	class="border-2 border-dashed border-teal-600 rounded-md hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-slate-50 hover:bg-indigo-600 absolute inset-y-0 right-0 p-2 mr-px text-gray-600 rounded-r-lg"
 	type="submit"
 >
 	<svg

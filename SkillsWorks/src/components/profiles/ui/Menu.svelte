@@ -5,7 +5,7 @@
 
 		<button
 			aria-label="Close menu"
-			class="w-16 h-16 border-l border-pink-300"
+			class="w-16 h-16 border-l border-teal-300"
 			type="button"
 		>
 			<svg
@@ -26,7 +26,7 @@
 	</header>
 
 	<nav
-		class="flex flex-col text-sm font-medium text-slate-500 border-t border-b border-pink-300 divide-y divide-slate-200"
+		class="flex flex-col text-sm font-medium text-slate-500 border-t border-b border-teal-300 divide-y divide-slate-200"
 	>
 		<!-- svelte-ignore a11y-invalid-attribute -->
 		<!-- svelte-ignore a11y-invalid-attribute -->

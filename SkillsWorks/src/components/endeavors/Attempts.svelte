@@ -137,7 +137,7 @@
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
 						href="#"
-						class="text-slate-900 focus:outline-none bg-red-500 focus:ring-2 focus:ring-red-600 focus:bg-indigo-50 hover:border-2 hover:border-dashed hover:border-pink-600 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+						class="text-slate-900 focus:outline-none bg-red-500 focus:ring-2 focus:ring-red-600 focus:bg-indigo-50 hover:border-2 hover:border-dashed hover:border-teal-600 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 					>
 						Go to Home
 					</a>

@@ -17,7 +17,7 @@
 					checked
 					name="disabilities"
 					id="disabilities"
-					class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+					class=" bg-red-200 border-dashed border-2 rounded border-teal-300 text-teal-300 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 				/>
 			</div>
 			<!--END:()-->
@@ -43,7 +43,7 @@
 					checked
 					name="criminal-record"
 					id="criminal-record"
-					class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+					class=" bg-red-200 border-dashed border-2 rounded border-teal-300 text-teal-300 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 				/>
 			</div>
 			<!--END:()-->
@@ -68,7 +68,7 @@
 					checked
 					name="criminal-record"
 					id="criminal-record"
-					class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+					class=" bg-red-200 border-dashed border-2 rounded border-teal-300 text-teal-300 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 				/>
 			</div>
 			<!--END:()-->
@@ -94,7 +94,7 @@
 					checked
 					name="drivers-licence"
 					id="drivers-licence"
-					class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+					class=" bg-red-200 border-dashed border-2 rounded border-teal-300 text-teal-300 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 				/>
 			</div>
 			<!--END:()-->
@@ -119,7 +119,7 @@
 					checked
 					name="criminal-record"
 					id="criminal-record"
-					class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+					class=" bg-red-200 border-dashed border-2 rounded border-teal-300 text-teal-300 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 				/>
 			</div>
 			<!--END:()-->

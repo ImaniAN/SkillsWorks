@@ -27,7 +27,7 @@
 						class="relative w-full px-4 max-w-full flex-grow flex-1 text-right"
 					>
 						<button
-							class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+							class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 							type="button"
 						>
 							See all
@@ -276,7 +276,7 @@
 						class="relative w-full px-4 max-w-full flex-grow flex-1 text-right"
 					>
 						<button
-							class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+							class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 							type="button"
 						>
 							See all
@@ -480,7 +480,7 @@
 
 	<!--START:()-->
 	<div
-		class="border-2 border-dashed border-pink-700 relative min-h-screen flex"
+		class="border-2 border-dashed border-teal-700 relative min-h-screen flex"
 	>
 		<!--START:()-->
 		<div
@@ -593,7 +593,7 @@
 				<div class="text-center flex justify-between">
 					<h6 class="text-slate-900 text-xl font-bold">My account</h6>
 					<button
-						class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+						class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 						type="button"
 					>
 						Settings
@@ -622,7 +622,7 @@
 									id="grid-username"
 									type="text"
 									placeholder=""
-									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full"
 									value="lucky.jesse"
 								/>
 							</div>
@@ -640,7 +640,7 @@
 								<input
 									id="grid-email"
 									type="email"
-									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full"
 									value="jesse@example.com"
 								/>
 							</div>
@@ -659,7 +659,7 @@
 									id="grid-first-name"
 									type="text"
 									placeholder=""
-									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full"
 									value="Lucky"
 								/>
 							</div>
@@ -678,7 +678,7 @@
 									id="grid-last-name"
 									type="text"
 									placeholder=""
-									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full"
 									value="Jesse"
 								/>
 							</div>
@@ -706,7 +706,7 @@
 									id="grid-address"
 									type="text"
 									placeholder=""
-									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full"
 									value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
 								/>
 							</div>
@@ -724,7 +724,7 @@
 								<input
 									id="grid-city"
 									type="email"
-									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full"
 									value="New York"
 								/>
 							</div>
@@ -743,7 +743,7 @@
 									id="grid-country"
 									type="text"
 									placeholder=""
-									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full"
 									value="United States"
 								/>
 							</div>
@@ -762,7 +762,7 @@
 									id="grid-postal-code"
 									type="text"
 									placeholder=""
-									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full"
 									value="Postal Code"
 								/>
 							</div>
@@ -790,7 +790,7 @@
 									id="grid-about-me"
 									type="text"
 									placeholder=""
-									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full"
 									rows="4"
 									value="A beautiful UI Kit and Admin for Svelte & Tailwind CSS. It is Free
     and Open Source."
@@ -1143,7 +1143,7 @@
 									<div class="relative w-full">
 										<!--START:()-->
 										<div
-											class="overflow-hidden h-2 text-xs flex rounded bg-teal-200"
+											class="overflow-hidden h-2 text-xs flex rounded bg-teal-300"
 										>
 											<!--START:()-->
 											<div

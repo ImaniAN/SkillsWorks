@@ -21,7 +21,7 @@
 							<!--START:()-->
 							<div class="btn-wrapper text-center">
 								<button
-									class="bg-indigo-50 active:bg-blue-50 text-slate-700 px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
+									class="bg-indigo-50 active:bg-blue-50 text-slate-700 px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs"
 									type="button"
 								>
 									<img
@@ -32,7 +32,7 @@
 									Github
 								</button>
 								<button
-									class="bg-indigo-50 active:bg-blue-50 text-slate-700 px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
+									class="bg-indigo-50 active:bg-blue-50 text-slate-700 px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs"
 									type="button"
 								>
 									<img
@@ -63,7 +63,7 @@
 									<input
 										id="grid-email"
 										type="email"
-										class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+										class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full"
 										placeholder="Email"
 									/>
 								</div>
@@ -79,7 +79,7 @@
 									<input
 										id="grid-password"
 										type="password"
-										class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+										class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full"
 										placeholder="Password"
 									/>
 								</div>
@@ -89,7 +89,7 @@
 										<input
 											id="customCheckLogin"
 											type="checkbox"
-											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+											class=" bg-red-200 border-dashed border-2 rounded border-teal-300 text-teal-300 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<span class="ml-2 text-sm font-semibold text-slate-600">
 											Remember me
@@ -100,7 +100,7 @@
 								<!--START:()-->
 								<div class="text-center mt-6">
 									<button
-										class="bg-blue-800 text-indigo-50 active:bg-blue-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
+										class="bg-blue-800 text-indigo-50 active:bg-blue-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full"
 										type="button"
 									>
 										Sign In
@@ -155,7 +155,7 @@
 							<!--START:()-->
 							<div class="btn-wrapper text-center">
 								<button
-									class="bg-indigo-50 active:bg-blue-50 text-slate-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center text-xs ease-linear transition-all duration-150"
+									class="bg-indigo-50 active:bg-blue-50 text-slate-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center text-xs"
 									type="button"
 								>
 									<img
@@ -166,7 +166,7 @@
 									Github
 								</button>
 								<button
-									class="bg-indigo-50 active:bg-blue-50 text-slate-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center text-xs ease-linear transition-all duration-150"
+									class="bg-indigo-50 active:bg-blue-50 text-slate-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center text-xs"
 									type="button"
 								>
 									<img
@@ -197,7 +197,7 @@
 									<input
 										id="grid-name"
 										type="email"
-										class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+										class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full"
 										placeholder="Name"
 									/>
 								</div>
@@ -213,7 +213,7 @@
 									<input
 										id="grid-email"
 										type="email"
-										class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+										class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full"
 										placeholder="Email"
 									/>
 								</div>
@@ -229,7 +229,7 @@
 									<input
 										id="grid-password"
 										type="password"
-										class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+										class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full"
 										placeholder="Password"
 									/>
 								</div>
@@ -240,7 +240,7 @@
 										<input
 											id="customCheckLogin"
 											type="checkbox"
-											class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+											class=" bg-red-200 border-dashed border-2 rounded border-teal-300 text-teal-300 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<span class="ml-2 text-sm font-semibold text-slate-600">
 											I agree with the
@@ -259,7 +259,7 @@
 								<!--START:()-->
 								<div class="text-center mt-6">
 									<button
-										class="bg-blue-800 text-indigo-50 active:bg-blue-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
+										class="bg-blue-800 text-indigo-50 active:bg-blue-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full"
 										type="button"
 									>
 										Create Account

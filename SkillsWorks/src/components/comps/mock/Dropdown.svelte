@@ -12,7 +12,7 @@
 	<div class="relative">
 		<button
 			type="button"
-			class="inline-flex items-center justify-center h-full px-2 text-slate-600 border-l border-pink-100 hover:text-slate-700 rounded-r-md hover:bg-slate-50"
+			class="inline-flex items-center justify-center h-full px-2 text-slate-600 border-l border-teal-100 hover:text-slate-700 rounded-r-md hover:bg-slate-50"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@
 
 		<!--START:()-->
 		<div
-			class="absolute right-0 z-10 w-56 mt-4 origin-top-right bg-indigo-50 border border-pink-100 rounded-md shadow-lg"
+			class="absolute right-0 z-10 w-56 mt-4 origin-top-right bg-indigo-50 border border-teal-100 rounded-md shadow-lg"
 			role="menu"
 		>
 			<!--START:()-->

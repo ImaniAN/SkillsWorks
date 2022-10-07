@@ -1,8 +1,6 @@
 <!--START:()-->
-<div class="max-w-5xl px-4 py-8 mx-auto">
-	<section
-		class="p-8 bg-slate-100 border-2 border-dashed border-pink-900 rounded-lg"
-	>
+<div class=" px-4 py-8 mx-auto bg-indigo-900">
+	<section class="max-w-5xl mx-auto p-8 bg-slate-400 rounded-lg">
 		<!--START:()-->
 		<div class="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
 			<!--START:()-->
@@ -19,22 +17,22 @@
 
 				<!--START:()-->
 				<div
-					class="absolute inline-flex px-4 py-2 bg-indigo-50 rounded-lg shadow-xl -bottom-4 -right-4"
+					class="absolute inline-flex px-4 py-2 bg-indigo-600 rounded-lg shadow-xl -bottom-4 -right-4"
 				>
-					<span class="inline-block w-12 h-10 bg-slate-100 rounded-lg" />
+					<span class="inline-block w-12 h-10 bg-amber-500 rounded-lg" />
 				</div>
 				<!--END:()-->
 			</div>
 			<!--END:()-->
 
 			<blockquote class="sm:col-span-2">
-				<p class="text-xl font-medium sm:text-2xl text-blue-500">
+				<p class="text-xl font-medium sm:text-2xl text-amber-500">
 					Lorem ipsum dolor sit ame, consectetur adipisicing.
 				</p>
 
 				<cite class="inline-flex items-center mt-8 not-italic">
 					<span class="hidden w-6 h-px bg-slate-400 sm:inline-block" />
-					<p class="text-sm text-blue-500 uppercase sm:ml-3">
+					<p class="text-sm text-amber-500 uppercase sm:ml-3">
 						<strong>Imani Niyigena</strong>, Fathom Growth Solution
 					</p>
 				</cite>
@@ -66,7 +64,7 @@
 						taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid
 						fanny pack vaporware.
 					</p>
-					<span class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4" />
+					<span class="inline-block h-1 w-10 rounded bg-amber-500 mt-6 mb-4" />
 					<h2
 						class="text-indigo-50 font-medium title-font tracking-wider text-sm"
 					>
@@ -90,7 +88,7 @@
 						taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid
 						fanny pack vaporware.
 					</p>
-					<span class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4" />
+					<span class="inline-block h-1 w-10 rounded bg-amber-500 mt-6 mb-4" />
 					<h2
 						class="text-indigo-50 font-medium title-font tracking-wider text-sm"
 					>
@@ -114,7 +112,7 @@
 						taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid
 						fanny pack vaporware.
 					</p>
-					<span class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4" />
+					<span class="inline-block h-1 w-10 rounded bg-amber-500 mt-6 mb-4" />
 					<h2
 						class="text-indigo-50 font-medium title-font tracking-wider text-sm"
 					>
@@ -136,7 +134,7 @@
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="currentColor"
-				class="inline-block w-8 h-8 text-slate-400 mb-8"
+				class="inline-block w-8 h-8 text-amber-500 mb-8"
 				viewBox="0 0 975.036 975.036"
 			>
 				<path
@@ -154,7 +152,7 @@
 				authentic, yr scenester sriracha forage franzen organic drinking
 				vinegar.
 			</p>
-			<span class="inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6" />
+			<span class="inline-block h-1 w-10 rounded bg-amber-500 mt-8 mb-6" />
 			<h2 class="text-slate-900 font-medium title-font tracking-wider text-sm">
 				HOLDEN CAULFIELD
 			</h2>
@@ -168,7 +166,7 @@
 	<!--START:()-->
 	<div class="container px-5 py-24 mx-auto">
 		<h1
-			class="text-3xl font-medium title-font text-indigo-50 mb-12 text-center"
+			class="text-3xl font-medium title-font text-amber-500 mb-12 text-center"
 		>
 			Testimonials
 		</h1>
@@ -181,7 +179,7 @@
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="currentColor"
-						class="block w-5 h-5 text-slate-500 mb-4"
+						class="block w-5 h-5 text-amber-500 mb-4"
 						viewBox="0 0 975.036 975.036"
 					>
 						<path
@@ -206,7 +204,7 @@
 							<span class="title-font font-medium text-indigo-50"
 								>Holden Caulfield</span
 							>
-							<span class="text-slate-500 text-sm">UI DEVELOPER</span>
+							<span class="text-amber-500 text-sm">UI DEVELOPER</span>
 						</span>
 					</a>
 				</div>
@@ -242,7 +240,7 @@
 							<span class="title-font font-medium text-indigo-50"
 								>Alper Kamu</span
 							>
-							<span class="text-slate-500 text-sm">DESIGNER</span>
+							<span class="text-amber-500 text-sm">DESIGNER</span>
 						</span>
 					</a>
 				</div>

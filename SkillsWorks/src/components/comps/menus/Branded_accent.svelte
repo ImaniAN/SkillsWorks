@@ -3,7 +3,7 @@
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href="#"
-		class="flex items-center border-l-[3px] hover:border-yellow-500 bg-blue-50 px-4 py-3 hover:text-blue-700"
+		class="flex items-center border-l-[3px] hover:border-amber-500 bg-blue-50 px-4 py-3 hover:text-blue-700"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +32,7 @@
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href="#"
-		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-pink-100 hover:bg-slate-200 hover:text-slate-900"
+		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-teal-100 hover:bg-slate-200 hover:text-slate-900"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href="#"
-		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-pink-100 hover:bg-slate-50 hover:text-slate-700"
+		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-teal-100 hover:bg-slate-50 hover:text-slate-700"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href="#"
-		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-pink-100 hover:bg-slate-50 hover:text-slate-700"
+		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-teal-100 hover:bg-slate-50 hover:text-slate-700"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +104,7 @@
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a
 		href="#"
-		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-pink-100 hover:bg-slate-50 hover:text-slate-700"
+		class="flex items-center border-l-[3px] border-transparent px-4 py-3 text-slate-500 hover:border-teal-100 hover:bg-slate-50 hover:text-slate-700"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"

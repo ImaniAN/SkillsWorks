@@ -220,7 +220,7 @@
 			</div>
 		</section>
 
-		<section class="relative py-20 bg-lime-200">
+		<section class="relative py-20 bg-emerald-200">
 			<!--START:()-->
 			<div
 				class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
@@ -236,7 +236,7 @@
 					y="0"
 				>
 					<polygon
-						class="text-lime-200 fill-current"
+						class="text-emerald-200 fill-current"
 						points="2560 0 2560 100 0 100"
 					/>
 				</svg>
@@ -333,7 +333,7 @@
 			</div>
 		</section>
 
-		<section class="bg-rose-200 pt-20 pb-8">
+		<section class="bg-teal-300 pt-20 pb-8">
 			<!--START:()-->
 			<div class="container mx-auto px-4">
 				<!--START:()-->
@@ -464,12 +464,12 @@
 							class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"
 						>
 							<a
-								class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+								class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10"
 								href="/services/digital-campaigns"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									class="w-10 h-10 text-pink-500"
+									class="w-10 h-10 text-teal-500"
 									fill="none"
 									viewBox="0 0 24 24"
 									stroke="currentColor"
@@ -498,12 +498,12 @@
 							</a>
 
 							<a
-								class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+								class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10"
 								href="/services/digital-campaigns"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									class="w-10 h-10 text-pink-500"
+									class="w-10 h-10 text-teal-500"
 									fill="none"
 									viewBox="0 0 24 24"
 									stroke="currentColor"
@@ -532,12 +532,12 @@
 							</a>
 
 							<a
-								class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+								class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10"
 								href="/services/digital-campaigns"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									class="w-10 h-10 text-pink-500"
+									class="w-10 h-10 text-teal-500"
 									fill="none"
 									viewBox="0 0 24 24"
 									stroke="currentColor"
@@ -566,12 +566,12 @@
 							</a>
 
 							<a
-								class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+								class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10"
 								href="/services/digital-campaigns"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									class="w-10 h-10 text-pink-500"
+									class="w-10 h-10 text-teal-500"
 									fill="none"
 									viewBox="0 0 24 24"
 									stroke="currentColor"
@@ -600,12 +600,12 @@
 							</a>
 
 							<a
-								class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+								class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10"
 								href="/services/digital-campaigns"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									class="w-10 h-10 text-pink-500"
+									class="w-10 h-10 text-teal-500"
 									fill="none"
 									viewBox="0 0 24 24"
 									stroke="currentColor"
@@ -634,12 +634,12 @@
 							</a>
 
 							<a
-								class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10"
+								class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10"
 								href="/services/digital-campaigns"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
-									class="w-10 h-10 text-pink-500"
+									class="w-10 h-10 text-teal-500"
 									fill="none"
 									viewBox="0 0 24 24"
 									stroke="currentColor"
@@ -671,7 +671,7 @@
 						<!--START:()-->
 						<div class="mt-12 text-center">
 							<a
-								class="inline-flex items-center px-8 py-3 mt-8 text-white bg-pink-600 border border-pink-600 rounded hover:bg-transparent active:text-pink-500 focus:outline-none focus:ring"
+								class="inline-flex items-center px-8 py-3 mt-8 text-white bg-teal-600 border border-teal-600 rounded hover:bg-transparent active:text-teal-500 focus:outline-none focus:ring"
 								href="/get-started"
 							>
 								<span class="text-sm font-medium"> Get Started </span>

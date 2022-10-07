@@ -1,47 +1,40 @@
 <script>
-	import Flaotees from '../../ui/Flaotees.svelte';
-	import Banner from '../../ui/Banner.svelte';
-	import Add_anoda from '../../../comps/Form Inputs/Add_anoda.svelte';
-	import Notifications_perm_control from '../../../comps/Form Inputs/Notifications_perm_control.svelte';
-	import Beneifts_Info from '../../../comps/Form Inputs/Beneifts_info.svelte';
-	import Big_checkbox from '../../../comps/Form Inputs/Big_checkbox.svelte';
-	import Countries_input from '../../../comps/Form Inputs/Countries_input.svelte';
-	import City_input from '../../../comps/Form Inputs/City.svelte';
-	import CRUD_save from '../../../comps/Form Inputs/CRUD_save.svelte';
-	import Currency_input from '../../../comps/Form Inputs/Currency.svelte';
-	import Degree_expo from '../../../comps/Form Inputs/Degree_expo.svelte';
-	import Level_of_exp from '../../../comps/Form Inputs/Level_of_exp.svelte';
-	import Num_pos_ava from '../../../comps/Form Inputs/Num_pos_ava.svelte';
-	import Insti_name from '../../../comps/Form Inputs/Insti_name.svelte';
-	import Emp_type from '../../../comps/Form Inputs/Emp_type.svelte';
-	import Extra_options from '../../../comps/Form Inputs/Extra_options.svelte';
-	import Posi_name from '../../../comps/Form Inputs/Posi_name.svelte';
-	import Red_line from '../../../comps/Form Inputs/Red_line.svelte';
-	import Renumeration from '../../../comps/Form Inputs/Renumeration.svelte';
-	import Roles_duties_res from '../../../comps/Form Inputs/Roles_duties_res.svelte';
-	import SA_langs from '../../../comps/Form Inputs/SA_langs.svelte';
-	import Stream_job from '../../../comps/Form Inputs/Stream_job.svelte';
-	import Sinority from '../../../comps/Form Inputs/Sinority.svelte';
-	import Sub_options from '../../../comps/Form Inputs/Subs_options.svelte';
-	import Sex_iden from '../../../comps/Form Inputs/Sex_iden.svelte';
-	import Yrs_of_exp from '../../../comps/Form Inputs/Yrs_of_exp.svelte';
+	import Flaotees from '../ui/Flaotees.svelte';
+	import Cover_input from '../../comps/Form Inputs/Cover_input.svelte';
+	import Cover_letter from '../../comps/Form Inputs/Cover_letter.svelte';
+	import Notifications_perm_control from '../../comps/Form Inputs/Notifications_perm_control.svelte';
+	import Describe_info from '../../comps/Form Inputs/Describe_info.svelte';
+	import Countries_input from '../../comps/Form Inputs/Countries_input.svelte';
+	import City_input from '../../comps/Form Inputs/City.svelte';
+	import CRUD_save from '../../comps/Form Inputs/CRUD_save.svelte';
+	import Email_input from '../../comps/Form Inputs/Email_input.svelte';
+	import F_name from '../../comps/Form Inputs/f_name.svelte';
+	import L_name from '../../comps/Form Inputs/l_name.svelte';
+	import Honorific_suffix from '../../comps/Form Inputs/Honorific_suffix.svelte';
+	import Province_input from '../../comps/Form Inputs/Province_input.svelte';
+	import Red_line from '../../comps/Form Inputs/Red_line.svelte';
+	import Int_contact_num from '../../comps/Form Inputs/Int_contact_num.svelte';
+	import SA_langs from '../../comps/Form Inputs/SA_langs.svelte';
+	import Street_addi from '../../comps/Form Inputs/Street_addi.svelte';
+	import Postal_code from '../../comps/Form Inputs/Postal_code.svelte';
+	import Sex_iden from '../../comps/Form Inputs/Sex_iden.svelte';
 </script>
 
 <!--START:()-->
 <div class="relative min-h-screen flex">
 	<!--START:()-->
 	<div
-		class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto"
+		class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto bg-slate-50"
 	>
 		<!--START:()-->
 		<div
-			class="w-11/12 h-full sm:hidden md:flex flex-auto items-end justify-end overflow-hidden
-			 text-indigo-50 bg-no-repeat bg-cover relative"
+			class="w-11/12 h-full sm:hidden md:flex flex-auto items-end justify-end overflow-hidden bg-yellow-200 text-indigo-50 bg-no-repeat bg-cover relative"
 		>
 			<!--START:()-->
 			<div
-				class="absolute bg-gradient-to-b from-emerald-200 to-emerald-50 opacity-90 inset-0"
+				class="absolute bg-gradient-to-b from-white to-indigo-900 opacity-10 inset-0 z-0"
 			/>
+			<!--START:()-->
 			<div class="w-full z-10">
 				<!--START:()-->
 				<div class="leading-tight">
@@ -49,7 +42,7 @@
 					<!--START:()-->
 					<div class="flex justify-center">
 						<!--START:()-->
-						<div class="px-8 py-4 border">
+						<div class="px-8 py-4 border bg-indigo-200 bg-opacity-40">
 							<!--START:()-->
 							<div class="lg:flex lg:items-center lg:justify-between">
 								<!--START:()-->
@@ -57,7 +50,7 @@
 									<h2
 										class="text-2xl font-bold leading-7 text-slate-900 sm:text-3xl sm:tracking-tight sm:truncate"
 									>
-										*Job Title of posted job* (e.g *CEO*)
+										* Candidate Prefered Job Title* (e.g *CEO*)
 									</h2>
 									<!--START:()-->
 									<div
@@ -67,7 +60,7 @@
 										<div class="mt-2 flex items-center text-sm text-slate-900">
 											<!-- Heroicon name: solid/briefcase -->
 											<svg
-												class="flex-shrink-0 mr-1.5 h-5 w-5 text-amber-500"
+												class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
 												xmlns="http://www.w3.org/2000/svg"
 												viewBox="0 0 20 20"
 												fill="currentColor"
@@ -90,7 +83,7 @@
 										<div class="mt-2 flex items-center text-sm text-slate-900">
 											<!-- Heroicon name: solid/location-marker -->
 											<svg
-												class="flex-shrink-0 mr-1.5 h-5 w-5 text-amber-500"
+												class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
 												xmlns="http://www.w3.org/2000/svg"
 												viewBox="0 0 20 20"
 												fill="currentColor"
@@ -110,7 +103,7 @@
 										<div class="mt-2 flex items-center text-sm text-slate-900">
 											<!-- Heroicon name: solid/currency-dollar -->
 											<svg
-												class="flex-shrink-0 mr-1.5 h-5 w-5 text-amber-500"
+												class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
 												xmlns="http://www.w3.org/2000/svg"
 												viewBox="0 0 20 20"
 												fill="currentColor"
@@ -133,7 +126,7 @@
 										<div class="mt-2 flex items-center text-sm text-slate-900">
 											<!-- Heroicon name: solid/calendar -->
 											<svg
-												class="flex-shrink-0 mr-1.5 h-5 w-5 text-amber-500"
+												class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-500"
 												xmlns="http://www.w3.org/2000/svg"
 												viewBox="0 0 20 20"
 												fill="currentColor"
@@ -161,11 +154,11 @@
 									<span class="hidden sm:block">
 										<button
 											type="button"
-											class="inline-flex items-center px-4 py-2 border-2 border-teal-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-amber-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+											class="inline-flex items-center px-4 py-2 border-2 border-pink-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 										>
 											<!-- Heroicon name: solid/pencil -->
 											<svg
-												class="-ml-1 mr-2 h-5 w-5 text-amber-500"
+												class="-ml-1 mr-2 h-5 w-5 text-green-500"
 												xmlns="http://www.w3.org/2000/svg"
 												viewBox="0 0 20 20"
 												fill="currentColor"
@@ -184,11 +177,11 @@
 									<span class="hidden sm:block ml-3">
 										<button
 											type="button"
-											class="inline-flex items-center px-4 py-2 border-2 border-teal-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-amber-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+											class="inline-flex items-center px-4 py-2 border-2 border-pink-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 										>
 											<!-- Heroicon name: solid/link -->
 											<svg
-												class="-ml-1 mr-2 h-5 w-5 text-amber-500"
+												class="-ml-1 mr-2 h-5 w-5 text-green-500"
 												xmlns="http://www.w3.org/2000/svg"
 												viewBox="0 0 20 20"
 												fill="currentColor"
@@ -234,7 +227,7 @@
 									<div class="ml-3 relative sm:hidden">
 										<button
 											type="button"
-											class="inline-flex items-center px-4 py-2 border-2 border-teal-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-amber-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+											class="inline-flex items-center px-4 py-2 border-2 border-pink-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 											id="mobile-menu-button"
 											aria-expanded="false"
 											aria-haspopup="true"
@@ -305,12 +298,8 @@
 							<!--START: Red line shandis-->
 							<!--START:()-->
 							<Red_line />
-							<!--END: Red line shandis-->
-
-							<!-- Work Experience information Start -->
-
 							<!--START:()-->
-							<div class="mt-10 sm:mt-0">
+							<div class="">
 								<!--START:()-->
 								<div class="md:grid md:grid-cols-3 md:gap-6">
 									<!--START:()-->
@@ -318,11 +307,11 @@
 										<!--START:()-->
 										<div class="px-4 sm:px-0">
 											<h3 class="text-lg font-medium leading-6 text-slate-900">
-												Job Poster information
+												Profile
 											</h3>
 											<p class="mt-1 text-sm text-slate-900">
-												Please make sure that all your references are
-												contactable.
+												This information will be displayed publicly so be
+												careful what you share.
 											</p>
 										</div>
 										<!--END:()-->
@@ -331,283 +320,96 @@
 
 									<!--START:()-->
 									<div class="mt-5 md:mt-0 md:col-span-2">
-										<!--START:()-->
-										<div class="shadow sm:rounded-md sm:overflow-hidden">
+										<form action="#" method="POST">
 											<!--START:()-->
-											<div class="px-4 py-5 bg-indigo-50 space-y-6 sm:p-6">
+											<div class="shadow sm:rounded-md sm:overflow-hidden">
 												<!--START:()-->
-												<form action="#" method="POST">
-													<!--TODO:FIX THIS FUCKING single/double FORM PROBLEM wtf-->
-													<div class="grid grid-cols-6 gap-6">
-														<!-- here -->
-
+												<div class="px-4 py-5 bg-indigo-50 space-y-6 sm:p-6">
+													<!--START:()-->
+													<div>
+														<!-- svelte-ignore a11y-label-has-associated-control -->
+														<label
+															class="block text-sm font-medium text-slate-700"
+														>
+															Profile image
+														</label>
 														<!--START:()-->
-														<div class="col-span-6 sm:col-span-3 lg:col-span-3">
-															<Insti_name />
-														</div>
-														<!--END:()-->
-
-														<!--START:()-->
-														<div class="col-span-6 sm:col-span-3 lg:col-span-3">
-															<Posi_name />
-														</div>
-														<!--END:()-->
-
-														<!--START:()-->
-														<div class="col-span-6 sm:col-span-3 lg:col-span-3">
-															<Sinority />
-														</div>
-														<!--END:()-->
-
-														<!--START:()-->
-														<div class="col-span-6 sm:col-span-3 lg:col-span-3">
-															<Yrs_of_exp />
-														</div>
-														<!--END:()-->
-
-														<!--START:()-->
-														<div class="col-span-6 sm:col-span-3 lg:col-span-3">
-															<SA_langs />
-														</div>
-														<!--END:()-->
-
-														<!--START:()-->
-														<div class="col-span-6 sm:col-span-3 lg:col-span-3">
-															<Level_of_exp />
-														</div>
-														<!--END:()-->
-
-														<!--START:()-->
-														<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-															<Emp_type />
-														</div>
-														<!--END:()-->
-
-														<!--START:()-->
-														<div class="col-span-6 sm:col-span-3 lg:col-span-4">
-															<Roles_duties_res />
-														</div>
-														<!--END:()-->
-
-														<!--START:()-->
-														<div class="col-span-6 sm:col-span-3 lg:col-span-6">
-															<Beneifts_Info />
-														</div>
-														<!--END:()-->
-
-														<!--START:()-->
-														<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-															<Renumeration />
-														</div>
-														<!--END:()-->
-
-														<!--START:()-->
-														<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-															<Currency_input />
-														</div>
-														<!--END:()-->
-
-														<!--START:()-->
-														<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-															<label
-																for="still-studying"
-																class="block text-sm font-medium text-slate-700"
-																>Negotiable ?</label
+														<div class="mt-1 flex items-center">
+															<span
+																class="inline-block h-12 w-12 rounded-full overflow-hidden bg-slate-100"
 															>
-															<Big_checkbox />
-														</div>
-														<!--END:()-->
-
-														<!--START:()-->
-														<div class="col-span-6 sm:col-span-3 lg:col-span-3">
-															<Num_pos_ava />
-														</div>
-														<!--END:()-->
-
-														<!--START:()-->
-														<div class="col-span-6 sm:col-span-3 lg:col-span-3">
-															<Stream_job />
-														</div>
-														<!--END:()-->
-
-														<!--START:()-->
-														<div class="col-span-6 sm:col-span-3 lg:col-span-3">
-															<City_input />
-														</div>
-														<!--END:()-->
-
-														<!--START:()-->
-														<div class="col-span-6 sm:col-span-3 lg:col-span-3">
-															<Countries_input />
+																<img
+																	alt="team"
+																	class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+																	src="https://dummyimage.com/305x305"
+																/>
+															</span>
+															<button
+																type="button"
+																class="ml-5 bg-indigo-50 py-2 px-3 border-2 border-pink-300 border-dashed rounded-md shadow-sm text-sm leading-4 font-medium text-slate-700 hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+																>Change</button
+															>
 														</div>
 														<!--END:()-->
 													</div>
 													<!--END:()-->
 
-													<!--END:()-->
-												</form>
-											</div>
-											<!--END:()-->
-										</div>
-										<!--END:()-->
-
-										<!--START:()-->
-										<Red_line />
-										<!--END:()-->
-
-										<!-- </form> -->
-									</div>
-									<!--END:()-->
-								</div>
-								<!--END:()-->
-							</div>
-							<!--END:()-->
-
-							<!--START:()-->
-							<div class="mt-10 sm:mt-0">
-								<!--START:()-->
-								<div class="md:grid md:grid-cols-3 md:gap-6">
-									<!--START:()-->
-									<div class="md:col-span-1">
-										<!--START:()-->
-										<div class="px-4 sm:px-0">
-											<h3 class="text-lg font-medium leading-6 text-slate-900">
-												Extra job requirements for that specific job ad
-											</h3>
-											<p class="mt-1 text-sm text-slate-900">
-												You might need to add more information to put behind a
-												pay wall.
-											</p>
-										</div>
-										<!--END:()-->
-									</div>
-									<!--END:()-->
-
-									<!--START:()-->
-									<div class="mt-5 md:mt-0 md:col-span-2">
-										<!--START:()-->
-										<div class="shadow overflow-hidden sm:rounded-md">
-											<!--START:()-->
-											<div class="px-4 py-5 bg-indigo-50 sm:p-6">
-												<!--START:()-->
-												<div class="grid grid-cols-6 gap-6">
 													<!--START:()-->
-													<div class="col-span-6 sm:col-span-3 lg:col-span-3">
-														<Yrs_of_exp />
+													<div>
+														<!-- svelte-ignore a11y-label-has-associated-control -->
+														<label
+															class="block text-sm font-medium text-slate-700"
+														>
+															Cover image
+														</label>
+														<!--START:()-->
+														<Cover_input />
+														<!--END:()-->
+													</div>
+													<!--END:()-->
+
+													<!-- here -->
+													<!--START:()-->
+													<div>
+														<Describe_info />
 													</div>
 													<!--END:()-->
 
 													<!--START:()-->
-													<div class="col-span-6 sm:col-span-3 lg:col-span-3">
+													<div>
+														<label
+															for="coverletter"
+															class="block text-sm font-medium text-slate-700"
+														>
+															Cover Letter
+														</label>
+														<!--START:()-->
+														<Cover_letter />
+													</div>
+													<!--END:()-->
+
+													<!--START:()-->
+													<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 														<SA_langs />
 													</div>
 													<!--END:()-->
-
-													<!--START:()-->
-													<div class="col-span-6 sm:col-span-6 lg:col-span-2">
-														<label
-															for="qualfication-name"
-															class="block text-sm font-medium text-slate-700"
-															>Min_edu: Name of qualfication</label
-														>
-														<input
-															type="text"
-															placeholder=""
-															name="qualfication-name"
-															id="qualfication-name"
-															class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
-														/>
-													</div>
-													<!--END:()-->
-
-													<!--START:()-->
-													<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-														<label
-															for="quantity"
-															class="block text-sm font-medium text-slate-700"
-															>Min age? (between 18 and 65):</label
-														>
-														<input
-															type="number"
-															id="quantity"
-															name="quantity"
-															class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
-															min="18"
-															max="65"
-														/>
-													</div>
-													<!--END:()-->
-
-													<!--START:()-->
-													<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-														<Sex_iden />
-													</div>
-													<!--END:()-->
-
-													<!--START:()-->
-													<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-														<label
-															for="still-studying"
-															class="block text-sm font-medium text-slate-700"
-															>Willing to travel?</label
-														>
-														<Big_checkbox />
-													</div>
-													<!--END:()-->
-
-													<!--START:()-->
-													<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-														<label
-															for="still-studying"
-															class="block text-sm font-medium text-slate-700"
-															>Willing to do something?</label
-														>
-														<Big_checkbox />
-													</div>
-													<!--END:()-->
-
-													<!--START:()-->
-													<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-														<label
-															for="still-studying"
-															class="block text-sm font-medium text-slate-700"
-															>Has disability?</label
-														>
-														<Big_checkbox />
-													</div>
-													<!--END:()-->
 												</div>
-
-												<!--START: Red line shandis-->
-												<Red_line />
-												<!--END: Red line shandis-->
+												<!--END:()-->
 
 												<!--START:()-->
-												<div class=""><Extra_options /></div>
+												<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
+													<CRUD_save />
+												</div>
 												<!--END:()-->
 											</div>
 											<!--END:()-->
-
-											<!--START:()-->
-											<div class="px-4 py-3 bg-amber-500 text-right sm:px-6">
-												<Add_anoda />
-												<CRUD_save />
-											</div>
-											<!--END:()-->
-
-											<!--END:()-->
-										</div>
-										<!-- </form> -->
-
-										<!--END:()-->
+										</form>
 									</div>
 									<!--END:()-->
 								</div>
 								<!--END:()-->
 							</div>
 							<!--END:()-->
-
-							<!-- ... END -->
 
 							<!--START: Red line shandis-->
 							<!--START:()-->
@@ -626,10 +428,10 @@
 										<!--START:()-->
 										<div class="px-4 sm:px-0">
 											<h3 class="text-lg font-medium leading-6 text-slate-900">
-												Job Ad Type
+												Personal Information
 											</h3>
 											<p class="mt-1 text-sm text-slate-900">
-												Your capabilites and talents.
+												Use a permanent address where you can receive mail.
 											</p>
 										</div>
 										<!--END:()-->
@@ -646,28 +448,77 @@
 													<!--START:()-->
 													<div class="grid grid-cols-6 gap-6">
 														<!--START:()-->
-														<div class="col-span-6 lg:col-span-2">
-															<label
-																for="skill-name"
-																class="block text-sm font-medium text-slate-700"
-																>Name of Subscription type</label
-															>
-															<Sub_options />
+														<div class="col-span-6 sm:col-span-2 lg:col-span-2">
+															<Honorific_suffix />
 														</div>
 														<!--END:()-->
 
 														<!--START:()-->
-														<div class="col-span-6 lg:col-span-4">
-															<Degree_expo />
+														<div class="col-span-6 sm:col-span-2 lg:col-span-2">
+															<F_name />
+														</div>
+														<!--END:()-->
+
+														<!--START:()-->
+														<div class="col-span-6 sm:col-span-2 lg:col-span-2">
+															<L_name />
+														</div>
+														<!--END:()-->
+
+														<!--START:()-->
+														<div class="col-span-6">
+															<Street_addi />
+														</div>
+														<!--END:()-->
+
+														<!--START:()-->
+														<div class="col-span-6 sm:col-span-3 lg:col-span-3">
+															<City_input />
+														</div>
+														<!--END:()-->
+
+														<!--START:()-->
+														<div class="col-span-6 sm:col-span-3 lg:col-span-3">
+															<Province_input />
+														</div>
+														<!--END:()-->
+
+														<!--START:()-->
+														<div class="col-span-6 sm:col-span-3 lg:col-span-3">
+															<Postal_code />
+														</div>
+														<!--END:()-->
+
+														<!--START:()-->
+														<div class="col-span-6 sm:col-span-3 lg:col-span-3">
+															<Countries_input />
+														</div>
+														<!--END:()-->
+
+														<!--START:()-->
+														<div class="col-span-6 sm:col-span-2 lg:col-span-2">
+															<Sex_iden />
+														</div>
+														<!--END:()-->
+
+														<!--START:()-->
+														<div class="col-span-6 sm:col-span-2 lg:col-span-2">
+															<Email_input />
+														</div>
+														<!--END:()-->
+
+														<!--START:()-->
+														<div class="col-span-6 sm:col-span-2 lg:col-span-2">
+															<Int_contact_num />
 														</div>
 														<!--END:()-->
 													</div>
 													<!--END:()-->
 												</div>
 												<!--END:()-->
+
 												<!--START:()-->
-												<div class="px-4 py-3 bg-amber-500 text-right sm:px-6">
-													<Add_anoda />
+												<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 													<CRUD_save />
 												</div>
 												<!--END:()-->
@@ -717,7 +568,7 @@
 												<!--END:()-->
 
 												<!--START:()-->
-												<div class="px-4 py-3 bg-amber-500 text-right sm:px-6">
+												<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
 													<CRUD_save />
 												</div>
 												<!--END:()-->

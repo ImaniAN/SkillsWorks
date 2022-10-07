@@ -19,7 +19,7 @@
 						name="comments"
 						type="checkbox"
 						checked
-						class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+						class=" bg-red-200 border-dashed border-2 rounded border-teal-300 text-teal-300 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 					/>
 				</div>
 				<!--END:()-->
@@ -46,7 +46,7 @@
 						name="candidates"
 						type="checkbox"
 						checked
-						class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+						class=" bg-red-200 border-dashed border-2 rounded border-teal-300 text-teal-300 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 					/>
 				</div>
 				<!--END:()-->
@@ -74,7 +74,7 @@
 						name="offers"
 						type="checkbox"
 						checked
-						class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+						class=" bg-red-200 border-dashed border-2 rounded border-teal-300 text-teal-300 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 					/>
 				</div>
 				<!--END:()-->
@@ -110,7 +110,7 @@
 					name="push-notifications"
 					type="radio"
 					checked
-					class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-pink-300 border-dashed"
+					class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
 				/>
 				<label
 					for="push-everything"
@@ -127,7 +127,7 @@
 					id="push-email"
 					name="push-notifications"
 					type="radio"
-					class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-pink-300 border-dashed"
+					class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
 				/>
 				<label
 					for="push-email"
@@ -144,7 +144,7 @@
 					id="push-nothing"
 					name="push-notifications"
 					type="radio"
-					class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-2 border-pink-300 border-dashed"
+					class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
 				/>
 				<label
 					for="push-nothing"

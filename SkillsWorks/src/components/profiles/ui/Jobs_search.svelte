@@ -25,10 +25,10 @@
 					<!--START:()-->
 					<div class="form-control">
 						<label class="label cursor-pointer">
-							<span class="label-text">Hide Free Subscriptions</span>
+							<span class="label-text">Hide Applied</span>
 							<input
 								type="checkbox"
-								class="form-checkbox border-0 rounded text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+								class=" bg-red-200 border-dashed border-2 rounded border-teal-300 text-teal-300 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 								checked
 							/>
 						</label>
@@ -55,34 +55,34 @@
 						<tr>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-indigo-50 border-b border-pink-300 text-slate-800 text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-indigo-50 border-b border-teal-300 text-slate-800 text-left text-sm uppercase font-normal"
 								>Position
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-indigo-50 border-b border-pink-300 text-slate-800 text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-indigo-50 border-b border-teal-300 text-slate-800 text-left text-sm uppercase font-normal"
 								>Recruiter
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-indigo-50 border-b border-pink-300 text-slate-800 text-left text-sm uppercase font-normal"
-								>Date Subscribed
+								class="px-5 py-3 bg-indigo-50 border-b border-teal-300 text-slate-800 text-left text-sm uppercase font-normal"
+								>Date Posted
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-indigo-50 border-b border-pink-300 text-slate-800 text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-indigo-50 border-b border-teal-300 text-slate-800 text-left text-sm uppercase font-normal"
 								>status
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-indigo-50 border-b border-pink-300 text-slate-800 text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-indigo-50 border-b border-teal-300 text-slate-800 text-left text-sm uppercase font-normal"
 							/>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
 								<!--START:()-->
 								<div class="flex items-center">
@@ -111,29 +111,30 @@
 								<!--END:()-->
 							</td>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">Company0</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">01/11/2072</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
+								<Easy_apply_tab />
 								<Recommended_tab />
 							</td>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
 								<Preview_tab />
 							</td>
 						</tr>
 						<tr>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
 								<!--START:()-->
 								<div class="flex items-center">
@@ -162,29 +163,29 @@
 								<!--END:()-->
 							</td>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">Company0</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">01/11/2072</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
 								<Applied_tab />
 							</td>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
 								<Preview_tab />
 							</td>
 						</tr>
 						<tr>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
 								<!--START:()-->
 								<div class="flex items-center">
@@ -213,29 +214,29 @@
 								<!--END:()-->
 							</td>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">Company1</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">12/09/2069</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
 								<Easy_apply_tab />
 							</td>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
 								<Preview_tab />
 							</td>
 						</tr>
 						<tr>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
 								<!--START:()-->
 								<div class="flex items-center">
@@ -264,22 +265,24 @@
 								<!--END:()-->
 							</td>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">Company2</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">02/10/2018</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
 								<Liked_tab />
+								<Easy_apply_tab />
+								<Recommended_tab />
 							</td>
 							<td
-								class="px-5 py-5 border-b border-pink-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
 							>
 								<Preview_tab />
 							</td>

@@ -15,7 +15,7 @@
 		</div>
 		<!--START:()-->
 		<div
-			class="lg:w-2/3 w-full mx-auto overflow-auto border-2 border-dashed border-pink-500"
+			class="lg:w-2/3 w-full mx-auto overflow-auto border-2 border-dashed border-teal-500"
 		>
 			<table class="table-auto w-full text-left whitespace-no-wrap">
 				<thead>
@@ -51,27 +51,27 @@
 							<input
 								name="plan"
 								type="radio"
-								class="focus:ring-indigo-500 h-4 w-4 text-pink-400 border-pink-600 border-dashed"
+								class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-teal-600 border-dashed"
 							/>
 						</td>
 					</tr>
-					<tr class="border-2 border-pink-400">
-						<td class="border-b-2 border-t-2 border-pink-400 px-4 py-3">Pro</td>
-						<td class="border-b-2 border-t-2 border-pink-400 px-4 py-3"
+					<tr class="border-2 border-teal-400">
+						<td class="border-b-2 border-t-2 border-teal-400 px-4 py-3">Pro</td>
+						<td class="border-b-2 border-t-2 border-teal-400 px-4 py-3"
 							>25 Mb/s</td
 						>
-						<td class="border-b-2 border-t-2 border-pink-400 px-4 py-3"
+						<td class="border-b-2 border-t-2 border-teal-400 px-4 py-3"
 							>25 GB</td
 						>
 						<td
-							class="border-b-2 border-t-2 border-pink-400 px-4 py-3 text-lg text-slate-900"
+							class="border-b-2 border-t-2 border-teal-400 px-4 py-3 text-lg text-slate-900"
 							>$24</td
 						>
-						<td class="border-b-2 border-t-2 border-pink-400 w-10 text-center">
+						<td class="border-b-2 border-t-2 border-teal-400 w-10 text-center">
 							<input
 								name="plan"
 								checked
-								class="focus:ring-indigo-500 h-4 w-4 text-pink-400 border-pink-600 border-dashed"
+								class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-teal-600 border-dashed"
 								type="radio"
 							/>
 						</td>
@@ -94,7 +94,7 @@
 							<input
 								name="plan"
 								type="radio"
-								class="focus:ring-indigo-500 h-4 w-4 text-pink-400 border-pink-600 border-dashed"
+								class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-teal-600 border-dashed"
 							/>
 						</td>
 					</tr>
@@ -116,7 +116,7 @@
 							<input
 								name="plan"
 								type="radio"
-								class="focus:ring-indigo-500 h-4 w-4 text-pink-400 border-pink-600 border-dashed"
+								class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-teal-600 border-dashed"
 							/>
 						</td>
 					</tr>
@@ -125,11 +125,11 @@
 		</div>
 		<!--START:()-->
 		<div
-			class="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto border-2 border-dashed border-pink-500"
+			class="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto border-2 border-dashed border-teal-500"
 		>
 			<!-- svelte-ignore a11y-invalid-attribute -->
 
-			<a href="#" class="text-pink-400 inline-flex items-center md:mb-2 lg:mb-0"
+			<a href="#" class="text-teal-400 inline-flex items-center md:mb-2 lg:mb-0"
 				>Learn More
 				<svg
 					fill="none"
@@ -144,7 +144,7 @@
 				</svg>
 			</a>
 			<button
-				class="flex ml-auto text-slate-200 bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded"
+				class="flex ml-auto text-slate-200 bg-teal-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 rounded"
 				>Button</button
 			>
 		</div>

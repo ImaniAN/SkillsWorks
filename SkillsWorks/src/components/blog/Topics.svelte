@@ -366,7 +366,7 @@
 													</p>
 
 													<a
-														class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white bg-indigo-600 border border-pink-600 rounded active:text-indigo-500 hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring"
+														class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white bg-indigo-600 border border-teal-600 rounded active:text-indigo-500 hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring"
 														href="/contact"
 													>
 														Get in Touch

@@ -1,8 +1,8 @@
-<ul class="flex border-b border-pink-100">
+<ul class="flex border-b border-teal-100">
 	<li class="flex-1">
 		<!-- svelte-ignore a11y-invalid-attribute -->
 		<a class="relative block p-4" href="#">
-			<span class="absolute inset-x-0 w-full h-px bg-pink-600 -bottom-px" />
+			<span class="absolute inset-x-0 w-full h-px bg-teal-600 -bottom-px" />
 
 			<!--START:()-->
 			<div class="flex items-center justify-center">

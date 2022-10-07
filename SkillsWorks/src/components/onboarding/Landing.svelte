@@ -32,7 +32,6 @@
 	import Inputs from '../comps/mock/Inputs.svelte';
 	import Intro from './Intro.svelte';
 	import Jobs_search from '../profiles/ui/Jobs_search.svelte'; //Updated
-	import Job_reccommendations from '../profiles/candidate/jobs/Job_recc.svelte';
 	import Menu from '../profiles/ui/F_Menu.svelte';
 	import Man_report from '../profiles/admin/analytics/Man_report.svelte';
 	import Messages from '../profiles/ui/messages/Messages.svelte'; //Updated
@@ -88,13 +87,12 @@
 		{ name: 'Int_questions', component: Int_questions },
 		{ name: 'Job_preview', component: Job_preview },
 		{ name: 'Jobs search', component: Jobs_search },
-		{ name: 'Job Recs', component: Job_reccommendations },
 		{ name: 'Man_report', component: Man_report },
 		// { name: 'Menu', component: Menu },
-		// { name: 'Messages', component: Messages },
-		// { name: 'Nav with Search idk', component: Nav_search },
+		{ name: 'Messages', component: Messages },
+		{ name: 'Nav with Search idk', component: Nav_search },
 		// { name: 'Nav_side', component: Nav_side },
-		// { name: 'Nav_side_small', component: Nav_side_small },
+		{ name: 'Nav_side_small', component: Nav_side_small },
 		// { name: 'Pagination', component: Pagination },
 		{ name: 'Post_job', component: Post_job },
 		// { name: 'Pri_pol', component: Pri_pol },
@@ -133,7 +131,7 @@
 <!--START:()-->
 <div class="">
 	<header
-		class="sticky top-3 mx-4 bg-opacity-70 z-50 bg-lime-200 rounded-full px-2 py-2"
+		class="sticky top-3 mx-4 bg-opacity-70 z-50 bg-amber-500 rounded-full px-2 py-2"
 	>
 		<!--START:()-->
 		<div class="flex items-center justify-between max-w-screen-xl">
@@ -165,7 +163,7 @@
 								{#each webpages as webpageObj}
 									<button
 										target="_blank"
-										class="text-slate-100 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-lime-200 px-3 py-2 rounded-md text-sm font-medium"
+										class="text-slate-100 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-emerald-200 px-3 py-2 rounded-md text-sm font-medium"
 										title={webpageObj.name}
 										on:click={() => loadPage(webpageObj)}
 										>{webpageObj.name}</button
@@ -203,13 +201,13 @@
 					<!-- svelte-ignore a11y-missing-attribute -->
 					<a
 						on:click={() => loadPage(webpages[0])}
-						class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+						class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 						>Sign Up</a
 					>
 					<!-- svelte-ignore a11y-missing-attribute -->
 					<a
 						on:click={() => loadPage(webpages[1])}
-						class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-pink-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+						class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 						>Log In</a
 					>
 				</form>

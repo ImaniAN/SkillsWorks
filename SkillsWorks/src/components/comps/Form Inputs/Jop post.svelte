@@ -20,7 +20,7 @@
 						placeholder=""
 						name="institution-name"
 						id="institution-name"
-						class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-pink-600 border-pink-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
+						class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 					/>
 				</div>
 
@@ -36,7 +36,7 @@
 						placeholder=""
 						name="qualfication-name"
 						id="qualfication-name"
-						class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-pink-600 border-pink-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
+						class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 					/>
 				</div>
 
@@ -104,7 +104,7 @@
 						type="checkbox"
 						name="still-studying"
 						id="still-studying"
-						class="block appearance-none w-full bg-indigo-200 border border-pink-600 text-indigo-600 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-indigo-50 focus:border-pink-300 border-dashed"
+						class="block appearance-none w-full bg-indigo-200 border border-teal-600 text-indigo-600 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-indigo-50 focus:border-teal-300 border-dashed"
 					/>
 				</div>
 				<!--END:()-->
@@ -200,7 +200,7 @@
 								placeholder=""
 								name="qualfication-name"
 								id="qualfication-name"
-								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-pink-600 border-pink-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 							/>
 						</div>
 						<!--END:()-->
@@ -215,7 +215,7 @@
 								type="number"
 								id="quantity"
 								name="quantity"
-								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-pink-600 border-pink-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
 								min="18"
 								max="65"
 							/>
@@ -271,7 +271,7 @@
 				<!--END:()-->
 
 				<!--START:()-->
-				<div class="px-4 py-3 bg-yellow-200 text-right sm:px-6">
+				<div class="px-4 py-3 bg-amber-500 text-right sm:px-6">
 					<Add_anoda />
 					<CRUD_save />
 				</div>

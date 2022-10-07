@@ -119,11 +119,11 @@
 
 				<!--START:()-->
 				<div class="flex items-center justify-center space-x-2 my-5">
-					<span class="h-px w-16 bg-indigo-600" />
+					<span class="h-px w-16 bg-amber-500" />
 					<span class="text-slate-500 font-normal text-center"
 						>or continue with</span
 					>
-					<span class="h-px w-16 bg-indigo-600" />
+					<span class="h-px w-16 bg-amber-500" />
 				</div>
 				<!--END:()-->
 
@@ -203,21 +203,21 @@
 					<!--START:()-->
 					<div class="flex items-center justify-center space-x-2 my-5">
 						<label class="inline-flex items-center cursor-pointer">
-							<span class="h-px w-16 bg-indigo-600" />
+							<span class="h-px w-16 bg-amber-500" />
 							<input
 								required
 								id="customCheckLogin"
 								type="checkbox"
-								class="border-dashed form-checkbox border-2 rounded border-pink-200 text-indigo-600 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+								class=" bg-red-200 border-dashed border-2 rounded border-teal-300 text-teal-300 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 							/>
 							<span class="ml-2 text-sm px-2 font-semibold text-slate-600">
 								I agree with the
 								<!-- svelte-ignore a11y-invalid-attribute -->
-								<a href="#" class="text-red-600">
+								<a href="#" class="text-teal-300">
 									Privacy Policy
 								</a><!-- TODORemeber to href to the Pri_pol Page -->
 							</span>
-							<span class="h-px w-16 bg-indigo-600" />
+							<span class="h-px w-16 bg-amber-500" />
 						</label>
 					</div>
 					<!--END:()-->
@@ -240,9 +240,9 @@
 
 							<!--START:()-->
 							<div class="flex items-center justify-center space-x-2 my-5">
-								<span class="h-px w-16 bg-indigo-600" />
+								<span class="h-px w-16 bg-amber-500" />
 								<span class="text-slate-500 font-normal text-center">OR</span>
-								<span class="h-px w-16 bg-indigo-600" />
+								<span class="h-px w-16 bg-amber-500" />
 							</div>
 							<!--END:()-->
 
