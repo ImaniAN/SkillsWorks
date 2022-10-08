@@ -81,12 +81,12 @@
 				<div class="hidden sm:block sm:ml-6">
 					<!--START:()-->
 					<div class="flex space-x-4">
-						<!-- Current: "bg-slate-900 text-indigo-50", Default: "text-slate-300 hover:bg-slate-700 hover:text-indigo-50" -->
+						<!-- Current: "bg-slate-800 text-indigo-50", Default: "text-slate-50 hover:bg-slate-700 hover:text-indigo-50" -->
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
-							class="bg-slate-900 text-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+							class="bg-slate-800 text-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 							aria-current="page">Dashboard</a
 						>
 
@@ -94,7 +94,7 @@
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
-							class="text-slate-300 hover:bg-slate-700 hover:text-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+							class="text-slate-50 hover:bg-slate-700 hover:text-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 							>Team</a
 						>
 
@@ -102,7 +102,7 @@
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
-							class="text-slate-300 hover:bg-slate-700 hover:text-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+							class="text-slate-50 hover:bg-slate-700 hover:text-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 							>Projects</a
 						>
 
@@ -110,7 +110,7 @@
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							href="#"
-							class="text-slate-300 hover:bg-slate-700 hover:text-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+							class="text-slate-50 hover:bg-slate-700 hover:text-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 							>Calendar</a
 						>
 					</div>
@@ -221,12 +221,12 @@
 	<div class="sm:hidden" id="mobile-menu">
 		<!--START:()-->
 		<div class="px-2 pt-2 pb-3 space-y-1">
-			<!-- Current: "bg-slate-900 text-indigo-50", Default: "text-slate-300 hover:bg-slate-700 hover:text-indigo-50" -->
+			<!-- Current: "bg-slate-800 text-indigo-50", Default: "text-slate-50 hover:bg-slate-700 hover:text-indigo-50" -->
 			<!-- svelte-ignore a11y-invalid-attribute -->
 
 			<a
 				href="#"
-				class="bg-slate-900 text-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
+				class="bg-slate-800 text-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 				aria-current="page">Dashboard</a
 			>
 
@@ -234,7 +234,7 @@
 
 			<a
 				href="#"
-				class="text-slate-300 hover:bg-slate-700 hover:text-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
+				class="text-slate-50 hover:bg-slate-700 hover:text-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 				>Team</a
 			>
 
@@ -242,7 +242,7 @@
 
 			<a
 				href="#"
-				class="text-slate-300 hover:bg-slate-700 hover:text-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
+				class="text-slate-50 hover:bg-slate-700 hover:text-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 				>Projects</a
 			>
 
@@ -250,7 +250,7 @@
 
 			<a
 				href="#"
-				class="text-slate-300 hover:bg-slate-700 hover:text-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
+				class="text-slate-50 hover:bg-slate-700 hover:text-indigo-50 block px-3 py-2 rounded-md text-base font-medium"
 				>Calendar</a
 			>
 		</div>

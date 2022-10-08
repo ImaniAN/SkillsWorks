@@ -14,7 +14,7 @@
 			/>
 
 			<button
-				class="border-2 border-dashed border-teal-600 absolute p-2 text-indigo-600 transition -translate-y-1/2 rounded-md hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-slate-50 hover:bg-indigo-600 top-1/2 right-1"
+				class="border-2 border-dashed border-teal-600 absolute p-2 text-indigo-600 transition -translate-y-1/2 rounded-md hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-slate-50 hover:bg-indigo-400 top-1/2 right-1"
 				type="button"
 				aria-label="Submit Search"
 			>

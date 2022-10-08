@@ -159,7 +159,7 @@
 						<ul
 							class="bg-slate-600 border -right-9 rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
 						>
-							<li class="px-9 py-1 hover:bg-slate-900">
+							<li class="px-9 py-1 hover:bg-slate-800">
 								{#each webpages as webpageObj}
 									<button
 										target="_blank"
@@ -181,8 +181,8 @@
 				class="sticky items-center justify-center text-sm font-medium space-x-8 lg:flex lg:flex-1 lg:w-0 flex-shrink-0"
 			>
 				<img
-					class="h-8 w-8"
-					src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+					class="h-11 w-11"
+					src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=400"
 					alt="Your Company"
 				/>
 			</div>
@@ -201,13 +201,13 @@
 					<!-- svelte-ignore a11y-missing-attribute -->
 					<a
 						on:click={() => loadPage(webpages[0])}
-						class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+						class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 						>Sign Up</a
 					>
 					<!-- svelte-ignore a11y-missing-attribute -->
 					<a
 						on:click={() => loadPage(webpages[1])}
-						class="text-slate-300 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+						class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-400 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 						>Log In</a
 					>
 				</form>

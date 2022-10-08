@@ -30,7 +30,7 @@
 	</main>
 
 	<section
-		class="flex items-center h-full p-16 dark:bg-slate-900 dark:text-slate-100"
+		class="flex items-center h-full p-16 dark:bg-slate-800 dark:text-slate-100"
 	>
 		<!--START:()-->
 		<div
@@ -77,13 +77,13 @@
 						>
 							<span>4</span> <span>0</span> <span>4</span>
 						</h1>
-						<span class="absolute top-0  -ml-12 text-slate-300 font-semibold"
+						<span class="absolute top-0  -ml-12 text-slate-50 font-semibold"
 							>Oops!</span
 						>
 					</div>
 					<!--END:()-->
 
-					<h5 class="text-slate-300 font-semibold -mr-10 -mt-3">
+					<h5 class="text-slate-50 font-semibold -mr-10 -mt-3">
 						Page not found
 					</h5>
 					<p class="text-slate-100 mt-2 mb-6">

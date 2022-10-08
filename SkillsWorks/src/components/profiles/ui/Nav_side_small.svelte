@@ -39,7 +39,7 @@
 						</svg>
 
 						<span
-							class="absolute text-xs font-medium text-indigo-50 bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
+							class="absolute text-xs font-medium text-indigo-50 bg-slate-800 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
 						>
 							General
 						</span>
@@ -71,7 +71,7 @@
 							</svg>
 
 							<span
-								class="absolute text-xs font-medium text-indigo-50 bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
+								class="absolute text-xs font-medium text-indigo-50 bg-slate-800 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
 							>
 								Teams
 							</span>
@@ -101,7 +101,7 @@
 							</svg>
 
 							<span
-								class="absolute text-xs font-medium text-indigo-50 bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
+								class="absolute text-xs font-medium text-indigo-50 bg-slate-800 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
 							>
 								Billing
 							</span>
@@ -131,7 +131,7 @@
 							</svg>
 
 							<span
-								class="absolute text-xs font-medium text-indigo-50 bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
+								class="absolute text-xs font-medium text-indigo-50 bg-slate-800 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
 							>
 								Invoices
 							</span>
@@ -161,7 +161,7 @@
 							</svg>
 
 							<span
-								class="absolute text-xs font-medium text-indigo-50 bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
+								class="absolute text-xs font-medium text-indigo-50 bg-slate-800 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
 							>
 								Account
 							</span>
@@ -199,7 +199,7 @@
 				</svg>
 
 				<span
-					class="absolute text-xs font-medium text-indigo-50 bg-slate-900 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
+					class="absolute text-xs font-medium text-indigo-50 bg-slate-800 left-full ml-4 px-2 py-1.5 top-1/2 -translate-y-1/2 rounded opacity-0 group-hover:opacity-100"
 				>
 					Logout
 				</span>

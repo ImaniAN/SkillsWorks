@@ -16,7 +16,9 @@
 			<header class="bg-indigo-50 shadow">
 				<!--START:()-->
 				<div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-					<h1 class="text-3xl tracking-tight font-bold text-slate-900">
+					<h1
+						class="text-center text-3xl tracking-tight font-bold text-slate-900"
+					>
 						Dashboard
 					</h1>
 				</div>

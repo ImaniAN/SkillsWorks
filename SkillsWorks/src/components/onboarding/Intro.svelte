@@ -443,7 +443,7 @@
 						</p>
 					</div>
 				</div>
-				<section class="py-2 mb-2 text-white bg-slate-900">
+				<section class="py-2 mb-2 text-white bg-slate-800">
 					<!--START:()-->
 					<div class="px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
 						<!--START:()-->

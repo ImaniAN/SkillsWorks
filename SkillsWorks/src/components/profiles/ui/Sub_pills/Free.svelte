@@ -5,5 +5,5 @@
 		aria-hidden="true"
 		class="absolute inset-0 bg-emerald-500 opacity-50 rounded-full"
 	/>
-	<span class="relative"> Free Subscription </span>
+	<span class="relative">Free Subscription</span>
 </span>

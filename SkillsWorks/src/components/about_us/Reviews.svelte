@@ -5,7 +5,7 @@
 
 <section class="px-4 py-8 mx-auto justify-center bg-amber-500">
 	<!--START:()-->
-	<div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8 bg-slate-900">
+	<div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8 bg-slate-800">
 		<h2 class="text-indigo-600 text-xl font-bold sm:text-2xl">
 			Customer Reviews
 		</h2>
@@ -58,7 +58,7 @@
 				</p>
 
 				<footer class="mt-4">
-					<p class="text-xs text-slate-500">John Doe - 12th January, 2024</p>
+					<p class="text-xs text-amber-500">John Doe - 12th January, 2024</p>
 				</footer>
 			</blockquote>
 
@@ -86,7 +86,7 @@
 				</p>
 
 				<footer class="mt-4">
-					<p class="text-xs text-slate-500">John Doe - 12th January, 2024</p>
+					<p class="text-xs text-amber-500">John Doe - 12th January, 2024</p>
 				</footer>
 			</blockquote>
 
@@ -114,7 +114,7 @@
 				</p>
 
 				<footer class="mt-4">
-					<p class="text-xs text-slate-500">John Doe - 12th January, 2024</p>
+					<p class="text-xs text-amber-500">John Doe - 12th January, 2024</p>
 				</footer>
 			</blockquote>
 
@@ -142,7 +142,7 @@
 				</p>
 
 				<footer class="mt-4">
-					<p class="text-xs text-slate-500">John Doe - 12th January, 2024</p>
+					<p class="text-xs text-amber-500">John Doe - 12th January, 2024</p>
 				</footer>
 			</blockquote>
 		</div>

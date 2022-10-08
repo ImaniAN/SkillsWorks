@@ -1,6 +1,6 @@
 <!-- component -->
 <!--START:()-->
-<div class="bg-slate-900 min-h-screen flex items-center justify-center">
+<div class="bg-slate-800 min-h-screen flex items-center justify-center">
 	<!--START:()-->
 	<div
 		class="bg-slate-800 flex-1 flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-10 max-w-6xl sm:p-6 sm:my-2 sm:mx-4 sm:rounded-2xl"
@@ -8,7 +8,7 @@
 		<!-- Navigation -->
 		<!--START:()-->
 		<div
-			class="bg-slate-900 px-2 lg:px-4 py-2 lg:py-10 sm:rounded-xl flex lg:flex-col justify-between"
+			class="bg-slate-800 px-2 lg:px-4 py-2 lg:py-10 sm:rounded-xl flex lg:flex-col justify-between"
 		>
 			<nav
 				class="flex items-center flex-row space-x-2 lg:space-x-0 lg:flex-col lg:space-y-2"
@@ -118,7 +118,7 @@
 				<div class="inline-flex items-center space-x-2">
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						class="bg-slate-900 text-indigo-50/50 p-2 rounded-md hover:text-indigo-50 smooth-hover"
+						class="bg-slate-800 text-indigo-50/50 p-2 rounded-md hover:text-indigo-50 smooth-hover"
 						href="#"
 					>
 						<svg
@@ -138,7 +138,7 @@
 					</a>
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						class="bg-slate-900 text-indigo-50/50 p-2 rounded-md hover:text-indigo-50 smooth-hover"
+						class="bg-slate-800 text-indigo-50/50 p-2 rounded-md hover:text-indigo-50 smooth-hover"
 						href="#"
 					>
 						<svg
@@ -164,11 +164,11 @@
 			>
 				<!--START:()-->
 				<div
-					class="group bg-slate-900/30 py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-slate-900/40 hover:smooth-hover"
+					class="group bg-slate-800/30 py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-slate-800/40 hover:smooth-hover"
 				>
 					<!-- svelte-ignore a11y-invalid-attribute -->
 					<a
-						class="bg-slate-900/70 text-indigo-50/50 group-hover:text-indigo-50 group-hover:smooth-hover flex w-20 h-20 rounded-full items-center justify-center"
+						class="bg-slate-800/70 text-indigo-50/50 group-hover:text-indigo-50 group-hover:smooth-hover flex w-20 h-20 rounded-full items-center justify-center"
 						href="#"
 					>
 						<svg
@@ -194,7 +194,7 @@
 				</div>
 				<!--START:()-->
 				<div
-					class="relative group bg-slate-900 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-slate-900/80 hover:smooth-hover"
+					class="relative group bg-slate-800 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-slate-800/80 hover:smooth-hover"
 				>
 					<img
 						class="w-20 h-20 object-cover object-center rounded-full"
@@ -215,7 +215,7 @@
 				</div>
 				<!--START:()-->
 				<div
-					class="relative group bg-slate-900 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-slate-900/80 hover:smooth-hover"
+					class="relative group bg-slate-800 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-slate-800/80 hover:smooth-hover"
 				>
 					<img
 						class="w-20 h-20 object-cover object-center rounded-full"
@@ -236,7 +236,7 @@
 				</div>
 				<!--START:()-->
 				<div
-					class="relative group bg-slate-900 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-slate-900/80 hover:smooth-hover"
+					class="relative group bg-slate-800 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-slate-800/80 hover:smooth-hover"
 				>
 					<img
 						class="w-20 h-20 object-cover object-center rounded-full"
@@ -257,7 +257,7 @@
 				</div>
 				<!--START:()-->
 				<div
-					class="relative group bg-slate-900 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-slate-900/80 hover:smooth-hover"
+					class="relative group bg-slate-800 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-slate-800/80 hover:smooth-hover"
 				>
 					<img
 						class="w-20 h-20 object-cover object-center rounded-full"
@@ -278,7 +278,7 @@
 				</div>
 				<!--START:()-->
 				<div
-					class="relative group bg-slate-900 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-slate-900/80 hover:smooth-hover"
+					class="relative group bg-slate-800 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-slate-800/80 hover:smooth-hover"
 				>
 					<img
 						class="w-20 h-20 object-cover object-center rounded-full"
@@ -299,7 +299,7 @@
 				</div>
 				<!--START:()-->
 				<div
-					class="relative group bg-slate-900 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-slate-900/80 hover:smooth-hover"
+					class="relative group bg-slate-800 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-slate-800/80 hover:smooth-hover"
 				>
 					<img
 						class="w-20 h-20 object-cover object-center rounded-full"
@@ -320,7 +320,7 @@
 				</div>
 				<!--START:()-->
 				<div
-					class="relative group bg-slate-900 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-slate-900/80 hover:smooth-hover"
+					class="relative group bg-slate-800 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-slate-800/80 hover:smooth-hover"
 				>
 					<img
 						class="w-20 h-20 object-cover object-center rounded-full"

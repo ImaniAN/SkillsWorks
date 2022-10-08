@@ -1,4 +1,4 @@
-<header class="text-slate-400 bg-slate-900 body-font">
+<header class="text-slate-400 bg-slate-800 body-font">
 	<!--START:()-->
 	<div
 		class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"

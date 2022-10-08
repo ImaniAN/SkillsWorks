@@ -1,4 +1,4 @@
-<section class="text-slate-400 bg-slate-900 body-font">
+<section class="text-slate-400 bg-slate-800 body-font">
 	<!--START:()-->
 	<div class="container px-5 py-8 mx-auto">
 		<!--START:()-->

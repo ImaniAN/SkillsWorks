@@ -1,9 +1,9 @@
-<footer class="bg-slate-900">
+<footer class="bg-slate-800">
 	<!--START:()-->
 	<div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
 		<!--START:()-->
 		<div
-			class="flex flex-col items-center gap-4 p-6 bg-indigo-600 rounded-lg shadow-lg sm:flex-row sm:justify-between"
+			class="flex flex-col items-center gap-4 p-6 bg-indigo-400 rounded-lg shadow-lg sm:flex-row sm:justify-between"
 		>
 			<strong class="text-xl text-indigo-50 sm:text-xl">
 				Make Your Next Career Move!

@@ -6,7 +6,7 @@
 	>
 		<!--START:()-->
 		<div
-			class="self-center mb-6 text-xl font-light  sm:text-2xl text-slate-600"
+			class="self-center mb-6 text-4xl font-light sm:text-3xl text-slate-900"
 		>
 			Recover your Your Account
 		</div>
@@ -17,14 +17,14 @@
 			<form action="#">
 				<!--START:()-->
 				<div class="flex flex-col mb-2">
-					<label for="email" class="text-slate-600">
+					<label for="email" class="text-slate-900">
 						Email
 						<span class="text-red-500"> * </span>
 					</label>
 					<!--START:()-->
 					<div class="flex relative">
 						<span
-							class="rounded-l-md inline-flex items-center px-3 bg-indigo-50  text-slate-500 shadow-sm text-sm"
+							class="rounded-l-md inline-flex items-center px-3 bg-indigo-50  text-slate-900 shadow-sm text-sm"
 						>
 							<svg
 								width="15"
@@ -56,7 +56,7 @@
 				<div class="flex w-full">
 					<button
 						type="submit"
-						class="text-slate-300 focus:outline-none w-full focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+						class="text-slate-50 focus:outline-none w-full focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-400 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 					>
 						Send a recovery link!
 					</button>

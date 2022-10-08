@@ -17,7 +17,7 @@
 
 				<!--START:()-->
 				<div
-					class="absolute inline-flex px-4 py-2 bg-indigo-600 rounded-lg shadow-xl -bottom-4 -right-4"
+					class="absolute inline-flex px-4 py-2 bg-indigo-400 rounded-lg shadow-xl -bottom-4 -right-4"
 				>
 					<span class="inline-block w-12 h-10 bg-amber-500 rounded-lg" />
 				</div>
@@ -43,7 +43,7 @@
 </div>
 <!--END:()-->
 
-<section class="text-slate-400 bg-slate-900 body-font">
+<section class="text-slate-400 bg-slate-800 body-font">
 	Use this for multiple people
 	<!--START:()-->
 	<div class="container px-5 py-24 mx-auto">
@@ -70,7 +70,7 @@
 					>
 						HOLDEN CAULFIELD
 					</h2>
-					<p class="text-slate-500">Senior Product Designer</p>
+					<p class="text-amber-500">Senior Product Designer</p>
 				</div>
 			</div>
 			<!--START:()-->
@@ -94,7 +94,7 @@
 					>
 						ALPER KAMU
 					</h2>
-					<p class="text-slate-500">UI Develeoper</p>
+					<p class="text-amber-500">UI Develeoper</p>
 				</div>
 			</div>
 			<!--START:()-->
@@ -118,7 +118,7 @@
 					>
 						HENRY LETHAM
 					</h2>
-					<p class="text-slate-500">CTO</p>
+					<p class="text-amber-500">CTO</p>
 				</div>
 			</div>
 		</div>
@@ -141,7 +141,7 @@
 					d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
 				/>
 			</svg>
-			<p class="leading-relaxed text-lg">
+			<p class="text-slate-900 leading-relaxed text-lg">
 				Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki
 				taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman
 				taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny
@@ -153,16 +153,16 @@
 				vinegar.
 			</p>
 			<span class="inline-block h-1 w-10 rounded bg-amber-500 mt-8 mb-6" />
-			<h2 class="text-slate-900 font-medium title-font tracking-wider text-sm">
+			<h2 class="text-indigo-400 font-medium title-font tracking-wider text-sm">
 				HOLDEN CAULFIELD
 			</h2>
-			<p class="text-slate-500">Senior Product Designer</p>
+			<p class="text-amber-500">Senior Product Designer</p>
 		</div>
 	</div>
 </section>
 <!--END:()-->
 
-<section class="text-slate-400 bg-slate-900 body-font">
+<section class="text-slate-400 bg-slate-800 body-font">
 	<!--START:()-->
 	<div class="container px-5 py-24 mx-auto">
 		<h1
@@ -216,7 +216,7 @@
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="currentColor"
-						class="block w-5 h-5 text-slate-500 mb-4"
+						class="block w-5 h-5 text-amber-500 mb-4"
 						viewBox="0 0 975.036 975.036"
 					>
 						<path

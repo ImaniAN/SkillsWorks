@@ -47,7 +47,9 @@
 			<header class="bg-indigo-50 shadow">
 				<!--START:()-->
 				<div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-					<h1 class="text-3xl tracking-tight font-bold text-slate-900">
+					<h1
+						class="text-center text-3xl tracking-tight font-bold text-slate-900"
+					>
 						Resume Nton NtonZ
 					</h1>
 				</div>
@@ -244,7 +246,7 @@
 												<span class="sm:ml-3">
 													<button
 														type="button"
-														class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-50 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+														class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-50 bg-indigo-400 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 													>
 														<!-- Heroicon name: solid/check -->
 														<svg

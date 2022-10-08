@@ -13,7 +13,7 @@
 	<Our_team />
 	<Reviews />
 	<Testimonial />
-	<Featured_testi />
 	<Faq />
 	<Contact_us />
+	<Featured_testi />
 </div>

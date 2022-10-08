@@ -25,7 +25,7 @@
 					<!--START:()-->
 					<div class="form-control">
 						<label class="label cursor-pointer">
-							<span class="label-text">Hide Posts that are closed</span>
+							<span class="label-text">Hide Closed Posts</span>
 							<input
 								type="checkbox"
 								class=" bg-red-200 border-dashed border-2 rounded border-teal-300 text-teal-300 ml-1 w-5 h-5 ease-linear transition-all duration-150"
