@@ -1,6 +1,6 @@
 <!--START:()-->
 <div
-	class="relative p-8 text-center border-2 border-teal-300 border-dashed rounded-lg"
+	class="relative p-8 text-center border-2 border-teal-400 border-dashed rounded-lg"
 >
 	<h2 class="text-2xl font-medium">There's nothing here...</h2>
 

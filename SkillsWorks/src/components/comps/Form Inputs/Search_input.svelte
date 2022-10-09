@@ -1,13 +1,13 @@
 <label class="sr-only" for="search"> Search </label>
 <input
-	class="rounded-lg flex-1 appearance-none border-2 border-teal-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 text-base focus:ring-indigo-600 focus:border-transparent shadow focus:outline-none focus:ring"
+	class="rounded-lg flex-1 appearance-none border-2 border-teal-400 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 text-base focus:ring-indigo-600 focus:border-transparent shadow focus:outline-none focus:ring"
 	id="search"
 	type="search"
 	placeholder="Do da Search tingZ..."
 />
 
 <button
-	class="absolute p-2 transition -translate-y-1/2 rounded-md bg-indigo-500 text-indigo-50 hover:text-indigo-500 hover:bg-indigo-50 top-1/2 -right-1"
+	class="absolute p-2 transition -translate-y-1/2 rounded-md bg-indigo-500 hover:border-2 hover:border-dashed hover:border-teal-400 text-indigo-50 hover:text-teal-400 hover:bg-indigo-50 top-1/2 -right-1"
 	type="button"
 	aria-label="Submit Search"
 >

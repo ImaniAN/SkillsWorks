@@ -1,5 +1,7 @@
 <fieldset>
-	<legend class="contents text-base font-medium text-slate-900"
+	<legend
+		for="form-emp-type"
+		class="contents text-base font-medium text-slate-900"
 		>Employment type</legend
 	>
 	<p class="text-sm text-slate-500">The type work arrangemnet you had.</p>
@@ -9,16 +11,16 @@
 		<div class="flex items-center">
 			<input
 				checked
-				id="emp-type"
-				name="emp-type"
+				id="form-emp-type-volunteer"
+				name="form-emp-type-volunteer"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="push-everything"
+				for="form-emp-type-volunteer"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
-				Volenter
+				Volunteer
 			</label>
 		</div>
 		<!--END:()-->
@@ -26,13 +28,13 @@
 		<!--START:()-->
 		<div class="flex items-center">
 			<input
-				id="emp-type"
-				name="emp-type"
+				id="form-emp-type-permanent"
+				name="form-emp-type-permanent"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="time-spent"
+				for="form-emp-type-permanent"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
 				Permanent
@@ -43,13 +45,13 @@
 		<!--START:()-->
 		<div class="flex items-center">
 			<input
-				id="emp-type"
-				name="emp-type"
+				id="form-emp-type-ft"
+				name="form-emp-type-ft"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="time-spent"
+				for="form-emp-type-ft"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
 				Full-time
@@ -59,13 +61,13 @@
 		<!--START:()-->
 		<div class="flex items-center">
 			<input
-				id="emp-type"
-				name="emp-type"
+				id="form-emp-type-contract"
+				name="form-emp-type-contract"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="learning-type"
+				for="form-emp-type-contract"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
 				Contract
@@ -76,13 +78,13 @@
 		<!--START:()-->
 		<div class="flex items-center">
 			<input
-				id="emp-type"
-				name="emp-type"
+				id="form-emp-type-pt"
+				name="form-emp-type-pt"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="push-email"
+				for="form-emp-type-pt"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
 				Part-time
@@ -93,13 +95,13 @@
 		<!--START:()-->
 		<div class="flex items-center">
 			<input
-				id="emp-type"
-				name="emp-type"
+				id="form-emp-type-seasonal"
+				name="form-emp-type-seasonal"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="push-nothing"
+				for="form-emp-type-seasonal"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
 				Seasonal
@@ -110,13 +112,13 @@
 		<!--START:()-->
 		<div class="flex items-center">
 			<input
-				id="emp-type"
-				name="emp-type"
+				id="form-emp-type-seasonal"
+				name="form-emp-type-seasonal"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="learning-type"
+				for="form-emp-type-seasonal"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
 				Casual
@@ -130,7 +132,9 @@
 <br />
 <!--END:()-->
 <fieldset>
-	<legend class="contents text-base font-medium text-slate-900"
+	<legend
+		for="for-work-hours"
+		class="contents text-base font-medium text-slate-900"
 		>Type of Working hours</legend
 	>
 	<p class="text-sm text-slate-500">Expected hours to do work.</p>
@@ -139,13 +143,13 @@
 		<!--START:()-->
 		<div class="flex items-center">
 			<input
-				id="learning-type"
-				name="learning-type"
+				id="for-work-hours-ns"
+				name="for-work-hours-ns"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="learning-type"
+				for="for-work-hours-ns"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
 				Night Shift
@@ -156,13 +160,13 @@
 		<!--START:()-->
 		<div class="flex items-center">
 			<input
-				id="learning-type"
-				name="learning-type"
+				id="for-work-hours-ds"
+				name="for-work-hours-ds"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="push-email"
+				for="for-work-hours-ds"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
 				Day shift
@@ -174,13 +178,13 @@
 		<div class="flex items-center">
 			<input
 				checked
-				id="learning-type"
-				name="learning-type"
+				id="for-work-hours-etc"
+				name="for-work-hours-etc"
 				type="radio"
-				class="focus:ring-indigo-500 h-4 w-4 text-teal-300 border-2 border-teal-300 border-dashed ease-linear transition-all duration-150"
+				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="learning-type"
+				for="for-work-hours-etc"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
 				etc

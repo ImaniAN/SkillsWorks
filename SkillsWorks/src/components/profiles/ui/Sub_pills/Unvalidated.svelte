@@ -3,7 +3,7 @@
 >
 	<span
 		aria-hidden="true"
-		class="absolute inset-0 bg-amber-500 opacity-50 rounded-full"
+		class="absolute inset-0 bg-amber-300 opacity-50 rounded-full"
 	/>
 	<span class="relative">Unvalidated !</span>
 </span>

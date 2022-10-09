@@ -3,7 +3,7 @@
 	<div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
 		<!--START:()-->
 		<div
-			class="flex flex-col items-center gap-4 p-6 bg-indigo-400 rounded-lg shadow-lg sm:flex-row sm:justify-between"
+			class="flex flex-col items-center gap-4 p-6 bg-indigo-600 rounded-lg shadow-lg sm:flex-row sm:justify-between"
 		>
 			<strong class="text-xl text-indigo-50 sm:text-xl">
 				Make Your Next Career Move!
@@ -46,7 +46,7 @@
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
 							<a
-								class="text-indigo-50 transition hover:text-indigo-50/75"
+								class="text-indigo-50 transition hover:text-amber-300/75"
 								href="#"
 							>
 								Company History
@@ -57,7 +57,7 @@
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
 							<a
-								class="text-indigo-50 transition hover:text-indigo-50/75"
+								class="text-indigo-50 transition hover:text-amber-300/75"
 								href="#"
 							>
 								Meet the Team
@@ -68,7 +68,7 @@
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
 							<a
-								class="text-indigo-50 transition hover:text-indigo-50/75"
+								class="text-indigo-50 transition hover:text-amber-300/75"
 								href="#"
 							>
 								Employee Handbook
@@ -79,7 +79,7 @@
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
 							<a
-								class="text-indigo-50 transition hover:text-indigo-50/75"
+								class="text-indigo-50 transition hover:text-amber-300/75"
 								href="#"
 							>
 								Careers
@@ -100,7 +100,7 @@
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
 							<a
-								class="text-indigo-50 transition hover:text-indigo-50/75"
+								class="text-indigo-50 transition hover:text-amber-300/75"
 								href="#"
 							>
 								Web Development
@@ -111,7 +111,7 @@
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
 							<a
-								class="text-indigo-50 transition hover:text-indigo-50/75"
+								class="text-indigo-50 transition hover:text-amber-300/75"
 								href="#"
 							>
 								Web Design
@@ -122,7 +122,7 @@
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
 							<a
-								class="text-indigo-50 transition hover:text-indigo-50/75"
+								class="text-indigo-50 transition hover:text-amber-300/75"
 								href="#"
 							>
 								Marketing
@@ -133,7 +133,7 @@
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
 							<a
-								class="text-indigo-50 transition hover:text-indigo-50/75"
+								class="text-indigo-50 transition hover:text-amber-300/75"
 								href="#"
 							>
 								Google Ads
@@ -154,7 +154,7 @@
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
 							<a
-								class="text-indigo-50 transition hover:text-indigo-50/75"
+								class="text-indigo-50 transition hover:text-amber-300/75"
 								href="#"
 							>
 								Online Guides
@@ -165,7 +165,7 @@
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
 							<a
-								class="text-indigo-50 transition hover:text-indigo-50/75"
+								class="text-indigo-50 transition hover:text-amber-300/75"
 								href="#"
 							>
 								Conference Notes
@@ -176,7 +176,7 @@
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
 							<a
-								class="text-indigo-50 transition hover:text-indigo-50/75"
+								class="text-indigo-50 transition hover:text-amber-300/75"
 								href="#"
 							>
 								Forum
@@ -187,7 +187,7 @@
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
 							<a
-								class="text-indigo-50 transition hover:text-indigo-50/75"
+								class="text-indigo-50 transition hover:text-amber-300/75"
 								href="#"
 							>
 								Downloads
@@ -198,7 +198,7 @@
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
 							<a
-								class="text-indigo-50 transition hover:text-indigo-50/75"
+								class="text-indigo-50 transition hover:text-amber-300/75"
 								href="#"
 							>
 								Upcoming Events
@@ -219,7 +219,7 @@
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
 							<a
-								class="text-indigo-50 transition hover:text-indigo-50/75"
+								class="text-indigo-50 transition hover:text-amber-300/75"
 								href="#"
 							>
 								FAQs
@@ -230,7 +230,7 @@
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
 							<a
-								class="text-indigo-50 transition hover:text-indigo-50/75"
+								class="text-indigo-50 transition hover:text-amber-300/75"
 								href="#"
 							>
 								Support
@@ -245,17 +245,18 @@
 								href="#"
 							>
 								<span
-									class="text-indigo-50 transition group-hover:text-indigo-50/75"
+									class="text-indigo-50 transition group-hover:text-amber-300/75"
 								>
 									Live Chat
 								</span>
 
 								<span class="relative flex w-2 h-2 -mr-2">
 									<span
-										class="absolute inline-flex w-full h-full bg-indigo-200 rounded-full opacity-75 animate-ping"
+										class="absolute inline-flex w-full h-full bg-amber-300 rounded-full opacity-90 animate-ping"
 									/>
+
 									<span
-										class="relative inline-flex w-2 h-2 bg-indigo-500 rounded-full"
+										class="relative inline-flex w-2 h-2 bg-amber-300 rounded-full"
 									/>
 								</span>
 							</a>
@@ -276,7 +277,7 @@
 						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
-						class="text-indigo-500 transition hover:text-indigo-500/75"
+						class="text-indigo-600 transition hover:text-amber-300/75"
 					>
 						<span class="sr-only">Facebook</span>
 						<svg
@@ -300,7 +301,7 @@
 						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
-						class="text-indigo-500 transition hover:text-indigo-500/75"
+						class="text-indigo-600 transition hover:text-amber-300/75"
 					>
 						<span class="sr-only">Instagram</span>
 						<svg
@@ -324,7 +325,7 @@
 						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
-						class="text-indigo-500 transition hover:text-indigo-500/75"
+						class="text-indigo-600 transition hover:text-amber-300/75"
 					>
 						<span class="sr-only">Twitter</span>
 						<svg
@@ -346,7 +347,7 @@
 						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
-						class="text-indigo-500 transition hover:text-indigo-500/75"
+						class="text-indigo-600 transition hover:text-amber-300/75"
 					>
 						<span class="sr-only">GitHub</span>
 						<svg
@@ -370,7 +371,7 @@
 						href="#"
 						rel="noopener noreferrer"
 						target="_blank"
-						class="text-indigo-500 transition hover:text-indigo-500/75"
+						class="text-indigo-600 transition hover:text-amber-300/75"
 					>
 						<span class="sr-only">Dribbble</span>
 						<svg
@@ -392,7 +393,7 @@
 			<!--START:()-->
 			<div class="mt-16 sm:flex sm:justify-between sm:items-center">
 				<!--START:()-->
-				<div class="flex justify-center text-indigo-300 sm:justify-start">
+				<div class="flex justify-center text-indigo-600 sm:justify-start">
 					<svg
 						class="h-8"
 						viewBox="0 0 118 24"
@@ -444,9 +445,9 @@
 				<!--END:()-->
 
 				<p
-					class="mt-4 text-sm text-center text-slate-500 sm:mt-0 sm:text-right"
+					class="mt-4 text-sm text-center text-indigo-600 sm:mt-0 sm:text-right"
 				>
-					Copyright &copy; 2069. All rights reserved.
+					Copyright &copy; 2069. All rights reserved. SkillsWorkZ. Powered by FGS
 				</p>
 			</div>
 			<!--END:()-->

@@ -2,7 +2,7 @@
 <div>
 	<!--svelte-ignore a11y-label-has-associated-control -->
 	<div
-		class="mt-1 flex justify-center px-6 py-16 border-2 border-teal-300 border-dashed rounded-md"
+		class="mt-1 flex justify-center px-6 py-16 border-2 border-teal-400 border-dashed rounded-md"
 	>
 		<!--START:()-->
 		<div class="space-y-1 text-center">
@@ -26,7 +26,7 @@
 					for="file-upload"
 					class="relative cursor-pointer bg-indigo-50 rounded-md font-medium text-amber-500 hover:text-amber-700 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
 				>
-					<span>Upload a document</span>
+					<span>Click here to upload a document</span>
 					<input
 						id="file-upload"
 						name="file-upload"
@@ -48,7 +48,7 @@
 	<!--END:()-->
 	<!--START:()-->
 	<div
-		class="mt-1 text-center cursor-pointer flex font-medium text-amber-500 hover:text-amber-700 justify-center px-1 py-1 border-2 border-teal-300 border-dashed rounded-md"
+		class="mt-1 text-center cursor-pointer flex font-medium text-amber-500 hover:text-amber-700 justify-center px-1 py-1 border-2 border-teal-400 border-dashed rounded-md"
 	>
 		Eish sohn... There is nothing here...
 	</div>

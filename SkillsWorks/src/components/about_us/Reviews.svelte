@@ -3,7 +3,7 @@
 	import Slate_star from '../comps/mock/Slate_star.svelte';
 </script>
 
-<section class="px-4 py-8 mx-auto justify-center bg-amber-500">
+<section class="px-4 py-8 mx-auto justify-center bg-amber-300">
 	<!--START:()-->
 	<div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8 bg-slate-800">
 		<h2 class="text-indigo-600 text-xl font-bold sm:text-2xl">

@@ -35,7 +35,7 @@
 						>
 							<!--START:()-->
 							<div
-								class="w-11/12 h-full sm:hidden md:flex flex-auto items-end justify-end overflow-hidden bg-amber-500 text-indigo-50 bg-no-repeat bg-cover relative"
+								class="w-11/12 h-full sm:hidden md:flex flex-auto items-end justify-end overflow-hidden bg-amber-300 text-indigo-50 bg-no-repeat bg-cover relative"
 							>
 								<!--START:()-->
 								<div

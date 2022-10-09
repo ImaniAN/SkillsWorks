@@ -1,4 +1,4 @@
-<span>
+<span class="">
 	Copyright © 2069 - 2069
 	<!-- svelte-ignore a11y-invalid-attribute -->
 	<a

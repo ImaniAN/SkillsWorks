@@ -105,11 +105,11 @@
 
 				<!--START:()-->
 				<div class="flex items-center justify-center space-x-2 my-5">
-					<span class="h-px w-16 bg-amber-500" />
+					<span class="h-px w-16 bg-amber-300" />
 					<span class="text-slate-500 font-normal text-center"
 						>or continue with</span
 					>
-					<span class="h-px w-16 bg-amber-500" />
+					<span class="h-px w-16 bg-amber-300" />
 				</div>
 				<!--END:()-->
 
@@ -125,7 +125,7 @@
 								First Name
 							</label>
 							<input
-								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
 								id="grid-first-name"
 								type="text"
 								placeholder="Jane"
@@ -142,7 +142,7 @@
 								Last Name
 							</label>
 							<input
-								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
 								id="grid-last-name"
 								type="text"
 								placeholder="Doe"
@@ -163,7 +163,7 @@
 								Email
 							</label>
 							<input
-								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
 								id="grid-email"
 								type="email"
 								placeholder="Your email (example@gmail.com)"
@@ -186,7 +186,7 @@
 								Password
 							</label>
 							<input
-								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
 								id="grid-password"
 								type="password"
 								name="password"
@@ -209,7 +209,7 @@
 								City
 							</label>
 							<input
-								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
 								id="grid-city"
 								type="text"
 								placeholder="Wakanda"
@@ -228,7 +228,7 @@
 							<!--START:()-->
 							<div class="relative">
 								<select
-									class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
+									class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
 									id="province"
 								>
 									<option value="" disabled selected hidden>Select...</option>
@@ -263,7 +263,7 @@
 								Zip
 							</label>
 							<input
-								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
 								id="grid-zip"
 								type="text"
 								placeholder="xxxx"
@@ -284,7 +284,7 @@
 									checked
 									name="remember_me"
 									type="checkbox"
-									class=" bg-red-200 border-dashed border-2 rounded border-teal-300 text-teal-300 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+									class=" bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 								/>
 								<label
 									for="remember_me"
@@ -321,9 +321,9 @@
 
 						<!--START:()-->
 						<div class="flex items-center justify-center space-x-2 my-5">
-							<span class="h-px w-16 bg-amber-500" />
+							<span class="h-px w-16 bg-amber-300" />
 							<span class="text-slate-500 font-normal text-center">OR</span>
-							<span class="h-px w-16 bg-amber-500" />
+							<span class="h-px w-16 bg-amber-300" />
 						</div>
 						<!--END:()-->
 

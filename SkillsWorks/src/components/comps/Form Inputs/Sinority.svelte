@@ -1,18 +1,13 @@
-<label for="country-code" class="block text-sm font-medium text-slate-700"
-	>Sinority</label
+<label for="form-lvl-man" class="block text-sm font-medium text-slate-700"
+	>Level of Management</label
 >
 <select
-	id="title"
-	name="title"
-	autocomplete="title"
-	class="mt-1 rounded-lg flex-1 appearance-none border-2 border-teal-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 text-base focus:ring-indigo-600 focus:border-transparent shadow focus:outline-none focus:ring"
+	id="form-lvl-man"
+	name="form-lvl-man"
+	class="mt-1 rounded-lg flex-1 appearance-none border-2 border-teal-400 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 text-base focus:ring-indigo-600 focus:border-transparent shadow focus:outline-none focus:ring"
 >
 	<option value="" disabled selected hidden>Click</option>
-	<option>Review (heard of)</option>
-	<option>Read througly</option>
-	<option>Review (Examples, exercies and projects)</option>
-	<option>Perform (Examples, exercies and projects)</option>
-	<option>Formal training</option>
-	<option>Certifications</option>
-	<option>Career Profession</option>
+	<option>Top Level of Management </option>
+	<option>Middle Level of Management </option>
+	<option>Lower Level of Management</option>
 </select>

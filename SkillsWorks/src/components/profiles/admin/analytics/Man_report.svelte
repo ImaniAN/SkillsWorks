@@ -27,7 +27,7 @@
 						class="relative w-full px-4 max-w-full flex-grow flex-1 text-right"
 					>
 						<button
-							class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-400 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+							class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 							type="button"
 						>
 							See all
@@ -276,7 +276,7 @@
 						class="relative w-full px-4 max-w-full flex-grow flex-1 text-right"
 					>
 						<button
-							class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-400 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+							class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 							type="button"
 						>
 							See all
@@ -588,12 +588,12 @@
 			class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blue-100 border-0"
 		>
 			<!--START:()-->
-			<div class="rounded-t bg-indigo-400 mb-0 px-6 py-6">
+			<div class="rounded-t bg-indigo-600 mb-0 px-6 py-6">
 				<!--START:()-->
 				<div class="text-center flex justify-between">
 					<h6 class="text-slate-900 text-xl font-bold">My account</h6>
 					<button
-						class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-400 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+						class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 						type="button"
 					>
 						Settings
@@ -1143,7 +1143,7 @@
 									<div class="relative w-full">
 										<!--START:()-->
 										<div
-											class="overflow-hidden h-2 text-xs flex rounded bg-teal-300"
+											class="overflow-hidden h-2 text-xs flex rounded bg-teal-400"
 										>
 											<!--START:()-->
 											<div

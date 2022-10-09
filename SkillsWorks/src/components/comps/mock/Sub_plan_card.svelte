@@ -41,7 +41,7 @@
 		<p class="mt-2 text-sm text-slate-700">R14.99</p>
 
 		<button
-			class="block w-full p-4 mt-4 text-sm font-medium bg-amber-500 rounded-sm"
+			class="block w-full p-4 mt-4 text-sm font-medium bg-amber-300 rounded-sm"
 			type="button"
 		>
 			Add to Cart

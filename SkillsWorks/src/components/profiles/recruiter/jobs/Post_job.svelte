@@ -161,7 +161,7 @@
 									<span class="hidden sm:block">
 										<button
 											type="button"
-											class="inline-flex items-center px-4 py-2 border-2 border-teal-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-amber-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+											class="inline-flex items-center px-4 py-2 border-2 border-teal-400 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-amber-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 										>
 											<!-- Heroicon name: solid/pencil -->
 											<svg
@@ -184,7 +184,7 @@
 									<span class="hidden sm:block ml-3">
 										<button
 											type="button"
-											class="inline-flex items-center px-4 py-2 border-2 border-teal-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-amber-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+											class="inline-flex items-center px-4 py-2 border-2 border-teal-400 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-amber-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 										>
 											<!-- Heroicon name: solid/link -->
 											<svg
@@ -209,7 +209,7 @@
 									<span class="sm:ml-3">
 										<button
 											type="button"
-											class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-50 bg-indigo-400 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+											class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-50 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 										>
 											<!-- Heroicon name: solid/check -->
 											<svg
@@ -234,7 +234,7 @@
 									<div class="ml-3 relative sm:hidden">
 										<button
 											type="button"
-											class="inline-flex items-center px-4 py-2 border-2 border-teal-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-amber-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+											class="inline-flex items-center px-4 py-2 border-2 border-teal-400 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-amber-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 											id="mobile-menu-button"
 											aria-expanded="false"
 											aria-haspopup="true"
@@ -515,7 +515,7 @@
 															placeholder=""
 															name="qualfication-name"
 															id="qualfication-name"
-															class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
+															class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
 														/>
 													</div>
 													<!--END:()-->
@@ -531,7 +531,7 @@
 															type="number"
 															id="quantity"
 															name="quantity"
-															class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
+															class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
 															min="18"
 															max="65"
 														/>
@@ -589,7 +589,7 @@
 											<!--END:()-->
 
 											<!--START:()-->
-											<div class="px-4 py-3 bg-amber-500 text-right sm:px-6">
+											<div class="px-4 py-3 bg-amber-300 text-right sm:px-6">
 												<Add_anoda />
 												<CRUD_save />
 											</div>
@@ -666,7 +666,7 @@
 												</div>
 												<!--END:()-->
 												<!--START:()-->
-												<div class="px-4 py-3 bg-amber-500 text-right sm:px-6">
+												<div class="px-4 py-3 bg-amber-300 text-right sm:px-6">
 													<Add_anoda />
 													<CRUD_save />
 												</div>
@@ -717,7 +717,7 @@
 												<!--END:()-->
 
 												<!--START:()-->
-												<div class="px-4 py-3 bg-amber-500 text-right sm:px-6">
+												<div class="px-4 py-3 bg-amber-300 text-right sm:px-6">
 													<CRUD_save />
 												</div>
 												<!--END:()-->

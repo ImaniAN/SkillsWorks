@@ -45,7 +45,7 @@
 							placeholder="Your email (example@gmail.com)"
 							required
 							name="email"
-							class=" rounded-r-lg flex-1 appearance-none border-2 border-teal-300 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
+							class=" rounded-r-lg flex-1 appearance-none border-2 border-teal-400 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:border-transparent"
 						/>
 					</div>
 					<!--END:()-->
@@ -56,7 +56,7 @@
 				<div class="flex w-full">
 					<button
 						type="submit"
-						class="text-slate-50 focus:outline-none w-full focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-400 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+						class="text-slate-50 focus:outline-none w-full focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 					>
 						Send a recovery link!
 					</button>

@@ -17,9 +17,9 @@
 
 				<!--START:()-->
 				<div
-					class="absolute inline-flex px-4 py-2 bg-indigo-400 rounded-lg shadow-xl -bottom-4 -right-4"
+					class="absolute inline-flex px-4 py-2 bg-indigo-600 rounded-lg shadow-xl -bottom-4 -right-4"
 				>
-					<span class="inline-block w-12 h-10 bg-amber-500 rounded-lg" />
+					<span class="inline-block w-12 h-10 bg-amber-300 rounded-lg" />
 				</div>
 				<!--END:()-->
 			</div>
@@ -64,7 +64,7 @@
 						taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid
 						fanny pack vaporware.
 					</p>
-					<span class="inline-block h-1 w-10 rounded bg-amber-500 mt-6 mb-4" />
+					<span class="inline-block h-1 w-10 rounded bg-amber-300 mt-6 mb-4" />
 					<h2
 						class="text-indigo-50 font-medium title-font tracking-wider text-sm"
 					>
@@ -88,7 +88,7 @@
 						taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid
 						fanny pack vaporware.
 					</p>
-					<span class="inline-block h-1 w-10 rounded bg-amber-500 mt-6 mb-4" />
+					<span class="inline-block h-1 w-10 rounded bg-amber-300 mt-6 mb-4" />
 					<h2
 						class="text-indigo-50 font-medium title-font tracking-wider text-sm"
 					>
@@ -112,7 +112,7 @@
 						taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid
 						fanny pack vaporware.
 					</p>
-					<span class="inline-block h-1 w-10 rounded bg-amber-500 mt-6 mb-4" />
+					<span class="inline-block h-1 w-10 rounded bg-amber-300 mt-6 mb-4" />
 					<h2
 						class="text-indigo-50 font-medium title-font tracking-wider text-sm"
 					>
@@ -152,7 +152,7 @@
 				authentic, yr scenester sriracha forage franzen organic drinking
 				vinegar.
 			</p>
-			<span class="inline-block h-1 w-10 rounded bg-amber-500 mt-8 mb-6" />
+			<span class="inline-block h-1 w-10 rounded bg-amber-300 mt-8 mb-6" />
 			<h2 class="text-indigo-400 font-medium title-font tracking-wider text-sm">
 				HOLDEN CAULFIELD
 			</h2>

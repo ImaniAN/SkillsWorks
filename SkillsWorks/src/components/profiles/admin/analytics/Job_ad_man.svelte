@@ -19,7 +19,7 @@
 							<span class="label-text text-indigo-400">Hide Completed ads</span>
 							<input
 								type="checkbox"
-								class=" bg-red-200 border-dashed border-2 rounded border-teal-300 text-teal-300 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+								class=" bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 								checked
 							/>
 						</label>
@@ -31,14 +31,14 @@
 						<input
 							type="text"
 							id="&quot;form-subscribe-Filter"
-							class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
+							class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
 							placeholder="Name of Job"
 						/>
 					</div>
 					<!--END:()-->
 
 					<button
-						class="flex-shrink-0 px-4 py-2 text-base font-semibold text-indigo-50 bg-indigo-400 rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-indigo-200"
+						class="flex-shrink-0 px-4 py-2 text-base font-semibold text-indigo-50 bg-indigo-600 rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-indigo-200"
 						type="submit"
 						>Filter
 					</button>
@@ -57,34 +57,34 @@
 						<tr>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-indigo-50 border-b border-teal-300 text-slate-800 text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-indigo-50 border-b border-teal-400 text-slate-800 text-left text-sm uppercase font-normal"
 								>Position
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-indigo-50 border-b border-teal-300 text-slate-800 text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-indigo-50 border-b border-teal-400 text-slate-800 text-left text-sm uppercase font-normal"
 								>Recruiter
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-indigo-50 border-b border-teal-300 text-slate-800 text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-indigo-50 border-b border-teal-400 text-slate-800 text-left text-sm uppercase font-normal"
 								>Date Applied
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-indigo-50 border-b border-teal-300 text-slate-800 text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-indigo-50 border-b border-teal-400 text-slate-800 text-left text-sm uppercase font-normal"
 								>status
 							</th>
 							<th
 								scope="col"
-								class="px-5 py-3 bg-indigo-50 border-b border-teal-300 text-slate-800 text-left text-sm uppercase font-normal"
+								class="px-5 py-3 bg-indigo-50 border-b border-teal-400 text-slate-800 text-left text-sm uppercase font-normal"
 							/>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<!--START:()-->
 								<div class="flex items-center">
@@ -111,17 +111,17 @@
 								<!--END:()-->
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">Designer</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">01/11/2072</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-amber-900 leading-tight"
@@ -134,7 +134,7 @@
 								</span>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
@@ -147,7 +147,7 @@
 						</tr>
 						<tr>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<!--START:()-->
 								<div class="flex items-center">
@@ -174,17 +174,17 @@
 								<!--END:()-->
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">Admin</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">12/09/2069</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight"
@@ -197,7 +197,7 @@
 								</span>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
@@ -210,7 +210,7 @@
 						</tr>
 						<tr>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<!--START:()-->
 								<div class="flex items-center">
@@ -239,17 +239,17 @@
 								<!--END:()-->
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">CTO</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">01/11/2069</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-amber-900 leading-tight"
@@ -262,7 +262,7 @@
 								</span>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
@@ -275,7 +275,7 @@
 						</tr>
 						<tr>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<!--START:()-->
 								<div class="flex items-center">
@@ -302,17 +302,17 @@
 								<!--END:()-->
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">Developer</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">02/10/2018</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight"
@@ -325,7 +325,7 @@
 								</span>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
@@ -338,7 +338,7 @@
 						</tr>
 						<tr>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<!--START:()-->
 								<div class="flex items-center">
@@ -367,17 +367,17 @@
 								<!--END:()-->
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">CEO</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">01/01/2063</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-red-900 leading-tight"
@@ -390,7 +390,7 @@
 								</span>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
@@ -403,7 +403,7 @@
 						</tr>
 						<tr>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<!--START:()-->
 								<div class="flex items-center">
@@ -432,17 +432,17 @@
 								<!--END:()-->
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">User</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">23/09/2010</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight"
@@ -455,7 +455,7 @@
 								</span>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->
@@ -468,7 +468,7 @@
 						</tr>
 						<tr>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<!--START:()-->
 								<div class="flex items-center">
@@ -495,17 +495,17 @@
 								<!--END:()-->
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">COO</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<p class="text-slate-900 whitespace-no-wrap">01/10/2032</p>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<span
 									class="relative inline-block px-3 py-1 font-semibold text-red-900 leading-tight"
@@ -518,7 +518,7 @@
 								</span>
 							</td>
 							<td
-								class="px-5 py-5 border-b border-teal-300 bg-indigo-50 text-sm"
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<!-- svelte-ignore a11y-invalid-attribute -->

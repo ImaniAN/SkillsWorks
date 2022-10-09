@@ -31,7 +31,9 @@
 			<header class="bg-indigo-50 shadow">
 				<!--START:()-->
 				<div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-					<h1 class="text-center text-3xl tracking-tight font-bold text-slate-900">
+					<h1
+						class="text-center text-3xl tracking-tight font-bold text-slate-900"
+					>
 						Candidate profile Nton Ntonz
 					</h1>
 				</div>
@@ -180,7 +182,7 @@
 												<span class="hidden sm:block">
 													<button
 														type="button"
-														class="inline-flex items-center px-4 py-2 border-2 border-teal-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-amber-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+														class="inline-flex items-center px-4 py-2 border-2 border-teal-400 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-amber-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 													>
 														<!-- Heroicon name: solid/pencil -->
 														<svg
@@ -203,7 +205,7 @@
 												<span class="hidden sm:block ml-3">
 													<button
 														type="button"
-														class="inline-flex items-center px-4 py-2 border-2 border-teal-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-amber-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+														class="inline-flex items-center px-4 py-2 border-2 border-teal-400 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-amber-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 													>
 														<!-- Heroicon name: solid/link -->
 														<svg
@@ -228,7 +230,7 @@
 												<span class="sm:ml-3">
 													<button
 														type="button"
-														class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-50 bg-indigo-400 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+														class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-50 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 													>
 														<!-- Heroicon name: solid/check -->
 														<svg
@@ -253,7 +255,7 @@
 												<div class="ml-3 relative sm:hidden">
 													<button
 														type="button"
-														class="inline-flex items-center px-4 py-2 border-2 border-teal-300 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-amber-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+														class="inline-flex items-center px-4 py-2 border-2 border-teal-400 border-dashed rounded-md shadow-sm text-sm font-medium text-slate-700 bg-indigo-50 hover:bg-amber-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 														id="mobile-menu-button"
 														aria-expanded="false"
 														aria-haspopup="true"
@@ -378,7 +380,7 @@
 																		</span>
 																		<button
 																			type="button"
-																			class="ml-5 bg-indigo-50 py-2 px-3 border-2 border-teal-300 border-dashed rounded-md shadow-sm text-sm leading-4 font-medium text-slate-700 hover:bg-amber-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+																			class="ml-5 bg-indigo-50 py-2 px-3 border-2 border-teal-400 border-dashed rounded-md shadow-sm text-sm leading-4 font-medium text-slate-700 hover:bg-amber-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 																			>Change</button
 																		>
 																	</div>
@@ -432,7 +434,7 @@
 
 															<!--START:()-->
 															<div
-																class="px-4 py-3 bg-amber-500 text-right sm:px-6"
+																class="px-4 py-3 bg-amber-300 text-right sm:px-6"
 															>
 																<CRUD_save />
 															</div>
@@ -578,7 +580,7 @@
 
 															<!--START:()-->
 															<div
-																class="px-4 py-3 bg-amber-500 text-right sm:px-6"
+																class="px-4 py-3 bg-amber-300 text-right sm:px-6"
 															>
 																<CRUD_save />
 															</div>
@@ -632,7 +634,7 @@
 
 															<!--START:()-->
 															<div
-																class="px-4 py-3 bg-amber-500 text-right sm:px-6"
+																class="px-4 py-3 bg-amber-300 text-right sm:px-6"
 															>
 																<CRUD_save />
 															</div>

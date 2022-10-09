@@ -136,7 +136,7 @@
 							</label>
 
 							<input
-								class="rounded-lg shadow-sm border-teal-300 w-full text-sm p-2.5"
+								class="rounded-lg shadow-sm border-teal-400 w-full text-sm p-2.5"
 								type="text"
 								placeholder=""
 								id="frst_name"
@@ -151,7 +151,7 @@
 							</label>
 
 							<input
-								class="rounded-lg shadow-sm border-teal-300 w-full text-sm p-2.5"
+								class="rounded-lg shadow-sm border-teal-400 w-full text-sm p-2.5"
 								type="text"
 								placeholder=""
 								id="last_name"
@@ -166,7 +166,7 @@
 							</label>
 
 							<input
-								class="rounded-lg shadow-sm border-teal-300 w-full text-sm p-2.5"
+								class="rounded-lg shadow-sm border-teal-400 w-full text-sm p-2.5"
 								type="email"
 								placeholder="Your email (example@gmail.com)"
 								required
@@ -183,7 +183,7 @@
 							</label>
 
 							<input
-								class="rounded-lg shadow-sm border-teal-300 w-full text-sm p-2.5"
+								class="rounded-lg shadow-sm border-teal-400 w-full text-sm p-2.5"
 								type="tel"
 								id="phone"
 								placeholder="+27 000 000 000"
@@ -203,7 +203,7 @@
 									<label class="sr-only" for="card-number">Card Number</label>
 
 									<input
-										class="border-teal-300 relative rounded-t-lg w-full focus:z-10 text-sm p-2.5 placeholder-slate-400"
+										class="border-teal-400 relative rounded-t-lg w-full focus:z-10 text-sm p-2.5 placeholder-slate-400"
 										type="text"
 										name="card-number"
 										id="card-number"
@@ -221,7 +221,7 @@
 										</label>
 
 										<input
-											class="border-teal-300 relative rounded-bl-lg w-full focus:z-10 text-sm p-2.5 placeholder-slate-400"
+											class="border-teal-400 relative rounded-bl-lg w-full focus:z-10 text-sm p-2.5 placeholder-slate-400"
 											type="text"
 											name="card-expiration-date"
 											id="card-expiration-date"
@@ -235,7 +235,7 @@
 										<label class="sr-only" for="card-cvc">CVC</label>
 
 										<input
-											class="border-teal-300 relative rounded-br-lg w-full focus:z-10 text-sm p-2.5 placeholder-slate-400"
+											class="border-teal-400 relative rounded-br-lg w-full focus:z-10 text-sm p-2.5 placeholder-slate-400"
 											type="text"
 											name="card-cvc"
 											id="card-cvc"
@@ -261,7 +261,7 @@
 									<label class="sr-only" for="country">Country</label>
 
 									<select
-										class="border-teal-300 relative rounded-t-lg w-full focus:z-10 text-sm p-2.5"
+										class="border-teal-400 relative rounded-t-lg w-full focus:z-10 text-sm p-2.5"
 										id="country"
 										name="country"
 									>
@@ -282,7 +282,7 @@
 									</label>
 
 									<input
-										class="border-teal-300 relative rounded-b-lg w-full focus:z-10 text-sm p-2.5 placeholder-slate-400"
+										class="border-teal-400 relative rounded-b-lg w-full focus:z-10 text-sm p-2.5 placeholder-slate-400"
 										type="text"
 										name="postal-code"
 										id="postal-code"

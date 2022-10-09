@@ -333,7 +333,7 @@
 			</div>
 		</section>
 
-		<section class="bg-teal-300 pt-20 pb-8">
+		<section class="bg-teal-400 pt-20 pb-8">
 			<!--START:()-->
 			<div class="container mx-auto px-4">
 				<!--START:()-->
@@ -354,7 +354,7 @@
 			</div>
 		</section>
 
-		<section class="pb-2 relative block bg-indigo-400">
+		<section class="pb-2 relative block bg-indigo-600">
 			<!--START:()-->
 			<div
 				class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"

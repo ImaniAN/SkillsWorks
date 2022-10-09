@@ -1,12 +1,12 @@
 <div class="flex items-center">
 	<input
-		id="remember_me"
+		id="form-remember-me"
 		checked
-		name="remember_me"
+		name="form-remember-me"
 		type="checkbox"
-		class=" bg-red-200 border-dashed border-2 rounded border-teal-300 text-teal-300 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+		class=" bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 	/>
-	<label for="remember_me" class="ml-2 block text-sm text-slate-800">
+	<label for="form-remember-me" class="ml-2 block text-sm text-slate-800">
 		Remember me
 	</label>
 </div>

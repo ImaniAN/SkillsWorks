@@ -131,7 +131,7 @@
 <!--START:()-->
 <div class="">
 	<header
-		class="sticky top-3 mx-4 bg-opacity-70 z-50 bg-amber-500 rounded-full px-2 py-2"
+		class="sticky top-3 mx-4 bg-opacity-70 z-50 bg-amber-300 rounded-full px-2 py-2"
 	>
 		<!--START:()-->
 		<div class="flex items-center justify-between max-w-screen-xl">
@@ -182,7 +182,7 @@
 			>
 				<img
 					class="h-11 w-11"
-					src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=400"
+					src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
 					alt="Your Company"
 				/>
 			</div>
@@ -207,7 +207,7 @@
 					<!-- svelte-ignore a11y-missing-attribute -->
 					<a
 						on:click={() => loadPage(webpages[1])}
-						class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-400 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+						class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 						>Log In</a
 					>
 				</form>

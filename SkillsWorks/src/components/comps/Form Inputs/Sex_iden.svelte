@@ -1,12 +1,17 @@
 <label for="for-sex" class="block text-sm font-medium text-slate-700"
 	>Gender preference</label
 >
-<input
-	class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-300 bg-indigo-50 text-slate-700 placeholder-slate-400"
+<select
 	id="for-sex"
 	type="text"
-	placeholder="Optional"
-	required
+	placeholder="Optional..."
 	name="for-sex"
 	autocomplete="sex"
-/>
+	class="mt-1 rounded-lg flex-1 appearance-none border-2 border-teal-400 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 text-base focus:ring-indigo-600 focus:border-transparent shadow focus:outline-none focus:ring"
+>
+	<option value="" disabled selected hidden>Optional...</option>
+	<option>Male</option>
+	<option>Female</option>
+	<option>Not listed above</option>
+	<option>Choose to not identify</option>
+</select>
