@@ -51,7 +51,7 @@
 							<div class="text-slate-400 text-center mb-3 font-bold">
 								<small>Or sign in with credentials</small>
 							</div>
-							<form>
+							<form method="post">
 								<!--START:()-->
 								<div class="relative w-full mb-3">
 									<label
@@ -89,7 +89,7 @@
 										<input
 											id="customCheckLogin"
 											type="checkbox"
-											class=" bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<span class="ml-2 text-sm font-semibold text-slate-600">
 											Remember me
@@ -185,7 +185,7 @@
 							<div class="text-slate-400 text-center mb-3 font-bold">
 								<small>Or sign up with credentials</small>
 							</div>
-							<form>
+							<form method="post">
 								<!--START:()-->
 								<div class="relative w-full mb-3">
 									<label
@@ -240,7 +240,7 @@
 										<input
 											id="customCheckLogin"
 											type="checkbox"
-											class=" bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 										<span class="ml-2 text-sm font-semibold text-slate-600">
 											I agree with the

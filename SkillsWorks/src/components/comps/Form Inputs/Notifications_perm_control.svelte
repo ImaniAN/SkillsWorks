@@ -22,7 +22,7 @@
 						name="form-noti-perm-control-by-email-review"
 						type="checkbox"
 						checked
-						class=" bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+						class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 					/>
 				</div>
 				<!--END:()-->
@@ -50,7 +50,7 @@
 						name="form-noti-perm-control-by-job-postings"
 						type="checkbox"
 						checked
-						class=" bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+						class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 					/>
 				</div>
 				<!--END:()-->
@@ -79,7 +79,7 @@
 						name="form-noti-perm-control-by-offers-interviews-feedback"
 						type="checkbox"
 						checked
-						class=" bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+						class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 					/>
 				</div>
 				<!--END:()-->
@@ -115,14 +115,14 @@
 			<!--START:()-->
 			<div class="flex items-center">
 				<input
-					id="form-push-notifications-everything"
-					name="form-push-notifications-everything"
+					id="form-push-notifications"
+					name="form-push-notifications"
 					type="radio"
 					checked
 					class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 				/>
 				<label
-					for="form-push-notifications-everything"
+					for="form-push-notifications"
 					class="ml-3 block text-sm font-medium text-slate-700"
 				>
 					Everything
@@ -133,13 +133,13 @@
 			<!--START:()-->
 			<div class="flex items-center">
 				<input
-					id="form-push-notifications-email"
-					name="form-push-notifications-email"
+					id="form-push-notifications"
+					name="form-push-notifications"
 					type="radio"
 					class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 				/>
 				<label
-					for="form-push-notifications-email"
+					for="form-push-notifications"
 					class="ml-3 block text-sm font-medium text-slate-700"
 				>
 					Same as email
@@ -150,13 +150,13 @@
 			<!--START:()-->
 			<div class="flex items-center">
 				<input
-					id="form-push-notifications-nothing"
-					name="form-push-notifications-nothing"
+					id="form-push-notifications"
+					name="form-push-notifications"
 					type="radio"
 					class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 				/>
 				<label
-					for="form-push-notifications-nothing"
+					for="form-push-notifications"
 					class="ml-3 block text-sm font-medium text-slate-700"
 				>
 					No push notifications

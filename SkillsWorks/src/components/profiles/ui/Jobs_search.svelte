@@ -20,6 +20,7 @@
 			<!--START:()-->
 			<div class="text-end">
 				<form
+					method="post"
 					class="flex flex-col md:flex-row w-4/5 md:w-full md:space-x-3 space-y-3 md:space-y-0 justify-center"
 				>
 					<!--START:()-->
@@ -28,7 +29,7 @@
 							<span class="label-text">Hide Applied</span>
 							<input
 								type="checkbox"
-								class=" bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+								class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 								checked
 							/>
 						</label>
@@ -89,7 +90,6 @@
 									<!--START:()-->
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
-										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
 												alt="profil"
@@ -141,7 +141,6 @@
 									<!--START:()-->
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
-										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
 												alt="profil"
@@ -192,7 +191,6 @@
 									<!--START:()-->
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
-										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
 												alt="profil"
@@ -242,7 +240,6 @@
 								<div class="flex items-center">
 									<!--START:()-->
 									<div class="flex-shrink-0">
-										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img

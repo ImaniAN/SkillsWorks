@@ -8,7 +8,7 @@
 	<section class="flex flex-col w-2/12 bg-indigo-50 rounded-l-3xl">
 		<!--START:()-->
 		<div
-			class="w-16 mx-auto mt-12 mb-20 p-4 bg-indigo-600 rounded-2xl text-indigo-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50"
+			class="w-16 mx-auto mt-12 mb-20 p-4 bg-indigo-500 rounded-2xl text-indigo-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50"
 		>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,7 @@
 
 			<a
 				href="#"
-				class="relative w-16 p-4 bg-indigo-600 text-indigo-50 rounded-2xl mb-4 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 hover:border-2 hover:border-dashed hover:border-teal-400 hover:text-indigo-800 hover:bg-indigo-50"
+				class="relative w-16 p-4 bg-indigo-500 text-indigo-50 rounded-2xl mb-4 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 hover:border-2 hover:border-dashed hover:border-teal-400 hover:text-indigo-800 hover:bg-indigo-50"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@
 
 			<a
 				href="#"
-				class="w-16 p-4 border-2 border-dashed border-teal-400 text-slate-700 rounded-2xl mb-4 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 hover:border-2 hover:border-none hover:text-indigo-50 hover:bg-indigo-600"
+				class="w-16 p-4 border-2 border-dashed border-teal-400 text-slate-700 rounded-2xl mb-4 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 hover:border-2 hover:border-none hover:text-indigo-50 hover:bg-indigo-500"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@
 
 			<a
 				href="#"
-				class="w-16 p-4 border-2 border-dashed border-teal-400 text-slate-700 rounded-2xl mb-4 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 hover:border-2 hover:border-none hover:text-indigo-50 hover:bg-indigo-600"
+				class="w-16 p-4 border-2 border-dashed border-teal-400 text-slate-700 rounded-2xl mb-4 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 hover:border-2 hover:border-none hover:text-indigo-50 hover:bg-indigo-500"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +93,7 @@
 
 			<a
 				href="#"
-				class="w-16 p-4 border-2 border-dashed border-teal-400 text-slate-700 rounded-2xl mb-4 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 hover:border-2 hover:border-none hover:text-indigo-50 hover:bg-indigo-600"
+				class="w-16 p-4 border-2 border-dashed border-teal-400 text-slate-700 rounded-2xl mb-4 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 hover:border-2 hover:border-none hover:text-indigo-50 hover:bg-indigo-500"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -113,7 +113,7 @@
 
 			<a
 				href="#"
-				class="w-16 p-4 border-2 border-dashed border-teal-400 text-slate-700 rounded-2xl mb-24 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 hover:border-2 hover:border-none hover:text-indigo-50 hover:bg-indigo-600"
+				class="w-16 p-4 border-2 border-dashed border-teal-400 text-slate-700 rounded-2xl mb-24 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 hover:border-2 hover:border-none hover:text-indigo-50 hover:bg-indigo-500"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -133,7 +133,7 @@
 
 			<a
 				href="#"
-				class="w-16 p-4 border-2 border-dashed border-teal-400 text-slate-700 rounded-2xl focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 hover:border-2 hover:border-none hover:text-indigo-50 hover:bg-indigo-600"
+				class="w-16 p-4 border-2 border-dashed border-teal-400 text-slate-700 rounded-2xl focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 hover:border-2 hover:border-none hover:text-indigo-50 hover:bg-indigo-500"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -157,9 +157,8 @@
 			</a>
 		</nav>
 	</section>
-	<section
-		class="flex flex-col pt-3 w-4/12 bg-slate-50 max-h-screen overflow-y-scroll"
-	>
+
+	<section class="flex flex-col pt-3 w-4/12 bg-slate-50 overflow-y-scroll">
 		<div class="mt-3 mr-3 px-3 relative">
 			<Search_Input />
 		</div>
@@ -169,7 +168,7 @@
 			<Msg_preview />
 			<Msg_preview />
 			<Msg_preview />
-			<li class="py-5 px-3 bg-indigo-600 text-indigo-50">
+			<li class="py-5 px-3 bg-indigo-500 text-indigo-50">
 				<!-- svelte-ignore a11y-invalid-attribute -->
 				<a href="#" class="flex justify-between items-center">
 					<h3 class="text-lg text-slate-900 font-semibold">Akhil Gautam</h3>
@@ -182,11 +181,9 @@
 			<Msg_preview />
 			<Msg_preview />
 			<Msg_preview />
-			<Msg_preview />
-			<Msg_preview />
 		</ul>
 	</section>
-	<section class="w-6/12 px-4 flex flex-col bg-indigo-50 rounded-r-3xl">
+	<section class="w-6/12 px-4 flex flex-col bg-indigo-100 rounded-r-3xl">
 		<!--START:()-->
 		<div class="flex justify-between items-center h-48 mb-8">
 			<!--START:()-->
@@ -406,7 +403,7 @@
 					</svg>
 				</button>
 				<button
-					class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+					class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-500 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 					>Reply</button
 				>
 			</div>

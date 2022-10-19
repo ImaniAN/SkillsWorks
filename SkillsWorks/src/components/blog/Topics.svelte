@@ -9,7 +9,7 @@
 					<summary
 						class="flex items-center justify-between px-5 py-3 bg-gray-100 lg:hidden"
 					>
-						<span class="text-sm font-medium"> Toggle Filters </span>
+						<span class="text-sm font-medium">Toggle Filters</span>
 
 						<svg
 							class="w-5 h-5"
@@ -27,12 +27,18 @@
 						</svg>
 					</summary>
 
-					<form action="" class="border-t border-gray-200 lg:border-t-0">
-						<fieldset>
+					<form
+						method="post"
+						name="search-filter"
+						id="search-filter"
+						action=""
+						class="border-t border-gray-200 lg:border-t-0"
+					>
+						<fieldset name="" id="" form="">
 							<legend
 								class="block w-full px-5 py-3 text-xs font-medium bg-gray-50"
 							>
-								Type
+								Blog Type
 							</legend>
 
 							<!--START:()-->
@@ -40,48 +46,52 @@
 								<!--START:()-->
 								<div class="flex items-center">
 									<input
-										id="toy"
+										id="visual"
 										type="checkbox"
-										name="type[toy]"
-										class="w-5 h-5 border-gray-300 rounded"
+										name="type[visual]"
+										class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 									/>
 
-									<label for="toy" class="ml-3 text-sm font-medium">
-										Toy
+									<label for="visual" class="ml-3 text-sm font-medium">
+										Visual
 									</label>
 								</div>
 
 								<!--START:()-->
 								<div class="flex items-center">
 									<input
-										id="game"
+										id="audio"
 										type="checkbox"
-										name="type[game]"
-										class="w-5 h-5 border-gray-300 rounded"
+										name="type[audio]"
+										class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 									/>
 
-									<label for="game" class="ml-3 text-sm font-medium">
-										Game
+									<label for="audio" class="ml-3 text-sm font-medium">
+										Audio
 									</label>
 								</div>
 
 								<!--START:()-->
 								<div class="flex items-center">
 									<input
-										id="outdoor"
+										id="written"
 										type="checkbox"
-										name="type[outdoor]"
-										class="w-5 h-5 border-gray-300 rounded"
+										name="type[written]"
+										class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 									/>
 
-									<label for="outdoor" class="ml-3 text-sm font-medium">
-										Outdoor
+									<label for="written" class="ml-3 text-sm font-medium">
+										Written
 									</label>
 								</div>
 
 								<!--START:()-->
 								<div class="pt-2">
-									<button type="button" class="text-xs text-gray-500 underline">
+									<button
+										type="reset"
+										for=""
+										class="text-xs text-gray-500 underline"
+									>
 										Reset Type
 									</button>
 								</div>
@@ -105,7 +115,7 @@
 											id="3+"
 											type="checkbox"
 											name="age[3+]"
-											class="w-5 h-5 border-gray-300 rounded"
+											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 
 										<label for="3+" class="ml-3 text-sm font-medium">
@@ -119,7 +129,7 @@
 											id="8+"
 											type="checkbox"
 											name="age[8+]"
-											class="w-5 h-5 border-gray-300 rounded"
+											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 
 										<label for="8+" class="ml-3 text-sm font-medium">
@@ -133,7 +143,7 @@
 											id="12+"
 											type="checkbox"
 											name="age[12+]"
-											class="w-5 h-5 border-gray-300 rounded"
+											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 
 										<label for="12+" class="ml-3 text-sm font-medium">
@@ -147,7 +157,7 @@
 											id="16+"
 											type="checkbox"
 											name="age[16+]"
-											class="w-5 h-5 border-gray-300 rounded"
+											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 
 										<label for="16+" class="ml-3 text-sm font-medium">
@@ -158,7 +168,7 @@
 									<!--START:()-->
 									<div class="pt-2">
 										<button
-											type="button"
+											type="reset"
 											class="text-xs text-gray-500 underline"
 										>
 											Reset Age
@@ -173,6 +183,7 @@
 							class="flex justify-between px-5 py-3 border-t border-gray-200"
 						>
 							<button
+								for="search-filter"
 								name="reset"
 								type="button"
 								class="text-xs font-medium text-gray-600 underline rounded"
@@ -353,20 +364,21 @@
 												<!--START:()-->
 												<div class="p-8 sm:p-16 lg:p-24">
 													<h2 class="text-2xl font-bold sm:text-3xl">
-														Lorem ipsum dolor sit amet, consectetur adipisicing
-														elit. Tempore, debitis.
+														This is Lorem ipsum place holder Text!!! dolor sit
+														amet, consectetur adipisicing elit. Tempore,
+														debitis.
 													</h2>
 
 													<p class="mt-4 text-gray-600">
-														Lorem ipsum dolor sit amet, consectetur adipisicing
-														elit. Aliquid, molestiae! Quidem est esse numquam
-														odio deleniti, beatae, magni dolores provident
-														quaerat totam eos, aperiam architecto eius quis
-														quibusdam fugiat dicta.
+														This is Lorem ipsum place holder Text!!! dolor sit
+														amet, consectetur adipisicing elit. Aliquid,
+														molestiae! Quidem est esse numquam odio deleniti,
+														beatae, magni dolores provident quaerat totam eos,
+														aperiam architecto eius quis quibusdam fugiat dicta.
 													</p>
 
 													<a
-														class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white bg-indigo-600 border border-teal-600 rounded active:text-indigo-500 hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring"
+														class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white bg-indigo-500 border border-teal-600 rounded active:text-indigo-500 hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring"
 														href="/contact"
 													>
 														Get in Touch

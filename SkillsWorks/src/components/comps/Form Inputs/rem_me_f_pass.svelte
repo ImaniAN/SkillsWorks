@@ -4,7 +4,7 @@
 		checked
 		name="form-remember-me"
 		type="checkbox"
-		class=" bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+		class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 	/>
 	<label for="form-remember-me" class="ml-2 block text-sm text-slate-800">
 		Remember me

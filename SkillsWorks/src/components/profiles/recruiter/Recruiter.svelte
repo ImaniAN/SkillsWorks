@@ -34,7 +34,7 @@
 					<h1
 						class="text-center text-3xl tracking-tight font-bold text-slate-900"
 					>
-						Recruiter profile Nton Ntonz
+						Recruiter profile (Name)
 					</h1>
 				</div>
 			</header>
@@ -230,7 +230,7 @@
 												<span class="sm:ml-3">
 													<button
 														type="button"
-														class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-50 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+														class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-50 bg-indigo-500 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 													>
 														<!-- Heroicon name: solid/check -->
 														<svg
@@ -350,7 +350,7 @@
 
 												<!--START:()-->
 												<div class="mt-5 md:mt-0 md:col-span-2">
-													<form action="#" method="POST">
+													<form method="post" action="#" name="" id="">
 														<!--START:()-->
 														<div
 															class="shadow sm:rounded-md sm:overflow-hidden"
@@ -411,12 +411,6 @@
 
 																<!--START:()-->
 																<div>
-																	<label
-																		for="coverletter"
-																		class="block text-sm font-medium text-slate-700"
-																	>
-																		Cover Letter
-																	</label>
 																	<!--START:()-->
 																	<Cover_letter />
 																</div>
@@ -481,7 +475,7 @@
 
 												<!--START:()-->
 												<div class="mt-5 md:mt-0 md:col-span-2">
-													<form action="#" method="POST">
+													<form method="post" action="#" name="" id="">
 														<!--START:()-->
 														<div class="shadow overflow-hidden sm:rounded-md">
 															<!--START:()-->
@@ -625,7 +619,7 @@
 
 												<!--START:()-->
 												<div class="mt-5 md:mt-0 md:col-span-2">
-													<form action="#" method="POST">
+													<form method="post" action="#" name="" id="">
 														<!--START:()-->
 														<div class="shadow overflow-hidden sm:rounded-md">
 															<!--START:()-->

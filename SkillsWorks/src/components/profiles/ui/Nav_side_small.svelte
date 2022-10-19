@@ -178,7 +178,7 @@
 	<div
 		class="sticky inset-x-0 bottom-0 p-2 bg-indigo-50 border-t border-teal-100"
 	>
-		<form action="/logout">
+		<form method="post" action="/logout">
 			<button
 				type="submit"
 				class="flex justify-center w-full px-2 py-1.5 text-sm text-slate-500 rounded-lg hover:bg-slate-50 hover:text-slate-700 group relative"

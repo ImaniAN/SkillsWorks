@@ -6,15 +6,15 @@
 <section class="px-4 py-8 mx-auto justify-center bg-amber-300">
 	<!--START:()-->
 	<div class="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 lg:px-8 bg-slate-800">
-		<h2 class="text-indigo-600 text-xl font-bold sm:text-2xl">
+		<h2 class="text-indigo-500 text-xl font-bold sm:text-2xl">
 			Customer Reviews
 		</h2>
 
 		<!--START:()-->
 		<div class="flex items-center mt-4">
-			<p class="text-indigo-600 text-3xl font-medium">
+			<p class="text-indigo-500 text-3xl font-medium">
 				3.8
-				<span class="sr-only text-indigo-600"> Average review score </span>
+				<span class="sr-only text-indigo-500">Average review score </span>
 			</p>
 
 			<!--START:()-->
@@ -45,16 +45,16 @@
 						<Slate_star />
 					</div>
 
-					<p class="text-indigo-600 mt-2 font-medium sm:ml-4 sm:mt-0">
+					<p class="text-indigo-500 mt-2 font-medium sm:ml-4 sm:mt-0">
 						The best thing money can buy!
 					</p>
 				</header>
 
 				<p class="mt-2 text-slate-50">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
-					possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto
-					alias incidunt cum tempore aliquid aliquam error quisquam ipsam
-					asperiores! Iste?
+					This is Lorem ipsum place holder Text!!! dolor sit amet, consectetur
+					adipisicing elit. Ullam possimus fuga dolor rerum dicta, ipsum
+					laboriosam est totam iusto alias incidunt cum tempore aliquid aliquam
+					error quisquam ipsam asperiores! Iste?
 				</p>
 
 				<footer class="mt-4">
@@ -73,16 +73,16 @@
 						<Slate_star />
 					</div>
 
-					<p class="text-indigo-600 mt-2 font-medium sm:ml-4 sm:mt-0">
+					<p class="text-indigo-500 mt-2 font-medium sm:ml-4 sm:mt-0">
 						The best thing money can buy!
 					</p>
 				</header>
 
 				<p class="mt-2 text-slate-50">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
-					possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto
-					alias incidunt cum tempore aliquid aliquam error quisquam ipsam
-					asperiores! Iste?
+					This is Lorem ipsum place holder Text!!! dolor sit amet, consectetur
+					adipisicing elit. Ullam possimus fuga dolor rerum dicta, ipsum
+					laboriosam est totam iusto alias incidunt cum tempore aliquid aliquam
+					error quisquam ipsam asperiores! Iste?
 				</p>
 
 				<footer class="mt-4">
@@ -101,16 +101,16 @@
 						<Slate_star />
 					</div>
 
-					<p class="text-indigo-600 mt-2 font-medium sm:ml-4 sm:mt-0">
+					<p class="text-indigo-500 mt-2 font-medium sm:ml-4 sm:mt-0">
 						The best thing money can buy!
 					</p>
 				</header>
 
 				<p class="mt-2 text-slate-50">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
-					possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto
-					alias incidunt cum tempore aliquid aliquam error quisquam ipsam
-					asperiores! Iste?
+					This is Lorem ipsum place holder Text!!! dolor sit amet, consectetur
+					adipisicing elit. Ullam possimus fuga dolor rerum dicta, ipsum
+					laboriosam est totam iusto alias incidunt cum tempore aliquid aliquam
+					error quisquam ipsam asperiores! Iste?
 				</p>
 
 				<footer class="mt-4">
@@ -129,16 +129,16 @@
 						<Slate_star />
 					</div>
 
-					<p class="text-indigo-600 mt-2 font-medium sm:ml-4 sm:mt-0">
+					<p class="text-indigo-500 mt-2 font-medium sm:ml-4 sm:mt-0">
 						The best thing money can buy!
 					</p>
 				</header>
 
 				<p class="mt-2 text-slate-50">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
-					possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto
-					alias incidunt cum tempore aliquid aliquam error quisquam ipsam
-					asperiores! Iste?
+					This is Lorem ipsum place holder Text!!! dolor sit amet, consectetur
+					adipisicing elit. Ullam possimus fuga dolor rerum dicta, ipsum
+					laboriosam est totam iusto alias incidunt cum tempore aliquid aliquam
+					error quisquam ipsam asperiores! Iste?
 				</p>
 
 				<footer class="mt-4">

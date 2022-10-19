@@ -14,7 +14,7 @@
 			/>
 
 			<button
-				class="border-2 border-dashed border-teal-600 absolute p-2 text-indigo-600 transition -translate-y-1/2 rounded-md hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-slate-50 hover:bg-indigo-600 top-1/2 right-1"
+				class="border-2 border-dashed border-teal-600 absolute p-2 text-indigo-600 transition -translate-y-1/2 rounded-md hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-slate-50 hover:bg-indigo-500 top-1/2 right-1"
 				type="button"
 				aria-label="Submit Search"
 			>
@@ -287,7 +287,7 @@
 						<span class="ml-3 text-sm font-medium"> Security </span>
 					</a>
 
-					<form action="/logout">
+					<form method="post" action="/logout">
 						<button
 							type="submit"
 							class="flex items-center w-full px-4 py-2 text-slate-500 rounded-lg hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50"

@@ -5,7 +5,7 @@
 />
 
 <button
-	class="border-2 border-dashed border-teal-600 rounded-md hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-slate-50 hover:bg-indigo-600 absolute inset-y-0 right-0 p-2 mr-px text-gray-600 rounded-r-lg"
+	class="border-2 border-dashed border-teal-600 rounded-md hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-slate-50 hover:bg-indigo-500 absolute inset-y-0 right-0 p-2 mr-px text-gray-600 rounded-r-lg"
 	type="submit"
 >
 	<svg

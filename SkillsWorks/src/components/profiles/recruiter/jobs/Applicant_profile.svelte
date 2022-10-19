@@ -11,7 +11,7 @@
 			Applicant Information
 		</h3>
 		<p class="mt-1 max-w-2xl text-sm text-slate-500">
-			Personal details and application.
+			Personal details about the applicant.
 		</p>
 	</div>
 	<!--START:()-->
@@ -21,7 +21,7 @@
 			<div
 				class="bg-slate-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 			>
-				<dt class="text-sm font-medium text-slate-500">Full name</dt>
+				<dt class="text-sm font-medium text-slate-600">Full name</dt>
 				<dd class="mt-1 text-sm text-slate-900 sm:col-span-2 sm:mt-0">
 					Margot Foster
 				</dd>
@@ -31,7 +31,7 @@
 			<div
 				class="bg-indigo-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 			>
-				<dt class="text-sm font-medium text-slate-500">Application for</dt>
+				<dt class="text-sm font-medium text-slate-600">Application for</dt>
 				<dd class="mt-1 text-sm text-slate-900 sm:col-span-2 sm:mt-0">
 					Backend Developer
 				</dd>
@@ -41,9 +41,9 @@
 			<div
 				class="bg-slate-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 			>
-				<dt class="text-sm font-medium text-slate-500">Email address</dt>
+				<dt class="text-sm font-medium text-slate-600">Email address</dt>
 				<dd class="mt-1 text-sm text-slate-900 sm:col-span-2 sm:mt-0">
-					margotfoster@example.com
+					YourEmail@example.com
 				</dd>
 			</div>
 
@@ -51,9 +51,9 @@
 			<div
 				class="bg-indigo-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 			>
-				<dt class="text-sm font-medium text-slate-500">Salary expectation</dt>
+				<dt class="text-sm font-medium text-slate-600">Salary expectation</dt>
 				<dd class="mt-1 text-sm text-slate-900 sm:col-span-2 sm:mt-0">
-					$120,000
+					R120,000
 				</dd>
 			</div>
 
@@ -61,7 +61,7 @@
 			<div
 				class="bg-slate-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 			>
-				<dt class="text-sm font-medium text-slate-500">About</dt>
+				<dt class="text-sm font-medium text-slate-600">About</dt>
 				<dd class="mt-1 text-sm text-slate-900 sm:col-span-2 sm:mt-0">
 					Fugiat ipsum ipsum deserunt culpa aute sint do nostrud anim incididunt
 					cillum culpa consequat. Excepteur qui ipsum aliquip consequat sint.
@@ -74,7 +74,7 @@
 			<div
 				class="bg-indigo-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 			>
-				<dt class="text-sm font-medium text-slate-500">Attachments</dt>
+				<dt class="text-sm font-medium text-slate-600">Attachments</dt>
 				<dd class="mt-1 text-sm text-slate-900 sm:col-span-2 sm:mt-0">
 					<!-- svelte-ignore a11y-no-redundant-roles -->
 					<ul
@@ -190,7 +190,7 @@
 			<div class="bg-indigo-50 px-4 py-5 grid grid-cols-3 gap-4 sm:px-6">
 				<button
 					type="submit"
-					class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+					class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-500 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 					>Dala sumtin</button
 				>
 				<button
@@ -200,7 +200,7 @@
 				>
 				<button
 					type="submit"
-					class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+					class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-500 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 					>Dala sumtin</button
 				>
 			</div>

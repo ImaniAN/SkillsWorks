@@ -1,6 +1,6 @@
 <!--START:()-->
-<div class=" px-4 py-8 mx-auto bg-indigo-900">
-	<section class="max-w-5xl mx-auto p-8 bg-slate-400 rounded-lg">
+<div class=" px-4 py-8 mx-auto bg-indigo-500">
+	<section class="max-w-5xl mx-auto p-8 bg-slate-500 rounded-lg">
 		<!--START:()-->
 		<div class="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
 			<!--START:()-->
@@ -17,7 +17,7 @@
 
 				<!--START:()-->
 				<div
-					class="absolute inline-flex px-4 py-2 bg-indigo-600 rounded-lg shadow-xl -bottom-4 -right-4"
+					class="absolute inline-flex px-4 py-2 bg-indigo-500 rounded-lg -bottom-4 -right-4"
 				>
 					<span class="inline-block w-12 h-10 bg-amber-300 rounded-lg" />
 				</div>
@@ -26,13 +26,15 @@
 			<!--END:()-->
 
 			<blockquote class="sm:col-span-2">
-				<p class="text-xl font-medium sm:text-2xl text-amber-500">
+				<p class="text-xl font-medium sm:text-2xl text-amber-300">
 					Lorem ipsum dolor sit ame, consectetur adipisicing.
 				</p>
 
 				<cite class="inline-flex items-center mt-8 not-italic">
-					<span class="hidden w-6 h-px bg-slate-400 sm:inline-block" />
-					<p class="text-sm text-amber-500 uppercase sm:ml-3">
+					<span
+						class="rounded-2xl hidden w-2 h-9 bg-indigo-500 sm:inline-block"
+					/>
+					<p class="text-l text-amber-300 capitalize sm:ml-3">
 						<strong>Imani Niyigena</strong>, Fathom Growth Solution
 					</p>
 				</cite>
@@ -61,16 +63,16 @@
 					<p class="leading-relaxed">
 						Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki
 						taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman
-						taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid
-						fanny pack vaporware.
+						taiyaki vape This is Lorem ipsum place holder Text!!! drinking
+						vinegar cronut adaptogen squid fanny pack vaporware.
 					</p>
 					<span class="inline-block h-1 w-10 rounded bg-amber-300 mt-6 mb-4" />
 					<h2
 						class="text-indigo-50 font-medium title-font tracking-wider text-sm"
 					>
-						HOLDEN CAULFIELD
+						Imani Niyigena
 					</h2>
-					<p class="text-amber-500">Senior Product Designer</p>
+					<p class="text-amber-300">Senior Product Designer</p>
 				</div>
 			</div>
 			<!--START:()-->
@@ -85,8 +87,8 @@
 					<p class="leading-relaxed">
 						Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki
 						taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman
-						taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid
-						fanny pack vaporware.
+						taiyaki vape This is Lorem ipsum place holder Text!!! drinking
+						vinegar cronut adaptogen squid fanny pack vaporware.
 					</p>
 					<span class="inline-block h-1 w-10 rounded bg-amber-300 mt-6 mb-4" />
 					<h2
@@ -94,7 +96,7 @@
 					>
 						ALPER KAMU
 					</h2>
-					<p class="text-amber-500">UI Develeoper</p>
+					<p class="text-amber-300">UI Develeoper</p>
 				</div>
 			</div>
 			<!--START:()-->
@@ -109,8 +111,8 @@
 					<p class="leading-relaxed">
 						Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki
 						taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman
-						taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid
-						fanny pack vaporware.
+						taiyaki vape This is Lorem ipsum place holder Text!!! drinking
+						vinegar cronut adaptogen squid fanny pack vaporware.
 					</p>
 					<span class="inline-block h-1 w-10 rounded bg-amber-300 mt-6 mb-4" />
 					<h2
@@ -118,7 +120,7 @@
 					>
 						HENRY LETHAM
 					</h2>
-					<p class="text-amber-500">CTO</p>
+					<p class="text-amber-300">CTO</p>
 				</div>
 			</div>
 		</div>
@@ -126,7 +128,7 @@
 </section>
 <!--END:()-->
 
-<section class="text-slate-600 body-font">
+<section class="text-slate-600 body-font bg-indigo-100">
 	<!--START:()-->
 	<div class="container px-5 py-24 mx-auto">
 		<!--START:()-->
@@ -134,7 +136,7 @@
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="currentColor"
-				class="inline-block w-8 h-8 text-amber-500 mb-8"
+				class="inline-block w-8 h-8 text-amber-300 mb-8"
 				viewBox="0 0 975.036 975.036"
 			>
 				<path
@@ -144,19 +146,21 @@
 			<p class="text-slate-900 leading-relaxed text-lg">
 				Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki
 				taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman
-				taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny
-				pack vaporware. Man bun next level coloring book skateboard four loko
-				knausgaard. Kitsch keffiyeh master cleanse direct trade indigo juice
-				before they sold out gentrify plaid gastropub normcore XOXO 90's pickled
-				cindigo jean shorts. Slow-carb next level shoindigoitch ethical
-				authentic, yr scenester sriracha forage franzen organic drinking
-				vinegar.
+				taiyaki vape This is Lorem ipsum place holder Text!!! drinking vinegar
+				cronut adaptogen squid fanny pack vaporware. Man bun next level coloring
+				book skateboard four loko knausgaard. Kitsch keffiyeh master cleanse
+				direct trade indigo juice before they sold out gentrify plaid gastropub
+				normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level
+				shoindigoitch ethical authentic, yr scenester sriracha forage franzen
+				organic drinking vinegar.
 			</p>
-			<span class="inline-block h-1 w-10 rounded bg-amber-300 mt-8 mb-6" />
-			<h2 class="text-indigo-400 font-medium title-font tracking-wider text-sm">
-				HOLDEN CAULFIELD
+			<span class="inline-block h-1 w-96 rounded bg-amber-300 mt-8 mb-6" />
+			<h2
+				class="text-indigo-400 font-medium title-font tracking-wider text-2xl"
+			>
+				Imani Niyigena
 			</h2>
-			<p class="text-amber-500">Senior Product Designer</p>
+			<p class="text-amber-300 text-xl">Senior Product Designer</p>
 		</div>
 	</div>
 </section>
@@ -166,7 +170,7 @@
 	<!--START:()-->
 	<div class="container px-5 py-24 mx-auto">
 		<h1
-			class="text-3xl font-medium title-font text-amber-500 mb-12 text-center"
+			class="text-3xl font-medium title-font text-amber-300 mb-12 text-center"
 		>
 			Testimonials
 		</h1>
@@ -179,7 +183,7 @@
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="currentColor"
-						class="block w-5 h-5 text-amber-500 mb-4"
+						class="block w-5 h-5 text-amber-300 mb-4"
 						viewBox="0 0 975.036 975.036"
 					>
 						<path
@@ -202,9 +206,9 @@
 						/>
 						<span class="flex-grow flex flex-col pl-4">
 							<span class="title-font font-medium text-indigo-50"
-								>Holden Caulfield</span
+								>Imani Niyigena</span
 							>
-							<span class="text-amber-500 text-sm">UI DEVELOPER</span>
+							<span class="text-amber-300 text-sm">UI DEVELOPER</span>
 						</span>
 					</a>
 				</div>
@@ -216,7 +220,7 @@
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="currentColor"
-						class="block w-5 h-5 text-amber-500 mb-4"
+						class="block w-5 h-5 text-amber-300 mb-4"
 						viewBox="0 0 975.036 975.036"
 					>
 						<path
@@ -240,7 +244,7 @@
 							<span class="title-font font-medium text-indigo-50"
 								>Alper Kamu</span
 							>
-							<span class="text-amber-500 text-sm">DESIGNER</span>
+							<span class="text-amber-300 text-sm">DESIGNER</span>
 						</span>
 					</a>
 				</div>

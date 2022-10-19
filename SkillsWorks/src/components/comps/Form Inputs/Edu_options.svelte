@@ -11,8 +11,8 @@
 			<!--START:()-->
 			<div class="flex items-center">
 				<input
-					id="form-time-spent-ft"
-					name="form-time-spent-ft"
+					id="form-time-spent"
+					name="form-time-spent"
 					type="radio"
 					checked
 					class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
@@ -29,13 +29,13 @@
 			<!--START:()-->
 			<div class="flex items-center">
 				<input
-					id="form-time-spent-pt"
-					name="form-time-spent-pt"
+					id="form-time-spent"
+					name="form-time-spent"
 					type="radio"
 					class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 				/>
 				<label
-					for="form-time-spent-pt"
+					for="form-time-spent"
 					class="ml-3 block text-sm font-medium text-slate-700"
 				>
 					Full-time
@@ -58,13 +58,13 @@
 			<!--START:()-->
 			<div class="flex items-center">
 				<input
-					id="form-type-learn-on-ini"
-					name="form-type-learn-on-ini"
+					id="form-learning-type"
+					name="form-learning-type"
 					type="radio"
 					class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 				/>
 				<label
-					for="form-type-learn-on-ini"
+					for="form-learning-type"
 					class="ml-3 block text-sm font-medium text-slate-700"
 				>
 					At institution premesis
@@ -75,13 +75,13 @@
 			<!--START:()-->
 			<div class="flex items-center">
 				<input
-					id="form-type-learn-online"
-					name="form-type-learn-online"
+					id="form-learning-type"
+					name="form-learning-type"
 					type="radio"
 					class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 				/>
 				<label
-					for="form-type-learn-online"
+					for="form-learning-type"
 					class="ml-3 block text-sm font-medium text-slate-700"
 				>
 					Online
@@ -92,13 +92,13 @@
 			<!--START:()-->
 			<div class="flex items-center">
 				<input
-					id="form-type-learn-distance-learn"
-					name="form-type-learn-distance-learn"
+					id="form-learning-type"
+					name="form-learning-type"
 					type="radio"
 					class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 				/>
 				<label
-					for="form-type-learn-distance-learn"
+					for="form-learning-type"
 					class="ml-3 block text-sm font-medium text-slate-700"
 				>
 					Distance Learning
@@ -110,13 +110,13 @@
 			<div class="flex items-center">
 				<input
 					checked
-					id="form-type-learn-self-taught"
-					name="form-type-learn-self-taught"
+					id="form-learning-type"
+					name="form-learning-type"
 					type="radio"
 					class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 				/>
 				<label
-					for="form-type-learn-self-taught"
+					for="form-learning-type"
 					class="ml-3 block text-sm font-medium text-slate-700"
 				>
 					Self taught

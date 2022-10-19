@@ -1,55 +1,54 @@
 <script>
+	// import * as animateScroll from 'svelte-scrollto';
 	// @ts-ignore
-	import About_us from '../about_us/Aboutus.svelte'; //Updated
-	// import Athing from '../';
+	import About_us from '../about_us/Aboutus.svelte';
 	import Accordion_menu from '../comps/menus/Accordion_menu.svelte';
 	import Dets_app from '../profiles/candidate/jobs/Dets_app.svelte';
-	import Applied_jobs from '../profiles/candidate/jobs/Ex_jobs.svelte'; //Updated
+	import Applied_jobs from '../profiles/candidate/jobs/Ex_jobs.svelte';
 	import Rec_profile from '../profiles/recruiter/Recruiter.svelte';
-	import Int_questions from '../profiles/recruiter/jobs/Int_questions.svelte'; //Updated
-	import Post_job from '../profiles/recruiter/jobs/Post_job.svelte'; //Updated
-	import Ex_posts from '../profiles/recruiter/jobs/Ex_posts.svelte'; //Updated
-	import Applicant_profile from '../profiles/recruiter/jobs/Applicant_profile.svelte'; //Updated
-	import Attempts from '../endeavors/Attempts.svelte'; //Updated
-	import Attempts_copy from '../endeavors/Attempts copy.svelte'; //Updated
-	import Blog from '../blog/Topics.svelte'; //Updated
+	import Int_questions from '../profiles/recruiter/jobs/Int_questions.svelte';
+	import Post_job from '../profiles/recruiter/jobs/Post_job.svelte';
+	import Ex_posts from '../profiles/recruiter/jobs/Ex_posts.svelte';
+	import Applicant_profile from '../profiles/recruiter/jobs/Applicant_profile.svelte';
+	import Attempts from '../endeavors/Attempts.svelte';
+	import Attempts_copy from '../endeavors/Attempts copy.svelte';
+	import Blog from '../blog/Topics.svelte';
 	import Branded_accent from '../comps/menus/Branded_accent.svelte';
 	import Candi_info from '../profiles/candidate/Candidate.svelte';
 	import Contact_validation from '../profiles/admin/analytics/Contact_validation.svelte';
-	import Contact_us from '../about_us/Contact_us.svelte'; //Updated
-	import Dash_nav from '../profiles/ui/Dash_nav.svelte'; //Updated //Please add things properly for goodness sake
-	import Pricing_plan from '../profiles/ui/Pricing_plan.svelte'; //Updated //Please add things properly for goodness sake
-	import Sub_plans from '../profiles/ui/Sub_plans.svelte'; //Updated //Please add things properly for goodness sake
+	import Contact_us from '../about_us/Contact_us.svelte';
+	import Dash_nav from '../profiles/ui/Dash_nav.svelte'; //Please add things properly for goodness sake
+	import Pricing_plan from '../profiles/ui/Pricing_plan.svelte'; //Please add things properly for goodness sake
+	import Sub_plans from '../profiles/ui/Sub_plans.svelte'; //Please add things properly for goodness sake
 	import Dash_nav_banner from '../profiles/ui/Dash_nav_banner.svelte';
 	import Dash_nav_final from '../profiles/ui/Dash_nav_final.svelte';
 	import Dropdown from '../comps/mock/Dropdown.svelte';
 	import Empty_state from '../comps/mock/Empty_state.svelte';
-	import Faq from '../about_us/Faq.svelte'; //Updated
-	import Footer from '../comps/Footer.svelte'; //Updated...
-	import Forgot from './Forgot.svelte'; //Updated
+	import Faq from '../about_us/Faq.svelte';
+	import Footer from '../comps/Footer.svelte';
+	import Forgot from './Forgot.svelte';
 	import Full_side_nav from '../comps/mock/Full_side_nav.svelte';
 	import Grouped_buttons from '../comps/mock/Grouped_buttons.svelte';
 	import Inputs from '../comps/mock/Inputs.svelte';
 	import Intro from './Intro.svelte';
-	import Jobs_search from '../profiles/ui/Jobs_search.svelte'; //Updated
+	import Jobs_search from '../profiles/ui/Jobs_search.svelte';
 	import Menu from '../profiles/ui/F_Menu.svelte';
 	import Man_report from '../profiles/admin/analytics/Man_report.svelte';
-	import Messages from '../profiles/ui/messages/Messages.svelte'; //Updated
+	import Messages from '../profiles/ui/messages/Messages.svelte';
 	import Nav_search from '../profiles/ui/Nav_search.svelte';
 	import Nav_side from '../profiles/ui/Nav_side.svelte';
 	import Job_preview from '../profiles/ui/Job_preview.svelte';
 	import Nav_side_small from '../profiles/ui/Nav_side_small.svelte';
-	import Navbar from '../comps/Navbar.svelte'; //Updated...
+	import Navbar from '../comps/Navbar.svelte';
 	import Pagination from '../comps/mock/Pagination.svelte';
 	import Pri_pol from '../about_us/Pri_pol.svelte';
 	import Pop_cart from '../comps/mock/Pop_cart.svelte';
-	import Resume_form from '../profiles/candidate/resume/Resume.svelte'; //Updated
+	import Resume_form from '../profiles/candidate/resume/Resume.svelte';
 	import Reviews from '../about_us/Reviews.svelte';
-	import Sign_in_form from './Sign_in_form.svelte'; //Updated
+	import Sign_in_form from './Sign_in_form.svelte';
 	import Signn from '../profiles/ui/Sign_register.svelte';
-	import Sign_up_form from '../onboarding/Sign_up_form.svelte'; //Updated
+	import Sign_up_form from '../onboarding/Sign_up_form.svelte';
 	import Sub_man from '../profiles/admin/analytics/Sub_man.svelte';
-	// import something from ''./Intro.svelte';
 	import Split_with_headings from '../comps/menus/Split_with_headings.svelte';
 	import Sub_plan_card from '../comps/mock/Sub_plan_card.svelte';
 	import Tab_pills from '../comps/mock/pills_tabs/Tab_pills.svelte';
@@ -59,13 +58,13 @@
 	import Testimonial from '../about_us/Testimonial.svelte';
 
 	const webpages = [
-		{ name: 'Sign Up', component: Sign_up_form },
-		{ name: 'Sign In', component: Sign_in_form },
-		// { name: 'UI_Name', component: Import_name },
 		{ name: 'Home', component: Intro },
+		{ name: 'Sign Up', component: Sign_up_form },
+		{ name: 'Log In', component: Sign_in_form },
+		// { name: 'UI_Name', component: Import_name },
 		{ name: 'About Us', component: About_us },
 		// { name: 'Accordion_menu', component: Accordion_menu },
-		// { name: 'Applied Jobs', component: Applied_jobs },
+		{ name: 'Applied Jobs', component: Applied_jobs },
 		{ name: 'Attempts', component: Attempts },
 		{ name: 'Applicant_profile', component: Applicant_profile },
 		// { name: 'Attempts_copy', component: Attempts_copy },
@@ -79,7 +78,7 @@
 		// { name: 'Dropdown', component: Dropdown },
 		// { name: 'Empty_state', component: Empty_state },
 		{ name: 'Ex_posts', component: Ex_posts },
-		{ name: 'Faq', component: Faq },
+		// { name: 'Faq', component: Faq },
 		{ name: 'Forgot', component: Forgot },
 		// { name: 'Full_side_nav', component: Full_side_nav },
 		// { name: 'Grouped_buttons', component: Grouped_buttons },
@@ -87,27 +86,27 @@
 		{ name: 'Int_questions', component: Int_questions },
 		{ name: 'Job_preview', component: Job_preview },
 		{ name: 'Jobs search', component: Jobs_search },
-		{ name: 'Man_report', component: Man_report },
+		// { name: 'Man_report', component: Man_report },
 		// { name: 'Menu', component: Menu },
 		{ name: 'Messages', component: Messages },
-		{ name: 'Nav with Search idk', component: Nav_search },
+		// { name: 'Nav with Search idk', component: Nav_search },
 		// { name: 'Nav_side', component: Nav_side },
-		{ name: 'Nav_side_small', component: Nav_side_small },
+		// { name: 'Nav_side_small', component: Nav_side_small },
 		// { name: 'Pagination', component: Pagination },
 		{ name: 'Post_job', component: Post_job },
 		// { name: 'Pri_pol', component: Pri_pol },
 		// { name: 'Pop_cart', component: Pop_cart },
 		{ name: 'Pricing_plan', component: Pricing_plan },
-		{ name: 'Reviews', component: Reviews },
+		// { name: 'Reviews', component: Reviews },
 		{ name: 'Resume', component: Resume_form },
 		{ name: 'Rec_profile', component: Rec_profile },
 		// { name: 'Split_with_headings', component: Split_with_headings },
 		{ name: 'Sub_man', component: Sub_man },
-		{ name: 'Sub_plans', component: Sub_plans },
+		// { name: 'Sub_plans', component: Sub_plans },
 		// { name: 'Sign', component: Signn },
-		{ name: 'Job/Resume Card', component: Sub_plan_card },
+		// { name: 'Job/Resume Card', component: Sub_plan_card },
 		// { name: 'Tab_pills', component: Tab_pills },
-		{ name: 'Testimonial', component: Testimonial },
+		// { name: 'Testimonial', component: Testimonial },
 		// { name: 'UI_Name', component: Import_name },
 	];
 
@@ -131,7 +130,7 @@
 <!--START:()-->
 <div class="">
 	<header
-		class="sticky top-3 mx-4 bg-opacity-70 z-50 bg-amber-300 rounded-full px-2 py-2"
+		class="sticky top-3 mx-3 bg-opacity-70 z-50 bg-amber-300 rounded-full py-2 "
 	>
 		<!--START:()-->
 		<div class="flex items-center justify-between max-w-screen-xl">
@@ -160,15 +159,21 @@
 							class="bg-slate-600 border -right-9 rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
 						>
 							<li class="px-9 py-1 hover:bg-slate-800">
+								<!-- <form> -->
 								{#each webpages as webpageObj}
 									<button
-										target="_blank"
+										id="page_menu"
+										name="page_menu"
+										type="submit"
+										target="_self"
+										formtarget="_self"
 										class="text-slate-100 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-emerald-200 px-3 py-2 rounded-md text-sm font-medium"
 										title={webpageObj.name}
 										on:click={() => loadPage(webpageObj)}
 										>{webpageObj.name}</button
 									>
 								{/each}
+								<!-- </form> -->
 							</li>
 						</ul>
 					</div>
@@ -180,48 +185,42 @@
 			<div
 				class="sticky items-center justify-center text-sm font-medium space-x-8 lg:flex lg:flex-1 lg:w-0 flex-shrink-0"
 			>
-				<img
-					class="h-11 w-11"
-					src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-					alt="Your Company"
-				/>
+				<h1 class="text-red-700 container text-2xl font-bold text-center">
+					SkillsWorkZ!
+				</h1>
 			</div>
 
 			<!--START:()-->
 			<div class="items-center lg:flex text-right sm:px-6">
 				<!--START:()-->
 				<div class="flex items-center">
-					<form class="mb-0 lg:flex">
+					<form method="post" class="mb-0 lg:flex">
 						<!--START:()-->
 					</form>
 				</div>
-				<form>
-					<!-- svelte-ignore a11y-invalid-attribute target=”_blank” -->
-
+				<form method="post">
 					<!-- svelte-ignore a11y-missing-attribute -->
 					<a
-						on:click={() => loadPage(webpages[0])}
+						on:click={() => loadPage(webpages[1])}
 						class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 						>Sign Up</a
 					>
 					<!-- svelte-ignore a11y-missing-attribute -->
 					<a
-						on:click={() => loadPage(webpages[1])}
-						class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+						on:click={() => loadPage(webpages[2])}
+						class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-500 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 						>Log In</a
 					>
 				</form>
 			</div>
 		</div>
 	</header>
-	<main class="relative">
+	<main class="">
 		<!--START:()-->
-		<div class="max-w-7xl mx-auto p-2">
+		<div class="">
 			<!-- Replace with your content -->
 			<!--START:()-->
-			<div
-				class="relative min-h-screen flex rounded-lg border-4 border-dashed border-slate-200 "
-			>
+			<div class="container mx-auto border-2 border-dashed border-red-700">
 				<svelte:component this={selectedPage.component} />
 				<!--END:()-->
 			</div>

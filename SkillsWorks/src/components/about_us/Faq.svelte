@@ -16,7 +16,7 @@
 		<div
 			class="w-1/3 hidden md:flex flex-auto items-start justify-end p-10 pr-20 overflow-hidden bg-no-repeat bg-cover relative"
 		>
-			<h2 class="z-10 mr-8 w-full md:w-2/3 text-5xl font-extrabold">
+			<h2 class="z-10 p-2 mr-8 w-full md:w-2/3 text-5xl font-extrabold">
 				F.requently A.sked Q.uestionZ
 			</h2>
 			<!---remove custom style-->
@@ -25,7 +25,7 @@
 		<!--END:()-->
 
 		<!--START:()-->
-		<div class="w-2/3 space-y-2">
+		<div class="xl:w-8/12 md:w-6/12 space-y-2 justify-center">
 			<!--START:()-->
 			<details class="p-6 border-l-4 border-amber-500 bg-slate-100 group">
 				<summary class="flex items-center justify-between cursor-pointer">
@@ -63,7 +63,8 @@
 			<details class="p-6 border-l-4 border-amber-500 bg-slate-100 group">
 				<summary class="flex items-center justify-between cursor-pointer">
 					<h5 class="text-lg font-medium text-amber-500">
-						Lorem ipsum dolor sit amet consectetur adipisicing?
+						This is Lorem ipsum place holder Text!!! dolor sit amet consectetur
+						adipisicing?
 					</h5>
 
 					<!--START:()--><span
@@ -86,10 +87,10 @@
 				<!--END:()-->
 
 				<p class="mt-4 leading-relaxed text-teal-400">
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-					veritatis molestias culpa in, recusandae laboriosam neque aliquid
-					libero nesciunt voluptate dicta quo officiis explicabo consequuntur
-					distinctio corporis earum similique!
+					This is Lorem ipsum place holder Text!!! dolor sit amet consectetur,
+					adipisicing elit. Ab hic veritatis molestias culpa in, recusandae
+					laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis
+					explicabo consequuntur distinctio corporis earum similique!
 				</p>
 			</details>
 			<!--END:()-->
@@ -98,7 +99,8 @@
 			<details class="p-6 border-l-4 border-amber-500 bg-slate-100 group">
 				<summary class="flex items-center justify-between cursor-pointer">
 					<h5 class="text-lg font-medium text-amber-500">
-						Lorem ipsum dolor sit amet consectetur adipisicing?
+						This is Lorem ipsum place holder Text!!! dolor sit amet consectetur
+						adipisicing?
 					</h5>
 
 					<span
@@ -120,10 +122,10 @@
 				</summary>
 
 				<p class="mt-4 leading-relaxed text-teal-400">
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic
-					veritatis molestias culpa in, recusandae laboriosam neque aliquid
-					libero nesciunt voluptate dicta quo officiis explicabo consequuntur
-					distinctio corporis earum similique!
+					This is Lorem ipsum place holder Text!!! dolor sit amet consectetur,
+					adipisicing elit. Ab hic veritatis molestias culpa in, recusandae
+					laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis
+					explicabo consequuntur distinctio corporis earum similique!
 				</p>
 			</details>
 			<!--END:()-->

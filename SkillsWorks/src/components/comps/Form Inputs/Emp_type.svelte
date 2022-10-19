@@ -11,13 +11,13 @@
 		<div class="flex items-center">
 			<input
 				checked
-				id="form-emp-type-volunteer"
-				name="form-emp-type-volunteer"
+				id="form-emp-type"
+				name="form-emp-type"
 				type="radio"
 				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="form-emp-type-volunteer"
+				for="form-emp-type"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
 				Volunteer
@@ -28,13 +28,13 @@
 		<!--START:()-->
 		<div class="flex items-center">
 			<input
-				id="form-emp-type-permanent"
-				name="form-emp-type-permanent"
+				id="form-emp-type"
+				name="form-emp-type"
 				type="radio"
 				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="form-emp-type-permanent"
+				for="form-emp-type"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
 				Permanent
@@ -45,13 +45,13 @@
 		<!--START:()-->
 		<div class="flex items-center">
 			<input
-				id="form-emp-type-ft"
-				name="form-emp-type-ft"
+				id="form-emp-type"
+				name="form-emp-type"
 				type="radio"
 				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="form-emp-type-ft"
+				for="form-emp-type"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
 				Full-time
@@ -61,13 +61,13 @@
 		<!--START:()-->
 		<div class="flex items-center">
 			<input
-				id="form-emp-type-contract"
-				name="form-emp-type-contract"
+				id="form-emp-type"
+				name="form-emp-type"
 				type="radio"
 				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="form-emp-type-contract"
+				for="form-emp-type"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
 				Contract
@@ -78,13 +78,13 @@
 		<!--START:()-->
 		<div class="flex items-center">
 			<input
-				id="form-emp-type-pt"
-				name="form-emp-type-pt"
+				id="form-emp-type"
+				name="form-emp-type"
 				type="radio"
 				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="form-emp-type-pt"
+				for="form-emp-type"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
 				Part-time
@@ -95,13 +95,13 @@
 		<!--START:()-->
 		<div class="flex items-center">
 			<input
-				id="form-emp-type-seasonal"
-				name="form-emp-type-seasonal"
+				id="form-emp-type"
+				name="form-emp-type"
 				type="radio"
 				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="form-emp-type-seasonal"
+				for="form-emp-type"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
 				Seasonal
@@ -112,13 +112,13 @@
 		<!--START:()-->
 		<div class="flex items-center">
 			<input
-				id="form-emp-type-seasonal"
-				name="form-emp-type-seasonal"
+				id="form-emp-type"
+				name="form-emp-type"
 				type="radio"
 				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="form-emp-type-seasonal"
+				for="form-emp-type"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
 				Casual
@@ -143,13 +143,13 @@
 		<!--START:()-->
 		<div class="flex items-center">
 			<input
-				id="for-work-hours-ns"
-				name="for-work-hours-ns"
+				id="for-work-hours"
+				name="for-work-hours"
 				type="radio"
 				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="for-work-hours-ns"
+				for="for-work-hours"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
 				Night Shift
@@ -160,13 +160,13 @@
 		<!--START:()-->
 		<div class="flex items-center">
 			<input
-				id="for-work-hours-ds"
-				name="for-work-hours-ds"
+				id="for-work-hours"
+				name="for-work-hours"
 				type="radio"
 				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="for-work-hours-ds"
+				for="for-work-hours"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
 				Day shift
@@ -178,13 +178,13 @@
 		<div class="flex items-center">
 			<input
 				checked
-				id="for-work-hours-etc"
-				name="for-work-hours-etc"
+				id="for-work-hours"
+				name="for-work-hours"
 				type="radio"
 				class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 			/>
 			<label
-				for="for-work-hours-etc"
+				for="for-work-hours"
 				class="ml-3 block text-sm font-medium text-slate-700"
 			>
 				etc

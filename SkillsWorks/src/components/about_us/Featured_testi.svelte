@@ -1,4 +1,4 @@
-<section class="text-amber-500 bg-slate-800 body-font">
+<section class="text-amber-300 bg-slate-800 body-font">
 	<!--START:()-->
 	<div class="container px-5 py-2 mx-auto">
 		<!--START:()-->
@@ -29,15 +29,15 @@
 						<h2 class="title-font font-medium text-lg text-indigo-50">
 							Alper Kamu
 						</h2>
-						<h3 class="text-amber-500 mb-3">UI Developer</h3>
+						<h3 class="text-amber-300 mb-3">UI Developer</h3>
 						<p class="mb-4 text-indigo-50">
-							DIY tote bag drinking vinegar cronut adaptogen squid fanny pack
-							vaporware.
+							This is Lorem ipsum place holder Text!!! drinking vinegar cronut
+							adaptogen squid fanny pack vaporware.
 						</p>
 						<span class="inline-flex">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="text-amber-700 hover:text-indigo-600">
+							<a href="#" class="text-amber-300 hover:text-indigo-600">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -54,7 +54,7 @@
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="ml-9 text-amber-700 hover:text-indigo-600">
+							<a href="#" class="ml-9 text-amber-300 hover:text-indigo-600">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -71,7 +71,7 @@
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="ml-9 text-amber-700 hover:text-indigo-600">
+							<a href="#" class="ml-9 text-amber-300 hover:text-indigo-600">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -102,17 +102,17 @@
 					<!--START:()-->
 					<div class="w-full">
 						<h2 class="title-font font-medium text-lg text-indigo-50">
-							Holden Caulfield
+							Imani Niyigena
 						</h2>
-						<h3 class="text-amber-500 mb-3">UI Developer</h3>
+						<h3 class="text-amber-300 mb-3">UI Developer</h3>
 						<p class="mb-4 text-indigo-50">
-							DIY tote bag drinking vinegar cronut adaptogen squid fanny pack
-							vaporware.
+							This is Lorem ipsum place holder Text!!! drinking vinegar cronut
+							adaptogen squid fanny pack vaporware.
 						</p>
 						<span class="inline-flex">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="text-amber-700 hover:text-indigo-600">
+							<a href="#" class="text-amber-300 hover:text-indigo-600">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -129,7 +129,7 @@
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="ml-9 text-amber-700 hover:text-indigo-600">
+							<a href="#" class="ml-9 text-amber-300 hover:text-indigo-600">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -146,7 +146,7 @@
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="ml-9 text-amber-700 hover:text-indigo-600">
+							<a href="#" class="ml-9 text-amber-300 hover:text-indigo-600">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -179,15 +179,15 @@
 						<h2 class="title-font font-medium text-lg text-indigo-50">
 							Atticus Finch
 						</h2>
-						<h3 class="text-amber-500 mb-3">UI Developer</h3>
+						<h3 class="text-amber-300 mb-3">UI Developer</h3>
 						<p class="mb-4 text-indigo-50">
-							DIY tote bag drinking vinegar cronut adaptogen squid fanny pack
-							vaporware.
+							This is Lorem ipsum place holder Text!!! drinking vinegar cronut
+							adaptogen squid fanny pack vaporware.
 						</p>
 						<span class="inline-flex">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="text-amber-700 hover:text-indigo-600">
+							<a href="#" class="text-amber-300 hover:text-indigo-600">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -204,7 +204,7 @@
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="ml-9 text-amber-700 hover:text-indigo-600">
+							<a href="#" class="ml-9 text-amber-300 hover:text-indigo-600">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -221,7 +221,7 @@
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="ml-9 text-amber-700 hover:text-indigo-600">
+							<a href="#" class="ml-9 text-amber-300 hover:text-indigo-600">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -254,15 +254,15 @@
 						<h2 class="title-font font-medium text-lg text-indigo-50">
 							Henry Letham
 						</h2>
-						<h3 class="text-amber-500 mb-3">UI Developer</h3>
+						<h3 class="text-amber-300 mb-3">UI Developer</h3>
 						<p class="mb-4 text-indigo-50">
-							DIY tote bag drinking vinegar cronut adaptogen squid fanny pack
-							vaporware.
+							This is Lorem ipsum place holder Text!!! drinking vinegar cronut
+							adaptogen squid fanny pack vaporware.
 						</p>
 						<span class="inline-flex">
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="text-amber-700 hover:text-indigo-600">
+							<a href="#" class="text-amber-300 hover:text-indigo-600">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -279,7 +279,7 @@
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="ml-9 text-amber-700 hover:text-indigo-600">
+							<a href="#" class="ml-9 text-amber-300 hover:text-indigo-600">
 								<svg
 									fill="none"
 									stroke="currentColor"
@@ -296,7 +296,7 @@
 							</a>
 							<!-- svelte-ignore a11y-invalid-attribute -->
 
-							<a href="#" class="ml-9 text-amber-700 hover:text-indigo-600">
+							<a href="#" class="ml-9 text-amber-300 hover:text-indigo-600">
 								<svg
 									fill="none"
 									stroke="currentColor"

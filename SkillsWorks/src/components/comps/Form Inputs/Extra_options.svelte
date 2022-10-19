@@ -17,7 +17,7 @@
 					checked
 					name="form-extra-opts-sa-id"
 					id="form-extra-opts-sa-id"
-					class=" bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+					class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 				/>
 			</div>
 			<!--END:()-->
@@ -28,8 +28,8 @@
 					>Do you have a South African ID?</label
 				>
 				<p class="text-slate-500">
-					Lorem ipsum dolor sit ame, consectetur adipisicing sit ame,
-					consectetur adipisicing?
+					This is Lorem ipsum place holder Text!!! dolor sit ame, consectetur
+					adipisicing sit ame, consectetur adipisicing?
 				</p>
 			</div>
 		</div>
@@ -43,7 +43,7 @@
 					checked
 					name="form-extra-opts-disabilities"
 					id="form-extra-opts-disabilities"
-					class=" bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+					class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 				/>
 			</div>
 			<!--END:()-->
@@ -55,7 +55,8 @@
 					class="font-medium text-slate-700">Are you disabled?</label
 				>
 				<p class="text-slate-500">
-					Lorem ipsum dolor sit ame, consectetur adipisicing?
+					This is Lorem ipsum place holder Text!!! dolor sit ame, consectetur
+					adipisicing?
 				</p>
 			</div>
 		</div>
@@ -69,7 +70,7 @@
 					checked
 					name="form-extra-opts-cc"
 					id="form-extra-opts-cc"
-					class=" bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+					class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 				/>
 			</div>
 			<!--END:()-->
@@ -80,8 +81,8 @@
 					>Can you provide certified copies on request?</label
 				>
 				<p class="text-slate-500">
-					Lorem ipsum dolor sit ame, consectetur adipisicing sit ame,
-					consectetur adipisicing?
+					This is Lorem ipsum place holder Text!!! dolor sit ame, consectetur
+					adipisicing sit ame, consectetur adipisicing?
 				</p>
 			</div>
 		</div>
@@ -95,7 +96,7 @@
 					checked
 					name="form-extra-drivers-licence"
 					id="form-extra-drivers-licence"
-					class=" bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+					class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 				/>
 			</div>
 			<!--END:()-->
@@ -107,7 +108,8 @@
 					class="font-medium text-slate-700">Do you have drivers licence?</label
 				>
 				<p class="text-slate-500">
-					Lorem ipsum dolor sit ame, consectetur adipisicing?
+					This is Lorem ipsum place holder Text!!! dolor sit ame, consectetur
+					adipisicing?
 				</p>
 			</div>
 		</div>
@@ -121,7 +123,7 @@
 					checked
 					name="form-extra-criminal-record"
 					id="form-extra-criminal-record"
-					class=" bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+					class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 				/>
 			</div>
 			<!--END:()-->
@@ -132,8 +134,8 @@
 					>Do you have a criminal record?</label
 				>
 				<p class="text-slate-500">
-					Lorem ipsum dolor sit ame, consectetur adipisicing sit ame,
-					consectetur adipisicing?
+					This is Lorem ipsum place holder Text!!! dolor sit ame, consectetur
+					adipisicing sit ame, consectetur adipisicing?
 				</p>
 			</div>
 			<!--END:()-->

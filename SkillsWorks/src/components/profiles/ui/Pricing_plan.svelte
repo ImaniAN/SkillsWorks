@@ -1,10 +1,10 @@
-<section class="text-slate-900 bg-slate-200 body-font">
+<section class="text-slate-900 w-full bg-slate-200 body-font">
 	<!--START:()-->
 	<div class="container px-5 py-24 mx-auto">
 		<!--START:()-->
 		<div class="flex flex-col text-center w-full mb-20">
 			<h1
-				class="sm:text-4xl text-3xl font-medium title-font mb-2 text-slate-900"
+				class="sm:text-4xl text-3xl font-medium title-font mb-2 text-indigo-500"
 			>
 				Pricing
 			</h1>
@@ -15,29 +15,29 @@
 		</div>
 		<!--START:()-->
 		<div
-			class="lg:w-2/3 w-full mx-auto overflow-auto border-2 border-dashed border-teal-500"
+			class="lg:w-2/3 w-full mx-auto overflow-auto "
 		>
 			<table class="table-auto w-full text-left whitespace-no-wrap">
 				<thead>
 					<tr>
 						<th
-							class="px-4 py-3 title-font tracking-wider font-medium text-slate-200 text-sm bg-slate-800 rounded-tl rounded-bl"
+							class="px-4 py-3 title-font tracking-wider font-medium text-indigo-500 text-sm bg-slate-800 rounded-tl rounded-bl"
 							>Plan</th
 						>
 						<th
-							class="px-4 py-3 title-font tracking-wider font-medium text-slate-200 text-sm bg-slate-800"
+							class="px-4 py-3 title-font tracking-wider font-medium text-indigo-500 text-sm bg-slate-800"
 							>Speed</th
 						>
 						<th
-							class="px-4 py-3 title-font tracking-wider font-medium text-slate-200 text-sm bg-slate-800"
+							class="px-4 py-3 title-font tracking-wider font-medium text-indigo-500 text-sm bg-slate-800"
 							>Storage</th
 						>
 						<th
-							class="px-4 py-3 title-font tracking-wider font-medium text-slate-200 text-sm bg-slate-800"
+							class="px-4 py-3 title-font tracking-wider font-medium text-indigo-500 text-sm bg-slate-800"
 							>Price</th
 						>
 						<th
-							class="w-10 title-font tracking-wider font-medium text-slate-200 text-sm bg-slate-800 rounded-tr rounded-br"
+							class="w-10 title-font tracking-wider font-medium text-indigo-500 text-sm bg-slate-800 rounded-tr rounded-br"
 						/>
 					</tr>
 				</thead>
@@ -55,19 +55,19 @@
 							/>
 						</td>
 					</tr>
-					<tr class="border-2 border-teal-400">
-						<td class="border-b-2 border-t-2 border-teal-400 px-4 py-3">Pro</td>
-						<td class="border-b-2 border-t-2 border-teal-400 px-4 py-3"
+					<tr class="">
+						<td class="border-b-2 border-t-2 border-slate-800 px-4 py-3">Pro</td>
+						<td class="border-b-2 border-t-2 border-slate-800 px-4 py-3"
 							>25 Mb/s</td
 						>
-						<td class="border-b-2 border-t-2 border-teal-400 px-4 py-3"
+						<td class="border-b-2 border-t-2 border-slate-800 px-4 py-3"
 							>25 GB</td
 						>
 						<td
-							class="border-b-2 border-t-2 border-teal-400 px-4 py-3 text-lg text-slate-900"
-							>$24</td
+							class="border-b-2 border-t-2 border-slate-800 px-4 py-3 text-lg text-slate-900"
+							>R 24</td
 						>
-						<td class="border-b-2 border-t-2 border-teal-400 w-10 text-center">
+						<td class="border-b-2 border-t-2 border-slate-800 w-10 text-center">
 							<input
 								name="plan"
 								checked
@@ -88,7 +88,7 @@
 						>
 						<td
 							class="border-b-2 border-t-2 border-slate-800 px-4 py-3 text-lg text-slate-900"
-							>$50</td
+							>R 50</td
 						>
 						<td class="border-b-2 border-t-2 border-slate-800 w-10 text-center">
 							<input
@@ -110,7 +110,7 @@
 						>
 						<td
 							class="border-b-2 border-t-2 border-slate-800 px-4 py-3 text-lg text-slate-900"
-							>$72</td
+							>R 72</td
 						>
 						<td class="border-b-2 border-t-2 border-slate-800 w-10 text-center">
 							<input
@@ -125,11 +125,10 @@
 		</div>
 		<!--START:()-->
 		<div
-			class="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto border-2 border-dashed border-teal-500"
+			class="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto "
 		>
 			<!-- svelte-ignore a11y-invalid-attribute -->
-
-			<a href="#" class="text-teal-400 inline-flex items-center md:mb-2 lg:mb-0"
+			<a href="#" class="text-teal-400 hover:text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0 hover:border-2 hover:border-round hover:border-dashed  hover:border-indigo-500"
 				>Learn More
 				<svg
 					fill="none"
@@ -144,7 +143,7 @@
 				</svg>
 			</a>
 			<button
-				class="flex ml-auto text-slate-200 bg-teal-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 rounded"
+				class="flex ml-auto text-slate-200 bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 rounded"
 				>Button</button
 			>
 		</div>

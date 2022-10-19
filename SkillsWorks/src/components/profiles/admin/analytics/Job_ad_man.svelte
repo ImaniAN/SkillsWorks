@@ -11,6 +11,7 @@
 			<!--START:()-->
 			<div class="text-end">
 				<form
+					method="post"
 					class="flex flex-col md:flex-row w-4/5 md:w-full md:space-x-3 space-y-3 md:space-y-0 justify-center"
 				>
 					<!--START:()-->
@@ -19,7 +20,7 @@
 							<span class="label-text text-indigo-400">Hide Completed ads</span>
 							<input
 								type="checkbox"
-								class=" bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+								class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 								checked
 							/>
 						</label>
@@ -31,14 +32,14 @@
 						<input
 							type="text"
 							id="&quot;form-subscribe-Filter"
-							class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
+							class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-4 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
 							placeholder="Name of Job"
 						/>
 					</div>
 					<!--END:()-->
 
 					<button
-						class="flex-shrink-0 px-4 py-2 text-base font-semibold text-indigo-50 bg-indigo-600 rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-indigo-200"
+						class="flex-shrink-0 px-4 py-2 text-base font-semibold text-indigo-50 bg-indigo-500 rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-indigo-200"
 						type="submit"
 						>Filter
 					</button>
@@ -90,7 +91,6 @@
 								<div class="flex items-center">
 									<!--START:()-->
 									<div class="flex-shrink-0">
-										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
@@ -154,7 +154,6 @@
 									<!--START:()-->
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
-										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
 												alt="profil"
@@ -216,7 +215,6 @@
 								<div class="flex items-center">
 									<!--START:()-->
 									<div class="flex-shrink-0">
-										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
@@ -282,7 +280,6 @@
 									<!--START:()-->
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
-										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
 												alt="profil"
@@ -344,7 +341,6 @@
 								<div class="flex items-center">
 									<!--START:()-->
 									<div class="flex-shrink-0">
-										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
@@ -410,7 +406,6 @@
 									<!--START:()-->
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
-										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
 												alt="profil"
@@ -474,7 +469,6 @@
 								<div class="flex items-center">
 									<!--START:()-->
 									<div class="flex-shrink-0">
-										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img

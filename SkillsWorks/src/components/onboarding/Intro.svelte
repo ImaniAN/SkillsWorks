@@ -3,8 +3,7 @@
 	import Our_team from '../about_us/Our_team.svelte';
 	import Reviews from '../about_us/Reviews.svelte';
 	import Testimonial from '../about_us/Testimonial.svelte';
-	import Contact_us from '../about_us/Contact_us.svelte'; //Updated
-	import ContactUs from '../about_us/Contact_us.svelte';
+	import Contact_Us from '../about_us/Contact_us.svelte'; //Updated
 </script>
 
 <!--START:()-->
@@ -13,7 +12,7 @@
 	<main>
 		<!--START:()-->
 		<div
-			class="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75"
+			class="relative pt-16 pb-32 flex content-center items-center justify-center"
 		>
 			<!--START:()-->
 			<div
@@ -22,7 +21,7 @@
 			>
 				<span
 					id="blackOverlay"
-					class="w-full h-full absolute opacity-75 bg-black"
+					class="w-full h-full absolute opacity-75 bg-slate-700"
 				/>
 			</div>
 			<!--START:()-->
@@ -33,12 +32,12 @@
 					<div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
 						<!--START:()-->
 						<div class="pr-12">
-							<h1 class="text-indigo-50 font-semibold text-5xl">
+							<h1 class="text-amber-300 font-semibold text-5xl">
 								Your story starts with us.
 							</h1>
-							<p class="mt-4 text-lg text-slate-200">
+							<p class="mt-4 text-lg text-slate-100">
 								This is a simple example of a Landing Page you can build using
-								Notus Svelte. It features multiple CSS components based on the
+								Svelte. It features multiple CSS components based on the
 								Tailwind CSS design system.
 							</p>
 						</div>
@@ -67,7 +66,7 @@
 			</div>
 		</div>
 
-		<section class="pb-20 bg-blue-200 -mt-24">
+		<section class="pb-20 bg-indigo-50 -mt-24">
 			<!--START:()-->
 			<div class="container mx-auto px-4">
 				<!--START:()-->
@@ -82,14 +81,14 @@
 							<div class="px-4 py-5 flex-auto">
 								<!--START:()-->
 								<div
-									class="text-indigo-50 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
+									class="text-slate-800 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-amber-300"
 								>
 									<i class="fas fa-award" />
 								</div>
 								<h6 class="text-xl text-slate-800 font-semibold">
 									Awarded Agency
 								</h6>
-								<p class="mt-2 mb-4 text-slate-500">
+								<p class="mt-2 mb-4 text-slate-800">
 									Divide details about your product or agency work into parts. A
 									paragraph describing a feature will be enough.
 								</p>
@@ -107,14 +106,14 @@
 							<div class="px-4 py-5 flex-auto">
 								<!--START:()-->
 								<div
-									class="text-indigo-50 p-2 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400"
+									class="text-slate-800 p-2 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-teal-400"
 								>
 									<i class="fas fa-retweet" />
 								</div>
 								<h6 class="text-xl text-slate-800 font-semibold">
 									Free Revisions
 								</h6>
-								<p class="mt-2 mb-4 text-slate-500">
+								<p class="mt-2 mb-4 text-slate-800">
 									Keep you user engaged by providing meaningful information.
 									Remember that by this time, the user is curious.
 								</p>
@@ -132,14 +131,14 @@
 							<div class="px-4 py-5 flex-auto">
 								<!--START:()-->
 								<div
-									class="text-indigo-50 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400"
+									class="textslate-800 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-indigo-500"
 								>
 									<i class="fas fa-fingerprint" />
 								</div>
 								<h6 class="text-xl text-slate-800 font-semibold">
 									Verified Company
 								</h6>
-								<p class="mt-2 mb-4 text-slate-500">
+								<p class="mt-2 mb-4 text-slate-800">
 									Write a few lines about each one. A paragraph describing a
 									feature will be enough. Keep you user engaged!
 								</p>
@@ -149,36 +148,36 @@
 				</div>
 
 				<!--START:()-->
-				<div class="flex flex-wrap items-center mt-32">
+				<div class="flex flex-wrap items-center mt-1">
 					<!--START:()-->
 					<div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
 						<!--START:()-->
 						<div
-							class="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-indigo-50"
+							class="text-slate-800 bg-indigo-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full "
 						>
 							<i class="fas fa-user-friends text-xl" />
 						</div>
 						<h3
-							class="text-3xl text-slate-500 mb-2 font-semibold leading-normal"
+							class="text-3xl text-indigo-500 mb-2 font-semibold leading-normal"
 						>
 							Working with us is a pleasure
 						</h3>
 						<p
-							class="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600"
+							class="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-700"
 						>
 							Don't let your uses guess by attaching tooltips and popoves to any
 							element. Just make sure you enable them first via JavaScript.
 						</p>
 						<p
-							class="text-lg font-light leading-relaxed mt-0 mb-4 text-slate-600"
+							class="text-lg font-light leading-relaxed mt-0 mb-4 text-slate-700"
 						>
 							The kit comes with three pre-built pages to help you get started
 							faster. You can change the text and images and you're good to go.
 							Just make sure you enable them first via JavaScript.
 						</p>
 						<!-- svelte-ignore a11y-invalid-attribute -->
-						<a href="#" class="font-bold text-slate-700 mt-8">
-							Check Notus Svelte!
+						<a href="#" class="font-bold text-indigo-500 mt-8">
+							Check SkillsWorkZ!
 						</a>
 					</div>
 
@@ -186,7 +185,7 @@
 					<div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
 						<!--START:()-->
 						<div
-							class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-red-400"
+							class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-slate-900"
 						>
 							<img
 								alt="..."
@@ -194,21 +193,10 @@
 								class="w-full align-middle rounded-t-lg"
 							/>
 							<blockquote class="relative p-8 mb-4">
-								<svg
-									preserveAspectRatio="none"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 583 95"
-									class="absolute left-0 w-full block h-95-px -top-94-px"
-								>
-									<polygon
-										points="-30,95 583,95 583,65"
-										class="text-red-400 fill-current"
-									/>
-								</svg>
-								<h4 class="text-xl font-bold text-indigo-50">
+								<h4 class="text-xl font-bold text-indigo-500">
 									Top Notch Services
 								</h4>
-								<p class="text-md font-light mt-2 text-indigo-50">
+								<p class="text-md font-light mt-2 text-slate-100">
 									The Arctic Ocean freezes every winter and much of the sea-ice
 									then thaws every summer, and that process will continue
 									whatever happens.
@@ -260,14 +248,14 @@
 						<div class="md:pr-12">
 							<!--START:()-->
 							<div
-								class="text-red-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-red-300"
+								class="text-slate-800 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-amber-300"
 							>
 								<i class="fas fa-rocket text-xl" />
 							</div>
 							<h3 class="text-3xl text-slate-800 font-semibold">
 								A growing company
 							</h3>
-							<p class="mt-4 text-lg leading-relaxed text-slate-500">
+							<p class="mt-4 text-lg leading-relaxed text-slate-800">
 								The extension comes with three pre-built pages to help you get
 								started faster. You can change the text and images and you're
 								good to go.
@@ -279,14 +267,14 @@
 										<!--START:()-->
 										<div>
 											<span
-												class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3"
+												class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-800 bg-amber-300 mr-3"
 											>
 												<i class="fas fa-fingerprint" />
 											</span>
 										</div>
 										<!--START:()-->
 										<div>
-											<h4 class="text-slate-500">
+											<h4 class="text-slate-800">
 												Carefully crafted components
 											</h4>
 										</div>
@@ -298,14 +286,14 @@
 										<!--START:()-->
 										<div>
 											<span
-												class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3"
+												class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-800 bg-amber-300 mr-3"
 											>
 												<i class="fab fa-html5" />
 											</span>
 										</div>
 										<!--START:()-->
 										<div>
-											<h4 class="text-slate-500">Amazing page examples</h4>
+											<h4 class="text-slate-800">Amazing page examples</h4>
 										</div>
 									</div>
 								</li>
@@ -315,14 +303,14 @@
 										<!--START:()-->
 										<div>
 											<span
-												class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-red-200 mr-3"
+												class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-800 bg-amber-300 mr-3"
 											>
 												<i class="far fa-paper-plane" />
 											</span>
 										</div>
 										<!--START:()-->
 										<div>
-											<h4 class="text-slate-500">Dynamic components</h4>
+											<h4 class="text-slate-800">Dynamic components</h4>
 										</div>
 									</div>
 								</li>
@@ -333,8 +321,27 @@
 			</div>
 		</section>
 
-		<section class="bg-teal-400 pt-20 pb-8">
+		<section class="bg-teal-400 pt-20 pb-8 relative block">
 			<!--START:()-->
+			<div
+				class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
+				style="transform: translateZ(0);"
+			>
+				<svg
+					class="absolute bottom-0 overflow-hidden"
+					xmlns="http://www.w3.org/2000/svg"
+					preserveAspectRatio="none"
+					version="1.1"
+					viewBox="0 0 2560 100"
+					x="0"
+					y="0"
+				>
+					<polygon
+						class="text-teal-400 fill-current"
+						points="2560 0 2560 100 0 100"
+					/>
+				</svg>
+			</div>
 			<div class="container mx-auto px-4">
 				<!--START:()-->
 				<div class="flex flex-wrap justify-center text-center mb-24">
@@ -343,7 +350,7 @@
 						<h2 class="text-4xl text-slate-800 font-semibold">
 							Here are our heroes
 						</h2>
-						<p class="text-lg leading-relaxed m-4 text-slate-500">
+						<p class="text-lg leading-relaxed m-4 text-slate-200">
 							According to the National Oceanic and Atmospheric Administration,
 							Ted, Scambos, NSIDClead scentist, puts the potentially record
 							maximum.
@@ -354,7 +361,7 @@
 			</div>
 		</section>
 
-		<section class="pb-2 relative block bg-indigo-600">
+		<section class="relative block">
 			<!--START:()-->
 			<div
 				class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
@@ -377,15 +384,15 @@
 			</div>
 
 			<!--START:()-->
-			<div class="container mx-auto px-4 lg:pt-24 lg:pb-4">
+			<div class="bg-indigo-400 container mx-auto px-4 lg:pt-10 lg:pb-2">
 				<!--START:()-->
 				<div class="flex flex-wrap text-center justify-center">
 					<!--START:()-->
 					<div class="w-full lg:w-6/12 px-4">
-						<h2 class="text-4xl font-semibold text-indigo-50">
+						<h2 class="text-4xl font-semibold text-teal-400">
 							Build something
 						</h2>
-						<p class="text-lg leading-relaxed mt-4 mb-4 text-slate-800">
+						<p class="text-lg leading-relaxed mt-4 mb-4 text-slate-200">
 							Put the potentially record low maximum sea ice extent tihs year
 							down to low ice. According to the National Oceanic and Atmospheric
 							Administration, Ted, Scambos.
@@ -398,7 +405,7 @@
 					<div class="w-full lg:w-3/12 px-4 text-center">
 						<!--START:()-->
 						<div
-							class="text-slate-800 p-3 w-12 h-12 shadow-lg rounded-full bg-indigo-50 inline-flex items-center justify-center"
+							class="text-slate-800 p-3 w-12 h-12 shadow-lg rounded-full bg-teal-400 inline-flex items-center justify-center"
 						>
 							<i class="fas fa-medal text-xl" />
 						</div>
@@ -414,7 +421,7 @@
 					<div class="w-full lg:w-3/12 px-4 text-center">
 						<!--START:()-->
 						<div
-							class="text-slate-800 p-3 w-12 h-12 shadow-lg rounded-full bg-indigo-50 inline-flex items-center justify-center"
+							class="text-slate-800 p-3 w-12 h-12 shadow-lg rounded-full bg-teal-400 inline-flex items-center justify-center"
 						>
 							<i class="fas fa-poll text-xl" />
 						</div>
@@ -430,7 +437,7 @@
 					<div class="w-full lg:w-3/12 px-4 text-center">
 						<!--START:()-->
 						<div
-							class="text-slate-800 p-3 w-12 h-12 shadow-lg rounded-full bg-indigo-50 inline-flex items-center justify-center"
+							class="text-slate-800 p-3 w-12 h-12 shadow-lg rounded-full bg-teal-400 inline-flex items-center justify-center"
 						>
 							<i class="fas fa-lightbulb text-xl" />
 						</div>
@@ -443,19 +450,20 @@
 						</p>
 					</div>
 				</div>
-				<section class="py-2 mb-2 text-white bg-slate-800">
+				<section class="py-2 mb-2 text-slate-300 bg-slate-800">
 					<!--START:()-->
 					<div class="px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
 						<!--START:()-->
 						<div class="max-w-lg mx-auto text-center">
-							<h2 class="text-3xl font-bold sm:text-4xl">
+							<h2 class="text-3xl font-bold sm:text-4xl text-teal-400">
 								Kickstart your marketing
 							</h2>
 
-							<p class="mt-4 text-gray-300">
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-								Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae
-								aperiam fugit consequuntur saepe laborum.
+							<p class="mt-4 text-amber-300">
+								This is Lorem ipsum place holder Text!!!, dolor sit amet
+								consectetur adipisicing elit. Consequuntur aliquam doloribus
+								nesciunt eos fugiat. Vitae aperiam fugit consequuntur saepe
+								laborum.
 							</p>
 						</div>
 
@@ -464,7 +472,7 @@
 							class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"
 						>
 							<a
-								class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10"
+								class="block p-8 border border-gray-800 shadow-2xl transition rounded-xl hover:shadow-teal-500 hover:border-teal-500"
 								href="/services/digital-campaigns"
 							>
 								<svg
@@ -486,19 +494,19 @@
 									/>
 								</svg>
 
-								<h3 class="mt-4 text-xl font-bold text-white">
+								<h3 class="mt-4 text-xl font-bold text-amber-300">
 									Digital campaigns
 								</h3>
 
-								<p class="mt-1 text-sm text-gray-300">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-									quo possimus adipisci distinctio alias voluptatum blanditiis
-									laudantium.
+								<p class="mt-1 text-sm">
+									This is Lorem ipsum place holder Text!!! dolor sit amet
+									consectetur adipisicing elit. Ex ut quo possimus adipisci
+									distinctio alias voluptatum blanditiis laudantium.
 								</p>
 							</a>
 
 							<a
-								class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10"
+								class="block p-8 border border-gray-800 shadow-2xl transition rounded-xl hover:shadow-teal-500 hover:border-teal-500"
 								href="/services/digital-campaigns"
 							>
 								<svg
@@ -520,19 +528,19 @@
 									/>
 								</svg>
 
-								<h3 class="mt-4 text-xl font-bold text-white">
+								<h3 class="mt-4 text-xl font-bold text-amber-300">
 									Digital campaigns
 								</h3>
 
-								<p class="mt-1 text-sm text-gray-300">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-									quo possimus adipisci distinctio alias voluptatum blanditiis
-									laudantium.
+								<p class="mt-1 text-sm">
+									This is Lorem ipsum place holder Text!!! dolor sit amet
+									consectetur adipisicing elit. Ex ut quo possimus adipisci
+									distinctio alias voluptatum blanditiis laudantium.
 								</p>
 							</a>
 
 							<a
-								class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10"
+								class="block p-8 border border-gray-800 shadow-2xl transition rounded-xl hover:shadow-teal-500 hover:border-teal-500"
 								href="/services/digital-campaigns"
 							>
 								<svg
@@ -554,19 +562,19 @@
 									/>
 								</svg>
 
-								<h3 class="mt-4 text-xl font-bold text-white">
+								<h3 class="mt-4 text-xl font-bold text-amber-300">
 									Digital campaigns
 								</h3>
 
-								<p class="mt-1 text-sm text-gray-300">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-									quo possimus adipisci distinctio alias voluptatum blanditiis
-									laudantium.
+								<p class="mt-1 text-sm">
+									This is Lorem ipsum place holder Text!!! dolor sit amet
+									consectetur adipisicing elit. Ex ut quo possimus adipisci
+									distinctio alias voluptatum blanditiis laudantium.
 								</p>
 							</a>
 
 							<a
-								class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10"
+								class="block p-8 border border-gray-800 shadow-2xl transition rounded-xl hover:shadow-teal-500 hover:border-teal-500"
 								href="/services/digital-campaigns"
 							>
 								<svg
@@ -588,19 +596,19 @@
 									/>
 								</svg>
 
-								<h3 class="mt-4 text-xl font-bold text-white">
+								<h3 class="mt-4 text-xl font-bold text-amber-300">
 									Digital campaigns
 								</h3>
 
-								<p class="mt-1 text-sm text-gray-300">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-									quo possimus adipisci distinctio alias voluptatum blanditiis
-									laudantium.
+								<p class="mt-1 text-sm">
+									This is Lorem ipsum place holder Text!!! dolor sit amet
+									consectetur adipisicing elit. Ex ut quo possimus adipisci
+									distinctio alias voluptatum blanditiis laudantium.
 								</p>
 							</a>
 
 							<a
-								class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10"
+								class="block p-8 border border-gray-800 shadow-2xl transition rounded-xl hover:shadow-teal-500 hover:border-teal-500"
 								href="/services/digital-campaigns"
 							>
 								<svg
@@ -622,19 +630,19 @@
 									/>
 								</svg>
 
-								<h3 class="mt-4 text-xl font-bold text-white">
+								<h3 class="mt-4 text-xl font-bold text-amber-300">
 									Digital campaigns
 								</h3>
 
-								<p class="mt-1 text-sm text-gray-300">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-									quo possimus adipisci distinctio alias voluptatum blanditiis
-									laudantium.
+								<p class="mt-1 text-sm">
+									This is Lorem ipsum place holder Text!!! dolor sit amet
+									consectetur adipisicing elit. Ex ut quo possimus adipisci
+									distinctio alias voluptatum blanditiis laudantium.
 								</p>
 							</a>
 
 							<a
-								class="block p-8 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10"
+								class="block p-8 border border-gray-800 shadow-2xl transition rounded-xl hover:shadow-teal-500 hover:border-teal-500"
 								href="/services/digital-campaigns"
 							>
 								<svg
@@ -656,14 +664,14 @@
 									/>
 								</svg>
 
-								<h3 class="mt-4 text-xl font-bold text-white">
+								<h3 class="mt-4 text-xl font-bold text-amber-300">
 									Digital campaigns
 								</h3>
 
-								<p class="mt-1 text-sm text-gray-300">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-									quo possimus adipisci distinctio alias voluptatum blanditiis
-									laudantium.
+								<p class="mt-1 text-sm">
+									This is Lorem ipsum place holder Text!!! dolor sit amet
+									consectetur adipisicing elit. Ex ut quo possimus adipisci
+									distinctio alias voluptatum blanditiis laudantium.
 								</p>
 							</a>
 						</div>
@@ -695,9 +703,8 @@
 					</div>
 				</section>
 
-				<ContactUs />
+				<Contact_Us />
 			</div>
 		</section>
 	</main>
-	<!-- <Footer /> -->
 </div>

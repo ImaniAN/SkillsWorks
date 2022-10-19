@@ -13,7 +13,7 @@
 			</p>
 			<!--START:()-->
 			<div
-				class="flex mx-auto border-2 border-teal-500 rounded overflow-hidden mt-6"
+				class="flex mx-auto border-2 border-amber-500 rounded overflow-hidden mt-6"
 			>
 				<button
 					class="py-1 px-4 bg-emerald-500 text-slate-200 focus:outline-none"
@@ -100,7 +100,7 @@
 			<div class="p-4 xl:w-1/3 md:w-1/2 w-full">
 				<!--START:()-->
 				<div
-					class="h-full p-6 rounded-lg border-2 border-teal-500 flex flex-col relative overflow-hidden"
+					class="h-full p-6 rounded-lg border-2 border-amber-500 flex flex-col relative overflow-hidden"
 				>
 					<span
 						class="bg-emerald-500 text-indigo-50 px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
@@ -288,7 +288,7 @@
 							>
 								<path d="M20 6L9 17l-5-5" />
 							</svg>
-						</span>Lorem ipsum pitchfork
+						</span>This is Lorem ipsum place holder Text!!! pitchfork
 					</p>
 					<p class="flex items-start text-slate-600 mb-6">
 						<span

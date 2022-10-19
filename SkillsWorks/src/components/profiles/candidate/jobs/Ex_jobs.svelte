@@ -1,10 +1,10 @@
 <script>
 	// @ts-ignore
-	import Free_tab from '../../ui/Sub_pills/Free.svelte'; //Updated
+	import Applied_tab from '../../ui/Sub_pills/Applied.svelte'; //Updated
 	import In_arrers_tab from '../../ui/Sub_pills/In_arrers.svelte'; //Updated
-	import Premium_tab from '../../ui/Sub_pills/Premium.svelte'; //Updated
-	import Pro_tab from '../../ui/Sub_pills/Pro.svelte'; //Updated
-	import Unvalidated_tab from '../../ui/Sub_pills/Unvalidated.svelte'; //Updated
+	import Liked_tab from '../../ui/Sub_pills/Liked.svelte'; //Updated
+	import Easy_apply_tab from '../../ui/Sub_pills/Easy_apply.svelte'; //Updated
+	import Recommended_tab from '../../ui/Sub_pills/Recommended.svelte'; //Updated
 	import Preview_tab from '../../ui/Sub_pills/Preview.svelte'; //Updated
 	import Search_Input from '../../../comps/Form Inputs/Search_input.svelte';
 </script>
@@ -20,6 +20,7 @@
 			<!--START:()-->
 			<div class="text-end">
 				<form
+					method="post"
 					class="flex flex-col md:flex-row w-4/5 md:w-full md:space-x-3 space-y-3 md:space-y-0 justify-center"
 				>
 					<!--START:()-->
@@ -28,7 +29,7 @@
 							<span class="label-text">Hide Free Subscriptions</span>
 							<input
 								type="checkbox"
-								class=" bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+								class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 								checked
 							/>
 						</label>
@@ -66,7 +67,7 @@
 							<th
 								scope="col"
 								class="px-5 py-3 bg-indigo-50 border-b border-teal-400 text-slate-800 text-left text-sm uppercase font-normal"
-								>Date Subscribed
+								>Date Applied
 							</th>
 							<th
 								scope="col"
@@ -88,7 +89,6 @@
 								<div class="flex items-center">
 									<!--START:()-->
 									<div class="flex-shrink-0">
-										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
@@ -123,8 +123,8 @@
 							<td
 								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
-								<Free_tab />
-								<Unvalidated_tab />
+								<Easy_apply_tab />
+								<Recommended_tab />
 							</td>
 							<td
 								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
@@ -141,6 +141,55 @@
 									<!--START:()-->
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
+										<a href="#" class="block relative">
+											<img
+												alt="profil"
+												src="https://dummyimage.com/305x305"
+												class="mx-auto object-cover rounded-full h-10 w-10 "
+											/>
+										</a>
+									</div>
+									<!--END:()-->
+
+									<!--START:()-->
+									<div class="ml-3">
+										<p class="text-slate-900 whitespace-no-wrap">
+											Some position in HR1
+										</p>
+									</div>
+									<!--END:()-->
+								</div>
+								<!--END:()-->
+							</td>
+							<td
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
+							>
+								<p class="text-slate-900 whitespace-no-wrap">Company0</p>
+							</td>
+							<td
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
+							>
+								<p class="text-slate-900 whitespace-no-wrap">01/11/2072</p>
+							</td>
+							<td
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
+							>
+								<Applied_tab />
+							</td>
+							<td
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
+							>
+								<Preview_tab />
+							</td>
+						</tr>
+						<tr>
+							<td
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
+							>
+								<!--START:()-->
+								<div class="flex items-center">
+									<!--START:()-->
+									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
@@ -175,8 +224,7 @@
 							<td
 								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
-								<Pro_tab />
-								<In_arrers_tab />
+								<Easy_apply_tab />
 							</td>
 							<td
 								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
@@ -192,7 +240,6 @@
 								<div class="flex items-center">
 									<!--START:()-->
 									<div class="flex-shrink-0">
-										<!-- svelte-ignore a11y-invalid-attribute -->
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
@@ -227,7 +274,9 @@
 							<td
 								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
-								<Premium_tab />
+								<Liked_tab />
+								<Easy_apply_tab />
+								<Recommended_tab />
 							</td>
 							<td
 								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"

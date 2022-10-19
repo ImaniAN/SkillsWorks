@@ -1,5 +1,5 @@
 <label for="form-spoken-languages" class="block text-sm font-medium text-slate-700"
-	>South African languages I am fluent in</label
+	>South African languages spoken </label
 >
 <select
 	placeholder="Click..."

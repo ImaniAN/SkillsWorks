@@ -209,7 +209,7 @@
 									<span class="sm:ml-3">
 										<button
 											type="button"
-											class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-50 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+											class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-50 bg-indigo-500 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 										>
 											<!-- Heroicon name: solid/check -->
 											<svg
@@ -336,7 +336,7 @@
 											<!--START:()-->
 											<div class="px-4 py-5 bg-indigo-50 space-y-6 sm:p-6">
 												<!--START:()-->
-												<form action="#" method="POST">
+												<form method="post" action="#" name="" id="">
 													<!--TODO:FIX THIS FUCKING single/double FORM PROBLEM wtf-->
 													<div class="grid grid-cols-6 gap-6">
 														<!-- here -->
@@ -515,7 +515,7 @@
 															placeholder=""
 															name="qualfication-name"
 															id="qualfication-name"
-															class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
+															class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-4 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
 														/>
 													</div>
 													<!--END:()-->
@@ -531,7 +531,7 @@
 															type="number"
 															id="quantity"
 															name="quantity"
-															class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-2 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
+															class="mt-1 rounded-lg flex-1 appearance-none border-2 border-teal-400 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 text-base focus:ring-indigo-600 focus:border-transparent shadow focus:outline-none focus:ring"
 															min="18"
 															max="65"
 														/>
@@ -638,7 +638,7 @@
 
 									<!--START:()-->
 									<div class="mt-5 md:mt-0 md:col-span-2">
-										<form action="#" method="POST">
+										<form method="post" action="#" name="" id="">
 											<!--START:()-->
 											<div class="shadow overflow-hidden sm:rounded-md">
 												<!--START:()-->
@@ -709,7 +709,7 @@
 
 									<!--START:()-->
 									<div class="mt-5 md:mt-0 md:col-span-2">
-										<form action="#" method="POST">
+										<form method="post" action="#" name="" id="">
 											<!--START:()-->
 											<div class="shadow overflow-hidden sm:rounded-md">
 												<!--START:()-->

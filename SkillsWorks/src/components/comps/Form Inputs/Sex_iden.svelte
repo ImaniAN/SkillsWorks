@@ -12,6 +12,7 @@
 	<option value="" disabled selected hidden>Optional...</option>
 	<option>Male</option>
 	<option>Female</option>
-	<option>Not listed above</option>
 	<option>Choose to not identify</option>
+	<option>Other</option>
+	<option>Not listed above</option>
 </select>

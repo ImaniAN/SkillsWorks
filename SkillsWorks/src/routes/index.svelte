@@ -1,62 +1,13 @@
 <!-- This comp is for showing the index/home/base url/ aka index0 -->
 <script>
-	// import Sign_up_form from '../components/onboarding/Sign_up_form.svelte';
-	// import Log_in_form from '../components/onboarding/Log_in_form.svelte';
 	import Landing from '../components/onboarding/Landing.svelte';
-	// import Category_filters from '../components/comps/extras/Category_filters.svelte';
-	// import Navbar from '../components/comps/Navbar.svelte';
-	// import Faq from '../components/about_us/Faq.svelte';
-	// import Footer from '../components/comps/Footer.svelte';
-	// import Menu from '../components/comps/extras/Menu.svelte';
-	// import Reviews from '../components/comps/extras/Reviews.svelte';
-	// import Full_side_nav from '../components/comps/extras/Full_side_nav.svelte';
-	// import Tab_pills from '../components/comps/extras/Tab_pills.svelte';
-	// import Testimonial from '../components/comps/extras/Testimonial.svelte';
-	// import Pop_cart from '../components/comps/extras/Pop_cart.svelte';
-	// import Sub_plan_card from '../components/comps/extras/Sub_plan_card.svelte';
-	// import Grouped_buttons from '../components/comps/extras/Grouped_buttons.svelte';
-	// import Dropdown from '../components/comps/extras/Dropdown.svelte';
-	// import Empty_state from '../components/comps/extras/Empty_state.svelte';
-	// import Nav_search from '../components/profiles/ui/Nav_search.svelte';
-	// import Inputs from '../components/comps/extras/Inputs.svelte';
-	// import Pagination from '../components/comps/extras/Pagination.svelte';
-	// import Nav_side_small from '../components/profiles/ui/Nav_side_small.svelte';
-	// import Nav_side from '../components/profiles/ui/Nav_side.svelte';
-	// import Accordion_menu from '../components/comps/extras/menus/Accordion_menu.svelte';
-	// import Split_with_headings from '../components/comps/extras/menus/Split_with_headings.svelte';
-	// import Branded_accent from '../components/comps/extras/menus/Branded_accent.svelte';
+	import Scroll_to_top from '../components/comps/mock/Scroll_to_top.svelte';
 </script>
 
-<main>
-	<h1
-		class="text-red-700 container mx-auto my-6 max-w-lg text-2xl font-bold text-center md:text-3xl"
-	>
-		SkillsWorkZ!
-	</h1>
-	<!-- <Sign_up_form /> -->
-	<!-- <Log_in_form /> -->
-	<!-- <Navbar /> -->
-	<!-- <Faq /> -->
-	<!-- <Footer /> -->
+<main class="">
+	<div class="flex justify-center items-center">
+		<img class="h-60 w-60" src="/SkillsWorkZ.svg" alt="Your Company" />
+	</div>
 	<Landing />
-	<!-- <Category_filters /> -->
-	<!-- <Menu /> -->
-	<!-- <Full_side_nav /> -->
-	<!-- <Reviews /> -->
-	<!-- <Tab_pills /> -->
-	<!-- <Testimonial /> -->
-	<!-- <Pop_cart /> -->
-	<!-- <Sub_plan_card /> -->
-	<!-- <Grouped_buttons /> -->
-	<!-- <Dropdown /> -->
-	<!-- <Empty_state /> -->
-	<!-- <Nav_search /> -->
-	<!-- <Inputs /> -->
-	<!-- <Pagination /> -->
-	<!-- <Nav_side_small /> -->
-	<!-- <Nav_side /> -->
-	<!-- svelte-ignore a11y-invalid-attribute -->
-	<!-- <accordion_menu /> -->
-	<!-- <Split_with_headings /> -->
-	<!-- <Branded_accent /> -->
+	<Scroll_to_top />
 </main>

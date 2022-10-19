@@ -70,7 +70,7 @@
 				<div class="flex">
 					<!--START:()-->
 					<div class="w-full md:w-1/2 px-0.5 mb-6 md:mb-0">
-						<form action="#" method="get" target="_blank">
+						<form method="post" action="#" name="" id="">
 							<button
 								type="submit"
 								class="w-full flex items-center justify-center bg-red-500 hover:bg-red-400 text-slate-100 p-3 rounded-full tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
@@ -93,7 +93,7 @@
 
 					<!--START:()-->
 					<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-						<form action="#" method="get" target="_blank">
+						<form method="post" action="#" name="" id="">
 							<button
 								type="submit"
 								class="w-full flex items-center justify-center bg-blue-600 hover:bg-blue-500 text-slate-100 p-3 rounded-full tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
@@ -127,7 +127,7 @@
 				</div>
 				<!--END:()-->
 
-				<form class="w-full max-w-lg" name="form" action="#" method="post">
+				<form method="post" class="w-full max-w-lg" action="#" name="" id="">
 					<!--START:()-->
 					<div class="flex flex-wrap -mx-3 mb-4">
 						<!--START:()-->
@@ -208,7 +208,7 @@
 								required
 								id="customCheckLogin"
 								type="checkbox"
-								class=" bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+								class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 							/>
 							<span class="ml-2 text-sm px-2 font-semibold text-slate-600">
 								I agree with the

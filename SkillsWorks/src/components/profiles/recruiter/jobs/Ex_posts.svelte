@@ -1,9 +1,9 @@
 <script>
 	// @ts-ignore
-	import Free_tab from '../../ui/Sub_pills/Free.svelte'; //Updated
+	import Open_tab from '../../ui/Sub_pills/Open_tab.svelte'; //Updated
 	import Post_closed_tab from '../../ui/Sub_pills/Post_closed.svelte'; //Updated
 	import Interview_tab from '../../ui/Sub_pills/Interview.svelte'; //Updated
-	import Pro_tab from '../../ui/Sub_pills/Pro.svelte'; //Updated
+	import Draft_tab from '../../ui/Sub_pills/Draft_tab.svelte'; //Updated
 	import In_progress_tab from '../../ui/Sub_pills/In_progress.svelte'; //Updated
 	import Preview_tab from '../../ui/Sub_pills/Preview.svelte'; //Updated
 	import Search_Input from '../../../comps/Form Inputs/Search_input.svelte';
@@ -20,6 +20,7 @@
 			<!--START:()-->
 			<div class="text-end">
 				<form
+					method="post"
 					class="flex flex-col md:flex-row w-4/5 md:w-full md:space-x-3 space-y-3 md:space-y-0 justify-center"
 				>
 					<!--START:()-->
@@ -28,7 +29,7 @@
 							<span class="label-text">Hide Closed Posts</span>
 							<input
 								type="checkbox"
-								class=" bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+								class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 								checked
 							/>
 						</label>
@@ -89,6 +90,55 @@
 									<!--START:()-->
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
+										<a href="#" class="block relative">
+											<img
+												alt="profil"
+												src="https://dummyimage.com/305x305"
+												class="mx-auto object-cover rounded-full h-10 w-10 "
+											/>
+										</a>
+									</div>
+									<!--END:()-->
+
+									<!--START:()-->
+									<div class="ml-3">
+										<p class="text-slate-900 whitespace-no-wrap">
+											Some position Applied4_x
+										</p>
+									</div>
+									<!--END:()-->
+								</div>
+								<!--END:()-->
+							</td>
+							<td
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
+							>
+								<p class="text-slate-900 whitespace-no-wrap">Company0</p>
+							</td>
+							<td
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
+							>
+								<p class="text-slate-900 whitespace-no-wrap">01/11/2072</p>
+							</td>
+							<td
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
+							>
+								<Draft_tab />
+							</td>
+							<td
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
+							>
+								<Preview_tab />
+							</td>
+						</tr>
+						<tr>
+							<td
+								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
+							>
+								<!--START:()-->
+								<div class="flex items-center">
+									<!--START:()-->
+									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
@@ -141,7 +191,6 @@
 									<!--START:()-->
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
-										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
 												alt="profil"
@@ -155,7 +204,7 @@
 									<!--START:()-->
 									<div class="ml-3">
 										<p class="text-slate-900 whitespace-no-wrap">
-											Some position Applied4_3
+											Some position Applied4_2
 										</p>
 									</div>
 									<!--END:()-->
@@ -192,7 +241,6 @@
 									<!--START:()-->
 									<div class="flex-shrink-0">
 										<!-- svelte-ignore a11y-invalid-attribute -->
-										<!-- svelte-ignore a11y-invalid-attribute -->
 										<a href="#" class="block relative">
 											<img
 												alt="profil"
@@ -206,7 +254,7 @@
 									<!--START:()-->
 									<div class="ml-3">
 										<p class="text-slate-900 whitespace-no-wrap">
-											Some position Applied4_2
+											Some position Applied4_3
 										</p>
 									</div>
 									<!--END:()-->
@@ -226,7 +274,7 @@
 							<td
 								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
 							>
-								<Interview_tab />
+								<Open_tab />
 							</td>
 							<td
 								class="px-5 py-5 border-b border-teal-400 bg-indigo-50 text-sm"
