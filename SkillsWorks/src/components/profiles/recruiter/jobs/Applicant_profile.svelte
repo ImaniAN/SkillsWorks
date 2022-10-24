@@ -21,8 +21,8 @@
 			<div
 				class="bg-slate-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 			>
-				<dt class="text-sm font-medium text-slate-600">Full name</dt>
-				<dd class="mt-1 text-sm text-slate-900 sm:col-span-2 sm:mt-0">
+				<dt class="text-base font-medium text-slate-600">Full name</dt>
+				<dd class="mt-1 text-base text-slate-900 sm:col-span-2 sm:mt-0">
 					Margot Foster
 				</dd>
 			</div>
@@ -31,8 +31,8 @@
 			<div
 				class="bg-indigo-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 			>
-				<dt class="text-sm font-medium text-slate-600">Application for</dt>
-				<dd class="mt-1 text-sm text-slate-900 sm:col-span-2 sm:mt-0">
+				<dt class="text-base font-medium text-slate-600">Application for</dt>
+				<dd class="mt-1 text-base text-slate-900 sm:col-span-2 sm:mt-0">
 					Backend Developer
 				</dd>
 			</div>
@@ -41,8 +41,8 @@
 			<div
 				class="bg-slate-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 			>
-				<dt class="text-sm font-medium text-slate-600">Email address</dt>
-				<dd class="mt-1 text-sm text-slate-900 sm:col-span-2 sm:mt-0">
+				<dt class="text-base font-medium text-slate-600">Email address</dt>
+				<dd class="mt-1 text-base text-slate-900 sm:col-span-2 sm:mt-0">
 					YourEmail@example.com
 				</dd>
 			</div>
@@ -51,8 +51,8 @@
 			<div
 				class="bg-indigo-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 			>
-				<dt class="text-sm font-medium text-slate-600">Salary expectation</dt>
-				<dd class="mt-1 text-sm text-slate-900 sm:col-span-2 sm:mt-0">
+				<dt class="text-base font-medium text-slate-600">Salary expectation</dt>
+				<dd class="mt-1 text-base text-slate-900 sm:col-span-2 sm:mt-0">
 					R120,000
 				</dd>
 			</div>
@@ -61,8 +61,8 @@
 			<div
 				class="bg-slate-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 			>
-				<dt class="text-sm font-medium text-slate-600">About</dt>
-				<dd class="mt-1 text-sm text-slate-900 sm:col-span-2 sm:mt-0">
+				<dt class="text-base font-medium text-slate-600">About</dt>
+				<dd class="mt-1 text-base text-slate-900 sm:col-span-2 sm:mt-0">
 					Fugiat ipsum ipsum deserunt culpa aute sint do nostrud anim incididunt
 					cillum culpa consequat. Excepteur qui ipsum aliquip consequat sint.
 					Sit id mollit nulla mollit nostrud in ea officia proident. Irure
@@ -74,8 +74,8 @@
 			<div
 				class="bg-indigo-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
 			>
-				<dt class="text-sm font-medium text-slate-600">Attachments</dt>
-				<dd class="mt-1 text-sm text-slate-900 sm:col-span-2 sm:mt-0">
+				<dt class="text-base font-medium text-slate-600">Attachments</dt>
+				<dd class="mt-1 text-base text-slate-900 sm:col-span-2 sm:mt-0">
 					<!-- svelte-ignore a11y-no-redundant-roles -->
 					<ul
 						role=""
@@ -100,7 +100,7 @@
 										clip-rule="evenodd"
 									/>
 								</svg>
-								<span class="ml-2 w-0 flex-1 truncate"
+								<span class="ml-2 w-0 flex-1 truncate text-base"
 									>coverletter_back_end_developer.pdf</span
 								>
 							</div>
@@ -110,7 +110,7 @@
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a
 									href="#"
-									class="font-medium text-indigo-600 hover:text-indigo-500"
+									class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 									>Download</a
 								>
 							</div>
@@ -134,7 +134,7 @@
 										clip-rule="evenodd"
 									/>
 								</svg>
-								<span class="ml-2 w-0 flex-1 truncate"
+								<span class="ml-2 w-0 flex-1 truncate text-base"
 									>resume_back_end_developer.pdf</span
 								>
 							</div>
@@ -144,7 +144,7 @@
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a
 									href="#"
-									class="font-medium text-indigo-600 hover:text-indigo-500"
+									class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 									>Download</a
 								>
 							</div>
@@ -168,7 +168,7 @@
 										clip-rule="evenodd"
 									/>
 								</svg>
-								<span class="ml-2 w-0 flex-1 truncate"
+								<span class="ml-2 w-0 flex-1 truncate text-base"
 									>coverletter_back_end_developer.pdf</span
 								>
 							</div>
@@ -178,7 +178,7 @@
 								<!-- svelte-ignore a11y-invalid-attribute -->
 								<a
 									href="#"
-									class="font-medium text-indigo-600 hover:text-indigo-500"
+									class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-slate-600 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 									>Download</a
 								>
 							</div>

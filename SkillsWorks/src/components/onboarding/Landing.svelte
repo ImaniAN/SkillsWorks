@@ -220,7 +220,7 @@
 		<div class="">
 			<!-- Replace with your content -->
 			<!--START:()-->
-			<div class="container mx-auto border-2 border-dashed border-red-700">
+			<div class="w-10/12 mx-auto border-2 border-dashed border-red-700">
 				<svelte:component this={selectedPage.component} />
 				<!--END:()-->
 			</div>

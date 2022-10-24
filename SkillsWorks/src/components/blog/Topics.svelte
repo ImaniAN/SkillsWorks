@@ -1,4 +1,4 @@
-<section class="w-full">
+<section class="bg-indigo-50 w-full">
 	<!--START:()-->
 	<div class="px-4 py-12 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
 		<!--START:()-->
@@ -34,7 +34,11 @@
 						action=""
 						class="border-t border-gray-200 lg:border-t-0"
 					>
-						<fieldset name="" id="" form="">
+						<fieldset
+							name="blog-type-fieldset"
+							id="blog-type-fieldset"
+							form="search-filter"
+						>
 							<legend
 								class="block w-full px-5 py-3 text-xs font-medium bg-gray-50"
 							>
@@ -89,7 +93,7 @@
 								<div class="pt-2">
 									<button
 										type="reset"
-										for=""
+										for="blog-type-fieldset"
 										class="text-xs text-gray-500 underline"
 									>
 										Reset Type
@@ -100,7 +104,11 @@
 
 						<!--START:()-->
 						<div>
-							<fieldset>
+							<fieldset
+								name="age-fieldset"
+								id="age-fieldset"
+								form="search-filter"
+							>
 								<legend
 									class="block w-full px-5 py-3 text-xs font-medium bg-gray-50"
 								>
@@ -169,6 +177,7 @@
 									<div class="pt-2">
 										<button
 											type="reset"
+											for="age-fieldset"
 											class="text-xs text-gray-500 underline"
 										>
 											Reset Age
@@ -184,8 +193,7 @@
 						>
 							<button
 								for="search-filter"
-								name="reset"
-								type="button"
+								type="reset"
 								class="text-xs font-medium text-gray-600 underline rounded"
 							>
 								Reset All
