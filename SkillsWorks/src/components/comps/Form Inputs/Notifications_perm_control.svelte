@@ -119,7 +119,7 @@
 					name="form-push-notifications"
 					type="radio"
 					checked
-					class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
+					class=" bg-red-200 focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 				/>
 				<label
 					for="form-push-notifications"
@@ -136,7 +136,7 @@
 					id="form-push-notifications"
 					name="form-push-notifications"
 					type="radio"
-					class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
+					class=" bg-red-200 focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 				/>
 				<label
 					for="form-push-notifications"
@@ -153,7 +153,7 @@
 					id="form-push-notifications"
 					name="form-push-notifications"
 					type="radio"
-					class="focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
+					class=" bg-red-200 focus:ring-indigo-500 h-4 w-4 text-teal-400 border-2 border-teal-400 border-dashed ease-linear transition-all duration-150"
 				/>
 				<label
 					for="form-push-notifications"

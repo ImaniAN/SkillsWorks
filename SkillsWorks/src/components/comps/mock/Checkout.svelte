@@ -203,7 +203,7 @@
 									<label class="sr-only" for="card-number">Card Number</label>
 
 									<input
-										class="border-teal-400 relative rounded-t-lg w-full focus:z-10 text-sm p-2.5 placeholder-slate-400"
+										class="border-teal-400 relative rounded-t-lg w-full focus:z-10 text-sm p-2.5 placeholder-amber-500"
 										type="text"
 										name="card-number"
 										id="card-number"
@@ -221,7 +221,7 @@
 										</label>
 
 										<input
-											class="border-teal-400 relative rounded-bl-lg w-full focus:z-10 text-sm p-2.5 placeholder-slate-400"
+											class="border-teal-400 relative rounded-bl-lg w-full focus:z-10 text-sm p-2.5 placeholder-amber-500"
 											type="text"
 											name="card-expiration-date"
 											id="card-expiration-date"
@@ -235,7 +235,7 @@
 										<label class="sr-only" for="card-cvc">CVC</label>
 
 										<input
-											class="border-teal-400 relative rounded-br-lg w-full focus:z-10 text-sm p-2.5 placeholder-slate-400"
+											class="border-teal-400 relative rounded-br-lg w-full focus:z-10 text-sm p-2.5 placeholder-amber-500"
 											type="text"
 											name="card-cvc"
 											id="card-cvc"
@@ -282,7 +282,7 @@
 									</label>
 
 									<input
-										class="border-teal-400 relative rounded-b-lg w-full focus:z-10 text-sm p-2.5 placeholder-slate-400"
+										class="border-teal-400 relative rounded-b-lg w-full focus:z-10 text-sm p-2.5 placeholder-amber-500"
 										type="text"
 										name="postal-code"
 										id="postal-code"

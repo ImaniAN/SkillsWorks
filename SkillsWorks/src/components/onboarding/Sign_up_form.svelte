@@ -73,7 +73,7 @@
 						<form method="post" action="#" name="" id="">
 							<button
 								type="submit"
-								class="w-full flex items-center justify-center bg-red-500 hover:bg-red-400 text-slate-100 p-3 rounded-full tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
+								class="w-full flex items-center justify-center bg-red-500 hover:bg-red-900 text-slate-100 p-3 rounded-full tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
 							>
 								Google
 								<svg
@@ -96,7 +96,7 @@
 						<form method="post" action="#" name="" id="">
 							<button
 								type="submit"
-								class="w-full flex items-center justify-center bg-blue-600 hover:bg-blue-500 text-slate-100 p-3 rounded-full tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
+								class="w-full flex items-center justify-center bg-blue-500 hover:bg-blue-900 text-slate-100 p-3 rounded-full tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
 							>
 								Facebook
 								<svg

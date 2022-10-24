@@ -125,7 +125,7 @@
 								First Name
 							</label>
 							<input
-								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-4 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-4 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-amber-500"
 								id="grid-first-name"
 								type="text"
 								placeholder="Jane"
@@ -142,7 +142,7 @@
 								Last Name
 							</label>
 							<input
-								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-4 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-4 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-amber-500"
 								id="grid-last-name"
 								type="text"
 								placeholder="Doe"
@@ -163,7 +163,7 @@
 								Email
 							</label>
 							<input
-								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-4 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-4 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-amber-500"
 								id="grid-email"
 								type="email"
 								placeholder="Your email (example@gmail.com)"
@@ -186,7 +186,7 @@
 								Password
 							</label>
 							<input
-								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-4 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-4 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-amber-500"
 								id="grid-password"
 								type="password"
 								name="password"
@@ -209,7 +209,7 @@
 								City
 							</label>
 							<input
-								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-4 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-4 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-amber-500"
 								id="grid-city"
 								type="text"
 								placeholder="Wakanda"
@@ -228,7 +228,7 @@
 							<!--START:()-->
 							<div class="relative">
 								<select
-									class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-4 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
+									class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-4 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-amber-500"
 									id="province"
 								>
 									<option value="" disabled selected hidden>Select...</option>
@@ -263,7 +263,7 @@
 								Zip
 							</label>
 							<input
-								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-4 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
+								class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-4 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-amber-500"
 								id="grid-zip"
 								type="text"
 								placeholder="xxxx"

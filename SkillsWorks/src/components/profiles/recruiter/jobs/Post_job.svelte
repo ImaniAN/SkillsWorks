@@ -515,7 +515,7 @@
 															placeholder=""
 															name="qualfication-name"
 															id="qualfication-name"
-															class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-4 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-slate-400"
+															class="pt-3 pb-2 block w-full px-0 mt-0 bg-transparent border-0 border-b-4 appearance-none focus:outline-none focus:ring-0 focus:border-indigo-600 border-teal-400 bg-indigo-50 text-slate-700 placeholder-amber-500"
 														/>
 													</div>
 													<!--END:()-->
@@ -531,7 +531,7 @@
 															type="number"
 															id="quantity"
 															name="quantity"
-															class="mt-1 rounded-lg flex-1 appearance-none border-2 border-teal-400 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-slate-400 text-base focus:ring-indigo-600 focus:border-transparent shadow focus:outline-none focus:ring"
+															class="mt-1 rounded-lg flex-1 appearance-none border-2 border-teal-400 border-dashed w-full py-2 px-4 bg-indigo-50 text-slate-700 placeholder-amber-500 text-base focus:ring-indigo-600 focus:border-transparent shadow focus:outline-none focus:ring"
 															min="18"
 															max="65"
 														/>

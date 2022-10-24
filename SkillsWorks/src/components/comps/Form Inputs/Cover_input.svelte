@@ -53,5 +53,12 @@
 		Eish sohn... There is nothing here...
 	</div>
 	<!--END:()-->
+	<!--START:()-->
+	<div
+		class="mt-1 text-center cursor-pointer flex font-medium text-amber-500 hover:text-amber-700 justify-center px-1 py-1 border-2 border-teal-400 border-dashed rounded-md"
+	>
+		Click here to Preview your uploaded document...
+	</div>
+	<!--END:()-->
 </div>
 <!--END:()-->
