@@ -191,7 +191,7 @@
 								type="password"
 								name="password"
 								required
-								placeholder="******************"
+								placeholder="Please enter password"
 							/>
 						</div>
 						<!--END:()-->

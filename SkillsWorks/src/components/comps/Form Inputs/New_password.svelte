@@ -13,5 +13,5 @@
 	name="new-password"
 	autocomplete="new-password"
 	required
-	placeholder="******************"
+	placeholder="Please enter password"
 />

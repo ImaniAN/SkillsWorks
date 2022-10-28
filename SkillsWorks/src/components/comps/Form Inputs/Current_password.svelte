@@ -12,5 +12,5 @@
 	name="form-current-password"
 	autocomplete="current-password"
 	required
-	placeholder="******************"
+	placeholder="Please enter password"
 />

@@ -34,6 +34,8 @@
 <!-- component -->
 <style>
 	/*remove custom style*/
+
+
 	.squares {
 		position: absolute;
 		top: 0;
