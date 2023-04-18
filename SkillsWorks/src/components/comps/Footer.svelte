@@ -11,7 +11,7 @@
 			<!-- svelte-ignore a11y-invalid-attribute -->
 
 			<a
-				class="inline-flex items-center px-8 py-3 text-indigo-600 bg-indigo-50 border border-white rounded-full hover:bg-transparent hover:text-slate-900 active:bg-indigo-50/90 focus:outline-none focus:ring"
+				class="inline-flex items-center px-8 py-3 text-indigo-600 bg-indigo-50 border border-white rounded-full hover:bg-teal-600 hover:text-slate-900 active:bg-indigo-50/90 focus:outline-none focus:ring"
 				href="#"
 			>
 				<span class="text-sm font-medium"> Let's Get Started </span>
@@ -38,7 +38,7 @@
 		<div class="grid grid-cols-1 gap-8 mt-16 sm:grid-cols-2 lg:grid-cols-4">
 			<!--START:()-->
 			<div class="text-center sm:text-left">
-				<p class="text-lg font-medium text-slate-900">About Us</p>
+				<p class="text-lg font-medium text-teal-600">About Us</p>
 
 				<nav class="mt-8">
 					<ul class="space-y-4 text-sm">
@@ -92,7 +92,7 @@
 
 			<!--START:()-->
 			<div class="text-center sm:text-left">
-				<p class="text-lg font-medium text-slate-900">Our Services</p>
+				<p class="text-lg font-medium text-teal-600">Our Services</p>
 
 				<nav class="mt-8">
 					<ul class="space-y-4 text-sm">
@@ -146,7 +146,7 @@
 
 			<!--START:()-->
 			<div class="text-center sm:text-left">
-				<p class="text-lg font-medium text-slate-900">Resources</p>
+				<p class="text-lg font-medium text-teal-600">Resources</p>
 
 				<nav class="mt-8">
 					<ul class="space-y-4 text-sm">
@@ -211,7 +211,7 @@
 
 			<!--START:()-->
 			<div class="text-center sm:text-left">
-				<p class="text-lg font-medium text-slate-900">Helpful Links</p>
+				<p class="text-lg font-medium text-teal-600">Helpful Links</p>
 
 				<nav class="mt-8">
 					<ul class="space-y-4 text-sm">

@@ -34,7 +34,7 @@
 					<h1
 						class="text-center text-3xl tracking-tight font-bold text-slate-900"
 					>
-						Candidate profile (Name)
+						Recruiter profile (Name)
 					</h1>
 				</div>
 			</header>
@@ -62,7 +62,7 @@
 								<!--START:()-->
 								<div class="flex justify-center">
 									<!--START:()-->
-									<div class="px-8 py-4 border">
+									<div class="px-8 py-4 border bg-indigo-200 bg-opacity-40">
 										<!--START:()-->
 										<div class="lg:flex lg:items-center lg:justify-between">
 											<!--START:()-->
@@ -70,7 +70,7 @@
 												<h2
 													class="text-2xl font-bold leading-7 text-slate-900 sm:text-3xl sm:tracking-tight sm:truncate"
 												>
-													* Candidate Prefered Job Title* (e.g *CEO*)
+													* Recruiter Title* (e.g *FGS*)
 												</h2>
 												<!--START:()-->
 												<div
@@ -380,7 +380,7 @@
 																		</span>
 																		<button
 																			type="button"
-																			class="ml-5 bg-indigo-50 py-2 px-3 border-2 border-teal-400 border-dashed rounded-md shadow-sm text-sm leading-4 font-medium text-slate-700 hover:bg-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+																			class="ml-5 bg-indigo-50 py-2 px-3 border-2 border-teal-400 border-dashed rounded-md shadow-sm text-sm leading-4 font-medium text-slate-700 hover:bg-amber-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
 																			>Change</button
 																		>
 																	</div>
@@ -592,13 +592,11 @@
 										<!--END:()-->
 
 										<!--START: Red line shandis-->
-										<!--START:()-->
 										<Red_line />
-										<!--END:()-->
 										<!--END: Red line shandis-->
 
 										<!--START:()-->
-										<div class="">
+										<div class="mt-10 sm:mt-0">
 											<!--START:()-->
 											<div class="md:grid md:grid-cols-3 md:gap-6">
 												<!--START:()-->

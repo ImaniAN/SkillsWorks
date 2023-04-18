@@ -4,7 +4,7 @@
 </script>
 
 <!--START:()-->
-<div class="flex justify-center w-screen relative min-h-screen">
+<div class="flex justify-center relative min-h-screen">
 	<!--START:()-->
 	<div class="">
 		<Candi_info />
