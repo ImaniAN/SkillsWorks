@@ -48,6 +48,7 @@
 			"zignd.html-css-class-completion",
 			"xabikos.javascriptsnippets",
 			"zainchen.json",
+			"kiteco.kite",
 			"glenn2223.live-sass",
 			"tyriar.lorem-ipsum",
 			"yzhang.markdown-all-in-one",
@@ -80,7 +81,6 @@
 			"umoxfo.vscode-w3cvalidation",
 			"celianriboulet.webvalidator",
 			"formulahendry.auto-complete-tag",
-			"ecmel.vscode-html-css",
 			"ziyasal.vscode-open-in-github",
 			"quicktype.quicktype",
 			"ms-playwright.playwright",
@@ -90,7 +90,18 @@
 			"firsttris.vscode-jest-runner",
 			"mgmcdermott.vscode-language-babel",
 			"qufiwefefwoyn.inline-sql-syntax",
-			"cweijan.vscode-postgresql-client2"
+			"cweijan.vscode-postgresql-client2",
+			"adamvoss.vscode-languagetool-en",
+			"me-dutour-mathieu.vscode-firebase",
+			"toba.vsfire",
+			"jsayol.firebase-explorer",
+			"hasanakg.firebase-snippets",
+			"felipecaputo.git-project-manager",
+			"znck.grammarly",
+			"sidthesloth.html5-boilerplate",
+			"hwencc.html-tag-wrapper",
+			"adamvoss.vscode-languagetool",
+			"vscode-icons-team.vscode-icons"
 		]
 	}
 }
