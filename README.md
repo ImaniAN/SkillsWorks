@@ -226,7 +226,7 @@ Project Link: [https://github.com/ImaniAN](https://github.com/ImaniAN)
 [issues-shield]: https://img.shields.io/github/issues/ImaniAN/SkillsWorks.svg?style=for-the-badge
 [issues-url]: https://github.com/ImaniAN/SkillsWorks/issues
 [license-shield]: https://img.shields.io/github/license/ImaniAN/SkillsWorks.svg?style=for-the-badge
-[license-url]: https://github.com/ImaniAN/ImaniAN/blob/main/LICENSE.txt
+[license-url]: https://github.com/ImaniAN/SkillsWorks/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/imani-niyigena-04ab47136/
 [product-screenshot]: images/screenshot.png
