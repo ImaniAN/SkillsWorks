@@ -86,10 +86,11 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
+[![Tailwind][TailwindCSS]][Tailwind-url]
 
 [![Svelte][Svelte.dev]][Svelte-url]
 
-[![Tailwind][Tailwind]][Tailwind-url]
+[![Supabase][Supabase.com]][Supabase-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +113,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get a free API Key at [Supabase](https://supabase.com/)
 2. Clone the repo
 
    ```sh
@@ -225,5 +226,7 @@ Project Link: [https://github.com/ImaniAN](https://github.com/ImaniAN)
 [product-screenshot]: images/screenshot.png
 [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
 [Svelte-url]: https://svelte.dev/
-[Tailwind]: https://img.shields.io/badge/tailwind-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
+[TailwindCSS]:https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
 [Tailwind-url]: https://tailwindcss.com/
+[Supabase.com]:https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white
+[Supabase-url]:https://supabase.com/
