@@ -192,7 +192,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Imani Niyigena - [@king_niyigena](https://twitter.com/king_niyigena) - <<email@email_client.com>>
+Imani Niyigena - [@king_niyigena](https://twitter.com/king_niyigena) - <<imanix8@gmail.com>>
 
 Project Link: [https://github.com/ImaniAN](https://github.com/ImaniAN)
 
