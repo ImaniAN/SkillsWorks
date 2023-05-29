@@ -3,6 +3,7 @@
 	// @ts-ignore
 	import About_us from '../about_us/Aboutus.svelte';
 	import Accordion_menu from '../comps/menus/Accordion_menu.svelte';
+	import Search_menu from '../comps/menus/Search_menu.svelte';
 	import Dets_app from '../profiles/candidate/jobs/Dets_app.svelte';
 	import Applied_jobs from '../profiles/candidate/jobs/Ex_jobs.svelte';
 	import Rec_profile from '../profiles/recruiter/Recruiter.svelte';
@@ -61,6 +62,7 @@
 		{ name: 'Home', component: Intro },
 		{ name: 'Sign Up', component: Sign_up_form },
 		{ name: 'Log In', component: Sign_in_form },
+		{ name: 'Search Menu', component: Search_menu },
 		// { name: 'UI_Name', component: Import_name },
 		{ name: 'About Us', component: About_us },
 		// { name: 'Accordion_menu', component: Accordion_menu },
@@ -210,6 +212,12 @@
 						on:click={() => loadPage(webpages[2])}
 						class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-500 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 						>Log In</a
+					>
+					<!-- svelte-ignore a11y-missing-attribute -->
+					<a
+						on:click={() => loadPage(webpages[3])}
+						class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-500 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
+						>Search Menu</a
 					>
 				</form>
 			</div>
