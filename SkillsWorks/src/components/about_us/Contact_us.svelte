@@ -17,7 +17,7 @@
 			marginwidth="0"
 			title="map"
 			scrolling="no"
-			src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13848.000881670781!2d30.971514!3d-29.806538!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9895c79ea62c6f9d!2sFathom%20Growth%20Solutions!5e0!3m2!1sen!2sza!4v1661443191536!5m2!1sen!2sza"
+			src="https://goo.gl/maps/PWSnkq7GA6oy62A49"
 			allowfullscreen
 			loading="lazy"
 			referrerpolicy="no-referrer-when-downgrade"

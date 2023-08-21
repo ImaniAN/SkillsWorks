@@ -1,9 +1,9 @@
 <script>
 	// import * as animateScroll from 'svelte-scrollto';
 	// @ts-ignore
-	import About_us from '../4_About Us/0 Company Information/Aboutus.svelte';
-	import Accordion_menu from '../0_Home/comps/menus/Accordion_menu.svelte';
-	import Dets_app from '../1_Jobs/1 Browse Jobs/'; //'../profiles/candidate/jobs/Dets_app.svelte';
+	//import About_us from '../4_About Us/0 Company Information/Aboutus.svelte';
+	//import Accordion_menu from '../0_Home/comps/menus/Accordion_menu.svelte';
+	//import Dets_app from '../1_Jobs/1 Browse Jobs/'; //'../profiles/candidate/jobs/Dets_app.svelte';
 	import Applied_jobs from '../profiles/candidate/jobs/Ex_jobs.svelte';
 	import Rec_profile from '../profiles/recruiter/Recruiter.svelte';
 	import Int_questions from '../profiles/recruiter/jobs/Int_questions.svelte';
@@ -13,7 +13,7 @@
 	import Attempts from '../endeavors/Attempts.svelte';
 	import Attempts_copy from '../endeavors/Attempts copy.svelte';
 	import Blog from '../blog/Topics.svelte';
-	import Branded_accent from '../0_Home/comps/menus/Branded_accent.svelte';
+	//import Branded_accent from '../0_Home/comps/menus/Branded_accent.svelte';
 	import Candi_info from '../profiles/candidate/Candidate.svelte';
 	import Contact_validation from '../profiles/admin/analytics/Contact_validation.svelte';
 	import Contact_us from '../about_us/Contact_us.svelte';
@@ -26,11 +26,11 @@
 	import Empty_state from '../comps/mock/Empty_state.svelte';
 	import Faq from '../about_us/Faq.svelte';
 	import Footer from '../comps/Footer.svelte';
-	import Forgot from './Forgot.svelte';
+	//import Forgot from './Forgot.svelte';
 	import Full_side_nav from '../comps/mock/Full_side_nav.svelte';
 	import Grouped_buttons from '../comps/mock/Grouped_buttons.svelte';
 	import Inputs from '../comps/mock/Inputs.svelte';
-	import Intro from './Intro.svelte';
+	//import Intro from './Intro.svelte';
 	import Jobs_search from '../profiles/ui/Jobs_search.svelte';
 	import Menu from '../profiles/ui/F_Menu.svelte';
 	import Man_report from '../profiles/admin/analytics/Man_report.svelte';
@@ -45,24 +45,24 @@
 	import Pop_cart from '../comps/mock/Pop_cart.svelte';
 	import Resume_form from '../profiles/candidate/resume/Resume.svelte';
 	import Reviews from '../about_us/Reviews.svelte';
-	import Sign_in_form from './Sign_in_form.svelte';
+	//import Sign_in_form from './Sign_in_form.svelte';
 	import Signn from '../profiles/ui/Sign_register.svelte';
 	import Sign_up_form from '../onboarding/Sign_up_form.svelte';
 	import Sub_man from '../profiles/admin/analytics/Sub_man.svelte';
-	import Split_with_headings from '../0_Home/comps/menus/Split_with_headings.svelte';
+	//import Split_with_headings from '../0_Home/comps/menus/Split_with_headings.svelte';
 	import Sub_plan_card from '../comps/mock/Sub_plan_card.svelte';
 	import Tab_pills from '../comps/mock/pills_tabs/Tab_pills.svelte';
-	import SignInForm from './Sign_in_form.svelte';
+	//import SignInForm from './Sign_in_form.svelte';
 	import SignUpForm from '../onboarding/Sign_up_form.svelte';
 	import Search_Input from '../comps/Form Inputs/Search_input.svelte';
 	import Testimonial from '../about_us/Testimonial.svelte';
 
 	const webpages = [
-		{ name: 'Home', component: Intro },
+		//{ name: 'Home', component: Intro },
 		{ name: 'Sign Up', component: Sign_up_form },
-		{ name: 'Log In', component: Sign_in_form },
+		//{ name: 'Log In', component: Sign_in_form },
 		// { name: 'UI_Name', component: Import_name },
-		{ name: 'About Us', component: About_us },
+		//{ name: 'About Us', component: About_us },
 		// { name: 'Accordion_menu', component: Accordion_menu },
 		{ name: 'Applied Jobs', component: Applied_jobs },
 		{ name: 'Attempts', component: Attempts },
@@ -70,7 +70,7 @@
 		// { name: 'Attempts_copy', component: Attempts_copy },
 		{ name: 'Blog', component: Blog },
 		// { name: 'Branded_accent', component: Branded_accent },
-		{ name: 'Candidate info', component: Candi_info },
+		//{ name: 'Candidate info', component: Candi_info },
 		{ name: 'Contact_validation', component: Contact_validation },
 		{ name: 'Contact Us', component: Contact_us },
 		// { name: 'Dash_nav with banner kinda main', component: Dash_nav },
@@ -79,7 +79,7 @@
 		// { name: 'Empty_state', component: Empty_state },
 		{ name: 'Ex_posts', component: Ex_posts },
 		// { name: 'Faq', component: Faq },
-		{ name: 'Forgot', component: Forgot },
+		//{ name: 'Forgot', component: Forgot },
 		// { name: 'Full_side_nav', component: Full_side_nav },
 		// { name: 'Grouped_buttons', component: Grouped_buttons },
 		// { name: 'Inputs', component: Inputs },
@@ -116,7 +116,7 @@
 
 	// Have to use obj as arg. so value can be a class
 	// @ts-ignore
-	const loadPage = (obj) => (selectedPage = obj);
+	const loadPage = (obj) => (selectedPage = obj); //TODO:Scroll to top when a page loads
 </script>
 
 <!--
@@ -165,7 +165,6 @@
 										id="page_menu"
 										name="page_menu"
 										type="submit"
-										target="_self"
 										formtarget="_self"
 										class="text-slate-100 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-emerald-200 px-3 py-2 rounded-md text-sm font-medium"
 										title={webpageObj.name}
@@ -221,7 +220,9 @@
 			<!-- Replace with your content -->
 			<!--START:()-->
 			<div class="w-10/12 mt-2 mx-auto">
-				<svelte:component this={selectedPage.component} />
+				<svelte:component this={selectedPage.component} /> //TODO:Scroll to top when
+				a page loads
+
 				<!--END:()-->
 			</div>
 		</div>
