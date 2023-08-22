@@ -1,9 +1,12 @@
 <script>
+	// @ts-nocheck
+
 	// import * as animateScroll from 'svelte-scrollto';
 	// @ts-ignore
 	//import About_us from '../4_About Us/0 Company Information/Aboutus.svelte';
 	//import Accordion_menu from '../0_Home/comps/menus/Accordion_menu.svelte';
 	//import Dets_app from '../1_Jobs/1 Browse Jobs/'; //'../profiles/candidate/jobs/Dets_app.svelte';
+	import page_data_test from '../../routes/+page.svelte';
 	import Applied_jobs from '../profiles/candidate/jobs/Ex_jobs.svelte';
 	import Rec_profile from '../profiles/recruiter/Recruiter.svelte';
 	import Int_questions from '../profiles/recruiter/jobs/Int_questions.svelte';
@@ -64,49 +67,50 @@
 		// { name: 'UI_Name', component: Import_name },
 		//{ name: 'About Us', component: About_us },
 		// { name: 'Accordion_menu', component: Accordion_menu },
+		{ name: 'page_data_test', component: page_data_test },
 		{ name: 'Applied Jobs', component: Applied_jobs },
 		{ name: 'Attempts', component: Attempts },
 		{ name: 'Applicant_profile', component: Applicant_profile },
 		// { name: 'Attempts_copy', component: Attempts_copy },
 		{ name: 'Blog', component: Blog },
-		// { name: 'Branded_accent', component: Branded_accent },
-		//{ name: 'Candidate info', component: Candi_info },
+		{ name: 'Branded_accent', component: Branded_accent },
+		{ name: 'Candidate info', component: Candi_info },
 		{ name: 'Contact_validation', component: Contact_validation },
 		{ name: 'Contact Us', component: Contact_us },
-		// { name: 'Dash_nav with banner kinda main', component: Dash_nav },
-		// { name: 'Dash_nav_final', component: Dash_nav_final }, //Review Bro
-		// { name: 'Dropdown', component: Dropdown },
-		// { name: 'Empty_state', component: Empty_state },
+		{ name: 'Dash_nav with banner kinda main', component: Dash_nav },
+		{ name: 'Dash_nav_final', component: Dash_nav_final }, //Review Bro
+		{ name: 'Dropdown', component: Dropdown },
+		{ name: 'Empty_state', component: Empty_state },
 		{ name: 'Ex_posts', component: Ex_posts },
-		// { name: 'Faq', component: Faq },
-		//{ name: 'Forgot', component: Forgot },
-		// { name: 'Full_side_nav', component: Full_side_nav },
-		// { name: 'Grouped_buttons', component: Grouped_buttons },
-		// { name: 'Inputs', component: Inputs },
+		{ name: 'Faq', component: Faq },
+		{ name: 'Forgot', component: Forgot },
+		{ name: 'Full_side_nav', component: Full_side_nav },
+		{ name: 'Grouped_buttons', component: Grouped_buttons },
+		{ name: 'Inputs', component: Inputs },
 		{ name: 'Int_questions', component: Int_questions },
 		{ name: 'Job_preview', component: Job_preview },
 		{ name: 'Jobs search', component: Jobs_search },
-		// { name: 'Man_report', component: Man_report },
-		// { name: 'Menu', component: Menu },
+		{ name: 'Man_report', component: Man_report },
+		{ name: 'Menu', component: Menu },
 		{ name: 'Messages', component: Messages },
-		// { name: 'Nav with Search idk', component: Nav_search },
-		// { name: 'Nav_side', component: Nav_side },
-		// { name: 'Nav_side_small', component: Nav_side_small },
-		// { name: 'Pagination', component: Pagination },
+		{ name: 'Nav with Search idk', component: Nav_search },
+		{ name: 'Nav_side', component: Nav_side },
+		{ name: 'Nav_side_small', component: Nav_side_small },
+		{ name: 'Pagination', component: Pagination },
 		{ name: 'Post_job', component: Post_job },
-		// { name: 'Pri_pol', component: Pri_pol },
-		// { name: 'Pop_cart', component: Pop_cart },
+		{ name: 'Pri_pol', component: Pri_pol },
+		{ name: 'Pop_cart', component: Pop_cart },
 		{ name: 'Pricing_plan', component: Pricing_plan },
-		// { name: 'Reviews', component: Reviews },
+		{ name: 'Reviews', component: Reviews },
 		{ name: 'Resume', component: Resume_form },
 		{ name: 'Rec_profile', component: Rec_profile },
-		// { name: 'Split_with_headings', component: Split_with_headings },
+		{ name: 'Split_with_headings', component: Split_with_headings },
 		{ name: 'Sub_man', component: Sub_man },
-		// { name: 'Sub_plans', component: Sub_plans },
-		// { name: 'Sign', component: Signn },
-		// { name: 'Job/Resume Card', component: Sub_plan_card },
-		// { name: 'Tab_pills', component: Tab_pills },
-		// { name: 'Testimonial', component: Testimonial },
+		{ name: 'Sub_plans', component: Sub_plans },
+		{ name: 'Sign', component: Signn },
+		{ name: 'Job/Resume Card', component: Sub_plan_card },
+		{ name: 'Tab_pills', component: Tab_pills },
+		{ name: 'Testimonial', component: Testimonial },
 		// { name: 'UI_Name', component: Import_name },
 	];
 
@@ -220,9 +224,7 @@
 			<!-- Replace with your content -->
 			<!--START:()-->
 			<div class="w-10/12 mt-2 mx-auto">
-				<svelte:component this={selectedPage.component} /> //TODO:Scroll to top when
-				a page loads
-
+				<svelte:component this={selectedPage.component} />
 				<!--END:()-->
 			</div>
 		</div>
