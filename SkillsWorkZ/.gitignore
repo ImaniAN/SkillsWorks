@@ -1,0 +1,34 @@
+# macOS folder settings
+.DS_Store
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore Svelte build artifacts
+/build
+/.svelte-kit
+/package
+
+# Ignore environment files
+.env
+.env.*
+!.env.example
+
+# Ignore Vite configuration timestamp files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Ignore Node.js build artifacts
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore Svelte build artifacts
+__sapper__/
+
+# Ignore development server files
+.svelte-kit/
+web_modules/
+
+# Ignore compiled output
+public/build/

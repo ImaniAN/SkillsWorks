@@ -7,9 +7,7 @@
 	"settings": {
 		"files.autoSave": "onFocusChange",
 		"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-		"editor.codeActionsOnSave": {
-
-		},
+		"editor.codeActionsOnSave": {},
 		"editor.formatOnPaste": true,
 		"editor.formatOnSave": true,
 		"workbench.colorTheme": "Visual Studio Dark",
@@ -20,10 +18,12 @@
 		"workbench.editor.wrapTabs": false,
 		"prettier.useTabs": true,
 		"editor.tabSize": 3,
-		"editor.formatOnType": true
+		"editor.formatOnType": true,
+		"cSpell.enabled": false
 	},
 	"extensions": {
-		"recommendations": ["2gua.rainbow-brackets",
+		"recommendations": [
+			"2gua.rainbow-brackets",
 			"343max.android-emulator-launcher",
 			"adelphes.android-dev-ext",
 			"adpyke.codesnap",
@@ -210,6 +210,7 @@
 			"Zarifprogrammer.tailwind-snippets",
 			"Zignd.html-css-class-completion",
 			"ziyasal.vscode-open-in-github",
-			"zobo.php-intellisense"]
+			"zobo.php-intellisense"
+		]
 	}
 }
