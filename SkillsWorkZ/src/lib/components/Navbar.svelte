@@ -44,9 +44,8 @@
 					? 'flex'
 					: 'hidden'}"
 			>
-				<a class="text-gray-100 hover:text-blue-400" href="/home">Home</a>
 				<a class="text-gray-100 hover:text-blue-400" href="/blog">Blogs</a>
-				<a class="text-gray-100 hover:text-blue-400" href="/contact">Contact US</a>
+				<a class="text-gray-100 hover:text-blue-400" href="/contact">Contact Us</a>
 				<a class="text-gray-100 hover:text-blue-400" href="/about">About Us</a>
 				<div class="space-y-2">
 					<a
