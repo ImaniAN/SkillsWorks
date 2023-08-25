@@ -240,8 +240,12 @@
 	</main>
 </div>
 
-<Footer />
+<!--START:()-->
+<div class="mt-1">
+	<Footer />
+</div>
 
+<!--END:()-->
 <style>
 	nav.sticky {
 		position: -webkit-sticky;
