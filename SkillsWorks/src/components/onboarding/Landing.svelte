@@ -1,4 +1,6 @@
 <script>
+	// @ts-nocheck
+
 	// import * as animateScroll from 'svelte-scrollto';
 	// @ts-ignore
 	import About_us from '../about_us/Aboutus.svelte';
@@ -60,34 +62,34 @@
 	import Testimonial from '../about_us/Testimonial.svelte';
 
 	const webpages = [
-		{ name: 'Home', component: Intro },
-		{ name: 'Sign Up', component: Sign_up_form },
-		{ name: 'Log In', component: Sign_in_form },
+		// { name: 'Home', component: Intro },
+		// { name: 'Sign Up', component: Sign_up_form },
+		// { name: 'Log In', component: Sign_in_form },
 		{ name: 'Search Menu', component: Search_menu },
 		// { name: 'UI_Name', component: Import_name },
-		{ name: 'About Us', component: About_us },
+		// { name: 'About Us', component: About_us },
 		// { name: 'Accordion_menu', component: Accordion_menu },
-		{ name: 'Applied Jobs', component: Applied_jobs },
-		{ name: 'Attempts', component: Attempts },
-		{ name: 'Applicant_profile', component: Applicant_profile },
+		// { name: 'Applied Jobs', component: Applied_jobs },
+		// { name: 'Attempts', component: Attempts },
+		// { name: 'Applicant_profile', component: Applicant_profile },
 		// { name: 'Attempts_copy', component: Attempts_copy },
 		{ name: 'Blog', component: Blog },
 		// { name: 'Branded_accent', component: Branded_accent },
-		{ name: 'Candidate info', component: Candi_info },
-		{ name: 'Contact_validation', component: Contact_validation },
-		{ name: 'Contact Us', component: Contact_us },
+		// { name: 'Candidate info', component: Candi_info },
+		// { name: 'Contact_validation', component: Contact_validation },
+		// { name: 'Contact Us', component: Contact_us },
 		// { name: 'Dash_nav with banner kinda main', component: Dash_nav },
 		// { name: 'Dash_nav_final', component: Dash_nav_final }, //Review Bro
 		// { name: 'Dropdown', component: Dropdown },
 		// { name: 'Empty_state', component: Empty_state },
-		{ name: 'Ex_posts', component: Ex_posts },
+		// { name: 'Ex_posts', component: Ex_posts },
 		// { name: 'Faq', component: Faq },
-		{ name: 'Forgot', component: Forgot },
+		// { name: 'Forgot', component: Forgot },
 		// { name: 'Full_side_nav', component: Full_side_nav },
 		// { name: 'Grouped_buttons', component: Grouped_buttons },
 		// { name: 'Inputs', component: Inputs },
-		{ name: 'Int_questions', component: Int_questions },
-		{ name: 'Job_preview', component: Job_preview },
+		// { name: 'Int_questions', component: Int_questions },
+		// { name: 'Job_preview', component: Job_preview },
 		{ name: 'Jobs search', component: Jobs_search },
 		// { name: 'Man_report', component: Man_report },
 		// { name: 'Menu', component: Menu },
