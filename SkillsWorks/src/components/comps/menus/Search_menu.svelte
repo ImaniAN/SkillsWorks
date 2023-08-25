@@ -5,14 +5,14 @@
 
 <!-- component -->
 <main class="p-2 flex container w-full max-h-screen shadow-lg rounded-3xl">
-	<div class="mt-3 mr-3 px-3 flex-row w-4/12">
-		<div class="relative"><Search_Input /></div>
-		<div class="p-3 relative lg:sticky lg:top-4 pt-2">
+	<div class="mt-3 mr-3 px-3 w-3/12">
+		<div class="relative py-2"><Search_Input /></div>
+		<div class="p-1 relative lg:sticky lg:top-4 overflow-y-scroll">
 			<details open class="overflow-hidden border border-gray-200 rounded">
 				<summary
 					class="flex items-center justify-between px-5 py-3 bg-gray-100 lg:hidden"
 				>
-					<span class="text-sm font-medium">Toggle Filters</span>
+					<span class="text-sm font-medium">Edit Filters</span>
 
 					<svg
 						class="w-5 h-5"
@@ -32,20 +32,20 @@
 
 				<form
 					method="post"
-					name="search-filter"
-					id="search-filter"
+					name="job-search-filter"
+					id="job-search-filter"
 					action=""
 					class="border-t border-gray-200 lg:border-t-0"
 				>
 					<fieldset
-						name="blog-type-fieldset"
-						id="blog-type-fieldset"
-						form="search-filter"
+						name="distance-fieldset"
+						id="distance-fieldset"
+						form="job-search-filter"
 					>
 						<legend
 							class="block w-full px-5 py-3 text-xs font-medium bg-gray-50"
 						>
-							Blog Type
+							Distance from your location
 						</legend>
 
 						<!--START:()-->
@@ -53,53 +53,43 @@
 							<!--START:()-->
 							<div class="flex items-center">
 								<input
-									id="visual"
-									type="checkbox"
-									name="type[visual]"
-									class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+									type="range"
+									id="distance-range-input"
+									name="distance-range-input"
+									list="distance-range-values"
+									value="33"
+									step="1"
+									min="0"
+									max="100"
+									class="w-full"
 								/>
-
-								<label for="visual" class="ml-3 text-sm font-medium">
-									Visual
+								<datalist id="distance-range-values">
+									<option value="0" />
+									<option value="10" />
+									<option value="20" />
+									<option value="30" />
+									<option value="40" />
+									<option value="50" />
+									<option value="60" />
+									<option value="70" />
+									<option value="80" />
+									<option value="90" />
+									<option value="100" />
+								</datalist>
+								<label
+									for="distance-range-input"
+									class="ml-1 text-sm font-medium"
+								>
+									(x)Km
 								</label>
 							</div>
 
 							<!--START:()-->
-							<div class="flex items-center">
-								<input
-									id="audio"
-									type="checkbox"
-									name="type[audio]"
-									class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
-								/>
-
-								<label for="audio" class="ml-3 text-sm font-medium">
-									Audio
-								</label>
-							</div>
-
-							<!--START:()-->
-							<div class="flex items-center">
-								<input
-									id="written"
-									type="checkbox"
-									name="type[written]"
-									class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
-								/>
-
-								<label for="written" class="ml-3 text-sm font-medium">
-									Written
-								</label>
-							</div>
 
 							<!--START:()-->
 							<div class="pt-2">
-								<button
-									type="reset"
-									for="blog-type-fieldset"
-									class="text-xs text-gray-500 underline"
-								>
-									Reset Type
+								<button type="reset" class="text-xs text-gray-500 underline">
+									Reset Distance
 								</button>
 							</div>
 						</div>
@@ -108,79 +98,115 @@
 					<!--START:()-->
 					<div>
 						<fieldset
-							name="age-fieldset"
-							id="age-fieldset"
-							form="search-filter"
+							name="Location-fieldset"
+							id="Location-fieldset"
+							form="job-search-filter"
 						>
 							<legend
 								class="block w-full px-5 py-3 text-xs font-medium bg-gray-50"
 							>
-								Age
+								Location
 							</legend>
 
 							<!--START:()-->
-							<div class="px-5 py-6 space-y-2">
-								<!--START:()-->
-								<div class="flex items-center">
-									<input
-										id="3+"
-										type="checkbox"
-										name="age[3+]"
-										class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
-									/>
-
-									<label for="3+" class="ml-3 text-sm font-medium"> 3+ </label>
-								</div>
-
-								<!--START:()-->
-								<div class="flex items-center">
-									<input
-										id="8+"
-										type="checkbox"
-										name="age[8+]"
-										class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
-									/>
-
-									<label for="8+" class="ml-3 text-sm font-medium"> 8+ </label>
-								</div>
-
-								<!--START:()-->
-								<div class="flex items-center">
-									<input
-										id="12+"
-										type="checkbox"
-										name="age[12+]"
-										class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
-									/>
-
-									<label for="12+" class="ml-3 text-sm font-medium">
-										12+
-									</label>
-								</div>
-
-								<!--START:()-->
-								<div class="flex items-center">
-									<input
-										id="16+"
-										type="checkbox"
-										name="age[16+]"
-										class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
-									/>
-
-									<label for="16+" class="ml-3 text-sm font-medium">
-										16+
-									</label>
-								</div>
-
+							<div class="px-5 py-6 relative">
+								<!--START:(TODO://change to search Location-fieldset in the
+								DB)-->
+								<Search_Input />
 								<!--START:()-->
 								<div class="pt-2">
-									<button
-										type="reset"
-										for="age-fieldset"
-										class="text-xs text-gray-500 underline"
-									>
-										Reset Age
+									<button type="reset" class="text-xs text-gray-500 underline">
+										Reset location
 									</button>
+								</div>
+							</div>
+						</fieldset>
+					</div>
+
+					<!--START:()-->
+					<div>
+						<fieldset
+							name="Location-fieldset"
+							id="Location-fieldset"
+							form="job-search-filter"
+						>
+							<legend
+								class="block w-full px-5 py-3 text-xs font-medium bg-gray-50"
+							>
+								Location
+							</legend>
+
+							<!--START:()-->
+							<div class="px-5 py-6 relative">
+								<!--START:(TODO://change to search Location-fieldset in the
+													DB)-->
+								<!--START:()-->
+								<div class="space-y-2">
+									<!--START:()-->
+									<div class="flex items-center">
+										<input
+											id="3+"
+											type="checkbox"
+											name="age[3+]"
+											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+										/>
+
+										<label for="3+" class="ml-3 text-sm font-medium">
+											3+
+										</label>
+									</div>
+
+									<!--START:()-->
+									<div class="flex items-center">
+										<input
+											id="8+"
+											type="checkbox"
+											name="age[8+]"
+											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+										/>
+
+										<label for="8+" class="ml-3 text-sm font-medium">
+											8+
+										</label>
+									</div>
+
+									<!--START:()-->
+									<div class="flex items-center">
+										<input
+											id="12+"
+											type="checkbox"
+											name="age[12+]"
+											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+										/>
+
+										<label for="12+" class="ml-3 text-sm font-medium">
+											12+
+										</label>
+									</div>
+
+									<!--START:()-->
+									<div class="flex items-center">
+										<input
+											id="16+"
+											type="checkbox"
+											name="age[16+]"
+											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+										/>
+
+										<label for="16+" class="ml-3 text-sm font-medium">
+											16+
+										</label>
+									</div>
+
+									<!--START:()-->
+									<div class="pt-2">
+										<button
+											type="reset"
+											class="text-xs text-gray-500 underline"
+										>
+											Reset Age
+										</button>
+									</div>
 								</div>
 							</div>
 						</fieldset>
@@ -189,7 +215,6 @@
 					<!--START:()-->
 					<div class="flex justify-between px-5 py-3 border-t border-gray-200">
 						<button
-							for="search-filter"
 							type="reset"
 							class="text-xs font-medium text-gray-600 underline rounded"
 						>
@@ -208,7 +233,9 @@
 			</details>
 		</div>
 	</div>
-	<section class="flex flex-col pt-3 bg-slate-50 rounded-l-3xl overflow-scroll">
+	<section
+		class="flex flex-col pt-3 bg-slate-50 rounded-l-3xl overflow-y-scroll w-6/12"
+	>
 		<ul class="">
 			<Msg_preview />Job data or information
 			<Msg_preview />Job data or information
@@ -230,10 +257,12 @@
 			<Msg_preview />
 		</ul>
 	</section>
-	<section class="w-6/12 px-4 flex flex-col bg-indigo-100 rounded-r-3xl ">
+	<section
+		class="px-4 flex flex-col bg-indigo-100 rounded-r-3xl w-6/12 min-w-lg"
+	>
 		<!--START:()-->
 		<!--START:()-->
-		<div class="flex justify-center w-11/12 h-1/12 pt-3 relative">
+		<div class="flex justify-center h-1/12 pt-3 relative">
 			<ul class="flex text-slate-900 space-x-4">
 				<li class="w-6 h-6">
 					<svg
@@ -316,7 +345,7 @@
 		<!--END:()-->
 
 		<!--START:()-->
-		<div class="overflow-scroll">
+		<div class="overflow-y-scroll">
 			<!--START:()-->
 			<div class="flex justify-between items-center h-48">
 				<!--START:()-->

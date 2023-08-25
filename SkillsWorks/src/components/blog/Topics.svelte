@@ -91,11 +91,7 @@
 
 								<!--START:()-->
 								<div class="pt-2">
-									<button
-										type="reset"
-										for="blog-type-fieldset"
-										class="text-xs text-gray-500 underline"
-									>
+									<button type="reset" class="text-xs text-gray-500 underline">
 										Reset Type
 									</button>
 								</div>
@@ -177,7 +173,6 @@
 									<div class="pt-2">
 										<button
 											type="reset"
-											for="age-fieldset"
 											class="text-xs text-gray-500 underline"
 										>
 											Reset Age
@@ -192,7 +187,6 @@
 							class="flex justify-between px-5 py-3 border-t border-gray-200"
 						>
 							<button
-								for="search-filter"
 								type="reset"
 								class="text-xs font-medium text-gray-600 underline rounded"
 							>
