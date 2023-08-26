@@ -355,7 +355,9 @@
 		<!--START:()-->
 		<div class="flex justify-center h-1/12 pt-3 relative">
 			<ul class="flex text-slate-900 space-x-4">
-				<li class="w-6 h-6">
+				<!-- TODO:change the list items to buttons so that you can functionaility to them for the data that they inract with and iterate -->
+
+				<li class="w-6 h-6 cursor-pointer">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
@@ -370,7 +372,7 @@
 						/>
 					</svg>
 				</li>
-				<li class="w-6 h-6">
+				<li class="w-6 h-6 cursor-pointer">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
@@ -386,7 +388,7 @@
 					</svg>
 				</li>
 
-				<li class="w-6 h-6">
+				<li class="w-6 h-6 cursor-pointer">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
