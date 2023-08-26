@@ -1,5 +1,4 @@
 <script>
-	// @ts-ignore
 	import Free_tab from '../../ui/Sub_pills/Free.svelte'; //Updated
 	import In_arrers_tab from '../../ui/Sub_pills/In_arrers.svelte'; //Updated
 	import Premium_tab from '../../ui/Sub_pills/Premium.svelte'; //Updated

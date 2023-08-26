@@ -1,5 +1,4 @@
 <script>
-	// @ts-ignore
 	import Open_tab from '../../ui/Sub_pills/Open_tab.svelte'; //Updated
 	import Post_closed_tab from '../../ui/Sub_pills/Post_closed.svelte'; //Updated
 	import Interview_tab from '../../ui/Sub_pills/Interview.svelte'; //Updated
