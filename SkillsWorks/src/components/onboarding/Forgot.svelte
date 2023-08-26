@@ -14,7 +14,13 @@
 
 		<!--START:()-->
 		<div class="mt-8">
-			<form method="post" action="#" name="" id="">
+			<form
+				enctype="multipart/form-data"
+				method="post"
+				action="#"
+				name=""
+				id=""
+			>
 				<!--START:()-->
 				<div class="flex flex-col mb-2">
 					<label for="email" class="text-slate-900">

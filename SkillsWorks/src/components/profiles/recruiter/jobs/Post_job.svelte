@@ -336,7 +336,13 @@
 											<!--START:()-->
 											<div class="px-4 py-5 bg-indigo-50 space-y-6 sm:p-6">
 												<!--START:()-->
-												<form method="post" action="#" name="" id="">
+												<form
+													enctype="multipart/form-data"
+													method="post"
+													action="#"
+													name=""
+													id=""
+												>
 													<!--TODO:FIX THIS FUCKING single/double FORM PROBLEM wtf-->
 													<div class="grid grid-cols-6 gap-6">
 														<!-- here -->
@@ -638,7 +644,13 @@
 
 									<!--START:()-->
 									<div class="mt-5 md:mt-0 md:col-span-2">
-										<form method="post" action="#" name="" id="">
+										<form
+											enctype="multipart/form-data"
+											method="post"
+											action="#"
+											name=""
+											id=""
+										>
 											<!--START:()-->
 											<div class="shadow overflow-hidden sm:rounded-md">
 												<!--START:()-->
@@ -709,7 +721,13 @@
 
 									<!--START:()-->
 									<div class="mt-5 md:mt-0 md:col-span-2">
-										<form method="post" action="#" name="" id="">
+										<form
+											enctype="multipart/form-data"
+											method="post"
+											action="#"
+											name=""
+											id=""
+										>
 											<!--START:()-->
 											<div class="shadow overflow-hidden sm:rounded-md">
 												<!--START:()-->

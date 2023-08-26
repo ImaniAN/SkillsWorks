@@ -95,7 +95,13 @@
 							Danger Zone
 						</strong>
 
-						<form method="post" action="#" name="" id="">
+						<form
+							enctype="multipart/form-data"
+							method="post"
+							action="#"
+							name=""
+							id=""
+						>
 							<button
 								type="submit"
 								class="flex items-center w-full gap-2 px-4 py-2 text-sm text-red-700 rounded-lg hover:bg-red-50"

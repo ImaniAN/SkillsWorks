@@ -7,7 +7,7 @@
 <main class="p-2 flex container w-full max-h-screen shadow-lg rounded-3xl">
 	<div class="mt-3 mr-3 px-3 w-3/12">
 		<div class="relative py-2"><Search_Input /></div>
-		<div class="p-1 relative lg:sticky lg:top-4 overflow-y-scroll">
+		<div class="h-5/6 p-1 lg:sticky lg:top-4 overflow-y-scroll">
 			<details open class="overflow-hidden border border-gray-200 rounded">
 				<summary
 					class="flex items-center justify-between px-5 py-3 bg-gray-100 lg:hidden"
@@ -31,6 +31,7 @@
 				</summary>
 
 				<form
+					enctype="multipart/form-data"
 					method="post"
 					name="job-search-filter"
 					id="job-search-filter"
@@ -116,7 +117,7 @@
 								<!--START:()-->
 								<div class="pt-2">
 									<button type="reset" class="text-xs text-gray-500 underline">
-										Reset location
+										Reset Location
 									</button>
 								</div>
 							</div>
@@ -126,14 +127,14 @@
 					<!--START:()-->
 					<div>
 						<fieldset
-							name="Location-fieldset"
-							id="Location-fieldset"
+							name="Category-fieldset"
+							id="Category-fieldset"
 							form="job-search-filter"
 						>
 							<legend
 								class="block w-full px-5 py-3 text-xs font-medium bg-gray-50"
 							>
-								Location
+								Category
 							</legend>
 
 							<!--START:()-->
@@ -145,56 +146,146 @@
 									<!--START:()-->
 									<div class="flex items-center">
 										<input
-											id="3+"
+											id="Retail-option"
 											type="checkbox"
-											name="age[3+]"
+											name="Retail-option"
+											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+										/>
+
+										<label for="Retail-option" class="ml-3 text-sm font-medium">
+											Retail
+										</label>
+									</div>
+									<div class="flex items-center">
+										<input
+											id="Transportation-option"
+											type="checkbox"
+											name="Transportation-option"
+											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+										/>
+
+										<label
+											for="Transportation-option"
+											class="ml-3 text-sm font-medium"
+										>
+											Transportation
+										</label>
+									</div>
+									<div class="flex items-center">
+										<input
+											id="Hospitatlity-option"
+											type="checkbox"
+											name="Hospitatlity-option"
+											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+										/>
+
+										<label
+											for="Hospitatlity-option"
+											class="ml-3 text-sm font-medium"
+										>
+											Hospitatlity
+										</label>
+									</div>
+									<div class="flex items-center">
+										<input
+											id="Food-Services-option"
+											type="checkbox"
+											name="Food-Services-option"
+											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+										/>
+
+										<label
+											for="Food-Services-option"
+											class="ml-3 text-sm font-medium"
+										>
+											Food Services
+										</label>
+									</div>
+									<div class="flex items-center">
+										<input
+											id="Manufacturing-option"
+											type="checkbox"
+											name="Manufacturing-option"
 											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 
 										<label for="3+" class="ml-3 text-sm font-medium">
-											3+
+											Manufacturing
 										</label>
 									</div>
-
-									<!--START:()-->
 									<div class="flex items-center">
 										<input
-											id="8+"
+											id="Healthcare-Support-option"
 											type="checkbox"
-											name="age[8+]"
+											name="Healthcare-Support-option"
 											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 
-										<label for="8+" class="ml-3 text-sm font-medium">
-											8+
+										<label
+											for="Healthcare-Support-option"
+											class="ml-3 text-sm font-medium"
+										>
+											Healthcare Support
+										</label>
+									</div>
+									<div class="flex items-center">
+										<input
+											id="Childcare-option"
+											type="checkbox"
+											name="Childcare-option"
+											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+										/>
+
+										<label
+											for="Childcare-option"
+											class="ml-3 text-sm font-medium"
+										>
+											Childcare
 										</label>
 									</div>
 
 									<!--START:()-->
 									<div class="flex items-center">
 										<input
-											id="12+"
+											id="Construction-option"
 											type="checkbox"
-											name="age[12+]"
+											name="Construction-option"
+											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
+										/>
+
+										<label
+											for="Construction-option"
+											class="ml-3 text-sm font-medium"
+										>
+											Construction
+										</label>
+									</div>
+
+									<!--START:()-->
+									<div class="flex items-center">
+										<input
+											id="Warehousing-option"
+											type="checkbox"
+											name="Warehousing-option"
 											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 
 										<label for="12+" class="ml-3 text-sm font-medium">
-											12+
+											Warehousing
 										</label>
 									</div>
 
 									<!--START:()-->
 									<div class="flex items-center">
 										<input
-											id="16+"
+											id="Cleaning-Services-option"
 											type="checkbox"
-											name="age[16+]"
+											name="Cleaning-Services-option"
 											class="bg-red-200 border-dashed border-2 rounded border-teal-400 text-teal-400 ml-1 w-5 h-5 ease-linear transition-all duration-150"
 										/>
 
 										<label for="16+" class="ml-3 text-sm font-medium">
-											16+
+											Cleaning Services
 										</label>
 									</div>
 
@@ -204,7 +295,7 @@
 											type="reset"
 											class="text-xs text-gray-500 underline"
 										>
-											Reset Age
+											Reset Category options
 										</button>
 									</div>
 								</div>
@@ -471,7 +562,7 @@
 				/>
 				<!--START:()-->
 				<div class="flex items-center justify-between p-2">
-					<button class="h-6 w-6 text-slate-400">
+					<label for="fileInput" class="h-6 w-6 text-slate-400 cursor-pointer">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
@@ -485,7 +576,15 @@
 								d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13"
 							/>
 						</svg>
-					</button>
+					</label>
+					<!-- TODO:Do servers side validation by making sure that you only get specific file extensions etc (file types, properties, sizes, content?) -->
+					<input
+						id="fileInput"
+						type="file"
+						class="hidden"
+						accept=".pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+					/>
+
 					<button
 						class="text-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 bg-indigo-500 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-indigo-50 px-3 py-2 rounded-md text-sm font-medium"
 						>Reply</button

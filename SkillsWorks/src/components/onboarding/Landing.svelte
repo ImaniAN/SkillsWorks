@@ -62,10 +62,10 @@
 	import Testimonial from '../about_us/Testimonial.svelte';
 
 	const webpages = [
-		// { name: 'Home', component: Intro },
-		// { name: 'Sign Up', component: Sign_up_form },
-		// { name: 'Log In', component: Sign_in_form },
 		{ name: 'Search Menu', component: Search_menu },
+		// { name: 'Home', component: Intro },
+		{ name: 'Sign Up', component: Sign_up_form },
+		{ name: 'Log In', component: Sign_in_form },
 		// { name: 'UI_Name', component: Import_name },
 		// { name: 'About Us', component: About_us },
 		// { name: 'Accordion_menu', component: Accordion_menu },
@@ -165,7 +165,7 @@
 							class="bg-slate-600 border -right-9 rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
 						>
 							<li class="px-9 py-1 hover:bg-slate-800">
-								<!-- <form> -->
+								<!-- <form enctype="multipart/form-data"> -->
 								{#each webpages as webpageObj}
 									<button
 										id="page_menu"
@@ -200,11 +200,15 @@
 			<div class="items-center lg:flex text-right sm:px-6">
 				<!--START:()-->
 				<div class="flex items-center">
-					<form method="post" class="mb-0 lg:flex">
+					<form
+						enctype="multipart/form-data"
+						method="post"
+						class="mb-0 lg:flex"
+					>
 						<!--START:()-->
 					</form>
 				</div>
-				<form method="post">
+				<form enctype="multipart/form-data" method="post">
 					<!-- svelte-ignore a11y-missing-attribute -->
 					<a
 						on:click={() => loadPage(webpages[1])}

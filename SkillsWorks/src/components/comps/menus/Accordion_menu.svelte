@@ -255,7 +255,7 @@
 				<span class="ml-3 text-sm font-medium"> Security </span>
 			</a>
 
-			<form method="post" action="/logout">
+			<form enctype="multipart/form-data" method="post" action="/logout">
 				<button
 					type="submit"
 					class="flex items-center w-full px-4 py-2 text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"

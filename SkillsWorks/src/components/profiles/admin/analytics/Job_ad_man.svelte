@@ -11,6 +11,7 @@
 			<!--START:()-->
 			<div class="text-end">
 				<form
+					enctype="multipart/form-data"
 					method="post"
 					class="flex flex-col md:flex-row w-4/5 md:w-full md:space-x-3 space-y-3 md:space-y-0 justify-center"
 				>

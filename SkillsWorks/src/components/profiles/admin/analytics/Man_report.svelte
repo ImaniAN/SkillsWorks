@@ -602,7 +602,7 @@
 			</div>
 			<!--START:()-->
 			<div class="flex-auto px-4 lg:px-10 py-10 pt-0">
-				<form method="post">
+				<form enctype="multipart/form-data" method="post">
 					<h6 class="text-slate-400 text-sm mt-3 mb-6 font-bold uppercase">
 						User Information
 					</h6>
@@ -788,7 +788,6 @@
 								</label>
 								<textarea
 									id="grid-about-me"
-									type="text"
 									placeholder=""
 									class="border-0 px-3 py-3 placeholder-blue-300 text-slate-600 bg-indigo-50 rounded text-sm shadow focus:outline-none focus:ring w-full"
 									rows="4"

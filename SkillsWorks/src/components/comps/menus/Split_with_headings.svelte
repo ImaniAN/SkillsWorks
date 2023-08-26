@@ -130,7 +130,7 @@
 				</li>
 
 				<li>
-					<form method="post" action="/logout">
+					<form enctype="multipart/form-data" method="post" action="/logout">
 						<button
 							type="submit"
 							class="block w-full px-4 py-2 text-sm font-medium text-left text-slate-500 rounded-lg hover:bg-slate-100 hover:text-slate-700"

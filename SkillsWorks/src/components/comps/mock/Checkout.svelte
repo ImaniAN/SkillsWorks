@@ -128,7 +128,11 @@
 			<div class="py-12 bg-indigo-50 md:py-24">
 				<!--START:()-->
 				<div class="max-w-lg px-4 mx-auto lg:px-8">
-					<form method="post" class="grid grid-cols-6 gap-4">
+					<form
+						enctype="multipart/form-data"
+						method="post"
+						class="grid grid-cols-6 gap-4"
+					>
 						<!--START:()-->
 						<div class="col-span-3">
 							<label class="block mb-1 text-sm text-slate-600" for="first_name">

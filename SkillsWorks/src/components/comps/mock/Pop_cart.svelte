@@ -92,7 +92,7 @@
 			View my cart (2)
 		</a>
 
-		<form method="post" action="#" name="" id="">
+		<form enctype="multipart/form-data" method="post" action="#" name="" id="">
 			<button
 				class="block w-full p-4 text-sm font-medium rounded-full text-amber-50 bg-red-900 hover:ring-1 hover:ring-red-900"
 				type="submit"

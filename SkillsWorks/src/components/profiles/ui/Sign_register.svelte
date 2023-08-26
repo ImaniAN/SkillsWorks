@@ -51,7 +51,7 @@
 							<div class="text-slate-400 text-center mb-3 font-bold">
 								<small>Or sign in with credentials</small>
 							</div>
-							<form method="post">
+							<form enctype="multipart/form-data" method="post">
 								<!--START:()-->
 								<div class="relative w-full mb-3">
 									<label
@@ -185,7 +185,7 @@
 							<div class="text-slate-400 text-center mb-3 font-bold">
 								<small>Or sign up with credentials</small>
 							</div>
-							<form method="post">
+							<form enctype="multipart/form-data" method="post">
 								<!--START:()-->
 								<div class="relative w-full mb-3">
 									<label

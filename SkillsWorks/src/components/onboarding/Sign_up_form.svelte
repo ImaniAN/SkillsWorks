@@ -70,7 +70,13 @@
 				<div class="flex">
 					<!--START:()-->
 					<div class="w-full md:w-1/2 px-0.5 mb-6 md:mb-0">
-						<form method="post" action="#" name="" id="">
+						<form
+							enctype="multipart/form-data"
+							method="post"
+							action="#"
+							name=""
+							id=""
+						>
 							<button
 								type="submit"
 								class="w-full flex items-center justify-center bg-red-500 hover:bg-red-900 text-slate-100 p-3 rounded-full tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
@@ -93,7 +99,13 @@
 
 					<!--START:()-->
 					<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-						<form method="post" action="#" name="" id="">
+						<form
+							enctype="multipart/form-data"
+							method="post"
+							action="#"
+							name=""
+							id=""
+						>
 							<button
 								type="submit"
 								class="w-full flex items-center justify-center bg-blue-500 hover:bg-blue-900 text-slate-100 p-3 rounded-full tracking-wide font-semibold shadow-lg cursor-pointer transition ease-in duration-500"
@@ -127,7 +139,14 @@
 				</div>
 				<!--END:()-->
 
-				<form method="post" class="w-full max-w-lg" action="#" name="" id="">
+				<form
+					enctype="multipart/form-data"
+					method="post"
+					class="w-full max-w-lg"
+					action="#"
+					name=""
+					id=""
+				>
 					<!--START:()-->
 					<div class="flex flex-wrap -mx-3 mb-4">
 						<!--START:()-->

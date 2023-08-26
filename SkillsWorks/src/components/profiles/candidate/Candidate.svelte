@@ -350,7 +350,13 @@
 
 												<!--START:()-->
 												<div class="mt-5 md:mt-0 md:col-span-2">
-													<form method="post" action="#" name="" id="">
+													<form
+														enctype="multipart/form-data"
+														method="post"
+														action="#"
+														name=""
+														id=""
+													>
 														<!--START:()-->
 														<div
 															class="shadow sm:rounded-md sm:overflow-hidden"
@@ -475,7 +481,13 @@
 
 												<!--START:()-->
 												<div class="mt-5 md:mt-0 md:col-span-2">
-													<form method="post" action="#" name="" id="">
+													<form
+														enctype="multipart/form-data"
+														method="post"
+														action="#"
+														name=""
+														id=""
+													>
 														<!--START:()-->
 														<div class="shadow overflow-hidden sm:rounded-md">
 															<!--START:()-->
@@ -621,7 +633,13 @@
 
 												<!--START:()-->
 												<div class="mt-5 md:mt-0 md:col-span-2">
-													<form method="post" action="#" name="" id="">
+													<form
+														enctype="multipart/form-data"
+														method="post"
+														action="#"
+														name=""
+														id=""
+													>
 														<!--START:()-->
 														<div class="shadow overflow-hidden sm:rounded-md">
 															<!--START:()-->

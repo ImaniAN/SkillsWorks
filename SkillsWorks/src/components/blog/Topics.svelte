@@ -28,6 +28,7 @@
 					</summary>
 
 					<form
+						enctype="multipart/form-data"
 						method="post"
 						name="search-filter"
 						id="search-filter"

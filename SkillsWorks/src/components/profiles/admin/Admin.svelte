@@ -113,7 +113,11 @@
 				</div>
 				<!--END:()-->
 
-				<form method="post" class="w-full max-w-lg">
+				<form
+					enctype="multipart/form-data"
+					method="post"
+					class="w-full max-w-lg"
+				>
 					<!--START:()-->
 					<div class="flex flex-wrap -mx-3 mb-4">
 						<!--START:()-->
