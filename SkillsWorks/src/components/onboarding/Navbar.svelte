@@ -1,5 +1,6 @@
 <script>
 	// import * as animateScroll from 'svelte-scrollto';
+	// @ts-nocheck
 
 	import About_us from '../about_us/Aboutus.svelte';
 	import Data_tings from '../../components/data_testing/data.svelte';
@@ -62,14 +63,14 @@
 
 	const webpages = [
 		// { name: 'Home', component: Intro },
-		// { name: 'Data_tings', component: Data_tings },
+		{ name: 'Data_tings', component: Data_tings },
 		// { name: 'Sign Up', component: Sign_up_form },
 		// { name: 'Log In', component: Sign_in_form },
 		// { name: 'UI_Name', component: Import_name },
 		// { name: 'About Us', component: About_us },
 		// { name: 'Accordion_menu', component: Accordion_menu },
 		// { name: 'Applied Jobs', component: Applied_jobs },
-		// { name: 'Attempts', component: Attempts },
+		{ name: 'Attempts', component: Attempts },
 		// { name: 'Applicant_profile', component: Applicant_profile },
 		// { name: 'Attempts_copy', component: Attempts_copy },
 		// { name: 'Blog', component: Blog },
@@ -83,35 +84,35 @@
 		// { name: 'Empty_state', component: Empty_state },
 		// { name: 'Ex_posts', component: Ex_posts },
 		// { name: 'Faq', component: Faq },
-		// { name: 'Forgot', component: Forgot },
+		{ name: 'Forgot', component: Forgot },
 		// { name: 'Full_side_nav', component: Full_side_nav },
 		// { name: 'Grouped_buttons', component: Grouped_buttons },
 		// { name: 'Inputs', component: Inputs },
 		// { name: 'Int_questions', component: Int_questions },
 		// { name: 'Job_preview', component: Job_preview },
-		// { name: 'Jobs search', component: Jobs_search },
+		{ name: 'Jobs search', component: Jobs_search },
 		// { name: 'Man_report', component: Man_report },
 		// { name: 'Menu', component: Menu },
-		// { name: 'Messages', component: Messages },
+		{ name: 'Messages', component: Messages },
 		// { name: 'Nav with Search idk', component: Nav_search },
 		// { name: 'Nav_side', component: Nav_side },
 		// { name: 'Nav_side_small', component: Nav_side_small },
 		// { name: 'Pagination', component: Pagination },
-		// { name: 'Post_job', component: Post_job },
+		{ name: 'Post_job', component: Post_job },
 		// { name: 'Pri_pol', component: Pri_pol },
 		// { name: 'Pop_cart', component: Pop_cart },
-		// { name: 'Pricing_plan', component: Pricing_plan },
+		{ name: 'Pricing_plan', component: Pricing_plan },
 		// { name: 'Reviews', component: Reviews },
-		// { name: 'Resume', component: Resume_form },
-		// { name: 'Rec_profile', component: Rec_profile },
-		{ name: 'Search Menu', component: Search_menu },
+		{ name: 'Resume', component: Resume_form },
+		{ name: 'Rec_profile', component: Rec_profile },
+		// { name: 'Search Menu', component: Search_menu },
 		// { name: 'Split_with_headings', component: Split_with_headings },
-		// { name: 'Sub_man', component: Sub_man },
+		{ name: 'Sub_man', component: Sub_man },
 		// { name: 'Sub_plans', component: Sub_plans },
 		// { name: 'Sign', component: Signn },
 		// { name: 'Job/Resume Card', component: Sub_plan_card },
 		// { name: 'Tab_pills', component: Tab_pills },
-		// { name: 'page_data_test', component: page_data_test },
+		{ name: 'page_data_test', component: page_data_test },
 		// { name: 'Testimonial', component: Testimonial },
 		// { name: 'UI_Name', component: Import_name },
 	];
@@ -171,7 +172,6 @@
 										id="page_menu"
 										name="page_menu"
 										type="submit"
-										target="_self"
 										formtarget="_self"
 										class="text-slate-100 focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:text-indigo-900 focus:bg-indigo-50 hover:border-2 hover:border-dashed hover:border-teal-600 hover:text-indigo-900 hover:bg-emerald-200 px-3 py-2 rounded-md text-sm font-medium"
 										title={webpageObj.name}
