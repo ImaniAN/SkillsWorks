@@ -1,4 +1,6 @@
 <script>
+	// @ts-nocheck
+
 	// import * as animateScroll from 'svelte-scrollto';
 
 	import About_us from '../about_us/Aboutus.svelte';
@@ -61,12 +63,13 @@
 	import Testimonial from '../about_us/Testimonial.svelte';
 
 	const webpages = [
+		{ name: 'Search Menu', component: Search_menu },
 		// { name: 'Home', component: Intro },
 		// { name: 'Data_tings', component: Data_tings },
-		// { name: 'Sign Up', component: Sign_up_form },
-		// { name: 'Log In', component: Sign_in_form },
+		{ name: 'Sign Up', component: Sign_up_form },
+		{ name: 'Log In', component: Sign_in_form },
 		// { name: 'UI_Name', component: Import_name },
-		// { name: 'About Us', component: About_us },
+		{ name: 'About Us', component: About_us },
 		// { name: 'Accordion_menu', component: Accordion_menu },
 		// { name: 'Applied Jobs', component: Applied_jobs },
 		// { name: 'Attempts', component: Attempts },
@@ -104,7 +107,7 @@
 		// { name: 'Reviews', component: Reviews },
 		// { name: 'Resume', component: Resume_form },
 		// { name: 'Rec_profile', component: Rec_profile },
-		{ name: 'Search Menu', component: Search_menu },
+		// { name: 'Search Menu', component: Search_menu },
 		// { name: 'Split_with_headings', component: Split_with_headings },
 		// { name: 'Sub_man', component: Sub_man },
 		// { name: 'Sub_plans', component: Sub_plans },
@@ -122,6 +125,7 @@
 
 	// Have to use obj as arg. so value can be a class
 
+	// @ts-ignore
 	const loadPage = (obj) => (selectedPage = obj);
 </script>
 

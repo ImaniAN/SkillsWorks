@@ -6,8 +6,12 @@
 
 <main class="">
 	<div class="flex justify-center items-center">
-		<img class="h-60 w-60" src="/SkillsWorkZ.svg" alt="Your Company" />
+		<a href="/seekers/+page.svelte">
+			<!-- <a href="/seekers/+page.svelte"> -->
+			<img class="h-60 w-60" src="/SkillsWorkZ.svg" alt="Your Company" />
+			<!-- </a> -->
+		</a>
 	</div>
-	<Landing />
-	<Scroll_to_top />
+	<!-- <Landing /> -->
+	<!-- <Scroll_to_top /> -->
 </main>
