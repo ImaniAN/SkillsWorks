@@ -63,12 +63,19 @@
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	export let data;
 </script>
 
 <svelte:head>
 	<title>Home</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
+
+<ul>
+	{#each data.skills_levels as skills_level}
+		<li>{skills_level.difficulty}</li>
+	{/each}
+</ul>
 
 <section>
 	<h1>
