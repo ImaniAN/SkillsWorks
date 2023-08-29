@@ -4,7 +4,7 @@
 	import github from '$lib/images/github.svg';
 </script>
 
-<header>
+<header class="sticky top-0">
 	<div class="corner">
 		<a href="https://kit.svelte.dev">
 			<img src={logo} alt="SvelteKit" />
