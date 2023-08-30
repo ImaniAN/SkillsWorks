@@ -115,7 +115,7 @@
 		// { name: 'Job/Resume Card', component: Sub_plan_card },
 		// { name: 'Tab_pills', component: Tab_pills },
 		// { name: 'page_data_test', component: page_data_test },
-		// { name: 'Testimonial', component: Testimonial },
+		{ name: 'Testimonial', component: Testimonial },
 		// { name: 'UI_Name', component: Import_name },
 	];
 
