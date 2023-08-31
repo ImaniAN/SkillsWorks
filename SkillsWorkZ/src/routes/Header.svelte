@@ -7,8 +7,8 @@
 
 <header class="sticky top-0">
 	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
+		<a href="/">
+			<img src={logo} alt="Home" />
 		</a>
 	</div>
 
