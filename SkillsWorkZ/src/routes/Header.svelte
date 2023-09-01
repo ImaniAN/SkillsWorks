@@ -16,7 +16,7 @@
 
 	<nav class="flex-col">
 		<ul class="flex justify-center items-center space-x-1">
-			<li>
+			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/"
 					><div class="group inline-block">
 						<button class="outline-none focus:outline-none rounded-sm flex items-center min-w-32">
@@ -25,8 +25,8 @@
 					</div></a
 				>
 			</li>
-			<li>
-				<a href="/about"
+			<li aria-current={$page.url.pathname.startsWith('/jobs') ? 'page' : undefined}>
+				<a href="/jobs"
 					><div class="group inline-block">
 						<button class="outline-none focus:outline-none rounded-sm flex items-center min-w-32">
 							<span class="pr-1 font-semibold flex-1">Jobs</span>
@@ -89,8 +89,8 @@
 					</div></a
 				>
 			</li>
-			<li>
-				<a href="/sverdle"
+			<li aria-current={$page.url.pathname.startsWith('/employer') ? 'page' : undefined}>
+				<a href="/employer"
 					><div class="group inline-block">
 						<button class="outline-none focus:outline-none rounded-sm flex items-center min-w-32">
 							<span class="pr-1 font-semibold flex-1">Employer</span>
@@ -145,8 +145,8 @@
 					</div></a
 				>
 			</li>
-			<li>
-				<a href="/sverdle"
+			<li aria-current={$page.url.pathname.startsWith('/seeker') ? 'page' : undefined}>
+				<a href="/seeker"
 					><div class="group inline-block">
 						<button class="outline-none focus:outline-none rounded-sm flex items-center min-w-32">
 							<span class="pr-1 font-semibold flex-1">Job Seeker</span>
@@ -200,11 +200,11 @@
 								</ul>
 							</li>
 						</ul>
-					</div></a
-				>
+					</div>
+				</a>
 			</li>
-			<li>
-				<a href="/sverdle"
+			<li aria-current={$page.url.pathname.startsWith('/about') ? 'page' : undefined}>
+				<a href="/about"
 					><div class="group inline-block">
 						<button class="outline-none focus:outline-none rounded-sm flex items-center min-w-32">
 							<span class="pr-1 font-semibold flex-1">About us</span>
@@ -233,8 +233,8 @@
 					</div></a
 				>
 			</li>
-			<li>
-				<a href="/sverdle"
+			<li aria-current={$page.url.pathname.startsWith('/support') ? 'page' : undefined}>
+				<a href="/support"
 					><div class="group inline-block">
 						<button class="outline-none focus:outline-none rounded-sm flex items-center min-w-32">
 							<span class="pr-1 font-semibold flex-1">User Support</span>
