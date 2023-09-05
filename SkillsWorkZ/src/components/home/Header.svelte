@@ -16,6 +16,15 @@
 	<nav class="flex-col">
 		<ul class="flex justify-center items-center space-x-1">
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+				<a href="/PageTesting"
+					><div class="group inline-block">
+						<button class="outline-none focus:outline-none rounded-sm flex items-center min-w-32">
+							<span class="pr-1 font-semibold flex-1">Page Testing</span>
+						</button>
+					</div></a
+				>
+			</li>
+			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/"
 					><div class="group inline-block">
 						<button class="outline-none focus:outline-none rounded-sm flex items-center min-w-32">
