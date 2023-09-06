@@ -12,6 +12,6 @@
 			<!-- </a> -->
 		</a>
 	</div>
-	<!-- <Landing /> -->
-	<!-- <Scroll_to_top /> -->
+	<Landing />
+	<Scroll_to_top />
 </main>
