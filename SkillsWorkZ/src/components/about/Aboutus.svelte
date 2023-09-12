@@ -11,7 +11,8 @@
 <div class="justify-center">
 	<Our_team />
 	<Reviews />
-	<Featured_testi />
 	<Testimonial />
+	<Faq />
+	<Featured_testi />
 	<Contact_us />
 </div>
