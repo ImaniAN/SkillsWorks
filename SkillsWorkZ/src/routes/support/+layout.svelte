@@ -1,15 +1,10 @@
 <script>
-	import Testimonial from './../../components/about/Aboutus.svelte';
-	// import Header from './../../components/home/Header.svelte';
-	// import Landing from './../../components/onboarding/Landing.svelte';
-	// import Scroll_to_top from './../../components/comps/mock/Scroll_to_top.svelte';
+	import Support from './../../components/support/support.svelte';
 </script>
 
 <main>
 	<slot />
 	<div class="">
-		jhfjcg
-		<Testimonial />
-		<!-- <Scroll_to_top /> -->
+		<Support />
 	</div>
 </main>
