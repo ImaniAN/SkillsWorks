@@ -54,7 +54,6 @@
 	import Sub_man from '../profiles/admin/analytics/Sub_man.svelte';
 	import Split_with_headings from '../comps/menus/Split_with_headings.svelte';
 	import Sub_plan_card from '../comps/mock/Sub_plan_card.svelte';
-	import page_data_test from '../../routes/+page.svelte';
 	import Tab_pills from '../comps/mock/pills_tabs/Tab_pills.svelte';
 	import SignInForm from './Sign_in_form.svelte';
 	import SignUpForm from '../onboarding/Sign_up_form.svelte';
@@ -112,7 +111,6 @@
 		// { name: 'Sign', component: Signn },
 		// { name: 'Job/Resume Card', component: Sub_plan_card },
 		// { name: 'Tab_pills', component: Tab_pills },
-		{ name: 'page_data_test', component: page_data_test },
 		// { name: 'Testimonial', component: Testimonial },
 		// { name: 'UI_Name', component: Import_name },
 	];
