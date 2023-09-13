@@ -13,5 +13,6 @@
 	<Reviews />
 	<Featured_testi />
 	<Testimonial />
-	<Contact_us />
+	<Contact_us />	
+	<Reviews />
 </div>
