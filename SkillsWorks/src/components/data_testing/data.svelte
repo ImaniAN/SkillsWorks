@@ -1,8 +1,3 @@
-<script>
-	import Data_tings from '../data_testing/+page.svelte';
-	export let data;
-</script>
-
 \hgdhcfx
 <!-- <ul>
 	{#each data.countries as country}
