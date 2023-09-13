@@ -3,15 +3,15 @@
 	import Testimonial from './Testimonial.svelte';
 	import Featured_testi from './Featured_testi.svelte';
 	import Our_Team from './Our_Team.svelte';
-	import Reviews from './Our_Team.svelte';
+	import Reviews from './Reviews.svelte';
 	import Contact_us from './Contact_us.svelte'; //Updated
 </script>
 
 <!--START:()-->
 <div class="justify-center">
 	<Our_Team />
+	<Reviews />
 	<Featured_testi />
 	<Testimonial />
 	<Contact_us />
-	<Reviews />
 </div>
